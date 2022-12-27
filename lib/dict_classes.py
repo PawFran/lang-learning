@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from utils import extract_from_square_brackets
+from lib.utils import extract_from_square_brackets
 
 
 @dataclass
@@ -109,6 +109,7 @@ class Adjective(AbstractWord):
             femininum=split[1].strip(),
             neutrum=split[2].strip().split(' ')[0]
         )
+
 
 @dataclass
 class DictEntry:

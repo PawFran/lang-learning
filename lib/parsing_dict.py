@@ -1,6 +1,6 @@
 import re
 
-from classes import *
+from lib.dict_classes import *
 
 
 def read_file_raw(path):
