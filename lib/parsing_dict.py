@@ -36,31 +36,52 @@ def parse_translation(translation_raw):
     return translation_raw[end + 1:].strip()
 
 
-def parse_dict_entry(single_group_of_lines):
+def parse_single_group_of_lines(single_group_of_lines):
     first_line = single_group_of_lines[0].strip()
     example = parse_example(single_group_of_lines[1])
     translations = [parse_translation(x) for x in single_group_of_lines[2:]]
 
-    if Verb.is_verb(first_line):
-        dict_entry_head = Verb.from_entry_head(first_line)
+    return first_line, example, translations
+
+
+def parse_latin_dict_entry(single_group_of_lines):
+    first_line, example, translations = parse_single_group_of_lines(single_group_of_lines)
+
+    if LatinVerb.is_verb(first_line):
+        dict_entry_head = LatinVerb.from_entry_head(first_line)
         return DictionaryEntry(dict_entry_head, example, translations)
-    elif Noun.is_noun(first_line):
-        dict_entry_head = Noun.from_entry_head(first_line)
+    elif LatinNoun.is_noun(first_line):
+        dict_entry_head = LatinNoun.from_entry_head(first_line)
         return DictionaryEntry(dict_entry_head, example, translations)
-    elif Adverb.is_adverb(first_line):
-        dict_entry_head = Adverb.from_entry_head(first_line)
+    elif LatinAdverb.is_adverb(first_line):
+        dict_entry_head = LatinAdverb.from_entry_head(first_line)
         return DictionaryEntry(dict_entry_head, example, translations)
-    elif Adjective.is_adjective(first_line):
-        dict_entry_head = Adjective.from_entry_head(first_line)
+    elif LatinAdjective.is_adjective(first_line):
+        dict_entry_head = LatinAdjective.from_entry_head(first_line)
         return DictionaryEntry(dict_entry_head, example, translations)
 
 
-def parse_dict(raw_lines):
+def parse_english_dict_entry(single_group_of_lines):
+    first_line, example, translations = parse_single_group_of_lines(single_group_of_lines)
+
+    dict_entry_head = EnglishWord.from_entry_head(first_line)
+    return DictionaryEntry(dict_entry_head, example, translations)
+
+
+def parse_dict(raw_lines, parser_for_dict_entry):
     raw_lines_grouped = group_raw_lines(raw_lines)
 
     dictionary = Dictionary(list())
     for single_group in raw_lines_grouped:
-        dict_entry = parse_dict_entry(single_group)
+        dict_entry = parser_for_dict_entry(single_group)
         dictionary.append(dict_entry)
 
     return dictionary
+
+
+def parse_latin_dict(raw_lines):
+    return parse_dict(raw_lines, parse_latin_dict_entry)
+
+
+def parse_english_dict(raw_lines):
+    return parse_dict(raw_lines, parse_english_dict_entry)

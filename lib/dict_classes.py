@@ -10,7 +10,7 @@ class AbstractWord:
 
 
 @dataclass
-class Verb(AbstractWord):
+class LatinVerb(AbstractWord):
     infinite: str
     perfect: str
     supine: str
@@ -29,13 +29,13 @@ class Verb(AbstractWord):
     @staticmethod
     def from_entry_head(head):
         split = head.split(',')
-        return Verb(
+        return LatinVerb(
             base=split[0].strip(),
             head_raw=head,
             infinite=split[1].strip(),
             perfect=split[2].strip(),
             supine=split[3].strip().split(' ')[0].strip(),
-            conjugation=Verb.which_conjugation(head)
+            conjugation=LatinVerb.which_conjugation(head)
         )
 
 
@@ -43,7 +43,7 @@ class Verb(AbstractWord):
 
 
 @dataclass
-class Noun(AbstractWord):
+class LatinNoun(AbstractWord):
     genetive: str
     genre: str
     only_plural: bool
@@ -71,18 +71,18 @@ class Noun(AbstractWord):
     @staticmethod
     def from_entry_head(head):
         split = head.split(',')
-        return Noun(
+        return LatinNoun(
             base=split[0].strip(),
             head_raw=head,
             genetive=split[1].strip().split(' ')[0].strip(),
-            genre=Noun.which_genre(head),
-            only_plural=Noun.is_only_plural(head),
-            declension=Noun.which_declension(head)
+            genre=LatinNoun.which_genre(head),
+            only_plural=LatinNoun.is_only_plural(head),
+            declension=LatinNoun.which_declension(head)
         )
 
 
 @dataclass
-class Adverb(AbstractWord):
+class LatinAdverb(AbstractWord):
 
     @staticmethod
     def is_adverb(dict_entry_head):
@@ -90,14 +90,14 @@ class Adverb(AbstractWord):
 
     @staticmethod
     def from_entry_head(head):
-        return Adverb(
+        return LatinAdverb(
             base=head.split(' ')[0],
             head_raw=head
         )
 
 
 @dataclass
-class Adjective(AbstractWord):
+class LatinAdjective(AbstractWord):
     femininum: str
     neutrum: str
 
@@ -108,11 +108,31 @@ class Adjective(AbstractWord):
     @staticmethod
     def from_entry_head(head):
         split = head.split(',')
-        return Adjective(
+        return LatinAdjective(
             base=split[0],
             head_raw=head,
             femininum=split[1].strip(),
             neutrum=split[2].strip().split(' ')[0]
+        )
+
+
+@dataclass
+class EnglishWord(AbstractWord):  # all english dict entries have the same structure, unlike in latin
+    part_of_speech: str
+
+    @staticmethod
+    def which_part_of_speech(dict_entry_head):
+        pattern = 'verb|idiom|noun|adj|adv|phrasal verb'
+        return extract_from_square_brackets(pattern, dict_entry_head.lower())
+
+    @staticmethod
+    def from_entry_head(head):
+        head_without_last_part = head.strip().split(' ')[:-1]
+        base = ' '.join(head_without_last_part)
+        return EnglishWord(
+            base=base,
+            head_raw=head,
+            part_of_speech=EnglishWord.which_part_of_speech(head)
         )
 
 
