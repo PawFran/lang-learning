@@ -71,6 +71,7 @@ def test_parse_entry():
 
     assert dict_entry.head == Verb(
         base='castīgo',
+        head_raw='castīgo, āre, avi, atum [verb] [I]',
         infinite='āre',
         perfect='avi',
         supine='atum',
@@ -86,6 +87,7 @@ def test_parse_dict():
     assert dictionary.entries[0] == DictionaryEntry(
         head=Verb(
             base='castīgo',
+            head_raw='castīgo, āre, avi, atum [verb] [I]',
             infinite='āre',
             perfect='avi',
             supine='atum',

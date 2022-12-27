@@ -28,6 +28,7 @@ def test_verb_from_entry_head():
     line = 'castīgo, āre, avi, atum [verb] [I]'
     verb = Verb.from_entry_head(line)
     assert verb.base == 'castīgo'
+    assert verb.head_raw == line
     assert verb.infinite == 'āre'
     assert verb.perfect == 'avi'
     assert verb.supine == 'atum'
@@ -54,6 +55,7 @@ def test_noun_from_entry_head():
     line = 'vinea, ae [noun] [I] [f]'
     noun = Noun.from_entry_head(line)
     assert noun.base == 'vinea'
+    assert noun.head_raw == line
     assert noun.genetive == 'ae'
     assert noun.genre == 'f'
     assert not noun.only_plural
@@ -67,8 +69,10 @@ def test_is_adverb():
 
 
 def test_adverb_from_entry_head():
-    adverb = Adverb.from_entry_head('saepe [adv]')
+    line = 'saepe [adv]'
+    adverb = Adverb.from_entry_head(line)
     assert adverb.base == 'saepe'
+    assert adverb.head_raw == line
 
 
 def test_is_adjective():
@@ -77,7 +81,9 @@ def test_is_adjective():
 
 
 def test_adjective_from_entry_head():
-    adjective = Adjective.from_entry_head('sempiternus, a, um [adj]')
+    line = 'sempiternus, a, um [adj]'
+    adjective = Adjective.from_entry_head(line)
     assert adjective.base == 'sempiternus'
+    assert adjective.head_raw == line
     assert adjective.femininum == 'a'
     assert adjective.neutrum == 'um'

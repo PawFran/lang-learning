@@ -5,6 +5,7 @@ from lib.utils import extract_from_square_brackets
 @dataclass
 class AbstractWord:
     base: str
+    head_raw: str
     # todo abstract static method from_entry head ?
 
 
@@ -30,6 +31,7 @@ class Verb(AbstractWord):
         split = head.split(',')
         return Verb(
             base=split[0].strip(),
+            head_raw=head,
             infinite=split[1].strip(),
             perfect=split[2].strip(),
             supine=split[3].strip().split(' ')[0].strip(),
@@ -71,6 +73,7 @@ class Noun(AbstractWord):
         split = head.split(',')
         return Noun(
             base=split[0].strip(),
+            head_raw=head,
             genetive=split[1].strip().split(' ')[0].strip(),
             genre=Noun.which_genre(head),
             only_plural=Noun.is_only_plural(head),
@@ -88,7 +91,8 @@ class Adverb(AbstractWord):
     @staticmethod
     def from_entry_head(head):
         return Adverb(
-            base=head.split(' ')[0]
+            base=head.split(' ')[0],
+            head_raw=head
         )
 
 
@@ -106,6 +110,7 @@ class Adjective(AbstractWord):
         split = head.split(',')
         return Adjective(
             base=split[0],
+            head_raw=head,
             femininum=split[1].strip(),
             neutrum=split[2].strip().split(' ')[0]
         )
