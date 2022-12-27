@@ -43,13 +43,24 @@ def parse_dict_entry(single_group_of_lines):
 
     if Verb.is_verb(first_line):
         dict_entry_head = Verb.from_entry_head(first_line)
-        return DictEntry(dict_entry_head, example, translations)
+        return DictionaryEntry(dict_entry_head, example, translations)
     elif Noun.is_noun(first_line):
         dict_entry_head = Noun.from_entry_head(first_line)
-        return DictEntry(dict_entry_head, example, translations)
+        return DictionaryEntry(dict_entry_head, example, translations)
     elif Adverb.is_adverb(first_line):
         dict_entry_head = Adverb.from_entry_head(first_line)
-        return DictEntry(dict_entry_head, example, translations)
+        return DictionaryEntry(dict_entry_head, example, translations)
     elif Adjective.is_adjective(first_line):
         dict_entry_head = Adjective.from_entry_head(first_line)
-        return DictEntry(dict_entry_head, example, translations)
+        return DictionaryEntry(dict_entry_head, example, translations)
+
+
+def parse_dict(raw_lines):
+    raw_lines_grouped = group_raw_lines(raw_lines)
+
+    dictionary = Dictionary(list())
+    for single_group in raw_lines_grouped:
+        dict_entry = parse_dict_entry(single_group)
+        dictionary.append(dict_entry)
+
+    return dictionary

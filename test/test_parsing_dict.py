@@ -4,7 +4,7 @@ import pytest
 
 from lib.parsing_dict import *
 
-test_files_dir = 'test'
+test_files_dir = os.path.join('test', 'resources')
 test_files_name = 'latin_test.txt'
 dict_path = os.path.join(test_files_dir, test_files_name)
 
@@ -51,9 +51,6 @@ def test_group_raw_lines(lines):
     assert group_raw_lines(lines) == lines_grouped
 
 
-# TODO test all methods from subtypes of AbstractWord: Verb, Noun etc.
-# todo split tets into different files ex. separate tests for verb methods etc.
-
 def test_parse_example():
     assert parse_example('(Marīa amīcam amat et laudat)') == 'Marīa amīcam amat et laudat'
     assert parse_example('(Marīa amīcam amat et laudat)\n') == 'Marīa amīcam amat et laudat'
@@ -65,6 +62,35 @@ def test_parse_translation():
     assert parse_translation('1. winnica') == 'winnica'
 
 
-@pytest.mark.skip(reason='not ready')
 def test_parse_entry():
-    assert parse_dict_entry(lines_grouped[0]) is not None
+    dict_entry = parse_dict_entry(
+        ['castīgo, āre, avi, atum [verb] [I]\n',
+         '(Ancillam miseram domina sevēra castīgat)\n',
+         '1. karać\n']
+    )
+
+    assert dict_entry.head == Verb(
+        base='castīgo',
+        infinite='āre',
+        perfect='avi',
+        supine='atum',
+        conjugation='I'
+    )
+
+    assert dict_entry.example == 'Ancillam miseram domina sevēra castīgat'
+    assert dict_entry.translations == ['karać']
+
+
+def test_parse_dict():
+    dictionary = parse_dict(lines_raw)
+    assert dictionary.entries[0] == DictionaryEntry(
+        head=Verb(
+            base='castīgo',
+            infinite='āre',
+            perfect='avi',
+            supine='atum',
+            conjugation='I'
+        ),
+        example='Ancillam miseram domina sevēra castīgat',
+        translations=['karać']
+    )

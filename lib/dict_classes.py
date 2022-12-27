@@ -112,7 +112,7 @@ class Adjective(AbstractWord):
 
 
 @dataclass
-class DictEntry:
+class DictionaryEntry:
     """storing entries like:
     castīgo, āre, avi, atum [verb] [I]
     (Ancillam miseram domina sevēra castīgat)
@@ -124,6 +124,9 @@ class DictEntry:
 
 
 @dataclass
-class Dict:
+class Dictionary:
     """full dictionary"""
-    entries: list[DictEntry]
+    entries: list[DictionaryEntry]
+
+    def append(self, dict_entry):
+        self.entries.append(dict_entry)
