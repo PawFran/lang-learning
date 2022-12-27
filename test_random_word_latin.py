@@ -13,7 +13,11 @@ lines_raw = \
      '\n',
      'valdē [adv]\n',
      '(Varsoviam valde amamus)\n',
-     '1. bardzo']
+     '1. bardzo\n',
+     '\n',
+     'sempiternus, a, um [adj]\n',
+     '(Verae amicitiae sempiternae sunt)\n',
+     '1. ciągły, trwały, wieczny']
 lines_raw_blank_line_at_the_end = lines_raw + ['\n']
 lines_grouped = \
     [
@@ -25,7 +29,10 @@ lines_grouped = \
          '1. winnica\n'],
         ['valdē [adv]\n',
          '(Varsoviam valde amamus)\n',
-         '1. bardzo']
+         '1. bardzo\n'],
+        ['sempiternus, a, um [adj]\n',
+         '(Verae amicitiae sempiternae sunt)\n',
+         '1. ciągły, trwały, wieczny']
     ]
 
 head_first_conj = 'castīgo, āre, avi, atum [verb] [I]'
@@ -135,6 +142,16 @@ def test_adjective_from_entry_head():
 
 # TODO test all methods from subtypes of AbstractWord: Verb, Noun etc.
 # todo split tets into different files ex. separate tests for verb methods etc.
+
+def test_parse_example():
+    assert parse_example('(Marīa amīcam amat et laudat)') == 'Marīa amīcam amat et laudat'
+    assert parse_example('(Marīa amīcam amat et laudat)\n') == 'Marīa amīcam amat et laudat'
+    assert parse_example('Marīa amīcam amat et laudat') == 'Marīa amīcam amat et laudat'
+    assert parse_example('Marīa amīcam amat (et laudat)') == 'Marīa amīcam amat (et laudat)'
+
+
+def test_parse_translation():
+    assert parse_translation('1. winnica') == 'winnica'
 
 
 @pytest.mark.skip(reason='not ready')

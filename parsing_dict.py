@@ -1,3 +1,5 @@
+import re
+
 from classes import *
 
 
@@ -21,10 +23,23 @@ def group_raw_lines(raw_lines):
     return groups
 
 
+def parse_example(example_raw):
+    example_stripped = example_raw.strip()
+    if example_stripped.startswith('('):
+        return example_stripped[1:-1]
+    else:
+        return example_stripped
+
+
+def parse_translation(translation_raw):
+    end = re.search('[1-9]+', translation_raw).end()
+    return translation_raw[end + 1:].strip()
+
+
 def parse_dict_entry(single_group_of_lines):
     first_line = single_group_of_lines[0]
-    example = single_group_of_lines[1].strip()
-    translations = [x.strip() for x in single_group_of_lines[2:]]
+    example = parse_example(single_group_of_lines[1])
+    translations = [parse_translation(x) for x in single_group_of_lines[2:]]
 
     if Verb.is_verb(first_line):
         dict_entry_head = Verb.from_entry_head(first_line)
