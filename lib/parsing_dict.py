@@ -37,7 +37,7 @@ def parse_translation(translation_raw):
 
 
 def parse_dict_entry(single_group_of_lines):
-    first_line = single_group_of_lines[0]
+    first_line = single_group_of_lines[0].strip()
     example = parse_example(single_group_of_lines[1])
     translations = [parse_translation(x) for x in single_group_of_lines[2:]]
 
