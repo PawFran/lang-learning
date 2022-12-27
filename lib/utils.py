@@ -1,4 +1,5 @@
 import re
+from numpy.random import default_rng
 
 
 def extract_from_square_brackets(pattern, line):
@@ -8,3 +9,8 @@ def extract_from_square_brackets(pattern, line):
                                                       '')  # should be possible by using some groups in re directly ?
     else:
         return None
+
+
+def random_dict_entry(dictionary, rng=default_rng()):
+    random_index = rng.integers(low=0, high=len(dictionary.entries))
+    return dictionary.entries[random_index]
