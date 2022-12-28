@@ -123,9 +123,9 @@ def test_dictionary_append():
     )
     dictionary = Dictionary(list())
 
-    assert len(dictionary.entries) == 0
+    assert dictionary.length() == 0
     dictionary.append(dict_entry)
-    assert len(dictionary.entries) == 1
+    assert dictionary.length() == 1
 
 
 def test_dictionary_remove():
@@ -136,6 +136,6 @@ def test_dictionary_remove():
         translations=['często']
     )
     dictionary = Dictionary([dict_entry])
-    assert len(dictionary.entries) == 1
+    assert dictionary.length() == 1
     dictionary.remove(dict_entry)
-    assert len(dictionary.entries) == 0
+    assert dictionary.length() == 0

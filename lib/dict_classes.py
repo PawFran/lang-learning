@@ -158,3 +158,6 @@ class Dictionary:
 
     def remove(self, dict_entry):
         self.entries.remove(dict_entry)
+
+    def length(self):
+        return len(self.entries)

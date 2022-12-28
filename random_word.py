@@ -1,11 +1,10 @@
+from lib.parsing_args import parse_args, parse_dict_path
 from lib.parsing_dict import *
 from lib.utils import *
 
 dicts_folder = 'dicts'
 rng = default_rng()
 
-# todo option to remove words displayed already
-# todo or maybe option to decide after each word whether it should be removed or not
 # todo bug (add tests):
 # prop something up [phrasal
 # prop something up [phrasal verb]
@@ -22,7 +21,7 @@ if __name__ == "__main__":
     dictionary = parse_english_dict(raw_lines) if args.language == 'english' else parse_latin_dict(raw_lines)
 
     user_input = 'y'
-    while user_input.lower() != 'n': # proceed until user explicitly tells to stop
+    while user_input.lower() != 'n' and dictionary.length() > 0:  # proceed until user explicitly tells to stop
         current_entry = random_dict_entry(dictionary)
         print(current_entry.head.base, end=' ')
         input('')
@@ -43,3 +42,7 @@ if __name__ == "__main__":
         else:
             user_input = input('\nProceed ? [y]/n\n').strip()
         print()
+
+    if dictionary.length() == 0:
+        print('no words left in dictionary')
+    print('terminating..')
