@@ -21,6 +21,7 @@ def random_dict_entry(dictionary, rng=default_rng()):
 def parse_args():
     parser = ArgumentParser()
     parser.add_argument('-l', '--language', action='store')
+    parser.add_argument('-r', '--remove', action='store_true')
     return parser.parse_args()
 
 

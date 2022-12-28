@@ -126,3 +126,16 @@ def test_dictionary_append():
     assert len(dictionary.entries) == 0
     dictionary.append(dict_entry)
     assert len(dictionary.entries) == 1
+
+
+def test_dictionary_remove():
+    word = LatinAdverb(base='saepe', head_raw='saepe [adv]')
+    dict_entry = DictionaryEntry(
+        head=word,
+        example='De Varsoviā poetae saepe narrant',
+        translations=['często']
+    )
+    dictionary = Dictionary([dict_entry])
+    assert len(dictionary.entries) == 1
+    dictionary.remove(dict_entry)
+    assert len(dictionary.entries) == 0

@@ -22,13 +22,24 @@ if __name__ == "__main__":
     dictionary = parse_english_dict(raw_lines) if args.language == 'english' else parse_latin_dict(raw_lines)
 
     user_input = 'y'
-    while user_input.lower() != 'n':
-        random_entry = random_dict_entry(dictionary)
-        print(random_entry.head.base, end=' ')
+    while user_input.lower() != 'n': # proceed until user explicitly tells to stop
+        current_entry = random_dict_entry(dictionary)
+        print(current_entry.head.base, end=' ')
         input('')
-        print(random_entry.head.head_raw)
-        print(random_entry.example, end=' ')
+        print(current_entry.head.head_raw)
+        print(current_entry.example, end=' ')
         input('')
-        for i in range(len(random_entry.translations)):
-            print(f'{i + 1}. {random_entry.translations[i]}')
-        user_input = input('\nProceed ? [y]/n\n')
+        for i in range(len(current_entry.translations)):
+            print(f'{i + 1}. {current_entry.translations[i]}')
+        if args.remove:
+            whats_next = input(
+                '\nWhat do you want: [1] remove word and proceed (default) [2] keep word and proceed [3] terminate ?\n').strip()
+            if whats_next == '2':
+                user_input = 'y'
+            elif whats_next == '3':
+                user_input = 'n'
+            else:
+                dictionary.remove(current_entry)
+        else:
+            user_input = input('\nProceed ? [y]/n\n').strip()
+        print()

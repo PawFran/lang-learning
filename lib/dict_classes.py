@@ -155,3 +155,6 @@ class Dictionary:
 
     def append(self, dict_entry):
         self.entries.append(dict_entry)
+
+    def remove(self, dict_entry):
+        self.entries.remove(dict_entry)
