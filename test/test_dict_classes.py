@@ -113,6 +113,13 @@ def test_english_word_from_entry_head():
         part_of_speech='idiom'
     )
 
+    line3 = 'prop something up [phrasal verb]'
+    assert EnglishWord.from_entry_head(line3) == EnglishWord(
+        base='prop something up',
+        head_raw=line3,
+        part_of_speech='phrasal verb'
+    )
+
 
 def test_dictionary_append():
     word = LatinAdverb(base='saepe', head_raw='saepe [adv]')

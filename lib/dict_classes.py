@@ -124,10 +124,9 @@ class EnglishWord(AbstractWord):  # all english dict entries have the same struc
 
     @staticmethod
     def from_entry_head(head):
-        head_without_last_part = head.strip().split(' ')[:-1]
-        base = ' '.join(head_without_last_part)
+        head_before_brackets = head.strip().split('[')[0].strip()
         return EnglishWord(
-            base=base,
+            base=head_before_brackets,
             head_raw=head,
             part_of_speech=EnglishWord.which_part_of_speech(head)
         )

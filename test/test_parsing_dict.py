@@ -182,4 +182,3 @@ def test_parse_dict_subset():
     assert dict_subset(dictionary, start_word='saepe', end_word='saepe').length() == 1
 
     assert dict_subset(dictionary, end_word='valde').length() == 2
-
