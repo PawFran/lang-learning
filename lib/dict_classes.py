@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from lib.utils import extract_from_square_brackets
+from lib.utils import extract_from_square_brackets, weak_compare
 
 
 @dataclass
@@ -37,9 +37,6 @@ class LatinVerb(AbstractWord):
             supine=split[3].strip().split(' ')[0].strip(),
             conjugation=LatinVerb.which_conjugation(head)
         )
-
-
-# TODO add phrasal verb ? idiom ? or maybe english dict should be in different project ?
 
 
 @dataclass
@@ -161,3 +158,14 @@ class Dictionary:
 
     def length(self):
         return len(self.entries)
+
+    def weak_index(self, base_to_be_found):
+        '''
+        finds index of the word using weak compare
+        '''
+        for i in range(self.length()):
+            current_item = self.entries[i]
+            if weak_compare(current_item.head.base, base_to_be_found):
+                return i
+
+        return None

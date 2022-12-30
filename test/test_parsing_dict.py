@@ -141,3 +141,45 @@ def test_parse_english_dict():
         example='I never read medicine advertisement without being impelled to the conclusion that I am suffering from the particular disease',
         translations=['to make someone feel that they must do something', 'to force someone to do something']
     )
+
+
+def test_parse_dict_subset():
+    dict_entry1 = DictionaryEntry(
+        head=LatinAdverb(base='saepe', head_raw='saepe [adv]'),
+        example='De Varsoviā poetae saepe narrant',
+        translations=['często']
+    )
+
+    dict_entry2 = DictionaryEntry(
+        head=LatinAdverb(base='valdē', head_raw='valdē [adv]'),
+        example='Varsoviam valde amamus',
+        translations=['bardzo']
+    )
+    dict_entry3 = DictionaryEntry(
+        head=LatinAdjective(
+            base='sempiternus', head_raw='sempiternus, a, um [adj]',
+            femininum='a', neutrum='um'),
+        example='Verae amicitiae sempiternae sunt',
+        translations=['ciągły, trwały, wieczny']
+    )
+
+    dictionary = Dictionary([dict_entry1, dict_entry2, dict_entry3])
+
+    assert dict_subset(dictionary).length() == 3
+
+    assert dict_subset(dictionary, start_word='saepe').length() == 3
+    assert dict_subset(dictionary, start_word='valdē').length() == 2
+    assert dict_subset(dictionary, start_word='valde').length() == 2
+    assert dict_subset(dictionary, start_word='sempiternus').length() == 1
+
+    assert dict_subset(dictionary, start_word='laudo') is None
+    assert dict_subset(dictionary, end_word='laudo') is None
+
+    # start after end
+    assert dict_subset(dictionary, start_word='sempiternus', end_word='valde') is None
+
+    assert dict_subset(dictionary, start_word='saepe', end_word='valde').length() == 2
+    assert dict_subset(dictionary, start_word='saepe', end_word='saepe').length() == 1
+
+    assert dict_subset(dictionary, end_word='valde').length() == 2
+

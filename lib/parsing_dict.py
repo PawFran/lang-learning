@@ -68,7 +68,26 @@ def parse_english_dict_entry(single_group_of_lines):
     return DictionaryEntry(dict_entry_head, example, translations)
 
 
-def parse_dict(raw_lines, parser_for_dict_entry):
+def dict_subset(dictionary, start_word=None, end_word=None):
+    start_index = dictionary.weak_index(start_word) if start_word is not None else 0
+    end_index = dictionary.weak_index(end_word) if end_word is not None else dictionary.length() - 1
+
+    if start_index is None:
+        print(f'cannot find {start_word}')
+        return None
+    if end_index is None:
+        print(f'cannot find {end_word}')
+        return None
+
+    if start_index > end_index:
+        print('start is after end - cannot take reasonable subset')
+        return None
+
+    entries_subset = dictionary.entries[start_index: end_index + 1]
+    return Dictionary(entries_subset)
+
+
+def parse_dict(raw_lines, parser_for_dict_entry, start_word=None, end_word=None):
     raw_lines_grouped = group_raw_lines(raw_lines)
 
     dictionary = Dictionary(list())
@@ -76,12 +95,12 @@ def parse_dict(raw_lines, parser_for_dict_entry):
         dict_entry = parser_for_dict_entry(single_group)
         dictionary.append(dict_entry)
 
-    return dictionary
+    return dict_subset(dictionary, start_word, end_word)
 
 
-def parse_latin_dict(raw_lines):
-    return parse_dict(raw_lines, parse_latin_dict_entry)
+def parse_latin_dict(raw_lines, start_word=None, end_word=None):
+    return parse_dict(raw_lines, parse_latin_dict_entry, start_word=start_word, end_word=end_word)
 
 
-def parse_english_dict(raw_lines):
-    return parse_dict(raw_lines, parse_english_dict_entry)
+def parse_english_dict(raw_lines, start_word=None, end_word=None):
+    return parse_dict(raw_lines, parse_english_dict_entry, start_word=start_word, end_word=end_word)

@@ -139,3 +139,24 @@ def test_dictionary_remove():
     assert dictionary.length() == 1
     dictionary.remove(dict_entry)
     assert dictionary.length() == 0
+
+
+def test_weak_index():
+    dict_entry1 = DictionaryEntry(
+        head=LatinAdverb(base='saepe', head_raw='saepe [adv]'),
+        example='De Varsoviā poetae saepe narrant',
+        translations=['często']
+    )
+
+    dict_entry2 = DictionaryEntry(
+        head=LatinAdverb(base='valdē', head_raw='valdē [adv]'),
+        example='Varsoviam valde amamus',
+        translations=['bardzo']
+    )
+
+    dictionary = Dictionary(entries=[dict_entry1, dict_entry2])
+
+    assert dictionary.weak_index('saepe') == 0
+    assert dictionary.weak_index('valdē') == 1
+    assert dictionary.weak_index('valde') == 1
+    assert dictionary.weak_index('impel') is None

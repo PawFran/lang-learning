@@ -9,8 +9,6 @@ rng = default_rng()
 # prop something up [phrasal
 # prop something up [phrasal verb]
 # They ran him up quick, and propped him out, over to leeward, and left him
-# todo start from certain index (and stop at certain) -s -e
-# and/or option to start/end at a certain word -a -z
 
 
 if __name__ == "__main__":
@@ -18,10 +16,12 @@ if __name__ == "__main__":
     dict_path = parse_dict_path(args.language, dicts_folder)
 
     raw_lines = read_file_raw(dict_path)
-    dictionary = parse_english_dict(raw_lines) if args.language == 'english' else parse_latin_dict(raw_lines)
+    dictionary = parse_english_dict(raw_lines, args.start_word, args.end_word) \
+        if args.language == 'english' \
+        else parse_latin_dict(raw_lines, args.start_word, args.end_word)
 
     user_input = 'y'
-    while user_input.lower() != 'n' and dictionary.length() > 0:  # proceed until user explicitly tells to stop
+    while user_input.lower() != 'n' and dictionary is not None and dictionary.length() > 0:  # proceed until user explicitly tells to stop
         current_entry = random_dict_entry(dictionary)
         print(current_entry.head.base, end=' ')
         input('')
@@ -43,6 +43,6 @@ if __name__ == "__main__":
             user_input = input('\nProceed ? [y]/n\n').strip()
         print()
 
-    if dictionary.length() == 0:
+    if dictionary is None or dictionary.length() == 0:
         print('no words left in dictionary')
     print('terminating..')

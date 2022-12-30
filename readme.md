@@ -8,4 +8,8 @@
 
 ### when -r or --remove flag is user may decide whether they want not to see particular word again (current session)
 
+### -a and -z flags are used to subset dictionary using words (start/end) inclusive
+
+### if one of words is not present in dict or end is before start the will be an error
+
 ### random words will appear on the console one by one until user will tell it to stop
