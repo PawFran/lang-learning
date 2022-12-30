@@ -5,12 +5,6 @@ from lib.utils import *
 dicts_folder = 'dicts'
 rng = default_rng()
 
-# todo bug (add tests):
-# prop something up [phrasal
-# prop something up [phrasal verb]
-# They ran him up quick, and propped him out, over to leeward, and left him
-
-
 if __name__ == "__main__":
     args = parse_args()
     dict_path = parse_dict_path(args.language, dicts_folder)
