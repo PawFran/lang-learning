@@ -70,3 +70,33 @@ smitten [adj]
 obnoxious [adj]
 (All of these things come across as being obnoxious, but, for some poor people (not all of them), it’s the only way they get any attention)
 1. very unpleasant or rude
+
+equivocal [adj]
+(An unequivocal "no")
+1. not clear and seeming to have two opposing meanings, or confusing and able to be understood in two different ways
+
+intrinsic [adj]
+(It is generally more convenient to talk about the adequacy of the model to a given problem than its intrinsic correctness)
+1. being an extremely important and basic characteristic of a person or thing
+
+elicit [verb]
+(This course covers practical techniques to elicit and express software requirements from client interactions)
+1. to get or produce something, especially information or a reaction
+
+crisp [adj]
+(Crisp product requirement documents can make a world of difference in driving concise agreement on, and execution of, the product.)
+1. hard enough to be broken easily
+2. a crisp way of speaking, writing, or behaving is quick, confident, and effective 
+
+relay [verb]
+(Relaying information between the client and development team)
+1. to repeat something you have heard, or to broadcast a signal, message, or programme on television or radio
+
+foster [verb]
+(I'm trying to foster an interest in classical music in my children)
+1. to take care of a child, usually for a limited time, without being the child's legal parent
+2. to encourage the development or growth of ideas or feelings
+
+harness [verb]
+(Agile processes harness change for customer's competitive advantage)
+1. to control something, usually in order to use its power
