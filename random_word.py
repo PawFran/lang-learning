@@ -35,7 +35,6 @@ if __name__ == "__main__":
                 dictionary.remove(current_entry)
         else:
             user_input = input('\nProceed ? [y]/n\n').strip()
-        print()
 
     if dictionary is None or dictionary.length() == 0:
         print('no words left in dictionary')
