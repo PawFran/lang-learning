@@ -1,4 +1,4 @@
-from lib.utils import *
+from vocabulary.lib.utils import *
 
 
 def test_weak_compare():

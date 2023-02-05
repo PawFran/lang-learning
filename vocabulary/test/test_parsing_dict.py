@@ -2,9 +2,9 @@ import os
 
 import pytest
 
-from lib.parsing_dict import *
+from vocabulary.lib.parsing_dict import *
 
-test_files_dir = os.path.join('test', 'resources')
+test_files_dir = os.path.join('vocabulary/test/resources') # pytest should be run from top directory (that is lang-learning)
 test_files_name = 'latin_test.txt'
 dict_path = os.path.join(test_files_dir, test_files_name)
 

@@ -3,4 +3,3 @@ roadmap for language learning
 tracking user's difficulties (profiles, database, tracking previous progress) and personalizing questions
 also calculating statistics (how memory user has ? how often one should remind him words which were not asked recently ? performance vs frequency)
 docker
-venv ?

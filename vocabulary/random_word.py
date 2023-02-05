@@ -1,6 +1,4 @@
-from lib.parsing_args import parse_args, parse_dict_path
-from lib.parsing_dict import *
-from lib.utils import *
+from vocabulary.lib.parsing_args import parse_args, parse_dict_path
 
 dicts_folder = 'dicts'
 rng = default_rng()
