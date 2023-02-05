@@ -2,5 +2,5 @@ roadmap for language learning
 
 tracking user's difficulties (profiles, database, tracking previous progress) and personalizing questions
 also calculating statistics (how memory user has ? how often one should remind him words which were not asked recently ? performance vs frequency)
-docker
-gitlab pipeline for running pytest and updating requirements.txt
+github pipeline for running pytest and updating requirements.txt
+github packages, docker, pylint https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/
