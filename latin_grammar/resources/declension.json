@@ -1,0 +1,267 @@
+{
+  "ancilla": {
+    "first": {  
+      "femininum": {
+        "singularis": {
+          "nominativus": "ancilla",
+          "genetivus": "ancillae",
+          "dativus": "ancillae",
+          "accusativus": "ancillam",
+          "ablativus": "ancillā",
+          "vocativus": "ancilla"
+        },
+        "pluralis": {
+          "nominativus": "ancillae",
+          "genetivus": "ancillārum",
+          "dativus": "ancillis",
+          "accusativus": "ancillas",
+          "ablativus": "ancillis",
+          "vocativus": "ancillae"
+        }
+      }
+    }
+  },
+  "servus": {
+    "second": {
+      "masculinum": {
+        "singularis": {
+          "nominativus": "servus",
+          "genetivus": "servi",
+          "dativus": "servo",
+          "accusativus": "servum",
+          "ablativus": "servo",
+          "vocativus": "serve"
+        },
+        "pluralis": {
+          "nominativus": "servi",
+          "genetivus": "servōrum",
+          "dativus": "servis",
+          "accusativus": "servos",
+          "ablativus": "servis",
+          "vocativus": "servi"
+        }
+      }
+    }
+  },
+  "puer": {
+    "second": {
+      "masculinum": {
+        "singularis": {
+          "nominativus": "puer",
+          "genetivus": "pueri",
+          "dativus": "puero",
+          "accusativus": "puerum",
+          "ablativus": "puero",
+          "vocativus": "puer"
+        },
+        "pluralis": {
+          "nominativus": "pueri",
+          "genetivus": "puerōrum",
+          "dativus": "pueris",
+          "accusativus": "pueros",
+          "ablativus": "pueris",
+          "vocativus": "pueri"
+        }
+      }
+    }
+  },
+  "oppidum": {
+    "second": {
+      "neutrum": {
+        "singularis": {
+          "nominativus": "oppidum",
+          "genetivus": "oppidi",
+          "dativus": "oppido",
+          "accusativus": "oppidum",
+          "ablativus": "oppido",
+          "vocativus": "oppidum"
+        },
+        "pluralis": {
+          "nominativus": "oppida",
+          "genetivus": "oppidōrum",
+          "dativus": "oppidis",
+          "accusativus": "oppida",
+          "ablativus": "oppidis",
+          "vocativus": "oppida"
+        }
+      }
+    }
+  },
+  "imperātor": {
+    "third consonant": {
+      "masculinum": {
+        "singularis": {
+          "nominativus": "imperātor",
+          "genetivus": "imperatoris",
+          "dativus": "imperatori",
+          "accusativus": "imperatorem",
+          "ablativus": "imperatore",
+          "vocativus": "imperātor"
+        },
+        "pluralis": {
+          "nominativus": "imperatores",
+          "genetivus": "imperatorum",
+          "dativus": "imperatoribus",
+          "accusativus": "imperatores",
+          "ablativus": "imperatoribus",
+          "vocativus": "imperatores"
+        }
+      }
+    }
+  },
+  "lex": {
+    "third consonant": {
+      "femininum": {
+        "singularis": {
+          "nominativus": "lex",
+          "genetivus": "legis",
+          "dativus": "legi",
+          "accusativus": "legem",
+          "ablativus": "lege",
+          "vocativus": "lex"
+        },
+        "pluralis": {
+          "nominativus": "leges",
+          "genetivus": "legum",
+          "dativus": "legibus",
+          "accusativus": "leges",
+          "ablativus": "legibus",
+          "vocativus": "leges"
+        }
+      }
+    }
+  },
+  "nōmen": {
+    "third consonant": {
+      "neutrum": {
+        "singularis": {
+          "nominativus": "nōmen",
+          "genetivus": "nominis",
+          "dativus": "nomini",
+          "accusativus": "nōmen",
+          "ablativus": "nomine",
+          "vocativus": "nōmen"
+        },
+        "pluralis": {
+          "nominativus": "nomina",
+          "genetivus": "nominum",
+          "dativus": "nominibus",
+          "accusativus": "nomina",
+          "ablativus": "nominibus",
+          "vocativus": "nomina"
+        }
+      }
+    }
+  },
+  "vectīgal": {
+    "third vowel": {
+      "neutrum": {
+        "singularis": {
+          "nominativus": "vectigal",
+          "genetivus": "vectigalis",
+          "dativus": "vectigali",
+          "accusativus": "vectīgal",
+          "ablativus": "vectigali",
+          "vocativus": "vectīgal"
+        },
+        "pluralis": {
+          "nominativus": "vectigalia",
+          "genetivus": "vectigalium",
+          "dativus": "vectigalibus",
+          "accusativus": "vectigalia",
+          "ablativus": "vectigalibus",
+          "vocativus": "vectigalia"
+        }
+      }
+    }
+  },
+  "urbs": {
+    "third mixed": {
+      "femininum": {
+        "singularis": {
+          "nominativus": "urbs",
+          "genetivus": "urbis",
+          "dativus": "urbi",
+          "accusativus": "urbem",
+          "ablativus": "urbe",
+          "vocativus": "urbs"
+        },
+        "pluralis": {
+          "nominativus": "urbes",
+          "genetivus": "urbium",
+          "dativus": "urbibus",
+          "accusativus": "urbes",
+          "ablativus": "urbibus",
+          "vocativus": "urbes"
+        }
+      }
+    }
+  },
+  "exercitus": {
+    "fourth": {
+      "masculinum": {
+        "singularis": {
+          "nominativus": "exercitus",
+          "genetivus": "exercitus",
+          "dativus": "exercitui",
+          "accusativus": "exercitum",
+          "ablativus": "exercitu",
+          "vocativus": "exercitus"
+        },
+        "pluralis": {
+          "nominativus": "exercitus",
+          "genetivus": "exercituum",
+          "dativus": "exercitibus",
+          "accusativus": "exercitus",
+          "ablativus": "exercitibus",
+          "vocativus": "exercitus"
+        }
+      }
+    }
+  },
+  "cornu": {
+    "fourth": {
+      "neutrum": {
+        "singularis": {
+          "nominativus": "cornu",
+          "genetivus": "cornus",
+          "dativus": "cornu",
+          "accusativus": "cornu",
+          "ablativus": "cornu",
+          "vocativus": "cornu"
+        },
+        "pluralis": {
+          "nominativus": "cornua",
+          "genetivus": "cornuum",
+          "dativus": "cornibus",
+          "accusativus": "cornua",
+          "ablativus": "cornibus",
+          "vocativus": "cornua"
+        }
+      }
+    }
+  },
+  "res": {
+    "fith": {
+      "femininum": {
+        "singularis": {
+          "nominativus": "res",
+          "genetivus": "rei",
+          "dativus": "rei",
+          "accusativus": "rem",
+          "ablativus": "re",
+          "vocativus": "res"
+        },
+        "pluralis": {
+          "nominativus": "res",
+          "genetivus": "rerum",
+          "dativus": "rebus",
+          "accusativus": "res",
+          "ablativus": "rebus",
+          "vocativus": "res"
+        }
+      }
+    }
+  }
+}
+  
