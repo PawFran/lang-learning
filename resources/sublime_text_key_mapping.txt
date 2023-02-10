@@ -1,0 +1,7 @@
+[
+	{"keys": ["alt+a"], "command": "insert", "args": {"characters": "ā"}},
+	{"keys": ["alt+e"], "command": "insert", "args": {"characters": "ē"}},
+	{"keys": ["alt+i"], "command": "insert", "args": {"characters": "ī"}},
+	{"keys": ["alt+o"], "command": "insert", "args": {"characters": "ō"}},
+	{"keys": ["alt+u"], "command": "insert", "args": {"characters": "ū"}}
+]

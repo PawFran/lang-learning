@@ -5,3 +5,5 @@
 ### vocabulary module is dedicated to learning vocabulary
 
 ### latin_grammar modules is for learning grammatical patterns of latin (conjugations, declensions etc.)
+
+### ./resources catalog contains key mapping for sublime text 3 allowing to type letters with long accent
