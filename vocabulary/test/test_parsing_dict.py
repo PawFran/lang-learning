@@ -2,9 +2,12 @@ import os
 
 import pytest
 
+from vocabulary.lib.dict_classes import *
 from vocabulary.lib.parsing_dict import *
 
-test_files_dir = os.path.join('vocabulary/test/resources') # pytest should be run from top directory (that is lang-learning)
+test_files_dir = os.path.join('vocabulary/test/resources')
+
+
 test_files_name = 'latin_test.txt'
 dict_path = os.path.join(test_files_dir, test_files_name)
 
@@ -49,7 +52,12 @@ lines_raw_english = \
 
 
 def test_read_file_raw():
-    assert read_file_raw(dict_path) == lines_raw_latin
+    f = None
+    try:
+        f = read_file_raw(dict_path)
+    except FileNotFoundError:
+        print('ERROR: pytest should be run from top directory (that is lang-learning)')
+    assert f == lines_raw_latin
 
 
 @pytest.mark.parametrize('lines', [lines_raw_latin, lines_raw_latin_blank_line_at_the_end])

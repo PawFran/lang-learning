@@ -1,9 +1,13 @@
-from vocabulary.lib.parsing_args import parse_args, parse_dict_path
+from vocabulary.lib.parsing_args import *
+from vocabulary.lib.parsing_dict import *
+from vocabulary.lib.utils import *
 
-dicts_folder = 'dicts'
-rng = default_rng()
+import os
 
 if __name__ == "__main__":
+    dicts_folder = os.path.join('vocabulary', 'dicts')
+    rng = default_rng()
+
     args = parse_args()
     dict_path = parse_dict_path(args.language, dicts_folder)
 

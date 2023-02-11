@@ -1,4 +1,5 @@
 from vocabulary.lib.parsing_dict import *
+from vocabulary.lib.dict_classes import *
 
 
 def test_conjugation():
