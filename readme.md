@@ -8,6 +8,10 @@
 
 ### ./resources catalog contains key mapping for sublime text 3 allowing to type letters with long accent
 
+### use pytest to run unit tests
+
+### use mypy for type validation
+
 # random word from dictionary
 
 ## how to use it
