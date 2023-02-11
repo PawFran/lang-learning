@@ -6,6 +6,7 @@ from enum import Enum
 class DeclensionNumber(Enum):
     I = 1
     II = 2
+    III = 3
     III_consonant = 3.1
     III_vowel = 3.2
     III_mixed = 3.3
@@ -19,6 +20,8 @@ class DeclensionNumber(Enum):
                 return DeclensionNumber.I
             case 'second' | 'ii' | 'two' | '2':
                 return DeclensionNumber.II
+            case 'third' | 'iii' | 'three' | '3':
+                return DeclensionNumber.III
             case 'third consonant' | 'iii consonant' | 'three consonant' | '3 consonant':
                 return DeclensionNumber.III_consonant
             case 'third vowel' | 'iii vowel' | 'three vowel' | '3 vowel':
@@ -31,6 +34,7 @@ class DeclensionNumber(Enum):
                 return DeclensionNumber.V
             case _:
                 raise Exception(f'cannot parse string {s} to DeclensionNumber')
+
 
 # todo declension cases enum ?
 # todo declension genre enum ?
@@ -87,7 +91,7 @@ class SingleDeclensionPattern:
 @dataclass
 class Declension:
     # for a few declensions (ex. second, third) multiple variants are possible (ex. different patterns for masculinum and neutrum)
-    number: str
+    number: DeclensionNumber
     declension_patterns: list[SingleDeclensionPattern]
     # optionally some short description like when it's used. where to put it ? probably not in description because it would be duplicated
 

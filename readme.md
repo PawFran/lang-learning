@@ -29,3 +29,11 @@
 ### if one of words is not present in dict or end is before start the will be an error
 
 ### random words will appear on the console one by one until user will tell it to stop
+
+# declension
+
+## how to use it
+
+### python declension.py -d <declensions> -r (optional)
+### where declensions are list of declensions separated by space:
+### all possibilities: 1, 2, 3, 3 consonant, 3 vowel, 3 mixed, 4, 5 (also words instead of numbers are possible and _ or - instead of space)
