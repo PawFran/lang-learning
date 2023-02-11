@@ -1,5 +1,6 @@
-import pytest
 import os
+
+import pytest
 
 from latin_grammar.lib.declension_classes import *
 
@@ -54,6 +55,32 @@ def test_declension_cases_invalid():
         DeclensionCasesDict.from_dict(declension_dict_invalid)
 
 
+def test_declension_number_from_dict():
+    assert DeclensionNumber.from_string('first') == DeclensionNumber.I
+    assert DeclensionNumber.from_string('first ') == DeclensionNumber.I
+    assert DeclensionNumber.from_string('First') == DeclensionNumber.I
+    assert DeclensionNumber.from_string('i') == DeclensionNumber.I
+    assert DeclensionNumber.from_string('I') == DeclensionNumber.I
+    assert DeclensionNumber.from_string('1') == DeclensionNumber.I
+
+    assert DeclensionNumber.from_string('third consonant') == DeclensionNumber.III_consonant
+    assert DeclensionNumber.from_string('third_consonant') == DeclensionNumber.III_consonant
+    assert DeclensionNumber.from_string('third-consonant') == DeclensionNumber.III_consonant
+
+    assert DeclensionNumber.from_string('third vowel') == DeclensionNumber.III_vowel
+
+
+def test_declension_number_from_dict_invalid():
+    with pytest.raises(Exception):
+        DeclensionNumber.from_string('firs')
+
+    with pytest.raises(Exception):
+        DeclensionNumber.from_string(None)
+
+    with pytest.raises(Exception):
+        DeclensionNumber.from_string(1)
+
+
 def test_declension_pattern_from_dict():
     d = SingleDeclensionPattern.from_dict(single_declension_pattern_dict)
 
@@ -62,7 +89,7 @@ def test_declension_pattern_from_dict():
     cases_plural = DeclensionCasesDict.from_dict(declension_dict_plural)
 
     assert d.base_word == 'ancilla'
-    assert d.number == 'first'
+    assert d.number == DeclensionNumber.I
     assert d.genre == 'femininum'
     assert d.singular == cases_singular
     assert d.plural == cases_plural

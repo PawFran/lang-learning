@@ -1,6 +1,40 @@
-from dataclasses import dataclass
 import json
+from dataclasses import dataclass
+from enum import Enum
 
+
+class DeclensionNumber(Enum):
+    I = 1
+    II = 2
+    III_consonant = 3.1
+    III_vowel = 3.2
+    III_mixed = 3.3
+    IV = 4
+    V = 5
+
+    @staticmethod
+    def from_string(s: str):
+        match s.lower().replace('_', ' ').replace('-', ' ').strip():
+            case 'first' | 'i' | 'one' | '1':
+                return DeclensionNumber.I
+            case 'second' | 'ii' | 'two' | '2':
+                return DeclensionNumber.II
+            case 'third consonant' | 'iii consonant' | 'three consonant' | '3 consonant':
+                return DeclensionNumber.III_consonant
+            case 'third vowel' | 'iii vowel' | 'three vowel' | '3 vowel':
+                return DeclensionNumber.III_vowel
+            case 'third mixed' | 'iii mixed' | 'three mixed' | '3 mixed':
+                return DeclensionNumber.III_mixed
+            case 'fourth' | 'iv' | 'four' | '4':
+                return DeclensionNumber.IV
+            case 'fifth', 'v', 'five', '5':
+                return DeclensionNumber.V
+            case _:
+                raise Exception(f'cannot parse string {s} to DeclensionNumber')
+
+# todo declension cases enum ?
+# todo declension genre enum ?
+# todo declension sing/pl enum ?
 
 @dataclass
 class DeclensionCasesDict:
@@ -27,7 +61,7 @@ class DeclensionCasesDict:
 class SingleDeclensionPattern:
     # DeclensionPattern should be uniquely identified by either base_word or (number, genre)
     base_word: str
-    number: str  # int doesn't work for possibilities like 'third consonant' must be allowed
+    number: DeclensionNumber
     genre: str
     singular: DeclensionCasesDict
     plural: DeclensionCasesDict
@@ -43,10 +77,10 @@ class SingleDeclensionPattern:
 
         return SingleDeclensionPattern(
             base_word=base_word,
-            number=number,
+            number=DeclensionNumber.from_string(number),
             genre=genre,
             singular=DeclensionCasesDict.from_dict(sing_pattern),
-            plural=DeclensionCasesDict.from_dict(pl_pattern),
+            plural=DeclensionCasesDict.from_dict(pl_pattern)
         )
 
 
@@ -67,7 +101,7 @@ class DeclensionDict:
     def _group_declension_patterns_by_numbers(patterns: list[SingleDeclensionPattern]):
         all_numbers = set([p.number for p in patterns])
 
-        def filter_patterns_by_number(num: str):
+        def filter_patterns_by_number(num: DeclensionNumber):
             return [p for p in patterns if p.number == num]
 
         return {num: filter_patterns_by_number(num)
