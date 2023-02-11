@@ -25,3 +25,11 @@ saepe [adv]
 sempiternus, a, um [adj]
 (Verae amicitiae sempiternae sunt)
 1. ciągły, trwały, wieczny
+
+libenter [adv]
+(Marcus discipulus est, libros libenter legit)
+1. chętnie
+
+habeo, ēre, buī, bitum [verb]
+(Marcus discipulus est, libros multos habet)
+1. mieć
