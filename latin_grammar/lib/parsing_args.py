@@ -1,7 +1,7 @@
-from argparse import ArgumentParser
+from argparse import ArgumentParser, Namespace
 
 
-def parse_args():
+def parse_args() -> Namespace:
     parser = ArgumentParser()
     parser.add_argument('-d', '--declensions', nargs='+', type=str)
     parser.add_argument('-r', '--remove', action='store_true')

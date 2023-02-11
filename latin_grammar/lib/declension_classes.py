@@ -27,7 +27,7 @@ class DeclensionNumber(Enum):
                 return DeclensionNumber.III_mixed
             case 'fourth' | 'iv' | 'four' | '4':
                 return DeclensionNumber.IV
-            case 'fifth', 'v', 'five', '5':
+            case 'fifth' | 'v' | 'five' | '5':
                 return DeclensionNumber.V
             case _:
                 raise Exception(f'cannot parse string {s} to DeclensionNumber')
