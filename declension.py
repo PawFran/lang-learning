@@ -11,7 +11,7 @@ from latin_grammar.lib.parsing_args import *
 
 
 # todo move it. test it
-def filter_by_number(dictionary: DeclensionDict, numbers: [DeclensionNumber]) -> DeclensionDict:
+def filter_by_number(dictionary: DeclensionDict, numbers: list[DeclensionNumber]) -> DeclensionDict:
     return DeclensionDict([declension for declension in dictionary.declensions
                            if declension.number in numbers])
 
