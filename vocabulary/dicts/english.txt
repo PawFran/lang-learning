@@ -75,7 +75,7 @@ equivocal [adj]
 (An unequivocal "no")
 1. not clear and seeming to have two opposing meanings, or confusing and able to be understood in two different ways
 
-intrinsic [adj]
+intrinsic [adj]w
 (It is generally more convenient to talk about the adequacy of the model to a given problem than its intrinsic correctness)
 1. being an extremely important and basic characteristic of a person or thing
 
@@ -100,3 +100,7 @@ foster [verb]
 harness [verb]
 (Agile processes harness change for customer's competitive advantage)
 1. to control something, usually in order to use its power
+
+gruesome [adj]
+(It would be pretty gruesome to have each movie fight consisting of the main character slowly hacking someone else to death)
+1. Extremely unpleasant and shocking, and usually dealing with death or injury 

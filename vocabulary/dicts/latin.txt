@@ -1,4 +1,4 @@
-castīgo, āre, avi, atum [verb] [I]
+castīgo, āre, āvī, ātum [verb] [I]
 (Ancillam miseram domina sevēra castīgat)
 1. karać
 
@@ -6,7 +6,7 @@ vinea, ae [noun] [I] [f]
 (Ancillae in vineā labōrant)
 1. winnica
 
-specto, āre, avi, atum [verb] [I]
+spectō, āre, āvī, ātum [verb] [I]
 (Specta, Sophia. En, Victoriae statua clara)
 1. patrzeć, widzieć
 
@@ -14,7 +14,7 @@ valdē [adv]
 (Varsoviam valde amamus)
 1. bardzo
 
-laudo, āre, avi, atum [verb] [I]
+laudō, āre, āvī, ātum [verb] [I]
 (Marīa amīcam amat et laudat)
 1. chwalić
 
@@ -30,6 +30,37 @@ libenter [adv]
 (Marcus discipulus est, libros libenter legit)
 1. chętnie
 
-habeo, ēre, buī, bitum [verb]
+habeo, ēre, buī, bitum [verb] [II]
 (Marcus discipulus est, libros multos habet)
 1. mieć
+
+legō, legere, lēgī, lectum [verb] [III]
+(Marcus discipulus est, libros libenter legit)
+1. czytać
+
+concordia, ae [noun] [I] [f]
+(Ibi victoria, ubi concordia)
+1. zgoda
+
+monstrō, āre, āvi, ātum [verb] [I]
+(Servis dominus hortum monstrat)
+1. pokazywać
+
+cūrō, āre, āvi, ātum [verb] [I]
+(O servi, Spartacus fortūna vestrae curat!)
+1. troszczyć się, dbać (o coś + dat)
+
+properō, āre, āvi, ātum [verb] [I]
+(Puer Romānus in scholam properat)
+1. spieszyć się, spieszyć
+
+fīnitimī, ōrum [noun] [II] [m] [pl]
+(Polōnis finitimi sunt: ..)
+1. sąsiedzi
+
+fluvius, iī [noun] [II] [m]
+1. rzeka
+
+etiam [partic]
+1. jeszcze
+2. także
