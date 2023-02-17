@@ -4,6 +4,9 @@ from vocabulary.lib.utils import *
 
 import os
 
+# todo esse gives error (cannot parse supine)
+# todo return error when no language is set (or provide default)
+
 if __name__ == "__main__":
     dicts_folder = os.path.join('vocabulary', 'dicts')
     rng = default_rng()
