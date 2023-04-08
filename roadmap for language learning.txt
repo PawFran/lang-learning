@@ -6,3 +6,11 @@ github pipeline for running pytest (and mypy) and updating requirements.txt
 github packages, docker, pylint https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/
 web app with a few endpoints as a counterparts for runnable scripts ?
 "how to use it" should be available in "help" option for all modules
+validators for files
+track how many times word appeared (and was removed if flag was set). used that info for weighting probabilities
+for random words keep track of which were not removed when there was option to do so. with it may be written to csv file
+take only recent tries under consideration for specifying distribution
+
+z kazdego slowa brac pierwsze tlumaczenie; podawac je pytac o tlumaczenie na obcu jezyk (z tolerancja dla liter akcentowanych itp.)
+wypisywac kilka slow; mozna z nich teraz ukladac zdania
+brac tlumaczenie i kazac podac konkretna forme (np. supinum)
