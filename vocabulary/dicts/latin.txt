@@ -61,6 +61,26 @@ fīnitimī, ōrum [noun] [II] [m] [pl]
 fluvius, iī [noun] [II] [m]
 1. rzeka
 
-etiam [partic]
-1. jeszcze
-2. także
+do, āre, dedī, datum [verb], [I]
+(Matrona tunicas ancillis dat)
+1. dawać
+
+incola, ae [noun] [I] [m/f]
+(Varsovia incolis Poloniae cara est)
+1. mieszkaniec
+
+habitō, āre, āvī, ātum [verb] [I]
+(Nos Poloni in Polonia habitamus)
+1. mieszkać
+
+celebrō, āre, āvī, ātum [verb] [I]
+(Poētae Polonōrum gloriam patriae nostrae celebrant)
+1. rozgłaszać
+
+faber, fabri [noun] [m] [II]
+()
+1. rzemieślnik
+
+operarius, i [noun] [m] [II]
+()
+1. robotnik

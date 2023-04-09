@@ -1,5 +1,10 @@
 roadmap for language learning
 
+move from github to gitlab
+
+some words cannot be parsed yet - sum, etiam (file latin_to_be_handled.txt)
+test na parsowanie slownika - czy nie ma typu none. albo rzucanie wyjatku kiedy nie uda sie czegos sparsowac. zrobic test automatyczny
+
 tracking user's difficulties (profiles, database, tracking previous progress) and personalizing questions
 also calculating statistics (how memory user has ? how often one should remind him words which were not asked recently ? performance vs frequency)
 github pipeline for running pytest (and mypy) and updating requirements.txt

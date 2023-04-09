@@ -5,7 +5,7 @@ from vocabulary.lib.utils import *
 import os
 
 # todo esse gives error (cannot parse supine)
-# todo return error when no language is set (or provide default)
+# todo return error when no language is set (or provide default and inform about it)
 
 if __name__ == "__main__":
     dicts_folder = os.path.join('vocabulary', 'dicts')
@@ -19,6 +19,8 @@ if __name__ == "__main__":
         if args.language == 'english' \
         else parse_latin_dict(raw_lines, args.start_word, args.end_word)
 
+    print(f'number of words in dictionary: {dictionary.length()}', end='\n\n')
+
     user_input = 'y'
     while user_input.lower() != 'n' and dictionary is not None and dictionary.length() > 0:  # proceed until user explicitly tells to stop
         current_entry = random_dict_entry(dictionary)
@@ -31,10 +33,14 @@ if __name__ == "__main__":
             print(f'{i + 1}. {current_entry.translations[i]}')
         if args.remove:
             whats_next = input(
-                '\nWhat do you want: [1] remove word and proceed (default) [2] keep word and proceed [3] terminate ?\n').strip()
+                '''\n[1] remove word and proceed (default) [2] keep word and proceed [3] show how many words left and proceed [4] terminate\n'''
+            ).strip()
             if whats_next == '2':
                 user_input = 'y'
             elif whats_next == '3':
+                print(f'number of words left in dictionary: {dictionary.length()}', end='\n\n')
+                user_input = 'y'
+            elif whats_next == '4':
                 user_input = 'n'
             else:
                 dictionary.remove(current_entry)
