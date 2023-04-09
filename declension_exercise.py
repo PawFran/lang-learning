@@ -1,6 +1,3 @@
-# todo choose declensions (optional) and then random word
-# user input
-# feedback
 # remove or not
 # when third declension is mentioned all variants should be included
 # todo filter by word
@@ -10,9 +7,9 @@ import os
 from numpy.random import default_rng
 from numpy.random._generator import Generator
 
-from latin_grammar.lib.declension_classes import *
-from latin_grammar.lib.declension_classes import SingleDeclensionPattern
-from latin_grammar.lib.parsing_args import *
+from declension.lib.declension_classes import *
+from declension.lib.declension_classes import SingleDeclensionPattern
+from declension.lib.parsing_args import *
 from common.lib.utils import weak_compare
 
 
@@ -53,11 +50,11 @@ def random_declension_entry(declensions: Declensions, rng: Generator) -> Declens
 
 if __name__ == '__main__':
     rng = default_rng()
-    dict_file_path = os.path.join("latin_grammar", "resources", "declension.json")
+    dict_file_path = os.path.join("declension", "resources", "declension.json")
 
     args = parse_args()
     print(f'declensions to filter: {args.declensions}')
-    print(f'remove? {args.remove}')
+    print(f'remove? {args.remove} (not implemented)')
 
     declension_all = Declensions.from_file_path(dict_file_path)
 

@@ -2,9 +2,9 @@ import os
 
 import pytest
 
-from latin_grammar.lib.declension_classes import *
+from declension.lib.declension_classes import *
 
-path_to_declension_file = os.path.join('latin_grammar', 'resources', 'declension.json')
+path_to_declension_file = os.path.join('declension', 'resources', 'declension.json')
 
 single_declension_pattern_dict = {
     "ancilla": {
