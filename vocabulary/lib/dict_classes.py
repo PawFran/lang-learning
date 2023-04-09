@@ -1,5 +1,7 @@
 from dataclasses import dataclass
-from vocabulary.lib.utils import extract_from_square_brackets, weak_compare
+
+from common.lib.utils import weak_compare
+from vocabulary.lib.utils import extract_from_square_brackets
 
 
 @dataclass

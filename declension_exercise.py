@@ -13,6 +13,7 @@ from numpy.random._generator import Generator
 from latin_grammar.lib.declension_classes import *
 from latin_grammar.lib.declension_classes import SingleDeclensionPattern
 from latin_grammar.lib.parsing_args import *
+from common.lib.utils import weak_compare
 
 
 # todo move it. test it
@@ -26,7 +27,7 @@ def flatten(lst):
 
 
 # todo move it. test it ?
-def random_declension_entry(declensions: Declensions, rng: Generator):
+def random_declension_entry(declensions: Declensions, rng: Generator) -> DeclensionTest:
     if len(declensions.declensions) == 0:
         raise Exception("cannot select random entry from empty dict")
 
@@ -39,12 +40,15 @@ def random_declension_entry(declensions: Declensions, rng: Generator):
     selected_pattern: SingleDeclensionPattern = [p for p in patterns if p.base_word == random_base_word][0]
 
     singular: bool = rng.choice([0, 1], 1)[0] == 0
-
     selected_dict = selected_pattern.singular if singular else selected_pattern.plural
-
     selected_case = rng.choice([*DeclensionCase]).name.lower()
 
-    return selected_dict[selected_case]
+    answer = selected_dict[selected_case]
+
+    declension_prompt = DeclensionPrompt(random_base_word, 'singularis' if singular else 'pluralis', selected_case)
+    declension_test = DeclensionTest(declension_prompt, answer)
+
+    return declension_test
 
 
 if __name__ == '__main__':
@@ -61,15 +65,19 @@ if __name__ == '__main__':
     if args.declensions is not None:
         declensions_to_include = [DeclensionType.from_string(s) for s in args.declensions]
 
-    print(f'declensions to include: {declensions_to_include}')
+    print()
 
     declensions_filtered = filter_by_number(declension_all, declensions_to_include)
-    print(declensions_filtered)
 
-    # todo while true show random dict entry (base word, number, case), after enter the answer
+    # todo when --remove then remove when answer is ok
 
     user_input = 'y'
     while user_input.lower() != 'n':
-        random_entry = random_declension_entry(declensions_filtered, rng)
-        print(random_entry)
-        input()
+        declension_test = random_declension_entry(declensions_filtered, rng)
+        declension_prompt = declension_test.prompt
+        print(declension_prompt.base_word, declension_prompt.case, declension_prompt.number)
+        user_answer = input()
+        if weak_compare(user_answer, declension_test.answer):
+            print('correct', end='\n\n')
+        else:
+            print(f'wrong. proper answer is {declension_test.answer}', end='\n\n')

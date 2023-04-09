@@ -82,37 +82,17 @@ class DeclensionCase(Enum):
                 raise Exception(f'cannot parse {c} to case string representation')
 
 
-# todo probably get rid off it and use simple dictionary
-# @dataclass
-# class DeclensionCasesDict:
-#     nominativus: str
-#     genetivus: str
-#     dativus: str
-#     accusativus: str
-#     ablativus: str
-#     vocativus: str
-#
-#     @staticmethod
-#     def from_dict(d):
-#         return DeclensionCasesDict(
-#             d['nominativus'],
-#             d['genetivus'],
-#             d['dativus'],
-#             d['accusativus'],
-#             d['ablativus'],
-#             d['vocativus']
-#         )
-#
-#     @staticmethod
-#     def to_dict():
-#         return {
-#             'nominativus': DeclensionCasesDict.NOMINATIVUS,
-#             'genetivus': DeclensionCasesDict.GENETIVUS,
-#             'dativus': DeclensionCasesDict.DATIVUS,
-#             'accusativus': DeclensionCasesDict.ACCUSATIVUS,
-#             'ablativus': DeclensionCasesDict.ABLATIVUS,
-#             'vocativus': DeclensionCasesDict.VOCATIVUS
-#         }
+@dataclass
+class DeclensionPrompt:
+    base_word: str
+    number: str
+    case: str
+
+
+@dataclass
+class DeclensionTest:
+    prompt: DeclensionPrompt
+    answer: str
 
 
 # todo single pattern should be ONE of [singular, plural]
@@ -125,10 +105,6 @@ class SingleDeclensionPattern:
     genre: str
     singular: dict
     plural: dict
-
-    def get_word(self, case, singular: bool):
-        cases_dict = self.singular if singular else self.plural
-        # cases_dict
 
     @staticmethod
     def from_dict(d: dict):
