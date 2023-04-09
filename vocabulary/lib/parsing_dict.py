@@ -62,6 +62,8 @@ def parse_latin_dict_entry(single_group_of_lines):
     elif LatinConjunction.is_conjunction(first_line):
         dict_entry_head = LatinConjunction.from_entry_head(first_line)
         return DictionaryEntry(dict_entry_head, example, translations)
+    else:
+        raise Exception(f'cannot recognize part of speech for: {first_line}')
 
 
 def parse_english_dict_entry(single_group_of_lines):
