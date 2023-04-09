@@ -38,6 +38,14 @@ legō, legere, lēgī, lectum [verb] [III]
 (Marcus discipulus est, libros libenter legit)
 1. czytać
 
+ubi [adv]
+(Ibi victoria ubi concordia)
+1. gdzie
+
+ibi [adv]
+(Ibi victoria ubi concordia)
+1. tam
+
 concordia, ae [noun] [I] [f]
 (Ibi victoria, ubi concordia)
 1. zgoda
@@ -65,6 +73,10 @@ do, āre, dedī, datum [verb], [I]
 (Matrona tunicas ancillis dat)
 1. dawać
 
+sum, esse, fuī [verb]
+(Marcus discipulus est)
+1. być
+
 incola, ae [noun] [I] [m/f]
 (Varsovia incolis Poloniae cara est)
 1. mieszkaniec
@@ -78,9 +90,86 @@ celebrō, āre, āvī, ātum [verb] [I]
 1. rozgłaszać
 
 faber, fabri [noun] [m] [II]
-()
+(Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt)
 1. rzemieślnik
 
 operarius, i [noun] [m] [II]
-()
+(Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt)
 1. robotnik
+
+etiam [conj]
+1. jeszcze
+2. także
+
+ager, agri [noun] [m] [II]
+(Agricolae in agris laborant)
+1. rola, pole
+
+aro, āre, āvī, ātum [verb] [I]
+(Agricolae terram arant)
+1. orać
+
+nauta, ae [noun] [m] [I]
+(Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt)
+1. żeglarz
+
+perītus, a, um [adj] 
+(Nautae periti navigant)
+1. doświadczony
+
+nāvigo, āre, āvī, ātum [verb] [I]
+(Nautae periti navigant)
+1. żeglować
+
+divitiae, divitiārum [noun] [f] [I] [pl]
+(Fabri patriae divitias parant)
+1. bogactwa
+
+paro, āre, āvī, ātum [verb] [I]
+(Fabri patriae divitias parant)
+1. przygotowywać
+2. zdobywać
+
+prōsum, prōdesse, profuī [verb]
+(Fabri patriae prosunt)
+1. pomagać, być pożytecznym
+
+quia [conj]
+(Patriam amāmus non quia magna est sed quia nostra)
+1. ponieważ
+
+sed [conj]
+(Patriam amāmus non quia magna est sed quia nostra)
+1. lecz
+
+erro, āre, āvī, ātum [verb] [I]
+(Errare humanum est)
+1. mylić się
+
+affirmo, āre, āvī, ātum [verb] [I]
+(Errant, qui affirmant: "Ibi patria, ubi bene")
+1. twierdzić
+
+bene [adv]
+(Errant, qui affirmant: "Ibi patria, ubi bene")
+1. dobrze
+
+humanum, i [noun] [n] [II]
+(Errare humanum est)
+1. rzecz ludzka
+
+rarus, a, um [adj]
+(Rarus fortūna suā contentus)
+1. rzadki, mało kto
+
+numquam [adv]
+(Numquam fortunā nostrā contenti sumus)
+1. nigdy
+
+libenter [adv]
+(Marcus libros libenter legit)
+1. chętnie
+
+cum [conj]
+(Vade mecum)
+1. z (kim, czym) (+ abl)
