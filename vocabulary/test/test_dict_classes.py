@@ -34,7 +34,17 @@ def test_verb_from_entry_head():
     assert verb.perfect == 'avi'
     assert verb.supine == 'atum'
     assert verb.conjugation == 'I'
-    # todo handle and test case when not all forms are given
+
+
+def test_verb_from_entry_head_partial():
+    line = 'sum, esse, fuī [verb]'
+    verb = LatinVerb.from_entry_head(line)
+    assert verb.base == 'sum'
+    assert verb.head_raw == line
+    assert verb.infinite == 'esse'
+    assert verb.perfect == 'fuī'
+    assert verb.supine is None
+    assert verb.conjugation is None
 
 
 def test_is_noun():

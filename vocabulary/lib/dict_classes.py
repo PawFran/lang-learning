@@ -29,12 +29,19 @@ class LatinVerb(AbstractWord):
     @staticmethod
     def from_entry_head(head):
         split = head.split(',')
+
+        def get_nth(word_split, n):
+            return word_split[n].strip().split(' ')[0].strip()
+
+        def get_supine(word_split):
+            return get_nth(word_split, 3) if len(word_split) > 3 else None
+
         return LatinVerb(
             base=split[0].strip(),
             head_raw=head,
-            infinite=split[1].strip(),
-            perfect=split[2].strip(),
-            supine=split[3].strip().split(' ')[0].strip(),
+            infinite=get_nth(split, 1),
+            perfect=get_nth(split, 2),
+            supine=get_supine(split),
             conjugation=LatinVerb.which_conjugation(head)
         )
 
