@@ -101,6 +101,21 @@ class LatinAdverb(AbstractWord):
 
 
 @dataclass
+class LatinConjunction(AbstractWord):
+
+    @staticmethod
+    def is_conjunction(dict_entry_head):
+        return '[conj]' in dict_entry_head.lower()
+
+    @staticmethod
+    def from_entry_head(head):
+        return LatinConjunction(
+            base=head.split(' ')[0],
+            head_raw=head
+        )
+
+
+@dataclass
 class LatinAdjective(AbstractWord):
     femininum: str
     neutrum: str

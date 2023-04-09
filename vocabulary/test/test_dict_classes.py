@@ -86,6 +86,18 @@ def test_adverb_from_entry_head():
     assert adverb.head_raw == line
 
 
+def test_is_conjunction():
+    assert LatinConjunction.is_conjunction('etiam [conj]')
+    assert not LatinConjunction.is_conjunction('vinea, ae [noun] [I] [f]')
+
+
+def test_conjunction_from_entry_head():
+    line = 'etiam [conj]'
+    conjunction = LatinConjunction.from_entry_head(line)
+    assert conjunction.base == 'etiam'
+    assert conjunction.head_raw == line
+
+
 def test_is_adjective():
     assert LatinAdjective.is_adjective('sempiternus, a, um [adj]')
     assert not LatinAdjective.is_adjective('saepe [adv]')

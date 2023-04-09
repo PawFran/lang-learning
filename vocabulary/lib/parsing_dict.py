@@ -59,6 +59,9 @@ def parse_latin_dict_entry(single_group_of_lines):
     elif LatinAdjective.is_adjective(first_line):
         dict_entry_head = LatinAdjective.from_entry_head(first_line)
         return DictionaryEntry(dict_entry_head, example, translations)
+    elif LatinConjunction.is_conjunction(first_line):
+        dict_entry_head = LatinConjunction.from_entry_head(first_line)
+        return DictionaryEntry(dict_entry_head, example, translations)
 
 
 def parse_english_dict_entry(single_group_of_lines):
