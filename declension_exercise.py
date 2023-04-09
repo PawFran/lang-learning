@@ -38,14 +38,13 @@ def random_declension_entry(declensions: Declensions, rng: Generator):
     random_base_word: str = rng.choice(base_words, 1)[0]
     selected_pattern: SingleDeclensionPattern = [p for p in patterns if p.base_word == random_base_word][0]
 
-    selected_case = rng.choice([*DeclensionCase])
-
-    # todo refactor it
     singular: bool = rng.choice([0, 1], 1)[0] == 0
-    # selected_pattern.singular.GENETIVUS
-    number = 'singularis' if singular else 'pluralis'
 
-    return None
+    selected_dict = selected_pattern.singular if singular else selected_pattern.plural
+
+    selected_case = rng.choice([*DeclensionCase]).name.lower()
+
+    return selected_dict[selected_case]
 
 
 if __name__ == '__main__':
@@ -70,6 +69,7 @@ if __name__ == '__main__':
     # todo while true show random dict entry (base word, number, case), after enter the answer
 
     user_input = 'y'
-    # while user_input.lower() != 'n':
-
-    random_declension_entry(declensions_filtered, rng)
+    while user_input.lower() != 'n':
+        random_entry = random_declension_entry(declensions_filtered, rng)
+        print(random_entry)
+        input()
