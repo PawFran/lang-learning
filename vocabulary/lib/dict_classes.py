@@ -168,10 +168,10 @@ class DictionaryEntry:
     translations: list[str]
 
 
-@dataclass
 class Dictionary:
     """full dictionary"""
-    entries: list[DictionaryEntry]
+    def __init__(self, dict_entries: list[DictionaryEntry]):
+        self.entries = dict_entries
 
     def append(self, dict_entry):
         self.entries.append(dict_entry)
