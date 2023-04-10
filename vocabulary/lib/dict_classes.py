@@ -170,8 +170,8 @@ class DictionaryEntry:
 
 class Dictionary:
     """full dictionary"""
-    def __init__(self, dict_entries: list[DictionaryEntry]):
-        self.entries = dict_entries
+    def __init__(self, entries: list[DictionaryEntry]):
+        self.entries = entries
 
     def append(self, dict_entry):
         self.entries.append(dict_entry)
