@@ -35,7 +35,7 @@ declension_dict_singular = single_declension_pattern_dict['ancilla']['first']['f
 declension_dict_plural = single_declension_pattern_dict['ancilla']['first']['femininum']['pluralis']
 
 
-def test_declension_number_from_dict():
+def test_declension_type_from_dict():
     assert DeclensionType.from_string('first') == DeclensionType.I
     assert DeclensionType.from_string('first ') == DeclensionType.I
     assert DeclensionType.from_string('First') == DeclensionType.I
@@ -50,7 +50,7 @@ def test_declension_number_from_dict():
     assert DeclensionType.from_string('third vowel') == DeclensionType.III_vowel
 
 
-def test_declension_number_from_dict_invalid():
+def test_declension_type_from_dict_invalid():
     with pytest.raises(Exception):
         DeclensionType.from_string('firs')
 

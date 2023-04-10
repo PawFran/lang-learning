@@ -33,7 +33,7 @@ class DeclensionType(Enum):
             case 'fifth' | 'v' | 'five' | '5':
                 return DeclensionType.V
             case _:
-                raise Exception(f'cannot parse string {s} to DeclensionNumber')
+                raise Exception(f'cannot parse string {s} to DeclensionType')
 
 
 class DeclensionCase(Enum):
