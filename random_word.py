@@ -44,9 +44,11 @@ if __name__ == "__main__":
                 user_input = 'n'
             else:
                 dictionary.remove(current_entry)
+                if dictionary.length() % 10 == 0:
+                    print(f'words left in dictionary: {dictionary.length()}', end='\n\n')
         else:
             user_input = input('\nProceed ? [y]/n\n').strip()
 
     if dictionary is None or dictionary.length() == 0:
-        print('no words left in dictionary')
+        print('no words left')
     print('terminating..')
