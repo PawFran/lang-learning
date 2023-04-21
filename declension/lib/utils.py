@@ -5,9 +5,13 @@ from declension.lib.declension_classes import SingleDeclensionPattern
 
 
 # todo test it
-def filter_by_number(dictionary: Declensions, numbers: list[DeclensionType]) -> Declensions:
+def filter_by_type(dictionary: Declensions, types: list[DeclensionType]) -> Declensions:
+    # 3rd declension is kind of superset of declensions 3rd consonant/vowel/mixed so it means all of them
+    if DeclensionType.III in types:
+        types += [DeclensionType.III_consonant, DeclensionType.III_vowel, DeclensionType.III_mixed]
+
     return Declensions([declension for declension in dictionary.declensions
-                        if declension.type in numbers])
+                        if declension.type in types])
 
 
 def flatten(lst):

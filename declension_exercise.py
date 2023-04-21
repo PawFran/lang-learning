@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     print()
 
-    declensions_filtered = filter_by_number(declension_all, declensions_to_include)
+    declensions_filtered = filter_by_type(declension_all, declensions_to_include)
 
     # todo when --remove then remove when answer is ok
     # todo when last entry removed summarize nr of correct/wrong answers

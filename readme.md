@@ -36,4 +36,4 @@
 
 ### python declension.py -d <declensions> -r (optional)
 ### where declensions are list of declensions separated by space:
-### all possibilities: 1, 2, 3, 3 consonant, 3 vowel, 3 mixed, 4, 5 (also words instead of numbers are possible and _ or - instead of space)
+### all possibilities: 1, 2, 3, "3 consonant", "3 vowel", "3 mixed", 4, 5 (also words instead of numbers are possible and _ or - instead of space)
