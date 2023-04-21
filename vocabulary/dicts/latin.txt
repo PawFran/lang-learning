@@ -173,3 +173,36 @@ libenter [adv]
 cum [conj]
 (Vade mecum)
 1. z (kim, czym) (+ abl)
+
+lūdō, ere, lūsī, lūsum [verb] [III]
+(Iulia libros non legit, sed in horto ludit)
+1. bawić się
+
+discō, ere, didicī [verb] [III]
+(Nos linquam latinam discimus)
+1. uczyć się
+
+ōtium, iī [noun] [n] [II]
+(Otia post negotia)
+1. odpoczynek
+
+sēdulus, a, um [adj]
+(Agricolae seduli agrum arant)
+1. pilny, pracowity
+
+aedeficium, iī [noun] [n], [II]
+(Operarii aedeficia magna struunt)
+1. budynek
+
+struō, ere, struxī, structum [verb] [III]
+(Operarii aedeficia magna struunt)
+1. budować
+
+negotium, iī [noun] [n] [II]
+(Otia post negotia)
+1. praca
+
+in [prep] 
+(In Polonia habitamus)
+1. do + acc
+2. w + acc

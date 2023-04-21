@@ -1,6 +1,13 @@
 roadmap for language learning
 
-some words cannot be parsed yet - sum, etiam (file latin_to_be_handled.txt)
+add preposition to random word
+
+check for user (if skipped then anonymous - no statistics gathered). how to gather statistics for particular user ? save it in csv for now
+
+declension - '3' is not handled. '3 consonant as well'
+
+declension - remove tylko kiedy poprawne (default)
+
 test na parsowanie slownika - czy nie ma typu none. albo rzucanie wyjatku kiedy nie uda sie czegos sparsowac. zrobic test automatyczny
 
 skrypt do wypisywania samych slow (podstawowa forma)
@@ -8,6 +15,8 @@ skrypt do wypisywania samych slow (podstawowa forma)
 skrypt do wypisywania samych znaczen (pierwsze tlumaczenie)
 
 pytac o znaczenie slowa - wystarczy podac jedno, traktujac slowa oddzielone przecinkiem jako osobne, nie troszczac sie o polskie znaki
+
+pytac o forme inf, perf, sup
 
 tracking user's difficulties (profiles, database, tracking previous progress) and personalizing questions
 also calculating statistics (how memory user has ? how often one should remind him words which were not asked recently ? performance vs frequency)
