@@ -47,6 +47,7 @@ def parse_single_group_of_lines(single_group_of_lines):
 def parse_latin_dict_entry(single_group_of_lines):
     first_line, example, translations = parse_single_group_of_lines(single_group_of_lines)
 
+    # todo do it right (polimorphism)
     if LatinVerb.is_verb(first_line):
         dict_entry_head = LatinVerb.from_entry_head(first_line)
         return DictionaryEntry(dict_entry_head, example, translations)
