@@ -86,6 +86,18 @@ def test_adverb_from_entry_head():
     assert adverb.head_raw == line
 
 
+def test_is_preposition():
+    assert LatinPreposition.is_preposition('in [prep]')
+    assert not LatinPreposition.is_preposition('vinea, ae [noun] [I] [f]')
+
+
+def test_preposition_from_entry_head():
+    line = 'in [prep]'
+    adverb = LatinPreposition.from_entry_head(line)
+    assert adverb.base == 'in'
+    assert adverb.head_raw == line
+
+
 def test_is_conjunction():
     assert LatinConjunction.is_conjunction('etiam [conj]')
     assert not LatinConjunction.is_conjunction('vinea, ae [noun] [I] [f]')

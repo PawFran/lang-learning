@@ -103,6 +103,21 @@ class LatinAdverb(AbstractWord):
 
 
 @dataclass
+class LatinPreposition(AbstractWord):
+
+    @staticmethod
+    def is_preposition(dict_entry_head):
+        return '[prep]' in dict_entry_head.lower()
+
+    @staticmethod
+    def from_entry_head(head):
+        return LatinAdverb(
+            base=head.split(' ')[0],
+            head_raw=head
+        )
+
+
+@dataclass
 class LatinConjunction(AbstractWord):
 
     @staticmethod
@@ -170,6 +185,7 @@ class DictionaryEntry:
 
 class Dictionary:
     """full dictionary"""
+
     def __init__(self, entries: list[DictionaryEntry]):
         self.entries = entries
 
