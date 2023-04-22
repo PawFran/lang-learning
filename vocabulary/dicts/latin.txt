@@ -205,4 +205,64 @@ negotium, iī [noun] [n] [II]
 in [prep] 
 (In Polonia habitamus)
 1. do + acc
-2. w + acc
+2. w + abl
+
+invideo, ēre, īdī, īsum [verb] [II]
+(Agricola nautae fortūnae invidet)
+1. zazdrościć (komus + dat)
+
+beātus, a, um [adj]
+(Beatus est nauta)
+1. szczęśliwy
+
+iam [adv]
+(Fatigatus iam sum sed numquam otium mihi est)
+1. już
+
+ago, ere, ēgi, actum [verb] [III]
+(Tu, agricola, vitam securam agis)
+1. czynić, pędzić
+
+timeō, ēre, uī [verb] [II]
+(Tu, agricola, pericula non times)
+1. bać się
+
+autem [conj]
+(Tu pericula non times. Ego autem ventos et procellas semper timeo)
+1. zaś
+
+traho, ere, traxi, tractum [verb] [III]
+(Verba docent, exempla trahunt)
+1. ciągnąć, pociągać
+
+procella, ae [noun] [f] [I]
+(Ego ventos et procellas semper timeo)
+1. burza
+
+ventus, i [noun] [m] [II]
+(Ego ventos et procellas semper timeo)
+1. wiatr
+
+mūto, āre, āvī, ātum [verb] [I]
+(Deus inquit: fortunam vestram muto)
+1. zmieniać
+
+conscendō, ere, ndī, nsum [verb] [III]
+(Tu autem, agricola, navigium conscende)
+1. wsiadać, dosiadać (+ acc)
+
+maneo, ēre, nsi, nsum [verb] [II]
+(Agricola in casa manet)
+1. zostawać
+
+placeō, ēre, cuī, citum [verb] [II]
+(Saepe aliena nobis placent)
+1. podobać się, być lubianym
+
+per [prep]
+(Per aspera ad astra)
+1. przez (+ acc)
+
+notus, a, um [adj]
+(Notum est dictum Polonum)
+1. znany
