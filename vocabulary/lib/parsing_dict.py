@@ -1,6 +1,7 @@
 import re
 
 from vocabulary.lib.dict_classes import *
+from vocabulary.lib.parsing_args import *
 
 
 def read_file_raw(path):
@@ -113,3 +114,17 @@ def parse_latin_dict(raw_lines, start_word=None, end_word=None):
 
 def parse_english_dict(raw_lines, start_word=None, end_word=None):
     return parse_dict(raw_lines, parse_english_dict_entry, start_word=start_word, end_word=end_word)
+
+
+# full dict parsing from top-level script
+def parse_dictionary(args, dictionary_folder=None):
+    dicts_folder = dictionary_folder if dictionary_folder is not None else os.path.join('vocabulary', 'dicts')
+
+    dict_path = parse_dict_path(args.language, dicts_folder)
+
+    raw_lines = read_file_raw(dict_path)
+    dictionary = parse_english_dict(raw_lines, args.start_word, args.end_word) \
+        if args.language == 'english' \
+        else parse_latin_dict(raw_lines, args.start_word, args.end_word)
+
+    return dictionary

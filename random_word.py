@@ -1,21 +1,12 @@
-from vocabulary.lib.parsing_args import *
 from vocabulary.lib.parsing_dict import *
 from vocabulary.lib.utils import *
-
-import os
 
 # todo return error when no language is set (or provide default and inform about it)
 
 if __name__ == "__main__":
-    dicts_folder = os.path.join('vocabulary', 'dicts')
-
     args = parse_args()
-    dict_path = parse_dict_path(args.language, dicts_folder)
 
-    raw_lines = read_file_raw(dict_path)
-    dictionary = parse_english_dict(raw_lines, args.start_word, args.end_word) \
-        if args.language == 'english' \
-        else parse_latin_dict(raw_lines, args.start_word, args.end_word)
+    dictionary = parse_dictionary(args)
 
     print(f'number of words in dictionary: {dictionary.length()}', end='\n\n')
 
