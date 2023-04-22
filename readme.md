@@ -42,6 +42,8 @@
 
 ### all options are like in _random_word.py_
 
+### in case of -r flag words are removed only after correct answer
+
 # declension
 
 ## how to use it
