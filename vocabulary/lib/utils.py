@@ -16,4 +16,4 @@ def extract_from_square_brackets(pattern, line):
 # todo move it to dict class ?
 def random_dict_entry(dictionary, rng=default_rng()):
     random_index = rng.integers(low=0, high=dictionary.length())
-    return dictionary.entries[random_index]
+    return dictionary.entries[random_index]  # todo rng.choice would be better ?

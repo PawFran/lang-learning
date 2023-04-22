@@ -14,6 +14,8 @@
 
 # random word from dictionary
 
+### printing random words (no users input, read only for learning - first word, then translation)
+
 ## how to use it
 
 ### python random_word.py -h (for help)
@@ -29,6 +31,16 @@
 ### if one of words is not present in dict or end is before start the will be an error
 
 ### random words will appear on the console one by one until user will tell it to stop
+
+# translation
+
+### guessing game - print polish word, then ask for translation and evaluate it
+
+## how to use it
+
+### python translation_exercise.py
+
+### all options are like in _random_word.py_
 
 # declension
 
