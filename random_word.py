@@ -8,7 +8,6 @@ import os
 
 if __name__ == "__main__":
     dicts_folder = os.path.join('vocabulary', 'dicts')
-    rng = default_rng()
 
     args = parse_args()
     dict_path = parse_dict_path(args.language, dicts_folder)
@@ -20,9 +19,11 @@ if __name__ == "__main__":
 
     print(f'number of words in dictionary: {dictionary.length()}', end='\n\n')
 
+    rng = default_rng()
+
     user_input = 'y'
     while user_input.lower() != 'n' and dictionary is not None and dictionary.length() > 0:  # proceed until user explicitly tells to stop
-        current_entry = random_dict_entry(dictionary)
+        current_entry = random_dict_entry(dictionary, rng)
         print(current_entry.head.base, end=' ')
         input('')
         print(current_entry.head.head_raw)
