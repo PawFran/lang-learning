@@ -1,10 +1,17 @@
 roadmap for language learning
 
-add preposition to random word
+strategie do translation i random_word - i w przyszłości też innych:
+wieksza szansa dla tych, ktorych jeszcze nie bylo
+wieksza szansa dla tych, ktorych dawno nie bylo (im dawniej tym wiecej - mala szansa na dwa razy z rzedu to samo)
+wieksza szansa dla tych, ktorzy ostatnio mieli zle odpowiedzi (ratio)
 
-check for user (if skipped then anonymous - no statistics gathered). how to gather statistics for particular user ? save it in csv for now
+pytanie o polskie tlumaczenia
 
-declension - '3' is not handled. '3 consonant as well'
+jakas metoda dodawania hasel do slownika. https://latinaomnibus.pl/index.php?dzial=slowniczek&opcja=slownik (nie ma tam akcentow)
+
+skrypt na dodawanie slow do slownika z poziomu terminala: kilka krokow, walidacja
+
+kolejne formy slownikow (np. gen sing, supinum) powinny byc w slowniku podawane w calosci, nie tylko koncowki. dzieki temu bedzie mozna o nie potem pytac
 
 declension - remove tylko kiedy poprawne (default)
 
@@ -16,7 +23,7 @@ skrypt do wypisywania samych znaczen (pierwsze tlumaczenie)
 
 pytac o znaczenie slowa - wystarczy podac jedno, traktujac slowa oddzielone przecinkiem jako osobne, nie troszczac sie o polskie znaki
 
-pytac o forme inf, perf, sup
+pytac o forme podstawowa, inf, perf, sup
 
 tracking user's difficulties (profiles, database, tracking previous progress) and personalizing questions
 also calculating statistics (how memory user has ? how often one should remind him words which were not asked recently ? performance vs frequency)
