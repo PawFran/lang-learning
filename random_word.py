@@ -1,5 +1,4 @@
 from vocabulary.lib.parsing_dict import *
-from vocabulary.lib.utils import *
 
 # todo return error when no language is set (or provide default and inform about it)
 
