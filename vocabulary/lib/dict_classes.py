@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 
+from numpy.random import default_rng
+
 from common.lib.utils import weak_equals
 from vocabulary.lib.utils import extract_from_square_brackets
 
@@ -217,3 +219,7 @@ class Dictionary:
                 return i
 
         return None
+
+    def random_dict_entry(self, rng=default_rng()):
+        random_index = rng.integers(low=0, high=self.length())
+        return self.entries[random_index]  # todo rng.choice would be better ?

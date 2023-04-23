@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     user_input = 'y'
     while user_input.lower() != 'n' and dictionary is not None and dictionary.length() > 0:  # proceed until user explicitly tells to stop
-        current_entry = random_dict_entry(dictionary, rng)
+        current_entry = dictionary.random_dict_entry(rng)
         print(current_entry.head.base, end=' ')
         input('')
         print(current_entry.head.head_raw)

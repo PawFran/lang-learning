@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     user_input = 'y'
     while user_input.lower() != 'n' and dictionary is not None and dictionary.length() > 0:
-        entry = random_dict_entry(dictionary, rng)
+        entry = dictionary.random_dict_entry(rng)
 
         word_original = entry.head.base
 
