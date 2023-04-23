@@ -24,12 +24,7 @@ if __name__ == '__main__':
         entry = dictionary.random_dict_entry(rng)
 
         word_original = entry.head.base
-
-        try:
-            word_pl = rng.choice(entry.translations)
-            print(word_pl)
-        except ValueError:
-            print(entry.translations) # sometimes unexpected error occurs. this is for debugging
+        word_pl = rng.choice(entry.translations)
 
         answer = input('translation: ')
 
