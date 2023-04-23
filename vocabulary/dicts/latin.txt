@@ -266,3 +266,23 @@ per [prep]
 notus, a, um [adj]
 (Notum est dictum Polonum)
 1. znany
+
+doceo, docēre, docuī, doctum [verb] [II]
+(Verba docent, exampla trahunt)
+1. uczyć
+
+studeo, studēre, studui [verb] [II]
+(Nauta et agricola vitam suam laudare student)
+1. starać się
+
+semper [adv]
+(Ego miser sum, semper laboro)
+1. zawsze
+
+appareo, apparere, apparui [verb] [II]
+(Tum deus apparet)
+1. ukazywać się
+
+tum [adv]
+(Tum deus apparet)
+1. wtedy, następnie
