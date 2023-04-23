@@ -1,6 +1,5 @@
 from vocabulary.lib.db import *
 from vocabulary.lib.parsing_dict import *
-from vocabulary.lib.utils import *
 
 if __name__ == '__main__':
     args = parse_args()
