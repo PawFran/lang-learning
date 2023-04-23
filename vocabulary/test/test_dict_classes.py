@@ -170,7 +170,7 @@ def test_dictionary_append():
     assert dictionary.length() == 1
 
 
-def test_dictionary_remove():
+def test_dictionary_remove_entry():
     word = LatinAdverb(base='saepe', head_raw='saepe [adv]')
     dict_entry = DictionaryEntry(
         head=word,
@@ -179,8 +179,12 @@ def test_dictionary_remove():
     )
     dictionary = Dictionary([dict_entry])
     assert dictionary.length() == 1
-    dictionary.remove(dict_entry)
+    dictionary.remove_entry(dict_entry)
     assert dictionary.length() == 0
+
+
+def test_dictionary_remove_single_translation():
+    pass
 
 
 def test_weak_index():

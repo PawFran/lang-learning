@@ -31,7 +31,7 @@ if __name__ == "__main__":
             elif whats_next == '3':
                 user_input = 'n'
             else:
-                dictionary.remove(current_entry)
+                dictionary.remove_entry(current_entry)
                 if dictionary.length() % 10 == 0:
                     print(f'words left in dictionary: {dictionary.length()}', end='\n\n')
         else:

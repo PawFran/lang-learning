@@ -192,8 +192,16 @@ class Dictionary:
     def append(self, dict_entry):
         self.entries.append(dict_entry)
 
-    def remove(self, dict_entry):
+    def remove_entry(self, dict_entry):
         self.entries.remove(dict_entry)
+
+    # def remove_single_translation(self, dict_entry, translation):
+    #     # if this is last translation remove whole entry
+    #     self.entries
+    #     dict_entry.translations.remove_entry(translation)
+    #     if len(dict_entry.translations) == 0:
+    #
+    #     pass
 
     def length(self):
         return len(self.entries)
