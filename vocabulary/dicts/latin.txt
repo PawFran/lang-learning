@@ -204,8 +204,8 @@ negotium, iī [noun] [n] [II]
 
 in [prep] 
 (In Polonia habitamus)
-1. do + acc
-2. w + abl
+1. do (+ acc)
+2. w (+ abl)
 
 invideo, ēre, īdī, īsum [verb] [II]
 (Agricola nautae fortūnae invidet)

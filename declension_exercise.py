@@ -6,7 +6,7 @@ import os
 
 from numpy.random import default_rng
 
-from common.lib.utils import weak_compare
+from common.lib.utils import weak_equals
 from declension.lib.parsing_args import *
 from declension.lib.utils import *
 
@@ -37,7 +37,7 @@ if __name__ == '__main__':
         declension_prompt = declension_test.prompt
         print(declension_prompt.base_word, declension_prompt.case, declension_prompt.number)
         user_answer = input()
-        if weak_compare(user_answer, declension_test.answer):
+        if weak_equals(user_answer, declension_test.answer):
             print('correct', end='\n\n')
         else:
             print(f'wrong. proper answer is {declension_test.answer}', end='\n\n')

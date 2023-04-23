@@ -26,6 +26,8 @@
 
 ### -a and -z flags are used to subset dictionary using words (start/end) inclusive
 
+### -u flag is useless for now. it makes sense for "translation script" (sets the user to save their results)
+
 ### expressions with more than one word must be put in ""
 
 ### if one of words is not present in dict or end is before start the will be an error

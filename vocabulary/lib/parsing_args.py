@@ -8,6 +8,7 @@ def parse_args():
     parser.add_argument('-r', '--remove', action='store_true')
     parser.add_argument('-a', '--start_word', action='store')
     parser.add_argument('-z', '--end_word', action='store')
+    parser.add_argument('-u', '--user_name', action='store')
     return parser.parse_args()
 
 

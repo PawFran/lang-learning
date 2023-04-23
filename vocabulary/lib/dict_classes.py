@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from common.lib.utils import weak_compare
+from common.lib.utils import weak_equals
 from vocabulary.lib.utils import extract_from_square_brackets
 
 
@@ -204,7 +204,7 @@ class Dictionary:
         '''
         for i in range(self.length()):
             current_item = self.entries[i]
-            if weak_compare(current_item.head.base, base_to_be_found):
+            if weak_equals(current_item.head.base, base_to_be_found):
                 return i
 
         return None

@@ -2,16 +2,16 @@ from common.lib.utils import *
 
 
 def test_weak_compare():
-    assert weak_compare('castīgo', 'castigo')
-    assert weak_compare('castīgo', 'castigo ')
-    assert weak_compare('castīgo', 'castīgo')
-    assert weak_compare('castīgo', 'castīgo ')
-    assert not weak_compare('castīgo', 'castīg')
-    assert weak_compare('castāre', 'castare')
-    assert weak_compare('valdē', 'valde')
+    assert weak_equals('castīgo', 'castigo')
+    assert weak_equals('castīgo', 'castigo ')
+    assert weak_equals('castīgo', 'castīgo')
+    assert weak_equals('castīgo', 'castīgo ')
+    assert not weak_equals('castīgo', 'castīg')
+    assert weak_equals('castāre', 'castare')
+    assert weak_equals('valdē', 'valde')
 
 
 def test_wek_compare_uppercase():
-    assert weak_compare('Ī', 'ī')
-    assert weak_compare('ī', 'Ī')
-    assert weak_compare('Ī', 'I')
+    assert weak_equals('Ī', 'ī')
+    assert weak_equals('ī', 'Ī')
+    assert weak_equals('Ī', 'I')
