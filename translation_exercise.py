@@ -4,6 +4,13 @@ from vocabulary.lib.utils import *
 
 if __name__ == '__main__':
     args = parse_args()
+
+    if args.user_name is None:
+        user = input('you may specify user for tracking progress (press enter to skip): ')
+        args.user_name = user if user != '' else None
+
+    print(f'logged as {args.user_name}')
+
     dictionary = parse_dictionary(args)
 
     db_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
@@ -19,8 +26,11 @@ if __name__ == '__main__':
 
         word_original = entry.head.base
 
-        word_pl = rng.choice(entry.translations)
-        print(word_pl)
+        try:
+            word_pl = rng.choice(entry.translations)
+            print(word_pl)
+        except ValueError:
+            print(entry.translations) # sometimes unexpected error occurs. this is for debugging
 
         answer = input('translation: ')
 
