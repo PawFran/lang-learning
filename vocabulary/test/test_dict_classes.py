@@ -184,7 +184,22 @@ def test_dictionary_remove_entry():
 
 
 def test_dictionary_remove_single_translation():
-    pass
+    word = LatinPreposition(base='in', head_raw='in [prep]')
+    dict_entry = DictionaryEntry(
+        head=word,
+        example='In Polonia habitamus',
+        translations=['do (+ acc)', 'w (+ abl)']
+    )
+
+    dictionary = Dictionary([dict_entry])
+    assert dictionary.length() == 1
+
+    dictionary.remove_single_translation(dict_entry, 'do (+ acc)')
+    assert dictionary.length() == 1
+    assert dictionary.entries[0].translations == ['w (+ abl)']
+
+    dictionary.remove_single_translation(dict_entry, 'do (+ acc)')
+    assert dictionary.length() == 0
 
 
 def test_weak_index():

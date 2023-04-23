@@ -29,7 +29,7 @@ if __name__ == '__main__':
         if is_correct:
             print('correct')
             if args.remove:
-                dictionary.remove(entry)
+                dictionary.remove_single_translation(entry, word_pl)
         else:
             print(f'wrong. correct answer is {word_original}')
 

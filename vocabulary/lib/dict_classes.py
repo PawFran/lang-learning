@@ -195,13 +195,14 @@ class Dictionary:
     def remove_entry(self, dict_entry):
         self.entries.remove(dict_entry)
 
-    # def remove_single_translation(self, dict_entry, translation):
-    #     # if this is last translation remove whole entry
-    #     self.entries
-    #     dict_entry.translations.remove_entry(translation)
-    #     if len(dict_entry.translations) == 0:
-    #
-    #     pass
+    # todo what about non existing translations/entries ?
+    def remove_single_translation(self, dict_entry, translation):
+        # if this is last translation remove whole entry
+        entry = [x for x in self.entries if x == dict_entry][0]
+        if len(entry.translations) == 1:
+            self.remove_entry(dict_entry)
+        else:
+            entry.translations.remove(translation)
 
     def length(self):
         return len(self.entries)
