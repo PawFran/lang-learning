@@ -34,7 +34,7 @@ def test_get():
     assert df.lang[0] == 'latin'
     assert df.translation[0] == 'vinea'
     assert df.correct[0]
-    assert df.last_check[0] == dt.strptime('2023-04-20 12:13:00', datetime_format)
+    assert df.time[0] == dt.strptime('2023-04-20 12:13:00', datetime_format)
 
 
 def test_add_record():
@@ -59,7 +59,7 @@ def test_add_record():
     assert df.lang[4] == lang
     assert df.translation[4] == translation
     assert df.correct[4] == was_correct
-    assert (dt.now() - df.last_check[4]).seconds < 30
+    assert (dt.now() - df.time[4]).seconds < 30
 
 
 @pytest.mark.skip(reason='not used now')

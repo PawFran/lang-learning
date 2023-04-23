@@ -10,7 +10,7 @@ class TranslationExerciseDBHandler:
         self.path = path
 
     def get(self):
-        return pd.read_csv(self.path, sep=';', parse_dates=['last_check'], date_format=datetime_format)
+        return pd.read_csv(self.path, sep=';', parse_dates=['time'], date_format=datetime_format)
 
     def update_db(self, user: str, word_pl: str, lang: str, translation, was_correct: bool):
         df = pd.read_csv(self.path, sep=';')
@@ -26,7 +26,7 @@ class TranslationExerciseDBHandler:
                                 'lang': lang,
                                 'translation': translation,
                                 'correct': was_correct,
-                                'last_check': dt.now().replace(microsecond=0)
+                                'time': dt.now().replace(microsecond=0)
                                 }, index=[0])
 
         return pd.concat([df, new_row])
@@ -39,6 +39,6 @@ class TranslationExerciseDBHandler:
         column_to_update = 'correct' if was_correct else 'wrong'
 
         df.loc[row_id, column_to_update] = past_record.loc[row_id, column_to_update] + 1
-        df.loc[row_id, 'last_check'] = dt.now().replace(microsecond=0)
+        df.loc[row_id, 'time'] = dt.now().replace(microsecond=0)
 
         return df
