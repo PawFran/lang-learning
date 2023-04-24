@@ -26,6 +26,8 @@ if __name__ == '__main__':
         word_original = entry.head.base
         word_pl = rng.choice(entry.translations)
 
+        print(word_pl)
+
         answer = input('translation: ')
 
         is_correct = weak_equals(answer, word_original)
