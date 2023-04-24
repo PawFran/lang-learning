@@ -37,7 +37,7 @@ if __name__ == '__main__':
             if args.remove:
                 dictionary.remove_single_translation(entry, word_pl)
         else:
-            print(f'wrong. correct answer is {word_original}')
+            print(f'wrong. correct answer is {word_original} ({entry.example})')
 
         if args.user_name is not None:
             db_handler.update_db(user=args.user_name, word_pl=word_pl,
