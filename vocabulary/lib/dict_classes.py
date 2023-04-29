@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-import pandas as pd
+import numpy as np
 from numpy.random import default_rng
 
 from common.lib.utils import weak_equals
@@ -227,3 +227,72 @@ class Dictionary:
     def random_dict_entry(self, rng=default_rng()) -> DictionaryEntry:
         random_index = rng.integers(low=0, high=self.length())
         return self.entries[random_index]  # todo rng.choice would be better ?
+
+    # todo test it ?
+    def dict_words_df(self) -> pd.DataFrame:
+        dict_words_placeholder = dict()
+
+        i = 0
+        for entry in self.entries:
+            for translation in entry.translations:
+                dict_words_placeholder[i] = [entry.head.base, translation]
+                i += 1
+
+        return pd.DataFrame.from_dict(dict_words_placeholder) \
+            .transpose().rename(columns={0: 'translation', 1: 'word_pl'})
+
+    def word_distribution(self, db: pd.DataFrame, n_last_times: int) -> pd.DataFrame:
+        dict_words = self.dict_words_df()
+
+        db_merged_with_dict = db.merge(dict_words, left_on=['translation', 'word_pl'],
+                                       right_on=['translation', 'word_pl'], how='right') \
+            .sort_values(by='time', ascending=True, na_position='first', inplace=False)
+
+        last_time_per_word = db_merged_with_dict.groupby(['translation', 'word_pl'])[
+            'time'].last().to_frame().reset_index().rename(
+            columns={'time': 'last_time'})
+
+        df_merged_last_time = db_merged_with_dict.merge(last_time_per_word, left_on=['translation', 'word_pl'],
+                                                        right_on=['translation', 'word_pl'], how='left') \
+            .drop(['time', 'correct'], axis=1, inplace=False) \
+            .drop_duplicates()
+
+        last_n_times = db_merged_with_dict.groupby(['translation', 'word_pl'])[['time', 'correct']].apply(
+            lambda x: x.tail(n_last_times)).reset_index().drop('level_2', axis=1)
+
+        correct_ratio_col_name = f'correct_ratio_last_{n_last_times}_times'
+
+        correct_ratio_last_n_times = last_n_times.groupby(['word_pl', 'translation'])[
+            'correct'].mean().to_frame().reset_index() \
+            .rename(columns={'correct': correct_ratio_col_name})
+
+        df_with_statistics = db_merged_with_dict.merge(correct_ratio_last_n_times, left_on=['translation', 'word_pl'],
+                                                       right_on=['translation', 'word_pl'], how='right') \
+            .drop(['correct', 'time'], axis=1) \
+            .drop_duplicates() \
+            .merge(df_merged_last_time, left_on=['translation', 'word_pl'], right_on=['translation', 'word_pl']) \
+            .sort_values('last_time', na_position='first') \
+            .reset_index().drop('index', axis=1)
+
+        df_with_statistics_last_time_null = df_with_statistics[df_with_statistics.last_time.isnull()]
+        df_with_statistics_last_time_not_null = df_with_statistics[~df_with_statistics.last_time.isnull()].sort_values(
+            by=[correct_ratio_col_name, 'last_time'])
+
+        df_concatenated = pd.concat([df_with_statistics_last_time_null, df_with_statistics_last_time_not_null])
+
+        # all this probability part could me moved to another method
+        rng = np.flip(np.arange(1, len(df_concatenated) + 1))
+        s = sum(rng)
+        probabilities = [x / s for x in rng]
+
+        df_final = df_concatenated.assign(probabilities=probabilities).reset_index().drop('index', axis=1)
+
+        # new words should have equal probability, without ranking
+        probability_for_new_words = df_final[df_final.last_time.isnull()].probabilities.mean()
+        df_final.loc[df_final.last_time.isnull(), 'probabilities'] = probability_for_new_words
+
+        # use np.nan instead of usual one
+        df_final.loc[df_final[correct_ratio_col_name].isnull(), correct_ratio_col_name] = np.nan
+
+        return df_final
+
