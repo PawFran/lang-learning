@@ -1,8 +1,10 @@
 from dataclasses import dataclass
 
+import pandas as pd
 from numpy.random import default_rng
 
 from common.lib.utils import weak_equals
+from vocabulary.lib.db import *
 from vocabulary.lib.utils import extract_from_square_brackets
 
 
@@ -188,8 +190,9 @@ class DictionaryEntry:
 class Dictionary:
     """full dictionary"""
 
-    def __init__(self, entries: list[DictionaryEntry]):
+    def __init__(self, entries: list[DictionaryEntry], lang: str):
         self.entries = entries
+        self.lang = lang
 
     def append(self, dict_entry):
         self.entries.append(dict_entry)
@@ -220,6 +223,7 @@ class Dictionary:
 
         return None
 
-    def random_dict_entry(self, rng=default_rng()):
+    # todo test it (1-el dict, 2-el dict)
+    def random_dict_entry(self, rng=default_rng()) -> DictionaryEntry:
         random_index = rng.integers(low=0, high=self.length())
         return self.entries[random_index]  # todo rng.choice would be better ?

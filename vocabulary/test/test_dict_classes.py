@@ -163,7 +163,7 @@ def test_dictionary_append():
         example='De Varsoviā poetae saepe narrant',
         translations=['często']
     )
-    dictionary = Dictionary(list())
+    dictionary = Dictionary(list(), lang='latin')
 
     assert dictionary.length() == 0
     dictionary.append(dict_entry)
@@ -177,7 +177,7 @@ def test_dictionary_remove_entry():
         example='De Varsoviā poetae saepe narrant',
         translations=['często']
     )
-    dictionary = Dictionary([dict_entry])
+    dictionary = Dictionary([dict_entry], lang='latin')
     assert dictionary.length() == 1
     dictionary.remove_entry(dict_entry)
     assert dictionary.length() == 0
@@ -191,7 +191,7 @@ def test_dictionary_remove_single_translation():
         translations=['do (+ acc)', 'w (+ abl)']
     )
 
-    dictionary = Dictionary([dict_entry])
+    dictionary = Dictionary([dict_entry], lang='latin')
     assert dictionary.length() == 1
 
     dictionary.remove_single_translation(dict_entry, 'do (+ acc)')
@@ -215,7 +215,7 @@ def test_weak_index():
         translations=['bardzo']
     )
 
-    dictionary = Dictionary(entries=[dict_entry1, dict_entry2])
+    dictionary = Dictionary(entries=[dict_entry1, dict_entry2], lang='latin')
 
     assert dictionary.weak_index('saepe') == 0
     assert dictionary.weak_index('valdē') == 1

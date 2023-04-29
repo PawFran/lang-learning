@@ -167,7 +167,7 @@ def test_parse_dict_subset():
         translations=['ciągły, trwały, wieczny']
     )
 
-    dictionary = Dictionary([dict_entry1, dict_entry2, dict_entry3])
+    dictionary = Dictionary([dict_entry1, dict_entry2, dict_entry3], lang='latin')
 
     assert dict_subset(dictionary).length() == 3
 

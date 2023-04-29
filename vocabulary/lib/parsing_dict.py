@@ -94,13 +94,13 @@ def dict_subset(dictionary, start_word=None, end_word=None):
         return None
 
     entries_subset = dictionary.entries[start_index: end_index + 1]
-    return Dictionary(entries_subset)
+    return Dictionary(entries_subset, dictionary.lang)
 
 
-def parse_dict(raw_lines, parser_for_dict_entry, start_word=None, end_word=None):
+def parse_dict(raw_lines, parser_for_dict_entry, lang: str, start_word=None, end_word=None):
     raw_lines_grouped = group_raw_lines(raw_lines)
 
-    dictionary = Dictionary(list())
+    dictionary = Dictionary(entries=list(), lang=lang)
     for single_group in raw_lines_grouped:
         dict_entry = parser_for_dict_entry(single_group)
         dictionary.append(dict_entry)
@@ -109,11 +109,11 @@ def parse_dict(raw_lines, parser_for_dict_entry, start_word=None, end_word=None)
 
 
 def parse_latin_dict(raw_lines, start_word=None, end_word=None):
-    return parse_dict(raw_lines, parse_latin_dict_entry, start_word=start_word, end_word=end_word)
+    return parse_dict(raw_lines, parse_latin_dict_entry, lang='latin', start_word=start_word, end_word=end_word)
 
 
 def parse_english_dict(raw_lines, start_word=None, end_word=None):
-    return parse_dict(raw_lines, parse_english_dict_entry, start_word=start_word, end_word=end_word)
+    return parse_dict(raw_lines, parse_english_dict_entry, lang='english', start_word=start_word, end_word=end_word)
 
 
 # full dict parsing from top-level script
