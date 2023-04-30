@@ -46,10 +46,14 @@
 
 ### in case of -r flag words are removed only after correct answer
 
+### when user is set smart sampling is user (more chances for new words, words which were guessed incorrectly during last 3 trials, words that were asked a long time ago)
+
 # declension
 
 ## how to use it
 
 ### python declension.py -d <declensions> -r (optional)
+
 ### where declensions are list of declensions separated by space:
+
 ### all possibilities: 1, 2, 3, "3 consonant", "3 vowel", "3 mixed", 4, 5 (also words instead of numbers are possible and _ or - instead of space)

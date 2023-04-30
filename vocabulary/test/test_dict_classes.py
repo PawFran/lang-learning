@@ -2,6 +2,7 @@ import math
 from datetime import timedelta
 
 import numpy as np
+import pytest
 
 import vocabulary.lib.db
 from vocabulary.lib.dict_classes import *
@@ -228,6 +229,38 @@ def test_weak_index():
     assert dictionary.weak_index('impel') is None
 
 
+def test_find_by_base_word_and_translation():
+    dict_entry_1 = DictionaryEntry(
+        head=LatinPreposition(base='in', head_raw='in [prep]'),
+        example='In Polonia habitamus',
+        translations=['do (+ acc)', 'pomiędzy, wśród (+ acc)', 'w (+ abl)']
+    )
+
+    dict_entry_2 = DictionaryEntry(
+        head=LatinAdverb(base='saepe', head_raw='saepe [adv]'),
+        example='De Varsoviā poetae saepe narrant',
+        translations=['często']
+    )
+
+    dictionary = Dictionary([dict_entry_1, dict_entry_2], lang='latin')
+
+    found_1 = dictionary.find_by_base_word_and_translation(base='in', word_pl='do (+ acc)')
+    found_2 = dictionary.find_by_base_word_and_translation(base='in', word_pl='pomiędzy, wśród (+ acc)')
+    found_3 = dictionary.find_by_base_word_and_translation(base='saepe', word_pl='często')
+
+    assert found_1.entry == dict_entry_1
+    assert found_1.translation == 'do (+ acc)'
+
+    assert found_2.entry == dict_entry_1
+    assert found_2.translation == 'pomiędzy, wśród (+ acc)'
+
+    assert found_3.entry == dict_entry_2
+    assert found_3.translation == 'często'
+
+    with pytest.raises(Exception):
+        dictionary.find_by_base_word_and_translation(base='in', word_pl='często')
+
+
 def test_word_distribution():
     dict_entry_1 = DictionaryEntry(
         head=LatinPreposition(base='in', head_raw='in [prep]'),
@@ -258,7 +291,8 @@ def test_word_distribution():
     t1 = dt.strptime('2020-01-01 12:30:00', vocabulary.lib.db.datetime_format)
 
     db = pd.DataFrame({
-        'word_pl': ['do (+ acc)', 'do (+ acc)', 'bardzo', 'często', 'pomiędzy, wśród (+ acc)', 'bardzo', 'do (+ acc)', 'do (+ acc)'],
+        'word_pl': ['do (+ acc)', 'do (+ acc)', 'bardzo', 'często', 'pomiędzy, wśród (+ acc)', 'bardzo', 'do (+ acc)',
+                    'do (+ acc)'],
         'translation': ['in', 'in', 'valdē', 'saepe', 'in', 'valdē', 'in', 'in'],
         'correct': [True, False, False, False, True, False, False, True],
         'time': [t1 - timedelta(minutes=int(x)) for x in np.arange(8)]
@@ -272,28 +306,17 @@ def test_word_distribution():
         'translation': ['enim', 'in', 'saepe', 'valdē', 'in', 'in'],
         'correct_ratio_last_3_times': [np.nan, np.nan, 0, 0, 1 / 3, 1],
         'last_time': [None, None, t(3), t(2), t(0), t(4)],
-        'probabilities': [(6+5) / 21 / 2, (6+5) / 21 / 2, 4 / 21, 3 / 21, 2 / 21, 1 / 21]
+        'probabilities': [(6 + 5) / 21 / 2, (6 + 5) / 21 / 2, 4 / 21, 3 / 21, 2 / 21, 1 / 21]
     })
 
     res = dictionary.word_distribution(db, n_last_times=3)
 
-    assert(
-        (to_be[['word_pl', 'translation']] == res[['word_pl', 'translation']]).all().all()
-    )
+    assert (to_be[['word_pl', 'translation']] == res[['word_pl', 'translation']]).all().all()
 
-    assert(
-        (to_be.probabilities - res.probabilities).sum() < 0.0001
-    )
+    assert (to_be.probabilities - res.probabilities).sum() < 0.0001
 
-    assert(
-        (to_be.iloc[2:, :] == res.iloc[2:, :]).all().all()
-    )
+    assert (to_be.iloc[2:, :] == res.iloc[2:, :]).all().all()
 
     # None and math.nan has to be compared differently
-    assert(
-        res.iloc[:2, :].correct_ratio_last_3_times.isnull().all()
-    )
-
-    assert (
-        res.iloc[:2, :].correct_ratio_last_3_times.isnull().all()
-    )
+    assert res.iloc[:2, :].correct_ratio_last_3_times.isnull().all()
+    assert res.iloc[:2, :].last_time.isnull().all()

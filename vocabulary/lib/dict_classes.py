@@ -187,6 +187,12 @@ class DictionaryEntry:
     translations: list[str]
 
 
+@dataclass
+class DictEntryWithSingleTranslationHighlighted:
+    entry: DictionaryEntry
+    translation: str
+
+
 class Dictionary:
     """full dictionary"""
 
@@ -213,9 +219,9 @@ class Dictionary:
         return len(self.entries)
 
     def weak_index(self, base_to_be_found):
-        '''
+        """
         finds index of the word using weak compare
-        '''
+        """
         for i in range(self.length()):
             current_item = self.entries[i]
             if weak_equals(current_item.head.base, base_to_be_found):
@@ -227,6 +233,19 @@ class Dictionary:
     def random_dict_entry(self, rng=default_rng()) -> DictionaryEntry:
         random_index = rng.integers(low=0, high=self.length())
         return self.entries[random_index]  # todo rng.choice would be better ?
+
+    # returns base and one particular translation instead of the whole dict entry
+    def random_entry_with_translation(self, rng=default_rng()) -> DictEntryWithSingleTranslationHighlighted:
+        # all word/translation pairs
+        # get random
+
+        dict_entries_with_single_translation = []
+        for entry in self.entries:
+            for translation in entry.translations:
+                dict_entries_with_single_translation.append(
+                    DictEntryWithSingleTranslationHighlighted(entry, translation))
+
+        return rng.choice(dict_entries_with_single_translation)
 
     # todo test it ?
     def dict_words_df(self) -> pd.DataFrame:
@@ -296,3 +315,33 @@ class Dictionary:
 
         return df_final
 
+    def find_by_base_word_and_translation(self, base, word_pl) -> DictEntryWithSingleTranslationHighlighted:
+        entries = [entry for entry in self.entries if entry.head.base == base and word_pl in entry.translations]
+
+        if len(entries) > 1:
+            raise Exception(
+                f'word/translation pair should always be unique ! this is apparently not the case for {base}/{word_pl} (found {entries})')
+        if len(entries) == 0:
+            raise Exception(f'cannot find dict entry for {base}/{word_pl}')
+
+        return DictEntryWithSingleTranslationHighlighted(entries[0], word_pl)
+
+    # some statistical tests ?
+    def smart_random_dict_entry_with_translation(self, db_hadler: TranslationExerciseDBHandler, user: str, n_times=3,
+                                                 rng=default_rng()) -> DictEntryWithSingleTranslationHighlighted:
+
+        translation_record = db_hadler.get().query('user == @user and lang == @self.lang').drop(['user', 'lang'],
+                                                                                                axis=1)
+
+        distribution = self.word_distribution(translation_record, n_times)
+
+        # find entry by combination of word_pl and translation
+
+        words_with_translations = list(zip(distribution.word_pl.values, distribution.translation.values))
+        probabilities = distribution.probabilities.values
+
+        choice = rng.choice(words_with_translations, p=probabilities)
+        word_pl = choice[0]
+        word_original = choice[1]
+
+        return self.find_by_base_word_and_translation(base=word_original, word_pl=word_pl)
