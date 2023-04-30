@@ -1,12 +1,12 @@
-castīgo, āre, āvī, ātum [verb] [I]
+castīgo, castīgāre, castīgāvī, castīgātum [verb] [I]
 (Ancillam miseram domina sevēra castīgat)
 1. karać
 
-vinea, ae [noun] [I] [f]
+vinea, vineae [noun] [I] [f]
 (Ancillae in vineā labōrant)
 1. winnica
 
-spectō, āre, āvī, ātum [verb] [I]
+spectō, spectāre, spectāvī, spectātum [verb] [I]
 (Specta, Sophia. En, Victoriae statua clara)
 1. patrzeć, widzieć
 
@@ -14,7 +14,7 @@ valdē [adv]
 (Varsoviam valde amamus)
 1. bardzo
 
-laudō, āre, āvī, ātum [verb] [I]
+laudō, laudāre, laudāvī, laudātum [verb] [I]
 (Marīa amīcam amat et laudat)
 1. chwalić
 
@@ -22,11 +22,11 @@ saepe [adv]
 (De Varsoviā poetae saepe narrant)
 1. często
 
-sempiternus, a, um [adj]
+sempiternus, sempiterna, sempiternum [adj]
 (Verae amicitiae sempiternae sunt)
 1. ciągły, trwały, wieczny
 
-habeo, ēre, buī, bitum [verb] [II]
+habeo, habēre, habuī, habitum [verb] [II]
 (Marcus discipulus est, libros multos habet)
 1. mieć
 
@@ -42,31 +42,31 @@ ibi [adv]
 (Ibi victoria ubi concordia)
 1. tam
 
-concordia, ae [noun] [I] [f]
+concordia, concordiae [noun] [I] [f]
 (Ibi victoria, ubi concordia)
 1. zgoda
 
-monstrō, āre, āvi, ātum [verb] [I]
+monstrō, monstrāre, monstrāvi, monstrātum [verb] [I]
 (Servis dominus hortum monstrat)
 1. pokazywać
 
-cūrō, āre, āvi, ātum [verb] [I]
+cūrō, cūrāre, cūrāvi, cūrātum [verb] [I]
 (O servi, Spartacus fortūna vestrae curat!)
 1. troszczyć się, dbać (o coś + dat)
 
-properō, āre, āvi, ātum [verb] [I]
+properō, properāre, properāvi, properātum [verb] [I]
 (Puer Romānus in scholam properat)
 1. spieszyć się, spieszyć
 
-fīnitimī, ōrum [noun] [II] [m] [pl]
+fīnitimī, fīnitimōrum [noun] [II] [m] [pl]
 (Polōnis finitimi sunt: ..)
 1. sąsiedzi
 
 fluvius, iī [noun] [II] [m]
-(TBD)
+(Nautae Neptūno, Oceani et fluviōrum deo, equos at tauros mactābant)
 1. rzeka
 
-do, āre, dedī, datum [verb], [I]
+do, dāre, dedī, datum [verb], [I]
 (Matrona tunicas ancillis dat)
 1. dawać
 
@@ -74,15 +74,15 @@ sum, esse, fuī [verb]
 (Marcus discipulus est)
 1. być
 
-incola, ae [noun] [I] [m/f]
+incola, incolae [noun] [I] [m/f]
 (Varsovia incolis Poloniae cara est)
 1. mieszkaniec
 
-habitō, āre, āvī, ātum [verb] [I]
+habitō, habitāre, habitāvī, habitātum [verb] [I]
 (Nos Poloni in Polonia habitamus)
 1. mieszkać
 
-celebrō, āre, āvī, ātum [verb] [I]
+celebrō, celebrāre, celebrāvī, celebrātum [verb] [I]
 (Poētae Polonōrum gloriam patriae nostrae celebrant)
 1. rozgłaszać
 
@@ -90,31 +90,30 @@ faber, fabri [noun] [m] [II]
 (Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt)
 1. rzemieślnik
 
-operarius, i [noun] [m] [II]
+operarius, operarii [noun] [m] [II]
 (Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt)
 1. robotnik
 
 etiam [conj]
 1. jeszcze
-2. także
 
 ager, agri [noun] [m] [II]
 (Agricolae in agris laborant)
 1. rola, pole
 
-aro, āre, āvī, ātum [verb] [I]
+aro, arāre, arāvī, arātum [verb] [I]
 (Agricolae terram arant)
 1. orać
 
-nauta, ae [noun] [m] [I]
+nauta, nautae [noun] [m] [I]
 (Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt)
 1. żeglarz
 
-perītus, a, um [adj] 
+perītus, perīta, perītum [adj] 
 (Nautae periti navigant)
 1. doświadczony
 
-nāvigo, āre, āvī, ātum [verb] [I]
+nāvigo, nāvigāre, nāvigāvī, nāvigātum [verb] [I]
 (Nautae periti navigant)
 1. żeglować
 
@@ -122,7 +121,7 @@ divitiae, divitiārum [noun] [f] [I] [pl]
 (Fabri patriae divitias parant)
 1. bogactwa
 
-paro, āre, āvī, ātum [verb] [I]
+paro, parāre, parāvī, parātum [verb] [I]
 (Fabri patriae divitias parant)
 1. przygotowywać
 2. zdobywać
@@ -139,11 +138,11 @@ sed [conj]
 (Patriam amāmus non quia magna est sed quia nostra)
 1. lecz
 
-erro, āre, āvī, ātum [verb] [I]
+erro, errāre, errāvī, errātum [verb] [I]
 (Errare humanum est)
 1. mylić się
 
-affirmo, āre, āvī, ātum [verb] [I]
+affirmo, affirmāre, affirmāvī, affirmātum [verb] [I]
 (Errant, qui affirmant: "Ibi patria, ubi bene")
 1. twierdzić
 
@@ -151,11 +150,11 @@ bene [adv]
 (Errant, qui affirmant: "Ibi patria, ubi bene")
 1. dobrze
 
-humanum, i [noun] [n] [II]
+humanum, humani [noun] [n] [II]
 (Errare humanum est)
 1. rzecz ludzka
 
-rarus, a, um [adj]
+rarus, rara, rarum [adj]
 (Rarus fortūna suā contentus)
 1. rzadki, mało kto
 
@@ -171,31 +170,31 @@ cum [conj]
 (Vade mecum)
 1. z (kim, czym) (+ abl)
 
-lūdō, ere, lūsī, lūsum [verb] [III]
+lūdō, lūdere, lūsī, lūsum [verb] [III]
 (Iulia libros non legit, sed in horto ludit)
 1. bawić się
 
-discō, ere, didicī [verb] [III]
+discō, discere, didicī [verb] [III]
 (Nos linquam latinam discimus)
 1. uczyć się
 
-ōtium, iī [noun] [n] [II]
+ōtium, ōtiī [noun] [n] [II]
 (Otia post negotia)
 1. odpoczynek
 
-sēdulus, a, um [adj]
+sēdulus, sēdula, sēdulum [adj]
 (Agricolae seduli agrum arant)
 1. pilny, pracowity
 
-aedeficium, iī [noun] [n], [II]
+aedeficium, aedeficiī [noun] [n], [II]
 (Operarii aedeficia magna struunt)
 1. budynek
 
-struō, ere, struxī, structum [verb] [III]
+struō, struere, struxī, structum [verb] [III]
 (Operarii aedeficia magna struunt)
 1. budować
 
-negotium, iī [noun] [n] [II]
+negotium, negotiī [noun] [n] [II]
 (Otia post negotia)
 1. praca
 
@@ -204,11 +203,11 @@ in [prep]
 1. do (+ acc)
 2. w (+ abl)
 
-invideo, ēre, īdī, īsum [verb] [II]
+invideo, invidēre, invidīdī, invidīsum [verb] [II]
 (Agricola nautae fortūnae invidet)
 1. zazdrościć (komus + dat)
 
-beātus, a, um [adj]
+beātus, beāta, beātum [adj]
 (Beatus est nauta)
 1. szczęśliwy
 
@@ -216,11 +215,11 @@ iam [adv]
 (Fatigatus iam sum sed numquam otium mihi est)
 1. już
 
-ago, ere, ēgi, actum [verb] [III]
+ago, agere, ēgi, actum [verb] [III]
 (Tu, agricola, vitam securam agis)
 1. czynić, pędzić
 
-timeō, ēre, uī [verb] [II]
+timeō, timēre, timuī [verb] [II]
 (Tu, agricola, pericula non times)
 1. bać się
 
@@ -228,27 +227,27 @@ autem [conj]
 (Tu pericula non times. Ego autem ventos et procellas semper timeo)
 1. zaś
 
-traho, ere, traxi, tractum [verb] [III]
+traho, trahere, traxi, tractum [verb] [III]
 (Verba docent, exempla trahunt)
 1. ciągnąć, pociągać
 
-procella, ae [noun] [f] [I]
+procella, procellae [noun] [f] [I]
 (Ego ventos et procellas semper timeo)
 1. burza
 
-ventus, i [noun] [m] [II]
+ventus, venti [noun] [m] [II]
 (Ego ventos et procellas semper timeo)
 1. wiatr
 
-mūto, āre, āvī, ātum [verb] [I]
+mūto, mūtāre, mūtāvī, mūtātum [verb] [I]
 (Deus inquit: fortunam vestram muto)
 1. zmieniać
 
-conscendō, ere, ndī, nsum [verb] [III]
+conscendō, conscendere, conscendī, conscensum [verb] [III]
 (Tu autem, agricola, navigium conscende)
 1. wsiadać, dosiadać (+ acc)
 
-maneo, ēre, nsi, nsum [verb] [II]
+maneo, manēre, mansi, mansum [verb] [II]
 (Agricola in casa manet)
 1. zostawać
 
@@ -260,7 +259,7 @@ per [prep]
 (Per aspera ad astra)
 1. przez (+ acc)
 
-notus, a, um [adj]
+notus, nota, notum [adj]
 (Notum est dictum Polonum)
 1. znany
 
@@ -304,7 +303,7 @@ plaudō, plaudere, plausi, plasum [verb] [III]
 (Vos valete et plaudite)
 1. klaskać
 
-parsimonia, ae [noun] [f] [I]
+parsimonia, parsimoniae [noun] [f] [I]
 (Vita rustica parsimonie, diligentiae magistra est)
 1. oszczędność
 
@@ -312,7 +311,7 @@ sī [conj]
 (Si tu vales, bene est, ego valeo)
 1. jeśli
 
-dīligentia, ae [noun] [f] [I]
+dīligentia, dīligentiae [noun] [f] [I]
 (Vita rustica parsimonie, diligentiae magistra est)
 1. pilność
 
@@ -373,7 +372,7 @@ praebeo, praebēre, praebui, praebitum [verb] [II]
 (Divitia tamen magnas curas et magna pericula nautis praebēbant)
 1. dostarczać, przynosić
 
-cūra, ae [noun] [f] [I]
+cūra, cūrae [noun] [f] [I]
 (Divitia tamen magnas curas et magna pericula nautis praebēbant)
 1. troska
 
@@ -386,7 +385,7 @@ macto, mactāre, mactāvī, ātum [verb] [I]
 (Agricolae deis debusque equos et tauros mactābant)
 1. zabijać na ofiarę
 
-sacrifico, āre, āvī, ātum [verb] [I]
+sacrifico, sacrificāre, sacrificāvī, sacrificātum [verb] [I]
 (Agricolae deis debusque agrōrum sacrificābant)
 1. składać ofiarę
 
@@ -401,3 +400,7 @@ fēcundus, fēcunda,fēcundum [adj]
 idōneus, idōnea, idōneum [adj]
 (Terra Italiae fecunda et agricultūrae idonea erat)
 1. odpowiedni, nadający się
+
+mercātūra, mercātūrae [noun] [f] [I]
+(Nautae Mercurium, mercātūrae deum, colēbant)
+1. handel
