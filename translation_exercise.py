@@ -22,7 +22,8 @@ if __name__ == '__main__':
     user_input = 'y'
     while user_input.lower() != 'n' and dictionary is not None and dictionary.length() > 0:
         if args.user_name is not None:
-            random_word_with_translation = dictionary.smart_random_dict_entry_with_translation(db_handler, user=args.user_name,
+            random_word_with_translation = dictionary.smart_random_dict_entry_with_translation(db_handler,
+                                                                                               user=args.user_name,
                                                                                                rng=rng)  # todo in the future parameterize it ?
         else:
             random_word_with_translation = dictionary.random_entry_with_translation(rng)
@@ -42,10 +43,12 @@ if __name__ == '__main__':
             print('correct')
             if args.remove:
                 dictionary.remove_single_translation(entry, word_pl)
-                # todo report how many words left (for multiple of 10)
+                if dictionary.length() % 10 == 0:
+                    print(f'{dictionary.length()} words left in dict')
         else:
             print(f'wrong. correct answer is "{word_original}" ({entry.example})')
-            # todo if another translation from dict was given print it's meaning
+            # todo if another translation from dict was given print it's meaning - not that easy. it may be in original dict but not after some removals
+            # actually sp,e translations may unequivocal (np. także -> etiam, quoque)
 
         if args.user_name is not None:
             db_handler.update_db(user=args.user_name, word_pl=word_pl,
