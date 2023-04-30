@@ -1,9 +1,17 @@
 roadmap for language learning
 
-strategie do translation i random_word - i w przyszłości też innych:
-wieksza szansa dla tych, ktorych jeszcze nie bylo
-wieksza szansa dla tych, ktorych dawno nie bylo (im dawniej tym wiecej - mala szansa na dwa razy z rzedu to samo)
-wieksza szansa dla tych, ktorzy ostatnio mieli zle odpowiedzi (ratio)
+zwiekszyc roznice pomiedzy poszczegolnymi prawdopodobienstwami w smart sampling (np. dwukrotnie)
+
+w każdym skrypcie - filtrowanie tylko pewnych części mowy (trzeba tez filtrowac baze)
+
+dodawać raporty z podsumowaniem jak idzie zgadywanie (jupyter)
+
+symulowac przeciwnikow dla RL w grze w zgadywanie slow. tzn. rozne modele pamieci i zadanie dla RL zeby nauczyc sie uzyskiwac jak najwyzsze rezultaty przeciwko nim
+jakiekolwiek explainable ai dla takich modeli ? w ten sposob mozna by modelowac pamiec roznych osob
+
+dodać esse do koniugacji
+
+niektóre tłumaczenia nie są unikalne. np et, atque, nec non
 
 pytanie o polskie tlumaczenia
 
@@ -16,6 +24,8 @@ kolejne formy slownikow (np. gen sing, supinum) powinny byc w slowniku podawane 
 declension - remove tylko kiedy poprawne (default)
 
 test na parsowanie slownika - czy nie ma typu none. albo rzucanie wyjatku kiedy nie uda sie czegos sparsowac. zrobic test automatyczny
+
+walidacja, czy kazde slowo ma przyklad w "()"
 
 skrypt do wypisywania samych slow (podstawowa forma)
 

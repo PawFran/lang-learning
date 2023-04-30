@@ -104,3 +104,19 @@ harness [verb]
 gruesome [adj]
 (It would be pretty gruesome to have each movie fight consisting of the main character slowly hacking someone else to death)
 1. Extremely unpleasant and shocking, and usually dealing with death or injury 
+
+littering [noun]
+(However, if everyone in the network decides to litter, the entire population faces much more severe negative payoffs)
+1. the act of dropping rubbish on the ground in public places
+
+pervasive [adj]
+(Because this kind of conflict between individual rationality and group rationality seems so pervasive, a number of attempts have been made to resolve the Prosiner's Dilemma)
+1. present or noticeable in every part of a thing or place
+
+contingent [adj]
+(Perhaps he should make his choice contingent on what he thinks Rose will do)
+1. depending on something else in the future in order to happen
+
+defect [verb]
+(He could decide to cooperate if he thinks Rose will cooperate, but defect if he thinks Rose will defect)
+1. to leave a country, political party, etc., especially in order to join an opposing one

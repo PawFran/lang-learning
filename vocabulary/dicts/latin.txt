@@ -26,10 +26,6 @@ sempiternus, a, um [adj]
 (Verae amicitiae sempiternae sunt)
 1. ciągły, trwały, wieczny
 
-libenter [adv]
-(Marcus discipulus est, libros libenter legit)
-1. chętnie
-
 habeo, ēre, buī, bitum [verb] [II]
 (Marcus discipulus est, libros multos habet)
 1. mieć
@@ -67,6 +63,7 @@ fīnitimī, ōrum [noun] [II] [m] [pl]
 1. sąsiedzi
 
 fluvius, iī [noun] [II] [m]
+(TBD)
 1. rzeka
 
 do, āre, dedī, datum [verb], [I]
@@ -269,7 +266,7 @@ notus, a, um [adj]
 
 doceo, docēre, docuī, doctum [verb] [II]
 (Verba docent, exampla trahunt)
-1. uczyć
+1. uczyć, nauczać
 
 studeo, studēre, studui [verb] [II]
 (Nauta et agricola vitam suam laudare student)
@@ -286,3 +283,121 @@ appareo, apparere, apparui [verb] [II]
 tum [adv]
 (Tum deus apparet)
 1. wtedy, następnie
+
+ūnanimus, ūnanima, ūnanimum [adj]
+(Ego tu sum, tu es ego, unanimi sumus)
+1. jednomyślny, zgodny
+
+gratus, grata, gratum [adj]
+(Tibi vita rustica grata est, mihi vita urbana)
+1. miły
+
+quoque [conj]
+(Tu quoque, mi fili ?)
+1. także
+
+valeō, valēre, valuī, valitus [verb] [II]
+(Vos valete et plaudite)
+1. być zdrowym, mieć się dobrze
+
+plaudō, plaudere, plausi, plasum [verb] [III]
+(Vos valete et plaudite)
+1. klaskać
+
+parsimonia, ae [noun] [f] [I]
+(Vita rustica parsimonie, diligentiae magistra est)
+1. oszczędność
+
+sī [conj]
+(Si tu vales, bene est, ego valeo)
+1. jeśli
+
+dīligentia, ae [noun] [f] [I]
+(Vita rustica parsimonie, diligentiae magistra est)
+1. pilność
+
+difficile [adv]
+(Naturam mutare difficile est)
+1. trudno
+
+opulentus, opulenta, opulentum [adj]
+(Opulentus vir romanus non laborabat)
+1. bogaty
+
+iūmentum, iūmenti [noun] [n] [II]
+(Servi hortum atque iumenta curabat)
+1. zwierzę pociągowe
+
+atque [conj]
+(Servi hortum atque iumenta curabat)
+1. i
+
+liber, libri [noun] [n] [II]
+(Vir rusticus libros arāre docēbat)
+1. dziecko
+
+parvus, parva, parvum [adj]
+(Vir rusticus, qui parvum agellus habēbat..)
+1. mały
+
+dēbeō, debēre, debuī, debitum [verb] [II]
+(Vir rusticus magna cura laborare debebat)
+1. być dłużnym (komuś)
+2. zawdzięczać (coś komuś)
+
+tantum [adv]
+(Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
+1. tylko
+
+aut [conj]
+(Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
+1. lub
+
+frūmentum, frumenti [noun] [n] [II]
+(Nautae in alienas terras navigābant, frumentum advehēbant)
+1. zboże
+
+adveho, advehere, advexi, advectum [verb] [III]
+(Nautae in alienas terras navigābant, frumentum advehēbant)
+1. dowozić
+
+vendo, vendere, vendidi, venditum [verb] [III]
+(Nautae frumentum advehēbant et incolis Romae vendēbant)
+1. sprzedawać
+
+tamen [adv]
+(Divitia tamen magnas curas et magna pericula nautis praebēbant)
+1. jednak
+
+praebeo, praebēre, praebui, praebitum [verb] [II]
+(Divitia tamen magnas curas et magna pericula nautis praebēbant)
+1. dostarczać, przynosić
+
+cūra, ae [noun] [f] [I]
+(Divitia tamen magnas curas et magna pericula nautis praebēbant)
+1. troska
+
+colo, colere, colui, cultum [verb] [III] 
+(Agricolae antīqui multos deos colēbant)
+1. uprawiać
+2. czcić
+
+macto, mactāre, mactāvī, ātum [verb] [I]
+(Agricolae deis debusque equos et tauros mactābant)
+1. zabijać na ofiarę
+
+sacrifico, āre, āvī, ātum [verb] [I]
+(Agricolae deis debusque agrōrum sacrificābant)
+1. składać ofiarę
+
+enim [conj]
+(Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
+1. bowiem
+
+fēcundus, fēcunda,fēcundum [adj]
+(Terra Italiae fecunda et agricultūrae idonea erat)
+1. urodzajny
+
+idōneus, idōnea, idōneum [adj]
+(Terra Italiae fecunda et agricultūrae idonea erat)
+1. odpowiedni, nadający się
