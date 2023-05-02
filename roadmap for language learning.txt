@@ -1,5 +1,11 @@
 roadmap for language learning
 
+dodac infinitivus praesentis passivi do conjugation.json
+
+dodac esse
+
+jak zadziala smart sampling w przypadku filtrowania (podzbiory wyrazow) ?
+
 zwiekszyc roznice pomiedzy poszczegolnymi prawdopodobienstwami w smart sampling (np. dwukrotnie)
 
 w każdym skrypcie - filtrowanie tylko pewnych części mowy (trzeba tez filtrowac baze)

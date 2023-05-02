@@ -270,6 +270,7 @@ doceo, docēre, docuī, doctum [verb] [II]
 studeo, studēre, studui [verb] [II]
 (Nauta et agricola vitam suam laudare student)
 1. starać się
+2. oddawać się czemuś, zajmować się czymś (+ dat)
 
 semper [adv]
 (Ego miser sum, semper laboro)
@@ -404,3 +405,23 @@ idōneus, idōnea, idōneum [adj]
 mercātūra, mercātūrae [noun] [f] [I]
 (Nautae Mercurium, mercātūrae deum, colēbant)
 1. handel
+
+ĭtăquĕ [conj]
+(Itaque Romani agriculturae studēbant)
+1. więc
+
+cupio, cupere, cupivi, cupitum [verb] [III]
+(Nautae terras alienas visitant, sed patriam suam vidēre cupiunt)
+1. pragnąć
+
+video, vidēre, vidi,visum [verb] [II]
+(Nautae terras alienas visitant, sed patriam suam vidēre cupiunt)
+1. widzieć
+
+scio, scīre, scivi, scitum [verb] [IV]
+(Nautae perīti pericula vitāre sciunt)
+1. umieć
+
+vītō, vītāre, vītāvī, vītātum [verb] [I]
+(Nautae perīti pericula vitāre sciunt)
+1. unikać
