@@ -1,5 +1,9 @@
 roadmap for language learning
 
+deepl glossary https://www.deepl.com/pl/docs-api/glossaries/list-glossaries/ - could be better than elastic / mongo db
+
+ukryć klucz do API deepl
+
 dodac infinitivus praesentis passivi do conjugation.json
 
 dodac esse

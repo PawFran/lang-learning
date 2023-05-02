@@ -1,5 +1,6 @@
 import re
 import sys
+from urllib.parse import quote
 
 import requests
 from bs4 import BeautifulSoup
@@ -38,7 +39,6 @@ def conjunction_metadata() -> str:
 
 
 def adjective_metadata(grammatical_info) -> str:
-    # todo add info about feminine and neutrum forms
     return '[adj]'
 
 
@@ -122,6 +122,21 @@ def adjective_forms(word) -> str:
     return f'{femininum}, {neutrum}'
 
 
+def deepl_translation_en_to_pl(en_word) -> str:
+    text_encoded = quote(en_word)
+    data = f'text={text_encoded}&source_lang=EN&target_lang=PL'
+
+    response = requests.post('https://api-free.deepl.com/v2/translate', headers=deepl_headers, data=data)
+
+    # can be more than one translation ?
+    pl_translations = response.json()['translations']
+
+    if len(pl_translations) > 1:
+        raise Exception(f'unexpectedly more than one translation was returned: {en_word} -> {pl_translations}')
+
+    return pl_translations[0]['text']
+
+
 verb_pattern = '.+ verb .+'
 noun_pattern = '.+ noun .+'
 adverb_pattern = 'adverb'
@@ -130,6 +145,11 @@ conjunction_pattern = 'conjunction'
 adjective_pattern = 'adjective'
 
 base_URL = 'https://www.online-latin-dictionary.com/latin-english-dictionary.php'
+
+deepl_headers = {
+    'Authorization': 'DeepL-Auth-Key 0346e75c-3679-c5ed-4ac4-260beade18db:fx',
+    'Content-Type': 'application/x-www-form-urlencoded',
+}
 
 for input_word in sys.argv[1:]:
     URL = base_URL + f'?parola={input_word}'
@@ -143,6 +163,7 @@ for input_word in sys.argv[1:]:
     grammatical_info = results.find_all("span", class_="grammatica")[0].text
 
     translations = [x.text for x in results.find_all("span", class_="english")]
+    polish_translations = [deepl_translation_en_to_pl(x) for x in translations]
 
     print(word, end='')
 
@@ -167,7 +188,7 @@ for input_word in sys.argv[1:]:
         print(' cannot parse. printing raw instead')
         print(grammatical_info)
 
-    for t, i in zip(translations, range(len(translations))):
+    for t, i in zip(polish_translations, range(len(polish_translations))):
         print(f'{i + 1}. {t}')
 
     print('')
