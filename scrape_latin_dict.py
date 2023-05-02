@@ -40,7 +40,7 @@ def conjunction_metadata() -> str:
     return '[conj]'
 
 
-def adjective_metadata(grammatical_info) -> str:
+def adjective_metadata() -> str:
     return '[adj]'
 
 
