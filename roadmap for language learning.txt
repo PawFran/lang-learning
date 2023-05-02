@@ -1,5 +1,9 @@
 roadmap for language learning
 
+usuwanie duplikatów z wyników scrape'owania
+
+może przykłady w słowniku powinny bić opcjonalne ?
+
 deepl glossary https://www.deepl.com/pl/docs-api/glossaries/list-glossaries/ - could be better than elastic / mongo db
 
 ukryć klucz do API deepl
@@ -28,8 +32,6 @@ pytanie o polskie tlumaczenia
 jakas metoda dodawania hasel do slownika. https://latinaomnibus.pl/index.php?dzial=slowniczek&opcja=slownik (nie ma tam akcentow)
 
 skrypt na dodawanie slow do slownika z poziomu terminala: kilka krokow, walidacja
-
-kolejne formy slownikow (np. gen sing, supinum) powinny byc w slowniku podawane w calosci, nie tylko koncowki. dzieki temu bedzie mozna o nie potem pytac
 
 declension - remove tylko kiedy poprawne (default)
 

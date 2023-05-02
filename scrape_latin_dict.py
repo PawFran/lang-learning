@@ -8,6 +8,8 @@ from bs4 import BeautifulSoup
 if len(sys.argv) == 1:
     raise Exception('must give at least one argument (word to be found)')
 
+output_temporary_file_name = 'scraping_out_tmp.txt'
+
 
 def verb_metadata(grammatical_info) -> str:
     split = grammatical_info.split(' ')
@@ -151,44 +153,64 @@ deepl_headers = {
     'Content-Type': 'application/x-www-form-urlencoded',
 }
 
-for input_word in sys.argv[1:]:
-    URL = base_URL + f'?parola={input_word}'
+print('processing..')
+with open(output_temporary_file_name, 'w') as f:
+    for input_word in sys.argv[1:]:
+        URL = base_URL + f'?parola={input_word}'
 
-    page = requests.get(URL)
-    soup = BeautifulSoup(page.content, "html.parser")
+        page = requests.get(URL)
+        soup = BeautifulSoup(page.content, "html.parser")
 
-    results = soup.find(id="myth")
+        results = soup.find(id="myth")
 
-    word = results.find_all("span", class_="lemma")[0].text
-    grammatical_info = results.find_all("span", class_="grammatica")[0].text
+        word = results.find_all("span", class_="lemma")[0].text
+        grammatical_info = results.find_all("span", class_="grammatica")[0].text
 
-    translations = [x.text for x in results.find_all("span", class_="english")]
-    polish_translations = [deepl_translation_en_to_pl(x) for x in translations]
+        translations = [x.text for x in results.find_all("span", class_="english")]
+        polish_translations = [deepl_translation_en_to_pl(x) for x in translations]
 
-    print(word, end='')
-
-
-    def is_present(pattern) -> bool:
-        return re.search(pattern, grammatical_info) is not None
+        print(word, end='')
+        f.write(word)
 
 
-    if is_present(verb_pattern):
-        print(f', {verb_forms(input_word)} {verb_metadata(grammatical_info)}')
-    elif is_present(noun_pattern):
-        print(f', {full_gen_pl(input_word)} {noun_metadata(grammatical_info)}')
-    elif is_present(adverb_pattern):
-        print(f' {adverb_metadata()}')
-    elif is_present(preposition_pattern):
-        print(f' {preposition_metadata()}')
-    elif is_present(conjunction_pattern):
-        print(f' {conjunction_metadata()}')
-    elif is_present(adjective_pattern):
-        print(f', {adjective_forms(input_word)} {adjective_metadata(grammatical_info)}')
-    else:
-        print(' cannot parse. printing raw instead')
-        print(grammatical_info)
+        def is_present(pattern) -> bool:
+            return re.search(pattern, grammatical_info) is not None
 
-    for t, i in zip(polish_translations, range(len(polish_translations))):
-        print(f'{i + 1}. {t}')
 
-    print('')
+        if is_present(verb_pattern):
+            msg = f', {verb_forms(input_word)} {verb_metadata(grammatical_info)}\n'
+            print(msg, end='')
+            f.write(msg)
+        elif is_present(noun_pattern):
+            msg = f', {full_gen_pl(input_word)} {noun_metadata(grammatical_info)}\n'
+            print(msg, end='')
+            f.write(msg)
+        elif is_present(adverb_pattern):
+            msg = f' {adverb_metadata()}\n'
+            print(msg, end='')
+            f.write(msg)
+        elif is_present(preposition_pattern):
+            msg = f' {preposition_metadata()}\n'
+            print(msg, end='')
+            f.write(msg)
+        elif is_present(conjunction_pattern):
+            msg = f' {conjunction_metadata()}\n'
+            print(msg, end='')
+            f.write(msg)
+        elif is_present(adjective_pattern):
+            msg = f', {adjective_forms(input_word)} {adjective_metadata(grammatical_info)}\n'
+            print(msg, end='')
+            f.write(msg)
+        else:
+            msg = ' cannot parse. printing raw instead\n'
+            print(msg, end='')
+            f.write(msg)
+            f.write(grammatical_info)
+
+        for t, i in zip(polish_translations, range(len(polish_translations))):
+            msg = f'{i + 1}. {t}\n'
+            print(msg, end='')
+            f.write(msg)
+
+        print('\n', end='')
+        f.write('\n')
