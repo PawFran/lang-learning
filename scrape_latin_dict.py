@@ -198,7 +198,7 @@ with open(output_temporary_file_name, 'w') as f:
             print(msg, end='')
             f.write(msg)
         elif is_present(adjective_pattern):
-            msg = f', {adjective_forms(input_word)} {adjective_metadata(grammatical_info)}\n'
+            msg = f', {adjective_forms(input_word)} {adjective_metadata()}\n'
             print(msg, end='')
             f.write(msg)
         else:
