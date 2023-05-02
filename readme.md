@@ -57,3 +57,9 @@
 ### where declensions are list of declensions separated by space:
 
 ### all possibilities: 1, 2, 3, "3 consonant", "3 vowel", "3 mixed", 4, 5 (also words instead of numbers are possible and _ or - instead of space)
+
+# scraping dict
+
+## how to use it
+
+### python scrape_latin_dict.py [list of words separated by spaces]
