@@ -33,8 +33,8 @@ if __name__ == '__main__':
 
     user_input = 'y'
     while user_input.lower() != 'n':
-        declension_test = random_declension_entry(declensions_filtered, rng)
-        declension_prompt = declension_test.prompt
+        declension_test: DeclensionTest = random_declension_entry(declensions_filtered, rng)
+        declension_prompt: DeclensionPrompt = declension_test.prompt
         print(declension_prompt.base_word, declension_prompt.case, declension_prompt.number)
         user_answer = input()
         if weak_equals(user_answer, declension_test.answer):
