@@ -1,0 +1,912 @@
+{
+  "laudāre": {
+    "first": {
+      "indicativus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "first": "laudo",
+              "second": "laudas",
+              "third": "laudat"
+            },
+            "pluralis": {
+              "first": "laudāmus",
+              "second": "laudātis",
+              "third": "laudant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "laudor",
+              "second": "laudāris",
+              "third": "laudātur"
+            },
+            "pluralis": {
+              "first": "laudāmur",
+              "second": "laudāmini",
+              "third": "laudāntur"
+            }
+          }
+        }, 
+        "imperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "laudābam",
+              "second": "laudābas",
+              "third": "laudābat"
+            },
+            "pluralis": {
+              "first": "laudabāmus",
+              "second": "laudabātis",
+              "third": "laudābant"
+            }
+          }, 
+          "passivus": {
+            "singularis": {
+              "first": "laudābar",
+              "second": "laudabāris",
+              "third": "laudabātur"
+            },
+            "pluralis": {
+              "first": "laudabāmur",
+              "second": "laudabamini",
+              "third": "laudabantur"
+            }
+          }
+        }, 
+        "futurum_I": {
+          "activus": {
+            "singularis": {
+              "first": "laudābo",
+              "second": "laudābis",
+              "third": "laudābit"
+            },
+            "pluralis": {
+              "first": "laudabimus",
+              "second": "laudabitis",
+              "third": "laudābunt"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "laudābor",
+              "second": "laudaberis",
+              "third": "laudabitur"
+            },
+            "pluralis": {
+              "first": "laudabimur",
+              "second": "laudabimini",
+              "third": "laudabuntur"
+            }
+          }
+        },
+        "perfectum": {
+          "activus": {
+            "singularis": {
+              "first": "laudavi",
+              "second": "laudavisti",
+              "third": "laudavit"
+            },
+            "pluralis": {
+              "first": "laudavimus",
+              "second": "laudavistis",
+              "third": "laudavērunt"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "laudatus sum",
+              "second": "laudatus es",
+              "third": "laudatus est"
+            },
+            "pluralis": {
+              "first": "laudati sumus",
+              "second": "laudati estis",
+              "third": "laudati sunt"
+            }
+          }
+        }, 
+        "plusquamperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "laudaveram",
+              "second": "laudaveras",
+              "third": "laudaverat"
+            },
+            "pluralis": {
+              "first": "laudaverāmus",
+              "second": "laudaverātis",
+              "third": "laudaverant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "laudatus eram",
+              "second": "laudatus eras",
+              "third": "laudatus erat"
+            },
+            "pluralis": {
+              "first": "laudati eramus",
+              "second": "laudati eratis",
+              "third": "laudati erant"
+            }
+          }
+        }, 
+        "futurum_II": {
+          "activus": {
+            "singularis": {
+              "first": "laudavero",
+              "second": "laudaveris",
+              "third": "laudaverit"
+            },
+            "pluralis": {
+              "first": "laudaverimus",
+              "second": "laudaveritis",
+              "third": "laudaverint"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "laudatus ero",
+              "second": "laudatus eris",
+              "third": "laudatus erit"
+            },
+            "pluralis": {
+              "first": "laudati erimus",
+              "second": "laudati eritis",
+              "third": "laudati erunt"
+            }
+          }
+        }
+      },
+      "imperativus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "second": "lauda"
+            },
+            "pluralis": {
+              "second": "laudāte"
+            }
+          }, 
+          "passivus": {
+            "singularis": {
+              "second": "laudāre"
+            },
+            "pluralis": {
+              "second": "laudamini"
+            }
+          }
+        }
+      }
+    }
+  },
+  "monēre": {
+    "second": {
+      "indicativus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "first": "moneo",
+              "second": "mones",
+              "third": "monet"
+            },
+            "pluralis": {
+              "first": "monēmus",
+              "second": "monētis",
+              "third": "monent"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "moneor",
+              "second": "monēris",
+              "third": "monētur"
+            },
+            "pluralis": {
+              "first": "monēmur",
+              "second": "monemini",
+              "third": "monēntur"
+            }
+          }
+        }, 
+        "imperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "monēbam",
+              "second": "monēbas",
+              "third": "monēbat"
+            },
+            "pluralis": {
+              "first": "monebāmus",
+              "second": "monebātis",
+              "third": "monēbant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "monēbar",
+              "second": "monebēris",
+              "third": "monebātur"
+            },
+            "pluralis": {
+              "first": "monebāmur",
+              "second": "monebamini",
+              "third": "monebantur"
+            }
+          }
+        }, 
+        "futurum_I": {
+          "activus": {
+            "singularis": {
+              "first": "monēbo",
+              "second": "monēbis",
+              "third": "monēbit"
+            },
+            "pluralis": {
+              "first": "monebimus",
+              "second": "monebitis",
+              "third": "monēbunt"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "monēbor",
+              "second": "moneberis",
+              "third": "monebitur"
+            },
+            "pluralis": {
+              "first": "monebimur",
+              "second": "monebimini",
+              "third": "monebuntur"
+            }
+          }
+        },
+        "perfectum": {
+          "activus": {
+            "singularis": {
+              "first": "monui",
+              "second": "monuisti",
+              "third": "monuit"
+            },
+            "pluralis": {
+              "first": "monuimus",
+              "second": "monuistis",
+              "third": "monuērunt"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "monitus sum",
+              "second": "monitus es",
+              "third": "monitus est"
+            },
+            "pluralis": {
+              "first": "moniti sumus",
+              "second": "moniti estis",
+              "third": "moniti sunt"
+            }
+          }
+        },
+        "plusquamperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "monueram",
+              "second": "monueras",
+              "third": "monuerat"
+            },
+            "pluralis": {
+              "first": "monuerāmus",
+              "second": "monuerātis",
+              "third": "monuerant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "monitus eram",
+              "second": "monitus eras",
+              "third": "monitus erat"
+            },
+            "pluralis": {
+              "first": "moniti eramus",
+              "second": "moniti eratis",
+              "third": "moniti erant"
+            }
+          }
+        },
+        "futurum_II": {
+          "activus": {
+            "singularis": {
+              "first": "monuero",
+              "second": "monueris",
+              "third": "monuerit"
+            },
+            "pluralis": {
+              "first": "monuerimus",
+              "second": "monueritis",
+              "third": "monuerint"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "monitus ero",
+              "second": "monitus eris",
+              "third": "monitus erit"
+            },
+            "pluralis": {
+              "first": "moniti erimus",
+              "second": "moniti eritis",
+              "third": "moniti erunt"
+            }
+          }
+        }
+      },
+      "imperativus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "second": "mone"
+            },
+            "pluralis": {
+              "second": "monēte"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "second": "monēre"
+            },
+            "pluralis": {
+              "second": "monemini"
+            }
+          }
+        }
+      }
+    }
+  },
+  "legere": {
+    "third": {
+      "indicativus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "first": "lego",
+              "second": "legis",
+              "third": "legit"
+            },
+            "pluralis": {
+              "first": "legimus",
+              "second": "legitis",
+              "third": "legunt"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "legor",
+              "second": "legeris",
+              "third": "legitur"
+            },
+            "pluralis": {
+              "first": "legimur",
+              "second": "legimini",
+              "third": "leguntur"
+            }
+          }
+        }, 
+        "imperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "legēbam",
+              "second": "legēbas",
+              "third": "legēbat"
+            },
+            "pluralis": {
+              "first": "legebāmus",
+              "second": "legebātis",
+              "third": "legēbant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "legēbar",
+              "second": "legebāris",
+              "third": "legebātur"
+            },
+            "pluralis": {
+              "first": "legebāmur",
+              "second": "legebamini",
+              "third": "legebantur"
+            }
+          }
+        }, 
+        "futurum_I": {
+          "activus": {
+            "singularis": {
+              "first": "legam",
+              "second": "leges",
+              "third": "leget"
+            },
+            "pluralis": {
+              "first": "legēmus",
+              "second": "legētis",
+              "third": "legent"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "legar",
+              "second": "legēris",
+              "third": "legētur"
+            },
+            "pluralis": {
+              "first": "legēmur",
+              "second": "legemini",
+              "third": "legentur"
+            }
+          }
+        },
+        "perfectum": {
+          "activus": {
+            "singularis": {
+              "first": "legi",
+              "second": "legisti",
+              "third": "legit"
+            },
+            "pluralis": {
+              "first": "legimus",
+              "second": "legistis",
+              "third": "legērunt"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "lectus sum",
+              "second": "lectus es",
+              "third": "lectus est"
+            },
+            "pluralis": {
+              "first": "lecti sumus",
+              "second": "lecti estis",
+              "third": "lecti sunt"
+            }
+          }
+        },
+        "plusquamperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "legeram",
+              "second": "legeras",
+              "third": "legerat"
+            },
+            "pluralis": {
+              "first": "legerāmus",
+              "second": "legerātis",
+              "third": "legerant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "lectus eram",
+              "second": "lectus eras",
+              "third": "lectus erat"
+            },
+            "pluralis": {
+              "first": "lecti eramus",
+              "second": "lecti eratis",
+              "third": "lecti erant"
+            }
+          }
+        },
+        "futurum_II": {
+          "activus": {
+            "singularis": {
+              "first": "legero",
+              "second": "legeris",
+              "third": "legerit"
+            },
+            "pluralis": {
+              "first": "legerimus",
+              "second": "legeritis",
+              "third": "legerint"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "lectus ero",
+              "second": "lectus eris",
+              "third": "lectus erit"
+            },
+            "pluralis": {
+              "first": "lecti erimus",
+              "second": "lecti eritis",
+              "third": "lecti erunt"
+            }
+          }
+        }
+      },
+      "imperativus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "second": "lege"
+            },
+            "pluralis": {
+              "second": "legite"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "second": "legere"
+            },
+            "pluralis": {
+              "second": "legimini"
+            }
+          }
+        }
+      }
+    }
+  },
+  "capere": {
+    "third": {
+      "indicativus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "first": "capio",
+              "second": "capis",
+              "third": "capit"
+            },
+            "pluralis": {
+              "first": "capimus",
+              "second": "capitis",
+              "third": "capiunt"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "capior",
+              "second": "caperis",
+              "third": "capitur"
+            },
+            "pluralis": {
+              "first": "capimur",
+              "second": "capimini",
+              "third": "capiuntur"
+            }
+          }
+        }, 
+        "imperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "capiēbam",
+              "second": "capiēbas",
+              "third": "capiēbat"
+            },
+            "pluralis": {
+              "first": "capiebāmus",
+              "second": "capiebātis",
+              "third": "capiēbant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "capiēbar",
+              "second": "capiebāris",
+              "third": "capiebātur"
+            },
+            "pluralis": {
+              "first": "capiebāmur",
+              "second": "capiebamini",
+              "third": "capiebantur"
+            }
+          }
+        }, 
+        "futurum_I": {
+          "activus": {
+            "singularis": {
+              "first": "capiam",
+              "second": "capies",
+              "third": "capiet"
+            },
+            "pluralis": {
+              "first": "capiēmus",
+              "second": "capiētis",
+              "third": "capient"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "capiar",
+              "second": "capiēris",
+              "third": "capiētur"
+            },
+            "pluralis": {
+              "first": "capiēmur",
+              "second": "capiemini",
+              "third": "capientur"
+            }
+          }
+        },
+        "perfectum": {
+          "activus": {
+            "singularis": {
+              "first": "cepi",
+              "second": "cepisti",
+              "third": "cepit"
+            },
+            "pluralis": {
+              "first": "cepimus",
+              "second": "cepistis",
+              "third": "cepērunt"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "captus sum",
+              "second": "captus es",
+              "third": "captus est"
+            },
+            "pluralis": {
+              "first": "capti sumus",
+              "second": "capti estis",
+              "third": "capti sunt"
+            }
+          }
+        },
+        "plusquamperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "ceperam",
+              "second": "ceperas",
+              "third": "ceperat"
+            },
+            "pluralis": {
+              "first": "ceperāmus",
+              "second": "ceperātis",
+              "third": "ceperant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "captus eram",
+              "second": "captus eras",
+              "third": "captus erat"
+            },
+            "pluralis": {
+              "first": "capti eramus",
+              "second": "capti eratis",
+              "third": "capti erant"
+            }
+          }
+        },
+        "futurum_II": {
+          "activus": {
+            "singularis": {
+              "first": "cepero",
+              "second": "ceperis",
+              "third": "ceperit"
+            },
+            "pluralis": {
+              "first": "ceperimus",
+              "second": "ceperitis",
+              "third": "ceperint"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "captus ero",
+              "second": "captus eris",
+              "third": "captus erit"
+            },
+            "pluralis": {
+              "first": "capti erimus",
+              "second": "capti eritis",
+              "third": "capti erunt"
+            }
+          }
+        }
+      },
+      "imperativus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "second": "cape"
+            },
+            "pluralis": {
+              "second": "capite"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "second": "capere"
+            },
+            "pluralis": {
+              "second": "capimini"
+            }
+          }
+        }
+      }
+    }
+  },
+  "audīre": {
+    "fourth": {
+      "indicativus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "first": "audio",
+              "second": "audīs",
+              "third": "audīt"
+            },
+            "pluralis": {
+              "first": "audīmus",
+              "second": "audītis",
+              "third": "audiunt"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "audior",
+              "second": "audīris",
+              "third": "audītur"
+            },
+            "pluralis": {
+              "first": "audīmur",
+              "second": "audimini",
+              "third": "audiuntur"
+            }
+          }
+        }, 
+        "imperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "audiēbam",
+              "second": "audiēbas",
+              "third": "audiēbat"
+            },
+            "pluralis": {
+              "first": "audiebāmus",
+              "second": "audiebātis",
+              "third": "audiēbant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "audiēbar",
+              "second": "audiebāris",
+              "third": "audiebātur"
+            },
+            "pluralis": {
+              "first": "audiebāmur",
+              "second": "audiebamini",
+              "third": "audiebantur"
+            }
+          }
+        }, 
+        "futurum_I": {
+          "activus": {
+            "singularis": {
+              "first": "audiam",
+              "second": "audies",
+              "third": "audiet"
+            },
+            "pluralis": {
+              "first": "audiēmus",
+              "second": "audiētis",
+              "third": "audient"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "audiar",
+              "second": "audiēris",
+              "third": "audiētur"
+            },
+            "pluralis": {
+              "first": "audiēmur",
+              "second": "audiemini",
+              "third": "audientur"
+            }
+          }
+        },
+        "perfectum": {
+          "activus": {
+            "singularis": {
+              "first": "audīvi",
+              "second": "audivisti",
+              "third": "audivit"
+            },
+            "pluralis": {
+              "first": "audivimus",
+              "second": "audivistis",
+              "third": "audiveērunt"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "auditus sum",
+              "second": "auditus es",
+              "third": "auditus est"
+            },
+            "pluralis": {
+              "first": "auditi sumus",
+              "second": "auditi estis",
+              "third": "auditi sunt"
+            }
+          }
+        },
+        "plusquamperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "audiveram",
+              "second": "audiveras",
+              "third": "audiverat"
+            },
+            "pluralis": {
+              "first": "audiverāmus",
+              "second": "audiverātis",
+              "third": "audiverant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "auditus eram",
+              "second": "auditus eras",
+              "third": "auditus erat"
+            },
+            "pluralis": {
+              "first": "auditi eramus",
+              "second": "auditi eratis",
+              "third": "auditi erant"
+            }
+          }
+        },
+        "futurum_II": {
+          "activus": {
+            "singularis": {
+              "first": "audivero",
+              "second": "audiveris",
+              "third": "audiverit"
+            },
+            "pluralis": {
+              "first": "audiverimus",
+              "second": "audiveritis",
+              "third": "audiverint"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "auditus ero",
+              "second": "auditus eris",
+              "third": "auditus erit"
+            },
+            "pluralis": {
+              "first": "auditi erimus",
+              "second": "auditi eritis",
+              "third": "auditi erunt"
+            }
+          }
+        }
+      },
+      "imperativus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "second": "audi"
+            },
+            "pluralis": {
+              "second": "audīte"
+            }
+          }, 
+          "passivus": {
+            "singularis": {
+              "second": "audīre"
+            },
+            "pluralis": {
+              "second": "audimini"
+            }
+          }
+        }
+      }
+    }
+  }
+}
