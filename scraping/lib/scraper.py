@@ -3,6 +3,13 @@ from urllib.parse import quote
 import requests
 from bs4 import BeautifulSoup
 
+verb_pattern = '.+ verb .+'
+noun_pattern = '.+ noun .+'
+adverb_pattern = 'adverb'
+preposition_pattern = 'preposition'
+conjunction_pattern = 'conjunction'
+adjective_pattern = 'adjective'
+
 
 class LatinDictScraper:
 

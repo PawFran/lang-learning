@@ -1,19 +1,12 @@
 import re
 import sys
 
-from scraping.lib.scraper import LatinDictScraper
+from scraping.lib.scraper import *
 
 if len(sys.argv) == 1:
     raise Exception('must give at least one argument (word to be found)')
 
 output_temporary_file_name = 'scraping_out_tmp.txt'
-
-verb_pattern = '.+ verb .+'
-noun_pattern = '.+ noun .+'
-adverb_pattern = 'adverb'
-preposition_pattern = 'preposition'
-conjunction_pattern = 'conjunction'
-adjective_pattern = 'adjective'
 
 base_dict_URL = 'https://www.online-latin-dictionary.com/latin-english-dictionary.php'
 base_flexion_URL = 'https://www.online-latin-dictionary.com/latin-dictionary-flexion.php'
