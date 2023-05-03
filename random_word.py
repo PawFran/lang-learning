@@ -5,6 +5,10 @@ from vocabulary.lib.parsing_dict import *
 if __name__ == "__main__":
     args = parse_args()
 
+    if args.language is None:
+        args.language = 'latin'
+        print(f'no language chosen. {args.language} will be used as default')
+
     dictionary = parse_dictionary(args)
 
     print(f'number of words in dictionary: {dictionary.length()}', end='\n\n')

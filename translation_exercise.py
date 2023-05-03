@@ -1,7 +1,13 @@
 from vocabulary.lib.parsing_dict import *
 
+# todo option to take only a number or percentage of the words rnaked highest (in terms of probability)
+
 if __name__ == '__main__':
     args = parse_args()
+
+    if args.language is None:
+        args.language = 'latin'
+        print(f'no language chosen. {args.language} will be used as default')
 
     if args.user_name is None:
         user = input('you may specify user for tracking progress (press enter to skip): ')
