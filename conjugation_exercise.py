@@ -11,15 +11,14 @@ if __name__ == '__main__':
 
     args = parse_args()
 
-    print(f'remove? {args.remove} (not implemented)')
-
     conjugation_all_table = ConjugationTable.from_file_path(json_file_path)
     conjugations_filtered: ConjugationTable = filter_conjugations(conjugation_all_table, args)
 
     print()
 
     user_input = 'y'
-    while user_input.lower() != 'n':
+    while user_input.lower() != 'n' and len(conjugations_filtered.records) > 0:
+        print(len(conjugations_filtered.records))
         conjugation_record = conjugations_filtered.random_record(rng)
         print(conjugation_record.infinitive, conjugation_record.mood.name.lower(),
               conjugation_record.tense.name.lower(), conjugation_record.voice.name.lower(),
@@ -27,5 +26,9 @@ if __name__ == '__main__':
         user_answer = input()
         if weak_equals(user_answer, conjugation_record.word):
             print('correct', end='\n\n')
+            if args.remove is not None:
+                conjugations_filtered.records.remove(conjugation_record)
         else:
             print(f'wrong. proper answer is {conjugation_record.word}', end='\n\n')
+
+    print('terminating..')
