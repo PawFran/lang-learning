@@ -3,6 +3,7 @@ from dataclasses import dataclass
 import numpy as np
 from numpy.random import default_rng
 
+from common.lib.utils import flatten
 from common.lib.utils import weak_equals
 from vocabulary.lib.db import *
 from vocabulary.lib.utils import extract_from_square_brackets
@@ -218,6 +219,9 @@ class Dictionary:
     def length(self):
         return len(self.entries)
 
+    def translations_nr(self) -> int:
+        return len(flatten(x.translations for x in self.entries))
+
     def weak_index(self, base_to_be_found):
         """
         finds index of the word using weak compare
@@ -317,7 +321,7 @@ class Dictionary:
 
     @staticmethod
     def weights_for_probabilities(arr_length, modifier=0.5):
-        nth_diff = [1 + n*modifier for n in range(arr_length)]
+        nth_diff = [1 + n * modifier for n in range(arr_length)]
         return np.cumsum(nth_diff)
 
     def find_by_base_word_and_translation(self, base, word_pl) -> DictEntryWithSingleTranslationHighlighted:

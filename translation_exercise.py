@@ -15,18 +15,18 @@ if __name__ == '__main__':
 
     print(f'logged as {args.user_name}')
 
-    dictionary = parse_dictionary(args)
+    dictionary: Dictionary = parse_dictionary(args)
 
     db_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
     db_handler = TranslationExerciseDBHandler(db_path)
 
     rng = default_rng()
 
-    print(f'number of words in dictionary: {dictionary.length()}', end='\n\n')
+    print(f'number of translations in dictionary: {dictionary.translations_nr()}', end='\n\n')
     # todo print number of translations ?
 
     user_input = 'y'
-    while user_input.lower() != 'n' and dictionary is not None and dictionary.length() > 0:
+    while user_input.lower() != 'n' and dictionary is not None and dictionary.translations_nr() > 0:
         if args.user_name is not None:
             random_word_with_translation = dictionary.smart_random_dict_entry_with_translation(db_handler,
                                                                                                user=args.user_name,
@@ -49,8 +49,8 @@ if __name__ == '__main__':
             print('correct')
             if args.remove:
                 dictionary.remove_single_translation(entry, word_pl)
-                if dictionary.length() % 10 == 0:
-                    print(f'{dictionary.length()} words left in dict')
+                if dictionary.translations_nr() % 10 == 0:
+                    print(f'{dictionary.translations_nr()} translations left in dict')
         else:
             print(f'wrong. correct answer is "{word_original}" ({entry.example})')
             # todo if another translation from dict was given print it's meaning - not that easy. it may be in original dict but not after some removals
