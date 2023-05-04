@@ -340,6 +340,9 @@ class Dictionary:
         words_with_translations = list(zip(distribution.word_pl.values, distribution.translation.values))
         probabilities = distribution.probabilities.values
 
+        if np.sum(probabilities) != 1:
+            raise Exception(f'''probabilities sum up to {sum(probabilities)} instead to 1: \n{distribution}''')
+
         choice = rng.choice(words_with_translations, p=probabilities)
         word_pl = choice[0]
         word_original = choice[1]
