@@ -1,8 +1,12 @@
 roadmap for language learning
 
+translation exercise: from latin to polish
+
+scrape'ing: usuwanie duplikatów z argumentów wejściowych (albo opcja dodawania zdania)
+
 usuwanie duplikatów z wyników scrape'owania
 
-może przykłady w słowniku powinny bić opcjonalne ?
+może przykłady w słowniku powinny być opcjonalne ?
 
 deepl glossary https://www.deepl.com/pl/docs-api/glossaries/list-glossaries/ - could be better than elastic / mongo db
 
@@ -23,15 +27,7 @@ dodawać raporty z podsumowaniem jak idzie zgadywanie (jupyter)
 symulowac przeciwnikow dla RL w grze w zgadywanie slow. tzn. rozne modele pamieci i zadanie dla RL zeby nauczyc sie uzyskiwac jak najwyzsze rezultaty przeciwko nim
 jakiekolwiek explainable ai dla takich modeli ? w ten sposob mozna by modelowac pamiec roznych osob
 
-dodać esse do koniugacji
-
 niektóre tłumaczenia nie są unikalne. np et, atque, nec non
-
-pytanie o polskie tlumaczenia
-
-jakas metoda dodawania hasel do slownika. https://latinaomnibus.pl/index.php?dzial=slowniczek&opcja=slownik (nie ma tam akcentow)
-
-skrypt na dodawanie slow do slownika z poziomu terminala: kilka krokow, walidacja
 
 declension - remove tylko kiedy poprawne (default)
 
