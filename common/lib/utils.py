@@ -5,3 +5,6 @@ def weak_equals(a, b) -> bool:
                     .replace('ă', 'a').replace('ĕ', 'e').replace('ĭ', 'i').replace('ŏ', 'o').replace('ŭ', 'u')
 
     return replace_special(a.lower()).strip() == replace_special(b.lower()).strip()
+
+def flatten(lst):
+    return [item for sublist in lst for item in sublist]

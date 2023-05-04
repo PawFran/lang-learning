@@ -2,6 +2,7 @@ from numpy.random._generator import Generator
 
 from declension.lib.declension_classes import *
 from declension.lib.declension_classes import SingleDeclensionPattern
+from common.lib.utils import flatten
 
 
 # todo test it
@@ -12,10 +13,6 @@ def filter_by_type(dictionary: Declensions, types: list[DeclensionType]) -> Decl
 
     return Declensions([declension for declension in dictionary.declensions
                         if declension.type in types])
-
-
-def flatten(lst):
-    return [item for sublist in lst for item in sublist]
 
 
 # test it ?
