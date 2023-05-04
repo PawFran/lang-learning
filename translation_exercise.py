@@ -30,6 +30,7 @@ if __name__ == '__main__':
         if args.user_name is not None:
             random_word_with_translation = dictionary.smart_random_dict_entry_with_translation(db_handler,
                                                                                                user=args.user_name,
+                                                                                               n_times=20,
                                                                                                rng=rng)  # todo in the future parameterize it ?
         else:
             random_word_with_translation = dictionary.random_entry_with_translation(rng)
