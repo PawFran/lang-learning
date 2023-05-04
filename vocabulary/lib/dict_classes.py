@@ -299,8 +299,8 @@ class Dictionary:
 
         df_concatenated = pd.concat([df_with_statistics_last_time_null, df_with_statistics_last_time_not_null])
 
-        # all this probability part could me moved to another method
-        rng = np.flip(np.arange(1, len(df_concatenated) + 1))
+        # all this probability part could be moved to another method
+        rng = np.flip(self.weights_for_probabilities(len(df_concatenated)))
         s = sum(rng)
         probabilities = [x / s for x in rng]
 
@@ -314,6 +314,11 @@ class Dictionary:
         df_final.loc[df_final[correct_ratio_col_name].isnull(), correct_ratio_col_name] = np.nan
 
         return df_final
+
+    @staticmethod
+    def weights_for_probabilities(arr_length, modifier=0.5):
+        nth_diff = [1 + n*modifier for n in range(arr_length)]
+        return np.cumsum(nth_diff)
 
     def find_by_base_word_and_translation(self, base, word_pl) -> DictEntryWithSingleTranslationHighlighted:
         entries = [entry for entry in self.entries if entry.head.base == base and word_pl in entry.translations]
@@ -340,8 +345,8 @@ class Dictionary:
         words_with_translations = list(zip(distribution.word_pl.values, distribution.translation.values))
         probabilities = distribution.probabilities.values
 
-        if np.sum(probabilities) != 1:
-            raise Exception(f'''probabilities sum up to {sum(probabilities)} instead to 1: \n{distribution}''')
+        if np.sum(probabilities) < 0.999999:
+            raise Exception(f'''probabilities sum up to {np.sum(probabilities)} instead to 1: \n{distribution}''')
 
         choice = rng.choice(words_with_translations, p=probabilities)
         word_pl = choice[0]

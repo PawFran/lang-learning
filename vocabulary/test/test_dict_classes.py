@@ -259,6 +259,10 @@ def test_find_by_base_word_and_translation():
         dictionary.find_by_base_word_and_translation(base='in', word_pl='często')
 
 
+def test_weights_for_probabilities():
+    assert (Dictionary.weights_for_probabilities(arr_length=5, modifier=0.5) == np.array([1, 2.5, 4.5, 7, 10])).all()
+
+
 def test_word_distribution():
     dict_entry_1 = DictionaryEntry(
         head=LatinPreposition(base='in', head_raw='in [prep]'),
@@ -304,7 +308,8 @@ def test_word_distribution():
         'translation': ['enim', 'in', 'saepe', 'valdē', 'in', 'in'],
         'correct_ratio_last_3_times': [np.nan, np.nan, 0, 0, 1 / 3, 1],
         'last_time': [None, None, t(3), t(2), t(0), t(4)],
-        'probabilities': [(6 + 5) / 21 / 2, (6 + 5) / 21 / 2, 4 / 21, 3 / 21, 2 / 21, 1 / 21]
+        'probabilities': [(13.5 + 10) / 38.5 / 2, (13.5 + 10) / 38.5 / 2, 7 / 38.5, 4.5 / 38.5, 2.5 / 38.5, 1 / 38.5]
+        # more sophisticated method for calculating probabilities is used (see test_weights_for_probabilities)
     })
 
     res = dictionary.word_distribution(db, n_last_times=3)
