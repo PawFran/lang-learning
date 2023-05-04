@@ -312,7 +312,7 @@ def test_word_distribution():
         # more sophisticated method for calculating probabilities is used (see test_weights_for_probabilities)
     })
 
-    res = dictionary.word_distribution(db, n_last_times=3)
+    res = dictionary.words_with_distribution(db, n_last_times=3)
 
     assert (to_be[['word_pl', 'translation']] == res[['word_pl', 'translation']]).all().all()
 

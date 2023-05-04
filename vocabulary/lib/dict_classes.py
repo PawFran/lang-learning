@@ -264,7 +264,7 @@ class Dictionary:
         return pd.DataFrame.from_dict(dict_words_placeholder) \
             .transpose().rename(columns={0: 'translation', 1: 'word_pl'})
 
-    def word_distribution(self, db: pd.DataFrame, n_last_times: int) -> pd.DataFrame:
+    def words_to_be_asked(self, db: pd.DataFrame, n_last_times: int) -> pd.DataFrame:
         dict_words = self.dict_words_df()
 
         db_merged_with_dict = db.merge(dict_words, left_on=['translation', 'word_pl'],
@@ -303,7 +303,10 @@ class Dictionary:
 
         df_concatenated = pd.concat([df_with_statistics_last_time_null, df_with_statistics_last_time_not_null])
 
-        # all this probability part could be moved to another method
+        return df_concatenated
+
+    def word_distribution(self, df_concatenated: pd.DataFrame, n_last_times: int) -> pd.DataFrame:
+        correct_ratio_col_name = f'correct_ratio_last_{n_last_times}_times'  # unfortunately it's duplicated from the method above
         rng = np.flip(self.weights_for_probabilities(len(df_concatenated)))
         s = sum(rng)
         probabilities = [x / s for x in rng]
@@ -318,6 +321,10 @@ class Dictionary:
         df_final.loc[df_final[correct_ratio_col_name].isnull(), correct_ratio_col_name] = np.nan
 
         return df_final
+
+    def words_with_distribution(self, db: pd.DataFrame, n_last_times: int):
+        words_table = self.words_to_be_asked(db, n_last_times)
+        return self.word_distribution(words_table, n_last_times)
 
     @staticmethod
     def weights_for_probabilities(arr_length, modifier=0.5):
@@ -342,7 +349,7 @@ class Dictionary:
         translation_record = db_hadler.get().query('user == @user and lang == @self.lang').drop(['user', 'lang'],
                                                                                                 axis=1)
 
-        distribution = self.word_distribution(translation_record, n_times)
+        distribution = self.words_with_distribution(translation_record, n_times)
 
         # find entry by combination of word_pl and translation
 
