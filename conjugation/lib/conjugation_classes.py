@@ -2,6 +2,8 @@ import json
 from dataclasses import dataclass
 from enum import Enum
 
+from numpy.random import default_rng
+
 
 @dataclass
 class ConjugationType(Enum):
@@ -142,6 +144,12 @@ class ConjugationTable:
     def __init__(self, records: list[SingleConjugationRecord]):
         self.records = records
 
+    def random_record(self, rng=default_rng()) -> SingleConjugationRecord:
+        if len(self.records) == 0:
+            raise Exception("cannot select random entry from empty dict")
+
+        return rng.choice(self.records)
+
     @staticmethod
     def from_dict(d: dict):
         records: list[SingleConjugationRecord] = []
@@ -186,16 +194,3 @@ class ConjugationTable:
         with open(json_file_path) as f:
             d = json.load(f)
             return ConjugationTable.from_dict(d)
-
-
-@dataclass
-class ConjugationPrompt:
-    base_word: str
-    number: str
-    case: str
-
-
-@dataclass
-class ConjugationTest:
-    prompt: ConjugationPrompt
-    answer: str

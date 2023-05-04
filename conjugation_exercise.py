@@ -1,10 +1,9 @@
 import os
 
-from numpy.random import default_rng
-
 from common.lib.utils import weak_equals
 from conjugation.lib.conjugation_classes import *
 from conjugation.lib.parsing_args import parse_args
+from conjugation.lib.utils import filter_conjugations
 
 if __name__ == '__main__':
     rng = default_rng()
@@ -12,33 +11,16 @@ if __name__ == '__main__':
 
     args = parse_args()
 
-    print(f'conjugations to filter: {args.conjugations}')
     print(f'remove? {args.remove} (not implemented)')
 
     conjugation_all_table = ConjugationTable.from_file_path(json_file_path)
-
-    conjugations_to_include = [*ConjugationType] if args.conjugations is None else [ConjugationType.from_string(s)
-                                                                                    for s in args.conjugations]
-    moods_to_include = [*Mood] if args.moods is None else [Mood.from_string(s) for s in args.moods]
-    tenses_to_include = [*Tense] if args.tenses is None else [Tense.from_string(s) for s in args.tenses]
-    voices_to_include = [*Voice] if args.voices is None else [Voice.from_string(s) for s in args.voices]
+    conjugations_filtered: ConjugationTable = filter_conjugations(conjugation_all_table, args)
 
     print()
 
-    conjugations_filtered: ConjugationTable = ConjugationTable([record for record in conjugation_all_table.records if
-                                                                record.conjugation_type in conjugations_to_include])
-
-
-    def random_conjugation_record(conjugations_table: ConjugationTable, rng=default_rng()) -> SingleConjugationRecord:
-        if len(conjugations_table.records) == 0:
-            raise Exception("cannot select random entry from empty dict")
-
-        return rng.choice(conjugations_table.records)
-
-
     user_input = 'y'
     while user_input.lower() != 'n':
-        conjugation_record = random_conjugation_record(conjugations_filtered, rng)
+        conjugation_record = conjugations_filtered.random_record(rng)
         print(conjugation_record.infinitive, conjugation_record.mood.name.lower(),
               conjugation_record.tense.name.lower(), conjugation_record.voice.name.lower(),
               conjugation_record.person.value, 'person', conjugation_record.number.name.lower())
