@@ -31,8 +31,8 @@ class ConjugationType(Enum):
 
 @dataclass
 class Mood(Enum):
-    Indicativus = 1
-    Imperativus = 2
+    Indicativus = 'ind'
+    Imperativus = 'imp'
 
     # todo more will be added
 
@@ -49,12 +49,12 @@ class Mood(Enum):
 
 @dataclass
 class Tense(Enum):
-    Praesens = 1
-    Imperfectum = 2
-    Futurum_I = 3
-    Perfectum = 4
-    Plusquamperfectum = 5
-    Futurum_II = 6
+    Praesens = 'praes'
+    Imperfectum = 'imperf'
+    Futurum_I = 'fut I'
+    Perfectum = 'perf'
+    Plusquamperfectum = 'plusquamperf'
+    Futurum_II = 'fut II'
 
     # todo tests
     @staticmethod
@@ -64,13 +64,13 @@ class Tense(Enum):
                 return Tense.Praesens
             case 'imperfectum' | 'imperfect':
                 return Tense.Imperfectum
-            case 'futurum i' | 'future i':
+            case 'futurum i' | 'future i' | 'fut i':
                 return Tense.Futurum_I
             case 'perfectum' | 'perfect':
                 return Tense.Perfectum
             case 'plusquamperfectum' | 'pluperfect':
                 return Tense.Plusquamperfectum
-            case 'futurum ii' | 'future ii':
+            case 'futurum ii' | 'future ii' | 'fut ii':
                 return Tense.Futurum_II
             case _:
                 raise Exception(f'cannot parse string {s} to Tense')
@@ -78,8 +78,8 @@ class Tense(Enum):
 
 @dataclass
 class Voice(Enum):
-    Activus = 1
-    Passivus = 2
+    Activus = 'act'
+    Passivus = 'pass'
 
     @staticmethod
     def from_string(s: str):
@@ -94,8 +94,8 @@ class Voice(Enum):
 
 @dataclass
 class Number(Enum):
-    Singularis = 1
-    Pluralis = 2
+    Singularis = 'sing'
+    Pluralis = 'pl'
 
     @staticmethod
     def from_string(s: str):
