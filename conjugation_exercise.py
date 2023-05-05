@@ -18,7 +18,6 @@ if __name__ == '__main__':
 
     user_input = 'y'
     while user_input.lower() != 'n' and len(conjugations_filtered.records) > 0:
-        print(len(conjugations_filtered.records))
         conjugation_record = conjugations_filtered.random_record(rng)
         print(conjugation_record.infinitive, conjugation_record.mood.name.lower(),
               conjugation_record.tense.name.lower(), conjugation_record.voice.name.lower(),
