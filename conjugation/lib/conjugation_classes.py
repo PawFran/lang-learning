@@ -60,15 +60,15 @@ class Tense(Enum):
     @staticmethod
     def from_string(s: str):
         match s.lower().replace('_', ' ').replace('-', ' ').strip():
-            case 'praesens' | 'present':
+            case 'praesens' | 'present' | 'praes':
                 return Tense.Praesens
-            case 'imperfectum' | 'imperfect':
+            case 'imperfectum' | 'imperfect' | 'imperf':
                 return Tense.Imperfectum
             case 'futurum i' | 'future i' | 'fut i':
                 return Tense.Futurum_I
-            case 'perfectum' | 'perfect':
+            case 'perfectum' | 'perfect' | 'perf':
                 return Tense.Perfectum
-            case 'plusquamperfectum' | 'pluperfect':
+            case 'plusquamperfectum' | 'pluperfect' | 'plusquamperf':
                 return Tense.Plusquamperfectum
             case 'futurum ii' | 'future ii' | 'fut ii':
                 return Tense.Futurum_II
