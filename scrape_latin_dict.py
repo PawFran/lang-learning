@@ -24,29 +24,36 @@ def print_and_write(text):
     f.write(text)
 
 
-with open(output_temporary_file_name, 'a') as f:
-    for input_word in sys.argv[1:]:
-        soup = scraper.get_dict_soup(input_word)
+def scrape():
+    soup = scraper.get_dict_soup(input_word)
 
+    results = soup.find(id="myth")
+    if results is None:
+        all_links = soup.find_all('a', href=True)
+        links_with_words = [link for link in all_links if 'lemma' in link['href']]
+        # usually this word is given with additional info, ex. "castīgo (tr. v. I conjug.)"
+        new_word = links_with_words[0].text.split(' ')[0]
+        # todo what if no reasonable prompt was given ?
+
+        soup = scraper.get_dict_soup(new_word)
         results = soup.find(id="myth")
         if results is None:
-            all_links = soup.find_all('a', href=True)
-            links_with_words = [link for link in all_links if 'lemma' in link['href']]
-            # usually this word is given with additional info, ex. "castīgo (tr. v. I conjug.)"
-            new_word = links_with_words[0].text.split(' ')[0]
-            # todo what if no reasonable prompt was given ?
+            # should never happen, but still..
+            raise Exception(f'''coldn't find translation for neither {input_word} nor {new_word}''')
 
-            soup = scraper.get_dict_soup(new_word)
-            results = soup.find(id="myth")
-            if results is None:
-                # should never happen, but still..
-                raise Exception(f'''coldn't find translation for neither {input_word} nor {new_word}''')
+    word = results.find_all("span", class_="lemma")[0].text
+    grammatical_info = results.find_all("span", class_="grammatica")[0].text
 
-        word = results.find_all("span", class_="lemma")[0].text
-        grammatical_info = results.find_all("span", class_="grammatica")[0].text
+    translations = [x.text for x in results.find_all("span", class_="english")]
+    polish_translations = [scraper.deepl_translation_en_to_pl(x) for x in translations]
 
-        translations = [x.text for x in results.find_all("span", class_="english")]
-        polish_translations = [scraper.deepl_translation_en_to_pl(x) for x in translations]
+    return word, grammatical_info, polish_translations
+
+
+with open(output_temporary_file_name, 'a') as f:
+    for input_word in sys.argv[1:]:
+
+        word, grammatical_info, polish_translations = scrape()
 
         print_and_write(word)
 
