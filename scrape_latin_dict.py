@@ -1,5 +1,6 @@
 import re
 import sys
+import logging
 
 from scraping.lib.scraper import *
 
@@ -53,32 +54,37 @@ def scrape():
 with open(output_temporary_file_name, 'a') as f:
     for input_word in sys.argv[1:]:
 
-        word, grammatical_info, polish_translations = scrape()
+        try:
+            word, grammatical_info, polish_translations = scrape()
 
-        print_and_write(word)
-
-
-        def is_present(pattern) -> bool:
-            return re.search(pattern, grammatical_info) is not None
+            print_and_write(word)
 
 
-        if is_present(verb_pattern):
-            print_and_write(f', {scraper.verb_forms(word)} {scraper.verb_metadata(grammatical_info)}\n')
-        elif is_present(noun_pattern):
-            print_and_write(f', {scraper.full_gen_pl(word)} {scraper.noun_metadata(grammatical_info)}\n')
-        elif is_present(adverb_pattern):
-            print_and_write(f' {scraper.adverb_metadata()}\n')
-        elif is_present(preposition_pattern):
-            print_and_write(f' {scraper.preposition_metadata()}\n')
-        elif is_present(conjunction_pattern):
-            print_and_write(f' {scraper.conjunction_metadata()}\n')
-        elif is_present(adjective_pattern):
-            print_and_write(f', {scraper.adjective_forms(input_word)} {scraper.adjective_metadata()}\n')
-        else:
-            print_and_write(' cannot parse. printing raw instead\n')
-            print_and_write(grammatical_info + '\n')
+            def is_present(pattern) -> bool:
+                return re.search(pattern, grammatical_info) is not None
 
-        for t, i in zip(polish_translations, range(len(polish_translations))):
-            print_and_write(f'{i + 1}. {t}\n')
 
-        print_and_write('\n')
+            if is_present(verb_pattern):
+                print_and_write(f', {scraper.verb_forms(word)} {scraper.verb_metadata(grammatical_info)}\n')
+            elif is_present(noun_pattern):
+                print_and_write(f', {scraper.full_gen_pl(word)} {scraper.noun_metadata(grammatical_info)}\n')
+            elif is_present(adverb_pattern):
+                print_and_write(f' {scraper.adverb_metadata()}\n')
+            elif is_present(preposition_pattern):
+                print_and_write(f' {scraper.preposition_metadata()}\n')
+            elif is_present(conjunction_pattern):
+                print_and_write(f' {scraper.conjunction_metadata()}\n')
+            elif is_present(adjective_pattern):
+                print_and_write(f', {scraper.adjective_forms(input_word)} {scraper.adjective_metadata()}\n')
+            else:
+                print_and_write(' cannot parse. printing raw instead\n')
+                print_and_write(grammatical_info + '\n')
+
+            for t, i in zip(polish_translations, range(len(polish_translations))):
+                print_and_write(f'{i + 1}. {t}\n')
+
+            print_and_write('\n')
+
+        except Exception as Argument:
+            logging.exception(f'cannot scrape {word}')
+            print()
