@@ -87,5 +87,5 @@ with open(output_temporary_file_name, 'a') as f:
             print_and_write('\n')
 
         except Exception as Argument:
-            logging.exception(f'cannot scrape {word}')
+            logging.exception(f'cannot scrape {input_word}')
             print()
