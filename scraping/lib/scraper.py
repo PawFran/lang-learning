@@ -64,6 +64,7 @@ class LatinDictScraper:
         flexion_soup = BeautifulSoup(flexion_page.content, "html.parser")
         return flexion_soup
 
+    @staticmethod
     def verb_perfect_form(self, divs_with_conjugation) -> str:
         div_with_perfect_conjugation = divs_with_conjugation[1]
         perfect_first_sing_core = div_with_perfect_conjugation.find_all("span", {"class": "radice"})[0].text
@@ -72,6 +73,7 @@ class LatinDictScraper:
         # accents from https://www.online-latin-dictionary.com are sometimes wrong
         return (perfect_first_sing_core + perfect_first_sing_ending).replace('avi', 'āvī')
 
+    @staticmethod
     def verb_infinitive(self, divs_with_conjugation) -> str:
         div_with_infinitive = divs_with_conjugation[5]
 
@@ -81,6 +83,7 @@ class LatinDictScraper:
         return infinitive_core + infinitive_ending
 
     # todo test it for verbs with no supine. what will happen ? would be nice to return none
+    @staticmethod
     def verb_supine(self, divs_with_conjugation) -> str:
         div_with_infinitive = divs_with_conjugation[5]
 
