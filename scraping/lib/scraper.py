@@ -100,18 +100,18 @@ class LatinDictScraper:
 
         return f'{infinitive}, {perfect_first_sing_full}, {supine}'  # todo test it when there's no supine
 
-    def full_gen_pl(self, word) -> str:
+    def full_gen_sing(self, word) -> str:
         flexion_soup = self.get_flexion_soup(word)
 
         divs_with_declension = flexion_soup.find_all("div", {"class": "col span_1_of_2"})
-        plural_declension = divs_with_declension[1]
-        plural_cores = [x.text for x in plural_declension.find_all("span", {"class": "radice"})]
-        plural_endings = [x.text for x in plural_declension.find_all("span", {"class": "desinenza"})]
+        singular_declension = divs_with_declension[0]
+        singular_cores = [x.text for x in singular_declension.find_all("span", {"class": "radice"})]
+        singular_endings = [x.text for x in singular_declension.find_all("span", {"class": "desinenza"})]
 
-        gen_pl_core = plural_cores[1]
-        gen_pl_ending = plural_endings[1]
+        gen_sing_core = singular_cores[1]
+        gen_sing_ending = singular_endings[1]
 
-        return gen_pl_core + gen_pl_ending
+        return gen_sing_core + gen_sing_ending
 
     def adjective_forms(self, word) -> str:
         flexion_soup = self.get_flexion_soup(word)

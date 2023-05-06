@@ -57,28 +57,29 @@ with open(output_temporary_file_name, 'a') as f:
         try:
             word, grammatical_info, polish_translations = scrape()
 
-            print_and_write(word)
-
 
             def is_present(pattern) -> bool:
                 return re.search(pattern, grammatical_info) is not None
 
 
+            msg = None
             if is_present(verb_pattern):
-                print_and_write(f', {scraper.verb_forms(word)} {scraper.verb_metadata(grammatical_info)}\n')
+                msg = f', {scraper.verb_forms(word)} {scraper.verb_metadata(grammatical_info)}\n'
             elif is_present(noun_pattern):
-                print_and_write(f', {scraper.full_gen_pl(word)} {scraper.noun_metadata(grammatical_info)}\n')
+                msg = f', {scraper.full_gen_sing(word)} {scraper.noun_metadata(grammatical_info)}\n'
             elif is_present(adverb_pattern):
-                print_and_write(f' {scraper.adverb_metadata()}\n')
+                msg = f' {scraper.adverb_metadata()}\n'
             elif is_present(preposition_pattern):
-                print_and_write(f' {scraper.preposition_metadata()}\n')
+                msg = f' {scraper.preposition_metadata()}\n'
             elif is_present(conjunction_pattern):
-                print_and_write(f' {scraper.conjunction_metadata()}\n')
+                msg = f' {scraper.conjunction_metadata()}\n'
             elif is_present(adjective_pattern):
-                print_and_write(f', {scraper.adjective_forms(input_word)} {scraper.adjective_metadata()}\n')
+                msg = f', {scraper.adjective_forms(input_word)} {scraper.adjective_metadata()}\n'
             else:
-                print_and_write(' cannot parse. printing raw instead\n')
-                print_and_write(grammatical_info + '\n')
+                msg = f' cannot parse. printing raw instead\n{grammatical_info}\n'
+
+            print_and_write(word)
+            print_and_write(msg)
 
             for t, i in zip(polish_translations, range(len(polish_translations))):
                 print_and_write(f'{i + 1}. {t}\n')
