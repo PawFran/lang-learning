@@ -65,7 +65,7 @@ class LatinDictScraper:
         return flexion_soup
 
     @staticmethod
-    def verb_perfect_form(self, divs_with_conjugation) -> str:
+    def verb_perfect_form(divs_with_conjugation) -> str:
         div_with_perfect_conjugation = divs_with_conjugation[1]
         perfect_first_sing_core = div_with_perfect_conjugation.find_all("span", {"class": "radice"})[0].text
         perfect_first_sing_ending = div_with_perfect_conjugation.find_all("span", {"class": "desinenza"})[0].text
@@ -74,7 +74,7 @@ class LatinDictScraper:
         return (perfect_first_sing_core + perfect_first_sing_ending).replace('avi', 'āvī')
 
     @staticmethod
-    def verb_infinitive(self, divs_with_conjugation) -> str:
+    def verb_infinitive(divs_with_conjugation) -> str:
         div_with_infinitive = divs_with_conjugation[5]
 
         infinitive_core = div_with_infinitive.find_all("span", {"class": "radice"})[0].text
@@ -84,7 +84,7 @@ class LatinDictScraper:
 
     # todo test it for verbs with no supine. what will happen ? would be nice to return none
     @staticmethod
-    def verb_supine(self, divs_with_conjugation) -> str:
+    def verb_supine(divs_with_conjugation) -> str:
         div_with_infinitive = divs_with_conjugation[5]
 
         supine_core = div_with_infinitive.find_all("span", {"class": "radice"})[-1].text
