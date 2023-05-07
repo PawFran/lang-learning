@@ -80,6 +80,7 @@ with open(output_temporary_file_name, 'a') as f:
 
             print_and_write(word)
             print_and_write(msg)
+            print_and_write('()\n')
 
             for t, i in zip(polish_translations, range(len(polish_translations))):
                 print_and_write(f'{i + 1}. {t}\n')
