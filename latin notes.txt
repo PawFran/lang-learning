@@ -1,0 +1,78 @@
+checklista:
+koniugacje:
+	i-iv
+	strona bierna
+	czasy preasens, imperfectum, futurum I, perfectum, plusquamperfectum, futurum II
+	esse
+	imperativus
+deklinacje i-v
+zaimki
+	osobowe
+	dzierżawcze
+
+opisac w skrocie deklinacje i koniugacje:
+ind imperf act 
+	spójka przed 'bā' (dodawana w III i IV koniugacji) jest długa
+ind fut act 
+	spojka b i spójki i/u w I i II kon. 
+	w III i IV am w 1 os. sing i spójka ē w pozostałych os. 
+	'b' w II koniugacji jest konieczne żeby odróżnić II kon fut I od III kon praes. 
+	I i II kon po dodaniu 'b' odmieniają się jak deklinacje spółgłoskowe (III i IV) w praes. 
+	III po dodaniu 'e' odmienia się jak II w praes (nie licząc 1 os. sing). 
+	po co 'b' w I kon ? 
+
+
+części zdania
+* podmiot
+* orzeczenie
+* dopełnienie bliższe / dalsze (uzupełnia czasownik)
+* przydawka dopełniaczowa / przymiotna (określa rzeczownik)
+* okolicznik czasu, miejsca, sposobu, przyczyny
+
+
+
+funkcje przypadków: 
+
+nominativus
+* podmiot
+* orzecznik
+* duplex
+
+
+genetivus
+* przydawka dopełniaczowa (czyj?)
+* partitivus
+* qualitatis (przydawka - jaki? jaka? jakie?)
+
+
+dativus
+* possessivus
+* (in)commodi
+* auctoris
+
+
+accusativus
+* dopełnienie
+* duplex
+* rozciągłości w czasie i przestrzeni
+* exclamationis
+
+
+ablativus
+* temporis (okolicznik)
+* loci (okolicznik)
+* causae (okolicznik)
+* modi (okolicznik)
+* instrumentalis (dopełnienie - kim? czym?)
+* separativus (skąd? od czego? bez czego?)
+* comparativus
+* auctoris (w str. biernej)
+* qualitatis (przydawka lub orzecznik - jaki?)
+
+
+
+
+
+
+iustitiam colere debemus - jaka czescia zdania jest 'colere' ? jak by to wygladalo w stronie biernej ? colere by sie nie zmienilo, wiec nie jest dopelnieniem blizszym
+i podobnie: nos navigare debemus

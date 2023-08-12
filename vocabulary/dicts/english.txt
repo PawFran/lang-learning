@@ -75,7 +75,7 @@ equivocal [adj]
 (An unequivocal "no")
 1. not clear and seeming to have two opposing meanings, or confusing and able to be understood in two different ways
 
-intrinsic [adj]w
+intrinsic [adj]
 (It is generally more convenient to talk about the adequacy of the model to a given problem than its intrinsic correctness)
 1. being an extremely important and basic characteristic of a person or thing
 
@@ -110,7 +110,7 @@ littering [noun]
 1. the act of dropping rubbish on the ground in public places
 
 pervasive [adj]
-(Because this kind of conflict between individual rationality and group rationality seems so pervasive, a number of attempts have been made to resolve the Prosiner's Dilemma)
+(Because this kind of conflict between individual rationality and group rationality seems so pervasive, a number of attempts have been made to resolve the Prisoner's Dilemma)
 1. present or noticeable in every part of a thing or place
 
 contingent [adj]
@@ -120,3 +120,75 @@ contingent [adj]
 defect [verb]
 (He could decide to cooperate if he thinks Rose will cooperate, but defect if he thinks Rose will defect)
 1. to leave a country, political party, etc., especially in order to join an opposing one
+
+lush [adj]
+(We did fieldwork in the rain forest, where it was green and lush and dark)
+1. A lush area has a lot of green, healthy plants, grass, and trees
+
+wend [verb]
+(The river wending its way between walls of forests)
+1. to move slowly and not directly
+
+roil [verb]
+(The water was moving chaotically, roiling)
+1. to (cause to) move quickly in a twisting circular movement
+
+conceptualize [verb]
+(Other changes have consequences so devastating that, once discover, we struggle even to  conceptualize them)
+1. to form an idea or principle in your mind
+
+dissolution [noun]
+(Many people have attempted to explain the cultural dissolution we face)
+1. the act or process of ending an official organization or legal agreement
+
+senescence [noun]
+(We have done theoretical work on the evolution of trade-offs, senescence and morality)
+1. the fact of becoming older, and therefore being in less good condition and less able to function well
+
+tantalize [verb]
+(In physics we seem tantalizingly near a "theory of everything")
+1. to make someone feel excited or attracted by an offer or a suggestion of something that is, in fact, unlikely to happen
+
+stump [noun]
+(the stump of a tree)
+1. the part of something such as a tree, tooth, arm, or leg that is left after most of it has been removed
+
+stump [verb]
+(Nowhere are we more regularly stumped than we are in understanding ourselves)
+1. be stumped = to be unable to answer a question or solve a problem because it is too difficult
+
+brim [verb]
+(Homo Sapiens are brimming over with profound mysteries)
+1. to fill or be full to the top
+
+impair [verb]
+(We do we choose to impair and disrupt our own cognition ?)
+1. to spoil something or make it weaker so that it is less effective
+
+disrupt [verb]
+(We do we choose to impair and disrupt our own cognition ?)
+1. to prevent something, especially a system, process, or event, from continuing as usual or as expected
+
+cognition [noun]
+(We do we choose to impair and disrupt our own cognition ?)
+1. the use of conscious mental processes
+
+staggering [adj]
+(Our morpholy and physiology, though staggering when considered in isolation, are not special)
+1. very shocking and surprising
+
+outstrip [verb]
+(Our species' pace of change now outrips our ability to adapt)
+1. to be or become greater in amount, degree, or success than something or someone
+
+grapple[ verb]
+(If we don't figure out how to grapple with the problem of accerating novelty humanity will perish)
+1. to fight, especially in order to win something
+
+irrefutable [adj]
+(An irrefutable evolutionary truth undergirding this book)
+1. impossible to prove wrong
+
+undergird [verb]
+(An irrefutable evolutionary truth undergirding this book)
+1. to support something by forming a strong base for it

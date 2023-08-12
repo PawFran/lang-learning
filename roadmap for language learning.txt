@@ -1,6 +1,32 @@
 roadmap for language learning
 
+slowo polskie jako tlumaczenie lacinskiego
+
+odpytywanie o rozne formy - np slowo polskie ale w supinum
+
+random word powinno losować dane z tej samej bazy co translation ex (w opcji smart)
+
+sprawdzac jakie slowa sa ze soba najczesciej mylone
+
+option to filter part of speech (translation and random word)
+
+option to filter only new or not mastered words
+
+option to filter only top X (count, not percentage)
+
+do testow scrapingu dodac: altus, bonus, cogito, inimicus, inter, centum, unus
+
+zrobic wlasna baze dla kilku tysiecy najczestszych slow
+
+uzywajac latin online dict mozna pytac o deklinacje/koniugacje dla dowolnego slowa ze slownika
+
+kazda deklinacje, koniugacje testowac w dwie strony - z podenj formy podawac slowo, ale tez ze slowa wszystkie formy ktore mu odpowiadaja
+
+declension, conjugation: -r will remove after correct answer
+
 translation exercise: from latin to polish
+
+podać czasownik i zapytać o jego formę (mood, tense, voice, person, nr)
 
 scrape'ing: usuwanie duplikatów z argumentów wejściowych (albo opcja dodawania zdania)
 
@@ -18,18 +44,12 @@ dodac esse
 
 jak zadziala smart sampling w przypadku filtrowania (podzbiory wyrazow) ?
 
-zwiekszyc roznice pomiedzy poszczegolnymi prawdopodobienstwami w smart sampling (np. dwukrotnie)
-
 w każdym skrypcie - filtrowanie tylko pewnych części mowy (trzeba tez filtrowac baze)
-
-dodawać raporty z podsumowaniem jak idzie zgadywanie (jupyter)
 
 symulowac przeciwnikow dla RL w grze w zgadywanie slow. tzn. rozne modele pamieci i zadanie dla RL zeby nauczyc sie uzyskiwac jak najwyzsze rezultaty przeciwko nim
 jakiekolwiek explainable ai dla takich modeli ? w ten sposob mozna by modelowac pamiec roznych osob
 
 niektóre tłumaczenia nie są unikalne. np et, atque, nec non
-
-declension - remove tylko kiedy poprawne (default)
 
 test na parsowanie slownika - czy nie ma typu none. albo rzucanie wyjatku kiedy nie uda sie czegos sparsowac. zrobic test automatyczny
 

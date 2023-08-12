@@ -1,1 +1,877 @@
 user;word_pl;lang;translation;correct;time
+pf;jednomyślny, zgodny;latin;ūnanimus;True;2023-05-02 17:22:28
+pf;przez (+ acc);latin;per;False;2023-05-02 17:22:30
+pf;karać;latin;castīgo;True;2023-05-02 17:22:35
+pf;rzeka;latin;fluvius;True;2023-05-02 17:22:39
+pf;zostawać;latin;maneo;True;2023-05-02 17:22:41
+pf;zazdrościć (komus + dat);latin;invideo;True;2023-05-02 17:22:44
+pf;zawsze;latin;semper;True;2023-05-02 17:22:46
+pf;sprzedawać;latin;vendo;True;2023-05-02 17:22:49
+pf;więc;latin;ĭtăquĕ;False;2023-05-02 17:22:53
+pf;oddawać się czemuś, zajmować się czymś (+ dat);latin;studeo;True;2023-05-02 17:23:01
+pf;wtedy, następnie;latin;tum;True;2023-05-02 17:23:03
+pf;ciągły, trwały, wieczny;latin;sempiternus;True;2023-05-02 17:23:08
+pf;uczyć się;latin;discō;False;2023-05-02 17:23:11
+pf;troszczyć się, dbać (o coś + dat);latin;cūrō;True;2023-05-02 17:23:15
+pf;oszczędność;latin;parsimonia;False;2023-05-02 17:23:19
+pf;uczyć, nauczać;latin;doceo;True;2023-05-02 17:23:25
+pf;lecz;latin;sed;True;2023-05-02 17:23:26
+pf;ciągnąć, pociągać;latin;traho;True;2023-05-02 17:23:28
+pf;handel;latin;mercātūra;True;2023-05-02 17:23:32
+pf;zmieniać;latin;mūto;True;2023-05-02 17:23:34
+pf;bać się;latin;timeō;True;2023-05-02 17:23:36
+pf;znany;latin;notus;True;2023-05-02 17:23:38
+pf;i;latin;atque;True;2023-05-02 17:23:40
+pf;odpowiedni, nadający się;latin;idōneus;True;2023-05-02 17:23:47
+pf;rola, pole;latin;ager;True;2023-05-02 17:23:49
+pf;czytać;latin;legō;True;2023-05-02 17:23:50
+pf;pokazywać;latin;monstrō;False;2023-05-02 17:23:53
+pf;jeśli;latin;sī;True;2023-05-02 17:23:55
+pf;bardzo;latin;valdē;True;2023-05-02 17:23:57
+pf;zgoda;latin;concordia;True;2023-05-02 17:23:59
+pf;pilność;latin;dīligentia;True;2023-05-02 17:24:04
+pf;rzecz ludzka;latin;humanum;True;2023-05-02 17:24:06
+pf;do (+ acc);latin;in;True;2023-05-02 17:24:11
+pf;chętnie;latin;libenter;True;2023-05-02 17:24:13
+pf;rzadki, mało kto;latin;rarus;True;2023-05-02 17:24:14
+pf;twierdzić;latin;affirmo;True;2023-05-02 17:24:17
+pf;dawać;latin;do;True;2023-05-02 17:24:18
+pf;już;latin;iam;True;2023-05-02 17:24:20
+pf;miły;latin;gratus;True;2023-05-02 17:24:22
+pf;umieć;latin;scio;True;2023-05-02 17:24:24
+pf;żeglarz;latin;nauta;True;2023-05-02 17:24:26
+pf;szczęśliwy;latin;beātus;True;2023-05-02 17:24:29
+pf;patrzeć, widzieć;latin;spectō;True;2023-05-02 17:24:32
+pf;urodzajny;latin;fēcundus;True;2023-05-02 17:24:34
+pf;sąsiedzi;latin;fīnitimī;True;2023-05-02 17:24:36
+pf;uprawiać;latin;colo;False;2023-05-02 17:24:38
+pf;dowozić;latin;adveho;True;2023-05-02 17:24:56
+pf;widzieć;latin;video;True;2023-05-02 17:25:01
+pf;czcić;latin;colo;True;2023-05-02 17:25:03
+pf;dobrze;latin;bene;True;2023-05-02 17:25:04
+pf;w (+ abl);latin;in;True;2023-05-02 17:25:06
+pf;czynić, pędzić;latin;ago;True;2023-05-02 17:25:08
+pf;jednak;latin;tamen;False;2023-05-02 17:25:11
+pf;gdzie;latin;ubi;True;2023-05-02 17:25:22
+pf;składać ofiarę;latin;sacrifico;True;2023-05-02 17:25:27
+pf;zwierzę pociągowe;latin;iūmentum;True;2023-05-02 17:25:30
+pf;troska;latin;cūra;True;2023-05-02 17:25:32
+pf;chwalić;latin;laudō;True;2023-05-02 17:25:36
+pf;winnica;latin;vinea;True;2023-05-02 17:25:37
+pf;ponieważ;latin;quia;True;2023-05-02 17:25:43
+pf;bogaty;latin;opulentus;True;2023-05-02 17:25:46
+pf;zdobywać;latin;paro;True;2023-05-02 17:25:51
+pf;pragnąć;latin;cupio;False;2023-05-02 17:25:55
+pf;często;latin;saepe;True;2023-05-02 17:26:04
+pf;mieszkaniec;latin;incola;True;2023-05-02 17:26:05
+pf;pomagać, być pożytecznym;latin;prōsum;True;2023-05-02 17:26:07
+pf;być zdrowym, mieć się dobrze;latin;valeō;False;2023-05-02 17:26:11
+pf;mylić się;latin;erro;True;2023-05-02 17:26:17
+pf;mieć;latin;habeo;True;2023-05-02 17:26:19
+pf;doświadczony;latin;perītus;True;2023-05-02 17:26:24
+pf;dziecko;latin;liber;True;2023-05-02 17:26:26
+pf;budynek;latin;aedeficium;True;2023-05-02 17:26:29
+pf;zaś;latin;autem;False;2023-05-02 17:26:32
+pf;oszczędność;latin;parsimonia;True;2023-05-02 17:26:38
+pf;klaskać;latin;plaudō;True;2023-05-02 17:26:42
+pf;orać;latin;aro;True;2023-05-02 17:26:43
+pf;unikać;latin;vītō;False;2023-05-02 17:26:46
+pf;bawić się;latin;lūdō;True;2023-05-02 17:26:50
+pf;rzemieślnik;latin;faber;True;2023-05-02 17:26:53
+pf;być;latin;sum;True;2023-05-02 17:26:55
+pf;więc;latin;ĭtăquĕ;False;2023-05-02 17:26:57
+pf;pilny, pracowity;latin;sēdulus;True;2023-05-02 17:27:01
+pf;ukazywać się;latin;appareo;True;2023-05-02 17:27:03
+pf;uprawiać;latin;colo;True;2023-05-02 17:27:06
+pf;praca;latin;negotium;True;2023-05-02 17:27:10
+pf;być dłużnym (komuś);latin;dēbeō;True;2023-05-02 17:27:12
+pf;bogactwa;latin;divitiae;True;2023-05-02 17:27:16
+pf;nigdy;latin;numquam;True;2023-05-02 17:27:18
+pf;bowiem;latin;enim;True;2023-05-02 17:27:22
+pf;z (kim, czym) (+ abl);latin;cum;True;2023-05-02 17:27:26
+pf;spieszyć się, spieszyć;latin;properō;True;2023-05-02 17:27:30
+pf;lub;latin;aut;True;2023-05-02 17:27:32
+pf;zabijać na ofiarę;latin;macto;True;2023-05-02 17:27:34
+pf;odpoczynek;latin;ōtium;True;2023-05-02 17:27:37
+pf;wsiadać, dosiadać (+ acc);latin;conscendō;True;2023-05-02 17:27:40
+pf;starać się;latin;studeo;True;2023-05-02 17:27:42
+pf;burza;latin;procella;True;2023-05-02 17:27:45
+pf;zboże;latin;frūmentum;True;2023-05-02 17:27:48
+pf;tam;latin;ibi;True;2023-05-02 17:27:50
+pf;budować;latin;struō;True;2023-05-02 17:27:53
+pf;podobać się, być lubianym;latin;placeō;True;2023-05-02 17:27:58
+pf;mieszkać;latin;habitō;True;2023-05-02 17:28:01
+pf;rozgłaszać;latin;celebrō;True;2023-05-02 17:28:03
+pf;zawdzięczać (coś komuś);latin;dēbeō;True;2023-05-02 17:28:05
+pf;pokazywać;latin;monstrō;True;2023-05-02 17:28:10
+pf;dostarczać, przynosić;latin;praebeo;False;2023-05-02 17:28:13
+pf;mały;latin;parvus;True;2023-05-02 17:28:19
+pf;przez (+ acc);latin;per;True;2023-05-02 17:28:20
+pf;trudno;latin;difficile;True;2023-05-02 17:28:22
+pf;robotnik;latin;operarius;True;2023-05-02 17:28:26
+pf;być zdrowym, mieć się dobrze;latin;valeō;True;2023-05-02 17:28:31
+pf;tylko;latin;tantum;False;2023-05-02 17:28:37
+pf;wiatr;latin;ventus;True;2023-05-02 17:28:41
+pf;żeglować;latin;nāvigo;True;2023-05-02 17:28:43
+pf;pragnąć;latin;cupio;True;2023-05-02 17:28:45
+pf;jednak;latin;tamen;False;2023-05-02 17:28:49
+pf;więc;latin;ĭtăquĕ;False;2023-05-02 17:28:54
+pf;przygotowywać;latin;paro;True;2023-05-02 17:32:38
+pf;rzadki, mało kto;latin;rarus;True;2023-05-02 17:32:40
+pf;dostarczać, przynosić;latin;praebeo;True;2023-05-02 17:32:43
+pf;i;latin;atque;True;2023-05-02 17:32:46
+pf;zgoda;latin;concordia;True;2023-05-02 17:32:48
+pf;budynek;latin;aedeficium;True;2023-05-02 17:32:51
+pf;jednomyślny, zgodny;latin;ūnanimus;True;2023-05-02 17:32:53
+pf;także;latin;quoque;False;2023-05-02 17:32:56
+pf;szczęśliwy;latin;beātus;True;2023-05-02 17:33:01
+pf;zaś;latin;autem;False;2023-05-02 17:33:03
+pf;pokazywać;latin;monstrō;True;2023-05-02 17:33:06
+pf;więc;latin;ĭtăquĕ;False;2023-05-02 17:33:09
+pf;uczyć się;latin;discō;False;2023-05-02 17:33:18
+pf;przez (+ acc);latin;per;True;2023-05-02 17:33:21
+pf;zawsze;latin;semper;True;2023-05-02 17:33:23
+pf;oddawać się czemuś, zajmować się czymś (+ dat);latin;studeo;True;2023-05-02 17:33:26
+pf;spieszyć się, spieszyć;latin;properō;False;2023-05-02 17:33:29
+pf;pilność;latin;dīligentia;True;2023-05-02 17:33:34
+pf;dobrze;latin;bene;True;2023-05-02 17:33:35
+pf;dowozić;latin;adveho;False;2023-05-02 17:33:40
+pf;karać;latin;castīgo;True;2023-05-02 17:33:44
+pf;być;latin;sum;True;2023-05-02 17:33:46
+pf;więc;latin;ĭtăquĕ;True;2023-05-02 17:33:50
+pf;tylko;latin;tantum;True;2023-05-02 17:33:53
+pf;gdzie;latin;ubi;True;2023-05-02 17:33:54
+pf;mieszkaniec;latin;incola;True;2023-05-02 17:33:56
+pf;rola, pole;latin;ager;True;2023-05-02 17:33:58
+pf;jednak;latin;tamen;False;2023-05-02 17:34:02
+pf;do (+ acc);latin;in;True;2023-05-02 17:34:44
+pf;bardzo;latin;valdē;True;2023-05-02 17:34:47
+pf;handel;latin;mercātūra;True;2023-05-02 17:34:49
+pf;zostawać;latin;maneo;True;2023-05-02 17:34:51
+pf;lub;latin;aut;True;2023-05-02 17:34:53
+pf;chętnie;latin;libenter;True;2023-05-02 17:34:55
+pf;uczyć, nauczać;latin;doceo;True;2023-05-02 17:34:58
+pf;już;latin;iam;True;2023-05-02 17:35:00
+pf;sprzedawać;latin;vendo;True;2023-05-02 17:35:03
+pf;lecz;latin;sed;True;2023-05-02 17:35:06
+pf;bać się;latin;timeō;True;2023-05-02 17:35:07
+pf;spieszyć się, spieszyć;latin;properō;True;2023-05-02 17:35:10
+pf;czcić;latin;colo;True;2023-05-02 17:35:11
+pf;unikać;latin;vītō;False;2023-05-02 17:35:13
+pf;być zdrowym, mieć się dobrze;latin;valeō;True;2023-05-02 17:35:17
+pf;ciągły, trwały, wieczny;latin;sempiternus;True;2023-05-02 17:35:19
+pf;rzeka;latin;fluvius;True;2023-05-02 17:35:21
+pf;zawdzięczać (coś komuś);latin;dēbeō;True;2023-05-02 17:35:23
+pf;ponieważ;latin;quia;True;2023-05-02 17:35:28
+pf;orać;latin;aro;True;2023-05-02 17:35:30
+pf;w (+ abl);latin;in;True;2023-05-02 17:35:31
+pf;sąsiedzi;latin;fīnitimī;True;2023-05-02 17:35:34
+pf;pragnąć;latin;cupio;True;2023-05-02 17:35:38
+pf;uczyć się;latin;discō;True;2023-05-02 17:35:41
+pf;troszczyć się, dbać (o coś + dat);latin;cūrō;True;2023-05-02 17:35:42
+pf;żeglarz;latin;nauta;True;2023-05-02 17:35:44
+pf;często;latin;saepe;True;2023-05-02 17:35:50
+pf;oszczędność;latin;parsimonia;True;2023-05-02 17:35:53
+pf;patrzeć, widzieć;latin;spectō;True;2023-05-02 17:35:55
+pf;znany;latin;notus;True;2023-05-02 17:35:58
+pf;tam;latin;ibi;True;2023-05-02 17:36:04
+pf;ciągnąć, pociągać;latin;traho;True;2023-05-02 17:36:06
+pf;czytać;latin;legō;True;2023-05-02 17:36:08
+pf;rzemieślnik;latin;faber;True;2023-05-02 17:36:10
+pf;bawić się;latin;lūdō;True;2023-05-02 17:36:12
+pf;zmieniać;latin;mūto;True;2023-05-02 17:36:15
+pf;miły;latin;gratus;True;2023-05-02 17:36:17
+pf;uprawiać;latin;colo;True;2023-05-02 17:36:20
+pf;urodzajny;latin;fēcundus;True;2023-05-02 17:36:24
+pf;jednak;latin;tamen;True;2023-05-02 17:36:26
+pf;zazdrościć (komus + dat);latin;invideo;True;2023-05-02 17:36:32
+pf;zwierzę pociągowe;latin;iūmentum;True;2023-05-02 17:36:38
+pf;zdobywać;latin;paro;True;2023-05-02 17:36:40
+pf;wtedy, następnie;latin;tum;True;2023-05-02 17:36:42
+pf;rzecz ludzka;latin;humanum;True;2023-05-02 17:36:44
+pf;umieć;latin;scio;True;2023-05-02 17:36:48
+pf;winnica;latin;vinea;True;2023-05-02 17:36:49
+pf;twierdzić;latin;affirmo;True;2023-05-02 17:36:51
+pf;widzieć;latin;video;True;2023-05-02 17:36:54
+pf;troska;latin;cūra;True;2023-05-02 17:36:56
+pf;składać ofiarę;latin;sacrifico;True;2023-05-02 17:37:01
+pf;jeśli;latin;sī;False;2023-05-02 17:37:03
+pf;jeśli;latin;sī;True;2023-05-02 17:37:05
+pf;odpowiedni, nadający się;latin;idōneus;True;2023-05-02 17:37:10
+pf;czynić, pędzić;latin;ago;True;2023-05-02 17:37:12
+pf;dowozić;latin;adveho;True;2023-05-02 17:37:16
+pf;odpoczynek;latin;ōtium;True;2023-05-02 17:37:25
+pf;nigdy;latin;numquam;True;2023-05-02 17:37:27
+pf;zabijać na ofiarę;latin;macto;True;2023-05-02 17:37:30
+pf;unikać;latin;vītō;False;2023-05-02 17:37:32
+pf;wsiadać, dosiadać (+ acc);latin;conscendō;True;2023-05-02 17:37:36
+pf;ukazywać się;latin;appareo;True;2023-05-02 17:37:38
+pf;unikać;latin;vītō;False;2023-05-02 17:37:40
+pf;dziecko;latin;liber;True;2023-05-02 17:37:47
+pf;burza;latin;procella;False;2023-05-02 17:37:49
+pf;z (kim, czym) (+ abl);latin;cum;True;2023-05-02 17:37:52
+pf;doświadczony;latin;perītus;True;2023-05-02 17:37:54
+pf;mylić się;latin;erro;True;2023-05-02 17:37:55
+pf;pomagać, być pożytecznym;latin;prōsum;True;2023-05-02 17:38:04
+pf;także;latin;quoque;False;2023-05-02 17:38:09
+pf;być dłużnym (komuś);latin;dēbeō;True;2023-05-02 17:38:16
+pf;wiatr;latin;ventus;True;2023-05-02 17:38:18
+pf;burza;latin;procella;True;2023-05-02 17:38:20
+pf;także;latin;quoque;True;2023-05-02 17:38:23
+pf;praca;latin;negotium;False;2023-05-02 17:38:26
+pf;klaskać;latin;plaudō;True;2023-05-02 17:38:30
+pf;podobać się, być lubianym;latin;placeō;True;2023-05-02 17:38:32
+pf;dawać;latin;do;True;2023-05-02 17:38:34
+pf;pilny, pracowity;latin;sēdulus;True;2023-05-02 17:38:36
+pf;bogactwa;latin;divitiae;True;2023-05-02 17:38:42
+pf;budować;latin;struō;True;2023-05-02 17:38:44
+pf;zaś;latin;autem;True;2023-05-02 17:38:48
+pf;mieszkać;latin;habitō;True;2023-05-02 17:38:58
+pf;starać się;latin;studeo;True;2023-05-02 17:39:01
+pf;chwalić;latin;laudō;True;2023-05-02 17:39:03
+pf;mieć;latin;habeo;True;2023-05-02 17:39:08
+pf;rozgłaszać;latin;celebrō;True;2023-05-02 17:39:10
+pf;robotnik;latin;operarius;True;2023-05-02 17:39:12
+pf;bogaty;latin;opulentus;False;2023-05-02 17:39:15
+pf;bowiem;latin;enim;True;2023-05-02 17:39:18
+pf;mały;latin;parvus;True;2023-05-02 17:39:21
+pf;unikać;latin;vītō;True;2023-05-02 17:39:24
+pf;bogaty;latin;opulentus;True;2023-05-02 17:39:26
+pf;praca;latin;negotium;True;2023-05-02 17:39:33
+pf;żeglować;latin;nāvigo;True;2023-05-02 17:39:35
+pf;zboże;latin;frūmentum;True;2023-05-02 17:39:39
+pf;trudno;latin;difficile;True;2023-05-02 17:39:41
+pf;bogaty;latin;opulentus;True;2023-05-04 09:02:13
+pf;także;latin;quoque;True;2023-05-04 09:02:18
+pf;wtedy, następnie;latin;tum;True;2023-05-04 09:02:20
+pf;mylić się;latin;erro;True;2023-05-04 09:02:22
+pf;uprawiać;latin;colo;True;2023-05-04 09:02:24
+pf;szczęśliwy;latin;beātus;True;2023-05-04 09:02:26
+pf;oddawać się czemuś, zajmować się czymś (+ dat);latin;studeo;True;2023-05-04 09:02:30
+pf;lecz;latin;sed;True;2023-05-04 09:02:32
+pf;mieszkaniec;latin;incola;True;2023-05-04 09:02:34
+pf;często;latin;saepe;True;2023-05-04 09:02:36
+pf;przygotowywać;latin;paro;True;2023-05-04 09:02:38
+pf;przez (+ acc);latin;per;True;2023-05-04 09:02:42
+pf;oszczędność;latin;parsimonia;True;2023-05-04 09:02:48
+pf;czcić;latin;colo;True;2023-05-04 09:02:49
+pf;orać;latin;aro;True;2023-05-04 09:02:54
+pf;pragnąć;latin;cupio;True;2023-05-04 09:03:05
+pf;jednomyślny, zgodny;latin;ūnanimus;True;2023-05-04 09:03:08
+pf;ponieważ;latin;quia;True;2023-05-04 09:03:12
+pf;dowozić;latin;adveho;True;2023-05-04 09:03:16
+pf;patrzeć, widzieć;latin;spectō;True;2023-05-04 09:03:20
+pf;dobrze;latin;bene;True;2023-05-04 09:03:23
+pf;zawsze;latin;semper;True;2023-05-04 09:03:30
+pf;rzeka;latin;fluvius;True;2023-05-04 09:03:33
+pf;tam;latin;ibi;True;2023-05-04 09:03:36
+pf;czynić, pędzić;latin;ago;True;2023-05-04 09:03:38
+pf;dostarczać, przynosić;latin;praebeo;True;2023-05-04 09:03:42
+pf;znany;latin;notus;True;2023-05-04 09:03:44
+pf;wiatr;latin;ventus;True;2023-05-04 09:03:47
+pf;bardzo;latin;valdē;True;2023-05-04 09:03:51
+pf;bawić się;latin;lūdō;True;2023-05-04 09:03:53
+pf;odpoczynek;latin;ōtium;True;2023-05-04 09:03:56
+pf;bać się;latin;timeō;True;2023-05-04 09:03:59
+pf;i;latin;atque;True;2023-05-04 09:04:02
+pf;zawdzięczać (coś komuś);latin;dēbeō;False;2023-05-04 09:04:05
+pf;rzemieślnik;latin;faber;True;2023-05-04 09:04:14
+pf;pilność;latin;dīligentia;True;2023-05-04 09:04:18
+pf;karać;latin;castīgo;True;2023-05-04 09:04:20
+pf;zawdzięczać (coś komuś);latin;dēbeō;True;2023-05-04 09:04:23
+pf;zaś;latin;autem;True;2023-05-04 09:04:24
+pf;rzadki, mało kto;latin;rarus;True;2023-05-04 09:04:26
+pf;zdobywać;latin;paro;False;2023-05-04 09:04:42
+pf;z (kim, czym) (+ abl);latin;cum;True;2023-05-04 09:04:45
+pf;pilny, pracowity;latin;sēdulus;True;2023-05-04 09:04:48
+pf;winnica;latin;vinea;True;2023-05-04 09:04:50
+pf;unikać;latin;vītō;True;2023-05-04 09:04:53
+pf;jednak;latin;tamen;True;2023-05-04 09:04:55
+pf;bogactwa;latin;divitiae;True;2023-05-04 09:05:00
+pf;umieć;latin;scio;False;2023-05-04 09:05:06
+pf;w (+ abl);latin;in;True;2023-05-04 09:05:08
+pf;praca;latin;negotium;True;2023-05-04 09:05:13
+pf;umieć;latin;scio;True;2023-05-04 09:05:15
+pf;handel;latin;mercātūra;True;2023-05-04 09:05:18
+pf;gdzie;latin;ubi;True;2023-05-04 09:05:20
+pf;zabijać na ofiarę;latin;macto;True;2023-05-04 09:05:23
+pf;burza;latin;procella;True;2023-05-04 09:05:26
+pf;zdobywać;latin;paro;True;2023-05-04 09:05:28
+pf;wsiadać, dosiadać (+ acc);latin;conscendō;True;2023-05-04 09:05:30
+pf;uczyć, nauczać;latin;doceo;True;2023-05-04 09:05:33
+pf;zwierzę pociągowe;latin;iūmentum;True;2023-05-04 09:05:36
+pf;więc;latin;ĭtăquĕ;False;2023-05-04 09:05:38
+pf;być;latin;sum;True;2023-05-04 09:05:45
+pf;spieszyć się, spieszyć;latin;properō;True;2023-05-04 09:05:47
+pf;rola, pole;latin;ager;True;2023-05-04 09:05:49
+pf;ciągły, trwały, wieczny;latin;sempiternus;True;2023-05-04 09:05:52
+pf;robotnik;latin;operarius;True;2023-05-04 09:05:55
+pf;sprzedawać;latin;vendo;True;2023-05-04 09:05:58
+pf;być dłużnym (komuś);latin;dēbeō;True;2023-05-04 09:06:01
+pf;miły;latin;gratus;True;2023-05-04 09:06:04
+pf;urodzajny;latin;fēcundus;True;2023-05-04 09:06:06
+pf;ciągnąć, pociągać;latin;traho;True;2023-05-04 09:06:08
+pf;twierdzić;latin;affirmo;True;2023-05-04 09:06:11
+pf;budynek;latin;aedeficium;True;2023-05-04 09:06:16
+pf;pokazywać;latin;monstrō;True;2023-05-04 09:06:20
+pf;czytać;latin;legō;True;2023-05-04 09:06:21
+pf;do (+ acc);latin;in;True;2023-05-04 09:06:25
+pf;mały;latin;parvus;True;2023-05-04 09:06:27
+pf;jeśli;latin;sī;True;2023-05-04 09:06:29
+pf;lub;latin;aut;True;2023-05-04 09:06:32
+pf;rzecz ludzka;latin;humanum;True;2023-05-04 09:06:35
+pf;żeglarz;latin;nauta;True;2023-05-04 09:06:41
+pf;klaskać;latin;plaudō;True;2023-05-04 09:06:46
+pf;więc;latin;ĭtăquĕ;True;2023-05-04 09:06:51
+pf;sąsiedzi;latin;fīnitimī;True;2023-05-04 09:06:54
+pf;chętnie;latin;libenter;True;2023-05-04 09:06:58
+pf;ukazywać się;latin;appareo;True;2023-05-04 09:07:13
+pf;zgoda;latin;concordia;True;2023-05-04 09:07:16
+pf;widzieć;latin;video;True;2023-05-04 09:07:18
+pf;troska;latin;cūra;True;2023-05-04 09:07:20
+pf;doświadczony;latin;perītus;True;2023-05-04 09:07:22
+pf;odpowiedni, nadający się;latin;idōneus;True;2023-05-04 09:07:33
+pf;troszczyć się, dbać (o coś + dat);latin;cūrō;True;2023-05-04 09:07:36
+pf;już;latin;iam;True;2023-05-04 09:07:39
+pf;mieszkać;latin;habitō;True;2023-05-04 09:07:42
+pf;zazdrościć (komus + dat);latin;invideo;True;2023-05-04 09:07:45
+pf;tylko;latin;tantum;True;2023-05-04 09:07:48
+pf;uczyć się;latin;discō;True;2023-05-04 09:07:51
+pf;pomagać, być pożytecznym;latin;prōsum;True;2023-05-04 09:07:57
+pf;starać się;latin;studeo;True;2023-05-04 09:08:00
+pf;składać ofiarę;latin;sacrifico;True;2023-05-04 09:08:03
+pf;być zdrowym, mieć się dobrze;latin;valeō;True;2023-05-04 09:08:09
+pf;zostawać;latin;maneo;True;2023-05-04 09:08:11
+pf;dawać;latin;do;True;2023-05-04 09:08:13
+pf;nigdy;latin;numquam;True;2023-05-04 09:08:16
+pf;zmieniać;latin;mūto;False;2023-05-04 09:08:18
+pf;rozgłaszać;latin;celebrō;True;2023-05-04 09:08:21
+pf;podobać się, być lubianym;latin;placeō;True;2023-05-04 09:08:24
+pf;chwalić;latin;laudō;True;2023-05-04 09:08:26
+pf;bowiem;latin;enim;True;2023-05-04 09:08:28
+pf;żeglować;latin;nāvigo;True;2023-05-04 09:08:32
+pf;mieć;latin;habeo;True;2023-05-04 09:08:34
+pf;zboże;latin;frūmentum;True;2023-05-04 09:08:36
+pf;dziecko;latin;liber;True;2023-05-04 09:08:39
+pf;zmieniać;latin;mūto;True;2023-05-04 09:08:41
+pf;trudno;latin;difficile;True;2023-05-04 09:08:44
+pf;budować;latin;struō;True;2023-05-04 09:08:46
+pf;zawdzięczać (coś komuś);latin;dēbeō;True;2023-05-04 15:39:08
+pf;pilność;latin;dīligentia;True;2023-05-04 15:39:11
+pf;sprzedawać;latin;vendo;True;2023-05-04 15:39:13
+pf;także;latin;quoque;False;2023-05-04 15:39:16
+pf;oddawać się czemuś, zajmować się czymś (+ dat);latin;studeo;True;2023-05-04 15:39:22
+pf;mylić się;latin;erro;True;2023-05-04 15:39:26
+pf;uczyć się;latin;discō;True;2023-05-04 15:39:31
+pf;karać;latin;castīgo;True;2023-05-04 15:39:34
+pf;troszczyć się, dbać (o coś + dat);latin;cūrō;True;2023-05-04 15:39:37
+pf;być zdrowym, mieć się dobrze;latin;valeō;True;2023-05-04 15:39:42
+pf;pilny, pracowity;latin;sēdulus;True;2023-05-04 15:40:17
+pf;rzadki, mało kto;latin;rarus;True;2023-05-04 15:40:19
+pf;bawić się;latin;lūdō;True;2023-05-04 15:40:21
+pf;przez (+ acc);latin;per;True;2023-05-04 15:40:22
+pf;mały;latin;parvus;True;2023-05-04 15:40:24
+pf;wsiadać, dosiadać (+ acc);latin;conscendō;True;2023-05-04 15:40:27
+pf;uczyć się;latin;discō;True;2023-05-04 15:40:33
+pf;zaś;latin;autem;True;2023-05-04 15:40:35
+pf;w (+ abl);latin;in;True;2023-05-04 15:59:52
+pf;umieć;latin;scio;True;2023-05-04 15:59:54
+pf;jednak;latin;tamen;True;2023-05-04 15:59:56
+pf;bogactwa;latin;divitiae;True;2023-05-04 16:00:02
+pf;bogaty;latin;opulentus;True;2023-05-04 16:00:05
+pf;rzemieślnik;latin;faber;True;2023-05-04 16:00:08
+pf;czcić;latin;colo;True;2023-05-04 16:00:09
+pf;winnica;latin;vinea;True;2023-05-04 16:00:11
+pf;wtedy, następnie;latin;tum;True;2023-05-04 16:00:14
+pf;zaś;latin;autem;True;2023-05-04 16:00:16
+pf;więc;latin;ĭtăquĕ;True;2023-05-04 16:41:55
+pf;szczęśliwy;latin;beātus;True;2023-05-04 20:34:47
+pf;robotnik;latin;operarius;False;2023-05-04 20:34:52
+pf;unikać;latin;vītō;False;2023-05-04 20:34:59
+pf;zwierzę pociągowe;latin;iūmentum;True;2023-05-04 20:35:01
+pf;zmieniać;latin;mūto;True;2023-05-04 20:35:03
+pf;jednak;latin;tamen;False;2023-05-04 20:35:05
+pf;rola, pole;latin;ager;True;2023-05-04 20:35:18
+pf;i;latin;atque;True;2023-05-04 20:35:21
+pf;spieszyć się, spieszyć;latin;properō;False;2023-05-04 20:35:27
+pf;handel;latin;mercātūra;True;2023-05-04 20:35:32
+pf;pokazywać;latin;monstrō;True;2023-05-04 20:35:34
+pf;orać;latin;aro;True;2023-05-04 20:35:35
+pf;znany;latin;notus;True;2023-05-04 20:35:37
+pf;oszczędność;latin;parsimonia;True;2023-05-04 20:35:45
+pf;zdobywać;latin;paro;True;2023-05-04 20:35:48
+pf;dostarczać, przynosić;latin;praebeo;True;2023-05-04 20:35:53
+pf;doświadczony;latin;perītus;True;2023-05-04 20:35:55
+pf;unikać;latin;vītō;True;2023-05-04 20:36:01
+pf;także;latin;quoque;True;2023-05-04 20:36:04
+pf;umieć;latin;scio;True;2023-05-04 20:36:06
+pf;pragnąć;latin;cupio;True;2023-05-04 20:36:11
+pf;uprawiać;latin;colo;True;2023-05-04 20:36:13
+pf;praca;latin;negotium;False;2023-05-04 20:36:16
+pf;jeśli;latin;sī;True;2023-05-04 20:36:21
+pf;zawsze;latin;semper;True;2023-05-04 20:36:23
+pf;dobrze;latin;bene;True;2023-05-04 20:36:25
+pf;zabijać na ofiarę;latin;macto;False;2023-05-04 20:36:30
+pf;czytać;latin;legō;True;2023-05-04 20:36:33
+pf;jednak;latin;tamen;True;2023-05-04 20:36:37
+pf;pomagać, być pożytecznym;latin;prōsum;True;2023-05-04 20:36:39
+pf;ponieważ;latin;quia;True;2023-05-04 20:36:42
+pf;często;latin;saepe;True;2023-05-04 20:36:44
+pf;jednomyślny, zgodny;latin;ūnanimus;True;2023-05-04 20:36:46
+pf;lecz;latin;sed;True;2023-05-04 20:36:48
+pf;bowiem;latin;enim;True;2023-05-04 20:36:50
+pf;mieszkać;latin;habitō;True;2023-05-04 20:37:02
+pf;lub;latin;aut;True;2023-05-04 20:37:06
+pf;być zdrowym, mieć się dobrze;latin;valeō;True;2023-05-04 20:37:08
+pf;zaś;latin;autem;True;2023-05-04 20:37:10
+pf;być dłużnym (komuś);latin;dēbeō;True;2023-05-04 20:39:22
+pf;zazdrościć (komus + dat);latin;invideo;True;2023-05-04 20:39:24
+pf;burza;latin;procella;True;2023-05-04 20:39:27
+pf;z (kim, czym) (+ abl);latin;cum;True;2023-05-04 20:39:29
+pf;przygotowywać;latin;paro;True;2023-05-04 20:39:31
+pf;miły;latin;gratus;True;2023-05-04 20:39:33
+pf;bać się;latin;timeō;True;2023-05-04 20:39:36
+pf;uczyć się;latin;discō;True;2023-05-04 20:39:39
+pf;bardzo;latin;valdē;True;2023-05-04 20:39:41
+pf;widzieć;latin;video;False;2023-05-04 20:39:45
+pf;wiatr;latin;ventus;True;2023-05-04 20:39:49
+pf;dawać;latin;do;True;2023-05-04 20:39:50
+pf;być;latin;sum;True;2023-05-04 20:39:57
+pf;mały;latin;parvus;True;2023-05-04 20:39:59
+pf;czynić, pędzić;latin;ago;True;2023-05-04 20:40:02
+pf;tylko;latin;tantum;True;2023-05-04 20:40:06
+pf;twierdzić;latin;affirmo;True;2023-05-04 20:40:08
+pf;tam;latin;ibi;True;2023-05-04 20:40:11
+pf;spieszyć się, spieszyć;latin;properō;True;2023-05-04 20:40:14
+pf;zawdzięczać (coś komuś);latin;dēbeō;True;2023-05-04 20:40:16
+pf;ciągnąć, pociągać;latin;traho;True;2023-05-04 20:40:19
+pf;żeglować;latin;nāvigo;True;2023-05-04 20:40:24
+pf;sąsiedzi;latin;fīnitimī;True;2023-05-04 20:40:26
+pf;uczyć, nauczać;latin;doceo;True;2023-05-04 20:40:30
+pf;składać ofiarę;latin;sacrifico;True;2023-05-04 20:40:33
+pf;troska;latin;cūra;True;2023-05-04 20:40:35
+pf;robotnik;latin;operarius;True;2023-05-04 20:40:41
+pf;rzecz ludzka;latin;humanum;True;2023-05-04 20:40:43
+pf;już;latin;iam;True;2023-05-04 20:40:46
+pf;żeglarz;latin;nauta;True;2023-05-04 20:40:50
+pf;patrzeć, widzieć;latin;spectō;True;2023-05-04 20:40:55
+pf;chętnie;latin;libenter;True;2023-05-04 20:40:58
+pf;przez (+ acc);latin;per;True;2023-05-04 20:40:59
+pf;widzieć;latin;video;True;2023-05-04 20:41:03
+pf;chwalić;latin;laudō;True;2023-05-04 20:41:05
+pf;dowozić;latin;adveho;True;2023-05-04 20:41:19
+pf;zgoda;latin;concordia;True;2023-05-04 20:41:23
+pf;rzeka;latin;fluvius;True;2023-05-04 20:41:30
+pf;podobać się, być lubianym;latin;placeō;True;2023-05-04 20:41:34
+pf;zabijać na ofiarę;latin;macto;True;2023-05-04 20:41:57
+pf;więc;latin;ĭtăquĕ;True;2023-05-04 20:42:01
+pf;bogaty;latin;opulentus;True;2023-05-04 20:42:03
+pf;budynek;latin;aedeficium;True;2023-05-04 20:42:07
+pf;mieszkaniec;latin;incola;True;2023-05-04 20:42:10
+pf;budować;latin;struō;True;2023-05-20 16:57:50
+pf;prawdziwy;latin;vērus;False;2023-05-20 16:57:53
+pf;jednak;latin;tamen;True;2023-05-20 16:57:59
+pf;miły;latin;gratus;True;2023-05-20 16:58:01
+pf;nieść, przynosić;latin;porto;False;2023-05-20 16:58:03
+pf;zabierać, usuwać;latin;asporto;False;2023-05-20 16:58:08
+pf;wkraczać, najeżdżać;latin;invādo;False;2023-05-20 16:58:13
+pf;wojna;latin;bellum;True;2023-05-20 16:58:17
+pf;pieniądze;latin;pĕcūnĭa;True;2023-05-20 16:58:20
+pf;widzieć;latin;video;True;2023-05-20 16:58:24
+pf;sprawiedliwość;latin;iustĭtĭa;True;2023-05-20 16:58:28
+pf;zawdzięczać (coś komuś);latin;dēbeō;True;2023-05-20 16:58:31
+pf;rozgłaszać;latin;celebrō;True;2023-05-20 16:58:35
+pf;uczyć się, studiować (+ dat);latin;studeo;False;2023-05-20 16:58:44
+pf;wsiadać, dosiadać (+ acc);latin;conscendō;True;2023-05-20 16:58:48
+pf;nieść, nosić;latin;gĕro;False;2023-05-20 16:58:51
+pf;piękny;latin;pulcher;False;2023-05-20 16:58:59
+pf;jeśli;latin;sī;False;2023-05-20 16:59:12
+pf;handel;latin;mercātūra;True;2023-05-20 16:59:18
+pf;burza;latin;procella;True;2023-05-20 16:59:21
+pf;zdobywać;latin;paro;True;2023-05-20 16:59:23
+pf;przyjaciel;latin;ămīcus;True;2023-05-20 16:59:26
+pf;drogi;latin;cārus;True;2023-05-20 16:59:29
+pf;rzadki, mało kto;latin;rarus;True;2023-05-20 16:59:31
+pf;ozdabiać;latin;orno;True;2023-05-20 16:59:33
+pf;do (+ acc);latin;in;True;2023-05-20 16:59:35
+pf;zabić;latin;interfĭcĭo;False;2023-05-20 16:59:39
+pf;kochać, lubić;latin;ămo;True;2023-05-20 16:59:45
+pf;winnica;latin;vinea;True;2023-05-20 16:59:47
+pf;poprawiać;latin;ēmendo;False;2023-05-20 16:59:50
+pf;poprawiać;latin;ēmendo;True;2023-05-20 16:59:55
+pf;uczyć się;latin;discō;False;2023-05-20 16:59:57
+pf;i;latin;atque;True;2023-05-20 17:00:02
+pf;unikać;latin;vītō;True;2023-05-20 17:00:06
+pf;zmieniać;latin;mūto;True;2023-05-20 17:00:08
+pf;pilny, pracowity;latin;sēdulus;True;2023-05-20 17:00:20
+pf;prawdziwy;latin;vērus;True;2023-05-20 17:00:23
+pf;gnębić;latin;prĕmo;False;2023-05-20 17:00:25
+pf;nieść, przynosić;latin;porto;True;2023-05-20 17:00:30
+pf;robotnik;latin;operarius;False;2023-05-20 17:00:32
+pf;więc, w wyniku;latin;ergō;False;2023-05-20 17:00:35
+pf;przez (+ acc);latin;per;False;2023-05-20 17:00:38
+pf;wysoki;latin;altus;True;2023-05-20 17:00:40
+pf;także;latin;quoque;True;2023-05-20 17:00:43
+pf;uczyć się, studiować (+ dat);latin;studeo;True;2023-05-20 17:00:45
+pf;szkodzić;latin;nŏcĕo;True;2023-05-20 17:00:48
+pf;gdzie;latin;ubi;True;2023-05-20 17:00:50
+pf;jeśli;latin;sī;True;2023-05-20 17:00:52
+pf;piękny;latin;pulcher;True;2023-05-20 17:00:54
+pf;często;latin;saepe;True;2023-05-20 17:00:56
+pf;zostawać;latin;maneo;False;2023-05-20 17:00:58
+pf;lecz;latin;sed;True;2023-05-20 17:01:01
+pf;mieć;latin;habeo;True;2023-05-20 17:01:03
+pf;praca;latin;negotium;True;2023-05-20 17:01:07
+pf;jeszcze, także;latin;etiam;True;2023-05-20 17:01:10
+pf;urodzajny;latin;fēcundus;True;2023-05-20 17:01:12
+pf;zabierać, usuwać;latin;asporto;True;2023-05-20 17:01:16
+pf;zaś;latin;autem;True;2023-05-20 17:01:19
+pf;być;latin;sum;True;2023-05-20 17:01:23
+pf;zabijać na ofiarę;latin;macto;True;2023-05-20 17:01:27
+pf;jeniec;latin;captīvus;False;2023-05-20 17:01:29
+pf;zabić;latin;interfĭcĭo;True;2023-05-20 17:01:34
+pf;starać się;latin;studeo;False;2023-05-20 17:02:17
+pf;dziecko;latin;liber;True;2023-05-20 17:02:24
+pf;oczywisty, jasny;latin;clārus;True;2023-05-20 17:02:27
+pf;tylko;latin;tantum;True;2023-05-20 17:02:30
+pf;opowieść, baśń, bajka;latin;fābŭla;True;2023-05-20 17:02:32
+pf;pragnąć;latin;cupio;False;2023-05-20 17:02:35
+pf;gnębić;latin;prĕmo;True;2023-05-20 17:02:39
+pf;uczyć się;latin;discō;True;2023-05-20 17:02:43
+pf;robotnik;latin;operarius;True;2023-05-20 17:02:47
+pf;ludzie, naród;latin;pŏpŭlus;True;2023-05-20 17:02:50
+pf;zostawać;latin;maneo;True;2023-05-20 17:02:52
+pf;ciągły, trwały, wieczny;latin;sempiternus;True;2023-05-20 17:02:55
+pf;trudno;latin;difficile;True;2023-05-20 17:02:57
+pf;jeniec;latin;captīvus;True;2023-05-20 17:03:00
+pf;czynić, pędzić;latin;ago;True;2023-05-20 17:03:02
+pf;dostarczać, przynosić;latin;praebeo;False;2023-05-20 17:03:05
+pf;mylić się;latin;erro;True;2023-05-20 17:03:09
+pf;czytać;latin;legō;True;2023-05-20 17:03:10
+pf;rola, pole;latin;ager;True;2023-05-20 17:03:12
+pf;być zdrowym, mieć się dobrze;latin;valeō;True;2023-05-20 17:03:15
+pf;nigdy;latin;numquam;True;2023-05-20 17:03:19
+pf;przez (+ acc);latin;per;True;2023-05-20 17:03:21
+pf;pilność;latin;dīligentia;True;2023-05-20 17:03:24
+pf;umieć;latin;scio;True;2023-05-20 17:03:26
+pf;klaskać;latin;plaudō;False;2023-05-20 17:03:28
+pf;uprawiać;latin;colo;True;2023-05-20 17:03:32
+pf;zawsze;latin;semper;True;2023-05-20 17:03:35
+pf;opowiadać;latin;narro;True;2023-05-20 17:03:37
+pf;oszczędność;latin;parsimonia;True;2023-05-20 17:03:40
+pf;dostarczać, przynosić;latin;praebeo;True;2023-05-20 17:03:43
+pf;odpowiedni, nadający się;latin;idōneus;True;2023-05-20 17:03:52
+pf;oddawać się czemuś, zajmować się czymś (+ dat);latin;studeo;True;2023-05-20 17:03:59
+pf;czcić;latin;colo;True;2023-05-20 17:04:05
+pf;sprzedawać;latin;vendo;True;2023-05-20 17:04:08
+pf;więc, w wyniku;latin;ergō;True;2023-05-20 17:04:31
+pf;naciskać;latin;prĕmo;True;2023-05-20 17:04:34
+pf;spieszyć się, spieszyć;latin;properō;True;2023-05-20 17:04:37
+pf;zboże;latin;frūmentum;True;2023-05-20 17:05:24
+pf;bogaty;latin;opulentus;True;2023-05-20 17:05:26
+pf;ponieważ;latin;quia;False;2023-05-20 17:05:29
+pf;wkraczać, najeżdżać;latin;invādo;False;2023-05-20 17:05:36
+pf;nieść, nosić;latin;gĕro;False;2023-05-20 17:05:42
+pf;nieść, nosić;latin;gĕro;True;2023-05-20 17:05:45
+pf;rzemieślnik;latin;faber;True;2023-05-20 17:05:49
+pf;odpoczynek;latin;ōtium;True;2023-05-20 17:05:52
+pf;bawić się;latin;lūdō;True;2023-05-20 17:05:54
+pf;bogactwa;latin;divitiae;False;2023-05-20 17:05:56
+pf;karać;latin;castīgo;False;2023-05-20 17:06:00
+pf;twierdzić;latin;affirmo;True;2023-05-20 17:06:04
+pf;zwyciężony;latin;victŭs;True;2023-05-20 17:06:06
+pf;zwierzę pociągowe;latin;iūmentum;True;2023-05-20 17:06:09
+pf;ciągnąć, pociągać;latin;traho;True;2023-05-20 17:06:11
+pf;pokazywać;latin;monstrō;True;2023-05-20 17:06:13
+pf;bowiem;latin;enim;True;2023-05-20 17:06:17
+pf;bogactwa;latin;divitiae;True;2023-05-20 17:06:20
+pf;dowozić;latin;adveho;True;2023-05-20 17:06:23
+pf;pomagać, być pożytecznym;latin;prōsum;True;2023-05-20 17:06:27
+pf;doświadczony;latin;perītus;True;2023-05-20 17:06:31
+pf;więc;latin;ĭtăquĕ;False;2023-05-20 17:06:33
+pf;znany;latin;notus;True;2023-05-20 17:06:36
+pf;mały;latin;parvus;True;2023-05-20 17:06:38
+pf;więc;latin;ĭtăquĕ;True;2023-05-20 17:06:41
+pf;ponieważ;latin;quia;True;2023-05-20 17:06:45
+pf;wkraczać, najeżdżać;latin;invādo;True;2023-05-20 17:06:48
+pf;klaskać;latin;plaudō;True;2023-05-20 17:06:52
+pf;w (+ abl);latin;in;True;2023-05-20 17:06:53
+pf;troszczyć się, dbać (o coś + dat);latin;cūrō;True;2023-05-20 17:06:55
+pf;z (kim, czym) (+ abl);latin;cum;True;2023-05-20 17:06:59
+pf;jednomyślny, zgodny;latin;ūnanimus;True;2023-05-20 17:07:02
+pf;pragnąć;latin;cupio;True;2023-05-20 17:07:09
+pf;być dłużnym (komuś);latin;dēbeō;True;2023-05-20 17:07:14
+pf;starać się;latin;studeo;True;2023-05-20 17:07:15
+pf;bardzo;latin;valdē;True;2023-05-20 17:07:19
+pf;karać;latin;castīgo;True;2023-05-20 17:07:27
+pf;dobrze;latin;bene;True;2023-05-20 17:07:29
+pf;szczęśliwy;latin;beātus;True;2023-05-20 17:07:31
+pf;wiatr;latin;ventus;True;2023-05-20 17:07:33
+pf;dawać;latin;do;True;2023-05-20 17:07:34
+pf;patrzeć, widzieć;latin;spectō;True;2023-05-20 17:07:37
+pf;lub;latin;aut;True;2023-05-20 17:07:40
+pf;wtedy, następnie;latin;tum;False;2023-05-20 17:07:45
+pf;mieszkać;latin;habitō;True;2023-05-20 17:07:48
+pf;składać ofiarę;latin;sacrifico;False;2023-05-20 17:07:53
+pf;zazdrościć (komus + dat);latin;invideo;True;2023-05-20 17:07:55
+pf;orać;latin;aro;True;2023-05-20 17:07:58
+pf;uczyć, nauczać;latin;doceo;True;2023-05-20 17:08:01
+pf;już;latin;iam;True;2023-05-20 17:08:03
+pf;ukazywać się;latin;appareo;True;2023-05-20 17:08:06
+pf;przygotowywać;latin;paro;True;2023-05-20 17:08:07
+pf;tam;latin;ibi;True;2023-05-20 17:08:09
+pf;rzecz ludzka;latin;humanum;True;2023-05-20 17:08:11
+pf;rzeka;latin;fluvius;True;2023-05-20 17:08:14
+pf;bać się;latin;timeō;True;2023-05-20 17:08:16
+pf;zgoda;latin;concordia;True;2023-05-20 17:08:18
+pf;wtedy, następnie;latin;tum;True;2023-05-20 17:08:20
+pf;chwalić;latin;laudō;True;2023-05-20 17:08:24
+pf;składać ofiarę;latin;sacrifico;False;2023-05-20 17:08:26
+pf;chętnie;latin;libenter;True;2023-05-20 17:08:32
+pf;składać ofiarę;latin;sacrifico;True;2023-05-20 17:08:35
+pf;żeglarz;latin;nauta;True;2023-05-20 17:08:36
+pf;sąsiedzi;latin;fīnitimī;True;2023-05-20 17:08:39
+pf;podobać się, być lubianym;latin;placeō;True;2023-05-20 17:08:43
+pf;żeglować;latin;nāvigo;False;2023-05-20 17:08:46
+pf;żeglować;latin;nāvigo;True;2023-05-20 17:10:17
+pf;budynek;latin;aedeficium;True;2023-05-20 17:10:20
+pf;troska;latin;cūra;True;2023-05-20 17:10:21
+pf;mieszkaniec;latin;incola;True;2023-05-20 17:10:24
+pf;pieniądze;latin;pĕcūnĭa;True;2023-08-08 22:51:44
+pf;robotnik;latin;operarius;True;2023-08-08 22:51:48
+pf;przez (+ acc);latin;per;True;2023-08-08 22:51:52
+pf;zmieniać;latin;mūto;True;2023-08-08 22:51:55
+pf;jeniec;latin;captīvus;True;2023-08-08 22:51:58
+pf;zabierać, usuwać;latin;asporto;False;2023-08-08 22:52:01
+pf;dowozić;latin;adveho;True;2023-08-08 22:52:10
+pf;tylko;latin;tantum;True;2023-08-08 22:52:18
+pf;u (+ acc);latin;ăpud;True;2023-08-08 22:53:29
+pf;nieść, przynosić;latin;porto;True;2023-08-08 22:53:33
+pf;pilnie, skrupulatnie;latin;dīlĭgentĕr;True;2023-08-08 22:53:37
+pf;zabijać na ofiarę;latin;macto;True;2023-08-08 22:53:40
+pf;miły;latin;gratus;True;2023-08-08 22:53:42
+pf;drogi;latin;cārus;True;2023-08-08 22:53:45
+pf;uczyć się, studiować (+ dat);latin;studeo;True;2023-08-08 22:53:47
+pf;jeśli;latin;sī;True;2023-08-08 22:53:52
+pf;bawić się;latin;lūdō;True;2023-08-08 22:54:32
+pf;pokazywać;latin;monstrō;True;2023-08-08 22:54:35
+pf;więc;latin;ĭtăquĕ;False;2023-08-08 22:54:39
+pf;między (+acc);latin;intĕr;True;2023-08-08 22:55:00
+pf;jednak;latin;tamen;True;2023-08-08 22:55:03
+pf;zmieniać;latin;mūto;True;2023-08-08 22:55:16
+pf;praca;latin;negotium;True;2023-08-08 22:55:32
+pf;przyjaciel;latin;ămīcus;True;2023-08-08 22:55:34
+pf;spieszyć się, spieszyć;latin;properō;False;2023-08-08 22:55:40
+pf;jednak;latin;tamen;True;2023-08-08 22:56:13
+pf;w (+ abl);latin;in;True;2023-08-08 22:56:16
+pf;nieść, nosić;latin;gĕro;False;2023-08-08 22:56:19
+pf;wysoki;latin;altus;True;2023-08-08 22:57:23
+pf;unikać;latin;vītō;True;2023-08-08 22:57:26
+pf;prawdziwy;latin;vērus;True;2023-08-08 22:57:29
+pf;opowieść, baśń, bajka;latin;fābŭla;True;2023-08-08 22:57:34
+pf;starać się;latin;studeo;True;2023-08-08 22:57:37
+pf;czcić;latin;colo;True;2023-08-08 22:57:40
+pf;tylko;latin;tantum;True;2023-08-08 22:57:42
+pf;umieć;latin;scio;True;2023-08-08 22:57:44
+pf;spieszyć się, spieszyć;latin;properō;True;2023-08-08 22:57:50
+pf;poprawiać;latin;ēmendo;False;2023-08-08 22:57:51
+pf;pragnąć;latin;cupio;True;2023-08-08 22:58:52
+pf;poprawiać;latin;ēmendo;True;2023-08-08 22:58:54
+pf;jeniec;latin;captīvus;True;2023-08-08 22:58:58
+pf;karać;latin;castīgo;True;2023-08-08 22:59:01
+pf;uprawiać;latin;colo;True;2023-08-08 22:59:05
+pf;jeszcze, także;latin;etiam;True;2023-08-08 22:59:08
+pf;gnębić;latin;prĕmo;False;2023-08-08 22:59:13
+pf;kochać, lubić;latin;ămo;True;2023-08-08 22:59:16
+pf;doświadczony;latin;perītus;True;2023-08-08 22:59:18
+pf;zabić;latin;interfĭcĭo;False;2023-08-08 22:59:21
+pf;więc, w wyniku;latin;ergō;True;2023-08-08 22:59:28
+pf;zawdzięczać (coś komuś);latin;dēbeō;True;2023-08-08 22:59:36
+pf;klaskać;latin;plaudō;True;2023-08-08 22:59:40
+pf;więc;latin;ĭtăquĕ;True;2023-08-08 22:59:45
+pf;dostarczać, przynosić;latin;praebeo;False;2023-08-08 22:59:49
+pf;i;latin;atque;True;2023-08-08 23:00:02
+pf;zabierać, usuwać;latin;asporto;False;2023-08-08 23:03:19
+pf;składać ofiarę;latin;sacrifico;False;2023-08-08 23:03:23
+pf;zabijać na ofiarę;latin;macto;True;2023-08-08 23:03:28
+pf;zabierać, usuwać;latin;asporto;True;2023-08-08 23:03:31
+pf;zmieniać;latin;mūto;True;2023-08-08 23:03:33
+pf;nieść, nosić;latin;gĕro;True;2023-08-08 23:03:36
+pf;mieć;latin;habeo;True;2023-08-08 23:03:39
+pf;wkraczać, najeżdżać;latin;invādo;True;2023-08-08 23:03:45
+pf;burza;latin;procella;True;2023-08-08 23:03:48
+pf;uczyć się;latin;discō;False;2023-08-08 23:03:50
+pf;bogaty;latin;opulentus;True;2023-08-08 23:03:55
+pf;zboże;latin;frūmentum;True;2023-08-08 23:03:57
+pf;piękny;latin;pulcher;True;2023-08-08 23:04:04
+pf;zaś;latin;autem;True;2023-08-08 23:04:06
+pf;jeśli;latin;sī;True;2023-08-08 23:04:08
+pf;czynić, pędzić;latin;ago;True;2023-08-08 23:04:09
+pf;sprawiedliwość;latin;iustĭtĭa;True;2023-08-08 23:04:13
+pf;rozgłaszać;latin;celebrō;False;2023-08-08 23:04:18
+pf;zostawać;latin;maneo;True;2023-08-08 23:04:22
+pf;gnębić;latin;prĕmo;True;2023-08-08 23:04:27
+pf;dostarczać, przynosić;latin;praebeo;False;2023-08-08 23:04:31
+pf;ponieważ;latin;quia;False;2023-08-08 23:04:36
+pf;przez (+ acc);latin;per;True;2023-08-08 23:04:46
+pf;wtedy, następnie;latin;tum;False;2023-08-08 23:04:54
+pf;czytać;latin;legō;True;2023-08-08 23:04:57
+pf;opowiadać;latin;narro;True;2023-08-08 23:05:01
+pf;często;latin;saepe;True;2023-08-08 23:05:03
+pf;trudno;latin;difficile;True;2023-08-08 23:05:07
+pf;nigdy;latin;numquam;True;2023-08-08 23:05:11
+pf;żeglować;latin;nāvigo;True;2023-08-08 23:05:15
+pf;do (+ acc);latin;in;True;2023-08-08 23:05:17
+pf;nieść, przynosić;latin;porto;True;2023-08-08 23:05:20
+pf;dawać;latin;do;True;2023-08-08 23:05:22
+pf;bogactwa;latin;divitiae;True;2023-08-08 23:05:26
+pf;być zdrowym, mieć się dobrze;latin;valeō;False;2023-08-08 23:05:30
+pf;składać ofiarę;latin;sacrifico;True;2023-08-08 23:05:39
+pf;naciskać;latin;prĕmo;False;2023-08-08 23:05:44
+pf;oczywisty, jasny;latin;clārus;True;2023-08-08 23:05:50
+pf;ponieważ;latin;quia;True;2023-08-08 23:05:53
+pf;robotnik;latin;operarius;False;2023-08-08 23:05:56
+pf;zawsze;latin;semper;True;2023-08-08 23:05:59
+pf;zabić;latin;interfĭcĭo;True;2023-08-08 23:06:03
+pf;rozgłaszać;latin;celebrō;True;2023-08-08 23:06:07
+pf;wsiadać, dosiadać (+ acc);latin;conscendō;True;2023-08-08 23:06:12
+pf;uczyć się;latin;discō;True;2023-08-08 23:06:16
+pf;pokazywać;latin;monstrō;True;2023-08-08 23:06:18
+pf;ciągły, trwały, wieczny;latin;sempiternus;True;2023-08-08 23:06:22
+pf;wstrętny, nieprzyjemny;latin;ŏdĭōsus;True;2023-08-08 23:06:25
+pf;zdobywać;latin;paro;False;2023-08-08 23:06:28
+pf;znany;latin;notus;True;2023-08-08 23:06:35
+pf;także;latin;quoque;False;2023-08-08 23:07:00
+pf;dostarczać, przynosić;latin;praebeo;True;2023-08-08 23:07:07
+pf;oszczędność;latin;parsimonia;True;2023-08-08 23:07:10
+pf;gdzie;latin;ubi;True;2023-08-08 23:07:25
+pf;uczyć się, studiować (+ dat);latin;studeo;True;2023-08-08 23:07:28
+pf;być zdrowym, mieć się dobrze;latin;valeō;True;2023-08-08 23:07:33
+pf;jednomyślny, zgodny;latin;ūnanimus;True;2023-08-08 23:07:37
+pf;odpoczynek;latin;ōtium;True;2023-08-08 23:07:44
+pf;twierdzić;latin;affirmo;True;2023-08-08 23:07:48
+pf;robotnik;latin;operarius;True;2023-08-08 23:09:03
+pf;rzadki, mało kto;latin;rarus;True;2023-08-08 23:09:05
+pf;bać się;latin;timeō;True;2023-08-08 23:09:09
+pf;zdobywać;latin;paro;True;2023-08-08 23:09:11
+pf;budować;latin;struō;True;2023-08-08 23:09:16
+pf;pomagać, być pożytecznym;latin;prōsum;True;2023-08-08 23:09:21
+pf;pilny, pracowity;latin;sēdulus;False;2023-08-08 23:09:28
+pf;pilny, pracowity;latin;sēdulus;True;2023-08-08 23:09:32
+pf;zwyciężony;latin;victŭs;True;2023-08-08 23:09:35
+pf;zwierzę pociągowe;latin;iūmentum;True;2023-08-08 23:09:38
+pf;handel;latin;mercātūra;True;2023-08-08 23:09:42
+pf;rzecz ludzka;latin;humanum;True;2023-08-08 23:12:22
+pf;tam;latin;ibi;True;2023-08-08 23:12:25
+pf;dowozić;latin;adveho;False;2023-08-08 23:12:28
+pf;naciskać;latin;prĕmo;True;2023-08-08 23:12:35
+pf;oddawać się czemuś, zajmować się czymś (+ dat);latin;studeo;False;2023-08-08 23:12:37
+pf;widzieć;latin;video;True;2023-08-08 23:12:47
+pf;być;latin;sum;True;2023-08-08 23:12:50
+pf;wiatr;latin;ventus;True;2023-08-08 23:12:52
+pf;dowozić;latin;adveho;True;2023-08-08 23:12:55
+pf;także;latin;quoque;True;2023-08-08 23:12:59
+pf;sprzedawać;latin;vendo;False;2023-08-08 23:13:02
+pf;urodzajny;latin;fēcundus;True;2023-08-08 23:13:12
+pf;dobrze;latin;bene;True;2023-08-08 23:13:14
+pf;mylić się;latin;erro;True;2023-08-08 23:13:15
+pf;odpowiedni, nadający się;latin;idōneus;False;2023-08-08 23:13:17
+pf;wtedy, następnie;latin;tum;True;2023-08-08 23:13:26
+pf;chwalić;latin;laudō;True;2023-08-08 23:13:30
+pf;wojna;latin;bellum;True;2023-08-08 23:13:32
+pf;odpowiedni, nadający się;latin;idōneus;True;2023-08-08 23:13:36
+pf;szkodzić;latin;nŏcĕo;True;2023-08-08 23:13:38
+pf;rola, pole;latin;ager;True;2023-08-08 23:13:40
+pf;sprzedawać;latin;vendo;True;2023-08-08 23:13:46
+pf;uczyć, nauczać;latin;doceo;False;2023-08-08 23:13:52
+pf;troszczyć się, dbać (o coś + dat);latin;cūrō;True;2023-08-08 23:13:57
+pf;z (kim, czym) (+ abl);latin;cum;False;2023-08-08 23:13:59
+pf;patrzeć, widzieć;latin;spectō;True;2023-08-08 23:14:05
+pf;oddawać się czemuś, zajmować się czymś (+ dat);latin;studeo;True;2023-08-08 23:14:07
+pf;ozdabiać;latin;orno;False;2023-08-08 23:14:10
+pf;ozdabiać;latin;orno;True;2023-08-08 23:14:19
+pf;dziecko;latin;liber;False;2023-08-08 23:14:26
+pf;pilność;latin;dīligentia;True;2023-08-08 23:14:40
+pf;winnica;latin;vinea;True;2023-08-08 23:14:43
+pf;ciągnąć, pociągać;latin;traho;True;2023-08-08 23:14:45
+pf;bowiem;latin;enim;False;2023-08-08 23:14:47
+pf;rzemieślnik;latin;faber;False;2023-08-08 23:14:55
+pf;zgoda;latin;concordia;True;2023-08-08 23:14:58
+pf;uczyć, nauczać;latin;doceo;True;2023-08-08 23:15:00
+pf;lub;latin;aut;True;2023-08-08 23:15:05
+pf;rzemieślnik;latin;faber;True;2023-08-08 23:15:08
+pf;z (kim, czym) (+ abl);latin;cum;True;2023-08-08 23:15:11
+pf;szczęśliwy;latin;beātus;True;2023-08-08 23:15:13
+pf;żeglarz;latin;nauta;True;2023-08-08 23:15:15
+pf;bowiem;latin;enim;True;2023-08-08 23:15:17
+pf;przygotowywać;latin;paro;True;2023-08-08 23:15:20
+pf;sąsiedzi;latin;fīnitimī;True;2023-08-08 23:15:22
+pf;mieszkać;latin;habitō;False;2023-08-08 23:15:24
+pf;być dłużnym (komuś);latin;dēbeō;True;2023-08-08 23:15:28
+pf;mały;latin;parvus;True;2023-08-08 23:15:39
+pf;ludzie, naród;latin;pŏpŭlus;True;2023-08-08 23:15:42
+pf;zazdrościć (komus + dat);latin;invideo;True;2023-08-08 23:15:45
+pf;lecz;latin;sed;True;2023-08-08 23:15:47
+pf;dziecko;latin;liber;True;2023-08-08 23:15:49
+pf;mieszkać;latin;habitō;True;2023-08-08 23:15:51
+pf;ukazywać się;latin;appareo;True;2023-08-08 23:15:54
+pf;troska;latin;cūra;True;2023-08-08 23:15:55
+pf;już;latin;iam;True;2023-08-08 23:15:57
+pf;orać;latin;aro;True;2023-08-08 23:16:02
+pf;budynek;latin;aedeficium;True;2023-08-08 23:16:07
+pf;bardzo;latin;valdē;True;2023-08-08 23:16:09
+pf;rzeka;latin;fluvius;False;2023-08-08 23:16:11
+pf;rzeka;latin;fluvius;True;2023-08-08 23:16:16
+pf;u (+ acc);latin;ăpud;True;2023-08-08 23:16:20
+pf;podobać się, być lubianym;latin;placeō;False;2023-08-08 23:16:22
+pf;mieszkaniec;latin;incola;True;2023-08-08 23:16:31
+pf;chętnie;latin;libenter;False;2023-08-08 23:16:34
+pf;pilnie, skrupulatnie;latin;dīlĭgentĕr;False;2023-08-08 23:16:39
+pf;pilnie, skrupulatnie;latin;dīlĭgentĕr;True;2023-08-08 23:16:47
+pf;pieniądze;latin;pĕcūnĭa;True;2023-08-08 23:16:50
+pf;miły;latin;gratus;False;2023-08-08 23:16:53
+pf;podobać się, być lubianym;latin;placeō;True;2023-08-08 23:16:59
+pf;chętnie;latin;libenter;True;2023-08-08 23:17:02
+pf;bawić się;latin;lūdō;True;2023-08-08 23:17:05
+pf;miły;latin;gratus;True;2023-08-08 23:17:08
+pf;między (+acc);latin;intĕr;True;2023-08-08 23:17:09
+pf;drogi;latin;cārus;True;2023-08-08 23:17:11
+pf;zabierać, usuwać;latin;asporto;False;2023-08-12 22:09:52
+pf;zabierać, usuwać;latin;asporto;True;2023-08-12 22:09:58
+pf;naciskać;latin;prĕmo;True;2023-08-12 22:10:03
+pf;uczyć, nauczać;latin;doceo;False;2023-08-12 22:10:16
+pf;jednak;latin;tamen;True;2023-08-12 22:10:19
+pf;być zdrowym, mieć się dobrze;latin;valeō;True;2023-08-12 22:10:22
+pf;uczyć, nauczać;latin;doceo;True;2023-08-12 22:10:24
+pf;spieszyć się, spieszyć;latin;properō;True;2023-08-12 22:10:36
+pf;nieść, nosić;latin;gĕro;True;2023-08-12 22:10:40
+pf;także;latin;quoque;False;2023-08-12 22:10:45
+pf;gnębić;latin;prĕmo;False;2023-08-12 22:10:49
+pf;z (kim, czym) (+ abl);latin;cum;True;2023-08-12 22:10:53
+pf;gnębić;latin;prĕmo;True;2023-08-12 22:10:56
+pf;dostarczać, przynosić;latin;praebeo;False;2023-08-12 22:11:00
+pf;jeśli;latin;sī;True;2023-08-12 22:11:04
+pf;poprawiać;latin;ēmendo;True;2023-08-12 22:11:07
+pf;dowozić;latin;adveho;True;2023-08-12 22:11:11
+pf;więc;latin;ĭtăquĕ;False;2023-08-12 22:11:14
+pf;więc;latin;ĭtăquĕ;True;2023-08-12 22:11:17
+pf;bowiem;latin;enim;True;2023-08-12 22:11:20
+pf;zdobywać;latin;paro;True;2023-08-12 22:11:25
+pf;ponieważ;latin;quia;False;2023-08-12 22:11:31
+pf;ponieważ;latin;quia;True;2023-08-12 22:11:34
+pf;pilny, pracowity;latin;sēdulus;True;2023-08-12 22:11:36
+pf;dostarczać, przynosić;latin;praebeo;False;2023-08-12 22:11:39
+pf;podobać się, być lubianym;latin;placeō;False;2023-08-12 22:11:44
+pf;wtedy, następnie;latin;tum;True;2023-08-12 22:13:35
+pf;także;latin;quoque;False;2023-08-12 22:14:07
+pf;także;latin;quoque;False;2023-08-12 22:14:47
+pf;zabić;latin;interfĭcĭo;True;2023-08-12 22:15:30
+pf;nieść, nosić;latin;gĕro;True;2023-08-12 22:15:38
+pf;także;latin;quoque;True;2023-08-12 22:15:47
+pf;zdobywać;latin;paro;True;2023-08-12 22:15:52
+pf;spieszyć się, spieszyć;latin;properō;False;2023-08-12 22:15:58
+pf;spieszyć się, spieszyć;latin;properō;True;2023-08-12 22:16:03
+pf;podobać się, być lubianym;latin;placeō;True;2023-08-12 22:16:10
+pf;ponieważ;latin;quia;True;2023-08-12 22:16:28
+pf;z (kim, czym) (+ abl);latin;cum;True;2023-08-12 22:16:31
+pf;umieć;latin;scio;True;2023-08-12 22:16:33
