@@ -94,7 +94,7 @@ enim [conj]
 
 etiam [conj]
 (Etiam silvae magnae et pulchrae terram nostram ornant)
-1. jeszcze, także
+1. także
 
 iam [adv]
 (Fatigatus iam sum sed numquam otium mihi est)

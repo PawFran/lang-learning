@@ -1,8 +1,12 @@
 roadmap for language learning
 
+translation exercise - koniecznośc wypisania wszystkich form (oddzielonych przecinkami). wtedy "correct" nie musi ich podawać
+
 slowo polskie jako tlumaczenie lacinskiego
 
 odpytywanie o rozne formy - np slowo polskie ale w supinum
+
+znajdywanie duplikatów w słowniku
 
 random word powinno losować dane z tej samej bazy co translation ex (w opcji smart)
 
