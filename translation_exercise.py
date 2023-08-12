@@ -47,13 +47,13 @@ if __name__ == '__main__':
         is_correct = weak_equals(answer, word_original)
 
         if is_correct:
-            print('correct')
+            print(f'correct ({entry.head.head_raw})')
             if args.remove:
                 dictionary.remove_single_translation(entry, word_pl)
                 if dictionary.translations_nr() % 10 == 0:
                     print(f'{dictionary.translations_nr()} translations left in dict')
         else:
-            print(f'wrong. correct answer is "{word_original}" ({entry.example})')
+            print(f'wrong. correct answer is "{entry.head.head_raw}" ({entry.example})')
             # todo if another translation from dict was given print it's meaning - not that easy. it may be in original dict but not after some removals
             # actually sp,e translations may unequivocal (np. także -> etiam, quoque)
 
