@@ -90,7 +90,7 @@ cum [conj]
 
 enim [conj]
 (Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
-1. bowiem
+1. bowiem, ponieważ
 
 etiam [conj]
 (Etiam silvae magnae et pulchrae terram nostram ornant)
