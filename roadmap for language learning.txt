@@ -1,6 +1,8 @@
 roadmap for language learning
 
-translation exercise - koniecznośc wypisania wszystkich form (oddzielonych spacją lub przecinkami). wtedy "correct" nie musi ich podawać
+rzeczownik/czasownik po lacinie i wypisanie wszystkich mozliwych form, w jakim moze wystepować (deklinacja/koniugacja)
+
+wziecie tylko n slow z najnizszym ratio (oraz nowych - N/A jako pierwsze w sortowaniu)
 
 slowo polskie jako tlumaczenie lacinskiego. jeśli tłumaczen jest wiele trzeba podac wszystkie (liczba moze byc podpowiedziana)
 
