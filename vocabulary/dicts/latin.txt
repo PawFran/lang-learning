@@ -1,14 +1,10 @@
-sēdulus, sēdula, sēdulum [adj]
-(Agricolae seduli agrum arant)
-1. pilny, pracowity
-
 asporto, asportāre, asportāvī, asportātum [verb] [I]
 (Romani terras invadebant, incolas interficiebant aut captivos asportabant)
 1. zabierać, usuwać
 
 adveho, advehere, advexi, advectum [verb] [III]
 (Nautae in alienas terras navigābant, frumentum advehēbant)
-1. dowozić
+1. dowozić, przywozić
 
 sī [conj]
 (Si tu vales, bene est, ego valeo)
@@ -56,7 +52,7 @@ prĕmo, prĕmĕre, pressi, pressum [verb] [III]
 1. naciskać
 2. gnębić
 
-valeō, valēre, valuī, valitus [verb] [II]
+valeō, valēre, valuī, valitum [verb] [II]
 (Vos valete et plaudite)
 1. być zdrowym, mieć się dobrze
 
@@ -83,10 +79,6 @@ idōneus, idōnea, idōneum [adj]
 doceo, docēre, docuī, doctum [verb] [II]
 (Verba docent, exampla trahunt)
 1. uczyć, nauczać
-
-cum [conj]
-(Vade mecum)
-1. z (kim, czym) (+ abl)
 
 enim [conj]
 (Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
