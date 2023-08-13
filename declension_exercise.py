@@ -1,8 +1,8 @@
-# remove or not
 # when third declension is mentioned all variants should be included
 # todo filter by word
 
 import os
+import copy
 
 from numpy.random import default_rng
 
@@ -26,18 +26,27 @@ if __name__ == '__main__':
 
     print()
 
-    declensions_filtered = filter_by_type(declension_all, declensions_to_include)
+    declensions_filtered: Declensions = filter_by_type(declension_all, declensions_to_include)
 
-    # todo when --remove then remove when answer is ok
     # todo when last entry removed summarize nr of correct/wrong answers
 
-    user_input = 'y'
-    while user_input.lower() != 'n':
-        declension_test: DeclensionTest = random_declension_entry(declensions_filtered, rng)
-        declension_prompt: DeclensionPrompt = declension_test.prompt
-        print(declension_prompt.base_word, declension_prompt.case, declension_prompt.number)
-        user_answer = input()
-        if weak_equals(user_answer, declension_test.answer):
-            print('correct', end='\n\n')
+    current_dict = declensions_filtered
+
+    should_continue = 'y'
+    while should_continue.lower() != 'n':
+        backup_dict = copy.deepcopy(current_dict)  # in case remove is on and answer is wrong
+        declension_test: DeclensionTest = random_declension_entry(current_dict, rng, args.remove)
+        if declension_test is None:
+            should_continue = 'n'  # means all entries where already removed
         else:
-            print(f'wrong. proper answer is {declension_test.answer}', end='\n\n')
+            declension_prompt: DeclensionPrompt = declension_test.prompt
+            print(declension_prompt.base_word, declension_prompt.case, declension_prompt.number)
+
+            user_answer = input()
+            if weak_equals(user_answer, declension_test.answer):
+                print('correct', end='\n\n')
+            else:
+                print(f'wrong. proper answer is {declension_test.answer}', end='\n\n')
+                current_dict = backup_dict
+
+    print('terminating..')
