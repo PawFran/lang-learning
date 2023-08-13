@@ -1,4 +1,5 @@
 from vocabulary.lib.parsing_dict import *
+from vocabulary.lib.utils import compare_answer_with_full_head_raw
 
 # todo option to take only a number or percentage of the words rnaked highest (in terms of probability)
 
@@ -44,7 +45,7 @@ if __name__ == '__main__':
 
         answer = input('translation: ')
 
-        is_correct = weak_equals(answer, word_original)
+        is_correct = compare_answer_with_full_head_raw(entry.head.head_raw, answer)
 
         if is_correct:
             print(f'correct ({entry.head.head_raw})')
