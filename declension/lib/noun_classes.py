@@ -1,6 +1,7 @@
 import json
 from dataclasses import dataclass
 from enum import Enum
+from common.lib.utils import flatten
 
 
 class DeclensionType(Enum):
@@ -168,3 +169,15 @@ class Declensions:
     def nth(self, num: str):
         # only one Declension instance for given number (but multiple patterns) possible
         return [dec for dec in self.declensions if dec.type == num][0]
+
+    def length(self):
+        patterns_all: list[SingleDeclensionPattern] = flatten(
+            [x.declension_patterns for x in self.declensions]
+        )
+
+        cnt = 0
+        for pattern in patterns_all:
+            cnt += len(pattern.plural) + len(pattern.singular)
+
+        return cnt
+

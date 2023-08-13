@@ -16,7 +16,6 @@ if __name__ == '__main__':
 
     args = parse_args()
     print(f'declensions to filter: {args.declensions}')
-    print(f'remove? {args.remove} (not implemented)')
 
     declension_all = Declensions.from_file_path(dict_file_path)
 
@@ -28,6 +27,8 @@ if __name__ == '__main__':
 
     declensions_filtered: Declensions = filter_by_type(declension_all, declensions_to_include)
 
+    print(f'current nr of entries: {declensions_filtered.length()}')
+
     # todo when last entry removed summarize nr of correct/wrong answers
 
     current_dict = declensions_filtered
@@ -35,7 +36,7 @@ if __name__ == '__main__':
     should_continue = 'y'
     while should_continue.lower() != 'n':
         backup_dict = copy.deepcopy(current_dict)  # in case remove is on and answer is wrong
-        declension_test: DeclensionTest = random_declension_entry(current_dict, rng, args.remove)
+        declension_test: DeclensionTest = random_declension_entry(current_dict, rng, args.remove) # here current_dict may be modified
         if declension_test is None:
             should_continue = 'n'  # means all entries where already removed
         else:
@@ -48,5 +49,10 @@ if __name__ == '__main__':
             else:
                 print(f'wrong. proper answer is {declension_test.answer}', end='\n\n')
                 current_dict = backup_dict
+
+        if args.remove:
+            current_length = current_dict.length()
+            if current_length % 10 == 0:
+                print(f'current nr of entries: {current_length}')
 
     print('terminating..')
