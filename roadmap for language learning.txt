@@ -1,5 +1,17 @@
 roadmap for language learning
 
+filtrowanie tylko wybranych części mowy
+
+podsumowywanie błędów po zakończeniu skryptu
+
+kiedy jedno slowo polskie ma wiecej niz jeden odpowiednik trzeba podac wszystkie
+
+zaimki osobowe
+
+esse
+
+w przypadku przymiotnikow 1/2 deklinacji i czasownikow 1 koniugacji akceptowac skrotowa odpowiedz w translation exercise 
+
 rzeczownik/czasownik po lacinie i wypisanie wszystkich mozliwych form, w jakim moze wystepować (deklinacja/koniugacja)
 
 wziecie tylko n slow z najnizszym ratio (oraz nowych - N/A jako pierwsze w sortowaniu)
@@ -8,7 +20,11 @@ slowo polskie jako tlumaczenie lacinskiego. jeśli tłumaczen jest wiele trzeba 
 
 odpytywanie o rozne formy - np slowo polskie ale w supinum
 
+dowolne ze slow ze slownika w dowolnej formie (przez api) i podanie tej formy
+
 znajdywanie duplikatów w słowniku
+
+skrypt find or scrape - po scrape'owaniu jeszcze raz sprawdzenie czy na pewno nie bylo (bo może wpisane forme inna niz podstawowa). mozna wskazac wiecej niz jedno haslo obecne w slowniku
 
 random word powinno losować dane z tej samej bazy co translation ex (w opcji smart)
 
@@ -45,8 +61,6 @@ deepl glossary https://www.deepl.com/pl/docs-api/glossaries/list-glossaries/ - c
 ukryć klucz do API deepl
 
 dodac infinitivus praesentis passivi do conjugation.json
-
-dodac esse
 
 jak zadziala smart sampling w przypadku filtrowania (podzbiory wyrazow) ?
 

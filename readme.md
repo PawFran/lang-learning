@@ -71,3 +71,11 @@
 ## how to use it
 
 ### python scrape_latin_dict.py [list of words separated by spaces]
+
+# find or scrape
+
+## how to use it
+
+### python find_or_scrape.py [list of words to be found]
+
+### if word is found in db it's printed under 'found' hashtag. else scraping script is run

@@ -4,11 +4,11 @@ import logging
 
 from scraping.lib.scraper import *
 
+output_temporary_file_name = 'scraping_out_tmp.txt'
+
 if __name__ == '__main__':
     if len(sys.argv) == 1:
         raise Exception('must give at least one argument (word to be found)')
-
-    output_temporary_file_name = 'scraping_out_tmp.txt'
 
     base_dict_URL = 'https://www.online-latin-dictionary.com/latin-english-dictionary.php'
     base_flexion_URL = 'https://www.online-latin-dictionary.com/latin-dictionary-flexion.php'

@@ -7,6 +7,7 @@ from common.lib.utils import flatten
 from common.lib.utils import weak_equals
 from vocabulary.lib.db import *
 from vocabulary.lib.utils import extract_from_square_brackets
+import re
 
 
 @dataclass
@@ -179,7 +180,7 @@ class EnglishWord(AbstractWord):  # all english dict entries have the same struc
 @dataclass
 class DictionaryEntry:
     """storing entries like:
-    castīgo, āre, avi, atum [verb] [I]
+    castīgo, castīgāre, castīgāvi, castīgātum [verb] [I]
     (Ancillam miseram domina sevēra castīgat)
     1. karać
     """
@@ -232,6 +233,23 @@ class Dictionary:
                 return i
 
         return None
+
+    def find_by_header_using_weak_compare(self, to_be_found) -> list[DictionaryEntry]:
+        """
+        compares (weakly, that is no special signs, accents ect.) given word to any entry in dictionary part by part
+        ex. in case of verb entry any of it's form (infinitive, 1p, perf, supine) will be checked (but no metadata)
+        ex. "castigare" vs "castīgo, castīgāre, castīgāvī, castīgātum [verb] [I]" -> OK
+        :param to_be_found:
+        :return:
+        """
+        results: list[DictionaryEntry] = []
+        for entry in self.entries:
+            head_raw = entry.head.head_raw
+            words_to_compare = [x for x in re.split('[, ]', head_raw) if len(x) > 0 and not x.startswith('[')]
+            if any([weak_equals(x, to_be_found) for x in words_to_compare]):
+                results.append(entry)
+
+        return results
 
     # todo test it (1-el dict, 2-el dict)
     def random_dict_entry(self, rng=default_rng()) -> DictionaryEntry:
@@ -301,7 +319,7 @@ class Dictionary:
         df_with_statistics_last_time_not_null = df_with_statistics[~df_with_statistics.last_time.isnull()].sort_values(
             by=[correct_ratio_col_name, 'last_time'])
 
-        df_concatenated = pd.concat([df_with_statistics_last_time_null, df_with_statistics_last_time_not_null])\
+        df_concatenated = pd.concat([df_with_statistics_last_time_null, df_with_statistics_last_time_not_null]) \
             .reset_index().drop('index', axis=1)
 
         return df_concatenated

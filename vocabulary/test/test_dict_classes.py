@@ -227,6 +227,38 @@ def test_weak_index():
     assert dictionary.weak_index('impel') is None
 
 
+def test_find_by_header_using_weak_compare():
+    dict_entry1 = DictionaryEntry(
+        head=LatinVerb.from_entry_head('castīgo, castīgāre, castīgāvi, castīgātum [verb] [I]'),
+        example='(Ancillam miseram domina sevēra castīgat)',
+        translations=['karać']
+    )
+
+    dict_entry2 = DictionaryEntry(
+        head=LatinAdverb(base='valdē', head_raw='valdē [adv]'),
+        example='Varsoviam valde amamus',
+        translations=['bardzo']
+    )
+
+    dictionary = Dictionary(entries=[dict_entry1, dict_entry2], lang='latin')
+
+    results1 = dictionary.find_by_header_using_weak_compare('castigo ')
+    results2 = dictionary.find_by_header_using_weak_compare('castigare')
+    results3 = dictionary.find_by_header_using_weak_compare('asti')
+    results4 = dictionary.find_by_header_using_weak_compare('valde')
+    results5 = dictionary.find_by_header_using_weak_compare('verb')
+    results6 = dictionary.find_by_header_using_weak_compare('I')
+    results7 = dictionary.find_by_header_using_weak_compare('[')
+
+    assert results1 == [dict_entry1]
+    assert results2 == [dict_entry1]
+    assert len(results3) == 0
+    assert results4 == [dict_entry2]
+    assert len(results5) == 0
+    assert len(results6) == 0
+    assert len(results7) == 0
+
+
 def test_find_by_base_word_and_translation():
     dict_entry_1 = DictionaryEntry(
         head=LatinPreposition(base='in', head_raw='in [prep]'),
