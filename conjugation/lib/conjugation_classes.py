@@ -23,7 +23,7 @@ class ConjugationType(Enum):
                 return ConjugationType.II
             case 'third' | 'iii' | 'three' | '3':
                 return ConjugationType.III
-            case 'fourth' | 'iv' | 'three' | '3':
+            case 'fourth' | 'iv' | 'three' | '4':
                 return ConjugationType.IV
             case _:
                 raise Exception(f'cannot parse string {s} to ConjugationType')
