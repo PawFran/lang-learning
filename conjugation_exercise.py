@@ -20,18 +20,16 @@ if __name__ == '__main__':
 
     user_input = 'y'
     while user_input.lower() != 'n' and len(conjugations_filtered.records) > 0:
-        conjugation_record = conjugations_filtered.random_record(rng)
-        print(conjugation_record.infinitive, conjugation_record.mood.value.lower(),
-              conjugation_record.tense.value.lower(), conjugation_record.voice.value.lower(),
-              conjugation_record.person.value, 'person', conjugation_record.number.value.lower())
+        verb = conjugations_filtered.random_record(rng)
+        print(verb.summary())
         user_answer = input()
-        if weak_equals(user_answer, conjugation_record.word):
+        if weak_equals(user_answer, verb.word):
             print('correct', end='\n\n')
             if args.remove is not None:
-                conjugations_filtered.records.remove(conjugation_record)
+                conjugations_filtered.records.remove(verb)
                 if len(conjugations_filtered.records) % 10 == 0:
-                    print(f'{len(conjugations_filtered.records)} left')
+                    print(f'{len(conjugations_filtered.records)} left\n')
         else:
-            print(f'wrong. proper answer is {conjugation_record.word}', end='\n\n')
+            print(f'wrong. proper answer is {verb.word}', end='\n\n')
 
     print('terminating..')
