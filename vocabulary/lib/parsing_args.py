@@ -10,6 +10,7 @@ def parse_args():
     parser.add_argument('-z', '--end_word', action='store')  # todo does it work with smart sampling ?
     parser.add_argument('-u', '--user_name', action='store')
     parser.add_argument('-t', '--top', action='store')
+    parser.add_argument('-f', '--filter', action='store')
     return parser.parse_args()
 
 

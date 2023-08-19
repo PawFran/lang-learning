@@ -14,6 +14,13 @@ def test_extract_from_square_brackets():
     assert AbstractWord.extract_from_square_brackets(genre_pattern, 'vinea, ae [noun] [I] [f]') == 'f'
 
 
+def test_extract_metadata():
+    assert AbstractWord.extract_metadata('ĭnĭmīcus, i [noun] [m] [II]') == ['noun', 'm', 'II']
+    assert AbstractWord.extract_metadata('copiae, ārum [noun] [f] [I] [pl]') == ['noun', 'f', 'I', 'pl']
+    assert AbstractWord.extract_metadata('mŏnĕo, mŏnēre, monui, monitum [verb] [II]') == ['verb', 'II']
+    assert AbstractWord.extract_metadata('dīlĭgentĕr [adv]') == ['adv']
+
+
 def test_conjugation():
     assert LatinVerb.which_conjugation('castīgo, āre, avi, atum [verb] [I]') == 'I'
     assert LatinVerb.which_conjugation('maneō, ēre, sī, sum [verb] [II]') == 'II'
@@ -363,3 +370,82 @@ def test_word_distribution():
     # None and math.nan has to be compared differently
     assert res.iloc[:2, :].correct_ratio_last_3_times.isnull().all()
     assert res.iloc[:2, :].last_time.isnull().all()
+
+
+def test_filter_by_simple_condition():
+    dict_entry_1 = DictionaryEntry(
+        head=LatinAdverb(base='saepe', head_raw='saepe [adv]'),
+        example='De Varsoviā poetae saepe narrant',
+        translations=['często']
+    )
+
+    dict_entry_2 = DictionaryEntry(
+        head=LatinAdverb(base='valdē', head_raw='valdē [adv]'),
+        example='Varsoviam valde amamus',
+        translations=['bardzo']
+    )
+
+    dict_entry_3 = DictionaryEntry(
+        head=LatinVerb.from_entry_head('castīgo, castīgāre, castīgāvi, castīgātum [verb] [I]'),
+        example='(Ancillam miseram domina sevēra castīgat)',
+        translations=['karać']
+    )
+
+    dict_entry_4 = DictionaryEntry(
+        head=LatinVerb.from_entry_head('colo, colere, colui, cultum[verb][III]'),
+        example='(Agricolae antīqui multos deos colēbant)',
+        translations=['uprawiać', 'czcić']
+    )
+
+    dictionary = Dictionary([dict_entry_1, dict_entry_2, dict_entry_3, dict_entry_4], lang='latin')
+
+    assert dictionary.filter_by_simple_condition(['adv']).entries == [dict_entry_1, dict_entry_2]
+    assert dictionary.filter_by_simple_condition(['verb', 'I']).entries == [dict_entry_3]
+    assert dictionary.filter_by_simple_condition(['verb', 'IV']).entries == []
+    assert dictionary.filter_by_simple_condition(['verb', 'III']).entries == [dict_entry_4]
+    assert dictionary.filter_by_simple_condition(['verb']).entries == [dict_entry_3, dict_entry_4]
+
+
+def test_filter_by_complex_condition():
+    dict_entry_1 = DictionaryEntry(
+        head=LatinAdverb(base='saepe', head_raw='saepe [adv]'),
+        example='De Varsoviā poetae saepe narrant',
+        translations=['często']
+    )
+
+    dict_entry_2 = DictionaryEntry(
+        head=LatinAdverb(base='valdē', head_raw='valdē [adv]'),
+        example='Varsoviam valde amamus',
+        translations=['bardzo']
+    )
+
+    dict_entry_3 = DictionaryEntry(
+        head=LatinVerb.from_entry_head('castīgo, castīgāre, castīgāvi, castīgātum [verb] [I]'),
+        example='(Ancillam miseram domina sevēra castīgat)',
+        translations=['karać']
+    )
+
+    dict_entry_4 = DictionaryEntry(
+        head=LatinVerb.from_entry_head('colo, colere, colui, cultum[verb][III]'),
+        example='(Agricolae antīqui multos deos colēbant)',
+        translations=['uprawiać', 'czcić']
+    )
+
+    dict_entry_5 = DictionaryEntry(
+        head=LatinNoun.from_entry_head('cūra, cūrae [noun] [f] [I]'),
+        example='(Divitia tamen magnas curas et magna pericula nautis praebēbant)',
+        translations=['troska']
+    )
+
+    dictionary = Dictionary([dict_entry_1, dict_entry_2, dict_entry_3, dict_entry_4, dict_entry_5], lang='latin')
+
+    assert dictionary.filter_by_complex_condition('verb I').entries == [dict_entry_3]
+    assert dictionary.filter_by_complex_condition('verb  I').entries == [dict_entry_3]
+    assert dictionary.filter_by_complex_condition('verb I | verb II').entries == [dict_entry_3]
+    assert dictionary.filter_by_complex_condition('verb I | verb III').entries == [dict_entry_3, dict_entry_4]
+    assert dictionary.filter_by_complex_condition('I').entries == [dict_entry_3, dict_entry_5]
+    assert dictionary.filter_by_complex_condition('I | verb III').entries == [dict_entry_3, dict_entry_5, dict_entry_4]
+    assert dictionary.filter_by_complex_condition('verb I |  adv ').entries == [dict_entry_3, dict_entry_1, dict_entry_2]
+    assert dictionary.filter_by_complex_condition('adv').entries == [dict_entry_1, dict_entry_2]
+    assert dictionary.filter_by_complex_condition('adv| adv').entries == [dict_entry_1, dict_entry_2]
+    assert dictionary.filter_by_complex_condition('adj').entries == []

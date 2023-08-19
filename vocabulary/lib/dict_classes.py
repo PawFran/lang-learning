@@ -25,6 +25,14 @@ class AbstractWord:
         else:
             return None
 
+    @staticmethod
+    def extract_metadata(head):
+        pattern = r'\[.*?\]'
+        res_including_brackets = re.findall(pattern, head)
+        res_excluding_brackets = [x.replace('[', '').replace(']', '') for x in res_including_brackets]
+
+        return res_excluding_brackets
+
 
 @dataclass
 class LatinVerb(AbstractWord):
@@ -217,9 +225,48 @@ class Dictionary:
     def remove_entry(self, dict_entry):
         self.entries.remove(dict_entry)
 
+    def filter_by_simple_condition(self, metadata: list[str]):
+        """
+        :param metadata: ex. verb I etc.
+        :return: subset of dict containing entries fulfilling selected criteria
+        """
+
+        def simplified(xs: [str]):
+            return [x.lower().strip() for x in xs]
+
+        metadata_processed = simplified(metadata)
+
+        res_dict = Dictionary(entries=[], lang=self.lang)
+        for entry in self.entries:
+            head = entry.head.head_raw
+            word_metadata: [str] = simplified(AbstractWord.extract_metadata(head))
+            if all([x in word_metadata for x in metadata_processed]):
+                res_dict.append(entry)
+
+        return res_dict
+
+    def filter_by_complex_condition(self, complex_condition: str):
+        """
+        :param complex_condition: string composed of simple conditions separated by pipe ex. verb I | noun m II
+        :return: subset of dict containing entries fulfilling selected criteria
+        """
+
+        simple_conditions: [str] = complex_condition.split('|')
+
+        res_dict = Dictionary(entries=[], lang=self.lang)
+
+        for condition in simple_conditions:
+            condition_lst = [x.lower().strip() for x in condition.split(' ') if len(x) > 0]
+            possible_addition = self.filter_by_simple_condition(condition_lst).entries
+            for entry in possible_addition:
+                if entry not in res_dict.entries:
+                    res_dict.entries.append(entry)  # quadratic complexity but it's probably ok
+
+        return res_dict
+
     # todo what about non existing translations/entries ?
     def remove_single_translation(self, dict_entry, translation):
-        # if this is last translation remove whole entry
+        # if this is last translation remove the whole entry
         entry = [x for x in self.entries if x == dict_entry][0]
         if len(entry.translations) == 1:
             self.remove_entry(dict_entry)

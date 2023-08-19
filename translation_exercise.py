@@ -17,6 +17,8 @@ if __name__ == '__main__':
     print(f'logged as {args.user_name}')
 
     dictionary: Dictionary = parse_dictionary(args)
+    if args.filter is not None:
+        dictionary = dictionary.filter_by_complex_condition(args.filter)
 
     db_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
     db_handler = TranslationExerciseDBHandler(db_path)
