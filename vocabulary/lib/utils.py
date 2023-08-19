@@ -16,20 +16,20 @@ def compare_answer_with_full_head_raw(head_raw, to_compare) -> bool:
     def all_elements_equal(l1, l2) -> bool:
         return all([weak_equals(x, y) for (x, y) in zip(l1, l2)])
 
-    def all_elements_equal_verb_shortcut(original, to_compare) -> bool:
-        shortcut_pattern = ['āre', 'āvi', 'ātum']
+    def all_elements_equal_shortcut(original, to_compare, pattern) -> bool:
         if len(original) != len(to_compare):
             return False
         else:
-            return weak_equals(original[0], to_compare[0]) and all_elements_equal(shortcut_pattern, to_compare[1:])
+            return weak_equals(original[0], to_compare[0]) and all_elements_equal(pattern, to_compare[1:])
 
-    # TODO use it. use method for both adj and verb
+    def all_elements_equal_verb_shortcut(original, to_compare) -> bool:
+        verb_pattern = ['āre', 'āvi', 'ātum']
+        return all_elements_equal_shortcut(original, to_compare, verb_pattern)
+
+    # TODO use it
     def all_elements_equal_adjective_shortcut(original, to_compare) -> bool:
-        shortcut_pattern = ['a', 'um']
-        if len(original) != len(to_compare):
-            return False
-        else:
-            return weak_equals(original[0], to_compare[0]) and all_elements_equal(shortcut_pattern, to_compare[1:])
+        adj_pattern = ['a', 'um']
+        return all_elements_equal_shortcut(original, to_compare, adj_pattern)
 
     head_to_list_no_metadata = to_list_no_metadata(head_raw)
     to_compare_list = to_list_no_metadata(to_compare)
@@ -39,6 +39,8 @@ def compare_answer_with_full_head_raw(head_raw, to_compare) -> bool:
             if LatinVerb.which_conjugation(head_raw) == 'I':
                 return (all_elements_equal(head_to_list_no_metadata, to_compare_list) or
                         all_elements_equal_verb_shortcut(head_to_list_no_metadata, to_compare_list))
+            else:
+                return all_elements_equal(head_to_list_no_metadata, to_compare_list)
         # elif LatinAdjective.is_adjective(head_raw):
         else:
             return all_elements_equal(head_to_list_no_metadata, to_compare_list)
