@@ -9,7 +9,9 @@ if __name__ == "__main__":
         args.language = 'latin'
         print(f'no language chosen. {args.language} will be used as default')
 
-    dictionary = parse_dictionary(args)
+    dictionary: Dictionary = parse_dictionary(args)
+    if args.filter is not None:
+        dictionary = dictionary.filter_by_complex_condition(args.filter)
 
     print(f'number of words in dictionary: {dictionary.length()}', end='\n\n')
 
