@@ -39,6 +39,7 @@ def test_conjugation_type_from_dict():
     assert ConjugationType.from_string('i') == ConjugationType.I
     assert ConjugationType.from_string('I') == ConjugationType.I
     assert ConjugationType.from_string('1') == ConjugationType.I
+    assert ConjugationType.from_string('4') == ConjugationType.IV
 
     # assert ConjugationType.from_string('third a') == ConjugationType.IIIa
     # assert ConjugationType.from_string('third_a') == ConjugationType.IIIa
