@@ -15,6 +15,7 @@ def test_compare_answer_with_full_head_raw():
     assert compare_answer_with_full_head_raw(head_raw,'propero properare properavi  properatum ')
     assert compare_answer_with_full_head_raw(head_raw,' propero,properare properavi,  properatum ')
     assert not compare_answer_with_full_head_raw(head_raw, 'proper properare properavi  properatum ')
+    assert not compare_answer_with_full_head_raw(head_raw, 'proper0 properare properavi   ')
 
     head_raw2 = 'ĭtăquĕ [conj]'
     assert compare_answer_with_full_head_raw(head_raw2,'itaque')
