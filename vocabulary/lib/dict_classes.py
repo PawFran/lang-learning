@@ -6,7 +6,6 @@ from numpy.random import default_rng
 from common.lib.utils import flatten
 from common.lib.utils import weak_equals
 from vocabulary.lib.db import *
-from vocabulary.lib.utils import extract_from_square_brackets
 import re
 
 
@@ -14,7 +13,17 @@ import re
 class AbstractWord:
     base: str
     head_raw: str
+
     # todo abstract static method from_entry head ?
+
+    @staticmethod
+    def extract_from_square_brackets(pattern, line):
+        match = re.search(pattern, line)
+        if match is not None:
+            return match.group().replace('[', '').replace(']',
+                                                          '')  # should be possible by using some groups in re directly ?
+        else:
+            return None
 
 
 @dataclass
@@ -29,10 +38,10 @@ class LatinVerb(AbstractWord):
         return '[verb]' in dict_entry_head.lower()
 
     @staticmethod
-    def which_conjugation(dict_entry_head):
+    def which_conjugation(dict_entry_head) -> str:
         # conjugation may be [I] or [II] or [III] or [IIIa] or [IV]
         conjugation_pattern = '\[I{1,3}V*\]'
-        return extract_from_square_brackets(conjugation_pattern, dict_entry_head)
+        return AbstractWord.extract_from_square_brackets(conjugation_pattern, dict_entry_head)
 
     @staticmethod
     def from_entry_head(head):
@@ -73,12 +82,12 @@ class LatinNoun(AbstractWord):
     def which_declension(dict_entry_head):
         # declension may be [I] or [II] or [III vowel] or [III consonant] or [III mixed] or [IV] or [V]
         declension_pattern = '\[I{0,3} *(vowel)*(consonant)*(mixed)*V*\]'
-        return extract_from_square_brackets(declension_pattern, dict_entry_head)
+        return AbstractWord.extract_from_square_brackets(declension_pattern, dict_entry_head)
 
     @staticmethod
     def which_genre(dict_entry_head):
         genre_pattern = '\[[fmn]\]'
-        return extract_from_square_brackets(genre_pattern, dict_entry_head)
+        return AbstractWord.extract_from_square_brackets(genre_pattern, dict_entry_head)
 
     @staticmethod
     def from_entry_head(head):
@@ -165,7 +174,7 @@ class EnglishWord(AbstractWord):  # all english dict entries have the same struc
     @staticmethod
     def which_part_of_speech(dict_entry_head):
         pattern = 'verb|idiom|noun|adj|adv|phrasal verb'
-        return extract_from_square_brackets(pattern, dict_entry_head.lower())
+        return AbstractWord.extract_from_square_brackets(pattern, dict_entry_head.lower())
 
     @staticmethod
     def from_entry_head(head):

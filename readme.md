@@ -46,7 +46,9 @@
 
 ### in case of -r flag words are removed only after correct answer
 
-### when user is set smart sampling is user (more chances for new words, words which were guessed incorrectly during last 3 trials, words that were asked a long time ago)
+### in case of verbs of first conjugation answer may be '_first form_ āre āvi ātum' instead of full form
+
+### when user is set smart sampling is used (more chances for new words, words which were guessed incorrectly during last 3 trials, words that were asked a long time ago)
 
 # declension
 

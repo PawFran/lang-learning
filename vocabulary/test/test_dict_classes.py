@@ -6,6 +6,14 @@ import vocabulary.lib.db
 from vocabulary.lib.dict_classes import *
 
 
+def test_extract_from_square_brackets():
+    conjugation_pattern = '\[I{1,3}V*\]'
+    genre_pattern = '\[[fmn]\]'
+
+    assert AbstractWord.extract_from_square_brackets(conjugation_pattern, 'specto, āre, avi, atum [verb] [I]') == 'I'
+    assert AbstractWord.extract_from_square_brackets(genre_pattern, 'vinea, ae [noun] [I] [f]') == 'f'
+
+
 def test_conjugation():
     assert LatinVerb.which_conjugation('castīgo, āre, avi, atum [verb] [I]') == 'I'
     assert LatinVerb.which_conjugation('maneō, ēre, sī, sum [verb] [II]') == 'II'

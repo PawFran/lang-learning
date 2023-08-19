@@ -1,7 +1,7 @@
 from vocabulary.lib.parsing_dict import *
 from vocabulary.lib.utils import compare_answer_with_full_head_raw
 
-# todo option to take only a number or percentage of the words rnaked highest (in terms of probability)
+# todo option to take only a number or percentage of the words ranked highest (in terms of probability)
 
 if __name__ == '__main__':
     args = parse_args()
@@ -24,7 +24,6 @@ if __name__ == '__main__':
     rng = default_rng()
 
     print(f'number of translations in dictionary: {dictionary.translations_nr()}', end='\n\n')
-    # todo print number of translations ?
 
     user_input = 'y'
     while user_input.lower() != 'n' and dictionary is not None and dictionary.translations_nr() > 0:
