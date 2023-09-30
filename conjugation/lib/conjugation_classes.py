@@ -139,7 +139,7 @@ class SingleConjugationRecord:
     word: str
 
     def summary(self):
-        return f'''{self.infinitive} {self.mood.value.lower()} {self.tense.value.lower()} {self.voice.value.lower()} {self.person.value} person {self.number.value.lower()}'''
+        return f'''{self.infinitive} {self.mood.value.lower()} {self.tense.value} {self.voice.value.lower()} {self.person.value} {self.number.value.lower()}'''
 
 
 class ConjugationTable:
