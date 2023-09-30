@@ -1,18 +1,24 @@
 roadmap for language learning
 
+złe parsowanie rzeczowników III deklinacji w find_or_scrape_latin.py !!!
+
+nie zawsze pierwsza deklinacja kończy się na are, avi, atum (patrz do, dare, dedi, datum) - więc trzeba zmienić regułę skrótu
+
 podsumowywanie błędów po zakończeniu skryptu
 
 kiedy jedno slowo polskie ma wiecej niz jeden odpowiednik trzeba podac wszystkie
 
 zaimki osobowe
 
-esse
+losowanie słów do zdań - być może po polsku (smart, balansować np. czasowniki, przyimki itp.)
 
-w przypadku przymiotnikow 1/2 deklinacji i czasownikow 1 koniugacji akceptowac skrotowa odpowiedz w translation exercise 
+w przypadku przymiotnikow 1/2 deklinacji akceptowac skrotowa odpowiedz w translation exercise 
 
 rzeczownik/czasownik po lacinie i wypisanie wszystkich mozliwych form, w jakim moze wystepować (deklinacja/koniugacja)
 
 dowolna forma koniugacji / deklinacji - powiedziec jaka to forma
+
+possum
 
 wziecie tylko n slow z najnizszym ratio (oraz nowych - N/A jako pierwsze w sortowaniu)
 

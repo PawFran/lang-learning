@@ -1,97 +1,893 @@
-asporto, asportāre, asportāvī, asportātum [verb] [I]
-(Romani terras invadebant, incolas interficiebant aut captivos asportabant)
-1. zabierać, uprowadzać, usuwać
+castīgo, castīgāre, castīgāvī, castīgātum [verb] [I]
+(Ancillam miseram domina sevēra castīgat)
+1. karać
 
-adveho, advehere, advexi, advectum [verb] [III]
-(Nautae in alienas terras navigābant, frumentum advehēbant)
-1. dowozić, przywozić
+vinea, vineae [noun] [I] [f]
+(Ancillae in vineā labōrant)
+1. winnica
 
-sī [conj]
-(Si tu vales, bene est, ego valeo)
-1. jeśli
+spectō, spectāre, spectāvī, spectātum [verb] [I]
+(Specta, Sophia. En, Victoriae statua clara)
+1. patrzeć, widzieć
 
-ĭtăquĕ [conj]
-(Itaque Romani agriculturae studēbant)
-1. więc
+valdē [adv]
+(Varsoviam valde amamus)
+1. bardzo
 
-tamen [adv]
-(Divitia tamen magnas curas et magna pericula nautis praebēbant)
-1. jednak
+laudō, laudāre, laudāvī, laudātum [verb] [I]
+(Marīa amīcam amat et laudat)
+1. chwalić
+
+saepe [adv]
+(De Varsoviā poetae saepe narrant)
+1. często
+
+sempiternus, sempiterna, sempiternum [adj]
+(Verae amicitiae sempiternae sunt)
+1. ciągły, trwały, wieczny
+
+habeo, habēre, habuī, habitum [verb] [II]
+(Marcus discipulus est, libros multos habet)
+1. mieć
+
+legō, legere, lēgī, lectum [verb] [III]
+(Marcus discipulus est, libros libenter legit)
+1. czytać
+
+ubi [adv]
+(Ibi victoria ubi concordia)
+1. gdzie
+
+ibi [adv]
+(Ibi victoria ubi concordia)
+1. tam
+
+concordia, concordiae [noun] [I] [f]
+(Ibi victoria, ubi concordia)
+1. zgoda
+
+monstrō, monstrāre, monstrāvi, monstrātum [verb] [I]
+(Servis dominus hortum monstrat)
+1. pokazywać
+
+cūrō, cūrāre, cūrāvi, cūrātum [verb] [I]
+(O servi, Spartacus fortūna vestrae curat!)
+1. troszczyć się, dbać (o coś + dat)
 
 properō, properāre, properāvi, properātum [verb] [I]
 (Puer Romānus in scholam properat)
 1. spieszyć się, spieszyć
 
-scio, scīre, scivi, scitum [verb] [IV]
-(Nautae perīti pericula vitāre sciunt)
-1. umieć
+fīnitimī, fīnitimōrum [noun] [II] [m] [pl]
+(Polōnis finitimi sunt: ..)
+1. sąsiedzi
 
-ēmendo, ēmendāre, emendāvī, emendātum [verb] [I]
-(Unum castigabis, centum emendabis)
-1. poprawiać
+fluvius, fluviī [noun] [II] [m]
+(Nautae Neptūno, Oceani et fluviōrum deo, equos at tauros mactābant)
+1. rzeka
 
-praebeo, praebēre, praebui, praebitum [verb] [II]
-(Divitia tamen magnas curas et magna pericula nautis praebēbant)
-1. dostarczać, przynosić
+do, dāre, dedī, datum [verb], [I]
+(Matrona tunicas ancillis dat)
+1. dawać
 
-gĕro, gĕrĕre, gessi, gestum [verb] [III]
-(Antiqui Romani bella gerebant)
-1. nieść, nosić
+sum, esse, fuī [verb]
+(Marcus discipulus est)
+1. być
 
-quoque [conj]
-(Tu quoque, mi fili ?)
+incola, incolae [noun] [I] [m/f]
+(Varsovia incolis Poloniae cara est)
+1. mieszkaniec
+
+habitō, habitāre, habitāvī, habitātum [verb] [I]
+(Nos Poloni in Polonia habitamus)
+1. mieszkać
+
+celebrō, celebrāre, celebrāvī, celebrātum [verb] [I]
+(Poētae Polonōrum gloriam patriae nostrae celebrant)
+1. rozgłaszać
+
+faber, fabri [noun] [m] [II]
+(Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt)
+1. rzemieślnik
+
+operarius, operarii [noun] [m] [II]
+(Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt)
+1. robotnik
+
+etiam [conj]
+(Etiam silvae magnae et pulchrae terram nostram ornant)
 1. także
+
+ager, agri [noun] [m] [II]
+(Agricolae in agris laborant)
+1. rola, pole
+
+aro, arāre, arāvī, arātum [verb] [I]
+(Agricolae terram arant)
+1. orać
+
+nauta, nautae [noun] [m] [I]
+(Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt)
+1. żeglarz
+
+perītus, perīta, perītum [adj] 
+(Nautae periti navigant)
+1. doświadczony
+
+nāvigo, nāvigāre, nāvigāvī, nāvigātum [verb] [I]
+(Nautae periti navigant)
+1. żeglować
+
+divitiae, divitiārum [noun] [f] [I] [pl]
+(Fabri patriae divitias parant)
+1. bogactwa
 
 paro, parāre, parāvī, parātum [verb] [I]
 (Fabri patriae divitias parant)
 1. przygotowywać
 2. zdobywać
 
-prĕmo, prĕmĕre, pressi, pressum [verb] [III]
-(Romani bella gerebant, populos victos premebant)
-1. naciskać
-2. gnębić
-
-valeō, valēre, valuī, valitum [verb] [II]
-(Vos valete et plaudite)
-1. być zdrowym, mieć się dobrze
+prōsum, prōdesse, profuī [verb]
+(Fabri patriae prosunt)
+1. pomagać, być pożytecznym
 
 quia [conj]
 (Patriam amāmus non quia magna est sed quia nostra)
 1. ponieważ
 
-tum [adv]
-(Tum deus apparet)
-1. wtedy, następnie
+sed [conj]
+(Patriam amāmus non quia magna est sed quia nostra)
+1. lecz
 
-interfĭcĭo, interfĭcĕre, interfeci, interfectum [verb] [III]
-(Romani terras invadebant, incolas interficiebant aut captivos asportabant)
-1. zabić
+erro, errāre, errāvī, errātum [verb] [I]
+(Errare humanum est)
+1. mylić się
 
-vendo, vendere, vendidi, venditum [verb] [III]
-(Nautae frumentum advehēbant et incolis Romae vendēbant)
-1. sprzedawać
+affirmo, affirmāre, affirmāvī, affirmātum [verb] [I]
+(Errant, qui affirmant: "Ibi patria, ubi bene")
+1. twierdzić
 
-idōneus, idōnea, idōneum [adj]
-(Terra Italiae fecunda et agricultūrae idonea erat)
-1. odpowiedni, nadający się
+bene [adv]
+(Errant, qui affirmant: "Ibi patria, ubi bene")
+1. dobrze
 
-doceo, docēre, docuī, doctum [verb] [II]
-(Verba docent, exampla trahunt)
-1. uczyć, nauczać
+humanum, humani [noun] [n] [II]
+(Errare humanum est)
+1. rzecz ludzka
 
-enim [conj]
-(Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
-1. bowiem, ponieważ
+rarus, rara, rarum [adj]
+(Rarus fortūna suā contentus)
+1. rzadki, mało kto
 
-etiam [conj]
-(Etiam silvae magnae et pulchrae terram nostram ornant)
-1. także
+numquam [adv]
+(Numquam fortunā nostrā contenti sumus)
+1. nigdy
+
+libenter [adv]
+(Marcus libros libenter legit)
+1. chętnie
+
+cum [conj]
+(Vade mecum)
+1. z (kim, czym) (+ abl)
+
+lūdō, lūdere, lūsī, lūsum [verb] [III]
+(Iulia libros non legit, sed in horto ludit)
+1. bawić się
+
+discō, discere, didicī [verb] [III]
+(Nos linquam latinam discimus)
+1. uczyć się
+
+ōtium, ōtiī [noun] [n] [II]
+(Otia post negotia)
+1. odpoczynek
+
+sēdulus, sēdula, sēdulum [adj]
+(Agricolae seduli agrum arant)
+1. pilny, pracowity
+
+aedeficium, aedeficiī [noun] [n], [II]
+(Operarii aedeficia magna struunt)
+1. budynek
+
+struō, struere, struxī, structum [verb] [III]
+(Operarii aedeficia magna struunt)
+1. budować
+
+negotium, negotiī [noun] [n] [II]
+(Otia post negotia)
+1. praca
+
+in [prep] 
+(In Polonia habitamus)
+1. do (+ acc)
+2. w (+ abl)
+
+invideo, invidēre, invidīdī, invidīsum [verb] [II]
+(Agricola nautae fortūnae invidet)
+1. zazdrościć (komus + dat)
+
+beātus, beāta, beātum [adj]
+(Beatus est nauta)
+1. szczęśliwy
 
 iam [adv]
 (Fatigatus iam sum sed numquam otium mihi est)
 1. już
 
+ago, agere, ēgi, actum [verb] [III]
+(Tu, agricola, vitam securam agis)
+1. czynić, pędzić
+
+timeō, timēre, timuī [verb] [II]
+(Tu, agricola, pericula non times)
+1. bać się
+
+autem [conj]
+(Tu pericula non times. Ego autem ventos et procellas semper timeo)
+1. zaś
+
+traho, trahere, traxi, tractum [verb] [III]
+(Verba docent, exempla trahunt)
+1. ciągnąć, pociągać
+
+procella, procellae [noun] [f] [I]
+(Ego ventos et procellas semper timeo)
+1. burza
+
+ventus, venti [noun] [m] [II]
+(Ego ventos et procellas semper timeo)
+1. wiatr
+
+mūto, mūtāre, mūtāvī, mūtātum [verb] [I]
+(Deus inquit: fortunam vestram muto)
+1. zmieniać
+
+conscendō, conscendere, conscendī, conscensum [verb] [III]
+(Tu autem, agricola, navigium conscende)
+1. wsiadać, dosiadać (+ acc)
+
+maneo, manēre, mansi, mansum [verb] [II]
+(Agricola in casa manet)
+1. zostawać
+
 placeō, placēre, placuī, placitum [verb] [II]
 (Saepe aliena nobis placent)
 1. podobać się, być lubianym
+
+per [prep]
+(Per aspera ad astra)
+1. przez (+ acc)
+2. wzdłuż (+ acc)
+
+notus, nota, notum [adj]
+(Notum est dictum Polonum)
+1. znany
+
+doceo, docēre, docuī, doctum [verb] [II]
+(Verba docent, exampla trahunt)
+1. uczyć, nauczać
+
+studeo, studēre, studui [verb] [II]
+(Nauta et agricola vitam suam laudare student)
+1. starać się
+2. oddawać się czemuś, zajmować się czymś (+ dat)
+1. uczyć się, studiować (+ dat)
+
+semper [adv]
+(Ego miser sum, semper laboro)
+1. zawsze
+
+appareo, apparere, apparui [verb] [II]
+(Tum deus apparet)
+1. ukazywać się
+
+tum [adv]
+(Tum deus apparet)
+1. wtedy, następnie
+
+ūnanimus, ūnanima, ūnanimum [adj]
+(Ego tu sum, tu es ego, unanimi sumus)
+1. jednomyślny, zgodny
+
+gratus, grata, gratum [adj]
+(Tibi vita rustica grata est, mihi vita urbana)
+1. miły
+
+quoque [conj]
+(Tu quoque, mi fili ?)
+1. także
+
+valeō, valēre, valuī, valitum [verb] [II]
+(Vos valete et plaudite)
+1. być zdrowym, mieć się dobrze
+
+plaudō, plaudere, plausi, plasum [verb] [III]
+(Vos valete et plaudite)
+1. klaskać
+
+parsimonia, parsimoniae [noun] [f] [I]
+(Vita rustica parsimonie, diligentiae magistra est)
+1. oszczędność
+
+sī [conj]
+(Si tu vales, bene est, ego valeo)
+1. jeśli
+
+dīligentia, dīligentiae [noun] [f] [I]
+(Vita rustica parsimonie, diligentiae magistra est)
+1. pilność
+
+difficile [adv]
+(Naturam mutare difficile est)
+1. trudno
+
+opulentus, opulenta, opulentum [adj]
+(Opulentus vir romanus non laborabat)
+1. bogaty
+
+iūmentum, iūmenti [noun] [n] [II]
+(Servi hortum atque iumenta curabat)
+1. zwierzę pociągowe
+
+atque [conj]
+(Servi hortum atque iumenta curabat)
+1. i
+
+liber, libri [noun] [n] [II]
+(Vir rusticus libros arāre docēbat)
+1. dziecko
+
+parvus, parva, parvum [adj]
+(Vir rusticus, qui parvum agellus habēbat..)
+1. mały
+
+dēbeō, debēre, debuī, debitum [verb] [II]
+(Vir rusticus magna cura laborare debebat)
+1. być dłużnym (komuś)
+2. zawdzięczać (coś komuś)
+
+tantum [adv]
+(Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
+1. tylko
+
+aut [conj]
+(Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
+1. lub
+
+frūmentum, frumenti [noun] [n] [II]
+(Nautae in alienas terras navigābant, frumentum advehēbant)
+1. zboże
+
+adveho, advehere, advexi, advectum [verb] [III]
+(Nautae in alienas terras navigābant, frumentum advehēbant)
+1. dowozić, przywozić
+
+vendo, vendere, vendidi, venditum [verb] [III]
+(Nautae frumentum advehēbant et incolis Romae vendēbant)
+1. sprzedawać
+
+tamen [adv]
+(Divitia tamen magnas curas et magna pericula nautis praebēbant)
+1. jednak
+
+praebeo, praebēre, praebui, praebitum [verb] [II]
+(Divitia tamen magnas curas et magna pericula nautis praebēbant)
+1. dostarczać, przynosić
+
+cūra, cūrae [noun] [f] [I]
+(Divitia tamen magnas curas et magna pericula nautis praebēbant)
+1. troska
+
+colo, colere, colui, cultum [verb] [III] 
+(Agricolae antīqui multos deos colēbant)
+1. uprawiać
+2. czcić
+
+macto, mactāre, mactāvī, mactātum [verb] [I]
+(Agricolae deis debusque equos et tauros mactābant)
+1. zabijać na ofiarę
+
+sacrifico, sacrificāre, sacrificāvī, sacrificātum [verb] [I]
+(Agricolae deis debusque agrōrum sacrificābant)
+1. składać ofiarę
+
+enim [conj]
+(Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
+1. bowiem, ponieważ
+
+fēcundus, fēcunda, fēcundum [adj]
+(Terra Italiae fecunda et agricultūrae idonea erat)
+1. urodzajny
+
+idōneus, idōnea, idōneum [adj]
+(Terra Italiae fecunda et agricultūrae idonea erat)
+1. odpowiedni, nadający się
+
+mercātūra, mercātūrae [noun] [f] [I]
+(Nautae Mercurium, mercātūrae deum, colēbant)
+1. handel
+
+ĭtăquĕ [conj]
+(Itaque Romani agriculturae studēbant)
+1. więc
+
+cupio, cupere, cupivi, cupitum [verb] [III]
+(Nautae terras alienas visitant, sed patriam suam vidēre cupiunt)
+1. pragnąć
+
+video, vidēre, vidi, visum [verb] [II]
+(Nautae terras alienas visitant, sed patriam suam vidēre cupiunt)
+1. widzieć
+
+scio, scīre, scivi, scitum [verb] [IV]
+(Nautae perīti pericula vitāre sciunt)
+1. umieć
+
+vītō, vītāre, vītāvī, vītātum [verb] [I]
+(Nautae perīti pericula vitāre sciunt)
+1. unikać
+
+porto, portāre, portāvī, portātum [verb] [I]
+(Ancilla dominae aquam portat)
+1. nieść, przynosić
+
+ămo, ămāre, amāvī, amātum [verb] [I]
+(Maria amicam amat et laudat)
+1. kochać, lubić
+
+ămīcus, amici [noun] [m] [II]
+(Maria amicam amat et laudat)
+1. przyjaciel
+
+narro, narrāre, narrāvī, narrātum [verb] [I]
+(De ancillis miseris dominae narrant)
+1. opowiadać
+
+fābŭla, fabulae [noun] [f] [I]
+(Puelae, narrate fabulas!)
+1. opowieść, baśń, bajka
+
+orno, ornāre, ornāvī, ornātum [verb] [I]
+(Varsoviam pulchrae statuae ornant)
+1. ozdabiać
+
+vērus, veră, verum [adj]
+(Verae amicitiae sempiternae sunt)
+1. prawdziwy
+
+pulcher, pulchra, pulchrum [adj]
+(Varsoviam pulchrae statuae ornant)
+1. piękny
+
+clārus, clară, clarum [adj]
+1. czysty, jasny
+2. oczywisty, jasny
+
+cārus, cāra, cārum [adj]
+(Varsovia incolis Poloniae cara est)
+1. drogi
+
+altus, alta, altum [adj]
+(Oppido parvo murus non altus est)
+1. wysoki
+
+iustĭtĭa, iustitiae [noun] [f] [I]
+(Iustitiam colore debemus)
+1. sprawiedliwość
+
+pĕcūnĭa, pecuniae [noun] [f] [I]
+(Verum amicum pecunia non parabitis)
+1. pieniądze
+
+ergō [prep]
+(Cogito ergo sum)
+1. więc, w wyniku
+
+nŏcĕo, nŏcēre, nocui, nocitum [verb] [II]
+(Littera docet, littera nocet)
+1. szkodzić
+
+ēmendo, ēmendāre, emendāvī, emendātum [verb] [I]
+(Unum castigabis, centum emendabis)
+1. poprawiać
+
+bellum, belli [noun] [n] [II]
+(Antiqui Romani bella gerebant)
+1. wojna
+
+gĕro, gĕrĕre, gessi, gestum [verb] [III]
+(Antiqui Romani bella gerebant)
+1. nieść, nosić
+
+pŏpŭlus, populi [noun] [m] [II]
+(Romani terras populorum finitimorum invadebant)
+1. ludzie, naród
+
+invādo, invādĕre, invasi, invasum [verb] [III]
+(Romani terras populorum finitimorum invadebant)
+1. wkraczać, najeżdżać
+
+interfĭcĭo, interfĭcĕre, interfeci, interfectum [verb] [III]
+(Romani terras invadebant, incolas interficiebant aut captivos asportabant)
+1. zabić
+
+captīvus, captivi [noun] [m] [II]
+(Romani terras invadebant, incolas interficiebant aut captivos asportabant)
+1. jeniec
+
+asporto, asportāre, asportāvī, asportātum [verb] [I]
+(Romani terras invadebant, incolas interficiebant aut captivos asportabant)
+1. zabierać, uprowadzać, usuwać
+
+victŭs, victa, victum [noun] [m] [IV]
+(Romani bella gerebant, populos victos premebant)
+1. zwyciężony
+
+prĕmo, prĕmĕre, pressi, pressum [verb] [III]
+(Romani bella gerebant, populos victos premebant)
+1. naciskać
+2. gnębić
+
+ăpud [prep]
+(In numero servōrum apud Graecos multi captivi erant)
+1. u (+ acc)
+
+ŏdĭōsus, odiosă, odiosum [adj]
+(Nobis bella odiōsa sunt)
+1. wstrętny, nieprzyjemny
+
+intĕr [adv]
+(Nos concordiam inter populos colēmus)
+1. między (+acc)
+
+dīlĭgentĕr [adv]
+(Tu diligenter studēbis)
+1. pilnie, skrupulatnie
+
+ĭnĭmīcus, i [noun] [m] [II]
+()
+1. nieprzyjaciel
+
+copiae, ārum [noun] [f] [I] [pl]
+()
+1. wojsko
+
+litterae, ārum [noun] [f] [I] [pl]
+()
+1. pismo, literatura
+
+mŏnĕo, mŏnēre, monui, monitum [verb] [II]
+()
+1. napominać, doradzać, przypominać
+2. ostrzegać
+
+căpĭo, căpĕre, cepi, captum [verb] [III]
+(Primum a tribuno locus capiebatur)
+1. brać, chwytać
+2. zajmować
+
+fŭgĭo, fŭgĕre, fugi, fugitum [verb] [III]
+(Fugit hora, fugiunt anni)
+1. uciekać
+
+ignōro, ignōrāre, ignorāvī, ignorātum [verb] [I]
+(Aliena laudātis, vestra ignorātis)
+1. nie wiedzieć, nie znać
+
+cūr [adv]
+(Cur Marcus saepe laudatur, et Publius semper castigatur a magistro ?)
+1. dlaczego, z jakiego powodu?
+
+mĕmŏrĭa, memoriae [noun] [f] [I]
+(Memoria minuitur, nisi memoriam exerces)
+1. pamięć, wspomnienie
+
+nĭsi [conj]
+(Memoria minuitur, nisi memoriam exerces)
+1. jeśli nie
+
+mĭnŭo, mĭnŭĕre, minui, minutum [verb] [III]
+(Memoria minuitur, nisi memoriam exerces)
+1. zmniejszać
+
+sălūto, sălūtāre, salutāvī, salutātum [verb] [I]
+(Ut salutabis, ita salutaberis)
+1. pozdrawiać
+
+bŏnum, boni [noun] [n] [II]
+(Divitiae bonum non sunt)
+1. dobro
+
+exercĕo, exercēre, exercui, exercitum [verb] [II]
+(Memoria minuitur, nisi memoriam exerces)
+1. ćwiczyć
+
+aedefico, aedeficāre, aedeficāvi, aedeficātum [verb] [I]
+(Fabri magna aedeficia aedeficant)
+1. budować
+
+castra, castrōrum [noun] [n] [II] [pl]
+(A Romanis castra ponebantur)
+1. obóz
+
+pōno, pōnĕre, posui, postum [verb] [III]
+(A Romanis castra ponebantur)
+1. umieścić
+
+mŏvĕo, mŏvēre, movi, motum [verb] [II]
+()
+1. poruszać się
+
+prīmum [adv]
+(Primum a tribuno locus capiebatur)
+1. najpierw
+2. po pierwsze
+
+trĭbūnus, tribuni [noun] [m] [II]
+(Primum a tribuno locus capiebatur)
+1. trybun
+
+lŏcus, loci [noun] [m] [II]
+(Primum a tribuno locus capiebatur)
+1. miejsce
+
+cĭbus, cibi [noun] [m] [II]
+(Aqua et cibus facile inveniri poterat)
+1. żywność
+
+mūnĭo, mūnīre, munii, munitum [verb] [IV]
+(Deinde quadratum spatium signabatur et muniebatur)
+1. obwarowywać
+
+mūnītus, munită, munitum [adj]
+()
+1. obwarowany
+
+făcĭlĕ [adv]
+(Aqua et cibus facile inveniri poterat)
+1. łatwo
+
+dĕindĕ [adv]
+(Deinde quadratum spatium signabatur et muniebatur)
+1. potem
+
+spătĭum, spatii [noun] [n] [II]
+(Deinde quadratum spatium signabatur et muniebatur)
+1. przestrzeń, obszar
+
+signo, signāre, signāvī, signātum [verb] [I]
+(Deinde quadratum spatium signabatur et muniebatur)
+1. wyznaczać
+2. podpisywać
+
+circum [prep]
+(Circum castra fossa fodiebatur)
+1. dookoła (+acc)
+
+mĕdĭus, mediă, medium [adj]
+()
+1. środkowy
+
+invĕnĭo, invĕnīre, inveni, inventum [verb] [IV]
+(.. ubi aqua facile invenīri poterat)
+1. odkryć, znaleźć
+
+fossa, fossae [noun] [f] [I]
+(Circum castra fossa fodiebatur et vallum struebatur)
+1. rów
+
+fŏdĭo, fŏdĕre, fodi, fossum [verb] [III]
+(Circum castra fossa fodiebatur et vallum struebatur)
+1. kopać
+
+vallum, valli [noun] [n] [II]
+(Circum castra fossa fodiebatur et vallum struebatur)
+1. wał
+
+impedimenta, impedimentōrum [noun] [n] [II]
+(Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
+1. tabor
+
+impĕdīmentum, impedimenti [noun] [n] [II] [pl]
+(Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
+1. przeszkoda
+
+spŏlĭa, spoliōrum [noun] [f] [I] [pl]
+(Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
+1. łupy
+
+tăbernācŭlum, tabernaculi [noun] [n] [II]
+(Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
+1. namiot
+
+cŭmŭlo, cŭmŭlāre, cumulāvī, cumulātum [verb] [I]
+(Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
+1. gromadzić
+
+dispōno, dispōnĕre, disposui, dispositum [verb] [III]
+(Custodiae per vallum disponentur)
+1. rozkładać, rozmieszczać
+
+stătim [adv]
+(Statim a custodiis cernentur)
+1. natychmiast
+
+cerno, cernĕre, crevi, cretum [verb] [III]
+(Statim a custodiis cernentur)
+1. spostrzegać
+
+signum, signi [noun] [n] [II]
+(Signum tuba extemplo dabitur)
+1. znak
+
+extemplō [adv]
+(Signum tuba extemplo dabitur)
+1. natychmiast
+
+făcĭo, făcĕre, feci, factum [verb] [III]
+(Tribunus verba facit: audite!)
+1. robić 
+
+tēlum, teli [noun] [n] [II]
+(Tela a vobis parabuntur)
+1. pocisk
+
+fortĭtĕr [adv]
+(Si fortiter pugnabitis, Poeni depellentur)
+1. odważnie
+
+pugno, pugnāre, pugnāvī, pugnātum [verb] [I]
+(Si fortiter pugnabitis, Poeni depellentur)
+1. walczyć
+
+dēpello, dēpellĕre, depuli, depultum [verb] [I]
+(Si fortiter pugnabitis, Poeni depellentur)
+1. odpędzać
+
+vinco, vincĕre, vici, victum [verb] [III]
+(Si fortiter pugnabitis, Poeni vincentur)
+1. zwyciężać
+
+praemĭum, praemii [noun] [n] [II]
+(Praemia vobis dabuntur)
+1. nagroda
+
+custōdĭa, custodiae [noun] [f] [I]
+(Custodiae per vallum disponentur)
+1. straż
+
+apprŏpinquo, apprŏpinquāre, appropinquāvī, appropinquātum [verb] [I]
+(Poeni vallo appropinquabunt)
+1. zbliżyć się (+ dat)
+
+a [prep]
+(Statim a custodiis cernentur)
+1. od (+ abl)
+2. przez (+ abl)
+
+tŭba, tubae [noun] [f] [I]
+(Signum tuba extemplo dabitur)
+1. trąba
+
+impĕrātŏr, imperatoris [noun] [m] [III]
+()
+1. wódz
+
+praetōrĭum, praetorii [noun] [n] [II]
+()
+1. kwatera główna
+
+lĕgĭo, legionis [noun] [f] [III]
+()
+1. legion
+
+pārĕo, pārēre, parui, paritum [verb] [II]
+()
+1. być posłusznym
+
+victŏr, victoris [noun] [m] [III]
+()
+1. zwycięzca
+
+salvē [adv]
+()
+1. witaj
+
+dēfendo, dēfendĕre, defendi, defensum [verb] [III]
+()
+1. bronić
+
+fīnis, fīnis [noun] [m] [III]
+()
+1. koniec
+2. granica
+
+fīnes, fīnium [noun] [m] [III] [pl]
+()
+1. państwo
+
+prŏhĭbĕo, prŏhĭbēre, prohibui, prohibitum [verb] [II]
+()
+1. powstrzymywać
+
+iustus, iustă, iustum [adj]
+()
+1. sprawiedliwy
+
+lex, legis [noun] [f] [III]
+()
+1. prawo
+
+auctor, auctōris [noun] [m] [III]
+()
+1. sprawca
+
+salus, salūtis [noun] [f] [III]
+()
+1. zbawienie
+
+dispŭto, dispŭtāre, disputāvī, disputātum [verb] [I]
+()
+1. dyskutować
+
+cīvis, civis [noun] [m] [feminine]
+()
+1. obywatel
+
+adversarius, adversarii [noun] [m] [II]
+()
+1. przeciwnik
+
+făvĕo, făvēre, fāvī, fautum [verb] [II]
+()
+1. sprzyjać
+
+nōmĕn, nominis [noun] [n] [III]
+()
+1. nazwisko
+
+ōmen, ominis [noun] [n] [III]
+()
+1. wróżba
+
+hŏmo, hominis [noun] [m] [III]
+()
+1. człowiek
+
+dēsīdĕro, dēsīdĕrāre, desiderāvī, desiderātum [verb] [I]
+()
+1. pragnąć
+
+praenōmĕn, praenominis [noun] [n] [III]
+()
+1. imię
+
+scriptŏr, scriptoris [noun] [m] [III]
+()
+1. pisarz
+
+tĕnĕo, tĕnēre, tenui, tentum [verb] [II]
+()
+1. trzymać
+
+quăm [adv]
+()
+1. jak
+
+urbs, urbis [noun] [f] [III]
+()
+1. miasto
+
+appello, appellere, appuli, appulsum [verb] [III]
+()
+1. nazywać
+
+dignus, dignă, dignum [adj]
+()
+1. godny (+ abl)
+
+mīlĕs, militis [noun] [m] [III]
+()
+1. żołnierz

@@ -1,26 +1,53 @@
 checklista:
 koniugacje:
-	i-iv
-	strona bierna
-	czasy preasens, imperfectum, futurum I, perfectum, plusquamperfectum, futurum II
-	esse
-	imperativus
+	i-iv + esse
+	indicativus: preasens, imperfectum, futurum I, perfectum, plusquamperfectum, futurum II
+		act + strona bierna
+	imperativus: praes act, praes pass
+	infinitivus: praes act, praes pass
 deklinacje i-v
 zaimki
 	osobowe
 	dzierżawcze
 
-opisac w skrocie deklinacje i koniugacje:
+koniugacje w skrocie:
+ind praes act
+	I - temat ā
+	II - temat ē
+	III - temat spółgłoskowy, spójka ĭ (u w 3 os. lm.)
+		IIIb ma i w 1 os. lp i 3 lm. (odmienia się jak IV, ale i jest krótkie)
+	IV - temat ī 
 ind imperf act 
-	spójka przed 'bā' (dodawana w III i IV koniugacji) jest długa
-ind fut act 
+	końcówka -am w 1 os. lp. wszystkich koniugacji
+	spójka ē przed 'bā' w III i IV koniugacji
+ind fut I act 
 	spojka b i spójki i/u w I i II kon. 
-	w III i IV am w 1 os. sing i spójka ē w pozostałych os. 
+	w III i IV 'am' w 1 os. sing i spójka 'ē' w pozostałych os. (nawet w 3 os. lm. nie ma tam 'u')
 	'b' w II koniugacji jest konieczne żeby odróżnić II kon fut I od III kon praes. 
 	I i II kon po dodaniu 'b' odmieniają się jak deklinacje spółgłoskowe (III i IV) w praes. 
 	III po dodaniu 'e' odmienia się jak II w praes (nie licząc 1 os. sing). 
 	po co 'b' w I kon ? 
+ind praes pass
+	2 os. lp. spójka i zamienia się na e - poza tym jak act tylko z końcówkami pass
+ind imperf pass
+	jak act tylko z końcówkami pass
+ind fut I pass
+	2 os. lp. spójka i zamienia się na e - poza tym jak act tylko z końcówkami pass
 
+
+deklinacje w skrócie
+III spółgłoskowa
+	imparisyllaba z tematem kończącym się na spółgłoskę + rodzina z psem
+III samogłoskowa
+	końcówka -e -al -ar
+	abl sing końc. -i
+	pl temat kończy się na -i
+	przykłady poza neutrum ?
+III mieszana
+	parisyllaba z nom sing -is, -es
+	imparisyllaba które przed końcówką gen sing -is mają >= 2 spółgłoski np. urbs, urbis, arx, arcis, ars, artis
+	sing jak spółgłoskowa (abl -e)
+	pl jak samogłoskowa (gen -ium)
 
 części zdania
 * podmiot
@@ -66,7 +93,8 @@ ablativus
 * instrumentalis (dopełnienie - kim? czym?)
 * separativus (skąd? od czego? bez czego?)
 * comparativus
-* auctoris (w str. biernej)
+* auctoris (w str. biernej - okolicznik)
+* rei efficientis (w str. biernej - okolicznik)
 * qualitatis (przydawka lub orzecznik - jaki?)
 
 
@@ -76,3 +104,7 @@ ablativus
 
 iustitiam colere debemus - jaka czescia zdania jest 'colere' ? jak by to wygladalo w stronie biernej ? colere by sie nie zmienilo, wiec nie jest dopelnieniem blizszym
 i podobnie: nos navigare debemus
+
+minuo - 'u' jest w odmianach traktowane jak spółgłoska
+
+aqua facile invenīri poterat - invenīri poterat to orzeczenie ?
