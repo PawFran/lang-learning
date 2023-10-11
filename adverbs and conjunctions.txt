@@ -1,3 +1,5 @@
+### adverbs
+
 iam [adv]
 (Fatigatus iam sum sed numquam otium mihi est)
 1. już
@@ -43,7 +45,7 @@ stătim [adv] =? extemplō [adv]
 fortĭtĕr [adv]
 salvē [adv]
 
-
+### conjenctures
 etiam [conj]
 (Etiam silvae magnae et pulchrae terram nostram ornant)
 1. także
@@ -67,7 +69,6 @@ enim [conj]
 ĭtăquĕ [conj]
 (Itaque Romani agriculturae studēbant)
 1. więc
-
 
 
 quoque [conj] =? etiam
