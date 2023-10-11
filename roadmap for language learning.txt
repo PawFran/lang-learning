@@ -3,7 +3,10 @@ roadmap for language learning
 złe parsowanie "łupy" w translation exercise
 łupy
 translation:
-wrong. correct answer is "spŏlĭa, spoliōrum [noun] [f] [I] [pl]" (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
+wrong. correct answer is "spŏlĭa, spoliōrum [noun] [n] [I] [pl]" (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
+odważnie
+translation:
+wrong. correct answer is "fortĭtĕr [adv]" (Si fortiter pugnabitis, Poeni depellentur)
 
 złe parsowanie (cīvis, civis [noun] [m] [feminine]
 
