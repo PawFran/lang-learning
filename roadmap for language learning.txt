@@ -1,5 +1,7 @@
 roadmap for language learning
 
+złe parsowanie (cīvis, civis [noun] [m] [feminine]
+
 złe parsowanie rzeczowników III deklinacji w find_or_scrape_latin.py !!!
 
 nie zawsze pierwsza deklinacja kończy się na are, avi, atum (patrz do, dare, dedi, datum) - więc trzeba zmienić regułę skrótu
