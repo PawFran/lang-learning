@@ -45,7 +45,7 @@ stătim [adv] =? extemplō [adv]
 fortĭtĕr [adv]
 salvē [adv]
 
-### conjenctures
+### conjunctions
 etiam [conj]
 (Etiam silvae magnae et pulchrae terram nostram ornant)
 1. także
