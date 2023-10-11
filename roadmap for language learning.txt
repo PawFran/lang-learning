@@ -1,5 +1,10 @@
 roadmap for language learning
 
+złe parsowanie "łupy" w translation exercise
+łupy
+translation:
+wrong. correct answer is "spŏlĭa, spoliōrum [noun] [f] [I] [pl]" (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
+
 złe parsowanie (cīvis, civis [noun] [m] [feminine]
 
 złe parsowanie rzeczowników III deklinacji w find_or_scrape_latin.py !!!
