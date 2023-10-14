@@ -108,13 +108,24 @@ class LatinDictScraper:
 
         divs_with_declension = flexion_soup.find_all("div", {"class": "col span_1_of_2"})
         singular_declension = divs_with_declension[0]
-        singular_cores = [x.text for x in singular_declension.find_all("span", {"class": "radice"})]
-        singular_endings = [x.text for x in singular_declension.find_all("span", {"class": "desinenza"})]
 
-        gen_sing_core = singular_cores[1]
-        gen_sing_ending = singular_endings[1]
+        ### old code, let's leave it for a while, it worked apart from 3rd declension nouns
+        # singular_cores = [x.text for x in singular_declension.find_all("span", {"class": "radice"})]
+        # singular_endings = [x.text for x in singular_declension.find_all("span", {"class": "desinenza"})]
+        #
+        # gen_sing_core = singular_cores[1]
+        # gen_sing_ending = singular_endings[1]
 
-        return gen_sing_core + gen_sing_ending
+        result_set = singular_declension.find_all("tr")
+        for tag in result_set:
+            if [x for x in tag][0].contents[0] == 'Gen.':
+                both = [x for x in tag][1]
+                gen_sing_core = both.find_all("span", {"class": "radice"})[0].contents[0]
+                gen_sing_ending = both.find_all("span", {"class": "desinenza"})[0].contents[0]
+
+                return gen_sing_core + gen_sing_ending
+
+        raise Exception('cannot parse Gen singularis')
 
     def adjective_forms(self, word) -> str:
         flexion_soup = self.get_flexion_soup(word)
