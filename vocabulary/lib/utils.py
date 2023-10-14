@@ -65,11 +65,11 @@ def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
                     all_elements_equal_verb_number_shortcut(original_as_list, answer_as_list))
         else:
             return all_elements_equal(original_as_list, answer_as_list)
-    # elif LatinAdjective.is_adjective(entry_head) and len(answer_as_list) == 3:
-    #     if adjective_first_and_second_declension(entry_head):
-    #         return (all_elements_equal(original_as_list, answer_as_list) or
-    #                 all_elements_equal_adjective_ending_shortcut)
-    #     else:
-    #         return all_elements_equal(original_as_list, answer_as_list)
+    elif LatinAdjective.is_adjective(entry_head) and len(answer_as_list) == 3:
+        if adjective_first_and_second_declension(entry_head):
+            return (all_elements_equal(original_as_list, answer_as_list) or
+                    all_elements_equal_adjective_ending_shortcut(original_as_list, answer_as_list))
+        else:
+            return all_elements_equal(original_as_list, answer_as_list)
     else:
         return all_elements_equal(original_as_list, answer_as_list)

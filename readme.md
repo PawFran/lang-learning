@@ -50,6 +50,8 @@
 
 ### in case of verbs of first conjugation answer may be '_first form_ āre āvi ātum' instead of full form or '_first form_ 1'
 
+### in case of adjectives of first and second conjugation answer may be '_first form_ a um' instead of full form
+
 ### when user is set smart sampling is used (more chances for new words, words which were guessed incorrectly during last 3 trials, words that were asked a long time ago)
 
 # declension
