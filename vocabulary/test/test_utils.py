@@ -38,6 +38,22 @@ def test_compare_answer_with_full_head_raw_verb_number_shortcuts():
     assert not compare_answer_with_full_head_raw(head_raw2, 'habeo 1')
 
 
+def test_adjective_first_and_second_declension():
+    head_raw = 'stultus, stultă, stultum [adj]'
+    head_raw2 = 'acer, acris, acre [adj]'
+
+    assert adjective_first_and_second_declension(head_raw)
+    assert not adjective_first_and_second_declension(head_raw2)
+
+
+def test_compare_answer_with_full_head_raw_adjective_ending_shortcut():
+    head_raw = 'stultus, stultă, stultum [adj]'
+    head_raw2 = 'acer, acris, acre [adj]'
+
+    assert compare_answer_with_full_head_raw(head_raw, 'stultus a um')
+    assert not compare_answer_with_full_head_raw(head_raw2, 'acer a um')
+
+
 @pytest.mark.skip(reason='TO DO')
 def test_compare_answer_with_full_head_raw_adjective_shortcuts():
     head_raw = 'sempiternus, sempiterna, sempiternum [adj]'
