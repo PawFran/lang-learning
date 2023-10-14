@@ -1014,6 +1014,10 @@ respondĕo, respondēre, respondi, responsum [verb] [II]
 ()
 1. odpowiedzieć
 
+ēgrĕgĭus, egregiă, egregium [adj]
+()
+1. wyborny, doskonały
+
 ōrātĭo, orationis [noun] [f] [III]
 ()
 1. przemówienie
@@ -1049,3 +1053,7 @@ exsĭlĭum, exsilii [noun] [n] [II]
 doctus, doctă, doctum [adj]
 ()
 1. uczony
+
+ōrātŏr, oratoris [noun] [m] [III]
+()
+1. mówca

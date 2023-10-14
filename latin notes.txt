@@ -67,7 +67,10 @@ nominativus
 
 
 genetivus
-* przydawka dopełniaczowa (czyj?)
+* possessivus (przydawka dopełniaczowa - czyj?)
+* subiectivus (osoba lub rzecz, od której pochodzi czynność)
+* obiectivus (osoba lub rzecz, do której skierowana jest czynność)
+* explicativus (zastępuje przydawkę rzeczowną, np. kara śmierci)
 * partitivus (spośród, spomiędzy - po zaimkach, liczebnikach, superlatywach)
 * qualitatis (przydawka - jaki? jaka? jakie?)
 
@@ -86,13 +89,13 @@ accusativus
 
 
 ablativus
-* temporis (okolicznik)
-* loci (okolicznik)
-* causae (okolicznik)
-* modi (okolicznik)
+* temporis (okolicznik czasu - kiedy? )
+* loci (okolicznik miejsca - gdzie ?)
+* causae (okolicznik przyczyny - dlaczego ?)
+* modi (okolicznik sposobu - jak ?)
 * instrumentalis (dopełnienie - kim? czym?)
 * separativus (skąd? od czego? bez czego?)
-* comparativus
+* comparativus (przy stopniu wyższym przymiotnika i przysłówka)
 * auctoris (w str. biernej - okolicznik)
 * rei efficientis (w str. biernej - okolicznik)
 * qualitatis (przydawka lub orzecznik - jaki?)
