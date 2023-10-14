@@ -11,6 +11,9 @@ wrong. correct answer is "fortĭtĕr [adv]" (Si fortiter pugnabitis, Poeni depel
 złe parsowanie (cīvis, civis [noun] [m] [feminine]
 
 złe parsowanie rzeczowników III deklinacji w find_or_scrape_latin.py !!!
+złe parsowanie vir
+
+find or scrape - dodać opcję -f --force żeby zmusić do scrape'owania nawet jeśli jest w słowniku
 
 nie zawsze pierwsza deklinacja kończy się na are, avi, atum (patrz do, dare, dedi, datum) - więc trzeba zmienić regułę skrótu
 

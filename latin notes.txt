@@ -68,7 +68,7 @@ nominativus
 
 genetivus
 * przydawka dopełniaczowa (czyj?)
-* partitivus
+* partitivus (spośród, spomiędzy - po zaimkach, liczebnikach, superlatywach)
 * qualitatis (przydawka - jaki? jaka? jakie?)
 
 
@@ -108,3 +108,5 @@ i podobnie: nos navigare debemus
 minuo - 'u' jest w odmianach traktowane jak spółgłoska
 
 aqua facile invenīri poterat - invenīri poterat to orzeczenie ?
+
+prohibeo - często z abl

@@ -891,3 +891,125 @@ dignus, dignă, dignum [adj]
 mīlĕs, militis [noun] [m] [III]
 ()
 1. żołnierz
+
+fīnis, finis [noun] [m] [III]
+()
+1. granica, koniec
+
+grātĭa, grātĭae [noun] [f] [I]
+()
+1. życzliwość
+2. wdzięczność
+3. (+ gen) dla, ze względu na coś
+
+hŏnestus, honestă, honestum [adj]
+()
+1. uczciwy
+
+interrŏgo, interrŏgāre, interrogāvī, interrogātum [verb] [I]
+()
+1. pytać
+
+quōmŏdŏ [adv]
+()
+1. jak, w jaki sposób
+
+imprŏbus, improba, improbum [adj]
+()
+1. niegodziwy
+
+pūnĭo, pūnīre, punii, punitum [verb] [IV]
+()
+1. karać
+
+prŏbus, prŏba, prŏbum [adj]
+()
+1. sprawiedliwy, przyzwoity
+
+plūrĭmum [adv]
+()
+1. najwięcej
+
+quī [adv]
+()
+1. który, kto
+
+gaudĭum, gaudii [noun] [n] [II]
+()
+1. radość
+
+princĭpĭum, principii [n] [noun] [II]
+()
+1. początek
+
+dum [adv]
+()
+1. podczas gdy
+
+vĭtĭum, vitii [noun] [n] [II]
+()
+1. wada, błąd
+
+contrārĭus, contrariă, contrarium [adj]
+()
+1. przeciwny
+
+curro, currĕre, cucurri, cursum [verb] [III]
+()
+1. biec, wbiegać
+
+hŏnŏr, honoris [noun] [m] [III]
+()
+1. zaszczyt
+
+mōs, moris [noun] [m] [III]
+()
+1. zwyczaj
+
+certus, certă, certum [adj]
+()
+1. pewny
+
+āmitto, āmittĕre, amisi, amissum [verb] [III]
+()
+1. tracić
+
+incertus, incertă, incertum [adj]
+()
+1. niepewny
+
+pĕto, pĕtĕre, petii, petitum [verb] [III]
+()
+1. dążyć ku czemuś, starać się o coś
+
+căput, capitis [noun] [n] [III]
+()
+1. głowa
+
+sententĭa, sententiae [noun] [f] [I]
+()
+1. myśl, zdanie
+
+tempŭs, temporis [noun] [n] [III]
+()
+1. czas
+
+dŏlŏr, doloris [noun] [m] [III]
+()
+1. ból
+
+stultus, stultă, stultum [adj]
+()
+1. głupi
+
+vĭr, viri [noun] [m] [II]
+()
+1. mężczyzna
+
+ăt [conj]
+()
+1. a wtedy, na to
+
+respondĕo, respondēre, respondi, responsum [verb] [II]
+()
+1. odpowiedzieć
