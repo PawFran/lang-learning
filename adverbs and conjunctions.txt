@@ -70,6 +70,10 @@ enim [conj]
 (Itaque Romani agriculturae studēbant)
 1. więc
 
+ăt [conj]
+()
+1. a wtedy, na to
+
 
 quoque [conj] =? etiam
 enim [conj] =? quia
