@@ -52,7 +52,7 @@ if __name__ == '__main__':
         return word, grammatical_info, polish_translations
 
 
-    with open(output_temporary_file_name, 'a') as f:
+    with open(output_temporary_file_name, 'a', encoding="utf-8") as f:
         for input_word in sys.argv[1:]:
 
             try:
