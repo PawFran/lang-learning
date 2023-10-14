@@ -48,7 +48,7 @@
 
 ### -f is filtering: "str1 str2 ... strN | strN+1... strN+K". when more than one str is used quotes are needed. pipe (zero or more) separates conditions (OR). each condition is understood like "take any entry in which every string can be found in at least on square bracket". ex. -f verb II | noun I II | adj means "take all verbs from second conj and nouns from first or second declension and all adjectives - and nothing else"
 
-### in case of verbs of first conjugation answer may be '_first form_ āre āvi ātum' instead of full form
+### in case of verbs of first conjugation answer may be '_first form_ āre āvi ātum' instead of full form or '_first form_ 1'
 
 ### when user is set smart sampling is used (more chances for new words, words which were guessed incorrectly during last 3 trials, words that were asked a long time ago)
 
