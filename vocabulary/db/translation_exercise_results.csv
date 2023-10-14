@@ -1349,6 +1349,187 @@ pf;nazywać;latin;appello;False;2023-09-06 22:14:51
 pf;podpisywać;latin;signo;True;2023-09-06 22:15:07
 pf;nazywać;latin;appello;True;2023-09-06 22:15:20
 pf;rozkładać, rozmieszczać;latin;dispōno;True;2023-09-06 22:15:32
+pf;nazywać;latin;appello;False;2023-10-09 22:09:23
+pf;umieścić;latin;pōno;False;2023-10-09 22:09:26
+pf;powstrzymywać;latin;prŏhĭbĕo;True;2023-10-09 22:09:41
+pf;być posłusznym;latin;pārĕo;False;2023-10-09 22:09:44
+pf;trzymać;latin;tĕnĕo;False;2023-10-09 22:09:46
+pf;pragnąć;latin;dēsīdĕro;True;2023-10-09 22:09:55
+pf;podpisywać;latin;signo;True;2023-10-09 22:10:01
+pf;sprzyjać;latin;făvĕo;True;2023-10-09 22:10:09
+pf;trzymać;latin;tĕnĕo;False;2023-10-09 22:10:17
+pf;być posłusznym;latin;pārĕo;False;2023-10-09 22:10:23
+pf;nazywać;latin;appello;False;2023-10-09 22:10:42
+pf;trzymać;latin;tĕnĕo;True;2023-10-09 22:11:01
+pf;bronić;latin;dēfendo;True;2023-10-09 22:11:12
+pf;umieścić;latin;pōno;False;2023-10-09 22:11:20
+pf;spostrzegać;latin;cerno;False;2023-10-09 22:11:29
+pf;obwarowywać;latin;mūnĭo;False;2023-10-09 22:11:32
+pf;spostrzegać;latin;cerno;True;2023-10-09 22:11:40
+pf;odpędzać;latin;dēpello;False;2023-10-09 22:11:43
+pf;sprzyjać;latin;făvĕo;True;2023-10-09 22:13:28
+pf;robić;latin;făcĭo;False;2023-10-09 22:13:29
+pf;trzymać;latin;tĕnĕo;True;2023-10-09 22:13:39
+pf;być posłusznym;latin;pārĕo;False;2023-10-09 22:13:47
+pf;pragnąć;latin;dēsīdĕro;True;2023-10-09 22:14:05
+pf;być posłusznym;latin;pārĕo;True;2023-10-09 22:14:12
+pf;odpędzać;latin;dēpello;False;2023-10-09 22:14:17
+pf;powstrzymywać;latin;prŏhĭbĕo;False;2023-10-10 20:54:41
+pf;być posłusznym;latin;pārĕo;False;2023-10-10 20:54:46
+pf;poruszać się;latin;mŏvĕo;True;2023-10-10 20:54:57
+pf;robić;latin;făcĭo;True;2023-10-10 20:55:04
+pf;odpędzać;latin;dēpello;False;2023-10-10 20:55:06
+pf;trzymać;latin;tĕnĕo;False;2023-10-10 20:55:15
+pf;spostrzegać;latin;cerno;True;2023-10-10 20:55:33
+pf;nazywać;latin;appello;False;2023-10-10 20:55:46
+pf;sprzyjać;latin;făvĕo;True;2023-10-10 20:55:58
+pf;umieścić;latin;pōno;False;2023-10-10 20:56:01
+pf;nazywać;latin;appello;True;2023-10-10 20:56:15
+pf;dyskutować;latin;dispŭto;False;2023-10-10 20:56:18
+pf;trzymać;latin;tĕnĕo;True;2023-10-10 20:56:28
+pf;umieścić;latin;pōno;False;2023-10-10 20:56:30
+pf;walczyć;latin;pugno;False;2023-10-10 20:56:36
+pf;obwarowywać;latin;mūnĭo;False;2023-10-10 20:56:43
+pf;odkryć, znaleźć;latin;invĕnĭo;True;2023-10-10 20:56:51
+pf;gromadzić;latin;cŭmŭlo;False;2023-10-10 20:56:53
+pf;gromadzić;latin;cŭmŭlo;False;2023-10-10 20:56:56
+pf;rozkładać, rozmieszczać;latin;dispōno;False;2023-10-10 20:56:58
+pf;bronić;latin;dēfendo;True;2023-10-10 20:57:08
+pf;być posłusznym;latin;pārĕo;False;2023-10-10 20:57:15
+pf;dyskutować;latin;dispŭto;False;2023-10-10 20:57:24
+pf;odpędzać;latin;dēpello;False;2023-10-10 20:57:27
+pf;pragnąć;latin;dēsīdĕro;False;2023-10-10 20:57:30
+pf;umieścić;latin;pōno;False;2023-10-10 20:57:32
+pf;rozkładać, rozmieszczać;latin;dispōno;False;2023-10-10 20:57:35
+pf;obwarowywać;latin;mūnĭo;True;2023-10-10 20:57:47
+pf;dyskutować;latin;dispŭto;True;2023-10-10 20:57:54
+pf;umieścić;latin;pōno;False;2023-10-10 20:58:04
+pf;być posłusznym;latin;pārĕo;True;2023-10-10 20:58:14
+pf;pragnąć;latin;dēsīdĕro;True;2023-10-10 20:58:21
+pf;kopać;latin;fŏdĭo;True;2023-10-10 20:58:33
+pf;zwyciężać;latin;vinco;False;2023-10-10 20:58:47
+pf;rozkładać, rozmieszczać;latin;dispōno;False;2023-10-10 20:59:06
+pf;odpędzać;latin;dēpello;True;2023-10-10 20:59:21
+pf;gromadzić;latin;cŭmŭlo;False;2023-10-10 20:59:25
+pf;powstrzymywać;latin;prŏhĭbĕo;True;2023-10-10 20:59:35
+pf;zbliżyć się (+ dat);latin;apprŏpinquo;False;2023-10-10 20:59:38
+pf;gromadzić;latin;cŭmŭlo;True;2023-10-10 20:59:51
+pf;walczyć;latin;pugno;True;2023-10-10 20:59:57
+pf;zwyciężać;latin;vinco;True;2023-10-10 21:00:06
+pf;umieścić;latin;pōno;True;2023-10-10 21:00:12
+pf;rozkładać, rozmieszczać;latin;dispōno;True;2023-10-10 21:00:20
+pf;podpisywać;latin;signo;True;2023-10-10 21:00:26
+pf;zbliżyć się (+ dat);latin;apprŏpinquo;False;2023-10-10 21:00:32
+pf;zbliżyć się (+ dat);latin;apprŏpinquo;True;2023-10-10 21:00:44
+pf;wyznaczać;latin;signo;True;2023-10-10 21:00:48
+pf;koniec;latin;fīnis;True;2023-10-11 19:04:44
+pf;kwatera główna;latin;praetōrĭum;False;2023-10-11 19:05:27
+pf;kopać;latin;fŏdĭo;True;2023-10-11 19:05:46
+pf;spostrzegać;latin;cerno;True;2023-10-11 19:05:54
+pf;pisarz;latin;scriptŏr;True;2023-10-11 19:05:59
+pf;natychmiast;latin;stătim;False;2023-10-11 19:06:03
+pf;legion;latin;lĕgĭo;True;2023-10-11 19:06:08
+pf;jak;latin;quăm;False;2023-10-11 19:06:11
+pf;żołnierz;latin;mīlĕs;True;2023-10-11 19:06:18
+pf;trybun;latin;trĭbūnus;True;2023-10-11 19:06:24
+pf;witaj;latin;salvē;True;2023-10-11 19:06:28
+pf;sprawiedliwy;latin;iustus;False;2023-10-11 19:06:43
+pf;obywatel;latin;cīvis;False;2023-10-11 19:06:51
+pf;żywność;latin;cĭbus;True;2023-10-11 19:07:01
+pf;nazywać;latin;appello;False;2023-10-11 19:07:06
+pf;natychmiast;latin;stătim;True;2023-10-11 19:07:09
+pf;wał;latin;vallum;False;2023-10-11 19:07:13
+pf;namiot;latin;tăbernācŭlum;False;2023-10-11 19:07:18
+pf;rozkładać, rozmieszczać;latin;dispōno;True;2023-10-11 19:07:28
+pf;wał;latin;vallum;True;2023-10-11 19:07:33
+pf;nagroda;latin;praemĭum;True;2023-10-11 19:07:37
+pf;powstrzymywać;latin;prŏhĭbĕo;True;2023-10-11 19:07:49
+pf;nazwisko;latin;nōmĕn;False;2023-10-11 19:07:57
+pf;umieścić;latin;pōno;False;2023-10-11 19:08:07
+pf;nazwisko;latin;nōmĕn;True;2023-10-11 19:08:12
+pf;miasto;latin;urbs;True;2023-10-11 19:08:17
+pf;bronić;latin;dēfendo;False;2023-10-11 19:08:26
+pf;granica;latin;fīnis;True;2023-10-11 19:08:56
+pf;bronić;latin;dēfendo;True;2023-10-11 19:09:06
+pf;obywatel;latin;cīvis;True;2023-10-11 19:09:11
+pf;zwyciężać;latin;vinco;True;2023-10-11 19:11:53
+pf;wróżba;latin;ōmen;False;2023-10-11 19:11:56
+pf;przeciwnik;latin;adversarius;True;2023-10-11 19:12:09
+pf;po pierwsze;latin;prīmum;True;2023-10-11 19:12:12
+pf;kwatera główna;latin;praetōrĭum;True;2023-10-11 19:12:18
+pf;państwo;latin;fīnes;False;2023-10-11 19:12:24
+pf;sprawiedliwy;latin;iustus;True;2023-10-11 19:12:32
+pf;dyskutować;latin;dispŭto;True;2023-10-11 19:12:43
+pf;zwycięzca;latin;victŏr;True;2023-10-11 19:12:48
+pf;łupy;latin;spŏlĭa;False;2023-10-11 19:12:51
+pf;odpędzać;latin;dēpello;False;2023-10-11 19:14:28
+pf;człowiek;latin;hŏmo;True;2023-10-11 19:14:41
+pf;zbawienie;latin;salus;False;2023-10-11 19:14:47
+pf;zbliżyć się (+ dat);latin;apprŏpinquo;True;2023-10-11 19:14:57
+pf;sprawca;latin;auctor;False;2023-10-11 19:14:59
+pf;łatwo;latin;făcĭlĕ;True;2023-10-11 19:15:03
+pf;obwarowywać;latin;mūnĭo;True;2023-10-11 19:15:09
+pf;wódz;latin;impĕrātŏr;True;2023-10-11 19:15:14
+pf;być posłusznym;latin;pārĕo;True;2023-10-11 19:15:22
+pf;zbawienie;latin;salus;True;2023-10-11 19:15:26
+pf;namiot;latin;tăbernācŭlum;True;2023-10-11 19:15:34
+pf;nazywać;latin;appello;False;2023-10-11 19:15:44
+pf;obwarowany;latin;mūnītus;True;2023-10-11 19:15:56
+pf;nazywać;latin;appello;True;2023-10-11 19:16:04
+pf;wróżba;latin;ōmen;True;2023-10-11 19:16:07
+pf;państwo;latin;fīnes;False;2023-10-11 19:16:11
+pf;sprzyjać;latin;făvĕo;True;2023-10-11 19:16:19
+pf;odpędzać;latin;dēpello;False;2023-10-11 19:16:31
+pf;godny (+ abl);latin;dignus;False;2023-10-11 19:16:35
+pf;państwo;latin;fīnes;True;2023-10-11 19:16:42
+pf;odważnie;latin;fortĭtĕr;False;2023-10-11 19:16:46
+pf;sprawca;latin;auctor;True;2023-10-11 19:17:05
+pf;imię;latin;praenōmĕn;False;2023-10-11 19:17:15
+pf;rów;latin;fossa;True;2023-10-11 19:17:22
+pf;pocisk;latin;tēlum;False;2023-10-11 19:17:24
+pf;imię;latin;praenōmĕn;True;2023-10-11 19:17:30
+pf;pocisk;latin;tēlum;True;2023-10-11 19:17:33
+pf;natychmiast;latin;extemplō;False;2023-10-11 19:17:36
+pf;umieścić;latin;pōno;True;2023-10-11 19:17:57
+pf;łupy;latin;spŏlĭa;False;2023-10-11 19:18:04
+pf;trąba;latin;tŭba;True;2023-10-11 20:19:52
+pf;łupy;latin;spŏlĭa;True;2023-10-11 20:20:01
+pf;prawo;latin;lex;True;2023-10-11 20:20:05
+pf;robić;latin;făcĭo;True;2023-10-11 20:20:11
+pf;dookoła (+acc);latin;circum;True;2023-10-11 20:20:17
+pf;trzymać;latin;tĕnĕo;True;2023-10-11 20:20:24
+pf;godny (+ abl);latin;dignus;True;2023-10-11 20:20:30
+pf;odpędzać;latin;dēpello;False;2023-10-11 20:20:40
+pf;potem;latin;dĕindĕ;False;2023-10-11 20:20:54
+pf;odkryć, znaleźć;latin;invĕnĭo;False;2023-10-11 20:21:02
+pf;poruszać się;latin;mŏvĕo;True;2023-10-11 20:21:11
+pf;odkryć, znaleźć;latin;invĕnĭo;True;2023-10-11 20:21:17
+pf;natychmiast;latin;extemplō;False;2023-10-11 20:21:23
+pf;gromadzić;latin;cŭmŭlo;True;2023-10-11 20:21:30
+pf;jak;latin;quăm;True;2023-10-11 20:21:33
+pf;potem;latin;dĕindĕ;True;2023-10-11 20:21:38
+pf;odpędzać;latin;dēpello;True;2023-10-11 20:21:45
+pf;miejsce;latin;lŏcus;True;2023-10-11 20:21:49
+pf;znak;latin;signum;True;2023-10-11 20:21:54
+pf;straż;latin;custōdĭa;True;2023-10-11 20:22:00
+pf;przestrzeń, obszar;latin;spătĭum;True;2023-10-11 20:22:05
+pf;pragnąć;latin;dēsīdĕro;True;2023-10-11 20:22:11
+pf;odważnie;latin;fortĭtĕr;True;2023-10-11 20:22:14
+pf;tabor;latin;impedimenta;False;2023-10-11 20:22:18
+pf;obóz;latin;castra;True;2023-10-11 20:22:30
+pf;tabor;latin;impedimenta;True;2023-10-11 20:22:41
+pf;przeszkoda;latin;impĕdīmentum;True;2023-10-11 20:22:56
+pf;walczyć;latin;pugno;True;2023-10-11 20:23:03
+pf;przez (+ abl);latin;a;False;2023-10-11 20:23:06
+pf;natychmiast;latin;extemplō;True;2023-10-11 20:23:13
+pf;środkowy;latin;mĕdĭus;True;2023-10-11 20:23:27
+pf;od (+ abl);latin;a;False;2023-10-11 20:23:30
+pf;od (+ abl);latin;a;True;2023-10-11 20:23:34
+pf;podpisywać;latin;signo;True;2023-10-11 20:23:38
+pf;przez (+ abl);latin;a;True;2023-10-11 20:23:40
+pf;najpierw;latin;prīmum;True;2023-10-11 20:23:44
+pf;wyznaczać;latin;signo;True;2023-10-11 20:23:49
+pf;państwo;latin;fīnes;False;2023-10-14 16:15:39
 pf;sprzyjać;latin;făvĕo;False;2023-10-02 18:59:21
 pf;pragnąć;latin;dēsīdĕro;True;2023-10-02 18:59:30
 pf;powstrzymywać;latin;prŏhĭbĕo;True;2023-10-02 18:59:42
@@ -1404,3 +1585,30 @@ pf;biec, wbiegać;latin;curro;True;2023-10-04 19:31:08
 pf;czas;latin;tempŭs;True;2023-10-04 19:31:13
 pf;dążyć ku czemuś, starać się o coś;latin;pĕto;False;2023-10-04 19:31:21
 pf;dążyć ku czemuś, starać się o coś;latin;pĕto;True;2023-10-04 19:31:35
+pf;ból;latin;dŏlŏr;True;2023-10-14 16:42:05
+pf;sprzyjać;latin;făvĕo;True;2023-10-14 16:42:17
+pf;zbawienie;latin;salus;True;2023-10-14 16:42:21
+pf;obwarowywać;latin;mūnĭo;False;2023-10-14 16:42:28
+pf;obywatel;latin;cīvis;True;2023-10-14 16:42:36
+pf;życzliwość;latin;grātĭa;True;2023-10-14 16:42:52
+pf;łupy;latin;spŏlĭa;False;2023-10-14 16:43:28
+pf;obwarowywać;latin;mūnĭo;True;2023-10-14 16:43:51
+pf;bronić;latin;dēfendo;False;2023-10-14 16:44:01
+pf;tracić;latin;āmitto;True;2023-10-14 16:44:08
+pf;który, kto;latin;quī;False;2023-10-14 16:44:13
+pf;być posłusznym;latin;pārĕo;True;2023-10-14 16:44:21
+pf;państwo;latin;fīnes;True;2023-10-14 16:44:27
+pf;tracić;latin;āmitto;False;2023-10-14 16:44:42
+pf;dążyć ku czemuś, starać się o coś;latin;pĕto;True;2023-10-14 16:44:46
+pf;dyskutować;latin;dispŭto;False;2023-10-14 16:44:56
+pf;dyskutować;latin;dispŭto;False;2023-10-14 16:45:30
+pf;walczyć;latin;pugno;True;2023-10-14 16:45:36
+pf;zbliżyć się (+ dat);latin;apprŏpinquo;True;2023-10-14 16:45:43
+pf;dyskutować;latin;dispŭto;True;2023-10-14 16:45:46
+pf;odpowiedzieć;latin;respondĕo;True;2023-10-14 16:45:49
+pf;niepewny;latin;incertus;True;2023-10-14 17:43:39
+pf;obwarowany;latin;mūnītus;False;2023-10-14 17:43:47
+pf;urodzajny;latin;fēcundus;False;2023-10-14 19:47:03
+pf;urodzajny;latin;fēcundus;True;2023-10-14 19:53:19
+pf;odpowiedni, nadający się;latin;idōneus;True;2023-10-14 19:53:25
+pf;bogaty;latin;opulentus;True;2023-10-14 19:53:29

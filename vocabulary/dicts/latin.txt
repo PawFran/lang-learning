@@ -1013,3 +1013,39 @@ vĭr, viri [noun] [m] [II]
 respondĕo, respondēre, respondi, responsum [verb] [II]
 ()
 1. odpowiedzieć
+
+ōrātĭo, orationis [noun] [f] [III]
+()
+1. przemówienie
+
+ĕpistŭla, epistulae [noun] [f] [I]
+()
+1. list
+
+ŏpŭs, operis [noun] [n] [III]
+()
+1. dzieło
+
+praeclārus, praeclară, praeclarum [adj]
+()
+1. przesławny
+
+offĭcĭum, officii [noun] [n] [II]
+()
+1. obowiązek
+
+dispŭtātĭo, disputationis [noun] [f] [III]
+()
+1. dyskusja
+
+sors, sortis [noun] [f] [III]
+()
+1. los
+
+exsĭlĭum, exsilii [noun] [n] [II]
+()
+1. wygnanie
+
+doctus, doctă, doctum [adj]
+()
+1. uczony
