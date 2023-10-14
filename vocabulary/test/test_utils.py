@@ -20,13 +20,22 @@ def test_compare_answer_with_full_head_raw():
     assert compare_answer_with_full_head_raw(head_raw4, 'perītus, perīta  perītum')
 
 
-def test_compare_answer_with_full_head_raw_verb_shortcuts():
+def test_compare_answer_with_full_head_raw_verb_ending_shortcut():
     head_raw = 'properō, properāre, properāvi, properātum [verb] [I]'
     head_raw2 = 'habeo, habēre, habuī, habitum [verb] [II]'
 
     assert compare_answer_with_full_head_raw(head_raw, 'propero are avi atum')
     assert not compare_answer_with_full_head_raw(head_raw2, 'habeo are avi atum')
     assert not compare_answer_with_full_head_raw(head_raw2, 'habeo ere ui itum')
+
+
+def test_compare_answer_with_full_head_raw_verb_number_shortcuts():
+    head_raw = 'properō, properāre, properāvi, properātum [verb] [I]'
+    head_raw2 = 'habeo, habēre, habuī, habitum [verb] [II]'
+
+    assert compare_answer_with_full_head_raw(head_raw, 'propero 1')
+    assert compare_answer_with_full_head_raw(head_raw, 'propero   1 ')
+    assert not compare_answer_with_full_head_raw(head_raw2, 'habeo 1')
 
 
 @pytest.mark.skip(reason='TO DO')
