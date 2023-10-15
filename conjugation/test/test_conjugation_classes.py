@@ -28,7 +28,7 @@ small_test_dict = {
 }
 
 json_file_path = os.path.join("conjugation", "resources", "conjugation.json")
-with open(json_file_path) as f:
+with open(json_file_path, encoding="utf8") as f:
     test_dict = json.load(f)
 
 
