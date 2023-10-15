@@ -76,6 +76,7 @@ genetivus
 
 
 dativus
+* dopełnienia dalszego
 * possessivus
 * (in)commodi
 * auctoris
@@ -113,3 +114,9 @@ minuo - 'u' jest w odmianach traktowane jak spółgłoska
 aqua facile invenīri poterat - invenīri poterat to orzeczenie ?
 
 prohibeo - często z abl
+
+vectigali magno praetor novum addit - co znaczy 'novum' ? novum jest dopełnieniem bliższym, vectigali dalszym (pretor wielkim podatkom dokłada nowy)
+
+nec... nec... - ani... ani... - dodać do słownika
+ipsa per se - dodać do słownika
+quattuor - dodać

@@ -1019,11 +1019,11 @@ respondĕo, respondēre, respondi, responsum [verb] [II]
 1. wyborny, doskonały
 
 ōrātĭo, orationis [noun] [f] [III]
-()
+(Vos quoque Ciceronis orationes et epistulas legere poteris)
 1. przemówienie
 
 ĕpistŭla, epistulae [noun] [f] [I]
-()
+(Vos quoque Ciceronis orationes et epistulas legere poteris)
 1. list
 
 ŏpŭs, operis [noun] [n] [III]
@@ -1059,5 +1059,122 @@ doctus, doctă, doctum [adj]
 1. mówca
 
 possum, posse, potuī [verb] [anomalous]
-()
+(Vos quoque Ciceronis orationes et epistulas legere poteris)
 1.móc
+
+impositus, imposită, impositum [adj]
+()
+1. nałożony
+
+prōvincĭa, provinciae [noun] [f] [I]
+()
+1. prowincja
+
+praetŏr, praetoris [noun] [m] [III]
+()
+1. pretor, zarządca prowincji
+
+clāmo, clāmāre, clamāvī, clamātum [verb] [I]
+()
+1. ogłaszać
+2. wołać
+
+pūblĭcānus, publicani [noun] [m] [II]
+()
+1. publikanin
+
+addo, addĕre, addidi, additum [verb] [III]
+()
+1. dokładać (do czegoś)
+
+ŏnus, oneris [noun] [n] [III]
+()
+1. ciężar
+
+vectīgăl, vectigalis [noun] [n] [III]
+()
+1. podatek
+
+exĭgo, exĭgĕre, exegi, exactum [verb] [III]
+()
+1. wykonywać, egzekwować
+
+nŏvus, novă, novum [adj]
+()
+1. nowy
+
+aetās, aetatis [noun] [f] [III]
+()
+1. wiek, era
+
+nōmĭno, nōmĭnāre, nomināvī, nominātum [verb] [I]
+()
+1. nazywać, wymieniać
+
+argentĕus, argenteă, argenteum [adj]
+()
+1. srebrny
+
+ăēnĕus, aeneă, aeneum [adj]
+()
+1. spiżowy
+
+ferrĕus, ferreă, ferreum [adj]
+()
+1. żelazny
+
+carmĕn, carminis [noun] [n] [III]
+()
+1. pieśń
+
+sĭnĕ [prep]
+()
+1. bez (+ abl)
+
+tūtus, tută, tutum [adj]
+()
+1. bezpieczny
+
+vērĭtās, veritatis [noun] [f] [III]
+()
+1. prawda
+
+cingo, cingĕre, cinxi, cinctum [verb] [III]
+()
+1. otaczać
+
+ignōtus, ignōtă, ignōtum [adj]
+()
+1. nieznany
+
+oppugno, oppugnāre, oppugnāvī, oppugnātum [verb] [I]
+()
+1. oblegać, zdobywać
+
+dīrŭo, dīrŭĕre, dirui, dirutum [verb] [III]
+()
+1. burzyć
+
+mărĕ, maris [noun] [n] [III]
+()
+1. morze
+
+longinquus, longinquă, longinquum [adj]
+()
+1. odległy
+
+caelum, caeli [noun] [n] [II] [sing]
+()
+1. niebo
+
+ănĭmus, animi [noun] [m] [II]
+()
+1. duch, charakter
+
+trans [prep]
+()
+1. za, poza (+ acc)
+
+aurĕus, aureă, aureum [adj]
+()
+1. złoty
