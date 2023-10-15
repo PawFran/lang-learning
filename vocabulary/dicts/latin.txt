@@ -1057,3 +1057,7 @@ doctus, doctă, doctum [adj]
 ōrātŏr, oratoris [noun] [m] [III]
 ()
 1. mówca
+
+possum, posse, potuī [verb] [anomalous]
+()
+1.móc

@@ -1,16 +1,7 @@
 roadmap for language learning
 
-złe parsowanie "łupy" w translation exercise
-łupy
-translation:
-wrong. correct answer is "spŏlĭa, spoliōrum [noun] [n] [I] [pl]" (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
-odważnie
-translation:
-wrong. correct answer is "fortĭtĕr [adv]" (Si fortiter pugnabitis, Poeni depellentur)
-
 złe parsowanie (cīvis, civis [noun] [m] [feminine]
 
-złe parsowanie rzeczowników III deklinacji w find_or_scrape_latin.py !!!
 złe parsowanie vir
 
 find or scrape - dodać opcję -f --force żeby zmusić do scrape'owania nawet jeśli jest w słowniku
