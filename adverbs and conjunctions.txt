@@ -80,6 +80,10 @@ enim [conj]
 ()
 1. a wtedy, na to
 
+nam [conj]
+(Ager non arabatur, nam terra ipsa per se frumentum dabat)
+1. bowiem, ponieważ
+
 
 quoque [conj] =? etiam
 enim [conj] =? quia

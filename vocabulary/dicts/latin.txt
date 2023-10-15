@@ -1115,7 +1115,7 @@ argentĕus, argenteă, argenteum [adj]
 ()
 1. srebrny
 
-ăēnĕus, aeneă, aeneum [adj]
+ăënĕus, aëneă, aëneum [adj]
 ()
 1. spiżowy
 
@@ -1178,3 +1178,11 @@ trans [prep]
 aurĕus, aureă, aureum [adj]
 ()
 1. złoty
+
+nam [conj]
+(Ager non arabatur, nam terra ipsa per se frumentum dabat)
+1. bowiem, ponieważ
+
+nāvĭgĭum, navigii [noun] [n] [II]
+()
+1. statek
