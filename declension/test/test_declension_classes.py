@@ -36,18 +36,19 @@ declension_dict_plural = single_declension_pattern_dict['ancilla']['first']['fem
 
 
 def test_declension_type_from_dict():
-    assert DeclensionType.from_string('first') == DeclensionType.I
-    assert DeclensionType.from_string('first ') == DeclensionType.I
-    assert DeclensionType.from_string('First') == DeclensionType.I
-    assert DeclensionType.from_string('i') == DeclensionType.I
-    assert DeclensionType.from_string('I') == DeclensionType.I
-    assert DeclensionType.from_string('1') == DeclensionType.I
+    assert DeclensionType.from_string('first') is DeclensionType.I
+    assert not DeclensionType.from_string('first') is DeclensionType.II
+    assert DeclensionType.from_string('first ') is DeclensionType.I
+    assert DeclensionType.from_string('First') is DeclensionType.I
+    assert DeclensionType.from_string('i') is DeclensionType.I
+    assert DeclensionType.from_string('I') is DeclensionType.I
+    assert DeclensionType.from_string('1') is DeclensionType.I
 
-    assert DeclensionType.from_string('third consonant') == DeclensionType.III_consonant
-    assert DeclensionType.from_string('third_consonant') == DeclensionType.III_consonant
-    assert DeclensionType.from_string('third-consonant') == DeclensionType.III_consonant
+    assert DeclensionType.from_string('third consonant') is DeclensionType.III_consonant
+    assert DeclensionType.from_string('third_consonant') is DeclensionType.III_consonant
+    assert DeclensionType.from_string('third-consonant') is DeclensionType.III_consonant
 
-    assert DeclensionType.from_string('third vowel') == DeclensionType.III_vowel
+    assert DeclensionType.from_string('third vowel') is DeclensionType.III_vowel
 
 
 def test_declension_type_from_dict_invalid():
@@ -69,18 +70,18 @@ def test_declension_pattern_from_dict():
     cases_plural = declension_dict_plural
 
     assert d.base_word == 'ancilla'
-    assert d.type == DeclensionType.I
+    assert d.type is DeclensionType.I
     assert d.genre == 'femininum'
     assert d.singular == cases_singular
     assert d.plural == cases_plural
 
 
 def test_declension_case_from_string():
-    assert DeclensionCase.from_string('nominativus') == DeclensionCase.NOMINATIVUS
-    assert DeclensionCase.from_string('genetivus') == DeclensionCase.GENETIVUS
-    assert DeclensionCase.from_string('dative') == DeclensionCase.DATIVUS
-    assert DeclensionCase.from_string('voc') == DeclensionCase.VOCATIVUS
-    assert DeclensionCase.from_string('acc ') == DeclensionCase.ACCUSATIVUS
+    assert DeclensionCase.from_string('nominativus') is DeclensionCase.NOMINATIVUS
+    assert DeclensionCase.from_string('genetivus') is DeclensionCase.GENETIVUS
+    assert DeclensionCase.from_string('dative') is DeclensionCase.DATIVUS
+    assert DeclensionCase.from_string('voc') is DeclensionCase.VOCATIVUS
+    assert DeclensionCase.from_string('acc ') is DeclensionCase.ACCUSATIVUS
 
 
 def test_declension_case_from_string_invalid():

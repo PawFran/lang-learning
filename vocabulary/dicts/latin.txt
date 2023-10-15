@@ -70,7 +70,7 @@ do, dāre, dedī, datum [verb], [I]
 (Matrona tunicas ancillis dat)
 1. dawać
 
-sum, esse, fuī [verb]
+sum, esse, fuī [verb] [anomalous]
 (Marcus discipulus est)
 1. być
 
@@ -127,7 +127,7 @@ paro, parāre, parāvī, parātum [verb] [I]
 1. przygotowywać
 2. zdobywać
 
-prōsum, prōdesse, profuī [verb]
+prōsum, prōdesse, profuī [verb] [anomalous]
 (Fabri patriae prosunt)
 1. pomagać, być pożytecznym
 

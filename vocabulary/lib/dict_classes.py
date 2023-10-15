@@ -7,6 +7,7 @@ from common.lib.utils import flatten
 from common.lib.utils import weak_equals
 from vocabulary.lib.db import *
 import re
+from conjugation.lib.conjugation_classes import ConjugationType
 
 
 @dataclass
@@ -39,17 +40,21 @@ class LatinVerb(AbstractWord):
     infinite: str
     perfect: str
     supine: str
-    conjugation: str  # maybe another class/enum ?
+    conjugation: ConjugationType
 
     @staticmethod
     def is_verb(dict_entry_head):
         return '[verb]' in dict_entry_head.lower()
 
     @staticmethod
-    def which_conjugation(dict_entry_head) -> str:
+    def which_conjugation(dict_entry_head) -> ConjugationType:
         # conjugation may be [I] or [II] or [III] or [IIIa] or [IV]
-        conjugation_pattern = '\[I{1,3}V*\]'
-        return AbstractWord.extract_from_square_brackets(conjugation_pattern, dict_entry_head)
+        conjugation_pattern = '\[I{1,3}V*\]|\[anomalous\]|\[anomaly\]|\[anom\]'
+        extracted_str = AbstractWord.extract_from_square_brackets(conjugation_pattern, dict_entry_head)
+        if extracted_str is None:
+            raise Exception(f'cannot extract ConjugationType from {dict_entry_head} using pattern {conjugation_pattern}')
+        else:
+            return ConjugationType.from_string(extracted_str)
 
     @staticmethod
     def from_entry_head(head):

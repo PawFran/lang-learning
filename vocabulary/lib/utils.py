@@ -1,6 +1,7 @@
 import re
 from common.lib.utils import weak_equals
 from vocabulary.lib.dict_classes import LatinVerb, LatinAdjective
+from conjugation.lib.conjugation_classes import ConjugationType
 
 
 # TODO test
@@ -16,7 +17,7 @@ def all_elements_equal(l1, l2) -> bool:
         return all([weak_equals(x, y) for (x, y) in zip(l1, l2)])
 
 
-# TODO move it to LatinAdjective class ?
+# TODO move it to LatinAdjective class ? use sth like AdjectiveType in the future
 def adjective_first_and_second_declension(adj):
     adj_as_list = to_list_no_metadata(adj)
     return weak_equals(adj_as_list[1][-1], 'a') and weak_equals(adj_as_list[2][-2:], 'um')
@@ -59,7 +60,7 @@ def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
     answer_as_list = to_list_no_metadata(answer)
 
     if LatinVerb.is_verb(entry_head):
-        if LatinVerb.which_conjugation(entry_head) == 'I':
+        if LatinVerb.which_conjugation(entry_head) is ConjugationType.I:
             return (all_elements_equal(original_as_list, answer_as_list) or
                     all_elements_equal_verb_ending_shortcut(original_as_list, answer_as_list) or
                     all_elements_equal_verb_number_shortcut(original_as_list, answer_as_list))

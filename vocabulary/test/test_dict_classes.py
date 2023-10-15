@@ -21,12 +21,20 @@ def test_extract_metadata():
     assert AbstractWord.extract_metadata('dīlĭgentĕr [adv]') == ['adv']
 
 
-def test_conjugation():
-    assert LatinVerb.which_conjugation('castīgo, āre, avi, atum [verb] [I]') == 'I'
-    assert LatinVerb.which_conjugation('maneō, ēre, sī, sum [verb] [II]') == 'II'
-    assert LatinVerb.which_conjugation('ostendō, ere, dī, tum(sum) [verb] [III]') == 'III'
+def test_which_conjugation():
+    assert LatinVerb.which_conjugation('castīgo, āre, avi, atum [verb] [I]') is ConjugationType.I
+    assert LatinVerb.which_conjugation('maneō, ēre, sī, sum [verb] [II]') is ConjugationType.II
+    assert LatinVerb.which_conjugation('ostendō, ere, dī, tum(sum) [verb] [III]') is ConjugationType.III
     # add IIIa ?
-    assert LatinVerb.which_conjugation('sentiō, īre, sī, sum [verb] [IV]') == 'IV'
+    assert LatinVerb.which_conjugation('sentiō, īre, sī, sum [verb] [IV]') is ConjugationType.IV
+    assert LatinVerb.which_conjugation('sum, ese, fuī [verb] [anomalous]') is ConjugationType.ANOMALOUS
+
+    assert not LatinVerb.which_conjugation('castīgo, āre, avi, atum [verb] [I]') is ConjugationType.II
+
+
+def test_which_conjugation_raising_exception_when_no_conjugation_type_info():
+    with pytest.raises(Exception):
+        LatinVerb.which_conjugation('sum, ese, fuī [verb]')
 
 
 def test_declension():
@@ -52,18 +60,20 @@ def test_verb_from_entry_head():
     assert verb.infinite == 'āre'
     assert verb.perfect == 'avi'
     assert verb.supine == 'atum'
-    assert verb.conjugation == 'I'
+    assert verb.conjugation is ConjugationType.I
 
 
-def test_verb_from_entry_head_partial():
-    line = 'sum, esse, fuī [verb]'
+# should rather use list of all possibilities defined in one of Conjugation classes
+@pytest.mark.parametrize("anom", ['anomalous', 'anomaly', 'anom'])
+def test_verb_from_entry_head_partial(anom):
+    line = f'sum, esse, fuī [verb] [{anom}]'
     verb = LatinVerb.from_entry_head(line)
     assert verb.base == 'sum'
     assert verb.head_raw == line
     assert verb.infinite == 'esse'
     assert verb.perfect == 'fuī'
     assert verb.supine is None
-    assert verb.conjugation is None
+    assert verb.conjugation is ConjugationType.ANOMALOUS
 
 
 def test_is_noun():
@@ -445,7 +455,8 @@ def test_filter_by_complex_condition():
     assert dictionary.filter_by_complex_condition('verb I | verb III').entries == [dict_entry_3, dict_entry_4]
     assert dictionary.filter_by_complex_condition('I').entries == [dict_entry_3, dict_entry_5]
     assert dictionary.filter_by_complex_condition('I | verb III').entries == [dict_entry_3, dict_entry_5, dict_entry_4]
-    assert dictionary.filter_by_complex_condition('verb I |  adv ').entries == [dict_entry_3, dict_entry_1, dict_entry_2]
+    assert dictionary.filter_by_complex_condition('verb I |  adv ').entries == [dict_entry_3, dict_entry_1,
+                                                                                dict_entry_2]
     assert dictionary.filter_by_complex_condition('adv').entries == [dict_entry_1, dict_entry_2]
     assert dictionary.filter_by_complex_condition('adv| adv').entries == [dict_entry_1, dict_entry_2]
     assert dictionary.filter_by_complex_condition('adj').entries == []

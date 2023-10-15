@@ -13,6 +13,7 @@ class ConjugationType(Enum):
     # IIIa = 3.1
     # IIIb = 3.2
     IV = 4
+    ANOMALOUS = 5
 
     @staticmethod
     def from_string(s: str):
@@ -25,6 +26,8 @@ class ConjugationType(Enum):
                 return ConjugationType.III
             case 'fourth' | 'iv' | 'three' | '4':
                 return ConjugationType.IV
+            case 'anom' | 'anomalous' | 'anomaly':
+                return ConjugationType.ANOMALOUS
             case _:
                 raise Exception(f'cannot parse string {s} to ConjugationType')
 

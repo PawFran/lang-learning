@@ -33,19 +33,24 @@ with open(json_file_path, encoding="utf8") as f:
 
 
 def test_conjugation_type_from_dict():
-    assert ConjugationType.from_string('first') == ConjugationType.I
-    assert ConjugationType.from_string('first ') == ConjugationType.I
-    assert ConjugationType.from_string('First') == ConjugationType.I
-    assert ConjugationType.from_string('i') == ConjugationType.I
-    assert ConjugationType.from_string('I') == ConjugationType.I
-    assert ConjugationType.from_string('1') == ConjugationType.I
-    assert ConjugationType.from_string('4') == ConjugationType.IV
+    assert ConjugationType.from_string('first') is ConjugationType.I
+    assert ConjugationType.from_string('first ') is ConjugationType.I
+    assert ConjugationType.from_string('First') is ConjugationType.I
+    assert ConjugationType.from_string('i') is ConjugationType.I
+    assert ConjugationType.from_string('I') is ConjugationType.I
+    assert ConjugationType.from_string('1') is ConjugationType.I
+    assert ConjugationType.from_string('4') is ConjugationType.IV
+    assert ConjugationType.from_string('anom') is ConjugationType.ANOMALOUS
+    assert ConjugationType.from_string('anomalous') is ConjugationType.ANOMALOUS
+    assert ConjugationType.from_string('anomaly') is ConjugationType.ANOMALOUS
 
-    # assert ConjugationType.from_string('third a') == ConjugationType.IIIa
-    # assert ConjugationType.from_string('third_a') == ConjugationType.IIIa
-    # assert ConjugationType.from_string('third-a') == ConjugationType.IIIa
+    assert not ConjugationType.from_string('first') is ConjugationType.II
 
-    # assert ConjugationType.from_string('third b') == ConjugationType.IIIb
+    # assert ConjugationType.from_string('third a') is ConjugationType.IIIa
+    # assert ConjugationType.from_string('third_a') is ConjugationType.IIIa
+    # assert ConjugationType.from_string('third-a') is ConjugationType.IIIa
+
+    # assert ConjugationType.from_string('third b') is ConjugationType.IIIb
 
 
 def test_conjugation_type_from_dict_invalid():
@@ -60,12 +65,14 @@ def test_conjugation_type_from_dict_invalid():
 
 
 def test_mood_from_string():
-    assert Mood.from_string('indicativus') == Mood.Indicativus
-    assert Mood.from_string('indicativus ') == Mood.Indicativus
-    assert Mood.from_string('  Indicativus ') == Mood.Indicativus
-    assert Mood.from_string('  Ind') == Mood.Indicativus
+    assert Mood.from_string('indicativus') is Mood.Indicativus
+    assert Mood.from_string('indicativus ') is Mood.Indicativus
+    assert Mood.from_string('  Indicativus ') is Mood.Indicativus
+    assert Mood.from_string('  Ind') is Mood.Indicativus
 
-    assert Mood.from_string('  imperativus') == Mood.Imperativus
+    assert Mood.from_string('  imperativus') is Mood.Imperativus
+
+    assert not Mood.from_string('indicativus') is Mood.Imperativus
 
 
 def test_mood_from_string_invalid():
@@ -90,20 +97,20 @@ def test_conjugation_table_from_dict():
     first_record = table.records[0]
 
     assert first_record.infinitive == 'laudāre'
-    assert first_record.conjugation_type == ConjugationType.I
-    assert first_record.mood == Mood.Indicativus
-    assert first_record.tense == Tense.Praesens
-    assert first_record.voice == Voice.Activus
-    assert first_record.number == Number.Singularis
-    assert first_record.person == Person.First
+    assert first_record.conjugation_type is ConjugationType.I
+    assert first_record.mood is Mood.Indicativus
+    assert first_record.tense is Tense.Praesens
+    assert first_record.voice is Voice.Activus
+    assert first_record.number is Number.Singularis
+    assert first_record.person is Person.First
     assert first_record.word == 'laudo'
 
     last_but_one_record = table.records[-1]
     assert last_but_one_record.infinitive == 'audīre'
-    assert last_but_one_record.conjugation_type == ConjugationType.IV
-    assert last_but_one_record.mood == Mood.Imperativus
-    assert last_but_one_record.tense == Tense.Praesens
-    assert last_but_one_record.voice == Voice.Passivus
-    assert last_but_one_record.number == Number.Pluralis
-    assert last_but_one_record.person == Person.Second
+    assert last_but_one_record.conjugation_type is ConjugationType.IV
+    assert last_but_one_record.mood is Mood.Imperativus
+    assert last_but_one_record.tense is Tense.Praesens
+    assert last_but_one_record.voice is Voice.Passivus
+    assert last_but_one_record.number is Number.Pluralis
+    assert last_but_one_record.person is Person.Second
     assert last_but_one_record.word == 'audimini'

@@ -92,7 +92,7 @@ def test_parse_latin_entry():
         infinite='āre',
         perfect='avi',
         supine='atum',
-        conjugation='I'
+        conjugation=ConjugationType.I
     )
 
     assert dict_entry.example == 'Ancillam miseram domina sevēra castīgat'
@@ -127,7 +127,7 @@ def test_parse_latin_dict():
             infinite='āre',
             perfect='avi',
             supine='atum',
-            conjugation='I'
+            conjugation=ConjugationType.I
         ),
         example='Ancillam miseram domina sevēra castīgat',
         translations=['karać']
