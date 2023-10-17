@@ -9,6 +9,7 @@ def test_weak_compare():
     assert not weak_equals('castīgo', 'castīg')
     assert weak_equals('castāre', 'castare')
     assert weak_equals('valdē', 'valde')
+    assert weak_equals('ăënĕus', 'aeneus')
 
 
 def test_wek_compare_uppercase():
