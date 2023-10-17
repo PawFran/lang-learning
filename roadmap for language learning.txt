@@ -1,5 +1,7 @@
 roadmap for language learning
 
+pytanie o rodzaj rzeczownika (nie jest to oczywiste dla trzeciej deklinacji)
+
 złe parsowanie (cīvis, civis [noun] [m] [feminine]
 
 złe parsowanie vir
