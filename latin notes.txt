@@ -103,7 +103,13 @@ ablativus
 
 
 
-
+składnia nazw miast
+quo (dokąd) ? -> acc
+unde (skąd) ? -> abl
+ubi (gdzie) ?
+    1. I i II dekl. -> gen (locativus)
+    2. III i pl tantum -> abl
+miast III dekl. parisyllaba z nom. -is mają acc -im, abl -i
 
 
 iustitiam colere debemus - jaka czescia zdania jest 'colere' ? jak by to wygladalo w stronie biernej ? colere by sie nie zmienilo, wiec nie jest dopelnieniem blizszym
@@ -120,3 +126,13 @@ vectigali magno praetor novum addit - co znaczy 'novum' ? novum jest dopełnieni
 nec... nec... - ani... ani... - dodać do słownika
 ipsa per se - dodać do słownika
 quattuor - dodać
+mortŭus - dodać (adjective perfect participle I class)
+ălĭus - dodać (indefinite pronoun)
+altĕr - dodać
+ădŭlescens (adjective present participle II class)
+in animo habeo
+ab eo tempore
+
+po polsku: słuchać - kogoś. być posłusznym - komuś. po łacinie zawsze dativ ?
+
+plebi caro - "plebi" - jaka to część zdania ? forma taka jak po polsku tzn. celownik

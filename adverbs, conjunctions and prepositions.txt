@@ -34,6 +34,10 @@ dum [adv]
 
 cum - również "podczas gdy" (Certa amittimus, cum incerta petimus)
 
+tandem [adv]
+()
+1. w końcu
+
 valdē [adv]
 saepe [adv]
 ubi [adv]
@@ -93,3 +97,45 @@ cum [conj]
 sī [conj]
 aut [conj]
 nĭsi [conj]
+
+
+
+ăd [prep]
+()
+1. do, w kierunku (+ acc)
+
+in [prep]
+(In Polonia habitamus)
+1. do (+ acc)
+2. w (+ abl)
+
+per [prep]
+(Per aspera ad astra)
+1. przez (+ acc)
+2. wzdłuż (+ acc)
+
+ergō [prep]
+(Cogito ergo sum)
+1. więc, w wyniku
+
+ăpud [prep]
+(In numero servōrum apud Graecos multi captivi erant)
+1. u (+ acc)
+
+circum [prep]
+(Circum castra fossa fodiebatur)
+1. dookoła (+acc)
+
+a [prep]
+(Statim a custodiis cernentur)
+1. od (+ abl)
+2. przez (+ abl)
+
+sĭnĕ [prep]
+()
+1. bez (+ abl)
+
+trans [prep]
+()
+1. za, poza (+ acc)
+

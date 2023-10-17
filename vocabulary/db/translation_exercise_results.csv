@@ -1735,3 +1735,70 @@ pf;otaczać;latin;cingo;True;2023-10-17 18:11:25
 pf;bowiem, ponieważ;latin;nam;True;2023-10-17 18:11:27
 pf;bezpieczny;latin;tūtus;True;2023-10-17 18:11:30
 pf;wiek, era;latin;aetās;True;2023-10-17 18:11:35
+pf;złoty;latin;aurĕus;False;2023-10-17 18:12:26
+pf;odległy;latin;longinquus;False;2023-10-17 18:12:30
+pf;morze;latin;mărĕ;True;2023-10-17 18:12:33
+pf;burzyć;latin;dīrŭo;True;2023-10-17 18:12:42
+pf;odległy;latin;longinquus;True;2023-10-17 18:12:46
+pf;złoty;latin;aurĕus;True;2023-10-17 18:12:48
+pf;żelazny;latin;ferrĕus;True;2023-10-17 18:12:52
+pf;prawda;latin;vērĭtās;True;2023-10-17 18:12:57
+pf;statek;latin;nāvĭgĭum;True;2023-10-17 18:13:04
+pf;oblegać, zdobywać;latin;oppugno;True;2023-10-17 18:13:09
+pf;srebrny;latin;argentĕus;True;2023-10-17 18:13:13
+pf;pieśń;latin;carmĕn;True;2023-10-17 18:13:18
+pf;nazywać, wymieniać;latin;nōmĭno;False;2023-10-17 18:13:24
+pf;nazywać, wymieniać;latin;nōmĭno;False;2023-10-17 18:13:30
+pf;niebo;latin;caelum;True;2023-10-17 18:13:35
+pf;nazywać, wymieniać;latin;nōmĭno;True;2023-10-17 18:13:41
+pf;bez (+ abl);latin;sĭnĕ;True;2023-10-17 18:13:44
+pf;nieznany;latin;ignōtus;True;2023-10-17 18:13:47
+pf;za, poza (+ acc);latin;trans;True;2023-10-17 18:13:49
+pf;duch, charakter;latin;ănĭmus;True;2023-10-17 18:13:51
+pf;żywić;latin;ălo;True;2023-10-17 18:27:53
+pf;powtarzanie;latin;rĕpĕtītĭo;True;2023-10-17 18:27:58
+pf;talent;latin;ingĕnĭum;True;2023-10-17 18:28:01
+pf;przyjmować;latin;accĭpĭo;False;2023-10-17 18:28:10
+pf;naukanauka;latin;stŭdĭum;True;2023-10-17 18:28:35
+pf;przyzwyczajenie;latin;consuētūdo;False;2023-10-17 18:28:43
+pf;gościna;latin;hospĭtĭum;True;2023-10-17 18:28:51
+pf;sztuka;latin;ars;True;2023-10-17 18:28:54
+pf;uniwersytet;latin;ūnĭversĭtās;True;2023-10-17 18:29:02
+pf;przyzwyczajenie;latin;consuētūdo;True;2023-10-17 18:29:09
+pf;rywalizacja;latin;aemŭlātĭo;False;2023-10-17 18:29:14
+pf;młodzieniec;latin;ădŭlescens;False;2023-10-17 18:29:19
+pf;nauka;latin;stŭdĭum;True;2023-10-17 18:31:03
+pf;rywalizacja;latin;aemŭlātĭo;False;2023-10-17 18:31:08
+pf;żywić;latin;ălo;True;2023-10-17 18:31:19
+pf;rywalizacja;latin;aemŭlātĭo;True;2023-10-17 18:31:26
+pf;przyzwyczajenie;latin;consuētūdo;True;2023-10-17 18:31:32
+pf;powtarzanie;latin;rĕpĕtītĭo;True;2023-10-17 18:31:36
+pf;wysyłać;latin;mitto;False;2023-10-17 18:31:45
+pf;talent;latin;ingĕnĭum;True;2023-10-17 18:31:51
+pf;przyjmować;latin;accĭpĭo;False;2023-10-17 18:32:05
+pf;wysyłać;latin;mitto;True;2023-10-17 18:32:17
+pf;uniwersytet;latin;ūnĭversĭtās;False;2023-10-17 18:32:28
+pf;przyjmować;latin;accĭpĭo;True;2023-10-17 18:32:45
+pf;uniwersytet;latin;ūnĭversĭtās;True;2023-10-17 18:32:51
+pf;gościna;latin;hospĭtĭum;True;2023-10-17 18:32:57
+pf;sztuka;latin;ars;True;2023-10-17 18:32:59
+pf;wymowny;latin;fācundus;True;2023-10-17 19:19:01
+pf;prześladowany;latin;vexatus;True;2023-10-17 19:19:06
+pf;powracać;latin;rĕmĭgro;True;2023-10-17 19:19:13
+pf;góra;latin;mons;True;2023-10-17 19:19:19
+pf;pomoc;latin;auxĭlĭum;True;2023-10-17 19:19:25
+pf;poseł;latin;lēgātus;True;2023-10-17 19:19:33
+pf;święty;latin;săcĕr;True;2023-10-17 19:19:38
+pf;potrzebować (+ abl);latin;ĕgĕo;False;2023-10-17 19:19:50
+pf;patrycjusz;latin;pătrĭcĭus;False;2023-10-17 19:20:01
+pf;arystokrata;latin;pătrĭcĭus;True;2023-10-17 19:20:13
+pf;plebejusz;latin;plēbēius;False;2023-10-17 19:20:18
+pf;zajmować;latin;occŭpo;True;2023-10-17 19:20:26
+pf;potrzebować (+ abl);latin;ĕgĕo;False;2023-10-17 19:20:33
+pf;patrycjusz;latin;pătrĭcĭus;True;2023-10-17 19:20:39
+pf;plebejusz;latin;plēbēius;True;2023-10-17 19:20:42
+pf;potrzebować (+ abl);latin;ĕgĕo;False;2023-10-17 19:20:55
+pf;opuszczać;latin;rĕlinquo;False;2023-10-17 19:21:02
+pf;potrzebować (+ abl);latin;ĕgĕo;True;2023-10-17 19:21:19
+pf;opuszczać;latin;rĕlinquo;False;2023-10-17 19:21:31
+pf;opuszczać;latin;rĕlinquo;True;2023-10-17 19:21:41

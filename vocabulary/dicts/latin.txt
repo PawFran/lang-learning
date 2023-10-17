@@ -1186,3 +1186,115 @@ nam [conj]
 nāvĭgĭum, navigii [noun] [n] [II]
 ()
 1. statek
+
+mitto, mittĕre, misi, missum [verb] [III]
+()
+1. wysyłać
+
+ars, artis [noun] [f] [III]
+()
+1. sztuka
+
+hospĭtĭum, hospitii [noun] [n] [II]
+()
+1. gościna
+
+accĭpĭo, accĭpĕre, accepi, acceptum [verb] [III]
+()
+1. przyjmować
+
+stŭdĭum, studii [noun] [n] [II]
+()
+1. nauka
+
+ūnĭversĭtās, universitatis [noun] [f] [III]
+()
+1. uniwersytet
+
+rĕpĕtītĭo, repetitionis [noun] [f] [III]
+()
+1. powtarzanie
+
+consuētūdo, consuetudinis [noun] [f] [III]
+()
+1. przyzwyczajenie
+
+ălo, ălĕre, alui, alitum [verb] [III]
+()
+1. żywić
+
+aemŭlātĭo, aemulationis [noun] [f] [III]
+()
+1. rywalizacja
+
+ingĕnĭum, ingenii [noun] [n] [II]
+()
+1. talent
+
+vĕnĭo, vĕnīre, veni, ventum [verb] [IV]
+()
+1. przychodzić
+
+plēbēius, plebei [noun] [m] [II]
+()
+1. plebejusz
+
+pătrĭcĭus, patricii [noun] [m] [II]
+()
+1. patrycjusz
+
+vexatus, vexată, vexatum [adj]
+()
+1. prześladowany
+
+rĕlinquo, rĕlinquĕre, reliqui, relictum [verb] [III]
+()
+1. opuszczać
+
+mons, montis [noun] [m] [III]
+()
+1. góra
+
+săcĕr, sacră, sacrum [adj]
+()
+1. święty
+
+occŭpo, occŭpāre, occupāvi, occupātum [verb] [I]
+()
+1. zajmować
+
+lēgātus, legati [noun] [m] [II]
+()
+1. poseł
+
+auxĭlĭum, auxilii [noun] [n] [II]
+()
+1. pomoc
+
+ĕgĕo, ĕgēre, eguĕrim, [verb] [II]
+()
+1. potrzebować (+ abl)
+
+rĕmĭgro, rĕmĭgrāre, remigrāvī, remigrātum [verb] [I]
+()
+1. powracać
+
+fācundus, facundă, facundum [adj]
+()
+1. wymowny
+
+ăd [prep]
+()
+1. do, w kierunku (+ acc)
+
+tandem [adv]
+()
+1. w końcu
+
+iniūrĭa, iniuriae [noun] [f] [I]
+()
+1. niesprawiedliwość
+
+plebs, plebis [noun] [f] [III]
+()
+1. plebs, lud
