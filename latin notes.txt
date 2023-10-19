@@ -79,6 +79,7 @@ dativus
 * dopełnienia dalszego
 * possessivus
 * (in)commodi
+* finalis
 * auctoris
 
 
@@ -132,6 +133,8 @@ altĕr - dodać
 ădŭlescens (adjective present participle II class)
 in animo habeo
 ab eo tempore
+invitatus (adjective perfect participle I class)
+versus
 
 po polsku: słuchać - kogoś. być posłusznym - komuś. po łacinie zawsze dativ ?
 

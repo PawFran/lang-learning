@@ -1,6 +1,6 @@
 roadmap for language learning
 
-pytanie o rodzaj rzeczownika (nie jest to oczywiste dla trzeciej deklinacji)
+pytanie o rodzaj rzeczownika w III deklinacji
 
 złe parsowanie (cīvis, civis [noun] [m] [feminine]
 

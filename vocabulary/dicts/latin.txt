@@ -1298,3 +1298,121 @@ iniūrĭa, iniuriae [noun] [f] [I]
 plebs, plebis [noun] [f] [III]
 ()
 1. plebs, lud
+
+thĕātrum, theatri [noun] [n] [II]
+()
+1. teatr
+
+condītŏr, conditoris [noun] [m] [III]
+()
+1. założyciel
+
+praesĭdĭum, praesidii [noun] [n] [II]
+()
+1. ochrona
+
+lĕo, leonis [noun] [m] [III]
+()
+1. lew
+
+vulpēcŭla, vulpeculae [noun] [f] [I]
+()
+1. mały lis
+
+spēlunca, speluncae [noun] [f] [I]
+()
+1. jaskinia
+
+intro, intrāre, intrāvī, intrātum [verb] [I]
+()
+1. wejść
+
+ănĭmăl, animalis [noun] [n] [III]
+()
+1. zwierzę
+
+astŭtus, astută, astutum [adj]
+()
+1. sprytny
+
+vestīgĭum, vestigii [noun] [n] [II]
+()
+1. ślad
+
+introrsus [adv]
+()
+1. do wewnątrz, do środka
+
+fŏrās [adv]
+()
+1. na zewnątrz
+
+auris, auris [noun] [f] [III]
+()
+1. ucho
+
+clausus, clausă, clausum [adj]
+()
+1. zamknięty
+
+castīgātĭo, castigationis [noun] [f] [III]
+()
+1. kara
+
+contŭmēlĭa, contumeliae [noun] [f] [I]
+()
+1. zniewaga
+
+văco, văcāre, vacāvī, vacātum [verb] [I]
+()
+1. być wolnym od czegoś (+ abl)
+
+sērus, seră, serum [adj]
+()
+1. późny
+
+impĕrĭum, imperii [noun] [n] [II]
+()
+1. państwo, imperium
+
+rex, regis [noun] [m] [III]
+()
+1. król
+
+fŏrum, fori [noun] [n] [II]
+()
+1. rynek, forum
+
+magnĭfĭcus, magnifică, magnificum [adj]
+()
+1. wspaniały
+
+ornātus, ornata, um [adj]
+()
+1. ozdobiony
+
+situs, sită, situm [adj]
+()
+1. położony
+
+rĕlĭquus, reliquă, reliquum [adj]
+()
+1. pozostały
+
+sŭpĕro, sŭpĕrāre, superāvī, superātum [verb] [I]
+()
+1. przewyższać
+
+Īlĭăs, Iliadis [noun] [f] [III]
+()
+1. Iliada
+2. Kobieta trojańska
+
+certāmĕn, certaminis [noun] [n] [III]
+()
+1. bitwa
+
+errŏr, erroris [noun] [m] [III]
+()
+1. wędrówka
+2. błąd
