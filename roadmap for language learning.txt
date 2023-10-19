@@ -1,5 +1,7 @@
 roadmap for language learning
 
+przykład powinien być do tłumaczenia nie do słowa
+
 pytanie o rodzaj rzeczownika w III deklinacji
 
 złe parsowanie (cīvis, civis [noun] [m] [feminine]

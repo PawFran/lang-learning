@@ -1859,3 +1859,68 @@ pf;bitwa;latin;certāmĕn;True;2023-10-19 22:33:24
 pf;ozdobiony;latin;ornātus;True;2023-10-19 22:33:28
 pf;kara;latin;castīgātĭo;True;2023-10-19 22:33:34
 pf;przewyższać;latin;sŭpĕro;True;2023-10-19 22:33:36
+pf;sprytny;latin;astŭtus;False;2023-10-19 22:34:10
+pf;ślad;latin;vestīgĭum;False;2023-10-19 22:34:17
+pf;ślad;latin;vestīgĭum;False;2023-10-19 22:34:19
+pf;lew;latin;lĕo;True;2023-10-19 22:34:22
+pf;król;latin;rex;True;2023-10-19 22:34:24
+pf;sprytny;latin;astŭtus;True;2023-10-19 22:34:30
+pf;ucho;latin;auris;False;2023-10-19 22:34:33
+pf;pozostały;latin;rĕlĭquus;False;2023-10-19 22:34:38
+pf;ślad;latin;vestīgĭum;False;2023-10-19 22:34:41
+pf;mały lis;latin;vulpēcŭla;True;2023-10-19 22:34:48
+pf;do wewnątrz, do środka;latin;introrsus;False;2023-10-19 22:34:55
+pf;jaskinia;latin;spēlunca;True;2023-10-19 22:35:04
+pf;być wolnym od czegoś (+ abl);latin;văco;True;2023-10-19 22:35:08
+pf;położony;latin;situs;True;2023-10-19 22:35:11
+pf;do wewnątrz, do środka;latin;introrsus;True;2023-10-19 22:35:14
+pf;zniewaga;latin;contŭmēlĭa;False;2023-10-19 22:35:18
+pf;rynek, forum;latin;fŏrum;False;2023-10-19 22:35:22
+pf;założyciel;latin;condītŏr;True;2023-10-19 22:35:29
+pf;wspaniały;latin;magnĭfĭcus;True;2023-10-19 22:35:33
+pf;zamknięty;latin;clausus;False;2023-10-19 22:35:35
+pf;zniewaga;latin;contŭmēlĭa;True;2023-10-19 22:35:42
+pf;późny;latin;sērus;True;2023-10-19 22:35:45
+pf;wędrówka;latin;errŏr;False;2023-10-19 22:35:49
+pf;ucho;latin;auris;True;2023-10-19 22:35:56
+pf;błąd;latin;errŏr;True;2023-10-19 22:36:02
+pf;pozostały;latin;rĕlĭquus;True;2023-10-19 22:36:05
+pf;ślad;latin;vestīgĭum;False;2023-10-19 22:36:08
+pf;ozdobiony;latin;ornātus;True;2023-10-19 22:36:13
+pf;państwo, imperium;latin;impĕrĭum;False;2023-10-19 22:36:15
+pf;Iliada;latin;Īlĭăs;True;2023-10-19 22:36:20
+pf;teatr;latin;thĕātrum;False;2023-10-19 22:36:26
+pf;ochrona;latin;praesĭdĭum;False;2023-10-19 22:36:30
+pf;wędrówka;latin;errŏr;True;2023-10-19 22:36:35
+pf;przewyższać;latin;sŭpĕro;True;2023-10-19 22:36:39
+pf;zamknięty;latin;clausus;True;2023-10-19 22:36:47
+pf;ślad;latin;vestīgĭum;False;2023-10-19 22:36:50
+pf;teatr;latin;thĕātrum;True;2023-10-19 22:37:01
+pf;ślad;latin;vestīgĭum;True;2023-10-19 22:37:06
+pf;państwo, imperium;latin;impĕrĭum;True;2023-10-19 22:37:10
+pf;rynek, forum;latin;fŏrum;True;2023-10-19 22:37:14
+pf;na zewnątrz;latin;fŏrās;False;2023-10-19 22:37:16
+pf;zwierzę;latin;ănĭmăl;True;2023-10-19 22:37:22
+pf;kara;latin;castīgātĭo;True;2023-10-19 22:37:28
+pf;na zewnątrz;latin;fŏrās;True;2023-10-19 22:37:31
+pf;wejść;latin;intro;True;2023-10-19 22:37:36
+pf;ochrona;latin;praesĭdĭum;True;2023-10-19 22:37:41
+pf;bitwa;latin;certāmĕn;True;2023-10-19 22:37:45
+pf;więc;latin;ĭtăquĕ;False;2023-10-19 22:44:21
+pf;pilnie, skrupulatnie;latin;dīlĭgentĕr;False;2023-10-19 22:44:25
+pf;przesławny;latin;praeclārus;False;2023-10-19 22:44:32
+pf;obowiązek;latin;offĭcĭum;False;2023-10-19 22:44:36
+pf;srebrny;latin;argentĕus;False;2023-10-19 22:44:39
+pf;miejsce;latin;lŏcus;True;2023-10-19 22:44:50
+pf;przez (+ abl);latin;a;True;2023-10-19 22:44:56
+pf;zabić;latin;interfĭcĭo;False;2023-10-19 22:45:00
+pf;mówca;latin;ōrātŏr;True;2023-10-19 22:45:10
+pf;więc, w wyniku;latin;ergō;False;2023-10-19 22:45:17
+pf;natychmiast;latin;extemplō;False;2023-10-19 22:45:24
+pf;doświadczony;latin;perītus;True;2023-10-19 22:45:29
+pf;nieść, nosić;latin;gĕro;False;2023-10-19 22:45:32
+pf;morze;latin;mărĕ;True;2023-10-19 22:45:37
+pf;mały;latin;parvus;False;2023-10-19 22:45:40
+pf;obowiązek;latin;offĭcĭum;False;2023-10-19 22:45:47
+pf;zmniejszać;latin;mĭnŭo;True;2023-10-19 22:45:58
+pf;wzdłuż (+ acc);latin;per;False;2023-10-19 22:46:01
