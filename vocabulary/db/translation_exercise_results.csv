@@ -1924,3 +1924,82 @@ pf;mały;latin;parvus;False;2023-10-19 22:45:40
 pf;obowiązek;latin;offĭcĭum;False;2023-10-19 22:45:47
 pf;zmniejszać;latin;mĭnŭo;True;2023-10-19 22:45:58
 pf;wzdłuż (+ acc);latin;per;False;2023-10-19 22:46:01
+pf;sprzyjać;latin;făvĕo;True;2023-10-19 22:47:21
+pf;rynek, forum;latin;fŏrum;False;2023-10-19 22:47:23
+pf;niesprawiedliwość;latin;iniūrĭa;True;2023-10-19 22:47:33
+pf;wkraczać, najeżdżać;latin;invādo;False;2023-10-19 22:47:45
+pf;także;latin;etiam;False;2023-10-19 22:47:53
+pf;wysoki;latin;altus;True;2023-10-19 22:48:48
+pf;wtedy, następnie;latin;tum;True;2023-10-19 22:48:50
+pf;rywalizacja;latin;aemŭlātĭo;True;2023-10-19 22:48:57
+pf;oszczędność;latin;parsimonia;False;2023-10-19 22:49:01
+pf;nauka;latin;stŭdĭum;False;2023-10-19 22:49:07
+pf;dzieło;latin;ŏpŭs;True;2023-10-19 22:49:13
+pf;drogi;latin;cārus;True;2023-10-19 22:49:15
+pf;sprytny;latin;astŭtus;True;2023-10-19 22:49:21
+pf;obwarowany;latin;mūnītus;True;2023-10-19 22:49:26
+pf;biec, wbiegać;latin;curro;False;2023-10-19 22:49:28
+pf;wykonywać, egzekwować;latin;exĭgo;False;2023-10-19 22:49:42
+pf;piękny;latin;pulcher;True;2023-10-19 22:49:54
+pf;rzemieślnik;latin;faber;True;2023-10-19 22:50:02
+pf;ozdabiać;latin;orno;True;2023-10-19 22:50:06
+pf;sprawiedliwy, przyzwoity;latin;prŏbus;True;2023-10-19 22:50:12
+pf;ćwiczyć;latin;exercĕo;True;2023-10-19 22:50:21
+pf;jeśli nie;latin;nĭsi;True;2023-10-19 22:50:24
+pf;podatek;latin;vectīgăl;True;2023-10-19 22:50:31
+pf;rów;latin;fossa;True;2023-10-19 22:50:36
+pf;budować;latin;aedefico;False;2023-10-19 22:50:44
+pf;pieśń;latin;carmĕn;True;2023-10-19 22:50:53
+pf;sprzedawać;latin;vendo;True;2023-10-19 22:51:08
+pf;nie wiedzieć, nie znać;latin;ignōro;True;2023-10-19 22:51:14
+pf;teatr;latin;thĕātrum;True;2023-10-19 22:51:21
+pf;przeciwny;latin;contrārĭus;False;2023-10-19 22:51:24
+pf;wzdłuż (+ acc);latin;per;True;2023-10-19 22:51:28
+pf;wróżba;latin;ōmen;False;2023-10-19 22:51:30
+pf;dyskusja;latin;dispŭtātĭo;True;2023-10-19 22:51:36
+pf;ślad;latin;vestīgĭum;False;2023-10-19 22:51:39
+pf;jeniec;latin;captīvus;True;2023-10-19 22:51:45
+pf;dobro;latin;bŏnum;False;2023-10-19 22:51:48
+pf;granica, koniec;latin;fīnis;True;2023-10-19 22:51:55
+pf;późny;latin;sērus;True;2023-10-19 22:51:59
+pf;nauka;latin;stŭdĭum;True;2023-10-19 22:52:03
+pf;imię;latin;praenōmĕn;False;2023-10-19 22:52:06
+pf;oddawać się czemuś, zajmować się czymś (+ dat);latin;studeo;False;2023-10-19 22:52:19
+pf;nieprzyjaciel;latin;ĭnĭmīcus;False;2023-10-19 22:52:28
+pf;dlaczego, z jakiego powodu?;latin;cūr;False;2023-10-19 22:52:33
+pf;uciekać;latin;fŭgĭo;False;2023-10-19 22:52:42
+pf;budować;latin;struō;False;2023-10-19 22:52:58
+pf;walczyć;latin;pugno;True;2023-10-19 22:53:07
+pf;także;latin;etiam;False;2023-10-19 22:53:14
+pf;nieść, nosić;latin;gĕro;False;2023-10-19 22:53:27
+pf;mały lis;latin;vulpēcŭla;False;2023-10-19 22:53:33
+pf;pamięć, wspomnienie;latin;mĕmŏrĭa;True;2023-10-19 22:53:38
+pf;najwięcej;latin;plūrĭmum;True;2023-10-19 22:53:43
+pf;zajmować;latin;căpĭo;False;2023-10-19 22:53:45
+pf;państwo, imperium;latin;impĕrĭum;False;2023-10-19 22:53:49
+pf;który, kto;latin;quī;False;2023-10-19 22:53:50
+pf;spiżowy;latin;ăënĕus;False;2023-10-19 22:53:57
+pf;bezpieczny;latin;tūtus;True;2023-10-19 22:54:01
+pf;nazywać;latin;appello;False;2023-10-19 22:54:04
+pf;przez (+ abl);latin;a;False;2023-10-19 22:54:07
+pf;uczony;latin;doctus;True;2023-10-19 22:54:19
+pf;kwatera główna;latin;praetōrĭum;False;2023-10-19 22:54:22
+pf;pomoc;latin;auxĭlĭum;True;2023-10-19 22:54:28
+pf;kwatera główna;latin;praetōrĭum;True;2023-10-19 22:54:33
+pf;zmieniać;latin;mūto;True;2023-10-19 22:54:36
+pf;budynek;latin;aedeficium;True;2023-10-19 22:54:44
+pf;nazywać;latin;appello;False;2023-10-19 22:54:48
+pf;zaś;latin;autem;False;2023-10-19 22:54:52
+pf;składać ofiarę;latin;sacrifico;False;2023-10-19 22:54:56
+pf;witaj;latin;salvē;True;2023-10-19 22:55:02
+pf;spostrzegać;latin;cerno;False;2023-10-19 22:55:07
+pf;uczyć się, studiować (+ dat);latin;studeo;False;2023-10-19 22:55:19
+pf;sprawca;latin;auctor;False;2023-10-19 22:55:22
+pf;nagroda;latin;praemĭum;False;2023-10-19 22:55:29
+pf;a wtedy, na to;latin;ăt;False;2023-10-19 22:55:35
+pf;unikać;latin;vītō;True;2023-10-19 22:55:39
+pf;pozdrawiać;latin;sălūto;False;2023-10-19 22:55:43
+pf;przez (+ abl);latin;a;True;2023-10-19 22:55:46
+pf;czcić;latin;colo;False;2023-10-19 22:55:56
+pf;trzymać;latin;tĕnĕo;False;2023-10-19 22:56:07
+pf;łatwo;latin;făcĭlĕ;True;2023-10-19 22:56:12
