@@ -50,6 +50,10 @@ def test_declension_type_from_dict():
 
     assert DeclensionType.from_string('third vowel') is DeclensionType.III_vowel
 
+    assert DeclensionType.from_string('relative') is DeclensionType.RELATIVE
+
+    assert DeclensionType.from_string('relative') is not DeclensionType.III_vowel
+
 
 def test_declension_type_from_dict_invalid():
     with pytest.raises(Exception):

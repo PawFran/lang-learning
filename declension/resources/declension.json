@@ -1,6 +1,6 @@
 {
   "ancilla": {
-    "first": {  
+    "first": {
       "femininum": {
         "singularis": {
           "nominativus": "ancilla",
@@ -259,6 +259,66 @@
           "accusativus": "res",
           "ablativus": "rebus",
           "vocativus": "res"
+        }
+      }
+    }
+  },
+  "qui": {
+    "relative": {
+      "masculinum": {
+        "singularis": {
+          "nominativus": "qui",
+          "genetivus": "cuius",
+          "dativus": "cui",
+          "accusativus": "quem",
+          "ablativus": "quo"
+        },
+        "pluralis": {
+          "nominativus": "qui",
+          "genetivus": "quorum",
+          "dativus": "quibus",
+          "accusativus": "quos",
+          "ablativus": "quibus"
+        }
+      }
+    }
+  },
+  "quae": {
+    "relative": {
+      "femininum": {
+        "singularis": {
+          "nominativus": "quae",
+          "genetivus": "cuius",
+          "dativus": "cui",
+          "accusativus": "quam",
+          "ablativus": "qua"
+        },
+        "pluralis": {
+          "nominativus": "quae",
+          "genetivus": "quarum",
+          "dativus": "quibus",
+          "accusativus": "quas",
+          "ablativus": "quibus"
+        }
+      }
+    }
+  },
+  "quod": {
+    "relative": {
+      "neutrum": {
+        "singularis": {
+          "nominativus": "quod",
+          "genetivus": "cuius",
+          "dativus": "cui",
+          "accusativus": "quod",
+          "ablativus": "quo"
+        },
+        "pluralis": {
+          "nominativus": "quae",
+          "genetivus": "quorum",
+          "dativus": "quibus",
+          "accusativus": "quae",
+          "ablativus": "quibus"
         }
       }
     }

@@ -12,15 +12,15 @@ from declension.lib.utils import *
 
 if __name__ == '__main__':
     rng = default_rng()
-    dict_file_path = os.path.join("declension", "resources", "noun.json")
-
     args = parse_args()
-    print(f'declensions to filter: {args.declensions}')
+
+    dict_file_path = os.path.join("declension", "resources", "declension.json")
 
     declension_all = Declensions.from_file_path(dict_file_path)
 
     declensions_to_include = [*DeclensionType]
     if args.declensions is not None:
+        print(f'declensions to filter: {args.declensions}')
         declensions_to_include = [DeclensionType.from_string(s) for s in args.declensions]
 
     print()
@@ -36,7 +36,8 @@ if __name__ == '__main__':
     should_continue = 'y'
     while should_continue.lower() != 'n':
         backup_dict = copy.deepcopy(current_dict)  # in case remove is on and answer is wrong
-        declension_test: DeclensionTest = random_declension_entry(current_dict, rng, args.remove) # here current_dict may be modified
+        declension_test: DeclensionTest = random_declension_entry(current_dict, rng,
+                                                                  args.remove)  # here current_dict may be modified
         if declension_test is None:
             should_continue = 'n'  # means all entries where already removed
         else:

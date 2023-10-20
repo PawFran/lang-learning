@@ -13,6 +13,7 @@ class DeclensionType(Enum):
     III_mixed = 3.3
     IV = 4
     V = 5
+    RELATIVE = 6
 
     @staticmethod
     def from_string(s: str):
@@ -33,6 +34,8 @@ class DeclensionType(Enum):
                 return DeclensionType.IV
             case 'fifth' | 'v' | 'five' | '5':
                 return DeclensionType.V
+            case 'relative' | 'rel':
+                return DeclensionType.RELATIVE
             case _:
                 raise Exception(f'cannot parse string {s} to DeclensionType')
 
