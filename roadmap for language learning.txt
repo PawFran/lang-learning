@@ -2,6 +2,8 @@ roadmap for language learning
 
 translation exercise - czasem dwa tlumaczenia sa dopuszczalne. pytac wtedy o oba (albo wiecej)
 
+stworzyć model pokazujący zapamiętywanie na podstawie tego, co jest w results.csv
+
 przykład powinien być do tłumaczenia nie do słowa
 
 pytanie o rodzaj rzeczownika w III deklinacji
@@ -27,8 +29,6 @@ w przypadku przymiotnikow 1/2 deklinacji akceptowac skrotowa odpowiedz w transla
 rzeczownik/czasownik po lacinie i wypisanie wszystkich mozliwych form, w jakim moze wystepować (deklinacja/koniugacja)
 
 dowolna forma koniugacji / deklinacji - powiedziec jaka to forma
-
-possum
 
 wziecie tylko n slow z najnizszym ratio (oraz nowych - N/A jako pierwsze w sortowaniu)
 
