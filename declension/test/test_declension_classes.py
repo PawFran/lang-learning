@@ -2,7 +2,7 @@ import os
 
 import pytest
 
-from declension.lib.noun_classes import *
+from declension.lib.declension_classes import *
 
 path_to_declension_file = os.path.join('declension', 'resources', 'declension.json')
 

@@ -54,11 +54,11 @@
 
 ### when user is set smart sampling is used (more chances for new words, words which were guessed incorrectly during last 3 trials, words that were asked a long time ago)
 
-# declension
+# noun declension
 
 ## how to use it
 
-### python declension_exercise.py -d declensions -r (optional)
+### python noun_declension_exercise.py -d declensions -r (optional)
 
 ### where declensions are list of declensions separated by space:
 
