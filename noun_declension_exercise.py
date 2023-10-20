@@ -12,7 +12,7 @@ from declension.lib.utils import *
 
 if __name__ == '__main__':
     rng = default_rng()
-    dict_file_path = os.path.join("declension", "resources", "declension.json")
+    dict_file_path = os.path.join("declension", "resources", "noun.json")
 
     args = parse_args()
     print(f'declensions to filter: {args.declensions}')

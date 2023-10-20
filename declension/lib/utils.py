@@ -1,7 +1,7 @@
 from numpy.random._generator import Generator
 
-from declension.lib.noun_classes import *
-from declension.lib.noun_classes import SingleDeclensionPattern
+from declension.lib.declension_classes import *
+from declension.lib.declension_classes import SingleDeclensionPattern
 from common.lib.utils import flatten
 
 
