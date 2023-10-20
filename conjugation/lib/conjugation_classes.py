@@ -197,6 +197,6 @@ class ConjugationTable:
 
     @staticmethod
     def from_file_path(json_file_path: str):
-        with open(json_file_path) as f:
+        with open(json_file_path, encoding="utf8") as f:
             d = json.load(f)
             return ConjugationTable.from_dict(d)
