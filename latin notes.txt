@@ -49,6 +49,10 @@ III mieszana
 	sing jak spółgłoskowa (abl -e)
 	pl jak samogłoskowa (gen -ium)
 
+
+przymiotniki:
+III deklinacja - wzór samogłoskowy (jak vectigal)
+
 części zdania
 * podmiot
 * orzeczenie

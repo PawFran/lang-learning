@@ -1397,7 +1397,7 @@ situs, sită, situm [adj]
 
 rĕlĭquus, reliquă, reliquum [adj]
 ()
-1. pozostały
+1. pozostały, inny
 
 sŭpĕro, sŭpĕrāre, superāvī, superātum [verb] [I]
 ()
@@ -1435,3 +1435,11 @@ omnis, omnis, omne [adj]
 vĭa, viae [noun] [f] [I]
 ()
 1. droga
+
+templum, templi [noun] [n] [II]
+()
+1. świątynia
+
+aedificatus, aedificata, aedificatum [adj]
+()
+1. zbudowany
