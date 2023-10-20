@@ -54,15 +54,17 @@
 
 ### when user is set smart sampling is used (more chances for new words, words which were guessed incorrectly during last 3 trials, words that were asked a long time ago)
 
-# noun declension
+# declension
 
 ## how to use it
 
-### python noun_declension_exercise.py -d declensions -r (optional)
+### python declension_exercise.py -d declensions -r (optional)
 
 ### where declensions are list of declensions separated by space:
 
-### all possibilities: 1, 2, 3, "3 consonant", "3 vowel", "3 mixed", 4, 5 (also words instead of numbers are possible and _ or - instead of space)
+### all possibilities: 1, 2, 3, "3 consonant", "3 vowel", "3 mixed", 4, 5, relative (also words instead of numbers are possible and _ or - instead of space)
+
+### where relative is for relative pronouns
 
 # conjugation
 
