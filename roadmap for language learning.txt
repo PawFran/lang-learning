@@ -1,5 +1,7 @@
 roadmap for language learning
 
+translation_exercise - dla pierwszej i drugiej deklinacji dopuscic koncowki zamiast pelnych form
+
 translation exercise - czasem dwa tlumaczenia sa dopuszczalne. pytac wtedy o oba (albo wiecej)
 
 stworzyć model pokazujący zapamiętywanie na podstawie tego, co jest w results.csv
