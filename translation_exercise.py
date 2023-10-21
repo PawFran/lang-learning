@@ -1,5 +1,6 @@
 from vocabulary.lib.parsing_dict import *
 from vocabulary.lib.utils import compare_answer_with_full_head_raw
+from common.lib.utils import DEFAULT_USER_NAME
 
 # todo option to take only a number or percentage of the words ranked highest (in terms of probability)
 
@@ -11,8 +12,7 @@ if __name__ == '__main__':
         print(f'no language chosen. {args.language} will be used as default')
 
     if args.user_name is None:
-        user = input('you may specify user for tracking progress (press enter to skip): ')
-        args.user_name = user if user != '' else None
+        args.user_name = DEFAULT_USER_NAME
 
     print(f'logged as {args.user_name}')
 

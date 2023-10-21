@@ -1,3 +1,6 @@
+DEFAULT_USER_NAME = 'default_user'
+
+
 # accent agnostic
 def weak_equals(a, b) -> bool:
     def replace_special(x):
