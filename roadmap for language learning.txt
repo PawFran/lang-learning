@@ -1,5 +1,22 @@
 roadmap for language learning
 
+baza danych (csv) do per and supine exercise
+
+translation exercise: w przypadku czasownikow zaznaczac jakos co zostalo zle podane (np supinum)
+
+tłumaczenie łacińskich słów na polskie
+
+implementacja reguł filtrowania:
+    np tylko słowa, które w ciągu ostatnich X prób były podane błędnie lub miały mniej niż X prób
+
+bazy danych rowniez do innych cwiczen (declension, conjugation etc.)
+
+print ranking for smart sampling
+
+podczas help w skryptach wypisywać wszystkie możliwe opcje (enum)
+
+po każdym skrypcie wypisywać błędy
+
 translation_exercise - dla pierwszej i drugiej deklinacji dopuscic koncowki zamiast pelnych form
 
 translation exercise - czasem dwa tlumaczenia sa dopuszczalne. pytac wtedy o oba (albo wiecej)
