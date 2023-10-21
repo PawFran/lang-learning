@@ -45,7 +45,7 @@ if __name__ == '__main__':
         print(word_pl)
 
         try:
-            answer = input('translation: ')
+            answer = input('translation: ').strip()
 
             is_correct = compare_answer_with_full_head_raw(entry.head.head_raw, answer)
 
@@ -63,7 +63,7 @@ if __name__ == '__main__':
             if args.user_name is not None:
                 db_handler.update_db(user=args.user_name, word_pl=word_pl,
                                      lang=args.language, translation=word_original,
-                                     was_correct=is_correct)
+                                     was_correct=is_correct, user_answer=answer)
 
             print('')
 

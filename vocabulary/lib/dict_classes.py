@@ -341,38 +341,38 @@ class Dictionary:
                 i += 1
 
         return pd.DataFrame.from_dict(dict_words_placeholder) \
-            .transpose().rename(columns={0: 'translation', 1: 'word_pl'})
+            .transpose().rename(columns={0: 'correct_translation', 1: 'word_pl'})
 
     def words_to_be_asked(self, db: pd.DataFrame, n_last_times: int) -> pd.DataFrame:
         dict_words = self.dict_words_df()
 
-        db_merged_with_dict = db.merge(dict_words, left_on=['translation', 'word_pl'],
-                                       right_on=['translation', 'word_pl'], how='right') \
+        db_merged_with_dict = db.merge(dict_words, left_on=['correct_translation', 'word_pl'],
+                                       right_on=['correct_translation', 'word_pl'], how='right') \
             .sort_values(by='time', ascending=True, na_position='first', inplace=False)
 
-        last_time_per_word = db_merged_with_dict.groupby(['translation', 'word_pl'])[
+        last_time_per_word = db_merged_with_dict.groupby(['correct_translation', 'word_pl'])[
             'time'].last().to_frame().reset_index().rename(
             columns={'time': 'last_time'})
 
-        df_merged_last_time = db_merged_with_dict.merge(last_time_per_word, left_on=['translation', 'word_pl'],
-                                                        right_on=['translation', 'word_pl'], how='left') \
-            .drop(['time', 'correct'], axis=1, inplace=False) \
+        df_merged_last_time = db_merged_with_dict.merge(last_time_per_word, left_on=['correct_translation', 'word_pl'],
+                                                        right_on=['correct_translation', 'word_pl'], how='left') \
+            .drop(['time', 'is_correct'], axis=1, inplace=False) \
             .drop_duplicates()
 
-        last_n_times = db_merged_with_dict.groupby(['translation', 'word_pl'])[['time', 'correct']].apply(
+        last_n_times = db_merged_with_dict.groupby(['correct_translation', 'word_pl'])[['time', 'is_correct']].apply(
             lambda x: x.tail(n_last_times)).reset_index().drop('level_2', axis=1)
 
         correct_ratio_col_name = f'correct_ratio_last_{n_last_times}_times'
 
-        correct_ratio_last_n_times = last_n_times.groupby(['word_pl', 'translation'])[
-            'correct'].mean().to_frame().reset_index() \
-            .rename(columns={'correct': correct_ratio_col_name})
+        correct_ratio_last_n_times = last_n_times.groupby(['word_pl', 'correct_translation'])[
+            'is_correct'].mean().to_frame().reset_index() \
+            .rename(columns={'is_correct': correct_ratio_col_name})
 
-        df_with_statistics = db_merged_with_dict.merge(correct_ratio_last_n_times, left_on=['translation', 'word_pl'],
-                                                       right_on=['translation', 'word_pl'], how='right') \
-            .drop(['correct', 'time'], axis=1) \
+        df_with_statistics = db_merged_with_dict.merge(correct_ratio_last_n_times, left_on=['correct_translation', 'word_pl'],
+                                                       right_on=['correct_translation', 'word_pl'], how='right') \
+            .drop(['is_correct', 'time'], axis=1) \
             .drop_duplicates() \
-            .merge(df_merged_last_time, left_on=['translation', 'word_pl'], right_on=['translation', 'word_pl']) \
+            .merge(df_merged_last_time, left_on=['correct_translation', 'word_pl'], right_on=['correct_translation', 'word_pl']) \
             .sort_values('last_time', na_position='first') \
             .reset_index().drop('index', axis=1)
 
@@ -433,7 +433,7 @@ class Dictionary:
 
         # find entry by combination of word_pl and translation
 
-        words_with_translations = list(zip(distribution.word_pl.values, distribution.translation.values))
+        words_with_translations = list(zip(distribution.word_pl.values, distribution.correct_translation.values))
         probabilities = distribution.probabilities.values
 
         if np.sum(probabilities) < 0.999999:

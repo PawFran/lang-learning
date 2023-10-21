@@ -30,10 +30,11 @@ def test_get():
 
     assert len(df.index) == 4
     assert df.user[0] == 'pf'
-    assert df.word_pl[0] == 'winnica'
     assert df.lang[0] == 'latin'
-    assert df.translation[0] == 'vinea'
-    assert df.correct[0]
+    assert df.word_pl[0] == 'winnica'
+    assert df.correct_translation[0] == 'vinea'
+    assert df.user_answer[0] == 'vinea'
+    assert df.is_correct[0]
     assert df.time[0] == dt.strptime('2023-04-20 12:13:00', datetime_format)
 
 
@@ -42,11 +43,12 @@ def test_add_record():
 
     new_user = 'test_user'
     new_word = 'rarus'
-    translation = 'rzadki, mało kto'
+    correct_translation = 'rzadki, mało kto'
     lang = 'latin'
     was_correct = False
+    user_answer = 'random'
 
-    db_handler.update_db(new_user, new_word, lang, translation, was_correct=was_correct)
+    db_handler.update_db(new_user, new_word, lang, correct_translation, was_correct, user_answer)
 
     df = db_handler.get()
 
@@ -55,10 +57,11 @@ def test_add_record():
 
     assert len(df.index) == 5
     assert df.user[4] == new_user
-    assert df.word_pl[4] == new_word
     assert df.lang[4] == lang
-    assert df.translation[4] == translation
-    assert df.correct[4] == was_correct
+    assert df.word_pl[4] == new_word
+    assert df.correct_translation[4] == correct_translation
+    assert df.user_answer[4] == user_answer
+    assert df.is_correct[4] == was_correct
     assert (dt.now() - df.time[4]).seconds < 30
 
 
