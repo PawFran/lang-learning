@@ -41,7 +41,7 @@ if __name__ == '__main__':
             results = soup.find(id="myth")
             if results is None:
                 # should never happen, but still..
-                raise Exception(f'''coldn't find translation for neither {input_word} nor {new_word}''')
+                raise Exception(f'''couldn't find translation for neither {input_word} nor {new_word}''')
 
         word = results.find_all("span", class_="lemma")[0].text
         grammatical_info = results.find_all("span", class_="grammatica")[0].text
