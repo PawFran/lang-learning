@@ -33,24 +33,28 @@ if __name__ == '__main__':
 
     current_dict = declensions_filtered
 
-    should_continue = 'y'
-    while should_continue.lower() != 'n':
+    should_continue = True
+    while should_continue:
         backup_dict = copy.deepcopy(current_dict)  # in case remove is on and answer is wrong
         pop = False if args.keep else True
         declension_test: DeclensionTest = random_declension_entry(current_dict, rng,
                                                                   pop)  # here current_dict may be modified
         if declension_test is None:
-            should_continue = 'n'  # means all entries where already removed
+            should_continue = False  # means all entries where already removed
         else:
             declension_prompt: DeclensionPrompt = declension_test.prompt
             print(declension_prompt.base_word, declension_prompt.case, declension_prompt.number)
 
-            user_answer = input()
-            if weak_equals(user_answer, declension_test.answer):
-                print('correct', end='\n\n')
-            else:
-                print(f'wrong. proper answer is {declension_test.answer}', end='\n\n')
-                current_dict = backup_dict
+            try:
+                user_answer = input()
+                if weak_equals(user_answer, declension_test.answer):
+                    print('correct', end='\n\n')
+                else:
+                    print(f'wrong. proper answer is {declension_test.answer}', end='\n\n')
+                    current_dict = backup_dict
+            except KeyboardInterrupt:
+                should_continue = False
+                print('')
 
         if not args.keep:
             current_length = current_dict.length()

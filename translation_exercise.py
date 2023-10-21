@@ -27,8 +27,8 @@ if __name__ == '__main__':
 
     print(f'number of translations in dictionary: {dictionary.translations_nr()}', end='\n\n')
 
-    user_input = 'y'
-    while user_input.lower() != 'n' and dictionary is not None and dictionary.translations_nr() > 0:
+    should_continue = True
+    while should_continue and dictionary is not None and dictionary.translations_nr() > 0:
         if args.user_name is not None:
             random_word_with_translation = dictionary.smart_random_dict_entry_with_translation(db_handler,
                                                                                                user=args.user_name,
@@ -44,28 +44,32 @@ if __name__ == '__main__':
 
         print(word_pl)
 
-        answer = input('translation: ')
+        try:
+            answer = input('translation: ')
 
-        is_correct = compare_answer_with_full_head_raw(entry.head.head_raw, answer)
+            is_correct = compare_answer_with_full_head_raw(entry.head.head_raw, answer)
 
-        if is_correct:
-            print(f'correct ({entry.head.head_raw})')
-            if not args.keep:
-                dictionary.remove_single_translation(entry, word_pl)
-                if dictionary.translations_nr() % 10 == 0:
-                    print(f'{dictionary.translations_nr()} translations left in dict')
-        else:
-            print(f'wrong. correct answer is "{entry.head.head_raw}" ({entry.example})')
-            # todo if another translation from dict was given print it's meaning - not that easy. it may be in original dict but not after some removals
-            # actually some translations may unequivocal (ex. także -> etiam, quoque)
+            if is_correct:
+                print(f'correct ({entry.head.head_raw})')
+                if not args.keep:
+                    dictionary.remove_single_translation(entry, word_pl)
+                    if dictionary.translations_nr() % 10 == 0:
+                        print(f'{dictionary.translations_nr()} translations left in dict')
+            else:
+                print(f'wrong. correct answer is "{entry.head.head_raw}" ({entry.example})')
+                # todo if another translation from dict was given print it's meaning - not that easy. it may be in original dict but not after some removals
+                # actually some translations may unequivocal (ex. także -> etiam, quoque)
 
-        if args.user_name is not None:
-            db_handler.update_db(user=args.user_name, word_pl=word_pl,
-                                 lang=args.language, translation=word_original,
-                                 was_correct=is_correct)
+            if args.user_name is not None:
+                db_handler.update_db(user=args.user_name, word_pl=word_pl,
+                                     lang=args.language, translation=word_original,
+                                     was_correct=is_correct)
 
-        print('')
+            print('')
 
-        # todo ask about all possible forms and translations
+            # todo ask about all possible forms and translations
+        except KeyboardInterrupt:
+            should_continue = False
+            print('\n')
 
     print('terminating..')

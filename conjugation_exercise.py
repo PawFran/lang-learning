@@ -18,18 +18,23 @@ if __name__ == '__main__':
 
     print()
 
-    user_input = 'y'
-    while user_input.lower() != 'n' and len(conjugations_filtered.records) > 0:
+    should_continue = True
+    while should_continue and len(conjugations_filtered.records) > 0:
         verb = conjugations_filtered.random_record(rng)
         print(verb.summary())
-        user_answer = input()
-        if weak_equals(user_answer, verb.word):
-            print('correct', end='\n\n')
-            if not args.keep:
-                conjugations_filtered.records.remove(verb)
-                if len(conjugations_filtered.records) % 10 == 0:
-                    print(f'{len(conjugations_filtered.records)} left\n')
-        else:
-            print(f'wrong. proper answer is {verb.word}', end='\n\n')
+
+        try:
+            user_answer = input()
+            if weak_equals(user_answer, verb.word):
+                print('correct', end='\n\n')
+                if not args.keep:
+                    conjugations_filtered.records.remove(verb)
+                    if len(conjugations_filtered.records) % 10 == 0:
+                        print(f'{len(conjugations_filtered.records)} left\n')
+            else:
+                print(f'wrong. proper answer is {verb.word}', end='\n\n')
+        except KeyboardInterrupt:
+            should_continue = False
+            print('')
 
     print('terminating..')
