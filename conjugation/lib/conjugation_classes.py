@@ -62,7 +62,8 @@ class Tense(Enum):
     # todo tests
     @staticmethod
     def from_string(s: str):
-        match s.lower().replace('_', ' ').replace('-', ' ').strip():
+        match s.lower().replace('_', ' ').replace('-', ' ').replace('2', 'ii') \
+            .replace('1', 'i').strip():
             case 'praesens' | 'present' | 'praes':
                 return Tense.Praesens
             case 'imperfectum' | 'imperfect' | 'imperf':
