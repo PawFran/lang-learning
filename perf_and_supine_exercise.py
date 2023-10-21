@@ -19,9 +19,12 @@ if __name__ == '__main__':
         .filter_by_simple_condition(['verb'])\
         .filter_by_complex_condition('II|III|IV|V')
 
+    print(f'number of words: {dictionary.length()}\n')
+
     should_continue = True
     while should_continue and dictionary is not None and dictionary.translations_nr() > 0:
-        verb: LatinVerb = dictionary.random_dict_entry(rng).head
+        entry = dictionary.random_dict_entry(rng)
+        verb = entry.head
 
         word_original = verb.base
         perfect = verb.perfect
@@ -36,6 +39,10 @@ if __name__ == '__main__':
 
             if perfect_is_correct and supine_is_correct:
                 print('both correct')
+                if not args.keep:
+                    dictionary.remove_entry(entry)
+                    if dictionary.length() % 10 == 0:
+                        print(f'{dictionary.length()} left\n')
             else:
                 print(f'at least one is wrong. correct answer is perf: {perfect} sup: {supine}')
             print('')
