@@ -5,7 +5,7 @@ from argparse import ArgumentParser
 def parse_args():
     parser = ArgumentParser()
     parser.add_argument('-l', '--language', action='store')
-    parser.add_argument('-r', '--remove', action='store_true')
+    parser.add_argument('-k', '--keep', action='store_true')
     parser.add_argument('-a', '--start_word', action='store')  # todo does it work with smart sampling ?
     parser.add_argument('-z', '--end_word', action='store')  # todo does it work with smart sampling ?
     parser.add_argument('-u', '--user_name', action='store')

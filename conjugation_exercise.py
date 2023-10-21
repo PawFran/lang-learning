@@ -25,7 +25,7 @@ if __name__ == '__main__':
         user_answer = input()
         if weak_equals(user_answer, verb.word):
             print('correct', end='\n\n')
-            if args.remove is not None:
+            if not args.keep:
                 conjugations_filtered.records.remove(verb)
                 if len(conjugations_filtered.records) % 10 == 0:
                     print(f'{len(conjugations_filtered.records)} left\n')

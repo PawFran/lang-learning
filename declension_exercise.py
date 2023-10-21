@@ -36,8 +36,9 @@ if __name__ == '__main__':
     should_continue = 'y'
     while should_continue.lower() != 'n':
         backup_dict = copy.deepcopy(current_dict)  # in case remove is on and answer is wrong
+        pop = False if args.keep else True
         declension_test: DeclensionTest = random_declension_entry(current_dict, rng,
-                                                                  args.remove)  # here current_dict may be modified
+                                                                  pop)  # here current_dict may be modified
         if declension_test is None:
             should_continue = 'n'  # means all entries where already removed
         else:
@@ -51,7 +52,7 @@ if __name__ == '__main__':
                 print(f'wrong. proper answer is {declension_test.answer}', end='\n\n')
                 current_dict = backup_dict
 
-        if args.remove:
+        if not args.keep:
             current_length = current_dict.length()
             if current_length % 10 == 0:
                 print(f'current nr of entries: {current_length}')

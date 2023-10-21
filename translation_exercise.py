@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
         if is_correct:
             print(f'correct ({entry.head.head_raw})')
-            if args.remove:
+            if not args.keep:
                 dictionary.remove_single_translation(entry, word_pl)
                 if dictionary.translations_nr() % 10 == 0:
                     print(f'{dictionary.translations_nr()} translations left in dict')

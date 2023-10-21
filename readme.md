@@ -44,7 +44,7 @@
 
 ### all options are like in _random_word.py_
 
-### in case of -r flag words are removed only after correct answer
+### in case of -k flag words are NOT removed even after correct answer
 
 ### -f is filtering: "str1 str2 ... strN | strN+1... strN+K". when more than one str is used quotes are needed. pipe (zero or more) separates conditions (OR). each condition is understood like "take any entry in which every string can be found in at least on square bracket". ex. -f verb II | noun I II | adj means "take all verbs from second conj and nouns from first or second declension and all adjectives - and nothing else"
 
@@ -58,7 +58,7 @@
 
 ## how to use it
 
-### python declension_exercise.py -d declensions -r (optional)
+### python declension_exercise.py -d declensions -k (optional)
 
 ### where declensions are list of declensions separated by space:
 
@@ -70,7 +70,7 @@
 
 ## how to use it
 
-### python conjugation_exercise.py -c conjugations -m moods -v voices -t tenses -r
+### python conjugation_exercise.py -c conjugations -m moods -v voices -t tenses -k
 
 ### multiple conjugations etc. separated by space
 
