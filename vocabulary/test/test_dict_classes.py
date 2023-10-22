@@ -352,8 +352,8 @@ def test_word_distribution():
     db = pd.DataFrame({
         'word_pl': ['do (+ acc)', 'do (+ acc)', 'bardzo', 'często', 'pomiędzy, wśród (+ acc)', 'bardzo', 'do (+ acc)',
                     'do (+ acc)'],
-        'translation': ['in', 'in', 'valdē', 'saepe', 'in', 'valdē', 'in', 'in'],
-        'correct': [True, False, False, False, True, False, False, True],
+        'correct_translation': ['in', 'in', 'valdē', 'saepe', 'in', 'valdē', 'in', 'in'],
+        'is_correct': [True, False, False, False, True, False, False, True],
         'time': [t1 - timedelta(minutes=int(x)) for x in np.arange(8)]
     })
 
@@ -362,7 +362,7 @@ def test_word_distribution():
 
     to_be = pd.DataFrame({
         'word_pl': ['bowiem', 'w (+ abl)', 'często', 'bardzo', 'do (+ acc)', 'pomiędzy, wśród (+ acc)'],
-        'translation': ['enim', 'in', 'saepe', 'valdē', 'in', 'in'],
+        'correct_translation': ['enim', 'in', 'saepe', 'valdē', 'in', 'in'],
         'correct_ratio_last_3_times': [np.nan, np.nan, 0, 0, 1 / 3, 1],
         'last_time': [None, None, t(3), t(2), t(0), t(4)],
         'probabilities': [(13.5 + 10) / 38.5 / 2, (13.5 + 10) / 38.5 / 2, 7 / 38.5, 4.5 / 38.5, 2.5 / 38.5, 1 / 38.5]
@@ -371,7 +371,7 @@ def test_word_distribution():
 
     res = dictionary.words_with_distribution(db, n_last_times=3)
 
-    assert (to_be[['word_pl', 'translation']] == res[['word_pl', 'translation']]).all().all()
+    assert (to_be[['word_pl', 'correct_translation']] == res[['word_pl', 'correct_translation']]).all().all()
 
     assert (to_be.probabilities - res.probabilities).sum() < 0.0001
 
