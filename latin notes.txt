@@ -143,3 +143,5 @@ versus
 po polsku: słuchać - kogoś. być posłusznym - komuś. po łacinie zawsze dativ ?
 
 plebi caro - "plebi" - jaka to część zdania ? forma taka jak po polsku tzn. celownik
+
+filioque = et filio

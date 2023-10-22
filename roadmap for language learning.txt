@@ -1,5 +1,16 @@
 roadmap for language learning
 
+obsłużyć w słowniku zaimki (dodatkowa klasa LatinPronoun):
+is, ea, id [pron]
+()
+1. ten, ta, to
+
+quis, quis, quid [pronoun]
+()
+1. kto, który
+
+scrapowanie - w przypadku disambiguation powinien próbować każdej opcji dopóki któraś się nie uda
+
 baza danych (csv) do per and supine exercise
 
 translation exercise: w przypadku czasownikow zaznaczac jakos co zostalo zle podane (np supinum)

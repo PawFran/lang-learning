@@ -1443,3 +1443,223 @@ templum, templi [noun] [n] [II]
 aedificatus, aedificata, aedificatum [adj]
 ()
 1. zbudowany
+
+immĭnens, immĭnens, immĭnens [adj]
+()
+1. zagrażający (+ dat)
+
+fortis, fortis, forte [adj]
+()
+1. odważny, silny
+
+prūdens, prūdensis, prūdensis [adj]
+()
+1. rozważny
+
+ūtĭlis, utilis, utile [adj]
+()
+1. użyteczny
+
+admŏnĕo, admŏnēre, admonui, admonitum [verb] [II]
+()
+1. upominać
+
+făcĭlis, facilis, facile [adj]
+()
+1. łatwy
+
+brĕvis, brevis, breve [adj]
+()
+1. krótki
+
+nāvis, navis [noun] [f] [III]
+()
+1. okręt
+
+cĕlĕr, celeris, celere [adj]
+()
+1. szybki
+
+dēlĕo, dēlēre, delevi, deletum [verb] [II]
+()
+1. niszczyć, usuwać
+
+vasto, vastāre, vastāvī, vastātum [verb] [I]
+()
+1. spustoszyć
+
+adsum, adesse, adfui [verb] [anomalous]
+()
+1. być obecnym
+
+lībĕro, lībĕrāre, liberāvī, liberātum [verb] [I]
+()
+1. uwalniać
+
+dictum, dicti [noun] [n] [II]
+()
+1. powiedzenie
+
+fīdus, fidă, fidum [adj]
+()
+1. wierny
+
+nix, nivis [noun] [f] [III]
+()
+1. śnieg
+
+candĭdus, candidă, candidum [adj]
+()
+1. jasny, klarowny, biały
+
+virtus, virtutis [noun] [f] [III]
+()
+1. męstwo, zaleta, cnota
+
+mĕl, mellis [noun] [n] [III]
+()
+1. miód
+
+flŭo, flŭĕre, fluxi, fluxum [verb] [III]
+()
+1. płynąć
+
+ădŭlescentĭa, adulescentiae [noun] [f] [I]
+()
+1. młodość
+
+dĭco, dīcĕre, dixi, dictum [verb] [I]
+()
+1. powiedzieć
+
+vīlis, vilis, vile [adj]
+()
+1. tani, pospolity
+
+argentum, argenti [noun] [n] [II]
+()
+1. srebro
+
+aūrūm, auri [noun] [n] [II]
+()
+1. złoto
+
+corvus, corvi [noun] [m] [II]
+()
+1. kruk
+
+albus, albă, album [adj]
+()
+1. biały
+
+fŏlĭum, folii [noun] [n] [II]
+()
+1. liść
+
+cădūcus, caducă, caducum [adj]
+()
+1. spadły, opadły
+
+artĭfex, artificis [noun] [m/f] [f]
+()
+1. artysta
+
+cĕlĕbĕr, celebris, celebre [adj]
+()
+1. sławny
+
+ūnus, ūna, ūnum [adj]
+()
+1. jeden
+
+fīo, fieri, factus sum, factum [verb] [anomalous]
+()
+1. stawać się
+
+invĭdĭa, invidiae [noun] [f] [I]
+()
+1. zawiść
+
+motus, mota, motum [adj]
+()
+1. poruszony
+
+poena, poenae [noun] [f] [I]
+()
+1. kara
+
+mĕtŭo, mĕtŭĕre, metui, metutum [verb] [III]
+()
+1. bać się
+
+insŭla, insulae [noun] [f] [I]
+()
+1. wyspa
+
+mīrus, miră, mirum [adj]
+()
+1. dziwny, nadzwyczajny
+
+captus, capta, captum [adj]
+()
+1. pochwycony
+
+ămŏr, amoris [noun] [m] [III]
+()
+1. miłość
+
+rĕtĭnĕo, rĕtĭnēre, retinui, retentum [verb] [II]
+()
+1. zatrzymywać
+
+ăvis, avis [noun] [f] [III]
+()
+1. ptak
+
+cēra, cerae [noun] [f] [I]
+()
+1. wosk
+
+līnum, lini [noun] [n] [II]
+()
+1. len, sznur
+
+lĭgo, ligare, ligavi, ligatum [verb] [I]
+()
+1. wiązać, łączyć
+
+āla, alae [noun] [f] [I]
+()
+1. skrzydło
+
+āēr, aeris [noun] [m] [III]
+()
+1. powietrze
+
+sōl, solis [noun] [m] [III]
+()
+1. słońce
+
+mollĭo, mollīre, mollii, mollitum [verb] [IV]
+()
+1. rozzmiękczyć, roztapiać
+
+cădo, cădĕre, cecidi, cădendo [verb] [III]
+()
+1. spaść
+
+infēlix, infēlixis, infēlixis [adj]
+()
+1. nieszczęśliwy
+
+dēflĕo, dēflēre, deflevi, defletum [verb] [II]
+()
+1. opłakiwać
+
+corpŭs, corporis [noun] [n] [III]
+()
+1. ciało
+
+fūnŭs, funeris [noun] [n] [III]
+()
+1. pogrzeb
