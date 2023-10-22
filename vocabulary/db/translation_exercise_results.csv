@@ -20,3 +20,28 @@ default_user;latin;także;quoque;quoque;True;2023-10-21 13:40:26
 default_user;latin;namiot;tăbernācŭlum;praetorium;False;2023-10-21 13:40:30
 default_user;latin;szczęśliwy;beātus;beatus a um;True;2023-10-21 13:40:35
 default_user;latin;umieścić;pōno;dispono dospinere disposui dispositum;False;2023-10-21 13:40:52
+default_user;latin;zagrażający (+ dat);immĭnens;imminens imminens imminens;True;2023-10-22 16:25:07
+default_user;latin;łatwy;făcĭlis;facilis facilis facile;True;2023-10-22 16:25:13
+default_user;latin;krótki;brĕvis;brevis brevis breve;True;2023-10-22 16:25:21
+default_user;latin;spustoszyć;vasto;vasto 1;True;2023-10-22 16:25:25
+default_user;latin;użyteczny;ūtĭlis;utilis utilis utile;True;2023-10-22 16:25:33
+default_user;latin;uwalniać;lībĕro;libero 1;True;2023-10-22 16:25:38
+default_user;latin;odważny, silny;fortis;fortis fortis forte;True;2023-10-22 16:25:50
+default_user;latin;szybki;cĕlĕr;;False;2023-10-22 16:25:52
+default_user;latin;być obecnym;adsum;adsum adesse adfui;True;2023-10-22 16:27:40
+default_user;latin;niszczyć, usuwać;dēlĕo;deleo delere delui delutum;False;2023-10-22 16:27:49
+default_user;latin;okręt;nāvis;navis navis;True;2023-10-22 16:27:57
+default_user;latin;rozważny;prūdens;;False;2023-10-22 16:28:12
+default_user;latin;upominać;admŏnĕo;;False;2023-10-22 16:28:16
+default_user;latin;niszczyć, usuwać;dēlĕo;deleo 1;False;2023-10-22 16:28:43
+default_user;latin;niszczyć, usuwać;dēlĕo;;False;2023-10-22 16:28:47
+default_user;latin;niszczyć, usuwać;dēlĕo;;False;2023-10-22 16:28:48
+default_user;latin;niszczyć, usuwać;dēlĕo;;False;2023-10-22 16:28:52
+default_user;latin;niszczyć, usuwać;dēlĕo;;False;2023-10-22 16:28:52
+default_user;latin;niszczyć, usuwać;dēlĕo;;False;2023-10-22 16:28:53
+default_user;latin;niszczyć, usuwać;dēlĕo;;False;2023-10-22 16:28:53
+default_user;latin;niszczyć, usuwać;dēlĕo;;False;2023-10-22 16:28:53
+default_user;latin;upominać;admŏnĕo;admoneo admonere admonui admonitum;True;2023-10-22 16:29:06
+default_user;latin;niszczyć, usuwać;dēlĕo;deleo delere delevi deletum;True;2023-10-22 16:29:12
+default_user;latin;rozważny;prūdens;prudens prudens prudens;True;2023-10-22 16:29:18
+default_user;latin;szybki;cĕlĕr;celer celeris celere;True;2023-10-22 16:29:23

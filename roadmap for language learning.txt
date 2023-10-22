@@ -1,5 +1,7 @@
 roadmap for language learning
 
+obsłużyć imiesłowy: LatinParticipium
+
 obsłużyć w słowniku zaimki (dodatkowa klasa LatinPronoun):
 is, ea, id [pron]
 ()

@@ -1444,6 +1444,18 @@ aedificatus, aedificata, aedificatum [adj]
 ()
 1. zbudowany
 
+ācer, acris, acre [adj]
+()
+1. ostry
+
+grăvis, gravis, grave [adj]
+()
+1. ciężki
+
+săpĭens, săpĭens, săpĭens [adj]
+()
+1. mądry
+
 fĕrox, fĕrox, fĕrox [adj]
 ()
 1. dziki, okrutny
@@ -1483,6 +1495,10 @@ lībertās, libertatis [noun] [f] [III]
 immĭnens, immĭnens, immĭnens [adj]
 ()
 1. zagrażający (+ dat)
+
+praeceptum, praecepti [noun] [n] [II]
+()
+1. nauczanie
 
 fortis, fortis, forte [adj]
 ()
