@@ -1430,7 +1430,7 @@ pŏtĭus [adv]
 
 omnis, omnis, omne [adj]
 ()
-1. każdy
+1. każdy, wszystek
 
 vĭa, viae [noun] [f] [I]
 ()
@@ -1444,6 +1444,42 @@ aedificatus, aedificata, aedificatum [adj]
 ()
 1. zbudowany
 
+fĕrox, fĕrox, fĕrox [adj]
+()
+1. dziki, okrutny
+
+deletus, deleta, deletum [adj]
+()
+1. zniszczony
+
+lăbŏr, laboris [noun] [m] [III]
+()
+1. trud, praca
+
+ingens, ingens, ingens [adj]
+()
+1. ogromny
+
+incrēdĭbĭlis, incredibilis, incredibile [adj]
+()
+1. niewiarygodny
+
+restĭtŭo, restĭtŭĕre, restitui, restitutum [verb] [III]
+()
+1. przywrócić, odnawiać
+
+commūnis, communis, commune [adj]
+()
+1. wspólny
+
+dulcis, dulcis, dulce [adj]
+()
+1. słodki
+
+lībertās, libertatis [noun] [f] [III]
+()
+1. wolność
+
 immĭnens, immĭnens, immĭnens [adj]
 ()
 1. zagrażający (+ dat)
@@ -1452,7 +1488,7 @@ fortis, fortis, forte [adj]
 ()
 1. odważny, silny
 
-prūdens, prūdensis, prūdensis [adj]
+prūdens, prūdens, prūdens [adj]
 ()
 1. rozważny
 
