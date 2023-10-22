@@ -127,6 +127,23 @@ class LatinDictScraper:
 
         raise Exception('cannot parse Gen singularis')
 
+    @staticmethod
+    def adjective_form(declension):
+        fem_result_set = declension.find_all('tr')
+
+        for tag in fem_result_set:
+            if [x for x in tag][0].contents[0] == 'Nom.':
+                core = tag.find_all("span", {"class": "radice"})[0].contents[0]
+                ending = ''  # ex ferox
+                try:
+                    ending = tag.find_all("span", {"class": "desinenza"})[0].contents[0]
+                except IndexError:
+                    pass
+
+                return core + ending
+
+        return None
+
     def adjective_forms(self, word) -> str:
         flexion_soup = self.get_flexion_soup(word)
         divs_with_declension = flexion_soup.find_all("div", {"class": "col span_1_of_2"})
@@ -134,14 +151,11 @@ class LatinDictScraper:
         fem_sing_declension = divs_with_declension[2]
         neut_sing_declension = divs_with_declension[4]
 
-        nom_sing_fem_core = fem_sing_declension.find_all("span", {"class": "radice"})[0].text
-        nom_sing_fem_ending = fem_sing_declension.find_all("span", {"class": "desinenza"})[0].text
+        femininum = LatinDictScraper.adjective_form(fem_sing_declension)
+        neutrum = LatinDictScraper.adjective_form(neut_sing_declension)
 
-        nom_sing_neut_core = neut_sing_declension.find_all("span", {"class": "radice"})[0].text
-        nom_sing_neut_ending = neut_sing_declension.find_all("span", {"class": "desinenza"})[0].text
-
-        femininum = nom_sing_fem_core + nom_sing_fem_ending
-        neutrum = nom_sing_neut_core + nom_sing_neut_ending
+        if femininum is None or neutrum is None:
+            raise Exception(f'cannot find femininum or neutrum forms for {word}')
 
         return f'{femininum}, {neutrum}'
 
