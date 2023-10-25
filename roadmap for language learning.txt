@@ -1,5 +1,7 @@
 roadmap for language learning
 
+ćwiczenie: stopniowanie przymiotników. dodać gradus do LatinAdjective
+
 obsłużyć imiesłowy: LatinParticipium
 
 obsłużyć w słowniku zaimki (dodatkowa klasa LatinPronoun):

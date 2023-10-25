@@ -874,7 +874,7 @@ tĕnĕo, tĕnēre, tenui, tentum [verb] [II]
 
 quăm [adv]
 ()
-1. jak
+1. jak, niż
 
 urbs, urbis [noun] [f] [III]
 ()
@@ -1542,7 +1542,7 @@ vasto, vastāre, vastāvī, vastātum [verb] [I]
 
 adsum, adesse, adfui [verb] [anomalous]
 ()
-1. być obecnym
+1. być obecnym, być pomocnym
 
 lībĕro, lībĕrāre, liberāvī, liberātum [verb] [I]
 ()
@@ -1563,6 +1563,10 @@ nix, nivis [noun] [f] [III]
 candĭdus, candidă, candidum [adj]
 ()
 1. jasny, klarowny, biały
+
+lācte, lactis [noun] [n] [III]
+()
+1. mleko
 
 virtus, virtutis [noun] [f] [III]
 ()
