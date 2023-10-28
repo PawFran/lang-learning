@@ -1,10 +1,10 @@
 roadmap for language learning
 
+jeśli jest więcej niż jedno tłumaczenie danego słowa pytać o oba. jak to się ma do filtrowania ?
+
 był błąd w infelix - teraz jest ok. sprawdzic pozostałe czasowniki
 
 jest błąd w cado - supin jest pusty a on odczytuje coś gerundium abl
-
-dodać session id do bazy. na razie ponumerować sesje ręcznie
 
 dodać bazę do innych ćwiczeń - declension etc.
 
@@ -61,9 +61,7 @@ przykład powinien być do tłumaczenia nie do słowa
 
 pytanie o rodzaj rzeczownika w III deklinacji
 
-złe parsowanie (cīvis, civis [noun] [m] [feminine]
-
-złe parsowanie vir
+złe parsowanie (cīvis, civis [noun] [m] [feminine] - powinna być walidacja na ENUMach
 
 find or scrape - dodać opcję -f --force żeby zmusić do scrape'owania nawet jeśli jest w słowniku
 
