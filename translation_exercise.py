@@ -40,7 +40,7 @@ if __name__ == '__main__':
         entry = random_word_with_translation.entry
         word_pl = random_word_with_translation.translation
 
-        word_original = entry.head.base
+        head_no_metadata = entry.head.head_raw.split('[')[0]
 
         print(word_pl)
 
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
             if args.user_name is not None:
                 db_handler.update_db(user=args.user_name, word_pl=word_pl,
-                                     lang=args.language, translation=word_original,
+                                     lang=args.language, translation=head_no_metadata,
                                      was_correct=is_correct, user_answer=answer)
 
             print('')
