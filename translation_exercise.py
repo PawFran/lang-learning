@@ -21,7 +21,7 @@ if __name__ == '__main__':
         dictionary = dictionary.filter_by_complex_condition(args.filter)
 
     db_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
-    db_handler = TranslationExerciseDBHandler(db_path)
+    db_handler = TranslationExerciseDBHandler(db_path, args.user_name)
 
     rng = default_rng()
 
