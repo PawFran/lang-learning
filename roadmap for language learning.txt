@@ -1,8 +1,32 @@
 roadmap for language learning
 
+dodać session id do bazy. na razie ponumerować sesje ręcznie
+
+dodać bazę do innych ćwiczeń - declension etc.
+
+nie da się teraz dobrze  odpowiedzieć na stawać się (factus sum to dwa słowa)
+fīo, fieri, factus sum, factum [verb] [anomalous]
+()
+1. stawać się
+
+czy na pewno
+zbudowany
+translation: aedeficatus a um
+wrong. correct answer is "aedificatus, aedificata, aedificatum [adj]" ()
+
+sławny
+translation: celeber celebris celebre
+
+cado
+
 ćwiczenie: stopniowanie przymiotników. dodać gradus do LatinAdjective
 
+predykcja - jaka jest szansa że odpowiedź będzie poprawna ? np. regresja logistyczna
+użyć do tego, żeby zobaczyć, jak dobre jest smart sampling. użyć do tego, żeby opracować lepsze smart sampling
+
 obsłużyć imiesłowy: LatinParticipium
+
+dodać do bazy session id. sprawdzać potem statystyki - generalnie prawdopodobieństwo poprawnej odpowiedzi w ramach jednej sesji powinno rosnąć
 
 obsłużyć w słowniku zaimki (dodatkowa klasa LatinPronoun):
 is, ea, id [pron]

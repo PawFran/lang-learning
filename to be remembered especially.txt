@@ -1,0 +1,3 @@
+etiam = quoque
+enim = quia
+ergo = itaque
