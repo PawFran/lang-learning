@@ -166,8 +166,6 @@ default_user;latin;stawać się;fīo;;False;2023-10-27 19:48:33
 default_user;latin;opłakiwać;dēflĕo;defleo deflere deflui defletum;False;2023-10-27 19:48:48
 default_user;latin;zbudowany;aedificatus;aedeficatus a um;False;2023-10-27 19:48:55
 default_user;latin;ostry;ācer;acutus a um;False;2023-10-27 19:50:19
-default_user;latin;nieszczęśliwy;infēlix;infelix infelix infelix;False;2023-10-27 19:50:27
-default_user;latin;nieszczęśliwy;infēlix;infelix infelicis infelice;False;2023-10-28 10:42:49
 default_user;latin;niszczyć, usuwać;dēlĕo;deleo delere delevi deletum;True;2023-10-28 10:43:02
 default_user;latin;opłakiwać;dēflĕo;defluo defluere deflui deflutum;False;2023-10-28 10:43:10
 default_user;latin;ogromny;ingens;ingens ingens ingens;True;2023-10-28 10:43:24
@@ -179,13 +177,11 @@ default_user;latin;wspaniały;magnĭfĭcus;magnificus a um;True;2023-10-28 10:44
 default_user;latin;złoto;aūrūm;aurum auri;True;2023-10-28 10:44:14
 default_user;latin;bać się;mĕtŭo;;False;2023-10-28 10:44:14
 default_user;latin;młodość;ădŭlescentĭa;aedulescentia adulescentiae;False;2023-10-28 10:44:34
-default_user;latin;nieszczęśliwy;infēlix;infelix infelxis infelixis;False;2023-10-28 10:44:46
 default_user;latin;opłakiwać;dēflĕo;defluo defluere deflevi defletum;False;2023-10-28 10:45:04
 default_user;latin;oko;ŏcŭlus;;False;2023-10-28 10:45:16
 default_user;latin;opłakiwać;dēflĕo;defleo deflere deflevi defletum;True;2023-10-28 10:45:30
 default_user;latin;płynąć;flŭo;fluo fluere fluxi fluctum;False;2023-10-28 10:45:38
 default_user;latin;rynek, forum;fŏrum;forum;False;2023-10-28 10:45:44
-default_user;latin;nieszczęśliwy;infēlix;infelix infelixis infelixis;True;2023-10-28 10:45:51
 default_user;latin;niewiarygodny;incrēdĭbĭlis;incredibilis incredibilis incredibile;True;2023-10-28 10:46:06
 default_user;latin;płynąć;flŭo;fluo fluere fluxi fluctum;False;2023-10-28 10:46:13
 default_user;latin;zbudowany;aedificatus;aedeficatus a um;False;2023-10-28 10:46:18
@@ -243,12 +239,10 @@ default_user;latin;późny;sērus;serus a um;True;2023-10-28 10:52:02
 default_user;latin;pogrzeb;fūnŭs;funus funeris;True;2023-10-28 10:52:15
 default_user;latin;rozzmiękczyć, roztapiać;mollĭo;mollio milire milii militum;False;2023-10-28 10:52:22
 default_user;latin;ucho;auris;;False;2023-10-28 10:52:32
-default_user;latin;spaść;cădo;cado cadere;False;2023-10-28 10:52:38
 default_user;latin;młodość;ădŭlescentĭa;adulescentia adulescentiae;True;2023-10-28 10:52:46
 default_user;latin;ciało;corpŭs;corpus corporis;True;2023-10-28 10:52:55
 default_user;latin;rozzmiękczyć, roztapiać;mollĭo;mollio mollire mollii mollitum;True;2023-10-28 10:53:13
 default_user;latin;uwalniać;lībĕro;;False;2023-10-28 10:53:17
-default_user;latin;spaść;cădo;cado cadere cecidi ceditum;False;2023-10-28 10:53:29
 default_user;latin;ptak;ăvis;avis avis;True;2023-10-28 10:54:53
 default_user;latin;okręt;nāvis;navis navis;True;2023-10-28 10:54:56
 default_user;latin;spadły, opadły;cădūcus;;False;2023-10-28 10:55:01
@@ -258,14 +252,10 @@ default_user;latin;słodki;dulcis;dulcis dulcis dulce;True;2023-10-28 10:55:29
 default_user;latin;len, sznur;līnum;linum linii;False;2023-10-28 10:55:36
 default_user;latin;spaść;cădo;;False;2023-10-28 10:55:41
 default_user;latin;jasny, klarowny, biały;candĭdus;candidus a um;True;2023-10-28 10:55:45
-default_user;latin;spaść;cădo;cado cadere cacedi candido;False;2023-10-28 10:56:00
 default_user;latin;zagrażający (+ dat);immĭnens;imminens imminens imminens;True;2023-10-28 10:56:11
-default_user;latin;spaść;cădo;cado cadere cecedi cecendo;False;2023-10-28 10:56:22
 default_user;latin;ślad;vestīgĭum;;False;2023-10-28 10:56:27
 default_user;latin;poruszony;motus;motus a um;True;2023-10-28 10:56:31
-default_user;latin;spaść;cădo;cado cadere cecedi cadendo;False;2023-10-28 10:56:39
 default_user;latin;błąd;errŏr;error erroris;True;2023-10-28 10:56:50
-default_user;latin;spaść;cădo;cado cadere cecidi cadendo;True;2023-10-28 10:56:57
 default_user;latin;len, sznur;līnum;;False;2023-10-28 10:57:10
 default_user;latin;ucho;auris;auris auris;True;2023-10-28 10:57:15
 default_user;latin;ślad;vestīgĭum;vestigium vestigii;True;2023-10-28 10:57:22
@@ -318,10 +308,7 @@ default_user;latin;stawać się;fīo;fio fire facrus sum;False;2023-10-28 11:02:
 default_user;latin;mleko;lācte;lactes lactis;False;2023-10-28 11:03:03
 default_user;latin;stawać się;fīo;fio fire factus sum factum;False;2023-10-28 11:03:10
 default_user;latin;stawać się;fīo;"fio fire ""factus sum"" factum";False;2023-10-28 11:03:34
-default_user;latin;nieszczęśliwy;infēlix;infelix infelixis infelixis;True;2023-10-28 16:31:07
-default_user;latin;spaść;cădo;cado;False;2023-10-28 16:31:12
 default_user;latin;len, sznur;līnum;linum lini;True;2023-10-28 16:31:21
-default_user;latin;spaść;cădo;cado cadere cecidi cadendo;True;2023-10-28 16:31:29
 default_user;latin;opłakiwać;dēflĕo;defleo deflere deflui defletum;False;2023-10-28 16:31:40
 default_user;latin;rozzmiękczyć, roztapiać;mollĭo;mollio mollire mollii mollitum;True;2023-10-28 16:32:01
 default_user;latin;miód;mĕl;mel mellis;True;2023-10-28 16:32:06
@@ -444,4 +431,31 @@ default_user;latin;miłość;ămŏr;amor amoris;True;2023-10-28 16:47:30
 default_user;latin;zamknięty;clausus;clausus a um;True;2023-10-28 16:47:35
 default_user;latin;opłakiwać;dēflĕo;defleo deflere deflevi defletum;True;2023-10-28 20:02:01
 default_user;latin;niszczyć, usuwać;dēlĕo;deleo delere delevi deletum;True;2023-10-28 20:02:12
-default_user;latin;spaść;cădo;cado cadere cedidi ceditum;False;2023-10-28 20:02:23
+default_user;latin;tani, pospolity;vīlis;vilis vilis vile;True;2023-10-28 20:22:55
+default_user;latin;zbudowany;aedificatus;aedificatus a um;True;2023-10-28 20:23:01
+default_user;latin;biały;albus;albus;False;2023-10-28 20:23:07
+default_user;latin;młodość;ădŭlescentĭa;adulescentia adulescentiae;True;2023-10-28 20:23:20
+default_user;latin;ogromny;ingens;ingens ingens ingens;True;2023-10-28 20:23:25
+default_user;latin;mały lis;vulpēcŭla;vulpecula vulpeculae;True;2023-10-28 20:23:36
+default_user;latin;opłakiwać;dēflĕo;defleo deflere deflevi defletum;True;2023-10-28 20:23:53
+default_user;latin;bać się;mĕtŭo;metinuo;False;2023-10-28 20:23:59
+default_user;latin;sławny;cĕlĕbĕr;celeber celebris celebre;True;2023-10-28 20:24:16
+default_user;latin;niszczyć, usuwać;dēlĕo;deleo delere delevi deletum;True;2023-10-28 20:25:06
+default_user;latin;miód;mĕl;mel mellis;True;2023-10-28 20:25:14
+default_user;latin;zatrzymywać;rĕtĭnĕo;retineo retinere retinui retentum;True;2023-10-28 20:25:23
+default_user;latin;rozzmiękczyć, roztapiać;mollĭo;;False;2023-10-28 20:25:26
+default_user;latin;rozzmiękczyć, roztapiać;mollĭo;mollio mollire mollii mollitum;True;2023-10-28 20:25:39
+default_user;latin;biały;albus;albus a um;True;2023-10-28 20:25:43
+default_user;latin;pogrzeb;fūnŭs;funus funeris;True;2023-10-28 20:25:49
+default_user;latin;upominać;admŏnĕo;admoneo admonere admonui admonitum;True;2023-10-28 20:25:58
+default_user;latin;wosk;cēra;cera cerae;True;2023-10-28 20:26:01
+default_user;latin;jasny, klarowny, biały;candĭdus;candidus a um;True;2023-10-28 20:26:09
+default_user;latin;kara;poena;poena poenae;True;2023-10-28 20:26:12
+default_user;latin;spadły, opadły;cădūcus;caducus a um;True;2023-10-28 20:26:19
+default_user;latin;raczej;pŏtĭus;potius;True;2023-10-28 20:26:22
+default_user;latin;do wewnątrz, do środka;introrsus;introrsus;True;2023-10-28 20:26:26
+default_user;latin;wierny;fīdus;fidus a um;True;2023-10-28 20:26:29
+default_user;latin;bać się;mĕtŭo;;False;2023-10-28 20:26:32
+default_user;latin;ślad;vestīgĭum;vestigium vestigii;True;2023-10-28 20:26:39
+default_user;latin;ostry;ācer;acer acris acre;True;2023-10-28 20:26:44
+default_user;latin;wierzyć;crēdo;credo credere credidi creditum;True;2023-10-28 20:27:17

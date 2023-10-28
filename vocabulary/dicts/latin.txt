@@ -1696,11 +1696,11 @@ mollĭo, mollīre, mollii, mollitum [verb] [IV]
 ()
 1. rozzmiękczyć, roztapiać
 
-cădo, cădĕre, cecidi, cădendo [verb] [III]
+cădo, cădĕre, cecidi [verb] [III]
 ()
 1. spaść
 
-infēlix, infēlixis, infēlixis [adj]
+infēlix, infēlix, infēlix [adj]
 ()
 1. nieszczęśliwy
 

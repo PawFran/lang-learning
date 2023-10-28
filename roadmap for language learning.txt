@@ -1,5 +1,9 @@
 roadmap for language learning
 
+był błąd w infelix - teraz jest ok. sprawdzic pozostałe czasowniki
+
+jest błąd w cado - supin jest pusty a on odczytuje coś gerundium abl
+
 dodać session id do bazy. na razie ponumerować sesje ręcznie
 
 dodać bazę do innych ćwiczeń - declension etc.
@@ -9,15 +13,6 @@ fīo, fieri, factus sum, factum [verb] [anomalous]
 ()
 1. stawać się
 
-czy na pewno
-zbudowany
-translation: aedeficatus a um
-wrong. correct answer is "aedificatus, aedificata, aedificatum [adj]" ()
-
-sławny
-translation: celeber celebris celebre
-
-cado
 
 ćwiczenie: stopniowanie przymiotników. dodać gradus do LatinAdjective
 
@@ -39,11 +34,11 @@ quis, quis, quid [pronoun]
 
 scrapowanie - w przypadku disambiguation powinien próbować każdej opcji dopóki któraś się nie uda
 
-baza danych (csv) do per and supine exercise
+baza danych (csv) do perf and supine exercise
 
 translation exercise: w przypadku czasownikow zaznaczac jakos co zostalo zle podane (np supinum)
 
-tłumaczenie łacińskich słów na polskie
+tłumaczenie łacińskich słów na polskie - moze wybierac cos z listy, zeby nie musiec wpisywac dokladnie (np. najczesciej mylone slowa) - albo lista rozwijana
 
 implementacja reguł filtrowania:
     np tylko słowa, które w ciągu ostatnich X prób były podane błędnie lub miały mniej niż X prób
