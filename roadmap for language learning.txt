@@ -6,7 +6,14 @@ był błąd w infelix - teraz jest ok. sprawdzic pozostałe czasowniki
 
 jest błąd w cado - supin jest pusty a on odczytuje coś gerundium abl
 
-dodać bazę do innych ćwiczeń - declension etc.
+dodać bazę do innych ćwiczeń - declension etc. nie ma sensu pytac o rzeczy, ktore sie podaje dobrze
+
+smart sampling jako default, ale opcja na equal sampling
+
+zle parsowanie canis (feminine)
+cănis, canis [noun] [m] [feminine]
+()
+1. pies
 
 nie da się teraz dobrze  odpowiedzieć na stawać się (factus sum to dwa słowa)
 fīo, fieri, factus sum, factum [verb] [anomalous]

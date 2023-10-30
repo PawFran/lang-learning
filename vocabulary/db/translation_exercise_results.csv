@@ -20,3 +20,25 @@ default_user;2;latin;wędrówka;errŏr, erroris ;error erroris;True;2023-10-28 2
 default_user;2;latin;kara;castīgātĭo, castigationis ;poena poenae;False;2023-10-28 21:18:55
 default_user;2;latin;pochwycony;captus, capta, captum ;captus a um;True;2023-10-28 21:18:59
 default_user;2;latin;nauczanie;praeceptum, praecepti ;praeceptum praecepti;True;2023-10-28 21:19:04
+default_user;3;latin;rozzmiękczyć, roztapiać;mollĭo, mollīre, mollii, mollitum ;mollio mollire mollii molliitum;False;2023-10-29 07:40:42
+default_user;3;latin;uwalniać;lībĕro, lībĕrāre, liberāvī, liberātum ;libero 1;True;2023-10-29 07:40:53
+default_user;3;latin;wierzyć;crēdo, crēdĕre, credidi, creditum ;credo credere credidi creditum;True;2023-10-29 07:41:01
+default_user;3;latin;powiedzieć;dĭco, dīcĕre, dixi, dictum ;dico dicere dixi dictum;True;2023-10-29 07:41:07
+default_user;3;latin;opłakiwać;dēflĕo, dēflēre, deflevi, defletum ;defleo deflere deflevi defletum;True;2023-10-29 07:41:19
+default_user;3;latin;rozzmiękczyć, roztapiać;mollĭo, mollīre, mollii, mollitum ;mollio mollire mollii mollitum;True;2023-10-29 07:41:31
+default_user;3;latin;wiązać, łączyć;lĭgo, ligare, ligavi, ligatum ;ligo 1;True;2023-10-29 07:41:33
+default_user;3;latin;być obecnym, być pomocnym;adsum, adesse, adfui ;adsum adesse adfui;True;2023-10-29 07:41:38
+default_user;3;latin;być wolnym od czegoś (+ abl);văco, văcāre, vacāvī, vacātum ;vaco 1;True;2023-10-29 07:41:41
+default_user;3;latin;wejść;intro, intrāre, intrāvī, intrātum ;intro 1;True;2023-10-29 07:41:44
+default_user;3;latin;przewyższać;sŭpĕro, sŭpĕrāre, superāvī, superātum ;supero 1;True;2023-10-29 07:41:47
+default_user;3;latin;upominać;admŏnĕo, admŏnēre, admonui, admonitum ;admoneo admonere admonui admonitum;True;2023-10-29 07:41:54
+default_user;3;latin;spaść;cădo, cădĕre, cecidi ;cado cadere cecidi;True;2023-10-29 07:42:02
+default_user;3;latin;przywrócić, odnawiać;restĭtŭo, restĭtŭĕre, restitui, restitutum ;restituo restituere restituti restitutum;False;2023-10-29 07:42:21
+default_user;3;latin;niszczyć, usuwać;dēlĕo, dēlēre, delevi, deletum ;deleo delere delevi deletum;True;2023-10-29 07:42:31
+default_user;3;latin;spustoszyć;vasto, vastāre, vastāvī, vastātum ;vasto 1;True;2023-10-29 07:42:34
+default_user;3;latin;płynąć;flŭo, flŭĕre, fluxi, fluxum ;fluo fluere fluxi fluxum;True;2023-10-29 07:42:45
+default_user;3;latin;bać się;mĕtŭo, mĕtŭĕre, metui, metutum ;metuo;False;2023-10-29 07:42:48
+default_user;3;latin;bać się;mĕtŭo, mĕtŭĕre, metui, metutum ;metuo metuere mtui metutum;False;2023-10-29 07:42:56
+default_user;3;latin;przywrócić, odnawiać;restĭtŭo, restĭtŭĕre, restitui, restitutum ;restituo restituere restitui restitutum;True;2023-10-29 07:43:20
+default_user;3;latin;bać się;mĕtŭo, mĕtŭĕre, metui, metutum ;metuo metuere metui metutum;True;2023-10-29 07:43:26
+default_user;3;latin;zatrzymywać;rĕtĭnĕo, rĕtĭnēre, retinui, retentum ;retineo retinere retinui retentum;True;2023-10-29 07:43:38

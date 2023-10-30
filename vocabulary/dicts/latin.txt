@@ -462,8 +462,12 @@ pulcher, pulchra, pulchrum [adj]
 1. piękny
 
 clārus, clară, clarum [adj]
+()
 1. czysty, jasny
-2. oczywisty, jasny
+2. oczywisty
+3. wyraźny
+4. znany
+
 
 cārus, cāra, cārum [adj]
 (Varsovia incolis Poloniae cara est)
@@ -1715,3 +1719,11 @@ corpŭs, corporis [noun] [n] [III]
 fūnŭs, funeris [noun] [n] [III]
 ()
 1. pogrzeb
+
+ēx [prep]
+()
+1. z, od (+ abl)
+
+lēvis, levis, leve [adj]
+()
+1. lekki

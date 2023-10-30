@@ -51,7 +51,18 @@ III mieszana
 
 
 przymiotniki:
-III deklinacja - wzór samogłoskowy (jak vectigal)
+gradus positivus III deklinacji - wzór samogłoskowy (jak vectigal)
+comparativus - III deklinacja spółgłoskowa (lex)
+superlativus - I/II deklinacja
+
+znaczenie bezwzględne przymiotnika (elativus):
+    comparativus: longior (zbyt długi)
+    superlativus: clarissumus (bardzo sławny)
+
+comparativus + quam (fidior quam canis) lub + abl comparationis (fidior cane)
+superlativus może być połączony z gen partitivus (najwyższy ze wszystkich - omnis altissimus)
+
+
 
 części zdania
 * podmiot
@@ -97,7 +108,7 @@ accusativus
 
 ablativus
 * temporis (okolicznik czasu - kiedy? )
-* loci (okolicznik miejsca - gdzie ?)
+* loci (okolicznik miejsca - gdzie ?) zwykle z przyimkiem "in"; bez przyimka kiedy mówi "którędy"; oraz "gdzie" w przypadku miast III dekl i pl tantum; https://encenc.pl/ablativus-loci
 * causae (okolicznik przyczyny - dlaczego ?)
 * modi (okolicznik sposobu - jak ?)
 * instrumentalis (dopełnienie - kim? czym?)
@@ -147,3 +158,7 @@ po polsku: słuchać - kogoś. być posłusznym - komuś. po łacinie zawsze dat
 plebi caro - "plebi" - jaka to część zdania ? forma taka jak po polsku tzn. celownik
 
 filioque = et filio
+
+canis omnium animalium fidissimum est - fidissimum podobnie jak po polsku zgadza się z animalium a nie z canis
+ale po polsku mozna na dwa sposoby: np. ryba jest najwierniejszym ze zwierzat ale tez ryba jest najwierniejsza sposrod zwierzat
+
