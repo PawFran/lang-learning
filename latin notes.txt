@@ -107,17 +107,18 @@ accusativus
 
 
 ablativus
+https://encenc.pl/ablativus
 * temporis (okolicznik czasu - kiedy? )
 * loci (okolicznik miejsca - gdzie ?) zwykle z przyimkiem "in"; bez przyimka kiedy mówi "którędy"; oraz "gdzie" w przypadku miast III dekl i pl tantum; https://encenc.pl/ablativus-loci
 * causae (okolicznik przyczyny - dlaczego ?)
 * modi (okolicznik sposobu - jak ?)
-* instrumentalis (dopełnienie - kim? czym?)
+* instrumentalis (dopełnienie - kim? czym?) bez przyimka ? np. mira arte struit
 * separativus (skąd? od czego? bez czego?)
 * comparativus (przy stopniu wyższym przymiotnika i przysłówka)
 * auctoris (w str. biernej - okolicznik)
 * rei efficientis (w str. biernej - okolicznik)
 * qualitatis (przydawka lub orzecznik - jaki?)
-* comparationis (po przymiotniku w stopniu wyższym)
+* comparationis (po przymiotniku w stopniu wyższym) - wtedy, kiedy nie ma przyimka quam
 
 
 
@@ -136,6 +137,8 @@ i podobnie: nos navigare debemus
 minuo - 'u' jest w odmianach traktowane jak spółgłoska
 
 aqua facile invenīri poterat - invenīri poterat to orzeczenie ?
+podobnie remigrare desiderat i wiele innych. jaką częścią zdania jest remigrare, inveniri etc. ?
+chyba raczej dopełnienie, patrz https://pl.wikipedia.org/wiki/Czasownik_%C5%82aci%C5%84ski sekcja "Infinitivus jako część zdania"
 
 prohibeo - często z abl
 
@@ -152,6 +155,7 @@ in animo habeo
 ab eo tempore
 invitatus (adjective perfect participle I class)
 versus
+quis, quis, quid - kto, który
 
 po polsku: słuchać - kogoś. być posłusznym - komuś. po łacinie zawsze dativ ?
 
@@ -162,3 +166,17 @@ filioque = et filio
 canis omnium animalium fidissimum est - fidissimum podobnie jak po polsku zgadza się z animalium a nie z canis
 ale po polsku mozna na dwa sposoby: np. ryba jest najwierniejszym ze zwierzat ale tez ryba jest najwierniejsza sposrod zwierzat
 
+hospitio accipit - przyjął w gościnę ?
+
+per aera - rzecz. III dekl. pochodzenia greckiego mogą mieć w acc sing -a
+
+mare, chociaż należy do deklinacji samogłoskowej, w abl sing może mieć zarówno formę mari jak i mare
+
+quid dulcius est quam discere multa ?
+quid - podmiot. discere ? multa - przysłówek]
+ogólnie - jaką częścią zdania może być infinitivus ?
+
+podać przykład, kiedy inne użycie przypadka łacińskiego pozwala lepiej zrozumieć dane słowo
+
+non potest inveniri vita hominis carens molestia
+inveniri - jaka część zdania ? vita - jaki przypadek ?

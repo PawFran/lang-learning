@@ -468,7 +468,6 @@ clārus, clară, clarum [adj]
 3. wyraźny
 4. znany
 
-
 cārus, cāra, cārum [adj]
 (Varsovia incolis Poloniae cara est)
 1. drogi
@@ -878,7 +877,11 @@ tĕnĕo, tĕnēre, tenui, tentum [verb] [II]
 
 quăm [adv]
 ()
-1. jak, niż
+1. jak, jak bardzo
+
+quăm [conj]
+()
+1. niż
 
 urbs, urbis [noun] [f] [III]
 ()
@@ -1197,7 +1200,7 @@ mitto, mittĕre, misi, missum [verb] [III]
 
 ars, artis [noun] [f] [III]
 ()
-1. sztuka
+1. umiejętność, rzemiosło, sztuka
 
 hospĭtĭum, hospitii [noun] [n] [II]
 ()
@@ -1692,6 +1695,14 @@ lĭgo, ligare, ligavi, ligatum [verb] [I]
 ()
 1. powietrze
 
+vŏlo, vŏlāre, vŏlāvi, vŏlātum [verb] [I]
+()
+1. lecieć
+
+nĭmĭum, nimii [noun] [n] [II]
+()
+1. za, za dużo, za bardzo
+
 sōl, solis [noun] [m] [III]
 ()
 1. słońce
@@ -1727,3 +1738,33 @@ fūnŭs, funeris [noun] [n] [III]
 lēvis, levis, leve [adj]
 ()
 1. lekki
+
+monstrum, monstri [noun] [n] [II]
+()
+1. potwór
+
+tĕmĕrĭtās, temeritatis [noun] [f] [III]
+()
+1. pochopność
+
+flōrĕo, flōrēre, florui, flōrendo [verb] [II]
+()
+1. rozkwitać, kwitnąć
+
+prūdentĭa, prudentiae [noun] [f] [I]
+()
+1. dyskrecja
+2. zdrowy rozsądek, mądrość
+3. ostrożność
+
+multa [adv]
+(Quid dulcius est quam discere multa ?)
+1. dużo, często
+
+mŏlestĭa, molestiae [noun] [f] [I]
+()
+1. kłopoty, irytacja
+
+cărĕo, cărēre, carui, cărendo [verb] [II]
+()
+1. być wolnym od (+ abl)

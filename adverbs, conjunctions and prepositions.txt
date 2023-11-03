@@ -38,6 +38,10 @@ tandem [adv]
 ()
 1. w końcu
 
+multa [adv]
+(Quid dulcius est quam discere multa ?)
+1. dużo, często
+
 valdē [adv]
 saepe [adv]
 ubi [adv]

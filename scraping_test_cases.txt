@@ -1,3 +1,5 @@
-canis
-masculin and feminine noun III declension
-
+canis - masculin and feminine noun III declension
+hospitio - cannot scrape
+volare - cannot scrape
+quid - cannot scrape
+vis - IndexError: list index out of range

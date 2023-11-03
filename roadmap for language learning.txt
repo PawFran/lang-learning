@@ -6,14 +6,17 @@ był błąd w infelix - teraz jest ok. sprawdzic pozostałe czasowniki
 
 jest błąd w cado - supin jest pusty a on odczytuje coś gerundium abl
 
+quis, quis, quid - dodać do słownika i ćwiczeń. w ogóle podsumowanie zaimków.. w declension.json zamiast relative powinno być pronoun relative, albo jeszcze jeden poziom i typ - np. noun, pronoun, participium etc.
+
+baza relacyjna
+
+uporządkować notatki z latin notes.txt
+
+haskell - scraping i parsowanie jsonów na relacyjne csv (chociaż to drugie może być też w pythonie)
+
 dodać bazę do innych ćwiczeń - declension etc. nie ma sensu pytac o rzeczy, ktore sie podaje dobrze
 
 smart sampling jako default, ale opcja na equal sampling
-
-zle parsowanie canis (feminine)
-cănis, canis [noun] [m] [feminine]
-()
-1. pies
 
 nie da się teraz dobrze  odpowiedzieć na stawać się (factus sum to dwa słowa)
 fīo, fieri, factus sum, factum [verb] [anomalous]
@@ -40,6 +43,8 @@ quis, quis, quid [pronoun]
 1. kto, który
 
 scrapowanie - w przypadku disambiguation powinien próbować każdej opcji dopóki któraś się nie uda
+
+jakieś podsumowanie kiedy używa się przyimków a kiedy nie - np. hospitio accipit
 
 baza danych (csv) do perf and supine exercise
 
