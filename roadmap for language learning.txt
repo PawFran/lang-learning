@@ -1,5 +1,9 @@
 roadmap for language learning
 
+do latin notes dodać losowanie pytania i napisać skrypt do ich losowania
+
+w bazie powinna być forma słowa z akcentami i bez - żeby ułatwić filtrowanie
+
 jeśli jest więcej niż jedno tłumaczenie danego słowa pytać o oba. jak to się ma do filtrowania ?
 
 był błąd w infelix - teraz jest ok. sprawdzic pozostałe czasowniki

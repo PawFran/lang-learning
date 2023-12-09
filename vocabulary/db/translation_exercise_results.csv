@@ -42,3 +42,204 @@ default_user;3;latin;bać się;mĕtŭo, mĕtŭĕre, metui, metutum ;metuo metuer
 default_user;3;latin;przywrócić, odnawiać;restĭtŭo, restĭtŭĕre, restitui, restitutum ;restituo restituere restitui restitutum;True;2023-10-29 07:43:20
 default_user;3;latin;bać się;mĕtŭo, mĕtŭĕre, metui, metutum ;metuo metuere metui metutum;True;2023-10-29 07:43:26
 default_user;3;latin;zatrzymywać;rĕtĭnĕo, rĕtĭnēre, retinui, retentum ;retineo retinere retinui retentum;True;2023-10-29 07:43:38
+default_user;4;latin;droga;vĭa, viae ;via viae;True;2023-11-07 21:42:18
+default_user;4;latin;szybki;cĕlĕr, celeris, celere ;celer celeris celer;False;2023-11-07 21:42:25
+default_user;4;latin;powietrze;āēr, aeris ;aer aeris;True;2023-11-07 21:42:29
+default_user;4;latin;srebro;argentum, argenti ;argentum argenti;True;2023-11-07 21:42:35
+default_user;4;latin;zamknięty;clausus, clausă, clausum ;clausus a um;True;2023-11-07 21:42:41
+default_user;4;latin;biały;albus, albă, album ;albus albi;False;2023-11-07 21:42:46
+default_user;4;latin;kłopoty, irytacja;mŏlestĭa, molestiae ;molestia;False;2023-11-07 21:42:52
+default_user;4;latin;opłakiwać;dēflĕo, dēflēre, deflevi, defletum ;defleo deflere deflevi defletum;True;2023-11-07 21:43:01
+default_user;4;latin;zatrzymywać;rĕtĭnĕo, rĕtĭnēre, retinui, retentum ;retineo retinere retinui retentum;True;2023-11-07 21:43:11
+default_user;4;latin;błąd;errŏr, erroris ;error erroris;True;2023-11-07 21:43:14
+default_user;4;latin;zwierzę;ănĭmăl, animalis ;animal animalis;True;2023-11-07 21:43:18
+default_user;4;latin;być wolnym od (+ abl);cărĕo, cărēre, carui, cărendo ;vaco 1;False;2023-11-07 21:43:21
+default_user;4;latin;wierny;fīdus, fidă, fidum ;fidus a um;True;2023-11-07 21:43:33
+default_user;4;latin;raczej;pŏtĭus ;potius;True;2023-11-07 21:43:36
+default_user;4;latin;oko;ŏcŭlus, oculi ;oculus oculi;True;2023-11-07 21:43:40
+default_user;4;latin;zawiść;invĭdĭa, invidiae ;invidia invidiae;True;2023-11-07 21:43:44
+default_user;4;latin;poruszony;motus, mota, motum ;motus a um;True;2023-11-07 21:43:48
+default_user;4;latin;sprytny;astŭtus, astută, astutum ;astutus a um;True;2023-11-07 21:43:54
+default_user;4;latin;jaskinia;spēlunca, speluncae ;spelunca ae;False;2023-11-07 21:43:58
+default_user;4;latin;trud, praca;lăbŏr, laboris ;labor laboris;True;2023-11-07 21:44:05
+default_user;4;latin;słodki;dulcis, dulcis, dulce ;dulce dulce dulce;False;2023-11-07 21:44:28
+default_user;4;latin;za, za dużo, za bardzo;nĭmĭum, nimii ;;False;2023-11-07 21:44:33
+default_user;4;latin;ciężki;grăvis, gravis, grave ;gravis gravis grave;True;2023-11-07 21:44:40
+default_user;4;latin;każdy, wszystek;omnis, omnis, omne ;omnis mnis;False;2023-11-07 21:44:44
+default_user;4;latin;nauczanie;praeceptum, praecepti ;praecepta praeceptae;False;2023-11-07 21:44:53
+default_user;4;latin;młodość;ădŭlescentĭa, adulescentiae ;"adulescentia adu;escentiae";False;2023-11-07 21:45:02
+default_user;4;latin;szybki;cĕlĕr, celeris, celere ;celer celeris celere;True;2023-11-07 21:45:10
+default_user;4;latin;do wewnątrz, do środka;introrsus ;introrsus;True;2023-11-07 21:45:15
+default_user;4;latin;niszczyć, usuwać;dēlĕo, dēlēre, delevi, deletum ;deleo delere delevi deletum;True;2023-11-07 21:45:23
+default_user;4;latin;odważny, silny;fortis, fortis, forte ;fortiter;False;2023-11-07 21:45:26
+default_user;4;latin;pogrzeb;fūnŭs, funeris ;funus funeris;True;2023-11-07 21:45:31
+default_user;4;latin;pozostały, inny;rĕlĭquus, reliquă, reliquum ;;False;2023-11-07 21:45:36
+default_user;4;latin;powiedzenie;dictum, dicti ;dictum dicti;True;2023-11-07 21:45:41
+default_user;4;latin;na zewnątrz;fŏrās ;foras;True;2023-11-07 21:45:44
+default_user;4;latin;łatwy;făcĭlis, facilis, facile ;facilis facilis facile;True;2023-11-07 21:45:50
+default_user;4;latin;być obecnym, być pomocnym;adsum, adesse, adfui ;adsum adesse adfui;True;2023-11-07 21:45:58
+default_user;4;latin;wspaniały;magnĭfĭcus, magnifică, magnificum ;magnificus a um;True;2023-11-07 21:46:02
+default_user;4;latin;dziwny, nadzwyczajny;mīrus, miră, mirum ;mirus a um;True;2023-11-07 21:46:06
+default_user;4;latin;uwalniać;lībĕro, lībĕrāre, liberāvī, liberātum ;libero 1;True;2023-11-07 21:46:13
+default_user;4;latin;państwo, imperium;impĕrĭum, imperii ;imperium imperii;True;2023-11-07 21:46:17
+default_user;4;latin;odważny, silny;fortis, fortis, forte ;fortis fortis forte;True;2023-11-07 21:46:34
+default_user;4;latin;ozdobiony;ornātus, ornata, um ;ornatus a um;True;2023-11-07 21:46:39
+default_user;4;latin;pochwycony;captus, capta, captum ;captus a um;True;2023-11-07 21:46:43
+default_user;4;latin;potwór;monstrum, monstri ;monstrum monstri;True;2023-11-07 21:46:49
+default_user;4;latin;późny;sērus, seră, serum ;;False;2023-11-07 21:46:52
+default_user;4;latin;jeden;ūnus, ūna, ūnum ;unus una unum;True;2023-11-07 21:46:57
+default_user;4;latin;użyteczny;ūtĭlis, utilis, utile ;utilis utilis utile;True;2023-11-07 21:47:02
+default_user;4;latin;len, sznur;līnum, lini ;linum linii;False;2023-11-07 21:47:06
+default_user;4;latin;kara;poena, poenae ;poena poenae;True;2023-11-07 21:47:13
+default_user;4;latin;wejść;intro, intrāre, intrāvī, intrātum ;intro 1;True;2023-11-07 21:47:16
+default_user;4;latin;dyskrecja;prūdentĭa, prudentiae ;prudentia prudentiae;True;2023-11-07 21:47:22
+default_user;4;latin;rozważny;prūdens, prūdens, prūdens ;;False;2023-11-07 21:47:24
+default_user;4;latin;wolność;lībertās, libertatis ;libertas libertatis;True;2023-11-07 21:47:41
+default_user;4;latin;mały lis;vulpēcŭla, vulpeculae ;vulpecula;False;2023-11-07 21:47:45
+default_user;4;latin;powiedzieć;dĭco, dīcĕre, dixi, dictum ;dico dicere didici dictum;False;2023-11-07 21:47:54
+default_user;4;latin;wierzyć;crēdo, crēdĕre, credidi, creditum ;credo credere credidi creditum;True;2023-11-07 21:48:09
+default_user;4;latin;wspólny;commūnis, communis, commune ;;False;2023-11-07 21:48:15
+default_user;4;latin;późny;sērus, seră, serum ;serus a um;True;2023-11-07 21:59:29
+default_user;4;latin;ucho;auris, auris ;auris auris;True;2023-11-07 21:59:34
+default_user;4;latin;położony;situs, sită, situm ;situs a um;True;2023-11-07 21:59:39
+default_user;4;latin;mały lis;vulpēcŭla, vulpeculae ;vulpecula vulpeculae;True;2023-11-07 21:59:46
+default_user;4;latin;pochopność;tĕmĕrĭtās, temeritatis ;;False;2023-11-07 21:59:49
+default_user;4;latin;męstwo, zaleta, cnota;virtus, virtutis ;virtus virtutis;True;2023-11-07 21:59:56
+default_user;4;latin;kara;castīgātĭo, castigationis ;castigatio castigationis;True;2023-11-07 22:00:05
+default_user;4;latin;być wolnym od czegoś (+ abl);văco, văcāre, vacāvī, vacātum ;careo carere;False;2023-11-07 22:00:16
+default_user;4;latin;rozważny;prūdens, prūdens, prūdens ;prudens prudens prudens;True;2023-11-07 22:00:22
+default_user;4;latin;Iliada;Īlĭăs, Iliadis ;ilias iliadis;True;2023-11-07 22:00:26
+default_user;4;latin;zdrowy rozsądek, mądrość;prūdentĭa, prudentiae ;;False;2023-11-07 22:00:33
+default_user;4;latin;lecieć;vŏlo, vŏlāre, vŏlāvi, vŏlātum ;volo 1;True;2023-11-07 22:00:40
+default_user;4;latin;krótki;brĕvis, brevis, breve ;brevis brevis breve;True;2023-11-07 22:00:47
+default_user;4;latin;spustoszyć;vasto, vastāre, vastāvī, vastātum ;deleo;False;2023-11-07 22:00:52
+default_user;4;latin;każdy, wszystek;omnis, omnis, omne ;;False;2023-11-07 22:01:10
+default_user;4;latin;miód;mĕl, mellis ;mel mellis;True;2023-11-07 22:01:14
+default_user;4;latin;zniewaga;contŭmēlĭa, contumeliae ;contumelia contumeliae;True;2023-11-07 22:01:22
+default_user;4;latin;lew;lĕo, leonis ;leo leonis;True;2023-11-07 22:01:25
+default_user;4;latin;kruk;corvus, corvi ;corvus corvi;True;2023-11-07 22:01:30
+default_user;4;latin;mądry;săpĭens, săpĭens, săpĭens ;sapiens sapiens sapiens;True;2023-11-07 22:01:35
+default_user;4;latin;artysta;artĭfex, artificis ;artifex artificis;True;2023-11-07 22:01:41
+default_user;5;latin;ptak;ăvis, avis ;;False;2023-11-08 19:56:16
+default_user;5;latin;sprytny;astŭtus, astută, astutum ;astutus a um;True;2023-11-08 19:56:22
+default_user;5;latin;położony;situs, sită, situm ;situs a um;True;2023-11-08 19:56:27
+default_user;5;latin;dyskrecja;prūdentĭa, prudentiae ;prudentia prudentiae;True;2023-11-08 19:56:35
+default_user;5;latin;raczej;pŏtĭus ;potius;True;2023-11-08 19:56:40
+default_user;5;latin;dziki, okrutny;fĕrox, fĕrox, fĕrox ;ferox ferox ferox;True;2023-11-08 19:56:47
+default_user;5;latin;niszczyć, usuwać;dēlĕo, dēlēre, delevi, deletum ;deleo delere delevi deletum;True;2023-11-08 19:57:02
+default_user;5;latin;wosk;cēra, cerae ;cera cerae;True;2023-11-08 19:57:07
+default_user;5;latin;upominać;admŏnĕo, admŏnēre, admonui, admonitum ;admoneo admonere admonui admonitum;True;2023-11-08 19:57:17
+default_user;5;latin;rynek, forum;fŏrum, fori ;forum fori;True;2023-11-08 19:57:23
+default_user;5;latin;do wewnątrz, do środka;introrsus ;introrsus;True;2023-11-08 19:57:27
+default_user;5;latin;ostrożność;prūdentĭa, prudentiae ;temeritas temeritatis;False;2023-11-08 19:57:46
+default_user;5;latin;powiedzieć;dĭco, dīcĕre, dixi, dictum ;dico dicere dixi dictum;True;2023-11-08 19:57:54
+default_user;5;latin;miłość;ămŏr, amoris ;amor amoris;True;2023-11-08 19:57:58
+default_user;5;latin;późny;sērus, seră, serum ;serus a um;True;2023-11-08 19:58:05
+default_user;5;latin;lew;lĕo, leonis ;leo leonis;True;2023-11-08 19:58:08
+default_user;5;latin;za, za dużo, za bardzo;nĭmĭum, nimii ;;False;2023-11-08 19:58:11
+default_user;5;latin;zniszczony;deletus, deleta, deletum ;deletus a um;True;2023-11-08 19:58:15
+default_user;6;latin;być obecnym, być pomocnym;adsum, adesse, adfui ;adsum adesse adfui;True;2023-11-08 20:44:58
+default_user;6;latin;spadły, opadły;cădūcus, caducă, caducum ;caducus a um;True;2023-11-08 20:45:02
+default_user;6;latin;pogrzeb;fūnŭs, funeris ;funus funeris;True;2023-11-08 20:45:06
+default_user;6;latin;zniszczony;deletus, deleta, deletum ;deletus a um;True;2023-11-08 20:45:11
+default_user;6;latin;mały lis;vulpēcŭla, vulpeculae ;vulpecula vulpeculae;True;2023-11-08 20:45:19
+default_user;6;latin;dziki, okrutny;fĕrox, fĕrox, fĕrox ;ferox ferox ferox;True;2023-11-08 20:45:23
+default_user;6;latin;miłość;ămŏr, amoris ;amor amoris;True;2023-11-08 20:45:26
+default_user;6;latin;lekki;lēvis, levis, leve ;levis levis;False;2023-11-08 20:45:30
+default_user;6;latin;słodki;dulcis, dulcis, dulce ;dulcis dulcis dulce;True;2023-11-08 20:45:36
+default_user;6;latin;srebro;argentum, argenti ;argentum argenti;True;2023-11-08 20:45:42
+default_user;6;latin;wędrówka;errŏr, erroris ;error erroris;True;2023-11-08 20:45:52
+default_user;6;latin;Iliada;Īlĭăs, Iliadis ;ilias iliadis;True;2023-11-08 20:45:56
+default_user;6;latin;z, od (+ abl);ēx ;ad;False;2023-11-08 20:46:00
+default_user;6;latin;lecieć;vŏlo, vŏlāre, vŏlāvi, vŏlātum ;volo 1;True;2023-11-08 20:46:07
+default_user;6;latin;jasny, klarowny, biały;candĭdus, candidă, candidum ;candidus a um;True;2023-11-08 20:46:15
+default_user;6;latin;zamknięty;clausus, clausă, clausum ;clausus a um;True;2023-11-08 20:46:53
+default_user;6;latin;łatwy;făcĭlis, facilis, facile ;facilis facilis facile;True;2023-11-08 20:46:58
+default_user;6;latin;odważny, silny;fortis, fortis, forte ;fortis fortis forte;True;2023-11-08 20:47:08
+default_user;6;latin;niszczyć, usuwać;dēlĕo, dēlēre, delevi, deletum ;deleo delere delevi deletum;True;2023-11-08 20:47:14
+default_user;7;latin;oko;ŏcŭlus, oculi ;oculus oculis;False;2023-11-08 21:39:12
+default_user;7;latin;zamknięty;clausus, clausă, clausum ;clausus a um;True;2023-11-08 21:39:31
+default_user;7;latin;spadły, opadły;cădūcus, caducă, caducum ;caducus a um;True;2023-11-08 21:39:35
+default_user;7;latin;płynąć;flŭo, flŭĕre, fluxi, fluxum ;fluo fluere fluxi fluctum;False;2023-11-08 21:39:44
+default_user;7;latin;wolność;lībertās, libertatis ;libertas libertatis;True;2023-11-08 21:39:52
+default_user;7;latin;spaść;cădo, cădĕre, cecidi ;cado cadere cecedi;False;2023-11-08 21:40:29
+default_user;7;latin;wędrówka;errŏr, erroris ;error erroris;True;2023-11-08 21:40:37
+default_user;7;latin;zdrowy rozsądek, mądrość;prūdentĭa, prudentiae ;prudentia prudentiae;True;2023-11-08 21:40:44
+default_user;7;latin;mądry;săpĭens, săpĭens, săpĭens ;sapiens sapiens sapiens;True;2023-11-08 21:40:50
+default_user;7;latin;spaść;cădo, cădĕre, cecidi ;cado cadere cecedi;False;2023-11-08 21:40:56
+default_user;7;latin;dyskrecja;prūdentĭa, prudentiae ;prudentia prudentiae;True;2023-11-08 21:41:06
+default_user;7;latin;zatrzymywać;rĕtĭnĕo, rĕtĭnēre, retinui, retentum ;;False;2023-11-08 21:41:10
+default_user;7;latin;rozważny;prūdens, prūdens, prūdens ;;False;2023-11-08 21:41:12
+default_user;7;latin;wosk;cēra, cerae ;cera cerae;True;2023-11-08 21:41:18
+default_user;7;latin;kruk;corvus, corvi ;corvus corvi;True;2023-11-08 21:41:30
+default_user;7;latin;młodość;ădŭlescentĭa, adulescentiae ;adulescentia adulescentiae;True;2023-11-08 21:41:36
+default_user;7;latin;płynąć;flŭo, flŭĕre, fluxi, fluxum ;fluo fluere fluxi fluxum;True;2023-11-08 21:41:44
+default_user;7;latin;ogromny;ingens, ingens, ingens ;imminens imminens imminens;False;2023-11-08 21:41:53
+default_user;7;latin;zbudowany;aedificatus, aedificata, aedificatum ;aedificatus;False;2023-11-08 21:42:01
+default_user;7;latin;raczej;pŏtĭus ;potius;True;2023-11-08 21:42:05
+default_user;7;latin;artysta;artĭfex, artificis ;artifex artificis;True;2023-11-08 21:42:11
+default_user;7;latin;ucho;auris, auris ;auris auris;True;2023-11-08 21:42:17
+default_user;7;latin;być obecnym, być pomocnym;adsum, adesse, adfui ;adsumus adesse adfui;False;2023-11-08 21:42:24
+default_user;7;latin;dziwny, nadzwyczajny;mīrus, miră, mirum ;mirus a um;True;2023-11-08 21:42:33
+default_user;7;latin;słodki;dulcis, dulcis, dulce ;dulcis dulcis dulce;True;2023-11-08 21:42:39
+default_user;7;latin;śnieg;nix, nivis ;nix nivis;True;2023-11-08 21:42:44
+default_user;7;latin;wierzyć;crēdo, crēdĕre, credidi, creditum ;credo creder credidi creditum;False;2023-11-08 21:42:52
+default_user;7;latin;na zewnątrz;fŏrās ;foras;True;2023-11-08 21:42:58
+default_user;7;latin;przewyższać;sŭpĕro, sŭpĕrāre, superāvī, superātum ;supero 1;True;2023-11-08 21:43:02
+default_user;7;latin;powiedzenie;dictum, dicti ;dectum dicti;False;2023-11-08 21:43:06
+default_user;7;latin;ogromny;ingens, ingens, ingens ;ingens ingens ingens;True;2023-11-08 21:43:14
+default_user;7;latin;potwór;monstrum, monstri ;monstrum monstri;True;2023-11-08 21:43:19
+default_user;7;latin;ostrożność;prūdentĭa, prudentiae ;;False;2023-11-08 21:43:26
+default_user;7;latin;bać się;mĕtŭo, mĕtŭĕre, metui, metutum ;timeo timere timui tentum;False;2023-11-08 21:44:54
+default_user;7;latin;niewiarygodny;incrēdĭbĭlis, incredibilis, incredibile ;incredibilis incredibilis incredibile;True;2023-11-08 21:45:06
+default_user;7;latin;kara;poena, poenae ;poena poenae;True;2023-11-08 21:45:10
+default_user;7;latin;złoto;aūrūm, auri ;aurum auri;True;2023-11-08 21:45:14
+default_user;7;latin;pozostały, inny;rĕlĭquus, reliquă, reliquum ;reliquus a um;True;2023-11-08 21:45:20
+default_user;7;latin;ptak;ăvis, avis ;avis avis;True;2023-11-08 21:45:24
+default_user;7;latin;tani, pospolity;vīlis, vilis, vile ;;False;2023-11-08 21:45:28
+default_user;7;latin;lew;lĕo, leonis ;leo leonis;True;2023-11-08 21:45:33
+default_user;7;latin;miód;mĕl, mellis ;mel mellis;True;2023-11-08 21:45:37
+default_user;7;latin;zniszczony;deletus, deleta, deletum ;deletus a um;True;2023-11-08 21:45:53
+default_user;7;latin;nieszczęśliwy;infēlix, infēlix, infēlix ;infelix infelix infelix;True;2023-11-08 21:46:00
+default_user;7;latin;ostry;ācer, acris, acre ;acutus a um;False;2023-11-08 21:46:04
+default_user;7;latin;opłakiwać;dēflĕo, dēflēre, deflevi, defletum ;defleo deflere deflevi defletum;True;2023-11-08 21:46:14
+default_user;7;latin;zawiść;invĭdĭa, invidiae ;invidia;False;2023-11-08 21:46:18
+default_user;7;latin;rozważny;prūdens, prūdens, prūdens ;prudens prudens prudens;True;2023-11-08 21:46:27
+default_user;7;latin;pogrzeb;fūnŭs, funeris ;funus funeris;True;2023-11-08 21:46:31
+default_user;7;latin;okręt;nāvis, navis ;navis navis;True;2023-11-08 21:46:35
+default_user;7;latin;upominać;admŏnĕo, admŏnēre, admonui, admonitum ;admoneo admonere admonui admonitum;True;2023-11-08 21:46:42
+default_user;8;latin;śnieg;nix, nivis ;nix nives;False;2023-12-07 20:13:14
+default_user;8;latin;jeden;ūnus, ūna, ūnum ;unus a um;True;2023-12-07 20:13:18
+default_user;8;latin;wędrówka;errŏr, erroris ;error erroris;True;2023-12-07 20:13:23
+default_user;8;latin;sprytny;astŭtus, astută, astutum ;astutus a um;True;2023-12-07 20:13:30
+default_user;8;latin;jasny, klarowny, biały;candĭdus, candidă, candidum ;corvus a um;False;2023-12-07 20:13:37
+default_user;8;latin;młodość;ădŭlescentĭa, adulescentiae ;;False;2023-12-07 20:13:45
+default_user;8;latin;mały lis;vulpēcŭla, vulpeculae ;vulpecula;False;2023-12-07 20:13:51
+default_user;8;latin;ciało;corpŭs, corporis ;;False;2023-12-07 20:13:58
+default_user;8;latin;pogrzeb;fūnŭs, funeris ;funus funeris;True;2023-12-07 20:14:03
+default_user;8;latin;lekki;lēvis, levis, leve ;;False;2023-12-07 20:14:06
+default_user;8;latin;błąd;errŏr, erroris ;error erroris;True;2023-12-07 20:14:12
+default_user;8;latin;dużo, często;multa ;;False;2023-12-07 20:14:16
+default_user;8;latin;spadły, opadły;cădūcus, caducă, caducum ;;False;2023-12-07 20:14:20
+default_user;8;latin;wosk;cēra, cerae ;cera cerae;True;2023-12-07 20:14:27
+default_user;8;latin;Iliada;Īlĭăs, Iliadis ;ilias iliadis;True;2023-12-07 20:14:33
+default_user;8;latin;len, sznur;līnum, lini ;;False;2023-12-07 20:14:42
+default_user;8;latin;biały;albus, albă, album ;albus;False;2023-12-07 20:14:46
+default_user;8;latin;wejść;intro, intrāre, intrāvī, intrātum ;intro 1;True;2023-12-07 20:14:53
+default_user;8;latin;król;rex, regis ;rex regis;True;2023-12-07 20:14:58
+default_user;8;latin;zniszczony;deletus, deleta, deletum ;deletus a um;True;2023-12-07 20:15:03
+default_user;8;latin;skrzydło;āla, alae ;avis avis;False;2023-12-07 20:15:09
+default_user;8;latin;mądry;săpĭens, săpĭens, săpĭens ;sapiens 3;False;2023-12-07 20:15:16
+default_user;8;latin;niszczyć, usuwać;dēlĕo, dēlēre, delevi, deletum ;deleo delere delevi deletum;True;2023-12-07 20:15:26
+default_user;8;latin;pochwycony;captus, capta, captum ;captus a um;True;2023-12-07 20:15:37
+default_user;8;latin;być wolnym od czegoś (+ abl);văco, văcāre, vacāvī, vacātum ;vaco 12;False;2023-12-07 20:15:42
+default_user;8;latin;potwór;monstrum, monstri ;monstrum monstri;True;2023-12-07 20:15:49
+default_user;8;latin;każdy, wszystek;omnis, omnis, omne ;omnis omnis omne;True;2023-12-07 20:15:54
+default_user;8;latin;rynek, forum;fŏrum, fori ;forum fori;True;2023-12-07 20:16:17
+default_user;8;latin;do wewnątrz, do środka;introrsus ;introrsus;True;2023-12-07 20:17:27
+default_user;8;latin;bać się;mĕtŭo, mĕtŭĕre, metui, metutum ;timeo timere timui;False;2023-12-07 20:17:33
+default_user;8;latin;słońce;sōl, solis ;sol solis;True;2023-12-07 20:17:40
+default_user;8;latin;słodki;dulcis, dulcis, dulce ;dulcis dulcis dulce;True;2023-12-07 20:17:45
+default_user;8;latin;sławny;cĕlĕbĕr, celebris, celebre ;clarus a um;False;2023-12-07 20:17:50
+default_user;8;latin;łatwy;făcĭlis, facilis, facile ;facilis facilis facile;True;2023-12-07 20:17:57
+default_user;8;latin;z, od (+ abl);ēx ;in;False;2023-12-07 20:18:01
