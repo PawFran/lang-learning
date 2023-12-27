@@ -570,3 +570,13 @@ default_user;12;latin;szybki;cĕlĕr, celeris, celere ;celer celeris celere;True
 default_user;12;latin;poruszony;motus, mota, motum ;motus a um;True;2023-12-24 20:00:52
 default_user;12;latin;lekki;lēvis, levis, leve ;levis levis leve;True;2023-12-24 20:01:09
 default_user;12;latin;dyskrecja;prūdentĭa, prudentiae ;prudentia prudentiae;True;2023-12-24 20:01:14
+default_user;13;latin;wejść;intro, intrāre, intrāvī, intrātum ;intro 1;True;2023-12-27 11:00:27
+default_user;13;latin;srebro;argentum, argenti ;argentum argenti;True;2023-12-27 11:00:32
+default_user;13;latin;złoto;aūrūm, auri ;aurum auri;True;2023-12-27 11:00:35
+default_user;13;latin;jasny, klarowny, biały;candĭdus, candidă, candidum ;corvus corvi;False;2023-12-27 11:00:41
+default_user;13;latin;oko;ŏcŭlus, oculi ;oculus oculi;True;2023-12-27 11:00:47
+default_user;13;latin;biały;albus, albă, album ;albus a um;True;2023-12-27 11:00:50
+default_user;13;latin;użyteczny;ūtĭlis, utilis, utile ;utilis utilis utile;True;2023-12-27 11:01:00
+default_user;13;latin;wosk;cēra, cerae ;cera cerae;True;2023-12-27 11:01:03
+default_user;13;latin;powiedzieć;dĭco, dīcĕre, dixi, dictum ;dico dicere dixi dictum;True;2023-12-27 11:01:14
+default_user;13;latin;bać się;mĕtŭo, mĕtŭĕre, metui, metutum ;;False;2023-12-27 11:01:16
