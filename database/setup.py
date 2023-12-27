@@ -10,8 +10,8 @@ tables_with_enums = {
     'languages': langs,
     'parts_of_speech': parts_of_speech,
     'genres': genres,
-    'conjugations': latin_conjugations,
-    'declensions': latin_declensions
+    'latin_conjugations': latin_conjugations,
+    'latin_declensions': latin_declensions
 }
 
 engine = create_engine('sqlite:///lang_learning.sqlite')
