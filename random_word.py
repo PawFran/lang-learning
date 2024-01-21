@@ -1,7 +1,5 @@
 from vocabulary.lib.parsing_dict import *
 
-# todo return error when no language is set (or provide default and inform about it)
-
 if __name__ == "__main__":
     args = parse_args()
 
