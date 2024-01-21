@@ -27,7 +27,7 @@ if __name__ == "__main__":
         input('')
         for i in range(len(current_entry.translations)):
             print(f'{i + 1}. {current_entry.translations[i]}')
-        if args.remove:
+        if not args.keep:
             whats_next = input(
                 '''\n[1] remove word (default) [2] keep word [3] terminate\n'''
             ).strip()
