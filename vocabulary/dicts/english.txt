@@ -178,7 +178,7 @@ staggering [adj]
 1. very shocking and surprising
 
 outstrip [verb]
-(Our species' pace of change now outrips our ability to adapt)
+(Our species' pace of change now outstrips our ability to adapt)
 1. to be or become greater in amount, degree, or success than something or someone
 
 grapple[ verb]
@@ -192,3 +192,170 @@ irrefutable [adj]
 undergird [verb]
 (An irrefutable evolutionary truth undergirding this book)
 1. to support something by forming a strong base for it
+
+linger [verb]
+(That year autumn lingered on as if loath to bring on the fighting troops the rigours of winter, and the weather remained warm and mellow)
+1. to stay somewhere for a long time
+
+be loath to do sth [phrase]
+(That year autumn lingered on as if loath to bring on the fighting troops the rigours of winter, and the weather remained warm and mellow)
+1. to not want to do something because it will cause problems
+
+bring sth on [phrasal verb]
+(That year autumn lingered on as if loath to bring on the fighting troops the rigours of winter, and the weather remained warm and mellow)
+1. to make something happen, usually something bad
+
+mellow [adj]
+(That year autumn lingered on as if loath to bring on the fighting troops the rigours of winter, and the weather remained warm and mellow)
+1. pleasant and soft
+
+ramble
+(He spent his days in long country rambles, in interminable discussions on literature)
+1. to walk for a long time, especially in the countryside
+
+interminable
+(He spent his days in long country rambles, in interminable discussions on literature)
+1. lasting a very long time, in a way that is boring
+
+gravel [noun]
+(The park began by a gravelled path)
+1. small pieces of stone used to make paths and road surfaces
+
+hawthorn [noun]
+(Then came a hawthorn hedge and the famous avenue of lime-trees)
+1. a small tree with thorns and white or pink blossom
+
+hedge [noun]
+(Then came a hawthorn hedge and the famous avenue of lime-trees)
+1. a row of bushes growing close together, often used to divide land into separate areas
+
+pry [verb]
+(In this little garden, far from prying eyes)
+1. to try to discover private things about people
+
+in the midst of sth [phrase]
+(In the midst of war he felt the extraordinary beauty of the countryside)
+1. in the middle of something, usually an event or activity
+
+shed [noun]
+(They discovered in the gardens a little tool-shed)
+1. a usually small building for working in, or for storage
+
+prevail [verb]
+(It was sheltered from the prevailing wind)
+1. to get control or influence
+2. to be common among a group of people
+
+pensioner [noun]
+(They sat for hours smoking and talking like old-age pensioners)
+1. a person who receives a pension, especially (old age pensioner) one who receives a retirement pension
+
+elocution [noun]
+(He had a talent for elocution - every year he had gained a prize at school for declamation)
+1. the skill of speaking in a careful, clear way
+
+abuse [noun]
+()
+1. the use of something for the wrong purpose in a way that is harmful or morally wrong
+2. violent, cruel treatment of someone
+
+spring up [phrasal verb]
+(At this time there sprang up everywhere the usual flourishing crop of rumours of profiteering and swindling)
+1. to appear suddenly
+
+swindle [verb]
+(At this time there sprang up everywhere the usual flourishing crop of rumours of profiteering and swindling)
+1. to get money from someone by cheating or deceiving them
+
+allege [verb]
+(Schneider alone was alleged to have defrauded the country to the tune of 400k $ for armaments)
+1. to say that someone has done something wrong or illegal, but not prove it
+
+to the tune of [phrase]
+(Schneider alone was alleged to have defrauded the country to the tune of 400k $ for armaments)
+1. to the stated amount
+
+armament [noun]
+(Schneider alone was alleged to have defrauded the country to the tune of 400k $ for armaments)
+1. the process of increasing the number and strength of a country's weapons
+
+boil away [phrasal verb]
+(All this anger, however, boiled away in the steam of conversation)
+1. when a liquid boils away, it all turns into a gas so that none of it is left in liquid form
+
+fan [verb]
+(His flame was fanned into activity by his growing resentment of his mother's severe discipline)
+1. to wave a fan, or something that acts as a fan, in front of your face
+2. to blow air at a fire to make it burn more strongly
+3. to encourage bad emotions or behaviour to get worse
+
+resentment [noun]
+(His flame was fanned into activity by his growing resentment of his mother's severe discipline)
+1. a feeling of anger because you have been forced to accept something that you do not like
+
+stem [verb]
+(He was able to view the cutting down of trees to stem the Prussian advance)
+1. to stop something unwanted from spreading or increasing
+2. to stop the flow of a liquid such as blood
+
+stricken [adj]
+(Trees laid low like stricken giants)
+1. suffering severely from the effects of something unpleasant
+
+forgo [verb]
+(There are other shades whose pleasures we must forgo)
+1. to not have or do something enjoyable
+
+supplant [verb]
+(Bitter envy and stupid admiration will be supplanted)
+1. to replace
+
+venture [verb]
+(Allowing none of them to venture forth in the streets for fear that she might loose one of them)
+1. to risk going somewhere or doing something that might be dangerous or unpleasant, or to risk saying something that might be criticized
+
+forth [adv]
+(Allowing none of them to venture forth in the streets for fear that she might loose one of them)
+1. (from a place) out or away, or (from a point in time) forward
+
+elude [verb]
+(As soon as he could elude his mother's vigilant eye, he escaped)
+1. to avoid someone or something
+2. if something that you want eludes you, you do not succeed in achieving it
+3. if a piece of information eludes you, you cannot remember it
+
+gruff [adj]
+(He hid the emotion beneath the expression of gruff and hearty cheerfulness)
+1. (of a person's voice) low and unfriendly, or (of a person's behaviour) unfriendly or showing no patience
+
+hearty [adj]
+(He hid the emotion beneath the expression of gruff and hearty cheerfulness)
+1. enthusiastic, energetic, and often loudly expressed
+
+armistice [noun]
+(Rumours of armistice percolated into the city)
+1. a formal agreement between two countries or groups at war to stop fighting for a particular time, especially to talk about possible peace
+
+percolate [verb]
+(Rumours of armistice percolated into the city)
+1. if a liquid percolates, it moves slowly through a substance with very small holes in it
+
+treachery [noun]
+(Paris was disgusted at what it called treachery of the new government)
+1. behaviour that deceives or is not loyal to someone who trusts you
+
+scuffle [noun]
+(There were scuffles in the streets of Paris)
+1. a short and sudden fight, especially one involving a small number of people
+
+stifling [adj]
+(Longing for escape from the stifling atmosphere of the siege)
+1. extremely hot and unpleasant
+
+influx [noun]
+(Loss was counterbalanced by the influx of young hot-head from the provinces)
+1. an arrival of a large number of people or things at the same time
+
+baffle [verb]
+(National Guard soon began to make itself felt in Paris and to baffle the police)
+1. to cause someone to be completely unable to understand or explain something
