@@ -1,0 +1,51 @@
+triggery
+CREATE TRIGGER IF NOT EXISTS latin_verbs_words
+BEFORE INSERT ON insert_latin_verbs
+BEGIN
+ INSERT INTO words (lang, word_id, part_of_speech) values ('latin', new.id, 'verb');
+END;
+
+CREATE TRIGGER IF NOT EXISTS delete_latin_verbs_words
+   AFTER DELETE
+   ON latin_verbs
+BEGIN
+ DELETE FROM words WHERE word_id = old.id;
+END;
+
+test
+insert into latin_verbs (base_word, infinite, perfect, conjugation) values ('test', 'inf', 'perf', 'III');
+delete from latin_verbs;
+
+trzeba dodać FK z latin verbs.id do words.word_id
+
+
+triggery dla latin_word_translation_mapping
+scenariusze dla dodania wpisu do latin_verbs:
+1) nie ma word_id => dodać
+2) jest ale z chociaż jednym pustym translation_id => update o nowe word_id
+3) jest ale tylko z niepustym translation_id => dodać
+
+Ad. 1
+CREATE TRIGGER IF NOT EXISTS insert_latin_verb_translation_mapping AFTER INSERT
+    ON latin_verbs
+    WHEN NEW.ID NOT IN (SELECT word_id FROM latin_words_translations_mapping)
+BEGIN
+    INSERT INTO latin_words_translations_mapping (word_id, translation_id, part_of_speech) VALUES (NEW.ID, null, 'verb');
+END
+
+Ad. 2
+
+
+test:
+insert into latin_verbs (base_word, infinite, perfect, conjugation) values ('test', 'inf', 'perf', 'III');
+
+JAK OGARNAC AKCENTY W BAZIE ? trzymanie ich sprawi ze sqle beda ciezkie, nietrzymanie bedzie pozbyciem sie istotnych informacji
+
+
+
+CREATE TRIGGER IF NOT EXISTS insert_latin_verb_translation_mapping AFTER INSERT
+    ON latin_verbs
+    WHEN (SELECT count(*) FROM latin_words_translations_mapping where word_id = 4 and translation_id is NULL) > 0
+BEGIN
+    UPDATE latin_words_translations_mapping SET trans (word_id, translation_id, part_of_speech) VALUES (NEW.ID, null, 'verb');
+END

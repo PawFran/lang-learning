@@ -1,5 +1,11 @@
 roadmap for language learning
 
+cwiczenie na tlumaczenia lat -> pl. slowo lacinskie i kilka mozliwosci tlumaczenia pl. jakie mozliwosci wybrac ?
+najpierw losowo, ale potem znajdywac w jakis sposob slowa najczesciej ze soba mylone
+inna opcja to pozwolic zaczac wpisywac i dawac podpowiedzi, ale to nie zadziala w terminalu
+
+analiza odpowiedzi - znalezc najblizsze slowo. dzieki temu bedzie mozna patrzec, jakie slowa sa mylone albo czy pomylka nie jest tylko kwestia literowki
+
 co jeśli dane słowo pl można tłumaczyć na dwa różne obce ? pytać wtedy o oba tłumaczenia
 
 do latin notes dodać losowanie pytania i napisać skrypt do ich losowania

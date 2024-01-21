@@ -580,3 +580,108 @@ default_user;13;latin;użyteczny;ūtĭlis, utilis, utile ;utilis utilis utile;Tr
 default_user;13;latin;wosk;cēra, cerae ;cera cerae;True;2023-12-27 11:01:03
 default_user;13;latin;powiedzieć;dĭco, dīcĕre, dixi, dictum ;dico dicere dixi dictum;True;2023-12-27 11:01:14
 default_user;13;latin;bać się;mĕtŭo, mĕtŭĕre, metui, metutum ;;False;2023-12-27 11:01:16
+default_user;14;latin;do wewnątrz, do środka;introrsus ;intro;False;2023-12-30 19:47:18
+default_user;14;latin;dyskrecja;prūdentĭa, prudentiae ;prudentia prudentiae;True;2023-12-30 19:47:26
+default_user;14;latin;ptak;ăvis, avis ;avis avis;True;2023-12-30 19:47:31
+default_user;14;latin;tani, pospolity;vīlis, vilis, vile ;vilis vilis vile;True;2023-12-30 19:47:38
+default_user;14;latin;spadły, opadły;cădūcus, caducă, caducum ;caducus a um;True;2023-12-30 19:47:45
+default_user;14;latin;wspólny;commūnis, communis, commune ;communis communis commune;True;2023-12-30 19:47:54
+default_user;14;latin;ciało;corpŭs, corporis ;corpus corporis;True;2023-12-30 19:48:00
+default_user;14;latin;ogromny;ingens, ingens, ingens ;ingens ingens ingens;True;2023-12-30 19:48:07
+default_user;14;latin;bitwa;certāmĕn, certaminis ;certamen certaminis;True;2023-12-30 19:48:12
+default_user;14;latin;pozostały, inny;rĕlĭquus, reliquă, reliquum ;reliquus a um;True;2023-12-30 19:48:18
+default_user;15;latin;wosk;cēra, cerae ;cera cerae;True;2023-12-30 22:28:46
+default_user;15;latin;gościna;hospĭtĭum, hospitii ;hospitia hospitiae;False;2023-12-30 22:28:54
+default_user;15;latin;być dłużnym (komuś);dēbeō, debēre, debuī, debitum ;debeo debere debui debitum;True;2023-12-30 22:29:05
+default_user;15;latin;podobać się, być lubianym;placeō, placēre, placuī, placitum ;placeo placere placui placitum;True;2023-12-30 22:30:08
+default_user;15;latin;przygotowywać;paro, parāre, parāvī, parātum ;paro parere parui paritum;False;2023-12-30 22:31:03
+default_user;15;latin;budować;aedefico, aedeficāre, aedeficāvi, aedeficātum ;struo struere struxi structum;False;2023-12-30 22:31:26
+default_user;15;latin;święty;săcĕr, sacră, sacrum ;sanctus a um;False;2023-12-30 22:31:59
+default_user;15;latin;opowiadać;narro, narrāre, narrāvī, narrātum ;narro 1;True;2023-12-30 22:32:58
+default_user;15;latin;łatwo;făcĭlĕ ;facile;True;2023-12-30 22:33:03
+default_user;15;latin;łupy;spŏlĭa, spoliōrum ;;False;2023-12-30 22:33:05
+default_user;15;latin;wiązać, łączyć;lĭgo, ligare, ligavi, ligatum ;;False;2023-12-30 22:33:16
+default_user;15;latin;jeśli;sī ;si;True;2023-12-30 22:33:23
+default_user;16;latin;głupi;stultus, stultă, stultum ;;False;2023-12-31 11:49:38
+default_user;16;latin;obóz;castra, castrōrum ;castrum castri;False;2023-12-31 11:49:44
+default_user;16;latin;pragnąć;dēsīdĕro, dēsīdĕrāre, desiderāvī, desiderātum ;cupio cupere cupii cupitum;False;2023-12-31 11:49:58
+default_user;16;latin;raczej;pŏtĭus ;potius;True;2023-12-31 11:50:01
+default_user;16;latin;budować;aedefico, aedeficāre, aedeficāvi, aedeficātum ;aedeficio aedeficare;False;2023-12-31 11:50:14
+default_user;16;latin;potwór;monstrum, monstri ;monstrum monstri;True;2023-12-31 11:50:23
+default_user;16;latin;przez (+ abl);a ;per;False;2023-12-31 11:50:26
+default_user;16;latin;zniewaga;contŭmēlĭa, contumeliae ;contumelia contumeliae;True;2023-12-31 11:50:34
+default_user;16;latin;od (+ abl);a ;ab;False;2023-12-31 11:50:40
+default_user;16;latin;zawsze;semper ;semper;True;2023-12-31 11:50:44
+default_user;16;latin;odkryć, znaleźć;invĕnĭo, invĕnīre, inveni, inventum ;invenio invenire invenii inventum;False;2023-12-31 11:50:53
+default_user;16;latin;pochopność;tĕmĕrĭtās, temeritatis ;temeritas temeritatis;True;2023-12-31 11:51:10
+default_user;16;latin;móc;possum, posse, potuī ;;False;2023-12-31 11:51:12
+default_user;16;latin;pilnie, skrupulatnie;dīlĭgentĕr ;diligenter;True;2023-12-31 11:51:17
+default_user;16;latin;pamięć, wspomnienie;mĕmŏrĭa, memoriae ;memoria memoriae;True;2023-12-31 11:51:22
+default_user;16;latin;ogromny;ingens, ingens, ingens ;ingens ingens ingens;True;2023-12-31 11:51:26
+default_user;16;latin;trzymać;tĕnĕo, tĕnēre, tenui, tentum ;capio capere cepi captum;False;2023-12-31 11:51:37
+default_user;16;latin;przeciwnik;adversarius, adversarii ;adversarius adversarii;True;2023-12-31 11:51:46
+default_user;17;latin;lecieć;vŏlo, vŏlāre, vŏlāvi, vŏlātum ;fluo fluere fluxi fluctum;False;2024-01-20 12:07:53
+default_user;17;latin;zatrzymywać;rĕtĭnĕo, rĕtĭnēre, retinui, retentum ;retineo retinere retinui retentum;True;2024-01-20 12:08:05
+default_user;17;latin;bitwa;certāmĕn, certaminis ;certamen certaminis;True;2024-01-20 12:08:12
+default_user;17;latin;zamknięty;clausus, clausă, clausum ;clausus a um;True;2024-01-20 12:08:15
+default_user;17;latin;król;rex, regis ;rex regis;True;2024-01-20 12:08:18
+default_user;17;latin;śnieg;nix, nivis ;nix nivis;True;2024-01-20 12:08:22
+default_user;17;latin;każdy, wszystek;omnis, omnis, omne ;omnis omnis omne;True;2024-01-20 12:08:29
+default_user;17;latin;wędrówka;errŏr, erroris ;error erroris;True;2024-01-20 12:08:35
+default_user;17;latin;upominać;admŏnĕo, admŏnēre, admonui, admonitum ;admoneo admonere admonui admonitum;True;2024-01-20 12:08:43
+default_user;17;latin;ciało;corpŭs, corporis ;corpus corporis;True;2024-01-20 12:08:49
+default_user;17;latin;niszczyć, usuwać;dēlĕo, dēlēre, delevi, deletum ;deleo delere delevi deletum;True;2024-01-20 12:08:54
+default_user;17;latin;być obecnym, być pomocnym;adsum, adesse, adfui ;adesse adsumus adfui;False;2024-01-20 12:10:15
+default_user;17;latin;dziwny, nadzwyczajny;mīrus, miră, mirum ;admirabilis 3;False;2024-01-20 12:10:29
+default_user;17;latin;bać się;mĕtŭo, mĕtŭĕre, metui, metutum ;timeo timere timui;False;2024-01-20 12:10:37
+default_user;17;latin;wierny;fīdus, fidă, fidum ;fidus a um;True;2024-01-20 12:10:48
+default_user;17;latin;odważny, silny;fortis, fortis, forte ;fortiter 3;False;2024-01-20 12:10:55
+default_user;17;latin;przewyższać;sŭpĕro, sŭpĕrāre, superāvī, superātum ;supero 1;True;2024-01-20 12:11:01
+default_user;17;latin;spaść;cădo, cădĕre, cecidi ;cado cadere cadui cadutum;False;2024-01-20 12:11:08
+default_user;17;latin;okręt;nāvis, navis ;navis navis;True;2024-01-20 12:11:13
+default_user;17;latin;lew;lĕo, leonis ;leo leonis;True;2024-01-20 12:11:15
+default_user;17;latin;droga;vĭa, viae ;via viae;True;2024-01-20 12:11:21
+default_user;17;latin;Iliada;Īlĭăs, Iliadis ;ilias iliadis;True;2024-01-20 12:11:25
+default_user;17;latin;sprytny;astŭtus, astută, astutum ;astutus a um;True;2024-01-20 12:11:29
+default_user;17;latin;dziwny, nadzwyczajny;mīrus, miră, mirum ;mirus mira mirum;True;2024-01-20 12:11:33
+default_user;17;latin;ptak;ăvis, avis ;avis avis;True;2024-01-20 12:11:53
+default_user;17;latin;wierzyć;crēdo, crēdĕre, credidi, creditum ;credo credere credidi creditum;True;2024-01-20 12:12:03
+default_user;17;latin;krótki;brĕvis, brevis, breve ;brevis brevis breve;True;2024-01-20 12:12:10
+default_user;17;latin;dziki, okrutny;fĕrox, fĕrox, fĕrox ;ferox ferocis;False;2024-01-20 12:12:16
+default_user;17;latin;dużo, często;multa ;saepe;False;2024-01-20 12:12:22
+default_user;17;latin;nieszczęśliwy;infēlix, infēlix, infēlix ;infelix infelix infelix;True;2024-01-20 12:12:27
+default_user;17;latin;ślad;vestīgĭum, vestigii ;;False;2024-01-20 12:12:31
+default_user;17;latin;poruszony;motus, mota, motum ;motus a um;True;2024-01-20 12:12:36
+default_user;17;latin;ogromny;ingens, ingens, ingens ;ingens ingens ingens;True;2024-01-20 12:12:41
+default_user;17;latin;być obecnym, być pomocnym;adsum, adesse, adfui ;adsum adesse adfui;True;2024-01-20 12:12:48
+default_user;17;latin;łatwy;făcĭlis, facilis, facile ;facilis facilis facile;True;2024-01-20 12:12:52
+default_user;17;latin;za, za dużo, za bardzo;nĭmĭum, nimii ;;False;2024-01-20 12:12:54
+default_user;17;latin;szybki;cĕlĕr, celeris, celere ;celer celer celeris;False;2024-01-20 12:13:00
+default_user;17;latin;jeden;ūnus, ūna, ūnum ;unus una unum;True;2024-01-20 12:13:06
+default_user;17;latin;z, od (+ abl);ēx ;ab;False;2024-01-20 12:13:13
+default_user;17;latin;jaskinia;spēlunca, speluncae ;spelunca speluncae;True;2024-01-20 12:13:22
+default_user;17;latin;jasny, klarowny, biały;candĭdus, candidă, candidum ;corvus corvi;False;2024-01-20 12:13:32
+default_user;17;latin;dziki, okrutny;fĕrox, fĕrox, fĕrox ;ferox ferox ferox;True;2024-01-20 12:13:39
+default_user;17;latin;zagrażający (+ dat);immĭnens, immĭnens, immĭnens ;imminens imminens imminens;True;2024-01-20 12:13:49
+default_user;17;latin;lecieć;vŏlo, vŏlāre, vŏlāvi, vŏlātum ;volo 1;True;2024-01-20 12:13:52
+default_user;17;latin;błąd;errŏr, erroris ;error erroris;True;2024-01-20 12:13:58
+default_user;17;latin;mądry;săpĭens, săpĭens, săpĭens ;sapiens sapiens sapiens;True;2024-01-20 12:14:03
+default_user;17;latin;słońce;sōl, solis ;sol solis;True;2024-01-20 12:14:06
+default_user;17;latin;zniszczony;deletus, deleta, deletum ;deletus a um;True;2024-01-20 12:14:10
+default_user;17;latin;ślad;vestīgĭum, vestigii ;vestigium vestigii;True;2024-01-20 12:14:16
+default_user;17;latin;liść;fŏlĭum, folii ;folium folii;True;2024-01-20 12:14:44
+default_user;17;latin;dużo, często;multa ;multa;True;2024-01-20 12:14:52
+default_user;17;latin;być wolnym od czegoś (+ abl);văco, văcāre, vacāvī, vacātum ;vaco 1;True;2024-01-20 12:16:08
+default_user;17;latin;na zewnątrz;fŏrās ;foras;True;2024-01-20 12:16:12
+default_user;17;latin;powietrze;āēr, aeris ;aer aeris;True;2024-01-20 12:16:19
+default_user;17;latin;pozostały, inny;rĕlĭquus, reliquă, reliquum ;reliquus a um;True;2024-01-20 12:16:24
+default_user;17;latin;srebro;argentum, argenti ;argentum argenti;True;2024-01-20 12:17:18
+default_user;17;latin;rozzmiękczyć, roztapiać;mollĭo, mollīre, mollii, mollitum ;molio mollire mollivi molitum;False;2024-01-20 12:17:32
+default_user;17;latin;powiedzenie;dictum, dicti ;dictum dicti;True;2024-01-20 12:17:42
+default_user;17;latin;mały lis;vulpēcŭla, vulpeculae ;vulpecula ae;False;2024-01-20 12:17:47
+default_user;17;latin;nauczanie;praeceptum, praecepti ;;False;2024-01-20 12:17:53
+default_user;17;latin;potwór;monstrum, monstri ;monstrum monstri;True;2024-01-20 12:17:57
+default_user;17;latin;zniewaga;contŭmēlĭa, contumeliae ;contumelia contumeliae;True;2024-01-20 12:18:03
+default_user;17;latin;rozzmiękczyć, roztapiać;mollĭo, mollīre, mollii, mollitum ;mollio mollire mollii mollitum;True;2024-01-20 12:18:11
+default_user;17;latin;uwalniać;lībĕro, lībĕrāre, liberāvī, liberātum ;;False;2024-01-20 12:18:13
+default_user;17;latin;rozkwitać, kwitnąć;flōrĕo, flōrēre, florui, flōrendo ;;False;2024-01-20 12:18:17
