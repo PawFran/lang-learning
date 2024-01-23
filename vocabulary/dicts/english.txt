@@ -209,7 +209,7 @@ mellow [adj]
 (That year autumn lingered on as if loath to bring on the fighting troops the rigours of winter, and the weather remained warm and mellow)
 1. pleasant and soft
 
-ramble
+ramble [verb]
 (He spent his days in long country rambles, in interminable discussions on literature)
 1. to walk for a long time, especially in the countryside
 
@@ -359,3 +359,43 @@ influx [noun]
 baffle [verb]
 (National Guard soon began to make itself felt in Paris and to baffle the police)
 1. to cause someone to be completely unable to understand or explain something
+
+disused [adj]
+(Classes began again in a disused theatre)
+1. not used now
+
+aptitude [noun]
+(In any case he felt no aptitude for the stage)
+1. a natural skill or an ability to do something well
+
+huddle [verb]
+(He looked with amazement at the huddled figure asleep on his couch)
+1. to move closer to other people, or to hold your arms and legs close to your body, usually because you are cold or frightened
+
+bewilder [verb]
+(He sat up bewildered at having been suddenly roused)
+1. to amaze or puzzle
+
+rouse [verb]
+(He sat up bewildered at having been suddenly roused)
+1. to awaken
+
+emulate [verb]
+(Vermersch, who was trying to emulate his poetry)
+1. to try to be like someone or something that you admire or that is successful
+
+fortnight [noun]
+(For a fortnight he remained in Paris)
+1. two weeks
+
+abode [noun]
+(Since he had no fixed abode he slept in the barges moored along the banks of the river)
+1. a home
+
+barge [noun]
+(Since he had no fixed abode he slept in the barges moored along the banks of the river)
+1. a long, narrow boat with a flat bottom that is used to carry goods
+
+moor [verb]
+(Since he had no fixed abode he slept in the barges moored along the banks of the river)
+1. to fasten (a ship etc) by a rope, cable or anchor
