@@ -3,6 +3,7 @@ roadmap for language learning
 cwiczenie na tlumaczenia lat -> pl. slowo lacinskie i kilka mozliwosci tlumaczenia pl. jakie mozliwosci wybrac ?
 najpierw losowo, ale potem znajdywac w jakis sposob slowa najczesciej ze soba mylone
 inna opcja to pozwolic zaczac wpisywac i dawac podpowiedzi, ale to nie zadziala w terminalu
+a może zadziała - https://pymotw.com/2/readline/
 
 analiza odpowiedzi - znalezc najblizsze slowo. dzieki temu bedzie mozna patrzec, jakie slowa sa mylone albo czy pomylka nie jest tylko kwestia literowki
 
@@ -98,8 +99,6 @@ kiedy jedno slowo polskie ma wiecej niz jeden odpowiednik trzeba podac wszystkie
 zaimki osobowe
 
 losowanie słów do zdań - być może po polsku (smart, balansować np. czasowniki, przyimki itp.)
-
-w przypadku przymiotnikow 1/2 deklinacji akceptowac skrotowa odpowiedz w translation exercise 
 
 rzeczownik/czasownik po lacinie i wypisanie wszystkich mozliwych form, w jakim moze wystepować (deklinacja/koniugacja)
 

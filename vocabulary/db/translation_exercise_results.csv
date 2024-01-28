@@ -685,3 +685,13 @@ default_user;17;latin;zniewaga;contŭmēlĭa, contumeliae ;contumelia contumelia
 default_user;17;latin;rozzmiękczyć, roztapiać;mollĭo, mollīre, mollii, mollitum ;mollio mollire mollii mollitum;True;2024-01-20 12:18:11
 default_user;17;latin;uwalniać;lībĕro, lībĕrāre, liberāvī, liberātum ;;False;2024-01-20 12:18:13
 default_user;17;latin;rozkwitać, kwitnąć;flōrĕo, flōrēre, florui, flōrendo ;;False;2024-01-20 12:18:17
+default_user;18;latin;ozdobiony;ornātus, ornata, um ;ornatus a um;True;2024-01-28 13:39:16
+default_user;18;latin;niewiarygodny;incrēdĭbĭlis, incredibilis, incredibile ;mirus a um;False;2024-01-28 13:47:58
+default_user;18;latin;spadły, opadły;cădūcus, caducă, caducum ;caducus a um;True;2024-01-28 13:48:03
+default_user;18;latin;zagrażający (+ dat);immĭnens, immĭnens, immĭnens ;imminens imminens imminens;True;2024-01-28 13:48:14
+default_user;19;latin;dziwny, nadzwyczajny;mīrus, miră, mirum ;mirus a um;True;2024-01-28 13:52:56
+default_user;20;latin;zagrażający (+ dat);immĭnens, immĭnens, immĭnens ;imminens 3;False;2024-01-28 13:53:19
+default_user;21;latin;zagrażający (+ dat);immĭnens, immĭnens, immĭnens ;imminens 3;False;2024-01-28 13:54:28
+default_user;22;latin;zagrażający (+ dat);immĭnens, immĭnens, immĭnens ;imminens 3;False;2024-01-28 13:55:14
+default_user;22;latin;zagrażający (+ dat);immĭnens, immĭnens, immĭnens ;imminens 3;False;2024-01-28 13:55:27
+default_user;23;latin;zagrażający (+ dat);immĭnens, immĭnens, immĭnens ;imminens 3;True;2024-01-28 13:57:17
