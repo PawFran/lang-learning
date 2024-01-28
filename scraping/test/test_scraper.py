@@ -1,4 +1,4 @@
-from scraping.lib.scraper import LatinDictScraper
+from scraping.lib.latin_scraper import LatinDictScraper
 
 scraper = LatinDictScraper(None, None, None)
 

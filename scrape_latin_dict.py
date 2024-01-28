@@ -2,7 +2,7 @@ import re
 import sys
 import logging
 
-from scraping.lib.scraper import *
+from scraping.lib.latin_scraper import *
 
 output_temporary_file_name = 'scraping_out_tmp.txt'
 
