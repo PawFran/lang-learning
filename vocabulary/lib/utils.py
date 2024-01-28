@@ -78,7 +78,10 @@ def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
         else:
             return all_elements_equal(original_as_list, answer_as_list)
     elif LatinAdjective.is_adjective(entry_head):
-        return (all_elements_equal(original_as_list, answer_as_list) or
-                all_elements_equal_adjective_number_shortcut(original_as_list, answer_as_list))
+        if len(set(original_as_list)) == 1:  # that is all entries are the same
+            return (all_elements_equal(original_as_list, answer_as_list) or
+                    all_elements_equal_adjective_number_shortcut(original_as_list, answer_as_list))
+        else:
+            return all_elements_equal(original_as_list, answer_as_list)
     else:
         return all_elements_equal(original_as_list, answer_as_list)

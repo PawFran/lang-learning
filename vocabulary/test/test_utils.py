@@ -54,11 +54,20 @@ def test_compare_answer_with_full_head_raw_adjective_ending_shortcut():
     assert not compare_answer_with_full_head_raw(head_raw2, 'acer a um')
 
 
-@pytest.mark.skip(reason='TO DO')
+def test_compare_answer_with_full_head_raw_adjective_number_shortcut():
+    head_raw = 'imminens, imminens, imminens [adj]'
+    head_raw2 = 'imminens , imminens, imminens [adj]'
+    head_raw3 = 'acer, acris, acre [adj]'
+
+    assert compare_answer_with_full_head_raw(head_raw, 'imminens 3')
+    assert compare_answer_with_full_head_raw(head_raw2, 'imminens 3')
+    assert not compare_answer_with_full_head_raw(head_raw3, 'acer 3')
+
+
 def test_compare_answer_with_full_head_raw_adjective_shortcuts():
     head_raw = 'sempiternus, sempiterna, sempiternum [adj]'
     head_raw2 = 'acer, acris, acre [adj]'
 
-    assert compare_answer_with_full_head_raw(head_raw, 'semptiternus a um')
+    assert compare_answer_with_full_head_raw(head_raw, 'sempiternus a um')
     assert not compare_answer_with_full_head_raw(head_raw2, 'acer a um')
     assert not compare_answer_with_full_head_raw(head_raw2, 'acer is e')
