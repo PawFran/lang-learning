@@ -695,3 +695,48 @@ default_user;21;latin;zagrażający (+ dat);immĭnens, immĭnens, immĭnens ;imm
 default_user;22;latin;zagrażający (+ dat);immĭnens, immĭnens, immĭnens ;imminens 3;False;2024-01-28 13:55:14
 default_user;22;latin;zagrażający (+ dat);immĭnens, immĭnens, immĭnens ;imminens 3;False;2024-01-28 13:55:27
 default_user;23;latin;zagrażający (+ dat);immĭnens, immĭnens, immĭnens ;imminens 3;True;2024-01-28 13:57:17
+default_user;24;latin;zagrażający (+ dat);immĭnens, immĭnens, immĭnens ;imminens 3;True;2024-01-28 13:59:28
+default_user;25;latin;zawiść;invĭdĭa, invidiae ;invidia invidiae;True;2024-01-28 14:24:15
+default_user;25;latin;pozostały, inny;rĕlĭquus, reliquă, reliquum ;reliquus a um;True;2024-01-28 14:24:27
+default_user;25;latin;łatwy;făcĭlis, facilis, facile ;facilis facilis facile;True;2024-01-28 14:24:39
+default_user;26;latin;kłopoty, irytacja;mŏlestĭa, molestiae ;molestia molestiae;True;2024-01-28 14:43:14
+default_user;26;latin;potwór;monstrum, monstri ;monstrum monstri;True;2024-01-28 14:43:18
+default_user;26;latin;szybki;cĕlĕr, celeris, celere ;celer celer celeris;False;2024-01-28 14:43:23
+default_user;26;latin;zwierzę;ănĭmăl, animalis ;animal animalis;True;2024-01-28 14:43:32
+default_user;26;latin;łatwy;făcĭlis, facilis, facile ;facilis facilis facile;True;2024-01-28 14:43:37
+default_user;26;latin;mleko;lācte, lactis ;lactis lactatis;False;2024-01-28 14:43:46
+default_user;26;latin;wolność;lībertās, libertatis ;libertas libertatis;True;2024-01-28 14:43:52
+default_user;26;latin;położony;situs, sită, situm ;situs a um;True;2024-01-28 14:43:56
+default_user;26;latin;spustoszyć;vasto, vastāre, vastāvī, vastātum ;vasto 1;True;2024-01-28 14:43:58
+default_user;26;latin;powiedzenie;dictum, dicti ;dictum dicti;True;2024-01-28 14:44:01
+default_user;26;latin;wiązać, łączyć;lĭgo, ligare, ligavi, ligatum ;;False;2024-01-28 14:44:05
+default_user;26;latin;odważny, silny;fortis, fortis, forte ;fortis fortis forte;True;2024-01-28 14:44:13
+default_user;26;latin;miód;mĕl, mellis ;mel mellis;True;2024-01-28 14:44:17
+default_user;26;latin;szybki;cĕlĕr, celeris, celere ;celer celeris celere;True;2024-01-28 14:44:22
+default_user;26;latin;wierzyć;crēdo, crēdĕre, credidi, creditum ;credo credere credidi creditum;True;2024-01-28 14:44:29
+default_user;26;latin;każdy, wszystek;omnis, omnis, omne ;omnis omnis omne;True;2024-01-28 14:44:35
+default_user;26;latin;złoto;aūrūm, auri ;aurum auri;True;2024-01-28 14:44:41
+default_user;27;latin;młodość;ădŭlescentĭa, adulescentiae ;adulescentia adulescentiae;True;2024-01-28 16:18:47
+default_user;27;latin;wspólny;commūnis, communis, commune ;communis 1;False;2024-01-28 16:19:06
+default_user;27;latin;państwo, imperium;impĕrĭum, imperii ;imperium imperii;True;2024-01-28 16:19:11
+default_user;27;latin;dyskrecja;prūdentĭa, prudentiae ;prudentia prudentiae;True;2024-01-28 16:19:16
+default_user;27;latin;liść;fŏlĭum, folii ;folium folii;True;2024-01-28 16:19:25
+default_user;27;latin;tani, pospolity;vīlis, vilis, vile ;;False;2024-01-28 16:19:28
+default_user;27;latin;raczej;pŏtĭus ;potius;True;2024-01-28 16:19:31
+default_user;27;latin;ogromny;ingens, ingens, ingens ;ingens 3;True;2024-01-28 16:19:36
+default_user;27;latin;rozważny;prūdens, prūdens, prūdens ;;False;2024-01-28 16:19:40
+default_user;27;latin;zniszczony;deletus, deleta, deletum ;deletus a um;True;2024-01-28 16:19:48
+default_user;27;latin;sprytny;astŭtus, astută, astutum ;astutus a um;True;2024-01-28 16:19:51
+default_user;27;latin;mały lis;vulpēcŭla, vulpeculae ;vulpecula culpeculae;False;2024-01-28 16:19:56
+default_user;27;latin;ciało;corpŭs, corporis ;corpus corporis;True;2024-01-28 16:20:01
+default_user;27;latin;powiedzieć;dĭco, dīcĕre, dixi, dictum ;dico dicere didici dictum;False;2024-01-28 16:20:07
+default_user;27;latin;rozważny;prūdens, prūdens, prūdens ;prudens prudens prudens;True;2024-01-28 16:20:19
+default_user;27;latin;położony;situs, sită, situm ;situs a um;True;2024-01-28 16:20:22
+default_user;27;latin;tani, pospolity;vīlis, vilis, vile ;vilis vilis vile;True;2024-01-28 16:20:27
+default_user;27;latin;nauczanie;praeceptum, praecepti ;dictum dicti;False;2024-01-28 16:20:32
+default_user;27;latin;być wolnym od (+ abl);cărĕo, cărēre, carui, cărendo ;vaco 1;False;2024-01-28 16:20:36
+default_user;27;latin;kruk;corvus, corvi ;corvus a um;False;2024-01-28 16:20:41
+default_user;27;latin;słońce;sōl, solis ;sol solis;True;2024-01-28 16:20:45
+default_user;27;latin;poruszony;motus, mota, motum ;motus a um;True;2024-01-28 16:20:49
+default_user;27;latin;błąd;errŏr, erroris ;error erroris;True;2024-01-28 16:20:53
+default_user;27;latin;śnieg;nix, nivis ;nix nivis;True;2024-01-28 16:21:00
