@@ -63,6 +63,11 @@ comparativus + quam (fidior quam canis) lub + abl comparationis (fidior cane)
 superlativus może być połączony z gen partitivus (najwyższy ze wszystkich - omnis altissimus)
 
 
+imiesłów (participium):
+do tematu praes dodaje się -ns (nom), -ntis (gen)
+odmiana wg III deklinacji mieszanej, chociaż zdaża się, że participium jest w funkcji przymiotnika - wtedy abl. sing -i
+
+
 
 części zdania
 * podmiot
@@ -173,10 +178,13 @@ per aera - rzecz. III dekl. pochodzenia greckiego mogą mieć w acc sing -a
 mare, chociaż należy do deklinacji samogłoskowej, w abl sing może mieć zarówno formę mari jak i mare
 
 quid dulcius est quam discere multa ?
-quid - podmiot. discere ? multa - przysłówek]
+quid - podmiot. discere ? multa - przysłówek
 ogólnie - jaką częścią zdania może być infinitivus ?
 
 podać przykład, kiedy inne użycie przypadka łacińskiego pozwala lepiej zrozumieć dane słowo
 
 non potest inveniri vita hominis carens molestia
 inveniri - jaka część zdania ? vita - jaki przypadek ?
+zamiast "nie znajdziesz życia pozbawionego trosk" raczej "życie bez trosk nie może być znalezione"
+(invenio - infinitivus passivi jest taki sam: invenire). dosłownie: "życie ludzkie będące wolne od trosk nie może być znalezione"
+

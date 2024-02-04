@@ -1492,7 +1492,7 @@ commūnis, communis, commune [adj]
 1. wspólny
 
 dulcis, dulcis, dulce [adj]
-()
+(Quid dulcius est quam discere multa ?)
 1. słodki
 
 lībertās, libertatis [noun] [f] [III]
@@ -1762,9 +1762,18 @@ multa [adv]
 1. dużo, często
 
 mŏlestĭa, molestiae [noun] [f] [I]
-()
+(Non potest inveniri vita hominis carens molestia)
 1. kłopoty, irytacja
 
 cărĕo, cărēre, carui, cărendo [verb] [II]
-()
+(Non potest inveniri vita hominis carens molestia)
 1. być wolnym od (+ abl)
+
+rŏgo, rŏgāre, rogāvī, rogātum [verb] [I]
+(Rogantibus potius quam imperantibus paremus)
+1. prosić, prosić o
+
+impĕro, impĕrāre, imperāvī, imperātum [verb] [I]
+(Rogantibus potius quam imperantibus paremus)
+1. rozkazywać, dowodzić
+2. (+ celownik) rządzić (nad)

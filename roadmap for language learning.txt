@@ -1,5 +1,9 @@
 roadmap for language learning
 
+dodać pronoun do słownika: quis, quis quid oraz qui quae quod - i wszystkie w ogóle zaimki
+
+dodać participium do deklinacji ? albo osobne ćwiczenie
+
 cwiczenie na tlumaczenia lat -> pl. slowo lacinskie i kilka mozliwosci tlumaczenia pl. jakie mozliwosci wybrac ?
 najpierw losowo, ale potem znajdywac w jakis sposob slowa najczesciej ze soba mylone
 inna opcja to pozwolic zaczac wpisywac i dawac podpowiedzi, ale to nie zadziala w terminalu
