@@ -1776,4 +1776,63 @@ rŏgo, rŏgāre, rogāvī, rogātum [verb] [I]
 impĕro, impĕrāre, imperāvī, imperātum [verb] [I]
 (Rogantibus potius quam imperantibus paremus)
 1. rozkazywać, dowodzić
-2. (+ celownik) rządzić (nad)
+2. (+ dat) rządzić (nad)
+
+sĕnesco, sĕnescĕre, senui, sĕnescendo [verb] [III]
+()
+1. zestarzeć się
+
+crīmĕn, criminis [noun] [n] [III]
+(Nocentem qui defendit sibi crimen parit)
+1. zarzut, oskarżenie
+2. przestępstwo
+
+incīdo, incĭdĕre, incidi, incĭdendo [verb] [III]
+(Incidis in Scyllam cupiens vitare Charybdim)
+1. wpadać, spadać (do czegoś, na kogoś/coś)
+
+mălĕ [adv]
+(Sero venientes male sedentes)
+1. źle
+
+sero [adv]
+(Sero venientes male sedentes)
+1. późno
+
+sĕdĕo, sĕdēre, sedi, sessum [verb] [II]
+(Sero venientes male sedentes)
+1. siedzieć
+
+ŏs, ossis [noun] [n] [III]
+(Tarde venientibus ossa)
+1. kość
+
+tardē [adv]
+(Tarde venientibus ossa)
+1. powoli
+2. z trudem
+3. późno
+
+contrā [prep]
+(Contra vim mortis medicamen non est in hortis)
+1. (+ acc) przeciwko
+
+mors, mortis [noun] [f] [III]
+(Contra vim mortis medicamen non est in hortis)
+1. śmierć
+
+mĕdĭcāmĕn, medicaminis [noun] [n] [III]
+(Contra vim mortis medicamen non est in hortis)
+1. lek
+
+āmens, āmens, āmens [adj]
+(Amantes - amentes)
+1. szalony
+
+intĕgrātĭo, integrationis [noun] [f] [III]
+(Amantium irae - amoris integratio)
+1. integracja
+
+īra, irae [noun] [f] [I]
+(Amantium irae - amoris integratio)
+1. złość, gniew
