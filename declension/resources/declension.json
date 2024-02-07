@@ -322,6 +322,66 @@
         }
       }
     }
+  },
+  "is": {
+    "demonstrative": {
+      "masculinum": {
+        "singularis": {
+          "nominativus": "is",
+          "genetivus": "eius",
+          "dativus": "ei",
+          "accusativus": "eum",
+          "ablativus": "eo"
+        },
+        "pluralis": {
+          "nominativus": "ei",
+          "genetivus": "eorum",
+          "dativus": "eis",
+          "accusativus": "eos",
+          "ablativus": "eis"
+        }
+      }
+    }
+  },
+  "ea": {
+    "demonstrative": {
+      "femininum": {
+        "singularis": {
+          "nominativus": "ea",
+          "genetivus": "eius",
+          "dativus": "ei",
+          "accusativus": "eam",
+          "ablativus": "ea"
+        },
+        "pluralis": {
+          "nominativus": "eae",
+          "genetivus": "earum",
+          "dativus": "eis",
+          "accusativus": "eas",
+          "ablativus": "eis"
+        }
+      }
+    }
+  },
+  "id": {
+    "demonstrative": {
+      "neutrum": {
+        "singularis": {
+          "nominativus": "id",
+          "genetivus": "eius",
+          "dativus": "ei",
+          "accusativus": "id",
+          "ablativus": "eo"
+        },
+        "pluralis": {
+          "nominativus": "ea",
+          "genetivus": "eorum",
+          "dativus": "eis",
+          "accusativus": "ea",
+          "ablativus": "eis"
+        }
+      }
+    }
   }
 }
   
