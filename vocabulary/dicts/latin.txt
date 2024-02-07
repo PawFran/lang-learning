@@ -829,7 +829,8 @@ auctor, auctōris [noun] [m] [III]
 
 salus, salūtis [noun] [f] [III]
 ()
-1. zbawienie
+1. zdrowie
+2. zbawienie
 
 dispŭto, dispŭtāre, disputāvī, disputātum [verb] [I]
 ()
@@ -1836,3 +1837,48 @@ intĕgrātĭo, integrationis [noun] [f] [III]
 īra, irae [noun] [f] [I]
 (Amantium irae - amoris integratio)
 1. złość, gniew
+
+fīlus, fili [noun] [m] [II]
+(Omnia sunt hominum tenui pendentia filo)
+1. nić, sznurek
+
+pendĕo, pendēre, pependi, pendendo [verb] [II]
+(Omnia sunt hominum tenui pendentia filo)
+1. wisieć (w dół), być zawieszonym
+
+tĕnŭis, tenuis, tenue [adj]
+(Omnia sunt hominum tenui pendentia filo)
+1. cienki, delikatny
+
+rĕcĭto, rĕcĭtāre, recitāvī, recitātum [verb] [I]
+()
+1. czytać na głos, recytować
+
+praetĕr [prep]
+(Praeter Platonem omnes audientes poetam legentem reliquerunt)
+1. oprócz
+
+dēsĭno, dēsĭnĕre, desii, desitum [verb] [III]
+()
+1. zaprzestać, zakończyć
+
+pro [prep]
+(Unus Plato mihi est pro centum millibus audientium)
+1. w zastępstwie (czymś), zamiast (kogoś, czegoś)
+
+centŭrĭo, centurionis [noun] [m] [III]
+()
+1. centurion
+
+pugna, pugnae [noun] [f] [I]
+()
+1. bitwa, walka
+
+despēro, despērāre, desperāvī, desperātum [verb] [I]
+()
+1. rozpaczać (nad)
+2. tracić nadzieję na
+
+vulneratus, vulnerată, vulneratum [verb] [I]
+()
+1. zraniony

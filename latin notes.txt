@@ -39,10 +39,12 @@ deklinacje w skrócie
 III spółgłoskowa
 	imparisyllaba z tematem kończącym się na spółgłoskę + rodzina z psem
 III samogłoskowa
-	końcówka -e -al -ar
+	rzecz. końcówka -e -al -ar
+	niektóre przymiotniki (nie pasujące do 1/2 dekl)
+	imiesłowy
 	abl sing końc. -i
-	pl temat kończy się na -i
-	przykłady poza neutrum ?
+	gen pl -ium, w neut. nom/acc/voc pl -ia
+	przykład odmiany przymiotników https://dcc.dickinson.edu/grammar/latin/3rd-declension-adjectives-classification-and-paradigms
 III mieszana
 	parisyllaba z nom sing -is, -es
 	imparisyllaba które przed końcówką gen sing -is mają >= 2 spółgłoski np. urbs, urbis, arx, arcis, ars, artis
@@ -188,3 +190,5 @@ inveniri - jaka część zdania ? vita - jaki przypadek ?
 zamiast "nie znajdziesz życia pozbawionego trosk" raczej "życie bez trosk nie może być znalezione"
 (invenio - infinitivus passivi jest taki sam: invenire). dosłownie: "życie ludzkie będące wolne od trosk nie może być znalezione"
 
+omnia sunt hominum tenui pendentia filo
+wszystko (co) ludzkie jest wiszące na cienkim sznurku. bez przyimka ?
