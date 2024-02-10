@@ -95,7 +95,7 @@ def test_declension_case_from_string_invalid():
 
 def test_parsing_full_declension_dict():
     # integration test - whether declension.json is parsed without errors
-    dict_file_path = os.path.join("..", "resources", "declension.json")
+    dict_file_path = os.path.join("declension", "resources", "declension.json")
 
     Declensions.from_file_path(dict_file_path)
 
