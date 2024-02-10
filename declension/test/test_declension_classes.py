@@ -93,6 +93,13 @@ def test_declension_case_from_string_invalid():
         assert DeclensionCase.from_string('nominativues')
 
 
+def test_parsing_full_declension_dict():
+    # integration test - whether declension.json is parsed without errors
+    dict_file_path = os.path.join("..", "resources", "declension.json")
+
+    Declensions.from_file_path(dict_file_path)
+
+
 @pytest.mark.skip(reason="to be finished")
 def test_declension_from_dict():
     d = Declensions.from_file_path(path_to_declension_file)

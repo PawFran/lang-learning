@@ -386,7 +386,7 @@
   "quis, quid": {
     "interrogative": {
       "": {
-        "": {
+        "singularis": {
           "nominativus": "quis? quid?",
           "genetivus": "cuius?",
           "dativus": "cui?",

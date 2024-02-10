@@ -14,6 +14,9 @@ class DeclensionType(Enum):
     IV = 4
     V = 5
     RELATIVE = 6
+    DEMONSTRATIVE = 7
+    INTERROGATIVE = 8
+
 
     @staticmethod
     def from_string(s: str):
@@ -36,6 +39,10 @@ class DeclensionType(Enum):
                 return DeclensionType.V
             case 'relative' | 'rel':
                 return DeclensionType.RELATIVE
+            case 'demonstrative' | 'dem':
+                return DeclensionType.DEMONSTRATIVE
+            case 'interrogative' | 'inter':
+                return DeclensionType.INTERROGATIVE
             case _:
                 raise Exception(f'cannot parse string {s} to DeclensionType')
 
@@ -116,8 +123,13 @@ class SingleDeclensionPattern:
         number = [*d[base_word]][0]
         genre = [*d[base_word][number]][0]
 
-        sing_pattern = d[base_word][number][genre]['singularis']
-        pl_pattern = d[base_word][number][genre]['pluralis']
+        word_nr_genre = d[base_word][number][genre]
+
+        sing_pattern = word_nr_genre['singularis']
+        pl_pattern = {}
+        # some pronouns doesn't have plural
+        if len(word_nr_genre.keys()) > 1:
+            pl_pattern = word_nr_genre['pluralis']
 
         return SingleDeclensionPattern(
             base_word=base_word,
