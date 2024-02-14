@@ -740,3 +740,18 @@ default_user;27;latin;słońce;sōl, solis ;sol solis;True;2024-01-28 16:20:45
 default_user;27;latin;poruszony;motus, mota, motum ;motus a um;True;2024-01-28 16:20:49
 default_user;27;latin;błąd;errŏr, erroris ;error erroris;True;2024-01-28 16:20:53
 default_user;27;latin;śnieg;nix, nivis ;nix nivis;True;2024-01-28 16:21:00
+default_user;28;latin;źle;mălĕ ;;False;2024-02-10 12:23:29
+default_user;28;latin;oprócz;praetĕr ;;False;2024-02-10 12:23:32
+default_user;28;latin;zestarzeć się;sĕnesco, sĕnescĕre, senui, sĕnescendo ;senesco 1;False;2024-02-10 12:23:38
+default_user;28;latin;złość, gniew;īra, irae ;;False;2024-02-10 12:23:41
+default_user;28;latin;(+ dat) rządzić (nad);impĕro, impĕrāre, imperāvī, imperātum ;impero 1;True;2024-02-10 12:23:46
+default_user;28;latin;oprócz;praetĕr ;;False;2024-02-10 12:23:50
+default_user;28;latin;cienki, delikatny;tĕnŭis, tenuis, tenue ;tenuis tenuis tenue;True;2024-02-10 12:23:59
+default_user;28;latin;prosić, prosić o;rŏgo, rŏgāre, rogāvī, rogātum ;rogo 1;True;2024-02-10 12:24:04
+default_user;28;latin;zarzut, oskarżenie;crīmĕn, criminis ;crimen;False;2024-02-10 12:24:07
+default_user;28;latin;zaprzestać, zakończyć;dēsĭno, dēsĭnĕre, desii, desitum ;desidero 1;False;2024-02-10 12:24:28
+default_user;28;latin;szalony;āmens, āmens, āmens ;;False;2024-02-10 12:24:31
+default_user;28;latin;siedzieć;sĕdĕo, sĕdēre, sedi, sessum ;sedeo sedere sedui sedentum;False;2024-02-10 12:24:39
+default_user;28;latin;czytać na głos, recytować;rĕcĭto, rĕcĭtāre, recitāvī, recitātum ;recito 1;True;2024-02-10 12:24:51
+default_user;28;latin;nić, sznurek;fīlus, fili ;filum fili;False;2024-02-10 12:24:56
+default_user;28;latin;wpadać, spadać (do czegoś, na kogoś/coś);incīdo, incĭdĕre, incidi, incĭdendo ;incido 1;False;2024-02-10 12:25:02

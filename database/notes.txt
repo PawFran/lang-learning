@@ -1,4 +1,12 @@
 triggery
+CREATE TRIGGER insert_latin_verb_translation_mapping after INSERT
+    ON latin_verbs
+    WHEN NEW.ID NOT IN (SELECT word_id FROM latin_words_translations_mapping)
+BEGIN
+    INSERT INTO latin_words_translations_mapping (word_id, translation_id, part_of_speech) VALUES (NEW.ID, null, 'verb');
+END
+
+
 CREATE TRIGGER IF NOT EXISTS latin_verbs_words
 BEFORE INSERT ON insert_latin_verbs
 BEGIN
