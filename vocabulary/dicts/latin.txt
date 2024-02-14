@@ -1788,7 +1788,7 @@ crīmĕn, criminis [noun] [n] [III]
 1. zarzut, oskarżenie
 2. przestępstwo
 
-incīdo, incĭdĕre, incidi, incĭdendo [verb] [III]
+incīdo, incĭdĕre, incidi [verb] [III]
 (Incidis in Scyllam cupiens vitare Charybdim)
 1. wpadać, spadać (do czegoś, na kogoś/coś)
 
@@ -1816,7 +1816,7 @@ tardē [adv]
 
 contrā [prep]
 (Contra vim mortis medicamen non est in hortis)
-1. (+ acc) przeciwko
+1. przeciwko (+ acc)
 
 mors, mortis [noun] [f] [III]
 (Contra vim mortis medicamen non est in hortis)
@@ -1842,7 +1842,7 @@ fīlus, fili [noun] [m] [II]
 (Omnia sunt hominum tenui pendentia filo)
 1. nić, sznurek
 
-pendĕo, pendēre, pependi, pendendo [verb] [II]
+pendĕo, pendēre, pependi [verb] [II]
 (Omnia sunt hominum tenui pendentia filo)
 1. wisieć (w dół), być zawieszonym
 
