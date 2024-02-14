@@ -59,6 +59,6 @@ if __name__ == '__main__':
         if not args.keep:
             current_length = current_dict.length()
             if current_length % 10 == 0:
-                print(f'current nr of entries: {current_length}')
+                print(f'current nr of entries: {current_length}\n')
 
     print('terminating..')
