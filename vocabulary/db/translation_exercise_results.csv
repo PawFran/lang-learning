@@ -755,3 +755,43 @@ default_user;28;latin;siedzieć;sĕdĕo, sĕdēre, sedi, sessum ;sedeo sedere se
 default_user;28;latin;czytać na głos, recytować;rĕcĭto, rĕcĭtāre, recitāvī, recitātum ;recito 1;True;2024-02-10 12:24:51
 default_user;28;latin;nić, sznurek;fīlus, fili ;filum fili;False;2024-02-10 12:24:56
 default_user;28;latin;wpadać, spadać (do czegoś, na kogoś/coś);incīdo, incĭdĕre, incidi, incĭdendo ;incido 1;False;2024-02-10 12:25:02
+default_user;29;latin;prosić, prosić o;rŏgo, rŏgāre, rogāvī, rogātum ;rogo 1;True;2024-02-14 21:03:43
+default_user;29;latin;zarzut, oskarżenie;crīmĕn, criminis ;crimen criminis;True;2024-02-14 21:03:48
+default_user;29;latin;rozkazywać, dowodzić;impĕro, impĕrāre, imperāvī, imperātum ;impero 1;True;2024-02-14 21:03:55
+default_user;29;latin;późno;tardē ;tarde;True;2024-02-14 21:03:58
+default_user;29;latin;wisieć (w dół), być zawieszonym;pendĕo, pendēre, pependi ;pendeo pendere pependi;True;2024-02-14 21:04:05
+default_user;29;latin;kość;ŏs, ossis ;os ossis;True;2024-02-14 21:04:09
+default_user;29;latin;czytać na głos, recytować;rĕcĭto, rĕcĭtāre, recitāvī, recitātum ;desino desinere dedidi;False;2024-02-14 21:04:21
+default_user;29;latin;złość, gniew;īra, irae ;ira irae;True;2024-02-14 21:04:26
+default_user;29;latin;oprócz;praetĕr ;praeter;True;2024-02-14 21:04:30
+default_user;29;latin;siedzieć;sĕdĕo, sĕdēre, sedi, sessum ;sedeo sedere sedui sessum;False;2024-02-14 21:04:38
+default_user;29;latin;zraniony;vulneratus, vulnerată, vulneratum ;vulneratus a um;False;2024-02-14 21:04:47
+default_user;29;latin;(+ dat) rządzić (nad);impĕro, impĕrāre, imperāvī, imperātum ;impero 1;True;2024-02-14 21:05:16
+default_user;29;latin;nić, sznurek;fīlus, fili ;filius filii;False;2024-02-14 21:05:22
+default_user;29;latin;rozpaczać (nad);despēro, despērāre, desperāvī, desperātum ;despero 1;True;2024-02-14 21:05:28
+default_user;29;latin;cienki, delikatny;tĕnŭis, tenuis, tenue ;tenui tenui tenue;False;2024-02-14 21:05:35
+default_user;29;latin;w zastępstwie (czymś), zamiast (kogoś, czegoś);pro ;pro;True;2024-02-14 21:05:41
+default_user;29;latin;późno;sero ;tarde;False;2024-02-14 21:05:43
+default_user;29;latin;wpadać, spadać (do czegoś, na kogoś/coś);incīdo, incĭdĕre, incidi ;incido incidere incidi;True;2024-02-14 21:05:55
+default_user;29;latin;przeciwko (+ acc);contrā ;contra;True;2024-02-14 21:06:00
+default_user;29;latin;zaprzestać, zakończyć;dēsĭno, dēsĭnĕre, desii, desitum ;desino desinero dedidi;False;2024-02-14 21:06:14
+default_user;29;latin;czytać na głos, recytować;rĕcĭto, rĕcĭtāre, recitāvī, recitātum ;recito 1;True;2024-02-14 21:06:32
+default_user;29;latin;bitwa, walka;pugna, pugnae ;pugna pugnae;True;2024-02-14 21:06:36
+default_user;29;latin;źle;mălĕ ;male;True;2024-02-14 21:06:39
+default_user;29;latin;cienki, delikatny;tĕnŭis, tenuis, tenue ;tenuis tenuis tenue;True;2024-02-14 21:06:45
+default_user;29;latin;zraniony;vulneratus, vulnerată, vulneratum ;vulneratus vulnerata vulneratum;True;2024-02-14 21:06:54
+default_user;29;latin;szalony;āmens, āmens, āmens ;amens 3;True;2024-02-14 21:07:03
+default_user;29;latin;zestarzeć się;sĕnesco, sĕnescĕre, senui, sĕnescendo ;senesco senescere;False;2024-02-14 21:07:11
+default_user;29;latin;powoli;tardē ;tarde;True;2024-02-14 21:07:32
+default_user;29;latin;późno;sero ;tarde;False;2024-02-14 21:07:35
+default_user;29;latin;integracja;intĕgrātĭo, integrationis ;integratio integrationis;True;2024-02-14 21:07:40
+default_user;29;latin;centurion;centŭrĭo, centurionis ;centurio centurionis;True;2024-02-14 21:07:46
+default_user;29;latin;z trudem;tardē ;tarde;True;2024-02-14 21:07:49
+default_user;29;latin;zaprzestać, zakończyć;dēsĭno, dēsĭnĕre, desii, desitum ;desino desinere desii desitum;True;2024-02-14 21:08:11
+default_user;29;latin;późno;sero ;sero;True;2024-02-14 21:08:19
+default_user;29;latin;lek;mĕdĭcāmĕn, medicaminis ;medicamen medicaminis;True;2024-02-14 21:08:28
+default_user;29;latin;przestępstwo;crīmĕn, criminis ;crimen criminis;True;2024-02-14 21:08:32
+default_user;29;latin;śmierć;mors, mortis ;mors mortis;True;2024-02-14 21:08:36
+default_user;29;latin;nić, sznurek;fīlus, fili ;filus fili;True;2024-02-14 21:08:40
+default_user;29;latin;tracić nadzieję na;despēro, despērāre, desperāvī, desperātum ;despero 1;True;2024-02-14 21:08:46
+default_user;29;latin;siedzieć;sĕdĕo, sĕdēre, sedi, sessum ;sedeo sedere sedui sessum;False;2024-02-14 21:08:54
