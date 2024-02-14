@@ -40,7 +40,7 @@ if __name__ == '__main__':
         declension_test: DeclensionTest = random_declension_entry(current_dict, rng,
                                                                   pop)  # here current_dict may be modified
         if declension_test is None:
-            should_continue = False  # means all entries where already removed
+            should_continue = False  # means all entries were already removed
         else:
             declension_prompt: DeclensionPrompt = declension_test.prompt
             print(declension_prompt.base_word, declension_prompt.case, declension_prompt.number)
