@@ -1,5 +1,7 @@
 roadmap for language learning
 
+### vulneratus, vulnerată, vulneratum - nie działa vulneratus 3
+
 ### błąd w parsowaniu. np. incido - i chyba ogólnie słowa niemające supinum
 
 dodać pronoun do słownika: quis, quis quid oraz qui quae quod - i wszystkie w ogóle zaimki
