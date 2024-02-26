@@ -1876,9 +1876,17 @@ pugna, pugnae [noun] [f] [I]
 
 despēro, despērāre, desperāvī, desperātum [verb] [I]
 ()
-1. rozpaczać (nad)
+1. rozpaczać (nad) (+ de + abl)
 2. tracić nadzieję na
 
 vulneratus, vulnerată, vulneratum [verb] [I]
 ()
 1. zraniony
+
+irrumpo, irrumpĕre, irrupi, irruptum [verb] [III]
+()
+1. wtargnąć
+
+hostis, hostis [noun] [m] [f]
+()
+1. wróg

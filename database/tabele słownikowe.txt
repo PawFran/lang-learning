@@ -1,0 +1,20 @@
+tabele słownikowe
+
+jedno słowo
+jedna część mowy
+wiele tłumaczeń. poza tym w jednym tłumaczeniu mogą być synonimy (np. uczyć, nauczać)
+wiele przypadków, z którymi się łączy
+inne słowo może mieć takie samo tłumaczenie
+przykład (zdanie) opcjonalny. przykład powinien być per tłumaczenie - podobnie jak przypadek z którym się łączy
+może być więcej niż jeden rodzaj (m/f)
+supinum opcjonalne
+metadane i komentarze
+
+
+jakie akcje:
+tłumaczenie pl -> obcy (wystarczy jedno ? wiele ?)
+tłumaczenie obcy -> pl (wystarczy jedno ? wiele ?)
+filtrowanie po częściach mowy
+filtrowanie po innych metadanych (numer deklinacji, koniugacji itp.)
+wskazywanie z jakim się łączy przypadkiem
+wskazywanie innych form (np. supinum) dla podanego bezokolicznika
