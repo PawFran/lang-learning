@@ -1,5 +1,8 @@
 roadmap for language learning
 
+podczas nowej sesji pytać najpierw o to, co dotąd było najczęściej źle (powiedzmy ostatnie x razy) a potem wg kolejności
+co z tymi, które w trakcie sesji zostały źle ocenione ? może podbijać prawdopodobieństwo o X
+
 ### vulneratus, vulnerată, vulneratum - nie działa vulneratus 3
 
 ### błąd w parsowaniu. np. incido - i chyba ogólnie słowa niemające supinum
@@ -7,6 +10,8 @@ roadmap for language learning
 dodać pronoun do słownika: quis, quis quid oraz qui quae quod - i wszystkie w ogóle zaimki
 
 dodać participium do deklinacji ? albo osobne ćwiczenie
+
+obsłużyć en - interjection
 
 cwiczenie na tlumaczenia lat -> pl. slowo lacinskie i kilka mozliwosci tlumaczenia pl. jakie mozliwosci wybrac ?
 najpierw losowo, ale potem znajdywac w jakis sposob slowa najczesciej ze soba mylone

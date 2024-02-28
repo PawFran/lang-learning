@@ -200,8 +200,8 @@ negotium, negotiī [noun] [n] [II]
 1. praca
 
 in [prep] 
-(In Polonia habitamus)
-1. do (+ acc)
+(In Polonia habitamus. Spectantium oculi in certantes versi erant)
+1. do, na (+ acc)
 2. w (+ abl)
 
 invideo, invidēre, invidīdī, invidīsum [verb] [II]
@@ -1887,6 +1887,31 @@ irrumpo, irrumpĕre, irrupi, irruptum [verb] [III]
 (Centurio in medios hostes irrumpens duos interficit)
 1. wtargnąć
 
-hostis, hostis [noun] [m] [f]
+hostis, hostis [noun] [m/f]
 (Centurio in medios hostes irrumpens duos interficit)
 1. wróg
+
+lūdus, ludi [noun] [m] [II]
+(In ludo gladiatorio servi magna vi corporis exercebantur)
+1. gra, zabawa, sport, rozrywka, rozrywka, zabawa
+2. szkoła
+
+glădĭātōrĭum, gladiatorii [noun] [n] [II]
+(Cum munera gladiatoria erant)
+1. gladiatorski
+
+glădĭus, gladii [noun] [m] [II]
+(Gladiatores gladiis pugnabant)
+1. miecz
+
+cŭm [conj]
+(Cum munera gladiatoria erant)
+1. kiedy, podczas gdy
+
+mūnŭs, muneris [noun] [n] [III]
+(Cum munera gladiatoria erant)
+1. widowisko publiczne, igrzyska
+
+certo, certāre, certāvī, certātum [verb] [I]
+(Spectantium oculi in certantes versi erant)
+1. walczyć, rywalizować

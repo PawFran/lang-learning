@@ -116,15 +116,18 @@ accusativus
 ablativus
 https://encenc.pl/ablativus
 * temporis (okolicznik czasu - kiedy? )
-* loci (okolicznik miejsca - gdzie ?) zwykle z przyimkiem "in"; bez przyimka kiedy mówi "którędy"; oraz "gdzie" w przypadku miast III dekl i pl tantum; https://encenc.pl/ablativus-loci
+* loci (okolicznik miejsca - gdzie ?)
+    ** zwykle z przyimkiem "in"; bez przyimka kiedy mówi "którędy"; oraz "gdzie" w przypadku miast III dekl i pl tantum; https://encenc.pl/ablativus-loci
 * causae (okolicznik przyczyny - dlaczego ?)
 * modi (okolicznik sposobu - jak ?)
-* instrumentalis (dopełnienie - kim? czym?) bez przyimka ? np. mira arte struit
+* instrumentalis (dopełnienie - kim? czym?)
+    ** bez przyimka ? np. mira arte struit
 * separativus (skąd? od czego? bez czego?)
 * comparativus (przy stopniu wyższym przymiotnika i przysłówka)
 * auctoris (w str. biernej - okolicznik)
 * rei efficientis (w str. biernej - okolicznik)
 * qualitatis (przydawka lub orzecznik - jaki?)
+    ** servi magna vi corporis
 * comparationis (po przymiotniku w stopniu wyższym) - wtedy, kiedy nie ma przyimka quam
 
 
