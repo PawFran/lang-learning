@@ -987,8 +987,9 @@ incertus, incertă, incertum [adj]
 1. niepewny
 
 pĕto, pĕtĕre, petii, petitum [verb] [III]
-()
+(Gladiatores vulnerati salutem a populo petebant)
 1. dążyć ku czemuś, starać się o coś
+2. błagać, prosić (o coś)
 
 căput, capitis [noun] [n] [III]
 ()
@@ -1915,3 +1916,34 @@ mūnŭs, muneris [noun] [n] [III]
 certo, certāre, certāvī, certātum [verb] [I]
 (Spectantium oculi in certantes versi erant)
 1. walczyć, rywalizować
+
+concĭdo, concĭdĕre, concidi [verb] [III]
+()
+1. upaść, być martwym
+
+turba, turbae [noun] [f] [I]
+(Turba spectans veniam gladiatori dare et vitam eius servare poterat)
+1. zamieszanie, wrzawa, zgiełk
+2. tłum, motłoch
+
+vĕnĭa, veniae [noun] [f] [I]
+(Turba spectans veniam gladiatori dare et vitam eius servare poterat)
+1. przychylność, życzliwość
+2. ułaskawienie
+3. odpust, pozwolenie
+
+servo, servāre, servāvī, servātum [verb] [I]
+(Turba spectans veniam gladiatori dare et vitam eius servare poterat)
+1. chronić, zachować, oszczędzać
+
+verso, versāre, versāvī, versātum [verb] [I]
+()
+1. obracać się, kręcić się, wirować, wirować
+2. obracać się w kółko
+3. mieszać
+4. manewrować
+
+indĭco, indĭcāre, indicāvī, indicātum [verb] [I]
+()
+1. wskazywać, pokazywać, wskazywać, demaskować, zdradzać, ujawniać
+2. informować przeciwko, oskarżać

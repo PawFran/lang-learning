@@ -1,5 +1,7 @@
 roadmap for language learning
 
+concido dziala zle - jest niejednoznaczne, bierze tlumaczenie z wersji 2 a supinum z wersji 1. infinitivus ma zły akcent
+
 podczas nowej sesji pytać najpierw o to, co dotąd było najczęściej źle (powiedzmy ostatnie x razy) a potem wg kolejności
 co z tymi, które w trakcie sesji zostały źle ocenione ? może podbijać prawdopodobieństwo o X
 
