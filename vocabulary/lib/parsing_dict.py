@@ -51,24 +51,22 @@ def parse_latin_dict_entry(single_group_of_lines):
     # todo do it right (polimorphism)
     if LatinVerb.is_verb(first_line):
         dict_entry_head = LatinVerb.from_entry_head(first_line)
-        return DictionaryEntry(dict_entry_head, example, translations)
     elif LatinNoun.is_noun(first_line):
         dict_entry_head = LatinNoun.from_entry_head(first_line)
-        return DictionaryEntry(dict_entry_head, example, translations)
     elif LatinAdverb.is_adverb(first_line):
         dict_entry_head = LatinAdverb.from_entry_head(first_line)
-        return DictionaryEntry(dict_entry_head, example, translations)
     elif LatinAdjective.is_adjective(first_line):
         dict_entry_head = LatinAdjective.from_entry_head(first_line)
-        return DictionaryEntry(dict_entry_head, example, translations)
     elif LatinConjunction.is_conjunction(first_line):
         dict_entry_head = LatinConjunction.from_entry_head(first_line)
-        return DictionaryEntry(dict_entry_head, example, translations)
     elif LatinPreposition.is_preposition(first_line):
         dict_entry_head = LatinPreposition.from_entry_head(first_line)
-        return DictionaryEntry(dict_entry_head, example, translations)
+    elif LatinPronoun.is_pronoun(first_line):
+        dict_entry_head = LatinPronoun.from_entry_head(first_line)
     else:
         raise Exception(f'cannot recognize part of speech for: {first_line}')
+
+    return DictionaryEntry(dict_entry_head, example, translations)
 
 
 def parse_english_dict_entry(single_group_of_lines):

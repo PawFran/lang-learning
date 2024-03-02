@@ -52,7 +52,8 @@ class LatinVerb(AbstractWord):
         conjugation_pattern = '\[I{1,3}V*\]|\[anomalous\]|\[anomaly\]|\[anom\]'
         extracted_str = AbstractWord.extract_from_square_brackets(conjugation_pattern, dict_entry_head)
         if extracted_str is None:
-            raise Exception(f'cannot extract ConjugationType from {dict_entry_head} using pattern {conjugation_pattern}')
+            raise Exception(
+                f'cannot extract ConjugationType from {dict_entry_head} using pattern {conjugation_pattern}')
         else:
             return ConjugationType.from_string(extracted_str)
 
@@ -155,6 +156,21 @@ class LatinConjunction(AbstractWord):
     @staticmethod
     def from_entry_head(head):
         return LatinConjunction(
+            base=head.split(' ')[0],
+            head_raw=head
+        )
+
+
+@dataclass
+class LatinPronoun(AbstractWord):
+
+    @staticmethod
+    def is_pronoun(dict_entry_head):
+        return '[pron]' in dict_entry_head.lower()
+
+    @staticmethod
+    def from_entry_head(head):
+        return LatinPronoun(
             base=head.split(' ')[0],
             head_raw=head
         )
@@ -368,11 +384,13 @@ class Dictionary:
             'is_correct'].mean().to_frame().reset_index() \
             .rename(columns={'is_correct': correct_ratio_col_name})
 
-        df_with_statistics = db_merged_with_dict.merge(correct_ratio_last_n_times, left_on=['correct_translation', 'word_pl'],
+        df_with_statistics = db_merged_with_dict.merge(correct_ratio_last_n_times,
+                                                       left_on=['correct_translation', 'word_pl'],
                                                        right_on=['correct_translation', 'word_pl'], how='right') \
             .drop(['is_correct', 'time'], axis=1) \
             .drop_duplicates() \
-            .merge(df_merged_last_time, left_on=['correct_translation', 'word_pl'], right_on=['correct_translation', 'word_pl']) \
+            .merge(df_merged_last_time, left_on=['correct_translation', 'word_pl'],
+                   right_on=['correct_translation', 'word_pl']) \
             .sort_values('last_time', na_position='first') \
             .reset_index().drop('index', axis=1)
 

@@ -139,6 +139,18 @@ def test_conjunction_from_entry_head():
     assert conjunction.head_raw == line
 
 
+def test_is_pronoun():
+    assert LatinPronoun.is_pronoun('plērusquĕ [pron]')
+    assert not LatinPronoun.is_pronoun('vinea, ae [noun] [I] [f]')
+
+
+def test_pronoun_from_entry_head():
+    line = 'plērusquĕ [pron]'
+    pronoun = LatinPronoun.from_entry_head(line)
+    assert pronoun.base == 'plērusquĕ'
+    assert pronoun.head_raw == line
+
+
 def test_is_adjective():
     assert LatinAdjective.is_adjective('sempiternus, a, um [adj]')
     assert not LatinAdjective.is_adjective('saepe [adv]')
