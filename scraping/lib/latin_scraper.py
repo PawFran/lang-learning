@@ -82,16 +82,18 @@ class LatinDictScraper:
 
         return infinitive_core + infinitive_ending
 
-    # todo test it for verbs with no supine. what will happen ? would be nice to return none
     @staticmethod
     def verb_supine(divs_with_conjugation) -> str:
-        div_with_infinitive = divs_with_conjugation[5]
+        div_with_infinitive_as_list = divs_with_conjugation[5].text.split('\n')
 
-        supine_core = div_with_infinitive.find_all("span", {"class": "radice"})[-1].text
-        supine_ending = div_with_infinitive.find_all("span", {"class": "desinenza"})[-1].text
+        supine_index = div_with_infinitive_as_list.index('SUPIN') + 1
+        supine = div_with_infinitive_as_list[supine_index].strip()
 
-        # accents from https://www.online-latin-dictionary.com are sometimes wrong
-        return (supine_core + supine_ending).replace('atum', 'ātum')
+        if supine == '–':
+            return None
+        else:
+            return supine.replace('atum', 'ātum')
+            # accents from https://www.online-latin-dictionary.com are sometimes wrong
 
     def verb_forms(self, word) -> str:
         flexion_soup = self.get_flexion_soup(word)
@@ -101,7 +103,12 @@ class LatinDictScraper:
         infinitive = self.verb_infinitive(divs_with_conjugation)
         supine = self.verb_supine(divs_with_conjugation)
 
-        return f'{infinitive}, {perfect_first_sing_full}, {supine}'  # todo test it when there's no supine
+        inf_and_perfect = f'{infinitive}, {perfect_first_sing_full}'
+
+        if supine is not None:
+            return inf_and_perfect + f', {supine}'
+        else:
+            return inf_and_perfect
 
     def full_gen_sing(self, word) -> str:
         flexion_soup = self.get_flexion_soup(word)
