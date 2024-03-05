@@ -1937,17 +1937,25 @@ servo, servāre, servāvī, servātum [verb] [I]
 1. chronić, zachować, oszczędzać
 
 verso, versāre, versāvī, versātum [verb] [I]
-()
-1. obracać się, kręcić się, wirować, wirować
-2. obracać się w kółko
-3. mieszać
-4. manewrować
+(Sed plerusque pollice verso mortem iacenti humi indicabat)
+1. obracać się, kręcić się
 
 indĭco, indĭcāre, indicāvī, indicātum [verb] [I]
-()
-1. wskazywać, pokazywać, wskazywać, demaskować, zdradzać, ujawniać
-2. informować przeciwko, oskarżać
+(Sed plerusque pollice verso mortem iacenti humi indicabat)
+1. wskazywać
 
 plērusquĕ [pron]
-()
+(Sed plerusque pollice verso mortem iacenti humi indicabat)
 1. większość ludzi, większość
+
+pollex, pollicis [noun] [m] [III]
+(Sed plerusque pollice verso mortem iacenti humi indicabat)
+1. kciuk
+
+iăcĕo, iăcēre, iacui [verb] [II]
+(Sed plerusque pollice verso mortem iacenti humi indicabat)
+1. leżeć, położyć się
+
+verso, versāre, versāvī, versātum [verb] [I]
+(Sed plerusque pollice verso mortem iacenti humi indicabat)
+1. obracać, obracać się, wirować

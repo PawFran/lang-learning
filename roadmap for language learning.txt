@@ -1,12 +1,16 @@
 roadmap for language learning
 
+scrape - zwracać również formę której się szukało (i info o niej), a nie tylko podstawową
+
+testy do parsowania - dla wszystkich słów w słowniku zrobić parsing i sprawdzić, czy nagłówki po parsowaniu są takie same jak w słowniku
+
 concido dziala zle - jest niejednoznaczne, bierze tlumaczenie z wersji 2 a supinum z wersji 1. infinitivus ma zły akcent
 
 ### vulneratus, vulnerată, vulneratum - nie działa vulneratus 3
 
-### błąd w parsowaniu. np. incido - i chyba ogólnie słowa niemające supinum
-
 dodać pronoun do słownika: quis, quis quid oraz qui quae quod - i wszystkie w ogóle zaimki
+
+dodać skrypt zadający szereg pytań kontrolnych z latin notes
 
 dodać participium do deklinacji ? albo osobne ćwiczenie
 
