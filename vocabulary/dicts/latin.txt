@@ -1880,7 +1880,7 @@ despēro, despērāre, desperāvī, desperātum [verb] [I]
 1. rozpaczać (nad) (+ de + abl)
 2. tracić nadzieję na
 
-vulneratus, vulnerată, vulneratum [verb] [I]
+vulneratus, vulnerată, vulneratum [adj]
 (Centurio in pugna vulneratus de sua salute desperans)
 1. zraniony
 

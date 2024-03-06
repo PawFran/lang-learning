@@ -795,3 +795,32 @@ default_user;29;latin;śmierć;mors, mortis ;mors mortis;True;2024-02-14 21:08:3
 default_user;29;latin;nić, sznurek;fīlus, fili ;filus fili;True;2024-02-14 21:08:40
 default_user;29;latin;tracić nadzieję na;despēro, despērāre, desperāvī, desperātum ;despero 1;True;2024-02-14 21:08:46
 default_user;29;latin;siedzieć;sĕdĕo, sĕdēre, sedi, sessum ;sedeo sedere sedui sessum;False;2024-02-14 21:08:54
+default_user;30;latin;bitwa, walka;pugna, pugnae ;certamen certaminis;False;2024-03-06 21:37:11
+default_user;30;latin;lek;mĕdĭcāmĕn, medicaminis ;medicamen medicaminis;True;2024-03-06 21:37:34
+default_user;30;latin;cienki, delikatny;tĕnŭis, tenuis, tenue ;tenuis 3;False;2024-03-06 21:37:39
+default_user;30;latin;rozpaczać (nad) (+ de + abl);despēro, despērāre, desperāvī, desperātum ;despero 1;True;2024-03-06 21:37:47
+default_user;30;latin;deklarować niezdolność (do czegoś);ēiūro, ēiūrāre, eiurāvī, eiurātum ;eiuro 1;True;2024-03-06 21:37:53
+default_user;30;latin;kciuk;pollex, pollicis ;pollux pollicis;False;2024-03-06 21:37:59
+default_user;30;latin;wyrzekać się, odrzucać;ēiūro, ēiūrāre, eiurāvī, eiurātum ;eiuro 1;True;2024-03-06 21:38:08
+default_user;30;latin;obracać się, kręcić się;verso, versāre, versāvī, versātum ;verso 1;True;2024-03-06 21:38:12
+default_user;30;latin;przychylność, życzliwość;vĕnĭa, veniae ;venia veniae;True;2024-03-06 21:38:19
+default_user;30;latin;czytać na głos, recytować;rĕcĭto, rĕcĭtāre, recitāvī, recitātum ;recito 1;True;2024-03-06 21:38:23
+default_user;30;latin;śmierć;mors, mortis ;mors mortis;True;2024-03-06 21:38:27
+default_user;30;latin;szkoła;lūdus, ludi ;schola scholae;False;2024-03-06 21:38:31
+default_user;30;latin;gra, zabawa, sport, rozrywka, rozrywka, zabawa;lūdus, ludi ;ludus ludi;True;2024-03-06 21:38:57
+default_user;30;latin;w zastępstwie (czymś), zamiast (kogoś, czegoś);pro ;;False;2024-03-06 21:39:00
+default_user;30;latin;nić, sznurek;fīlus, fili ;filus fili;True;2024-03-06 21:39:15
+default_user;30;latin;oprócz;praetĕr ;;False;2024-03-06 21:39:18
+default_user;30;latin;leżeć, położyć się;iăcĕo, iăcēre, iacui ;concido 1;False;2024-03-06 21:39:30
+default_user;30;latin;siedzieć;sĕdĕo, sĕdēre, sedi, sessum ;;False;2024-03-06 21:39:40
+default_user;30;latin;wpadać, spadać (do czegoś, na kogoś/coś);incīdo, incĭdĕre, incidi ;;False;2024-03-06 21:40:01
+default_user;30;latin;odpust, pozwolenie;vĕnĭa, veniae ;;False;2024-03-06 21:40:09
+default_user;30;latin;rana;vulnŭs, vulneris ;vulnus vulneris;True;2024-03-06 21:40:16
+default_user;30;latin;zarzut, oskarżenie;crīmĕn, criminis ;;False;2024-03-06 21:40:18
+default_user;30;latin;przeciwko (+ acc);contrā ;contra;True;2024-03-06 21:40:22
+default_user;30;latin;zraniony;vulneratus, vulnerată, vulneratum ;vuln;False;2024-03-06 21:40:33
+default_user;30;latin;obracać, obracać się, wirować;verso, versāre, versāvī, versātum ;verso 1;True;2024-03-06 21:40:39
+default_user;30;latin;cios, uderzenie;vulnŭs, vulneris ;vulnus vulneris;True;2024-03-06 21:41:05
+default_user;30;latin;oprócz;praetĕr ;prater;False;2024-03-06 21:41:11
+default_user;30;latin;zraniony;vulneratus, vulnerată, vulneratum ;vulneratus a um;False;2024-03-06 21:41:30
+default_user;31;latin;zraniony;vulneratus, vulnerată, vulneratum ;vulneratus a um;False;2024-03-06 21:44:06
