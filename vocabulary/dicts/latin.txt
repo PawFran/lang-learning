@@ -1959,3 +1959,33 @@ iăcĕo, iăcēre, iacui [verb] [II]
 verso, versāre, versāvī, versātum [verb] [I]
 (Sed plerusque pollice verso mortem iacenti humi indicabat)
 1. obracać, obracać się, wirować
+
+saucĭus, sauciă, saucium [adj]
+(Saucius eiurat pugnam gladiator)
+1. ranny, zraniony
+
+ēiūro, ēiūrāre, eiurāvī, eiurātum [verb] [I]
+(Saucius eiurat pugnam gladiator)
+1. deklarować niezdolność (do czegoś)
+2. wyrzekać się, odrzucać
+
+immĕmŏr, immĕmŏr, immĕmŏr [adj]
+(Idem immemor antiqui vulneris arma capit)
+1. nie pamiętający
+
+vulnŭs, vulneris [noun] [n] [III]
+(Idem immemor antiqui vulneris arma capit)
+1. rana
+2. cios, uderzenie
+
+īdem [pron]
+(Idem immemor antiqui vulneris arma capit)
+1. ten sam
+
+arma, armōrum [noun] [n] [II] [pl]
+(Idem immemor antiqui vulneris arma capit)
+1. broń, uzbrojenie
+
+antīquus, antiquă, antiquum [adj]
+(Idem immemor antiqui vulneris arma capit)
+1. stary, wiekowy

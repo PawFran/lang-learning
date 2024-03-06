@@ -1,5 +1,7 @@
 roadmap for language learning
 
+nie da się scrape'ować pl tantum np. arma
+
 scrape - zwracać również formę której się szukało (i info o niej), a nie tylko podstawową
 
 testy do parsowania - dla wszystkich słów w słowniku zrobić parsing i sprawdzić, czy nagłówki po parsowaniu są takie same jak w słowniku
