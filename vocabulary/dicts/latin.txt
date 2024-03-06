@@ -1745,6 +1745,15 @@ monstrum, monstri [noun] [n] [II]
 ()
 1. potwór
 
+rŏgo, rŏgāre, rogāvī, rogātum [verb] [I]
+(Rogantibus potius quam imperantibus paremus)
+1. prosić, prosić o
+
+impĕro, impĕrāre, imperāvī, imperātum [verb] [I]
+(Rogantibus potius quam imperantibus paremus)
+1. rozkazywać, dowodzić
+2. rządzić (nad) (+ dat)
+
 tĕmĕrĭtās, temeritatis [noun] [f] [III]
 ()
 1. pochopność
@@ -1770,15 +1779,6 @@ mŏlestĭa, molestiae [noun] [f] [I]
 cărĕo, cărēre, carui [verb] [II]
 (Non potest inveniri vita hominis carens molestia)
 1. być wolnym od (+ abl)
-
-rŏgo, rŏgāre, rogāvī, rogātum [verb] [I]
-(Rogantibus potius quam imperantibus paremus)
-1. prosić, prosić o
-
-impĕro, impĕrāre, imperāvī, imperātum [verb] [I]
-(Rogantibus potius quam imperantibus paremus)
-1. rozkazywać, dowodzić
-2. rządzić (nad) (+ dat)
 
 sĕnesco, sĕnescĕre, senui [verb] [III]
 ()
