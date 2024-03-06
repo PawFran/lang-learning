@@ -828,3 +828,101 @@ default_user;32;latin;wyrzekać się, odrzucać;ēiūro, ēiūrāre, eiurāvī, 
 default_user;32;latin;stary, wiekowy;antīquus, antiquă, antiquum ;antiquus a um;True;2024-03-06 21:46:10
 default_user;32;latin;kiedy, podczas gdy;cŭm ;;False;2024-03-06 21:46:15
 default_user;32;latin;gladiatorski;glădĭātōrĭum, gladiatorii ;gladiatorius a um;False;2024-03-06 21:46:23
+default_user;33;latin;późno;tardē ;;False;2024-03-06 21:48:28
+default_user;33;latin;rozpaczać (nad) (+ de + abl);despēro, despērāre, desperāvī, desperātum ;despero 1;True;2024-03-06 21:48:31
+default_user;33;latin;wisieć (w dół), być zawieszonym;pendĕo, pendēre, pependi ;pendeo pendere pendui pendentum;False;2024-03-06 21:48:45
+default_user;33;latin;przychylność, życzliwość;vĕnĭa, veniae ;venia veniae;True;2024-03-06 21:49:19
+default_user;33;latin;broń, uzbrojenie;arma, armōrum ;arma armorum;True;2024-03-06 21:49:25
+default_user;33;latin;kciuk;pollex, pollicis ;pollex pollice;False;2024-03-06 21:49:30
+default_user;33;latin;z trudem;tardē ;;False;2024-03-06 21:49:35
+default_user;33;latin;wyrzekać się, odrzucać;ēiūro, ēiūrāre, eiurāvī, eiurātum ;eiuro 1;True;2024-03-06 21:49:39
+default_user;33;latin;późno;sero ;tarde;False;2024-03-06 21:49:43
+default_user;33;latin;centurion;centŭrĭo, centurionis ;centurio centurionis;True;2024-03-06 21:49:49
+default_user;33;latin;miecz;glădĭus, gladii ;gladius gladii;True;2024-03-06 21:49:55
+default_user;33;latin;zaprzestać, zakończyć;dēsĭno, dēsĭnĕre, desii, desitum ;;False;2024-03-06 21:49:58
+default_user;33;latin;śmierć;mors, mortis ;mors mortis;True;2024-03-06 21:50:05
+default_user;33;latin;kiedy, podczas gdy;cŭm ;cum;True;2024-03-06 21:50:08
+default_user;33;latin;ten sam;īdem ;idem;True;2024-03-06 21:50:11
+default_user;33;latin;zaprzestać, zakończyć;dēsĭno, dēsĭnĕre, desii, desitum ;desideo desidere desui dessum;False;2024-03-06 21:50:23
+default_user;33;latin;źle;mălĕ ;;False;2024-03-06 21:50:30
+default_user;33;latin;widowisko publiczne, igrzyska;mūnŭs, muneris ;;False;2024-03-06 21:50:33
+default_user;33;latin;późno;sero ;tarde;False;2024-03-06 21:50:37
+default_user;33;latin;obracać się, kręcić się;verso, versāre, versāvī, versātum ;verso 1;True;2024-03-06 21:50:40
+default_user;33;latin;integracja;intĕgrātĭo, integrationis ;integratio integrationis;True;2024-03-06 21:50:45
+default_user;33;latin;powoli;tardē ;tarde;True;2024-03-06 21:50:48
+default_user;33;latin;czytać na głos, recytować;rĕcĭto, rĕcĭtāre, recitāvī, recitātum ;recito 1;True;2024-03-06 21:50:51
+default_user;33;latin;walczyć, rywalizować;certo, certāre, certāvī, certātum ;;False;2024-03-06 21:50:55
+default_user;33;latin;zarzut, oskarżenie;crīmĕn, criminis ;crimen criminis;True;2024-03-06 21:51:02
+default_user;33;latin;cienki, delikatny;tĕnŭis, tenuis, tenue ;tenuis tenuis tenue;True;2024-03-06 21:51:09
+default_user;33;latin;wróg;hostis, hostis ;hostes hostis;False;2024-03-06 21:51:18
+default_user;33;latin;lek;mĕdĭcāmĕn, medicaminis ;medicamen medicaminis;True;2024-03-06 21:51:34
+default_user;33;latin;szalony;āmens, āmens, āmens ;amens 3;True;2024-03-06 21:51:39
+default_user;33;latin;gra, zabawa, sport, rozrywka, rozrywka, zabawa;lūdus, ludi ;ludus ludi;True;2024-03-06 21:52:13
+default_user;33;latin;rozkazywać, dowodzić;impĕro, impĕrāre, imperāvī, imperātum ;;False;2024-03-06 21:52:17
+default_user;33;latin;źle;mălĕ ;male;True;2024-03-06 21:52:21
+default_user;33;latin;stary, wiekowy;antīquus, antiquă, antiquum ;antiquus a um;True;2024-03-06 21:52:27
+default_user;33;latin;siedzieć;sĕdĕo, sĕdēre, sedi, sessum ;sedeo sedere sedui sessum;False;2024-03-06 21:52:35
+default_user;33;latin;prosić, prosić o;rŏgo, rŏgāre, rogāvī, rogātum ;;False;2024-03-06 21:52:43
+default_user;33;latin;rozkazywać, dowodzić;impĕro, impĕrāre, imperāvī, imperātum ;impero 1;True;2024-03-06 21:52:47
+default_user;33;latin;nić, sznurek;fīlus, fili ;filus fuli;False;2024-03-06 21:52:56
+default_user;33;latin;odpust, pozwolenie;vĕnĭa, veniae ;venia veniam;False;2024-03-06 21:53:08
+default_user;33;latin;większość ludzi, większość;plērusquĕ ;plerusque;True;2024-03-06 21:53:15
+default_user;33;latin;wisieć (w dół), być zawieszonym;pendĕo, pendēre, pependi ;pendeo pendere pependi;True;2024-03-06 21:53:23
+default_user;33;latin;ułaskawienie;vĕnĭa, veniae ;venia veniae;True;2024-03-06 21:53:30
+default_user;33;latin;odpust, pozwolenie;vĕnĭa, veniae ;venia veniae;True;2024-03-06 21:53:36
+default_user;33;latin;gladiatorski;glădĭātōrĭus, gladiatoria, gladiatorium ;gladiatorius a um;True;2024-03-06 21:53:43
+default_user;33;latin;chronić, zachować, oszczędzać;servo, servāre, servāvī, servātum ;;False;2024-03-06 21:53:46
+default_user;33;latin;wskazywać;indĭco, indĭcāre, indicāvī, indicātum ;indico 1;True;2024-03-06 21:53:51
+default_user;33;latin;prosić, prosić o;rŏgo, rŏgāre, rogāvī, rogātum ;rogo 1;True;2024-03-06 21:53:55
+default_user;33;latin;leżeć, położyć się;iăcĕo, iăcēre, iacui ;iaceo iacere iacui;True;2024-03-06 21:54:03
+default_user;33;latin;kość;ŏs, ossis ;ossa ossis;False;2024-03-06 21:54:06
+default_user;33;latin;obracać, obracać się, wirować;verso, versāre, versāvī, versātum ;verso 1;True;2024-03-06 21:54:11
+default_user;33;latin;późno;sero ;sero;True;2024-03-06 21:54:14
+default_user;33;latin;nie pamiętający;immĕmŏr, immĕmŏr, immĕmŏr ;immemor;False;2024-03-06 21:54:29
+default_user;33;latin;złość, gniew;īra, irae ;;False;2024-03-06 21:54:34
+default_user;33;latin;późno;tardē ;sero;False;2024-03-06 21:54:44
+default_user;33;latin;cios, uderzenie;vulnŭs, vulneris ;vulnus vulneris;True;2024-03-06 21:54:54
+default_user;33;latin;upaść, być martwym;concĭdo, concĭdĕre, concidi ;concido concidere concidi;True;2024-03-06 21:55:05
+default_user;33;latin;kość;ŏs, ossis ;os ossis;True;2024-03-06 21:55:11
+default_user;33;latin;siedzieć;sĕdĕo, sĕdēre, sedi, sessum ;sedeo sedere sedi sessum;True;2024-03-06 21:55:18
+default_user;33;latin;przestępstwo;crīmĕn, criminis ;crimen criminis;True;2024-03-06 21:55:23
+default_user;33;latin;ranny, zraniony;saucĭus, sauciă, saucium ;vulneratus a um;False;2024-03-06 21:55:27
+default_user;33;latin;w zastępstwie (czymś), zamiast (kogoś, czegoś);pro ;pro;True;2024-03-06 21:55:45
+default_user;33;latin;oprócz;praetĕr ;;False;2024-03-06 21:55:48
+default_user;33;latin;widowisko publiczne, igrzyska;mūnŭs, muneris ;munus muneris;True;2024-03-06 21:55:53
+default_user;33;latin;zraniony;vulneratus, vulnerată, vulneratum ;saucius;False;2024-03-06 21:55:57
+default_user;33;latin;chronić, zachować, oszczędzać;servo, servāre, servāvī, servātum ;servo 1;True;2024-03-06 21:56:04
+default_user;33;latin;nie pamiętający;immĕmŏr, immĕmŏr, immĕmŏr ;immemor 3;True;2024-03-06 21:56:07
+default_user;33;latin;szkoła;lūdus, ludi ;ludus ludi;True;2024-03-06 21:56:11
+default_user;33;latin;wróg;hostis, hostis ;hostis hostis;True;2024-03-06 21:56:15
+default_user;33;latin;z trudem;tardē ;tarde;True;2024-03-06 21:56:17
+default_user;33;latin;rządzić (nad) (+ dat);impĕro, impĕrāre, imperāvī, imperātum ;impero 1;True;2024-03-06 21:56:21
+default_user;33;latin;deklarować niezdolność (do czegoś);ēiūro, ēiūrāre, eiurāvī, eiurātum ;eiuro 1;True;2024-03-06 21:56:24
+default_user;33;latin;walczyć, rywalizować;certo, certāre, certāvī, certātum ;;False;2024-03-06 21:56:29
+default_user;33;latin;rana;vulnŭs, vulneris ;vulnus vulneris;True;2024-03-06 21:56:37
+default_user;33;latin;złość, gniew;īra, irae ;ira irae;True;2024-03-06 21:56:40
+default_user;33;latin;zestarzeć się;sĕnesco, sĕnescĕre, senui ;senesco senescero sedui;False;2024-03-06 21:56:53
+default_user;33;latin;ranny, zraniony;saucĭus, sauciă, saucium ;vulneratus a um;False;2024-03-06 21:56:59
+default_user;33;latin;wtargnąć;irrumpo, irrumpĕre, irrupi, irruptum ;irrumpo irrumpere irrumpi;False;2024-03-06 21:57:17
+default_user;33;latin;tłum, motłoch;turba, turbae ;turba turbae;True;2024-03-06 21:57:25
+default_user;33;latin;bitwa, walka;pugna, pugnae ;certamen certaminis;False;2024-03-06 21:57:29
+default_user;33;latin;zestarzeć się;sĕnesco, sĕnescĕre, senui ;senesco senescere senui;True;2024-03-06 21:57:39
+default_user;33;latin;wpadać, spadać (do czegoś, na kogoś/coś);incīdo, incĭdĕre, incidi ;incido incidere;False;2024-03-06 21:57:47
+default_user;33;latin;bitwa, walka;pugna, pugnae ;certamen certaminis;False;2024-03-06 21:57:53
+default_user;33;latin;zamieszanie, wrzawa, zgiełk;turba, turbae ;turba turbae;True;2024-03-06 21:57:58
+default_user;33;latin;oprócz;praetĕr ;praeter;True;2024-03-06 21:58:01
+default_user;33;latin;zraniony;vulneratus, vulnerată, vulneratum ;saucius a um;False;2024-03-06 21:58:10
+default_user;33;latin;bitwa, walka;pugna, pugnae ;pugna pugnae;True;2024-03-06 21:58:15
+default_user;33;latin;zraniony;vulneratus, vulnerată, vulneratum ;vulneratus a um;True;2024-03-06 21:58:20
+default_user;33;latin;późno;tardē ;tarde;True;2024-03-06 21:58:24
+default_user;33;latin;przeciwko (+ acc);contrā ;contra;True;2024-03-06 21:58:26
+default_user;33;latin;wtargnąć;irrumpo, irrumpĕre, irrupi, irruptum ;incido incidere incidi;False;2024-03-06 21:58:31
+default_user;33;latin;nić, sznurek;fīlus, fili ;filus fili;True;2024-03-06 21:58:42
+default_user;33;latin;tracić nadzieję na;despēro, despērāre, desperāvī, desperātum ;despero 1;True;2024-03-06 21:58:46
+default_user;33;latin;kciuk;pollex, pollicis ;pollex pollicis;True;2024-03-06 21:58:53
+default_user;33;latin;walczyć, rywalizować;certo, certāre, certāvī, certātum ;certo 1;True;2024-03-06 21:58:56
+default_user;33;latin;wpadać, spadać (do czegoś, na kogoś/coś);incīdo, incĭdĕre, incidi ;incido incidere incidi;True;2024-03-06 21:59:05
+default_user;33;latin;wtargnąć;irrumpo, irrumpĕre, irrupi, irruptum ;irrumpo irrumpere irrupi irruptum;True;2024-03-06 21:59:15
+default_user;33;latin;zaprzestać, zakończyć;dēsĭno, dēsĭnĕre, desii, desitum ;desino 1;False;2024-03-06 21:59:19
+default_user;33;latin;zaprzestać, zakończyć;dēsĭno, dēsĭnĕre, desii, desitum ;desino desinere desii desitum;True;2024-03-06 21:59:32
+default_user;33;latin;ranny, zraniony;saucĭus, sauciă, saucium ;saucius a um;True;2024-03-06 21:59:39
