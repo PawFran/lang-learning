@@ -1,7 +1,5 @@
 roadmap for language learning
 
-translation ex vulneratus a um nie zadziałało
-
 nie da się scrape'ować pl tantum np. arma
 
 scrape - zwracać również formę której się szukało (i info o niej), a nie tylko podstawową
