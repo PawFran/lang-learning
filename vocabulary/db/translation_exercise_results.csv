@@ -824,3 +824,7 @@ default_user;30;latin;cios, uderzenie;vulnŭs, vulneris ;vulnus vulneris;True;20
 default_user;30;latin;oprócz;praetĕr ;prater;False;2024-03-06 21:41:11
 default_user;30;latin;zraniony;vulneratus, vulnerată, vulneratum ;vulneratus a um;False;2024-03-06 21:41:30
 default_user;31;latin;zraniony;vulneratus, vulnerată, vulneratum ;vulneratus a um;False;2024-03-06 21:44:06
+default_user;32;latin;wyrzekać się, odrzucać;ēiūro, ēiūrāre, eiurāvī, eiurātum ;eiuro 1;True;2024-03-06 21:46:05
+default_user;32;latin;stary, wiekowy;antīquus, antiquă, antiquum ;antiquus a um;True;2024-03-06 21:46:10
+default_user;32;latin;kiedy, podczas gdy;cŭm ;;False;2024-03-06 21:46:15
+default_user;32;latin;gladiatorski;glădĭātōrĭum, gladiatorii ;gladiatorius a um;False;2024-03-06 21:46:23
