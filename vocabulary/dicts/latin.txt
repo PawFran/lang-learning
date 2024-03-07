@@ -765,7 +765,7 @@ apprŏpinquo, apprŏpinquāre, appropinquāvī, appropinquātum [verb] [I]
 (Poeni vallo appropinquabunt)
 1. zbliżyć się (+ dat)
 
-a [prep]
+a (ab) [prep]
 (Statim a custodiis cernentur)
 1. od (+ abl)
 2. przez (+ abl)
@@ -1989,3 +1989,39 @@ arma, armōrum [noun] [n] [II] [pl]
 antīquus, antiquă, antiquum [adj]
 (Idem immemor antiqui vulneris arma capit)
 1. stary, wiekowy
+
+hŏdĭē [adv]
+(Hodie apud inferos fortasse cenabimus)
+1. dzisiaj, teraz
+
+fortassĕ [adv]
+(Hodie apud inferos fortasse cenabimus)
+1. być może
+
+cēno, cēnāre, cenāvī, cenātum [verb] [I]
+(Hodie apud inferos fortasse cenabimus)
+1. zjeść obiad
+
+antĕ [adv]
+(Ante pugnam ad milites verba facit)
+1. przed
+
+infĕrus, infĕri [noun] [II] [m]
+(Hodie apud inferos fortasse cenabimus)
+1. mieszkańcy podziemia (piekła)
+
+nuntĭo, nuntĭāre, nuntiāvī, nuntiātum [verb] [I]
+()
+1. ogłaszać, informować
+
+prŏcul [adv]
+(Hostes a nobis non procul absunt)
+1. na odległość, daleko
+
+absŭm, abesse, abfui [verb] [anomalous]
+(Hostes a nobis non procul absunt)
+1. być daleko, być nieobecnym
+
+advĕnĭo, advĕnīre, adveni, adventum [verb] [IV]
+(Nos ab hostibus advenientibus non procul absumus)
+1. przyjść
