@@ -89,5 +89,6 @@ if __name__ == '__main__':
                 print_and_write('\n')
 
             except Exception as Argument:
-                logging.exception(f'cannot scrape {input_word}')
+                print(f'cannot scrape {input_word}')
+                # logging.exception(f'cannot scrape {input_word}')
                 print()
