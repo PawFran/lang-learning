@@ -1,5 +1,4 @@
-canis - masculin and feminine noun III declension
-hospitio - cannot scrape
-volare - cannot scrape
-quid - cannot scrape
+canis - [m] [feminine]
+volare - IndexError: list index out of range
 vis - IndexError: list index out of range
+arma - IndexError: list index out of range (pl tantum)
