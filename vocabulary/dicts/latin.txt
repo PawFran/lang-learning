@@ -2103,3 +2103,15 @@ dīlĭgo, dīlĭgĕre, dilexi, dilectum [verb] [III]
 quisquĕ [pron]
 (Suae quisque fortunae faber est)
 1. każdy
+
+sŭum, sui [noun] [n] [II]
+(Suum cuique)
+1. jego własność
+
+vŏluptās, voluptatis [noun] [f] [III]
+(Trahit sua quemque voluptas)
+1. przyjemność
+
+quisquis [pron]
+(Quidquid discis, tibi discis)
+1. ktokolwiek, każdy
