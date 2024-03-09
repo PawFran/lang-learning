@@ -24,19 +24,8 @@ if __name__ == '__main__':
 
             try:
                 scrape_result = scrape(scraper, input_word)
-                word, grammatical_info, polish_translations = scrape_result.word, scrape_result.grammatical_info, \
-                    scrape_result.polish_translations
 
-                msg = parse_msg(scraper, input_word, word, grammatical_info)
-
-                print_and_write(f, word)
-                print_and_write(f, msg)
-                print_and_write(f, '()\n')
-
-                for t, i in zip(polish_translations, range(len(polish_translations))):
-                    print_and_write(f, f'{i + 1}. {t}\n')
-
-                print_and_write(f, '\n')
+                print_output(f, scraper, input_word, scrape_result)
 
             except Exception as Argument:
                 # print(f'cannot scrape {input_word}')
