@@ -167,9 +167,10 @@ libenter [adv]
 (Marcus libros libenter legit)
 1. chętnie
 
-cum [conj]
-(Vade mecum)
+cŭm [conj]
+(Vade mecum. Cum munera gladiatoria erant)
 1. z (kim, czym) (+ abl)
+2. kiedy, podczas gdy
 
 lūdō, lūdere, lūsī, lūsum [verb] [III]
 (Iulia libros non legit, sed in horto ludit)
@@ -1905,10 +1906,6 @@ glădĭus, gladii [noun] [m] [II]
 (Gladiatores gladiis pugnabant)
 1. miecz
 
-cŭm [conj]
-(Cum munera gladiatoria erant)
-1. kiedy, podczas gdy
-
 mūnŭs, muneris [noun] [n] [III]
 (Cum munera gladiatoria erant)
 1. widowisko publiczne, igrzyska
@@ -2025,3 +2022,33 @@ absŭm, abesse, abfui [verb] [anomalous]
 advĕnĭo, advĕnīre, adveni, adventum [verb] [IV]
 (Nos ab hostibus advenientibus non procul absumus)
 1. przyjść
+
+collŏquĭum, colloquii [noun] [n] [II]
+(Persa hostis in colloquio cum militibus inquit ...)
+1. rozmowa
+
+prae [prep]
+(Solem prae iaculorum et sagittarum multitudine non videbitis)
+1. przed, z przodu
+2. z uwagi na, z powodu
+
+multĭtūdo, multitudinis [noun] [f] [III]
+(Solem prae iaculorum et sagittarum multitudine non videbitis)
+1. mnogość, wielka liczba
+2. tłum
+
+iăcŭlum, iaculi [noun] [n] [II]
+(Solem prae iaculorum et sagittarum multitudine non videbitis)
+1. oszczep
+
+săgitta, sagittae [noun] [f] [I]
+(Solem prae iaculorum et sagittarum multitudine non videbitis)
+1. strzała
+
+umbră, umbrae [noun] [f] [I]
+(In umbra igitur pugnabimus)
+1. cień
+
+ĭgĭtur [adv]
+(In umbra igitur pugnabimus)
+1. dlatego, więc

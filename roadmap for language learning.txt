@@ -1,5 +1,10 @@
 roadmap for language learning
 
+w przypadku niejednoznaczności (disambiguation) pobierać wszystkie wersje w scape'owaniu
+
+gdyby ściągnąć całe odmiany z LATIN DICTIONARY można by było w ćwieczeniach
+deklinacja/koniugacja pytać o dowolne słowa a nie tylko te zapisane w json
+
 nie da się scrape'ować pl tantum np. arma
 
 scrape - zwracać również formę której się szukało (i info o niej), a nie tylko podstawową
@@ -13,6 +18,8 @@ concido dziala zle - jest niejednoznaczne, bierze tlumaczenie z wersji 2 a supin
 dodać pronoun do słownika: quis, quis quid oraz qui quae quod - i wszystkie w ogóle zaimki
 
 dodać skrypt zadający szereg pytań kontrolnych z latin notes
+
+ćwiczenie na gui - wpisać zdanie i system każe wskazać formy i części zdania każdego słowa, np. wybierając z listy
 
 dodać participium do deklinacji ? albo osobne ćwiczenie
 
