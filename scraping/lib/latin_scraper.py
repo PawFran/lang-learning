@@ -1,4 +1,5 @@
 from urllib.parse import quote
+from dataclasses import dataclass
 
 import requests
 from bs4 import BeautifulSoup
@@ -179,3 +180,10 @@ class LatinDictScraper:
             raise Exception(f'unexpectedly more than one translation was returned: {en_word} -> {pl_translations}')
 
         return pl_translations[0]['text']
+
+
+@dataclass
+class LatinScrapeResults:
+    word: str
+    grammatical_info: str
+    polish_translations: [str]

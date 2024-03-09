@@ -19,11 +19,13 @@ if __name__ == '__main__':
 
     scraper = LatinDictScraper(base_dict_URL, base_flexion_URL, deepl_headers)
 
-    with open(output_temporary_file_name, 'a', encoding="utf-8") as f:
+    with (open(output_temporary_file_name, 'a', encoding="utf-8") as f):
         for input_word in sys.argv[1:]:
 
             try:
-                word, grammatical_info, polish_translations = scrape(scraper, input_word)
+                scrape_result = scrape(scraper, input_word)
+                word, grammatical_info, polish_translations = scrape_result.word, scrape_result.grammatical_info, \
+                    scrape_result.polish_translations
 
                 msg = parse_msg(scraper, input_word, word, grammatical_info)
 

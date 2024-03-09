@@ -8,7 +8,7 @@ def print_and_write(f, text):
     f.write(text)
 
 
-def scrape(scraper, input_word):
+def scrape(scraper, input_word) -> LatinScrapeResults:
     soup = scraper.get_dict_soup(input_word)
 
     results = soup.find(id="myth")
@@ -31,7 +31,7 @@ def scrape(scraper, input_word):
     translations = [x.text for x in results.find_all("span", class_="english")]
     polish_translations = [scraper.deepl_translation_en_to_pl(x) for x in translations]
 
-    return word, grammatical_info, polish_translations
+    return LatinScrapeResults(word, grammatical_info, polish_translations)
 
 
 def parse_msg(scraper, input_word, word, grammatical_info):
