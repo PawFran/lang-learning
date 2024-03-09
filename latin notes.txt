@@ -199,3 +199,5 @@ zamiast "nie znajdziesz życia pozbawionego trosk" raczej "życie bez trosk nie 
 
 omnia sunt hominum tenui pendentia filo
 wszystko (co) ludzkie jest wiszące na cienkim sznurku. bez przyimka ?
+
+Suae quisque fortunae faber est - jaki to jest genetivus "fortunae" ?

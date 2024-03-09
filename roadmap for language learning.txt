@@ -1,5 +1,12 @@
 roadmap for language learning
 
+multus, multă, multum - sprawdzić w słowniku papierowym
+
+wpisać zdanie łacińskie i dostać scrape szystkich słów i uzupełnione w () to zdanie
+podczas screpe'owania wskazywać też jaka to jest forma (i czy na pewno została znaleziona - patrz appetimus)
+
+co jeśli dwie formy perf są poprawne ? np appetii o appetivi
+
 w przypadku niejednoznaczności (disambiguation) pobierać wszystkie wersje w scape'owaniu
 
 gdyby ściągnąć całe odmiany z LATIN DICTIONARY można by było w ćwieczeniach
@@ -8,6 +15,10 @@ deklinacja/koniugacja pytać o dowolne słowa a nie tylko te zapisane w json
 nie da się scrape'ować pl tantum np. arma
 
 scrape - zwracać również formę której się szukało (i info o niej), a nie tylko podstawową
+
+statystyki i graficzne przedstawienia najczęściej popełnianych błędów
+
+sugestie co trzeba przećwiczyć
 
 testy do parsowania - dla wszystkich słów w słowniku zrobić parsing i sprawdzić, czy nagłówki po parsowaniu są takie same jak w słowniku
 
@@ -24,6 +35,8 @@ dodać skrypt zadający szereg pytań kontrolnych z latin notes
 dodać participium do deklinacji ? albo osobne ćwiczenie
 
 obsłużyć en - interjection
+
+-ne enklityka, przyrostek https://pl.wiktionary.org/wiki/-ne
 
 podczas nowej sesji pytać najpierw o to, co dotąd było najczęściej źle (powiedzmy ostatnie x razy) a potem wg kolejności
 co z tymi, które w trakcie sesji zostały źle ocenione ? może podbijać prawdopodobieństwo o X

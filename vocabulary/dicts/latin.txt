@@ -345,9 +345,10 @@ parvus, parva, parvum [adj]
 1. mały
 
 dēbeō, debēre, debuī, debitum [verb] [II]
-(Vir rusticus magna cura laborare debebat)
+(Vir rusticus magna cura laborare debebat. Multos timere debet, quem multi timent)
 1. być dłużnym (komuś)
 2. zawdzięczać (coś komuś)
+3. musieć, być zobowiązanym do (+ bezokolicznik)
 
 tantum [adv]
 (Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
@@ -980,7 +981,7 @@ certus, certă, certum [adj]
 1. pewny
 
 āmitto, āmittĕre, amisi, amissum [verb] [III]
-()
+(Amittit merito proprium, qui alienum appetit)
 1. tracić
 
 incertus, incertă, incertum [adj]
@@ -2052,3 +2053,53 @@ umbră, umbrae [noun] [f] [I]
 ĭgĭtur [adv]
 (In umbra igitur pugnabimus)
 1. dlatego, więc
+
+turpĭtūdo, turpitudinis [noun] [f] [III]
+(Liber est qui nulli turpitiduni servit)
+1. brzydota, deformacja
+2. hańba
+3. podłość
+
+flūmĕn, fluminis [noun] [n] [III]
+(Navis, quae in flumine magna est, in mari parva est)
+1. rzeka, strumień
+
+mĕrĭtō [adv]
+(Amittit merito proprium, qui alienum appetit)
+1. zasłużenie, słusznie
+
+mĕrĭtus, merită, meritum [adj]
+()
+1. zasłużony, należny
+
+prŏprĭum, proprii [noun] [n] [II]
+(Amittit merito proprium, qui alienum appetit)
+1. posiadanie, własność
+
+appĕto, appĕtĕre, appetii/appetivi, appetitum [verb] [III]
+(Amittit merito proprium, qui alienum appetit)
+1. szukać, pragnąć
+
+ălĭēnum, alieni [noun] [n] [II]
+(Amittit merito proprium, qui alienum appetit)
+1. cudza własność
+
+multus, multă, multum [adj]
+(Multos timere debet, quem multi timent)
+1. wiele, liczni (spr. w słowniku papierowym)
+
+iūrĕ [adv]
+(Neminem captivabimus nisi iure victum)
+1. przez prawo, słusznie, sprawiedliwie
+
+captīvo, captīvāre, captivāvī, captivātum [verb] [I]
+(Neminem captivabimus nisi iure victum)
+1. wziąć w niewolę
+
+dīlĭgo, dīlĭgĕre, dilexi, dilectum [verb] [III]
+(A nullo diligitur qui neminem diligit)
+1. kochać, cenić
+
+quisquĕ [pronoun]
+(Suae quisque fortunae faber est)
+1. każdy
