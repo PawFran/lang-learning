@@ -4,6 +4,15 @@ from dataclasses import dataclass
 import requests
 from bs4 import BeautifulSoup
 
+URL_main_part = 'https://www.online-latin-dictionary.com'
+base_dict_URL = f'{URL_main_part}/latin-english-dictionary.php'
+base_flexion_URL = f'{URL_main_part}/latin-dictionary-flexion.php'
+
+deepl_headers = {
+    'Authorization': 'DeepL-Auth-Key 0346e75c-3679-c5ed-4ac4-260beade18db:fx',
+    'Content-Type': 'application/x-www-form-urlencoded',
+}
+
 verb_pattern = '.+ verb .+'
 noun_pattern = '.+ noun .+'
 adverb_pattern = 'adverb'
