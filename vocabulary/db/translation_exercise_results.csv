@@ -926,3 +926,44 @@ default_user;33;latin;wtargnąć;irrumpo, irrumpĕre, irrupi, irruptum ;irrumpo 
 default_user;33;latin;zaprzestać, zakończyć;dēsĭno, dēsĭnĕre, desii, desitum ;desino 1;False;2024-03-06 21:59:19
 default_user;33;latin;zaprzestać, zakończyć;dēsĭno, dēsĭnĕre, desii, desitum ;desino desinere desii desitum;True;2024-03-06 21:59:32
 default_user;33;latin;ranny, zraniony;saucĭus, sauciă, saucium ;saucius a um;True;2024-03-06 21:59:39
+default_user;34;latin;przyjść;advĕnĭo, advĕnīre, adveni, adventum ;advenio advenire advenii adventum;False;2024-03-10 09:02:20
+default_user;34;latin;centurion;centŭrĭo, centurionis ;centurio centurionis;True;2024-03-10 09:02:25
+default_user;34;latin;podłość;turpĭtūdo, turpitudinis ;;False;2024-03-10 09:02:33
+default_user;34;latin;odpust, pozwolenie;vĕnĭa, veniae ;venia veniae;True;2024-03-10 09:02:39
+default_user;34;latin;chronić, zachować, oszczędzać;servo, servāre, servāvī, servātum ;;False;2024-03-10 09:02:49
+default_user;34;latin;wtargnąć;irrumpo, irrumpĕre, irrupi, irruptum ;irrumpo irrumpere irrumpi irruptum;False;2024-03-10 09:03:01
+default_user;34;latin;być może;fortassĕ ;;False;2024-03-10 09:03:06
+default_user;34;latin;kciuk;pollex, pollicis ;pollex pollicis;True;2024-03-10 09:03:16
+default_user;34;latin;rana;vulnŭs, vulneris ;;False;2024-03-10 09:03:19
+default_user;34;latin;ogłaszać, informować;nuntĭo, nuntĭāre, nuntiāvī, nuntiātum ;nuntio 1;True;2024-03-10 09:03:25
+default_user;34;latin;tłum;multĭtūdo, multitudinis ;turba turbae;False;2024-03-10 09:03:29
+default_user;34;latin;większość ludzi, większość;plērusquĕ ;plerumque;False;2024-03-10 09:03:36
+default_user;34;latin;przez prawo, słusznie, sprawiedliwie;iūrĕ ;iure;True;2024-03-10 09:03:42
+default_user;34;latin;zjeść obiad;cēno, cēnāre, cenāvī, cenātum ;cento 1;False;2024-03-10 09:03:47
+default_user;34;latin;broń, uzbrojenie;arma, armōrum ;arma armarum;False;2024-03-10 09:03:57
+default_user;34;latin;mieszkańcy podziemia (piekła);infĕrus, infĕri ;inferos;False;2024-03-10 09:04:39
+default_user;34;latin;broń, uzbrojenie;arma, armōrum ;arma armorum;True;2024-03-10 09:04:50
+default_user;34;latin;ranny, zraniony;saucĭus, sauciă, saucium ;vulneratus a um;False;2024-03-10 09:04:54
+default_user;34;latin;przyjemność;vŏluptās, voluptatis ;;False;2024-03-10 09:04:58
+default_user;34;latin;upaść, być martwym;concĭdo, concĭdĕre, concidi ;concido concidere concidi;True;2024-03-10 09:05:06
+default_user;34;latin;wtargnąć;irrumpo, irrumpĕre, irrupi, irruptum ;irrumpo irrumpere irrupi irruptum;True;2024-03-10 09:05:17
+default_user;34;latin;być może;fortassĕ ;fortasse;True;2024-03-10 09:05:21
+default_user;34;latin;każdy;quisquĕ ;quisquis;False;2024-03-10 09:05:32
+default_user;34;latin;miecz;glădĭus, gladii ;gladius gladii;True;2024-03-10 09:05:38
+default_user;34;latin;z uwagi na, z powodu;prae ;;False;2024-03-10 09:05:41
+default_user;34;latin;przed;antĕ ;prae;False;2024-03-10 09:05:50
+default_user;34;latin;przychylność, życzliwość;vĕnĭa, veniae ;;False;2024-03-10 09:05:58
+default_user;34;latin;przyjść;advĕnĭo, advĕnīre, adveni, adventum ;;False;2024-03-10 09:06:01
+default_user;34;latin;przyjść;advĕnĭo, advĕnīre, adveni, adventum ;advenio advenire adveni adventum;True;2024-03-10 09:06:14
+default_user;34;latin;dzisiaj, teraz;hŏdĭē ;hodie;True;2024-03-10 09:06:18
+default_user;34;latin;jego własność;sŭum, sui ;;False;2024-03-10 09:06:22
+default_user;34;latin;hańba;turpĭtūdo, turpitudinis ;turpitudo turpitudinis;True;2024-03-10 09:06:33
+default_user;34;latin;jego własność;sŭum, sui ;suum sui;True;2024-03-10 09:06:37
+default_user;34;latin;gra, zabawa;lūdus, ludi ;ludus ludi;True;2024-03-10 09:06:42
+default_user;34;latin;oszczep;iăcŭlum, iaculi ;;False;2024-03-10 09:06:47
+default_user;34;latin;ktokolwiek, każdy;quisquis ;;False;2024-03-10 09:06:57
+default_user;34;latin;chronić, zachować, oszczędzać;servo, servāre, servāvī, servātum ;servo 1;True;2024-03-10 09:07:02
+default_user;34;latin;mnogość, wielka liczba;multĭtūdo, multitudinis ;multitudo multitudinis;True;2024-03-10 09:07:07
+default_user;34;latin;rozpaczać (nad) (+ de + abl);despēro, despērāre, desperāvī, desperātum ;despero 1;True;2024-03-10 09:07:11
+default_user;34;latin;posiadanie, własność;prŏprĭum, proprii ;;False;2024-03-10 09:07:15
+default_user;34;latin;mieszkańcy podziemia (piekła);infĕrus, infĕri ;inferus inferi;True;2024-03-10 09:07:21
