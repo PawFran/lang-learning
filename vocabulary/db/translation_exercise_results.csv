@@ -967,3 +967,10 @@ default_user;34;latin;mnogość, wielka liczba;multĭtūdo, multitudinis ;multit
 default_user;34;latin;rozpaczać (nad) (+ de + abl);despēro, despērāre, desperāvī, desperātum ;despero 1;True;2024-03-10 09:07:11
 default_user;34;latin;posiadanie, własność;prŏprĭum, proprii ;;False;2024-03-10 09:07:15
 default_user;34;latin;mieszkańcy podziemia (piekła);infĕrus, infĕri ;inferus inferi;True;2024-03-10 09:07:21
+default_user;34;latin;na odległość, daleko;prŏcul ;;False;2024-03-10 09:07:59
+default_user;34;latin;leżeć, położyć się;iăcĕo, iăcēre, iacui ;iaculo 1;False;2024-03-10 09:08:04
+default_user;34;latin;deklarować niezdolność (do czegoś);ēiūro, ēiūrāre, eiurāvī, eiurātum ;;False;2024-03-10 09:08:10
+default_user;34;latin;każdy;quisquĕ ;;False;2024-03-10 09:08:15
+default_user;34;latin;zjeść obiad;cēno, cēnāre, cenāvī, cenātum ;cento 1;False;2024-03-10 09:08:20
+default_user;34;latin;kochać, cenić;dīlĭgo, dīlĭgĕre, dilexi, dilectum ;diligo 1;False;2024-03-10 09:08:24
+default_user;34;latin;rozmowa;collŏquĭum, colloquii ;;False;2024-03-10 09:08:32
