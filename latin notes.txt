@@ -201,3 +201,5 @@ omnia sunt hominum tenui pendentia filo
 wszystko (co) ludzkie jest wiszące na cienkim sznurku. bez przyimka ?
 
 Suae quisque fortunae faber est - jaki to jest genetivus "fortunae" ?
+
+deis deabusque, filiis filiabusque - końców -abus w pierwszej deklinacji dodana po to, żeby adróżnić dat/abl rodzaju żeńskiego od męskiego (normalnie byłoby deis deisque itd.)

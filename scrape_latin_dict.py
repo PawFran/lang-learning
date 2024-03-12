@@ -15,7 +15,7 @@ if __name__ == '__main__':
         for input_word in sys.argv[1:]:
 
             try:
-                results = scrape(scraper, input_word)
+                results: [LatinScrapeResults] = scrape(scraper, input_word)
 
                 for scrape_result in results:
                     print_output(f, scraper, input_word, scrape_result)

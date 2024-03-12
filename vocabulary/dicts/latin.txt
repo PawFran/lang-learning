@@ -2115,3 +2115,100 @@ vŏluptās, voluptatis [noun] [f] [III]
 quisquis [pron]
 (Quidquid discis, tibi discis)
 1. ktokolwiek, każdy
+
+dĕus, dei [noun] [m] [II]
+(De deis deabusque Romanorum)
+1. bóg
+
+dĕa, deae [noun] [f] [I]
+(De deis deabusque Romanorum)
+1. bogini
+
+summus, summă, summum [adj]
+(Summus deorum Iupitter erat)
+1. najwyższy
+
+mundus, mundi [noun] [m] [II]
+(Mundi universi dominus)
+1. świat
+
+universus, universă, universum [adj]
+(Mundi universi dominus)
+1. cały
+
+ăquĭla, aquilae [noun] [f] [I]
+(Iovi aquila dicata erat)
+1. orzeł
+
+dĭcātus, dicată, dicatum [adj]
+(Iovi aquila dicata erat)
+1. poświęcony, dedykowany
+
+uxŏr, uxoris [noun] [f] [III]
+(Iovis uxor, Iuno, patrona mulierum erat)
+1. żona
+
+mŭlĭĕr, mulieris [noun] [f] [III]
+(Iovis uxor, Iuno, patrona mulierum erat)
+1. kobieta, żona, kochanka
+
+săpĭentĭa, sapientiae [noun] [f] [I]
+(Minerva dea sapientae et artium erat)
+1. mądrość                    
+
+rĕgo, rĕgĕre, rexi, rectum [verb] [III] 
+(Mars bella regebat)
+1. rządzić, kierować
+
+lyra, lyrae [noun] [f] [I]
+(Apollo lyra cantans deo deasque delectabat)
+1. 
+
+canto, cantāre, cantāvī, cantātum [verb] [I]
+(Apollo lyra cantans deo deasque delectabat)
+1. śpiewać, grać
+
+dēlecto, dēlectāre, delectāvī, delectātum [verb] [I]
+(Apollo lyra cantans deo deasque delectabat)
+1. zachwycać, fascynować
+
+malus, mală, malum [adj]
+(Sagittis malos homines puniebat)
+1. zły 
+
+sŏrŏr, sororis [noun] [f] [III]
+(Diana, Apollonis soror, quae venationis et animalium patrona erat, silvas et montes peragrabat)
+1. siostra
+
+vēnātĭo, venationis [noun] [f] [III]
+(Diana, Apollonis soror, quae venationis et animalium patrona erat, silvas et montes peragrabat)
+1. polowanie
+
+pĕrăgro, pĕrăgrāre, peragrāvī, peragrātum [verb] [I]
+(Diana, Apollonis soror, quae venationis et animalium patrona erat, silvas et montes peragrabat)
+1. przemierzać, przetrząsać
+
+fŏcus, foci [noun] [m] [II]
+(Vesta, dea foci atque ignis aeterni)
+1. palenisko, kominek
+2. dom, gospodarstwo domowe, rodzina
+
+ignis, ignis [noun] [m] [III]
+()
+1. ogień
+
+mercātŏr, mercatoris [noun] [m] [III]
+(Mercŭrĭus, mercatorum patronus et nuntius deorum)
+1. kupiec
+
+nuntius, nuntii [noun] [m] [II]
+(Mercŭrĭus, mercatorum patronus et nuntius deorum)
+1. posłaniec, zwiastun, goniec
+
+ĭtă [adv]
+(Romani summos deos deasque ita enumerabant: ... )
+1. więc, w związku z tym
+
+ēnŭmĕro, ēnŭmĕrāre, enumerāvī, enumerātum [verb] [I]
+(Romani summos deos deasque ita enumerabant: ... )
+1. wyliczyć

@@ -1,5 +1,6 @@
 roadmap for language learning
 
+summus źle się scrape'uje. wydaje się, że to przez niejednoznaczność - otwiera rzeczownik i próbuje pobrać formy przymiotnika
 multus, multă, multum - sprawdzić w słowniku papierowym
 
 wpisać zdanie łacińskie i dostać scrape szystkich słów i uzupełnione w () to zdanie
@@ -37,6 +38,8 @@ dodać participium do deklinacji ? albo osobne ćwiczenie
 obsłużyć en - interjection
 
 -ne enklityka, przyrostek https://pl.wiktionary.org/wiki/-ne
+
+que - enklityka. dodać ?
 
 podczas nowej sesji pytać najpierw o to, co dotąd było najczęściej źle (powiedzmy ostatnie x razy) a potem wg kolejności
 co z tymi, które w trakcie sesji zostały źle ocenione ? może podbijać prawdopodobieństwo o X

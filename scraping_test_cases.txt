@@ -2,3 +2,4 @@ canis - [m] [feminine]
 volare - IndexError: list index out of range
 vis - IndexError: list index out of range
 arma - IndexError: list index out of range (pl tantum)
+lyra - Exception: cannot parse Gen singularis
