@@ -68,8 +68,9 @@ class LatinDictScraper:
         page = requests.get(dict_URL)
         return BeautifulSoup(page.content, "html.parser")
 
-    def get_flexion_soup(self, word) -> BeautifulSoup:
-        flexion_url = f'{self.base_flexion_URL}?lemma={word}100'  # 100 means first word in case of disambiguation
+    @staticmethod
+    def get_flexion_soup(flexion_anchor) -> BeautifulSoup:
+        flexion_url = URL_main_part + flexion_anchor
         flexion_page = requests.get(flexion_url)
         flexion_soup = BeautifulSoup(flexion_page.content, "html.parser")
         return flexion_soup
@@ -105,13 +106,13 @@ class LatinDictScraper:
             return supine.replace('atum', 'ātum')
             # accents from https://www.online-latin-dictionary.com are sometimes wrong
 
-    def verb_forms(self, word) -> str:
-        flexion_soup = self.get_flexion_soup(word)
+    @staticmethod
+    def verb_forms_static(flexion_soup) -> str:
         divs_with_conjugation = flexion_soup.find_all("div", {"class": "col span_1_of_2"})
 
-        perfect_first_sing_full = self.verb_perfect_form(divs_with_conjugation)
-        infinitive = self.verb_infinitive(divs_with_conjugation)
-        supine = self.verb_supine(divs_with_conjugation)
+        perfect_first_sing_full = LatinDictScraper.verb_perfect_form(divs_with_conjugation)
+        infinitive = LatinDictScraper.verb_infinitive(divs_with_conjugation)
+        supine = LatinDictScraper.verb_supine(divs_with_conjugation)
 
         inf_and_perfect = f'{infinitive}, {perfect_first_sing_full}'
 
@@ -120,18 +121,10 @@ class LatinDictScraper:
         else:
             return inf_and_perfect
 
-    def full_gen_sing(self, word) -> str:
-        flexion_soup = self.get_flexion_soup(word)
-
+    @staticmethod
+    def full_gen_sing_static(flexion_soup) -> str:
         divs_with_declension = flexion_soup.find_all("div", {"class": "col span_1_of_2"})
         singular_declension = divs_with_declension[0]
-
-        ### old code, let's leave it for a while, it worked apart from 3rd declension nouns
-        # singular_cores = [x.text for x in singular_declension.find_all("span", {"class": "radice"})]
-        # singular_endings = [x.text for x in singular_declension.find_all("span", {"class": "desinenza"})]
-        #
-        # gen_sing_core = singular_cores[1]
-        # gen_sing_ending = singular_endings[1]
 
         result_set = singular_declension.find_all("tr")
         for tag in result_set:
@@ -161,8 +154,8 @@ class LatinDictScraper:
 
         return None
 
-    def adjective_forms(self, word) -> str:
-        flexion_soup = self.get_flexion_soup(word)
+    @staticmethod
+    def adjective_forms_static(flexion_soup) -> str:
         divs_with_declension = flexion_soup.find_all("div", {"class": "col span_1_of_2"})
 
         fem_sing_declension = divs_with_declension[2]
@@ -172,7 +165,7 @@ class LatinDictScraper:
         neutrum = LatinDictScraper.adjective_form(neut_sing_declension)
 
         if femininum is None or neutrum is None:
-            raise Exception(f'cannot find femininum or neutrum forms for {word}')
+            raise Exception(f'cannot find femininum or neutrum forms for this adjective')  # todo do sth with it
 
         return f'{femininum}, {neutrum}'
 
