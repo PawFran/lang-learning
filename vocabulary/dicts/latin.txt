@@ -2307,3 +2307,17 @@ gustŭs, gustūs [noun] [m] [IV]
 tactŭs, tactūs [noun] [m] [IV]
 ()
 1. dotyk
+
+mănŭs, manūs [noun] [f] [IV]
+(Manus manum lavat)
+1. ręka
+
+lăvo, lavāre, lavāvī, lavātum [verb] [I]
+(Manus manum lavat)
+1. myć
+
+līnĕa, lineae [noun] [f] [I]
+(Nulla dies sine linea)
+1. sznur
+2. linia, kreska
+3. kres, meta
