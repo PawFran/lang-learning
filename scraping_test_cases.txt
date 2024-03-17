@@ -2,8 +2,9 @@ already handled
 volo summus hospitio umbra verso incido ferox prudens utilis opulentus lyra iustae aequae bonus
 
 problematic
-vis arma dissero praesse
+post vis arma dissero praesse
 
+post - IndexError: list index out of range
 vis - IndexError: list index out of range
 arma - IndexError: list index out of range (pl tantum)
 dissero - IndexError: list index out of range

@@ -2236,3 +2236,74 @@ firmo, firmāre, firmāvī, firmātum [verb] [I]
 virtus, virtutis [noun] [f] [III]
 (Res publicam iustitia et virtutes civium firmant)
 1. siła, odwaga, cnota
+
+exercĭtŭs, exercitūs [noun] [m] [IV]
+()
+1. wojsko
+
+cornū, cornūs [noun] [n] [IV]
+()
+1. róg
+
+rēs, rei [noun] [f] [V]
+()
+1. rzecz
+
+spēs, spei [noun] [f] [V]
+(In spe)
+1. nadzieja, przewidywanie, oczekiwanie
+
+lapsŭs, lapsūs [noun] [m] [IV]
+(Lapsus linguae)
+1. poślizgnięcie
+
+spēro, spērāre, sperāvī, sperātum [verb] [I]
+(Contra spem spero)
+1. mieć nadzieję
+
+dĭēs, diei [noun] [m/f] [V]
+()
+1. dzień - pora doby (m), dzień - termin (f)
+
+sĕrēnus, serenă, serenum [adj]
+(Venit post multos annos una serena dies)
+1. pogodny, spokojny
+2. wesoły, zadowolony
+
+dŏmestĭcus, domestică, domesticum [adj]
+(Quid est domestica sede iucundius)
+1. domowy, znajomy, rodzimy
+
+sēdēs, sedis [noun] [f] [III]
+(Quid est domestica sede iucundius)
+1. siedziba
+2. krzesło
+
+iūcundus, iucundă, iucundum [adj]
+(Quid est domestica sede iucundius)
+1. przyjemny
+
+sensŭs, sensūs [noun] [m] [IV]
+()
+1. uczucie, zmysł
+
+vīsŭs, visūs [noun] [m] [IV]
+()
+1. wygląd, widok, pojawienie się
+2. wizja
+
+audītŭs, auditūs [noun] [m] [IV]
+()
+1. słuch
+
+gustŭs, gustūs [noun] [m] [IV]
+()
+1. smak
+
+ŏdōrātŭs, odoratūs [noun] [m] [IV]
+()
+1. węch
+
+tactŭs, tactūs [noun] [m] [IV]
+()
+1. dotyk
