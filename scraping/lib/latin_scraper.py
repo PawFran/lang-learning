@@ -2,6 +2,7 @@ from urllib.parse import quote
 from dataclasses import dataclass
 
 import requests
+import re
 from bs4 import BeautifulSoup
 
 URL_main_part = 'https://www.online-latin-dictionary.com'
@@ -42,8 +43,12 @@ class LatinDictScraper:
         # todo handle different variants of 3rd declension
         split = grammatical_info.split(' ')
         filtered = [segment for segment in split if len(segment) > 0]
-        genre = filtered[0][0]
-        declension_type = filtered[2]
+        declension_type = filtered[-2]
+
+        if re.search('masculin and feminine', grammatical_info) is not None:
+            genre = 'm/f'
+        else:
+            genre = filtered[0][0]
 
         return f'[noun] [{genre}] [{declension_type}]'
 

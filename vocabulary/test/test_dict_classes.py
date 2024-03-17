@@ -83,6 +83,7 @@ def test_is_noun():
 
 def test_which_genre():
     assert LatinNoun.which_genre('vinea, ae [noun] [I] [f]') == 'f'
+    assert LatinNoun.which_genre('hostis, hostis [noun] [m/f]') == 'm/f'
     # todo add other examples
 
 

@@ -139,7 +139,7 @@ def print_scraping_results(f, results):
 
 
 # this method is meant to be used from find_or_scrape_latin.py
-def get_scraper_data(words_to_be_found) -> [DictionaryEntry]:
+def get_scraped_data(words_to_be_found) -> [DictionaryEntry]:
     scraper = LatinDictScraper(base_dict_URL, base_flexion_URL, deepl_headers)
 
     aggregated_results: [DictionaryEntry] = []

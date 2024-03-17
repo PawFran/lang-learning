@@ -1,7 +1,7 @@
 from vocabulary.lib.parsing_dict import *
 import sys
 from collections import namedtuple
-from scraping.lib.utils import get_scraper_data, print_scraping_results, output_temporary_file_name
+from scraping.lib.utils import get_scraped_data, print_scraping_results, output_temporary_file_name
 
 if __name__ == '__main__':
     Args = namedtuple('Args', ['language', 'start_word', 'end_word'])
@@ -21,7 +21,7 @@ if __name__ == '__main__':
             words_initially_not_found.append(input_word)
 
     if len(words_initially_not_found) > 0:
-        scraped: [DictionaryEntry] = get_scraper_data(words_initially_not_found)
+        scraped: [DictionaryEntry] = get_scraped_data(words_initially_not_found)
 
         # check again if not found (maybe another form, not in header, was in the input ex. abl sing)
         for entry in scraped:

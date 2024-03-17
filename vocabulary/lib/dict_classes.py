@@ -100,7 +100,7 @@ class LatinNoun(AbstractWord):
 
     @staticmethod
     def which_genre(dict_entry_head):
-        genre_pattern = '\[[fmn]\]'
+        genre_pattern = '\[[fmn]\]|\[m/f\]'
         return AbstractWord.extract_from_square_brackets(genre_pattern, dict_entry_head)
 
     @staticmethod
