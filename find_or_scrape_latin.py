@@ -21,9 +21,6 @@ if __name__ == '__main__':
             words_initially_not_found.append(input_word)
 
     if len(words_initially_not_found) > 0:
-        # print('### scraping ###')
-        # scraper_args = ' '.join(words_not_found)
-        # os.system(f'python scrape_latin_dict.py {scraper_args}')
         scraped: [DictionaryEntry] = get_scraper_data(words_initially_not_found)
 
         # check again if not found (maybe another form, not in header, was in the input ex. abl sing)
