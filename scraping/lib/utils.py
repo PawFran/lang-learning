@@ -1,8 +1,11 @@
 import re
+import logging
 
 from scraping.lib.latin_scraper import *
 from vocabulary.lib.dict_classes import DictionaryEntry, LatinVerb, LatinNoun, LatinAdverb, LatinPreposition, \
     LatinConjunction, LatinAdjective
+
+output_temporary_file_name = 'scraping_out_tmp.txt'
 
 
 def print_and_write(f, text):
@@ -128,3 +131,28 @@ def print_and_write_to_file(f, dict_entry: DictionaryEntry):
         print_and_write(f, f'{i + 1}. {t}')
 
     print_and_write(f, '')
+
+
+def print_scraping_results(f, results):
+    for scrape_result in results:
+        print_and_write_to_file(f, scrape_result)
+
+
+# this method is meant to be used from find_or_scrape_latin.py
+def get_scraper_data(words_to_be_found) -> [DictionaryEntry]:
+    scraper = LatinDictScraper(base_dict_URL, base_flexion_URL, deepl_headers)
+
+    aggregated_results: [DictionaryEntry] = []
+
+    for word in words_to_be_found:
+
+        try:
+            scrape_results: [DictionaryEntry] = scrape(scraper, word)
+            aggregated_results += scrape_results
+
+        except Exception as Argument:
+            # print(f'cannot scrape {input_word}')
+            logging.exception(f'cannot scrape {word}')
+            print()
+
+    return aggregated_results

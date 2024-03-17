@@ -1,10 +1,7 @@
 import sys
-import logging
 
 from scraping.lib.utils import *
 from vocabulary.lib.dict_classes import DictionaryEntry
-
-output_temporary_file_name = 'scraping_out_tmp.txt'
 
 if __name__ == '__main__':
     if len(sys.argv) == 1:
@@ -18,8 +15,7 @@ if __name__ == '__main__':
             try:
                 results: [DictionaryEntry] = scrape(scraper, input_word)
 
-                for scrape_result in results:
-                    print_and_write_to_file(f, scrape_result)
+                print_scraping_results(f, results)
 
             except Exception as Argument:
                 # print(f'cannot scrape {input_word}')

@@ -311,7 +311,7 @@ class Dictionary:
 
         return None
 
-    def find_by_header_using_weak_compare(self, to_be_found) -> list[DictionaryEntry]:
+    def find_by_word_using_weak_compare(self, to_be_found) -> list[DictionaryEntry]:
         """
         compares (weakly, that is no special signs, accents ect.) given word to any entry in dictionary part by part
         ex. in case of verb entry any of it's form (infinitive, 1p, perf, supine) will be checked (but no metadata)
@@ -327,6 +327,9 @@ class Dictionary:
                 results.append(entry)
 
         return results
+
+    def find_by_full_header_using_weak_compare(self, to_be_found) -> [DictionaryEntry]:
+        return [x for x in self.entries if weak_equals(x.head.head_raw, to_be_found, case_sensitive=True)]
 
     # todo test it (1-el dict, 2-el dict)
     def random_dict_entry(self, rng=default_rng()) -> DictionaryEntry:

@@ -279,13 +279,13 @@ def test_find_by_header_using_weak_compare():
 
     dictionary = Dictionary(entries=[dict_entry1, dict_entry2], lang='latin')
 
-    results1 = dictionary.find_by_header_using_weak_compare('castigo ')
-    results2 = dictionary.find_by_header_using_weak_compare('castigare')
-    results3 = dictionary.find_by_header_using_weak_compare('asti')
-    results4 = dictionary.find_by_header_using_weak_compare('valde')
-    results5 = dictionary.find_by_header_using_weak_compare('verb')
-    results6 = dictionary.find_by_header_using_weak_compare('I')
-    results7 = dictionary.find_by_header_using_weak_compare('[')
+    results1 = dictionary.find_by_word_using_weak_compare('castigo ')
+    results2 = dictionary.find_by_word_using_weak_compare('castigare')
+    results3 = dictionary.find_by_word_using_weak_compare('asti')
+    results4 = dictionary.find_by_word_using_weak_compare('valde')
+    results5 = dictionary.find_by_word_using_weak_compare('verb')
+    results6 = dictionary.find_by_word_using_weak_compare('I')
+    results7 = dictionary.find_by_word_using_weak_compare('[')
 
     assert results1 == [dict_entry1]
     assert results2 == [dict_entry1]
@@ -294,6 +294,27 @@ def test_find_by_header_using_weak_compare():
     assert len(results5) == 0
     assert len(results6) == 0
     assert len(results7) == 0
+
+
+def test_find_by_full_header_using_weak_compare():
+    dict_entry1 = DictionaryEntry(
+        head=LatinVerb.from_entry_head('castīgo, castīgāre, castīgāvi, castīgātum [verb] [I]'),
+        example='(Ancillam miseram domina sevēra castīgat)',
+        translations=['karać']
+    )
+
+    dict_entry2 = DictionaryEntry(
+        head=LatinAdverb(base='valdē', head_raw='valdē [adv]'),
+        example='Varsoviam valde amamus',
+        translations=['bardzo']
+    )
+
+    dictionary = Dictionary(entries=[dict_entry1, dict_entry2], lang='latin')
+
+    assert dictionary.find_by_full_header_using_weak_compare('castigo') == []
+    assert dictionary.find_by_full_header_using_weak_compare('castīgo, castīgāre, castīgāvi, castīgātum') == []
+    assert dictionary.find_by_full_header_using_weak_compare('castīgo, castīgāre, castīgāvi, castīgātum [verb] [I]') == [dict_entry1]
+    assert dictionary.find_by_full_header_using_weak_compare('valdē [adv]') == [dict_entry2]
 
 
 def test_find_by_base_word_and_translation():
