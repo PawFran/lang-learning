@@ -1,19 +1,14 @@
 roadmap for language learning
 
-summus źle się scrape'uje. wydaje się, że to przez niejednoznaczność - otwiera rzeczownik i próbuje pobrać formy przymiotnika
 multus, multă, multum - sprawdzić w słowniku papierowym
 
-wpisać zdanie łacińskie i dostać scrape szystkich słów i uzupełnione w () to zdanie
+wpisać zdanie łacińskie i dostać scrape wszystkich słów i uzupełnione w () to zdanie
 podczas screpe'owania wskazywać też jaka to jest forma (i czy na pewno została znaleziona - patrz appetimus)
 
 co jeśli dwie formy perf są poprawne ? np appetii o appetivi
 
-w przypadku niejednoznaczności (disambiguation) pobierać wszystkie wersje w scape'owaniu
-
 gdyby ściągnąć całe odmiany z LATIN DICTIONARY można by było w ćwieczeniach
 deklinacja/koniugacja pytać o dowolne słowa a nie tylko te zapisane w json
-
-nie da się scrape'ować pl tantum np. arma
 
 scrape - zwracać również formę której się szukało (i info o niej), a nie tylko podstawową
 
@@ -40,6 +35,12 @@ obsłużyć en - interjection
 -ne enklityka, przyrostek https://pl.wiktionary.org/wiki/-ne
 
 que - enklityka. dodać ?
+
+āio - nieregularny
+
+dissĕro, dissĕrāre [verb] [I]
+()
+1. dyskutować
 
 podczas nowej sesji pytać najpierw o to, co dotąd było najczęściej źle (powiedzmy ostatnie x razy) a potem wg kolejności
 co z tymi, które w trakcie sesji zostały źle ocenione ? może podbijać prawdopodobieństwo o X
