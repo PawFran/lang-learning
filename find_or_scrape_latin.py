@@ -38,7 +38,7 @@ if __name__ == '__main__':
             print(entry.head.head_raw)
             print(f'({entry.example})')
             for i in range(len(entry.translations)):
-                print(f'{i + 1}.{entry.translations[i]}')
+                print(f'{i + 1}. {entry.translations[i]}')
             print('')
 
     if len(entries_finally_not_found) > 0:
