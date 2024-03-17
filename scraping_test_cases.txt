@@ -1,11 +1,10 @@
 already handled
-summus hospitio umbra verso incido ferox prudens utilis opulentus lyra iustae aequae bonus
+volo summus hospitio umbra verso incido ferox prudens utilis opulentus lyra iustae aequae bonus
 
 problematic
 canis volare vis arma dissero praesse
 
 canis - [m] [feminine]
-volare - IndexError: list index out of range
 vis - IndexError: list index out of range
 arma - IndexError: list index out of range (pl tantum)
 dissero - IndexError: list index out of range

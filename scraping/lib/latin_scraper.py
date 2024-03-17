@@ -13,7 +13,7 @@ deepl_headers = {
     'Content-Type': 'application/x-www-form-urlencoded',
 }
 
-verb_pattern = '.+ verb .+'
+verb_pattern = '.+ verb.*'
 noun_pattern = '.+ noun .+'
 adverb_pattern = 'adverb'
 preposition_pattern = 'preposition'
@@ -32,8 +32,9 @@ class LatinDictScraper:
     def verb_metadata(grammatical_info) -> str:
         split = grammatical_info.split(' ')
         filtered = [segment for segment in split if len(segment) > 0]
+
         # info about conjugation type is just before "conjugation" word (other words may be different)
-        conjugation_type = filtered[filtered.index('conjugation') - 1]
+        conjugation_type = 'anomalous' if 'anomalous' in filtered else filtered[filtered.index('conjugation') - 1]
         return f'[verb] [{conjugation_type}]'
 
     @staticmethod
@@ -86,12 +87,12 @@ class LatinDictScraper:
 
     @staticmethod
     def verb_infinitive(divs_with_conjugation) -> str:
-        div_with_infinitive = divs_with_conjugation[5]
+        div_with_infinitive_at_list = divs_with_conjugation[5].text.split('\n')
+        present_infinitive_index = div_with_infinitive_at_list.index('PRESENT') + 1
 
-        infinitive_core = div_with_infinitive.find_all("span", {"class": "radice"})[0].text
-        infinitive_ending = div_with_infinitive.find_all("span", {"class": "desinenza"})[0].text
+        infinitive = div_with_infinitive_at_list[present_infinitive_index].strip()
 
-        return infinitive_core + infinitive_ending
+        return None if infinitive == '-' else infinitive
 
     @staticmethod
     def verb_supine(divs_with_conjugation) -> str:
@@ -107,7 +108,7 @@ class LatinDictScraper:
             # accents from https://www.online-latin-dictionary.com are sometimes wrong
 
     @staticmethod
-    def verb_forms_static(flexion_soup) -> str:
+    def verb_forms(flexion_soup) -> str:
         divs_with_conjugation = flexion_soup.find_all("div", {"class": "col span_1_of_2"})
 
         perfect_first_sing_full = LatinDictScraper.verb_perfect_form(divs_with_conjugation)
@@ -122,7 +123,7 @@ class LatinDictScraper:
             return inf_and_perfect
 
     @staticmethod
-    def full_gen_sing_static(flexion_soup) -> str:
+    def full_gen_sing(flexion_soup) -> str:
         divs_with_declension = flexion_soup.find_all("div", {"class": "col span_1_of_2"})
         singular_declension = divs_with_declension[0]
 
@@ -155,7 +156,7 @@ class LatinDictScraper:
         return None
 
     @staticmethod
-    def adjective_forms_static(flexion_soup) -> str:
+    def adjective_forms(flexion_soup) -> str:
         divs_with_declension = flexion_soup.find_all("div", {"class": "col span_1_of_2"})
 
         fem_sing_declension = divs_with_declension[2]

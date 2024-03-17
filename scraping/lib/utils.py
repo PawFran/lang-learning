@@ -10,6 +10,10 @@ def print_and_write(f, text):
     f.write(text + '\n')
 
 
+def is_present(pattern, text) -> bool:
+    return re.search(pattern, text) is not None
+
+
 def single_scraping_result(scraper, single_result) -> LatinScrapeResults:
     word = single_result.find_all("span", class_="lemma")[0].text
     grammatical_info = single_result.find_all("span", class_="grammatica")[0].text
@@ -89,26 +93,23 @@ def parse_dict_entry(flexion_soup, summary_and_translations) -> DictionaryEntry:
     word = summary_and_translations.word
     translations = summary_and_translations.polish_translations
 
-    def is_present(pattern) -> bool:
-        return re.search(pattern, grammatical_info) is not None
-
-    if is_present(verb_pattern):
-        msg = f', {LatinDictScraper.verb_forms_static(flexion_soup)} {LatinDictScraper.verb_metadata(grammatical_info)}'
+    if is_present(verb_pattern, grammatical_info):
+        msg = f', {LatinDictScraper.verb_forms(flexion_soup)} {LatinDictScraper.verb_metadata(grammatical_info)}'
         header = LatinVerb.from_entry_head(word + msg)
-    elif is_present(noun_pattern):
-        msg = f', {LatinDictScraper.full_gen_sing_static(flexion_soup)} {LatinDictScraper.noun_metadata(grammatical_info)}'
+    elif is_present(noun_pattern, grammatical_info):
+        msg = f', {LatinDictScraper.full_gen_sing(flexion_soup)} {LatinDictScraper.noun_metadata(grammatical_info)}'
         header = LatinNoun.from_entry_head(word + msg)
-    elif is_present(adverb_pattern):
+    elif is_present(adverb_pattern, grammatical_info):
         msg = f' {LatinDictScraper.adverb_metadata()}'
         header = LatinAdverb.from_entry_head(word + msg)
-    elif is_present(preposition_pattern):
+    elif is_present(preposition_pattern, grammatical_info):
         msg = f' {LatinDictScraper.preposition_metadata()}'
         header = LatinPreposition.from_entry_head(word + msg)
-    elif is_present(conjunction_pattern):
+    elif is_present(conjunction_pattern, grammatical_info):
         msg = f' {LatinDictScraper.conjunction_metadata()}'
         header = LatinConjunction.from_entry_head(word + msg)
-    elif is_present(adjective_pattern):
-        msg = f', {LatinDictScraper.adjective_forms_static(flexion_soup)} {LatinDictScraper.adjective_metadata()}'
+    elif is_present(adjective_pattern, grammatical_info):
+        msg = f', {LatinDictScraper.adjective_forms(flexion_soup)} {LatinDictScraper.adjective_metadata()}'
         header = LatinAdjective.from_entry_head(word + msg)
     else:
         raise Exception(f'cannot parse')
