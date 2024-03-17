@@ -2212,3 +2212,27 @@ nuntius, nuntii [noun] [m] [II]
 ēnŭmĕro, ēnŭmĕrāre, enumerāvī, enumerātum [verb] [I]
 (Romani summos deos deasque ita enumerabant: ... )
 1. wyliczyć
+
+sto, stāre, steti, stātum [verb] [I]
+(Res publicae legibus et civibus bonic stabis)
+1. stać, opierać się (na kimś/czymś) (+ abl)
+
+iustus, iustă, iustum [adj]
+(Rerum publicarum leges iustae atque aequae esse debent)
+1. sprawiedliwy
+
+aequus, aequă, aequum [adj]
+(Rerum publicarum leges iustae atque aequae esse debent)
+1. równy
+
+praesum, praeesse, praefui [verb] [anomalous]
+(Rebus publicis cives boni et iusti praeesse debent)
+1. przewodzić, mieć władzę nad (+ dat)
+
+firmo, firmāre, firmāvī, firmātum [verb] [I]
+(Res publicam iustitia et virtutes civium firmant)
+1. wzmocnić, wspierać
+
+virtus, virtutis [noun] [f] [III]
+(Res publicam iustitia et virtutes civium firmant)
+1. siła, odwaga, cnota
