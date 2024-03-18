@@ -151,8 +151,8 @@ def get_scraped_data(words_to_be_found) -> [DictionaryEntry]:
             aggregated_results += scrape_results
 
         except Exception as Argument:
-            # print(f'cannot scrape {input_word}')
-            logging.exception(f'cannot scrape {word}')
+            print(f'\ncannot scrape {word}')
+            # logging.exception(f'cannot scrape {word}')
             print()
 
     return aggregated_results
