@@ -2244,6 +2244,7 @@ exercĭtŭs, exercitūs [noun] [m] [IV]
 cornū, cornūs [noun] [n] [IV]
 ()
 1. róg
+2. skrzydło, flanka
 
 rēs, rei [noun] [f] [V]
 ()
@@ -2398,3 +2399,44 @@ dēnĭquĕ [adv]
 laetus, laetă, laetum [adj]
 (Denique laetus domum properat)
 1. szczęśliwy, wesoły, radosny, zadowolony
+
+consĭlĭum, consilii [noun] [n] [II]
+(Senatum consilium publicum erat)
+1. debata, dyskusja, narada, konsultacje
+2. organ doradczy
+
+servĭo, servīre, servii/servivi, servitum [verb] [IV]
+(Servi, qui dominis servire debebant atque ab iis graviter puniebantur)
+1. służyć
+
+grăvĭtĕr [adv]
+(Servi, qui dominis servire debebant atque ab iis graviter puniebantur)
+1. poważnie, głęboko
+
+rĕporto, rĕportāre, reportāvī, reportātum [verb] [I]
+()
+1. raportować
+
+ĕquĭtātŭs, equitatūs [noun] [m] [IV]
+(Exercitus Romanus ex equitatu et peditatu constabat)
+1. kawaleria
+
+pĕdĭtātŭs, peditatūs [noun] [m] [IV]
+(Exercitus Romanus ex equitatu et peditatu constabat)
+1. piechota
+
+consto, constāre, constiti [verb] [I]
+(Exercitus Romanus ex equitatu et peditatu constabat)
+1. składać się z
+
+ĕquĕs, equitis [noun] [m] [III]
+(In proelio equites in cornibus exercitus erant)
+1. jeździec, kawalerzysta
+
+proelĭum, proelii [noun] [n] [II]
+(In proelio equites in cornibus exercitus erant)
+1. bitwa, walka
+
+consŭl, consulis [noun] [m] [III]
+(Exercitui Romani consul aut praetor praeerat)
+1. konsul

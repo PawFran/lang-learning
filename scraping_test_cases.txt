@@ -11,6 +11,9 @@ imminent
 secundis
 secundum
 secundorum
+servire
+graviter
+proelio
 
 post - IndexError: list index out of range
 vis - IndexError: list index out of range
