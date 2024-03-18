@@ -4,6 +4,14 @@ volo summus hospitio umbra verso incido ferox prudens utilis opulentus lyra iust
 problematic
 lavat lavare post vis arma dissero praesse
 
+risum
+poteris
+cognoscere
+imminent
+secundis
+secundum
+secundorum
+
 post - IndexError: list index out of range
 vis - IndexError: list index out of range
 arma - IndexError: list index out of range (pl tantum)

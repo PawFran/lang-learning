@@ -2321,3 +2321,80 @@ līnĕa, lineae [noun] [f] [I]
 1. sznur
 2. linia, kreska
 3. kres, meta
+
+rīsŭs, risūs [noun] [m] [IV]
+(Per risum multum poteris cognoscere stultum)
+1. śmiech, uśmiech
+2. pogarda, szyderstwo
+
+cognosco, cognoscĕre, cognovi, cognitum [verb] [III]
+(Per risum multum poteris cognoscere stultum)
+1. rozpoznać, dowiedzieć się
+
+ĭneptus, ineptă, ineptum [adj]
+(Risu inepto res ineptior nulla est)
+1. głupi, niemądry
+
+sĕnātŭs, senatūs [noun] [m] [IV]
+(Cives in senatu de republica disputant)
+1. senat
+
+intĕrĭtŭs, interitūs [noun] [m] [IV]
+(Hostes Romanis imminent et Romae interitum parant)
+1. wyginięcie, zniszczenie
+
+măgistrātŭs, magistratūs [noun] [m] [IV]
+(Cives senatum et magistratus rogant)
+1. funkcjonariusz
+
+sŏnĭtŭs, sonitūs [noun] [m] [IV]
+(Sonitus tubarum signum exercitui ad impetum dat)
+1. hałas, głośny dźwięk
+
+impĕtŭs, impetūs [noun] [m] [IV]
+(Sonitus tubarum signum exercitui ad impetum dat)
+1. atak
+
+incĭto, incĭtāre, incitāvī, incitātum [verb] [I]
+(Imperator spem civium incitat)
+1. pobudzić
+
+rĕdĭtŭs, reditūs [noun] [m] [IV]
+(Omnes reditum exercitus victoris exspectans)
+1. powrót
+
+exspecto, exspectāre, exspectāvī, exspectātum [verb] [I]
+(Omnes reditum exercitus victoris exspectans)
+1. wypatrywać, oczekiwać
+
+laus, laudis [noun] [f] [III]
+(Milites spe victoriae et laudis ad pugnam incitatur)
+1. pochwała
+
+adversus, adversă, adversum [adj]
+(Et in rebus advertis et in rebus secundis Romani deis sacrificabant)
+1. przeciwny
+
+sĕcundus, secundă, secundum [adj]
+(Et in rebus advertis et in rebus secundis Romani deis sacrificabant)
+1. szczęśliwy, sprzyjający
+
+cŏrōna, coronae [noun] [f] [I]
+(Imperator militibus coronas et dona multa tribuit)
+1. wieniec
+
+dōnum, doni [noun] [n] [II]
+(Imperator militibus coronas et dona multa tribuit)
+1. prezent
+
+trĭbŭo, trĭbŭĕre, tribui, tributum [verb] [III]
+(Imperator militibus coronas et dona multa tribuit)
+1. przyznawać, przydzielać
+
+dēnĭquĕ [adv]
+(Denique laetus domum properat)
+1. w końcu
+
+laetus, laetă, laetum [adj]
+(Denique laetus domum properat)
+1. szczęśliwy, wesoły, radosny, zadowolony
