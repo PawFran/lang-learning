@@ -2440,3 +2440,20 @@ proelĭum, proelii [noun] [n] [II]
 consŭl, consulis [noun] [m] [III]
 (Exercitui Romani consul aut praetor praeerat)
 1. konsul
+
+lĕpĭdus, lepidă, lepidum [adj]
+(Hannibalis lepidum sed acerbum dictum)
+1. czarujący, zabawny, dowcipny
+
+ăcerbus, acerbă, acerbum [adj]
+(Hannibalis lepidum sed acerbum dictum)
+1. cierpki
+2. kwaśny, niedojrzały
+
+prŏfŭgus, profugă, profugum [adj]
+(Hannibal Carthagine profugus apud Antiuchum manebat)
+1. uciekający, wygnany
+
+prŏfŭgus, profugi [noun] [m] [II]
+()
+1. uciekinier, wygnaniec
