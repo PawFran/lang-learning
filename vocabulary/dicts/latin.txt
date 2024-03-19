@@ -2457,3 +2457,89 @@ prŏfŭgus, profugă, profugum [adj]
 prŏfŭgus, profugi [noun] [m] [II]
 ()
 1. uciekinier, wygnaniec
+
+dux, ducis [noun] [m/f] [III]
+(Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
+1. dowódca, książę
+
+ostendo, ostendĕre, ostendi, ostentum/ostensum [verb] [III]
+(Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
+1. pokazać
+
+ălĭquandō [adv]
+(Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
+1. pewnego razu
+
+părātus, parată, paratum [adj]
+(Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
+1. przygotowany, gotowy
+
+insignĕ, insignis [noun] [n] [III]
+(Rex ostendabat exercitum argenteis et aureis insignibus florentem)
+1. znak, emblemat, odznaka
+
+currŭs, currūs [noun] [m] [IV]
+(Rex ostendabat currus cum falcibus)
+1. rydwan, lekki pojazd konny
+
+falx, falcis [noun] [f] [III]
+(Rex ostendabat currus cum falcibus)
+1. sierp, kosa
+
+turris, turris [noun] [f] [III]
+(Rex ostendabat elephantos cum turribus)
+1. wieża
+
+fulgens, fulgens, fulgens [adj]
+()
+1. lśniący, olśniewający
+
+ĕlĕphantus, elephanti [noun] [m/f] [II]
+(Rex ostendabat elephantos cum turribus)
+1. słoń
+
+ĕphippĭum, ephippii [noun] [n] [II]
+(Rex ostendabat equitatum frenis et ephippiis fulgentem)
+1. podkładka pod siodło, derka dla konia
+
+frēnum, freni [noun] [n] [II]
+(Rex ostendabat equitatum frenis et ephippiis fulgentem)
+1. uzda, uprząż
+
+sătis, sătis, sătis [adj]
+(Satis-ne erunt Romanis haec omnia ?)
+1. wystarczający, odpowiedni, zadowalający
+
+plānē [adv]
+(Plane satis sunt, credo, Roamnis, etiam si avarissimi sunt)
+1. jasno, wyraźnie, całkowicie
+
+rīdĕo, rīdēre, risi, risum [verb] [II]
+(Plane satis sunt, credo, Roamnis, etiam si avarissimi sunt)
+1. śmiać się, wyśmiewać
+2. uśmiechać się
+
+ăvārus, avară, avarum [adj]
+(Plane satis sunt, credo, Roamnis, etiam si avarissimi sunt)
+1. skąpy, chciwy
+
+praeda, praedae [noun] [f] [I]
+(Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
+1. łup, zdobycz
+
+sentĭo, sentīre, sensi, sensum [verb] [IV]
+(Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
+1. myśleć, zdawać sobie sprawę
+
+ēlūdo, ēlūdĕre, elusi, elusum [verb] [III]
+(Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
+1. wymknąć się, uciec od
+2. kpić, wyśmiewać się
+
+ignāvĭa, ignaviae [noun] [f] [I]
+(Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
+1. bezczynność, lenistwo
+
+imbellĭa, imbelliae [noun] [f] [I]
+(Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
+1. niezdolność do wojny

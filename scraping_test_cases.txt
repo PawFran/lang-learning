@@ -14,6 +14,9 @@ secundorum
 servire
 graviter
 proelio
+aliquando
+frenis
+plane
 
 post - IndexError: list index out of range
 vis - IndexError: list index out of range
