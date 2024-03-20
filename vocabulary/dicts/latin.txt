@@ -2543,3 +2543,39 @@ ignāvĭa, ignaviae [noun] [f] [I]
 imbellĭa, imbelliae [noun] [f] [I]
 (Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
 1. niezdolność do wojny
+
+vīvo, vīvĕre, vixi, victum [verb] [III]
+()
+1. być żywym, żyć
+
+pingo, pingĕre, pinxi, pictum [verb] [III]
+()
+1. malować
+
+prōmitto, prōmittĕre, promisi, promissum [verb] [III]
+(Magna promisisti, exigua video)
+1. obiecać
+
+magnum, magni [noun] [n] [II]
+(Magna promisisti, exigua video)
+1. coś wielkiego, coś wspaniałego
+
+exĭgŭum, exigui [noun] [n] [II]
+(Magna promisisti, exigua video)
+1. trochę, niewielka ilość
+
+quod [conj]
+(Feci quod potui)
+1. o ile, tak dalece jak
+
+perfĭdus, perfidă, perfidum [adj]
+(Vicimus perfidos hospites, imbellis hostes)
+1. zdradziecki, fałszywy, podstępny
+
+hospĕs, hospitis [noun] [m] [III]
+(Vicimus perfidos hospites, imbellis hostes)
+1. gospodarz
+
+imbellis, imbellis, imbelle [adj]
+(Vicimus perfidos hospites, imbellis hostes)
+1. nieodpowiedni lub nieprzygotowany do wojny
