@@ -9,6 +9,7 @@ subito - problem z adv "This word is an invariable part of speech"
 alter
 cĕlĕrĭtĕr
 mortuorum
+solvere
 risum
 poteris
 cognoscere

@@ -2659,3 +2659,25 @@ insŭsurro, insŭsurrāre, insusurrāvī, insusurrātum [verb] [I]
 1. insynuować
 2. sugerować
 3. szeptać
+
+ĭnŏpĭa, inopiae [noun] [f] [I]
+(Aliquando Romae frumenti magna inopia erat)
+1. brak, potrzeba
+2. ubóstwo, nędza, niedobór
+
+ŏnustus, onustă, onustum [adj]
+(Iam naves frumento onustae erant)
+1. ciężki, w pełni załadowany
+
+solvo, solvĕre, solvi, solutum [verb] [III]
+(Subito tempestas magna nautas naves solvere prohibuit)
+1. uwolnić, rozplątać, rozwiązać
+2. postawić żagle, wypłynąć na morze
+
+tempestās, tempestatis [noun] [f] [III]
+(Subito tempestas magna nautas naves solvere prohibuit)
+1. burza
+
+turbātus, turbată, turbatum [adj]
+(Omnes per mare turbatum navigare timebant)
+1. wzburzony, zaniepokojony
