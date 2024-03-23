@@ -2002,7 +2002,7 @@ cēno, cēnāre, cenāvī, cenātum [verb] [I]
 
 antĕ [adv]
 (Ante pugnam ad milites verba facit)
-1. przed
+1. przed (+ acc)
 
 infĕrus, infĕri [noun] [II] [m]
 (Hodie apud inferos fortasse cenabimus)
@@ -2579,3 +2579,83 @@ hospĕs, hospitis [noun] [m] [III]
 imbellis, imbellis, imbelle [adj]
 (Vicimus perfidos hospites, imbellis hostes)
 1. nieodpowiedni lub nieprzygotowany do wojny
+
+antĕā [adv]
+(Sum quod eris. Quod es antea fui)
+1. przed
+2. poprzednio, w przeszłości
+
+ĭtĕr, itineris [noun] [n] [III]
+(Duo amici per montes iter faciebant)
+1. podróż, droga
+
+conspĭcĭo, conspĭcĕre, conspexi, conspectum [verb] [III]
+(Duo amici subito procul ursum appropinquantem conspexerunt)
+1. obserwować, widzieć
+
+sŭbĭtō [adv]
+(Duo amici subito procul ursum appropinquantem conspexerunt)
+1. nagle
+
+altĕr [pron]
+(Alter ex iisceleriter arborem ascendit)
+1. drugi, inny
+2. jeden (spośród dwóch)
+
+cĕlĕrĭtĕr [adv]
+(Alter ex iisceleriter arborem ascendit)
+1. szybko, w pośpiechu
+
+arbŏr, arboris [noun] [f] [III]
+(Alter ex iisceleriter arborem ascendit)
+1. drzewo
+
+ascendo, ascendĕre, ascendi, ascensum [verb] [III]
+(Alter ex iisceleriter arborem ascendit)
+1. wspinać się
+
+descendo, descendĕre, descendi, descensum [verb] [III]
+()
+1. schodzić
+
+rĕlictus, relictă, relictum [adj]
+()
+1. opuszczony, porzucony
+
+attingo, attingĕre, attigi, attactum [verb] [III]
+(Ursus mortuorum corpora non attingit)
+1. dotykać
+
+tango, tangĕre, tetigi, tactum [verb] [III]
+()
+1. dotknąć
+
+mortŭus, mortuă, mortuum [adj]
+(Ursus mortuorum corpora non attingit)
+1. martwy
+
+mens, mentis [noun] [f] [III]
+(Ursus mortuorum corpora non attingit - in mentem ei venit)
+1. umysł
+
+tempto, temptāre, temptāvī, temptātum [verb] [I]
+(Ursus iacenti appropinquavit, corpus eius temptavit, denique discessit)
+1. testować, próbować
+
+discēdo, discēdĕre, discessi, discessum [verb] [III]
+(Ursus iacenti appropinquavit, corpus eius temptavit, denique discessit)
+1. odejść, wycofać się
+
+intactus, intactă, intactum [adj]
+(Ursus iuvenem intactum reliquit)
+1. nienaruszony, nietknięty
+
+iŏcus, ioci [noun] [m] [II]
+(Alter ex arbore descendit et amicum per iocum interrogavit)
+1. żart
+
+insŭsurro, insŭsurrāre, insusurrāvī, insusurrātum [verb] [I]
+(Quid ursus tibi per aures interrogavit ?)
+1. insynuować
+2. sugerować
+3. szeptać
