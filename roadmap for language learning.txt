@@ -2,6 +2,8 @@ roadmap for language learning
 
 multus, multă, multum - sprawdzić w słowniku papierowym
 
+już po bazie danych: wyłapywać co było błędem i dopytywać tylko o to (w translation_exercise) - np. tylko supinum od jakiegoś słowa ciągle jest źle, więc nie ma sensu dopytywać o wszystkie formy
+
 servĭo, servīre, servii/servivi, servitum - obsłużyć warianty
 
 wpisać zdanie łacińskie i dostać scrape wszystkich słów i uzupełnione w () to zdanie
