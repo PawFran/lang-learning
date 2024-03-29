@@ -526,7 +526,7 @@ asporto, asportāre, asportāvī, asportātum [verb] [I]
 (Romani terras invadebant, incolas interficiebant aut captivos asportabant)
 1. zabierać, uprowadzać, usuwać
 
-victŭs, victa, victum [noun] [m] [IV]
+victŭs, victa, victum [adj]
 (Romani bella gerebant, populos victos premebant)
 1. zwyciężony
 

@@ -1212,3 +1212,44 @@ default_user;40;latin;spostrzegać;cerno, cernĕre, crevi, cretum ;;False;2024-0
 default_user;40;latin;nazwisko;nōmĕn, nominis ;cognomen cognominis;False;2024-03-29 19:16:56
 default_user;40;latin;a wtedy, na to;ăt ;tum;False;2024-03-29 19:17:00
 default_user;40;latin;bronić;dēfendo, dēfendĕre, defendi, defensum ;defendo defendere defendi defensum;True;2024-03-29 19:17:09
+default_user;41;latin;granica;fīnis, fīnis ;limes limitis;False;2024-03-29 19:21:18
+default_user;41;latin;uwolnić, rozplątać, rozwiązać;solvo, solvĕre, solvi, solutum ;solvo solvere solvi solutum;True;2024-03-29 19:21:26
+default_user;41;latin;wizja;vīsŭs, visūs ;;False;2024-03-29 19:21:27
+default_user;41;latin;dzień - pora doby (m), dzień - termin (f);dĭēs, diei ;dies dies;False;2024-03-29 19:21:39
+default_user;41;latin;bowiem, ponieważ;nam ;ergo;False;2024-03-29 19:21:43
+default_user;41;latin;znany;notus, nota, notum ;notus a um;True;2024-03-29 19:21:47
+default_user;41;latin;krzesło;sēdēs, sedis ;sedes sedes;False;2024-03-29 19:21:52
+default_user;41;latin;broń, uzbrojenie;arma, armōrum ;armor armoris;False;2024-03-29 19:21:59
+default_user;41;latin;winnica;vinea, vineae ;vinea vineae;True;2024-03-29 19:22:05
+default_user;41;latin;przez prawo, słusznie, sprawiedliwie;iūrĕ ;;False;2024-03-29 19:22:07
+default_user;41;latin;praca;negotium, negotiī ;labor laboris;False;2024-03-29 19:22:11
+default_user;41;latin;robotnik;operarius, operarii ;faber fabri;False;2024-03-29 19:22:20
+default_user;41;latin;karać;castīgo, castīgāre, castīgāvī, castīgātum ;castigo 1;True;2024-03-29 19:22:26
+default_user;41;latin;morze;mărĕ, maris ;mare maris;True;2024-03-29 19:22:30
+default_user;41;latin;święty;săcĕr, sacră, sacrum ;sanctus a um;False;2024-03-29 19:22:33
+default_user;41;latin;przywrócić, odnawiać;restĭtŭo, restĭtŭĕre, restitui, restitutum ;;False;2024-03-29 19:22:37
+default_user;41;latin;szczęśliwy;beātus, beāta, beātum ;beatus a um;True;2024-03-29 19:22:41
+default_user;41;latin;składać ofiarę;sacrifico, sacrificāre, sacrificāvī, sacrificātum ;sacrifico a um;False;2024-03-29 19:22:48
+default_user;41;latin;zgoda;concordia, concordiae ;concordia concordiae;True;2024-03-29 19:22:54
+default_user;41;latin;odejść, wycofać się;discēdo, discēdĕre, discessi, discessum ;relinquo 1;False;2024-03-29 19:22:59
+default_user;41;latin;jednomyślny, zgodny;ūnanimus, ūnanima, ūnanimum ;unanimus a um;True;2024-03-29 19:23:04
+default_user;41;latin;mieć;habeo, habēre, habuī, habitum ;habeo habere habui habitum;True;2024-03-29 19:23:11
+default_user;41;latin;tłum, motłoch;turba, turbae ;turba turbae;True;2024-03-29 19:23:16
+default_user;41;latin;obwarowany;mūnītus, munită, munitum ;munitus a um;True;2024-03-29 19:23:20
+default_user;41;latin;bitwa, walka;proelĭum, proelii ;certamen certaminis;False;2024-03-29 19:23:26
+default_user;41;latin;otaczać;cingo, cingĕre, cinxi, cinctum ;;False;2024-03-29 19:23:29
+default_user;41;latin;król;rex, regis ;rex regis;True;2024-03-29 19:23:33
+default_user;41;latin;coś wielkiego, coś wspaniałego;magnum, magni ;;False;2024-03-29 19:23:36
+default_user;41;latin;miód;mĕl, mellis ;mel mellis;True;2024-03-29 19:23:40
+default_user;41;latin;odpowiedzieć;respondĕo, respondēre, respondi, responsum ;respondeo respondere responsi responsum;False;2024-03-29 19:23:54
+default_user;41;latin;srebro;argentum, argenti ;argentum argenti;True;2024-03-29 19:24:01
+default_user;41;latin;skąpy, chciwy;ăvārus, avară, avarum ;;False;2024-03-29 19:24:03
+default_user;41;latin;święty;săcĕr, sacră, sacrum ;sacer sacer sacre;False;2024-03-29 19:24:11
+default_user;41;latin;pragnąć;dēsīdĕro, dēsīdĕrāre, desiderāvī, desiderātum ;cupio cupiero cupii cupitum;False;2024-03-29 19:24:24
+default_user;41;latin;pilnie, skrupulatnie;dīlĭgentĕr ;;False;2024-03-29 19:24:28
+default_user;41;latin;dotknąć;tango, tangĕre, tetigi, tactum ;tango tangere tetigi tactum;True;2024-03-29 19:24:39
+default_user;41;latin;pomagać, być pożytecznym;prōsum, prōdesse, profuī ;adsum adesse adfui;False;2024-03-29 19:24:48
+default_user;41;latin;nazwisko;nōmĕn, nominis ;nomen nominis;True;2024-03-29 19:24:52
+default_user;41;latin;umiejętność, rzemiosło, sztuka;ars, artis ;ars artis;True;2024-03-29 19:24:57
+default_user;41;latin;słońce;sōl, solis ;sol solis;True;2024-03-29 19:25:00
+default_user;41;latin;zwyciężony;victŭs, victa, victum ;victus a um;False;2024-03-29 19:25:04
