@@ -1061,3 +1061,154 @@ default_user;36;latin;sugerować;insŭsurro, insŭsurrāre, insusurrāvī, insus
 default_user;36;latin;ciężki, w pełni załadowany;ŏnustus, onustă, onustum ;onustus a um;True;2024-03-25 22:35:53
 default_user;36;latin;szeptać;insŭsurro, insŭsurrāre, insusurrāvī, insusurrātum ;insusurro 1;True;2024-03-25 22:35:57
 default_user;36;latin;dotykać;attingo, attingĕre, attigi, attactum ;attingo attingere attigi attactum;True;2024-03-25 22:36:08
+default_user;37;latin;martwy;mortŭus, mortuă, mortuum ;mortuus a um;True;2024-03-28 18:40:01
+default_user;37;latin;wspinać się;ascendo, ascendĕre, ascendi, ascensum ;ascendo ascendere ascendi ascensum;True;2024-03-28 18:40:12
+default_user;37;latin;ubóstwo, nędza, niedobór;ĭnŏpĭa, inopiae ;inopia inopiae;True;2024-03-28 18:40:17
+default_user;37;latin;opuszczony, porzucony;rĕlictus, relictă, relictum ;relictus a um;True;2024-03-28 18:40:22
+default_user;37;latin;szybko, w pośpiechu;cĕlĕrĭtĕr ;celeriter 3;False;2024-03-28 18:40:28
+default_user;37;latin;dotykać;attingo, attingĕre, attigi, attactum ;attingo attingere attigi attactum;True;2024-03-28 18:40:41
+default_user;37;latin;umysł;mens, mentis ;mens mentis;True;2024-03-28 18:40:46
+default_user;37;latin;dotknąć;tango, tangĕre, tetigi, tactum ;tango tangere tetigi tactum;True;2024-03-28 18:40:58
+default_user;37;latin;uwolnić, rozplątać, rozwiązać;solvo, solvĕre, solvi, solutum ;solvo solvere solvi solutum;True;2024-03-28 18:41:10
+default_user;37;latin;obserwować, widzieć;conspĭcĭo, conspĭcĕre, conspexi, conspectum ;conspicio conspicere conspexi conspectum;True;2024-03-28 18:41:26
+default_user;37;latin;ciężki, w pełni załadowany;ŏnustus, onustă, onustum ;onustus a um;True;2024-03-28 18:41:31
+default_user;37;latin;brak, potrzeba;ĭnŏpĭa, inopiae ;inopia inopiae;True;2024-03-28 18:41:35
+default_user;37;latin;testować, próbować;tempto, temptāre, temptāvī, temptātum ;tempto 1;True;2024-03-28 18:41:41
+default_user;37;latin;żart;iŏcus, ioci ;iocus ioci;True;2024-03-28 18:41:46
+default_user;37;latin;schodzić;descendo, descendĕre, descendi, descensum ;descendo descendero descendi descentum;False;2024-03-28 18:42:06
+default_user;37;latin;drugi, inny;altĕr ;alter;True;2024-03-28 18:42:09
+default_user;37;latin;insynuować;insŭsurro, insŭsurrāre, insusurrāvī, insusurrātum ;insusurro 1;True;2024-03-28 18:42:14
+default_user;37;latin;schodzić;descendo, descendĕre, descendi, descensum ;descendo descendere descendi descensum;True;2024-03-28 18:42:22
+default_user;37;latin;nagle;sŭbĭtō ;subito;True;2024-03-28 18:42:28
+default_user;37;latin;wzburzony, zaniepokojony;turbātus, turbată, turbatum ;turbatus a um;True;2024-03-28 18:42:34
+default_user;37;latin;szybko, w pośpiechu;cĕlĕrĭtĕr ;celeriter;True;2024-03-28 18:42:37
+default_user;37;latin;jeden (spośród dwóch);altĕr ;alter;True;2024-03-28 18:42:40
+default_user;37;latin;drzewo;arbŏr, arboris ;arbor arboris;True;2024-03-28 18:42:45
+default_user;37;latin;postawić żagle, wypłynąć na morze;solvo, solvĕre, solvi, solutum ;solvo solvere solvi solutum;True;2024-03-28 18:42:54
+default_user;37;latin;nienaruszony, nietknięty;intactus, intactă, intactum ;intactus a um;True;2024-03-28 18:42:59
+default_user;37;latin;burza;tempestās, tempestatis ;tempestas tempestatis;True;2024-03-28 18:43:05
+default_user;37;latin;odejść, wycofać się;discēdo, discēdĕre, discessi, discessum ;;False;2024-03-28 18:43:50
+default_user;37;latin;sugerować;insŭsurro, insŭsurrāre, insusurrāvī, insusurrātum ;insusurro 1;True;2024-03-28 18:44:00
+default_user;37;latin;szeptać;insŭsurro, insŭsurrāre, insusurrāvī, insusurrātum ;insusurro 1;True;2024-03-28 18:44:35
+default_user;37;latin;podróż, droga;ĭtĕr, itineris ;iter iteratis;False;2024-03-28 18:44:43
+default_user;37;latin;odejść, wycofać się;discēdo, discēdĕre, discessi, discessum ;discedo discedere discessi discessum;True;2024-03-28 18:44:56
+default_user;37;latin;podróż, droga;ĭtĕr, itineris ;iter itineris;True;2024-03-28 18:45:00
+default_user;38;latin;dotykać;attingo, attingĕre, attigi, attactum ;attingo attingere atiigi attactum;False;2024-03-28 20:09:38
+default_user;38;latin;dotknąć;tango, tangĕre, tetigi, tactum ;tango tangere tetigi tactum;True;2024-03-28 20:10:08
+default_user;38;latin;sugerować;insŭsurro, insŭsurrāre, insusurrāvī, insusurrātum ;insusurro 1;True;2024-03-28 20:10:12
+default_user;38;latin;odejść, wycofać się;discēdo, discēdĕre, discessi, discessum ;;False;2024-03-28 20:10:23
+default_user;38;latin;odejść, wycofać się;discēdo, discēdĕre, discessi, discessum ;discedo discedere discessi discessum;True;2024-03-28 20:10:43
+default_user;38;latin;szeptać;insŭsurro, insŭsurrāre, insusurrāvī, insusurrātum ;insusurro 1;True;2024-03-28 20:10:47
+default_user;38;latin;uwolnić, rozplątać, rozwiązać;solvo, solvĕre, solvi, solutum ;solvo solvere solvi solitum;False;2024-03-28 20:10:55
+default_user;38;latin;insynuować;insŭsurro, insŭsurrāre, insusurrāvī, insusurrātum ;insusurro;False;2024-03-28 20:11:00
+default_user;38;latin;schodzić;descendo, descendĕre, descendi, descensum ;descendo descendere descendi descensum;True;2024-03-28 20:11:11
+default_user;38;latin;postawić żagle, wypłynąć na morze;solvo, solvĕre, solvi, solutum ;solvo solvere solvi solutum;True;2024-03-28 20:11:19
+default_user;38;latin;dotykać;attingo, attingĕre, attigi, attactum ;attingo attingere attigi attactum;True;2024-03-28 20:11:29
+default_user;38;latin;testować, próbować;tempto, temptāre, temptāvī, temptātum ;tempto 1;True;2024-03-28 20:11:46
+default_user;38;latin;wspinać się;ascendo, ascendĕre, ascendi, ascensum ;ascendo ascendere ascendi ascensum;True;2024-03-28 20:11:55
+default_user;38;latin;insynuować;insŭsurro, insŭsurrāre, insusurrāvī, insusurrātum ;insusurro 1;True;2024-03-28 20:11:59
+default_user;38;latin;uwolnić, rozplątać, rozwiązać;solvo, solvĕre, solvi, solutum ;solvo solvere solvi solutum;True;2024-03-28 20:12:11
+default_user;38;latin;obserwować, widzieć;conspĭcĭo, conspĭcĕre, conspexi, conspectum ;conspicio consipicere conspixi conspectum;False;2024-03-28 20:12:25
+default_user;38;latin;obserwować, widzieć;conspĭcĭo, conspĭcĕre, conspexi, conspectum ;conspicio conspicere conspexi conspectum;True;2024-03-28 20:12:37
+default_user;39;latin;otaczać;cingo, cingĕre, cinxi, cinctum ;;False;2024-03-28 20:13:14
+default_user;39;latin;palenisko, kominek;fŏcus, foci ;;False;2024-03-28 20:13:19
+default_user;39;latin;lekki;lēvis, levis, leve ;;False;2024-03-28 20:13:21
+default_user;39;latin;rozkwitać, kwitnąć;flōrĕo, flōrēre, florui, flōrendo ;floreo florere flevi florum;False;2024-03-28 20:13:34
+default_user;39;latin;rozpaczać (nad) (+ de + abl);despēro, despērāre, desperāvī, desperātum ;despero 1;True;2024-03-28 20:13:39
+default_user;39;latin;oblegać, zdobywać;oppugno, oppugnāre, oppugnāvī, oppugnātum ;;False;2024-03-28 20:13:47
+default_user;40;latin;między (+acc);intĕr ;inter;True;2024-03-29 17:16:39
+default_user;40;latin;pomoc;auxĭlĭum, auxilii ;;False;2024-03-29 17:16:42
+default_user;40;latin;pomoc;auxĭlĭum, auxilii ;auxillium auxilii;False;2024-03-29 17:16:55
+default_user;40;latin;obracać, obracać się, wirować;verso, versāre, versāvī, versātum ;;False;2024-03-29 17:17:05
+default_user;40;latin;potrzebować (+ abl);ĕgĕo, ĕgēre, eguĕrim, ;;False;2024-03-29 17:17:07
+default_user;40;latin;odkryć, znaleźć;invĕnĭo, invĕnīre, inveni, inventum ;invenio invenire inveni inventum;True;2024-03-29 17:17:15
+default_user;40;latin;Iliada;Īlĭăs, Iliadis ;ilias iliadis;True;2024-03-29 17:17:19
+default_user;40;latin;nieznany;ignōtus, ignōtă, ignōtum ;;False;2024-03-29 17:17:21
+default_user;40;latin;spiżowy;ăënĕus, aëneă, aëneum ;;False;2024-03-29 17:17:24
+default_user;40;latin;wysyłać;mitto, mittĕre, misi, missum ;;False;2024-03-29 17:17:27
+default_user;40;latin;zwierzę pociągowe;iūmentum, iūmenti ;;False;2024-03-29 17:17:30
+default_user;40;latin;mały lis;vulpēcŭla, vulpeculae ;vulpecula vulpeculae;True;2024-03-29 17:17:39
+default_user;40;latin;późno;sero ;tarde;False;2024-03-29 17:17:42
+default_user;40;latin;dawać;do, dāre, dedī, datum ;do dare dedi datum;True;2024-03-29 17:17:49
+default_user;40;latin;głowa;căput, capitis ;;False;2024-03-29 17:17:55
+default_user;40;latin;bogaty;opulentus, opulenta, opulentum ;opulentus opulenti;False;2024-03-29 17:18:02
+default_user;40;latin;najpierw;prīmum ;primum;True;2024-03-29 17:18:07
+default_user;40;latin;składać się z;consto, constāre, constiti ;;False;2024-03-29 17:18:13
+default_user;40;latin;dzisiaj, teraz;hŏdĭē ;hodie;True;2024-03-29 17:18:16
+default_user;40;latin;do, na (+ acc);in ;in;True;2024-03-29 17:18:20
+default_user;40;latin;opowiadać;narro, narrāre, narrāvī, narrātum ;narro 1;True;2024-03-29 17:18:23
+default_user;40;latin;niegodziwy;imprŏbus, improba, improbum ;;False;2024-03-29 17:18:25
+default_user;40;latin;niesprawiedliwość;iniūrĭa, iniuriae ;iniustita iniustitiae;False;2024-03-29 17:18:38
+default_user;40;latin;zaszczyt;hŏnŏr, honoris ;honor honoris;True;2024-03-29 17:18:45
+default_user;40;latin;zły;malus, mală, malum ;malus a um;True;2024-03-29 17:18:49
+default_user;40;latin;jak, w jaki sposób;quōmŏdŏ ;;False;2024-03-29 17:18:51
+default_user;40;latin;bitwa, walka;proelĭum, proelii ;certamen certaminis;False;2024-03-29 17:18:55
+default_user;40;latin;troszczyć się, dbać (o coś + dat);cūrō, cūrāre, cūrāvi, cūrātum ;curo 1;True;2024-03-29 17:18:59
+default_user;40;latin;zwyczaj;mōs, moris ;mos moris;True;2024-03-29 17:19:25
+default_user;40;latin;srebro;argentum, argenti ;aurum auri;False;2024-03-29 19:08:05
+default_user;40;latin;dotknąć;tango, tangĕre, tetigi, tactum ;attingo attingere attigi attactum;False;2024-03-29 19:08:26
+default_user;40;latin;plebs, lud;plebs, plebis ;;False;2024-03-29 19:08:33
+default_user;40;latin;pochwała;laus, laudis ;lauda laudae;False;2024-03-29 19:08:41
+default_user;40;latin;pochopność;tĕmĕrĭtās, temeritatis ;;False;2024-03-29 19:08:45
+default_user;40;latin;kłopoty, irytacja;mŏlestĭa, molestiae ;;False;2024-03-29 19:08:48
+default_user;40;latin;wspinać się;ascendo, ascendĕre, ascendi, ascensum ;ascendo ascendere ascendi ascensum;True;2024-03-29 19:09:00
+default_user;40;latin;pilnie, skrupulatnie;dīlĭgentĕr ;;False;2024-03-29 19:09:03
+default_user;40;latin;kiedy, podczas gdy;cŭm ;;False;2024-03-29 19:09:22
+default_user;40;latin;wiele, liczni (spr. w słowniku papierowym);multus, multă, multum ;multus a um;True;2024-03-29 19:09:28
+default_user;40;latin;zbliżyć się (+ dat);apprŏpinquo, apprŏpinquāre, appropinquāvī, appropinquātum ;appropinquo 1;True;2024-03-29 19:09:34
+default_user;40;latin;siła, odwaga, cnota;virtus, virtutis ;;False;2024-03-29 19:09:39
+default_user;40;latin;tłum, motłoch;turba, turbae ;plebs plebis;False;2024-03-29 19:09:44
+default_user;40;latin;drogi;cārus, cāra, cārum ;carus a um;True;2024-03-29 19:09:50
+default_user;40;latin;więc, w wyniku;ergō ;;False;2024-03-29 19:09:53
+default_user;40;latin;wzmocnić, wspierać;firmo, firmāre, firmāvī, firmātum ;;False;2024-03-29 19:09:56
+default_user;40;latin;pewny;certus, certă, certum ;certus a um;True;2024-03-29 19:10:01
+default_user;40;latin;podpisywać;signo, signāre, signāvī, signātum ;;False;2024-03-29 19:10:14
+default_user;40;latin;szybko, w pośpiechu;cĕlĕrĭtĕr ;celeriter;True;2024-03-29 19:10:17
+default_user;40;latin;trochę, niewielka ilość;exĭgŭum, exigui ;;False;2024-03-29 19:10:19
+default_user;40;latin;statek;nāvĭgĭum, navigii ;navis navis;False;2024-03-29 19:10:24
+default_user;40;latin;uczony;doctus, doctă, doctum ;;False;2024-03-29 19:10:28
+default_user;40;latin;pozostały, inny;rĕlĭquus, reliquă, reliquum ;reliquus a um;True;2024-03-29 19:10:37
+default_user;40;latin;bitwa, walka;pugna, pugnae ;certamen certaminis;False;2024-03-29 19:10:42
+default_user;40;latin;karać;pūnĭo, pūnīre, punii, punitum ;castigo 1;False;2024-03-29 19:10:46
+default_user;40;latin;żelazny;ferrĕus, ferreă, ferreum ;ferrus a um;False;2024-03-29 19:10:52
+default_user;40;latin;dziwny, nadzwyczajny;mīrus, miră, mirum ;admirabilis admirabilis admirabile;False;2024-03-29 19:11:02
+default_user;40;latin;wyspa;insŭla, insulae ;insula insulae;True;2024-03-29 19:11:07
+default_user;40;latin;ciało;corpŭs, corporis ;corpus corporis;True;2024-03-29 19:11:11
+default_user;40;latin;powiedzenie;dictum, dicti ;dictum dicti;True;2024-03-29 19:11:16
+default_user;40;latin;wierny;fīdus, fidă, fidum ;fideus a um;False;2024-03-29 19:11:26
+default_user;40;latin;przygotowywać;paro, parāre, parāvī, parātum ;paro 1;True;2024-03-29 19:11:31
+default_user;40;latin;patrzeć, widzieć;spectō, spectāre, spectāvī, spectātum ;specto 1;True;2024-03-29 19:11:38
+default_user;40;latin;nazywać, wymieniać;nōmĭno, nōmĭnāre, nomināvī, nominātum ;;False;2024-03-29 19:11:43
+default_user;40;latin;niezdolność do wojny;imbellĭa, imbelliae ;imbellia imbelliae;True;2024-03-29 19:11:50
+default_user;40;latin;zbawienie;salus, salūtis ;salus salutis;True;2024-03-29 19:11:56
+default_user;40;latin;nić, sznurek;fīlus, fili ;folium folii;False;2024-03-29 19:12:01
+default_user;40;latin;być daleko, być nieobecnym;absŭm, abesse, abfui ;absum abesse abfui;True;2024-03-29 19:12:12
+default_user;40;latin;kochać, lubić;ămo, ămāre, amāvī, amātum ;amo 1;True;2024-03-29 19:12:15
+default_user;40;latin;wysyłać;mitto, mittĕre, misi, missum ;mitto mittere mitti misum;False;2024-03-29 19:12:23
+default_user;40;latin;rozgłaszać;celebrō, celebrāre, celebrāvī, celebrātum ;celebro 1;True;2024-03-29 19:12:30
+default_user;40;latin;zbudowany;aedificatus, aedificata, aedificatum ;aedificatus a um;True;2024-03-29 19:14:23
+default_user;40;latin;być dłużnym (komuś);dēbeō, debēre, debuī, debitum ;debero debere debui debetum;False;2024-03-29 19:14:31
+default_user;40;latin;ostrożność;prūdentĭa, prudentiae ;;False;2024-03-29 19:14:36
+default_user;40;latin;witaj;salvē ;salve;True;2024-03-29 19:14:39
+default_user;40;latin;zwycięzca;victŏr, victoris ;victor victoris;True;2024-03-29 19:14:45
+default_user;40;latin;opuszczony, porzucony;rĕlictus, relictă, relictum ;reliquus a um;False;2024-03-29 19:14:49
+default_user;40;latin;rana;vulnŭs, vulneris ;;False;2024-03-29 19:14:54
+default_user;40;latin;debata, dyskusja, narada, konsultacje;consĭlĭum, consilii ;consilium consilii;True;2024-03-29 19:15:02
+default_user;40;latin;cień;umbră, umbrae ;;False;2024-03-29 19:15:03
+default_user;40;latin;oczywisty;clārus, clară, clarum ;;False;2024-03-29 19:15:06
+default_user;40;latin;tylko;tantum ;;False;2024-03-29 19:15:09
+default_user;40;latin;w (+ abl);in ;in;True;2024-03-29 19:15:11
+default_user;40;latin;tam;ibi ;ibi;True;2024-03-29 19:15:18
+default_user;40;latin;artysta;artĭfex, artificis ;artifex artificis;True;2024-03-29 19:15:25
+default_user;40;latin;orzeł;ăquĭla, aquilae ;;False;2024-03-29 19:15:28
+default_user;40;latin;czytać;legō, legere, lēgī, lectum ;lego legere legi lectum;True;2024-03-29 19:15:37
+default_user;40;latin;śmiech, uśmiech;rīsŭs, risūs ;;False;2024-03-29 19:15:39
+default_user;40;latin;sąsiedzi;fīnitimī, fīnitimōrum ;finitimi finitimorum;True;2024-03-29 19:15:49
+default_user;40;latin;wosk;cēra, cerae ;cera cerae;True;2024-03-29 19:15:52
+default_user;40;latin;przeciwko (+ acc);contrā ;contra;True;2024-03-29 19:15:55
+default_user;40;latin;miły;gratus, grata, gratum ;gratus a um;True;2024-03-29 19:16:00
+default_user;40;latin;założyciel;condītŏr, conditoris ;;False;2024-03-29 19:16:01
+default_user;40;latin;spostrzegać;cerno, cernĕre, crevi, cretum ;;False;2024-03-29 19:16:05
+default_user;40;latin;nazwisko;nōmĕn, nominis ;cognomen cognominis;False;2024-03-29 19:16:56
+default_user;40;latin;a wtedy, na to;ăt ;tum;False;2024-03-29 19:17:00
+default_user;40;latin;bronić;dēfendo, dēfendĕre, defendi, defensum ;defendo defendere defendi defensum;True;2024-03-29 19:17:09
