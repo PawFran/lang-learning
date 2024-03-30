@@ -2,7 +2,7 @@ from sqlalchemy import *
 
 langs = ['latin', 'english']
 latin_declensions = ['I', 'II', 'III vowel', 'III consonant', 'III mixed', 'IV', 'V']
-latin_conjugations = ['I', 'II', 'III', 'IV']
+latin_conjugations = ['I', 'II', 'III', 'IV', 'ANOMALOUS']
 parts_of_speech = ['verb', 'noun', 'adjective', 'adverb', 'preposition', 'conjuncture']
 genres = ['masculine', 'feminine', 'neutral']
 
