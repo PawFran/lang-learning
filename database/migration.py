@@ -12,7 +12,7 @@ if __name__ == '__main__':
         for entry in dictionary.entries:
             head = entry.head
             if type(head) is LatinVerb:
-                upsert_latin_verb(entry, session)
+                insert_or_ignore_latin_verb(entry, session)
             # elif type(head) is LatinNoun:
             #
             else:

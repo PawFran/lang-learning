@@ -28,7 +28,7 @@ def insert_or_ignore(session, record):
         session.rollback()
 
 
-def upsert_latin_verb(entry: DictionaryEntry, session: Session):
+def insert_or_ignore_latin_verb(entry: DictionaryEntry, session: Session):
     head = entry.head
 
     try:
