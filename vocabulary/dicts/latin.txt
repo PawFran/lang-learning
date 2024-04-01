@@ -551,7 +551,7 @@ dīlĭgentĕr [adv]
 (Tu diligenter studēbis)
 1. pilnie, skrupulatnie
 
-ĭnĭmīcus, i [noun] [m] [II]
+ĭnĭmīcus, inimici [noun] [m] [II]
 ()
 1. nieprzyjaciel
 
@@ -2154,7 +2154,7 @@ rĕgo, rĕgĕre, rexi, rectum [verb] [III]
 
 lyra, lyrae [noun] [f] [I]
 (Apollo lyra cantans deo deasque delectabat)
-1. 
+1. lira, lutnia, harfa
 
 canto, cantāre, cantāvī, cantātum [verb] [I]
 (Apollo lyra cantans deo deasque delectabat)
