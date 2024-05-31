@@ -1,5 +1,7 @@
 roadmap for language learning
 
+słowa, które są najczęściej sprawdzane przez find_or_scrape
+
 multus, multă, multum - sprawdzić w słowniku papierowym
 
 dodać sprawdzanie rodzaju dla rzeczowników w translation_exercise

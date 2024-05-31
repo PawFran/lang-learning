@@ -23,6 +23,9 @@ proelio
 aliquando
 frenis
 plane
+quod
+omnes
+quis
 
 post - IndexError: list index out of range
 vis - IndexError: list index out of range

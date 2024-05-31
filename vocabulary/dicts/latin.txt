@@ -2559,6 +2559,7 @@ exĭgŭum, exigui [noun] [n] [II]
 quod [conj]
 (Feci quod potui)
 1. o ile, tak dalece jak
+2. ponieważ
 
 perfĭdus, perfidă, perfidum [adj]
 (Vicimus perfidos hospites, imbellis hostes)
@@ -2670,6 +2671,42 @@ tempestās, tempestatis [noun] [f] [III]
 (Subito tempestas magna nautas naves solvere prohibuit)
 1. burza
 
+omnes, omnĭum [noun] [m] [III] [pl]
+(Omnes enim naves conscendere timebant)
+1. wszyscy
+
 turbātus, turbată, turbatum [adj]
 (Omnes per mare turbatum navigare timebant)
 1. wzburzony, zaniepokojony
+
+classis, classis [noun] [f] [III]
+(Nobis magnam classem comparavit)
+1. flota lub marynarka wojenna
+
+compăro, compărāre, comparāvī, comparātum [verb] [I]
+(Nobis magnam classem comparavit)
+1. przygotować, zapewnić
+
+admĭnistro, admĭnistrāre, administrāvī, administrātum [verb] [I]
+(Pecuniam publicam magna diligentia administravit)
+1. zarządzać, kierować
+
+vĕnēnum, veneni [noun] [n] [II]
+(Hannibal ipse sibi veneno mortem paravit)
+1. trucizna
+
+testis, testis [noun] [m/f] [III]
+(Quis huic rei testis est ?)
+1. świadek
+
+annus, anni [noun] [m] [II]
+(Hoc anno)
+1. rok
+
+cĭtō [adv]
+(Qui se ipse laudat, cito derisorem invenit)
+1. szybko
+
+dērīsŏr, derisoris [noun] [m] [III]
+(Qui se ipse laudat, cito derisorem invenit)
+1. szyderca, kpiarz
