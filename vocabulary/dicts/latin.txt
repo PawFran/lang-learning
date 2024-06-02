@@ -2710,3 +2710,62 @@ cĭtō [adv]
 dērīsŏr, derisoris [noun] [m] [III]
 (Qui se ipse laudat, cito derisorem invenit)
 1. szyderca, kpiarz
+
+parco, parcĕre, peperci, parsum o parcitum [verb] [III]
+(Mors parcit nulli)
+1. powstrzymywać się, powstrzymywać się od
+2. oszczędzać (+ dat ?)
+
+antĕpōno, antĕpōnĕre, anteposui, antepositum [verb] [III]
+(Leges salutem omnium singulorum saluti anteponunt)
+1. ustawiać przed (+ celownik), umieszczać lub stawiać przed
+2. preferować, cenić wyżej
+
+hĕbĕto, hĕbĕtāre, hebetāvī, hebetātum [verb] [I]
+(Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
+1. stępić, uśpić, uczynić słabym
+
+mātūrus, matură, maturum [adj]
+(Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
+1. wczesny, szybki
+2. dojrzały
+
+sĕnectūs, senectutis [noun] [f] [III]
+(Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
+1. starość
+
+longus, longă, longum [adj]
+(Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
+1. długi
+
+reddo, reddĕre, reddidi, redditum [verb] [III]
+(Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
+1. powrócić
+2. przywrócić
+3. oddawać
+4. przyznawać, przydzielać
+
+nĭvĕus, niveă, niveum [adj]
+(Thais habet nigros, niveos Lacaenia dentes)
+1. zaśnieżony, pokryty śniegiem
+2. biały
+
+nĭgĕr, nigră, nigrum [adj]
+(Thais habet nigros, niveos Lacaenia dentes)
+1. czarny
+
+dens, dentis [noun] [m] [III]
+(Thais habet nigros, niveos Lacaenia dentes)
+1. ząb
+
+rătĭo, rationis [noun] [f] [III]
+(Quae ratio est ? Emptos haec habet, illa suos)
+1. uzasadnienie
+
+emptus, emptă, emptum [adj]
+(Quae ratio est ? Emptos haec habet, illa suos)
+1. kupiony
+
+ĕmo, ĕmĕre, emi, emptum [verb] [III]
+()
+1. kupić

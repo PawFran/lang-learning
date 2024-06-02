@@ -1,3 +1,5 @@
+hostis canis civium gratias ita veniam
+
 already handled
 volo summus hospitio umbra verso incido ferox prudens utilis opulentus lyra iustae aequae bonus
 
@@ -26,6 +28,11 @@ plane
 quod
 omnes
 quis
+cito
+duo
+singulorum
+pono
+habetat
 
 post - IndexError: list index out of range
 vis - IndexError: list index out of range

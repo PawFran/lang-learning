@@ -1,5 +1,10 @@
 roadmap for language learning
 
+błąd przy poniższym (i tak zamiast genetivu powinby być formy fem i neut - ale nie ma neutrum)
+singŭli, singulōrum [adj]
+(Leges salutem omnium singulorum saluti anteponunt)
+1. pojedynczy, każdy z osobna
+
 słowa, które są najczęściej sprawdzane przez find_or_scrape
 
 multus, multă, multum - sprawdzić w słowniku papierowym
