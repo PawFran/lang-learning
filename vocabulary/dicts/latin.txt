@@ -2769,3 +2769,37 @@ emptus, emptă, emptum [adj]
 ĕmo, ĕmĕre, emi, emptum [verb] [III]
 ()
 1. kupić
+
+callĭdĭtās, calliditatis [noun] [f] [III]
+()
+1. spryt, zręczność
+
+etiam atque etiam [adv]
+(Nolani et Neapolitani etiam atque etiam de finibus certabant)
+1. wciąż, raz po raz, wielokrotnie
+
+fīnis, finis [noun] [m/f] [III]
+(Nolani et Neapolitani etiam atque etiam de finibus certabant)
+1. granica
+
+instĭtŭo, instĭtŭĕre, institui, institutum [verb] [III]
+(Fabius Labeo fines inter Nolanos et Neapolitanos instituere debebat)
+1. zakładać, ustanawiać
+
+cŭpĭdĭtās, cupiditatis [noun] [f] [III]
+(Sine cupiditate agite)
+1. entuzjazm, zapał, pasja
+2. pożądanie
+3. chciwość
+
+ălĭquantum, aliquanti [noun] [n] [II]
+()
+1. pewna/odpowiednia ilość, część
+
+cĕdŏ, cēdĕre, cessi, cessum [verb] [III]
+(Neapolitanis agri aliquantum cedite)
+1. dać, przynieść, przekazać
+
+mando, mandāre, mandāvī, mandātum [verb] [I]
+()
+1. rozkazywać, zlecić

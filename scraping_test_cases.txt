@@ -32,7 +32,10 @@ cito
 duo
 singulorum
 pono
-habetat
+hebetat
+etiam
+instituere
+cedo
 
 post - IndexError: list index out of range
 vis - IndexError: list index out of range
