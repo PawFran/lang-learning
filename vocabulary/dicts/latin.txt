@@ -2793,7 +2793,7 @@ cŭpĭdĭtās, cupiditatis [noun] [f] [III]
 3. chciwość
 
 ălĭquantum, aliquanti [noun] [n] [II]
-()
+(Neapolitanis agri aliquantum cedite)
 1. pewna/odpowiednia ilość, część
 
 cĕdŏ, cēdĕre, cessi, cessum [verb] [III]
@@ -2801,5 +2801,38 @@ cĕdŏ, cēdĕre, cessi, cessum [verb] [III]
 1. dać, przynieść, przekazać
 
 mando, mandāre, mandāvī, mandātum [verb] [I]
-()
+(Tum ad Neapolitanos properavit eademque iss mandavit)
 1. rozkazywać, zlecić
+
+verbum, verbi [noun] [n] [II]
+(Nolani verbis viri Romani moti vicinis cesserunt)
+1. słowo
+
+vīcīna, vicinōrum [noun] [n] [II]
+(Nolani verbis viri Romani moti vicinis cesserunt)
+1. sąsiednie tereny, sąsiedzctwo
+
+mĕdĭum, medii [noun] [n] [II]
+(In medio aliquantum agri vacui reliquerunt)
+1. środek
+
+văcŭus, vacuă, vacuum [adj]
+(In medio aliquantum agri vacui reliquerunt)
+1. puste, wolne, niezajęte
+
+termĭnus, termini [noun] [m] [II]
+()
+1. granica
+
+constĭtŭo, constĭtŭĕre, constitui, constitutum [verb] [III]
+()
+1. ustawiać lub ustawiać w pozycji, wznosić
+2. ustanowić, stworzyć, wprowadzić
+
+ŭt [conj]
+()
+1. aby, żeby
+
+termĭno, termĭnāre, termināvī, terminātum [verb] [I]
+()
+1. oznaczać granice

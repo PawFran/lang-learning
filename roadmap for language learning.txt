@@ -1,5 +1,9 @@
 roadmap for language learning
 
+speech to text ?
+
+scrape z konkretnej strony np. https://www.online-latin-dictionary.com/latin-dictionary-flexion.php?lemma=MEDIUM100
+
 błąd przy poniższym (i tak zamiast genetivu powinby być formy fem i neut - ale nie ma neutrum)
 singŭli, singulōrum [adj]
 (Leges salutem omnium singulorum saluti anteponunt)

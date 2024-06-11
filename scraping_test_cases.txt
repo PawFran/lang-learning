@@ -36,6 +36,12 @@ hebetat
 etiam
 instituere
 cedo
+vicinis
+cesserunt
+medio (only sing)
+ut
+ipsi
+terminare
 
 post - IndexError: list index out of range
 vis - IndexError: list index out of range

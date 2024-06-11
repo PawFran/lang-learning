@@ -1388,3 +1388,55 @@ default_user;42;latin;być daleko, być nieobecnym;absŭm, abesse, abfui ;;False
 default_user;42;latin;państwo;fīnes, fīnium ;;False;2024-03-29 20:12:45
 default_user;42;latin;za, poza (+ acc);trans ;;False;2024-03-29 20:12:47
 default_user;42;latin;wygląd, widok, pojawienie się;vīsŭs, visūs ;sensus sensus;False;2024-03-29 20:12:53
+default_user;43;latin;pewna/odpowiednia ilość, część;ălĭquantum, aliquanti ;;False;2024-06-06 21:19:55
+default_user;43;latin;granica;fīnis, finis ;finis finis;True;2024-06-06 21:20:01
+default_user;43;latin;pewna/odpowiednia ilość, część;ălĭquantum, aliquanti ;aliquantum aliquanti;True;2024-06-06 21:20:09
+default_user;43;latin;chciwość;cŭpĭdĭtās, cupiditatis ;cupiditas;False;2024-06-06 21:20:14
+default_user;43;latin;wciąż, raz po raz, wielokrotnie;etiam atque etiam ;etiam atque etiam;True;2024-06-06 21:20:23
+default_user;43;latin;rozkazywać, zlecić;mando, mandāre, mandāvī, mandātum ;mando;False;2024-06-06 21:20:28
+default_user;43;latin;zakładać, ustanawiać;instĭtŭo, instĭtŭĕre, institui, institutum ;instituo instituere institui instutuum;False;2024-06-06 21:20:42
+default_user;43;latin;rozkazywać, zlecić;mando, mandāre, mandāvī, mandātum ;mando 1;True;2024-06-06 21:20:48
+default_user;43;latin;chciwość;cŭpĭdĭtās, cupiditatis ;cupiditas cupiditatis;True;2024-06-06 21:20:54
+default_user;43;latin;spryt, zręczność;callĭdĭtās, calliditatis ;;False;2024-06-06 21:20:57
+default_user;43;latin;spryt, zręczność;callĭdĭtās, calliditatis ;calliditas calliditatis;True;2024-06-06 21:21:05
+default_user;43;latin;dać, przynieść, przekazać;cĕdŏ, cēdĕre, cessi, cessum ;;False;2024-06-06 21:21:07
+default_user;43;latin;dać, przynieść, przekazać;cĕdŏ, cēdĕre, cessi, cessum ;cedo cedere cessi cessum;True;2024-06-06 21:21:17
+default_user;43;latin;pożądanie;cŭpĭdĭtās, cupiditatis ;cupiditas cupiditatis;True;2024-06-06 21:21:24
+default_user;43;latin;zakładać, ustanawiać;instĭtŭo, instĭtŭĕre, institui, institutum ;intituo instituere institui institutum;False;2024-06-06 21:21:36
+default_user;43;latin;entuzjazm, zapał, pasja;cŭpĭdĭtās, cupiditatis ;;False;2024-06-06 21:21:54
+default_user;43;latin;zakładać, ustanawiać;instĭtŭo, instĭtŭĕre, institui, institutum ;instituo instituere institui institutum;True;2024-06-06 21:22:04
+default_user;43;latin;entuzjazm, zapał, pasja;cŭpĭdĭtās, cupiditatis ;cupiditas cupiditatis;True;2024-06-06 21:22:12
+default_user;44;latin;spryt, zręczność;callĭdĭtās, calliditatis ;;False;2024-06-11 22:08:29
+default_user;44;latin;słowo;verbum, verbi ;;False;2024-06-11 22:08:33
+default_user;44;latin;granica;termĭnus, termini ;finis finis;False;2024-06-11 22:08:38
+default_user;44;latin;chciwość;cŭpĭdĭtās, cupiditatis ;;False;2024-06-11 22:08:41
+default_user;44;latin;puste, wolne, niezajęte;văcŭus, vacuă, vacuum ;vacuum vacui;False;2024-06-11 22:08:49
+default_user;44;latin;ustanowić, stworzyć, wprowadzić;constĭtŭo, constĭtŭĕre, constitui, constitutum ;constituo constituere constitui constitutum;True;2024-06-11 22:09:04
+default_user;44;latin;granica;fīnis, finis ;terminus termini;False;2024-06-11 22:09:09
+default_user;44;latin;środek;mĕdĭum, medii ;medius medii;False;2024-06-11 22:09:24
+default_user;44;latin;aby, żeby;ŭt ;ut;True;2024-06-11 22:09:27
+default_user;44;latin;puste, wolne, niezajęte;văcŭus, vacuă, vacuum ;vacuus vacua vacuum;True;2024-06-11 22:09:37
+default_user;44;latin;ustawiać lub ustawiać w pozycji, wznosić;constĭtŭo, constĭtŭĕre, constitui, constitutum ;constituo constituere constitui constitutum;True;2024-06-11 22:09:47
+default_user;44;latin;pożądanie;cŭpĭdĭtās, cupiditatis ;cupiditas cupiditatis;True;2024-06-11 22:09:55
+default_user;44;latin;środek;mĕdĭum, medii ;medius medii;False;2024-06-11 22:09:59
+default_user;44;latin;słowo;verbum, verbi ;verbum verbi;True;2024-06-11 22:10:04
+default_user;44;latin;dać, przynieść, przekazać;cĕdŏ, cēdĕre, cessi, cessum ;do;False;2024-06-11 22:10:07
+default_user;44;latin;sąsiednie tereny, sąsiedzctwo;vīcīna, vicinōrum ;terminus termini;False;2024-06-11 22:10:16
+default_user;44;latin;zakładać, ustanawiać;instĭtŭo, instĭtŭĕre, institui, institutum ;constituo constituere constitui constitutum;False;2024-06-11 22:10:30
+default_user;44;latin;rozkazywać, zlecić;mando, mandāre, mandāvī, mandātum ;mando 1;True;2024-06-11 22:10:37
+default_user;44;latin;oznaczać granice;termĭno, termĭnāre, termināvī, terminātum ;;False;2024-06-11 22:10:39
+default_user;44;latin;spryt, zręczność;callĭdĭtās, calliditatis ;calliditas calliditatis;True;2024-06-11 22:10:48
+default_user;44;latin;granica;termĭnus, termini ;finis finis;False;2024-06-11 22:10:52
+default_user;44;latin;środek;mĕdĭum, medii ;medium medii;True;2024-06-11 22:10:58
+default_user;44;latin;dać, przynieść, przekazać;cĕdŏ, cēdĕre, cessi, cessum ;cedo cedere cessi cessum;True;2024-06-11 22:11:04
+default_user;44;latin;sąsiednie tereny, sąsiedzctwo;vīcīna, vicinōrum ;vicina vicinorum;True;2024-06-11 22:11:20
+default_user;44;latin;entuzjazm, zapał, pasja;cŭpĭdĭtās, cupiditatis ;cupiditas cupiditatis;True;2024-06-11 22:11:27
+default_user;44;latin;zakładać, ustanawiać;instĭtŭo, instĭtŭĕre, institui, institutum ;instituo instituere institui institutum;True;2024-06-11 22:11:36
+default_user;44;latin;granica;fīnis, finis ;finis finis;True;2024-06-11 22:11:41
+default_user;44;latin;granica;termĭnus, termini ;terminus termini;True;2024-06-11 22:11:45
+default_user;44;latin;pewna/odpowiednia ilość, część;ălĭquantum, aliquanti ;aliquando;False;2024-06-11 22:11:49
+default_user;44;latin;oznaczać granice;termĭno, termĭnāre, termināvī, terminātum ;termino 1;True;2024-06-11 22:11:55
+default_user;44;latin;wciąż, raz po raz, wielokrotnie;etiam atque etiam ;etiam atque etiam;True;2024-06-11 22:12:02
+default_user;44;latin;pewna/odpowiednia ilość, część;ălĭquantum, aliquanti ;aliquantum aliquanti;True;2024-06-11 22:12:08
+default_user;44;latin;chciwość;cŭpĭdĭtās, cupiditatis ;cupididtas cupiditatis;False;2024-06-11 22:12:13
+default_user;44;latin;chciwość;cŭpĭdĭtās, cupiditatis ;cupiditas cupiditatis;True;2024-06-11 22:12:26
