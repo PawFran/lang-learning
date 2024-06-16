@@ -1,5 +1,9 @@
 roadmap for language learning
 
+zrobić wydruk spójników w słowniku
+
+losowanie zdań ze słownika
+
 speech to text ?
 
 scrape z konkretnej strony np. https://www.online-latin-dictionary.com/latin-dictionary-flexion.php?lemma=MEDIUM100

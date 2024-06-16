@@ -42,6 +42,13 @@ medio (only sing)
 ut
 ipsi
 terminare
+pax
+neutrum, neuter
+neque
+secundum - czemu nie znajduje tych wersji, których nie ma jeszcze w słowniku ?
+jeśli zmusić to się wywala
+quarum
+altera
 
 post - IndexError: list index out of range
 vis - IndexError: list index out of range

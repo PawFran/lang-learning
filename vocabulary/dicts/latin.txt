@@ -2591,16 +2591,16 @@ sŭbĭtō [adv]
 1. nagle
 
 altĕr [pron]
-(Alter ex iisceleriter arborem ascendit)
+(Alter ex iis celeriter arborem ascendit)
 1. drugi, inny
 2. jeden (spośród dwóch)
 
 cĕlĕrĭtĕr [adv]
-(Alter ex iisceleriter arborem ascendit)
+(Alter ex iis celeriter arborem ascendit)
 1. szybko, w pośpiechu
 
 arbŏr, arboris [noun] [f] [III]
-(Alter ex iisceleriter arborem ascendit)
+(Alter ex iis celeriter arborem ascendit)
 1. drzewo
 
 ascendo, ascendĕre, ascendi, ascensum [verb] [III]
@@ -2821,18 +2821,61 @@ văcŭus, vacuă, vacuum [adj]
 1. puste, wolne, niezajęte
 
 termĭnus, termini [noun] [m] [II]
-()
+(Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
 1. granica
 
 constĭtŭo, constĭtŭĕre, constitui, constitutum [verb] [III]
-()
+(Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
 1. ustawiać lub ustawiać w pozycji, wznosić
 2. ustanowić, stworzyć, wprowadzić
 
 ŭt [conj]
-()
+(Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
 1. aby, żeby
 
 termĭno, termĭnāre, termināvī, terminātum [verb] [I]
-()
+(Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
 1. oznaczać granice
+
+hasta, hastae [noun] [f] [I]
+(Hastam aut caduceum eligite)
+1. włócznia, lanca, oszczep
+
+cādūcĕum, caducei [noun] [n] [II]
+(Hastam aut caduceum eligite)
+1. laska herolda noszona jako znak pokoju
+
+ēlĭgo, ēlĭgĕre, elegi, electum [verb] [III]
+(Hastam aut caduceum eligite)
+1. wybierać, wybierać
+
+pax, pacis [noun] [f] [III]
+(Duo signa - belli aut pacis - ex quibus unum eligite)
+1. pokój
+
+neutĕr [pron]
+(Nos neutrum eligimus)
+1. żaden z dwóch
+
+apporto, apportāre, apportāvī, apportātum [verb] [I]
+(Vos, qui haec signa apportavistis, ipsi eligite)
+1. nosić, przenosić, przynosić (do)
+
+sĕcundum [adv]
+(Secundum Varronem Romani non hastam ipsam neque caduceum miserunt)
+1. według
+2. zgodnie z
+3. wdłuż
+4. po, za (w sensie czasu)
+
+nĕque [adv]
+(Secundum Varronem Romani non hastam ipsam neque caduceum miserunt)
+1. ani, ani nie
+
+tessĕra, tesserae [noun] [f] [I]
+(Romani duas terras, in quarum altera caducei, in altera hastae simulacra erant)
+1. żeton, bilet
+
+sĭmŭlācrum, simulacri [noun] [n] [II]
+(Romani duas tesseras, in quarum altera caducei, in altera hastae simulacra erant)
+1. podobizna, obraz, posąg
