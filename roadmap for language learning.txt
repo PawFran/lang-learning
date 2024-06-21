@@ -1,10 +1,18 @@
 roadmap for language learning
 
+słowo łacińskie - podać tłumaczenie (wyszukiwarka w trakcie pisania z tłumaczeń dostępnych w słowniku)
+
+słowo łacińskie - podać formę i częśc mowy ?
+
+skróty do opowiedzi na -i na gen sing, ere na inf II/III deklinacji itp.
+
 zrobić wydruk spójników w słowniku
 
 losowanie zdań ze słownika
 
 speech to text ?
+
+przykłady powinny dotyczyć konkretnych tłumaczeń a nie całego słowa (np. mors parci nulli)
 
 scrape z konkretnej strony np. https://www.online-latin-dictionary.com/latin-dictionary-flexion.php?lemma=MEDIUM100
 
