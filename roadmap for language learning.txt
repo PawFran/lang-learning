@@ -1,5 +1,9 @@
 roadmap for language learning
 
+dodać opcję -s (--sentence) która sprawia że wszystkie słowa, które są scrape'owane mają uzupełniony przykład tego zdania
+
+słowo łacińskie - do niego dobrać słowo polskie - użytkownik może coś wpisać a LLM znaleźć słowa najbardziej pasujące ze słownika - użytkownik wybiera które (może więcej niż jedno ?). może dodać info o części mowy żeby zawęzić wyszukiwanie ?
+
 słowo łacińskie - podać tłumaczenie (wyszukiwarka w trakcie pisania z tłumaczeń dostępnych w słowniku)
 
 słowo łacińskie - podać formę i częśc mowy ?
@@ -9,6 +13,8 @@ skróty do opowiedzi na -i na gen sing, ere na inf II/III deklinacji itp.
 zrobić wydruk spójników w słowniku
 
 losowanie zdań ze słownika
+
+sprawdzać jak często dane słowa były sprawdzane - trzeba je częściej losować
 
 speech to text ?
 

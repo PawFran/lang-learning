@@ -49,6 +49,7 @@ secundum - czemu nie znajduje tych wersji, których nie ma jeszcze w słowniku ?
 jeśli zmusić to się wywala
 quarum
 altera
+cui
 
 post - IndexError: list index out of range
 vis - IndexError: list index out of range

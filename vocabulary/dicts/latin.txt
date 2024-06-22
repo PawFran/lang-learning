@@ -2879,3 +2879,35 @@ tessĕra, tesserae [noun] [f] [I]
 sĭmŭlācrum, simulacri [noun] [n] [II]
 (Romani duas tesseras, in quarum altera caducei, in altera hastae simulacra erant)
 1. podobizna, obraz, posąg
+
+lŭpus, lupi [noun] [m] [II]
+(Lupus capram in saxo alto stantem conspexit)
+1. wilk
+
+căpra, caprae [noun] [f] [I]
+(Lupus capram in saxo alto stantem conspexit)
+1. koza
+
+saxum, saxi [noun] [n] [II]
+(Lupus capram in saxo alto stantem conspexit)
+1. kamień
+
+accēdo, accēdĕre, accessi, accessum [verb] [III]
+(Ad eam accedere non potuit)
+1. zbliżyć się, podejść
+
+căpella, capellae [noun] [f] [I]
+(Cur capella pulcherrima saxum illud non relinques ?)
+1. kózka (zdrobnienie)
+
+prātum, prati [noun] [n] [II]
+(Descende in hoc praetum)
+1. łąka
+
+herba, herbae [noun] [f] [I]
+(Praetum tibi multas herbas praebebit)
+1. zioło, trawa
+
+praepōno, praepōnĕre, praeposui, praepositum [verb] [III]
+(Loco pulchro tutum praeposui)
+1. stawiać kogoś/coś (+ acc) przed/ponad kogoś/coś (+ dat)
