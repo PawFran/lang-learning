@@ -12,3 +12,5 @@ zdania
 mors parcit nulli - nulli jest tu dopełnieniem dalszym. jak w polskim "śmierć nie odpuszcza nikomu" a nie "nie oszczędza nikogo"
 
 ne .. quidem - nawet nie np. ne accusare quidem poterant = nawet nie mogli oskarżyć
+
+loco pulchro tutum praeposui - acc jest naturalny, bo to dopełnienie bliższe. ale dat też, bo to jak dat incommodi
