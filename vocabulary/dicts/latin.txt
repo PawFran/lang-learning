@@ -2985,3 +2985,27 @@ interdum [adv]
 dormĭo, dormīre, dormivi, dormitum [verb] [IV]
 (Vilica interdum ancillas iam media nocte dormientes excitare studebat)
 1. spać, odpoczywać, zasnąć
+
+prŏpĕ [prep]
+(Prope leonem dormientem musculi ludebant)
+1. blisko, przy (+ acc)
+
+muscŭlus, musculi [noun] [m] [II]
+(Prope leonem dormientem musculi ludebant)
+1. mała mysz
+
+dēvŏro, dēvŏrāre, devorāvī, devorātum [verb] [I]
+(Leo musculum cepit devorare eum cupiens)
+1. pożerać
+
+rogatus, rogată, rogatum [adj]
+(Leo a musculo rogatus eum ignovit ei et vitam donavit)
+1. poproszony, zapytany
+
+ignosco, ignoscĕre, ignovi, ignotum [verb] [III]
+(Leo a musculo rogatus eum ignovit ei et vitam donavit)
+1. ułaskawić, przebaczyć (+ celownik)
+
+dōno, dōnāre, donāvī, donātum [verb] [I]
+(Leo a musculo rogatus eum ignovit ei et vitam donavit)
+1. darować

@@ -57,6 +57,8 @@ dormire
 noctis
 interdum
 dormio (dużo podwójnych form w odmianie)
+prope
+devorare
 
 post - IndexError: list index out of range
 vis - IndexError: list index out of range
