@@ -580,6 +580,7 @@ fŭgĭo, fŭgĕre, fugi, fugitum [verb] [III]
 ignōro, ignōrāre, ignorāvī, ignorātum [verb] [I]
 (Aliena laudātis, vestra ignorātis)
 1. nie wiedzieć, nie znać
+2. ignorować, nie zwracać uwagi na
 
 cūr [adv]
 (Cur Marcus saepe laudatur, et Publius semper castigatur a magistro ?)
@@ -2911,3 +2912,76 @@ herba, herbae [noun] [f] [I]
 praepōno, praepōnĕre, praeposui, praepositum [verb] [III]
 (Loco pulchro tutum praeposui)
 1. stawiać kogoś/coś (+ acc) przed/ponad kogoś/coś (+ dat)
+
+vīlĭca, vilicae [noun] [f] [I]
+(Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
+1. żona zarządcy/zarządczyni majątku ziemskiego
+
+quīdam [pron]
+(Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
+1. pewna (osoba/rzecz)
+
+cōtīdĭē [adv]
+(Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
+1. codziennie
+
+gallus, galli [noun] [m] [II]
+(Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
+1. kogut
+
+cantŭs, cantūs [noun] [m] [IV]
+(Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
+1. pieśń, śpiew
+2. (ptak) krzyk
+
+somnus, somni [noun] [m] [II]
+(Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
+1. sen
+
+excĭto, excĭtāre, excitāvī, excitātum [verb] [I]
+(Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
+1. obudzić, pobudzić
+
+lux, lucis [noun] [f] [III]
+(Vilica ancillas ad laborem prima luce cogebat)
+1. światło, światło dzienne
+
+cōgo, cōgĕre, coegi, coactum [verb] [III]
+(Vilica ancillas ad laborem prima luce cogebat)
+1. zbierać, gromadzić
+
+dĭūturnus, diuturnă, diuturnum [adj]
+(Ancillae diuturno labore fatigatae erant)
+1. trwały, trwały długo
+
+nĕco, nĕcāre, necāvī, necātum [verb] [I]
+(Ancillae, quibus dormire placebat, gallum necaverunt)
+1. zabić, uśmiercić
+
+nex, necis [noun] [f] [III]
+(Ancillae galli necem deplorabant)
+1. śmierć, morderstwo
+
+dēplōro, dēplōrāre, deplorāvī, deplorātum [verb] [I]
+(Ancillae galli necem deplorabant)
+1. opłakiwać, ubolewać, płakać nad
+
+rectus, rectă, rectum [adj]
+(Vilica rectam horam noctis ignorabat)
+1. właściwy, odpowiedni
+
+hōra, horae [noun] [f] [I]
+(Vilica rectam horam noctis ignorabat)
+1. godzina, czas, pora
+
+nox, noctis [noun] [f] [III]
+(Vilica rectam horam noctis ignorabat)
+1. noc
+
+interdum [adv]
+(Vilica interdum ancillas iam media nocte dormientes excitare studebat)
+1. czasami, od czasu do czasu
+
+dormĭo, dormīre, dormivi, dormitum [verb] [IV]
+(Vilica interdum ancillas iam media nocte dormientes excitare studebat)
+1. spać, odpoczywać, zasnąć

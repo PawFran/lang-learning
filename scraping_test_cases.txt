@@ -50,6 +50,13 @@ jeśli zmusić to się wywala
 quarum
 altera
 cui
+quaedam
+cotidie
+diuturno
+dormire
+noctis
+interdum
+dormio (dużo podwójnych form w odmianie)
 
 post - IndexError: list index out of range
 vis - IndexError: list index out of range
