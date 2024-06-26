@@ -3009,3 +3009,59 @@ ignosco, ignoscĕre, ignovi, ignotum [verb] [III]
 dōno, dōnāre, donāvī, donātum [verb] [I]
 (Leo a musculo rogatus eum ignovit ei et vitam donavit)
 1. darować
+
+praeda, praedae [noun] [f] [I]
+(Leo praedam parum caute investigans in rete incidit)
+1. łup, zdobycz
+
+parum [adv]
+(Leo praedam parum caute investigans in rete incidit)
+1. za mało, niewystarczająco
+
+cautē [adv]
+(Leo praedam parum caute investigans in rete incidit)
+1. ostrożnie
+
+investīgo, investīgāre, investigavi, investigatum [verb] [I]
+(Leo praedam parum caute investigans in rete incidit)
+1. badać, poszukiwać
+
+rētĕ, retis [noun] [n] [III]
+(Leo praedam parum caute investigans in rete incidit)
+1. sieć
+
+vēnātŏr, venatoris [noun] [m] [III]
+(Leo in rete, quod venatoris tetenderunt, incidit)
+1. myśliwy, łowca
+
+tendo, tendĕre, tetendi, tentum/tensum [verb] [III]
+(Leo in rete, quod venatoris tetenderunt, incidit)
+1. rozciągnąć, rozłożyć
+
+dĭū [adv]
+(Leo diu frustra ex rete se expedire temptans magno clamore totam silvam implevit)
+1. długo, przez długi czas
+
+frustrā [adv]
+(Leo diu frustra ex rete se expedire temptans magno clamore totam silvam implevit)
+1. na próżno, bezskutecznie
+
+expĕdĭo, expĕdīre, expedii/expedivi, expeditum [verb] [IV]
+(Leo diu frustra ex rete se expedire temptans magno clamore totam silvam implevit)
+1. uwalniać, rozwiązywać
+
+tŏtus, totă, totum [adj]
+(Leo diu frustra ex rete se expedire temptans magno clamore totam silvam implevit)
+1. cały
+
+implĕo, implēre, implevi, impletum [verb] [II]
+(Leo diu frustra ex rete se expedire temptans magno clamore totam silvam implevit)
+1. wypełnić
+
+vox, vocis [noun] [f] [III]
+(Musculus vocem leonis, cui ipse vitam debebat, audivit)
+1. głos
+
+rumpo, rumpĕre, rupi, ruptum [verb] [III]
+(Musculus dentibus acris rete rupit)
+1. łamać, przerywać
