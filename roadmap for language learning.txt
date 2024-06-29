@@ -4,6 +4,8 @@ poprawić scrape'owanie - zmieniła się strona !
 
 podać chatowi gpt format ?
 
+obsłużyć res gestae - fraza
+
 w przypadku III deklinacji pytać też o genre
 
 dodać opcję -s (--sentence) która sprawia że wszystkie słowa, które są scrape'owane mają uzupełniony przykład tego zdania

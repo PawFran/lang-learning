@@ -69,6 +69,7 @@ fluvius, fluviī [noun] [II] [m]
 do, dāre, dedī, datum [verb] [I]
 (Matrona tunicas ancillis dat)
 1. dawać
+2. oddawać się
 
 sum, esse, fuī [verb] [anomalous]
 (Marcus discipulus est)
@@ -1571,6 +1572,7 @@ nix, nivis [noun] [f] [III]
 candĭdus, candidă, candidum [adj]
 ()
 1. jasny, klarowny, biały
+2. uprzejmy, życzliwy
 
 lācte, lactis [noun] [n] [III]
 ()
@@ -3065,3 +3067,64 @@ vox, vocis [noun] [f] [III]
 rumpo, rumpĕre, rupi, ruptum [verb] [III]
 (Musculus dentibus acris rete rupit)
 1. łamać, przerywać
+
+stŭdĭum, studii [noun] [n] [II]
+(Non omnes litteris Graecis magno studio se dabant)
+1. zapał, gorliwość
+
+iustē [adv]
+(Iuste venustesque reprehendit Cato Albinum)
+1. słusznie
+
+vĕnustē [adv]
+(Iuste venustesque reprehendit Cato Albinum)
+1. uroczo, pięknie
+
+rĕprĕhendo, rĕprĕhendĕre, reprehendi, reprehensum [verb] [III]
+(Iuste venustesque reprehendit Cato Albinum)
+1. ganić, krytykować
+
+scriptĭto, scriptĭtāre, scriptitavi, scriptitatum [verb] [I]
+()
+1. pisać często
+
+praefātĭo, praefationis [noun] [f] [III]
+()
+1. przedmowa, wstęp
+
+praemitto, praemittĕre, praemisi, praemissum [verb] [III]
+()
+1. wysyłać naprzód, poprzedzać
+
+sententĭa, sententiae [noun] [f] [I]
+()
+1. zdanie, opinia
+2. myśl, znaczenie
+
+fortassĕ [adv]
+(Fortasse, lector candide, quaedam in meis libris parum composite aut non eleganter scriptum invenies)
+1. może, być może
+
+compŏsĭtē [adv]
+(Fortasse, lector candide, quaedam in meis libris parum composite aut non eleganter scriptum invenies)
+1. składnie, starannie, umiejętnie
+
+ēlĕgantĕr [adv]
+(Fortasse, lector candide, quaedam in meis libris parum composite aut non eleganter scriptum invenies)
+1. elegancko, schludnie, wytwornie
+
+scriptus, scriptă, scriptum [adj]
+(Fortasse, lector candide, quaedam in meis libris parum composite aut non eleganter scriptum invenies)
+1. napisany
+
+scriptum, scripti [noun] [n] [II]
+()
+1. dokument, tekst, pismo
+
+nātus, nată, natum [adj]
+(Vir Romanus sum, natus in Latio)
+1. urodzony
+
+perpello, perpellĕre, perpuli, perpulsum [verb] [III]
+(Nemo te ad hoc perpulit)
+1. zmuszać, nakłaniać
