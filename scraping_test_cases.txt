@@ -6,37 +6,12 @@ volo summus hospitio umbra verso incido ferox prudens utilis opulentus lyra iust
 problematic
 lavat lavare post vis arma dissero praesse
 
+needs fix
+secundis secundum secundorum proelio frenis omnes duo singulorum pono cedo vicinis cesserunt medio pax vis arma dissero praesse
+
+pl tantum nie działają do końca dobrze
+
 to be checked
-secundis secundum secundorum servire graviter proelio aliquando frenis plane quod omnes quis cito duo singulorum pono hebetat
-etiam
-instituere
-cedo
-vicinis
-cesserunt
-medio (only sing)
-ut
-ipsi
-terminare
-pax
-neutrum, neuter
-neque
 secundum - czemu nie znajduje tych wersji, których nie ma jeszcze w słowniku ?
 jeśli zmusić to się wywala
-quarum
-altera
-cui
-quaedam
-cotidie
-diuturno
-dormire
-noctis
-interdum
-dormio (dużo podwójnych form w odmianie)
-prope
-devorare
 
-post - IndexError: list index out of range
-vis - IndexError: list index out of range
-arma - IndexError: list index out of range (pl tantum)
-dissero - IndexError: list index out of range
-praesse - Exception: cannot parse praesse

@@ -129,7 +129,7 @@ def parse_dict_entry(flexion_soup, summary_and_translations) -> DictionaryEntry:
         msg = f', {LatinDictScraper.adjective_forms(flexion_soup)} {LatinDictScraper.adjective_metadata()}'
         header = LatinAdjective.from_entry_head(word + msg)
     elif is_present(pronoun_pattern, grammatical_info):
-        msg = f', {LatinDictScraper.pronoun_metadata()}'
+        msg = f' {LatinDictScraper.pronoun_metadata()}'
         header = LatinPronoun.from_entry_head(word + msg)
     else:
         raise Exception(f'cannot recognize pattern (verb, noun etc.)')

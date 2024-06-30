@@ -126,7 +126,9 @@ class LatinDictScraper:
         supine_children_tags = LatinDictScraper.find_children_tags(all_divs, txt='SUPIN')
         supine_form = supine_children_tags[0].text.strip()
 
-        result = f'{infinitive_form}, {perfect_form}'
+        result = infinitive_form
+        if perfect_form != '–':
+            result += f', {perfect_form}'
         if supine_form != '–':
             result = f'{result}, {supine_form}'
 
