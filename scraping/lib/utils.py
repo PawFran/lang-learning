@@ -37,51 +37,72 @@ def dict_entry_from_soup(scraper, dict_soup) -> DictionaryEntry:
 
 
 def scrape(scraper, input_word) -> [DictionaryEntry]:
-    dict_soup = scraper.get_dict_soup(input_word)
+    dictionary_html = scraper.get_dict_html(input_word)
 
-    disambiguation_tags = dict_soup.findAll('ul', {"class": "disambigua"})
+    disambiguation_tags = dictionary_html.findAll('ul', {"class": "disambigua"})
     disambiguation: bool = len(disambiguation_tags) > 0
 
     final_result: [DictionaryEntry] = []
 
     if disambiguation:
         # process word "IN THIS PAGE"
-        parsed = dict_entry_from_soup(scraper, dict_soup)
+        parsed = dict_entry_from_soup(scraper, dictionary_html)
         final_result.append(parsed)
 
         # process the rest
         all_other_anchors = disambiguation_tags[0].findAll('a', href=True)
         all_other_hrefs = [x['href'] for x in all_other_anchors if x['href'] != '#']
 
-        all_other_soups = []
+        all_target_htmls = []
         for href in all_other_hrefs:
             link = URL_main_part + '/' + href
             page = requests.get(link)
-            all_other_soups.append(BeautifulSoup(page.content, "html.parser"))
+            all_target_htmls.append(BeautifulSoup(page.content, "html.parser"))
 
-        for soup in all_other_soups:
+        for soup in all_target_htmls:
             parsed = dict_entry_from_soup(scraper, soup)
             final_result.append(parsed)
-    elif dict_soup.find(id="myth") is not None:
-        parsed = dict_entry_from_soup(scraper, dict_soup)
+    elif is_translation_on_the_page(dictionary_html):
+        parsed = dict_entry_from_soup(scraper, dictionary_html)
         final_result.append(parsed)
-    else:
-        container_with_hrefs = dict_soup.find_all('div', {'class': 'ff_search_container pb-2'})[0]
-        unique_hrefs = {x['href'] for x in container_with_hrefs.find_all('a', href=True)}
-
-        all_other_soups = []
-        for link in unique_hrefs:
-            page = requests.get(link)
-            all_other_soups.append(BeautifulSoup(page.content, "html.parser"))
-
-        for dict_soup in all_other_soups:
-            parsed = dict_entry_from_soup(scraper, dict_soup)
-            final_result.append(parsed)
+    elif multiple_links_ver_1(dictionary_html):  # ex hospitio
+        dict_entries_from_links = dict_entries_from_link_in(dictionary_html, div_class='ff_search_container pb-2',
+                                                            scraper=scraper)
+        final_result += dict_entries_from_links
+    else:  # ex solvere
+        dict_entries_from_links = dict_entries_from_link_in(dictionary_html, div_class='list pb-2', scraper=scraper,
+                                                            url_prefix=URL_main_part)
+        final_result += dict_entries_from_links
 
     if len(final_result) > 0:
         return final_result
     else:
         raise Exception(f'cannot parse {input_word}')
+
+
+def dict_entries_from_link_in(dictionary_html, div_class, scraper, url_prefix=''):
+    container_with_hrefs = dictionary_html.find_all('div', {'class': div_class})[0]
+    unique_hrefs = {url_prefix + x['href'] for x in container_with_hrefs.find_all('a', href=True)}
+
+    all_other_soups = []
+    for link in unique_hrefs:
+        page = requests.get(link)
+        all_other_soups.append(BeautifulSoup(page.content, "html.parser"))
+
+    results = []
+    for soup in all_other_soups:
+        parsed = dict_entry_from_soup(scraper, soup)
+        results.append(parsed)
+
+    return results
+
+
+def multiple_links_ver_1(dictionary_html):
+    return len(dictionary_html.find_all('div', {'class': 'ff_search_container pb-2'})) > 0
+
+
+def is_translation_on_the_page(dictionary_html):
+    return dictionary_html.find(id="myth") is not None
 
 
 def parse_dict_entry(flexion_soup, summary_and_translations) -> DictionaryEntry:

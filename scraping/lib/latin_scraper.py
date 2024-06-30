@@ -73,7 +73,7 @@ class LatinDictScraper:
     def adjective_metadata() -> str:
         return '[adj]'
 
-    def get_dict_soup(self, input_word) -> BeautifulSoup:
+    def get_dict_html(self, input_word) -> BeautifulSoup:
         dict_URL = self.base_dict_URL + f'?parola={input_word}'
 
         page = requests.get(dict_URL)
