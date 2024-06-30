@@ -20,6 +20,7 @@ adverb_pattern = 'adverb'
 preposition_pattern = 'preposition'
 conjunction_pattern = 'conjunction'
 adjective_pattern = 'adjective'
+pronoun_pattern = '.*pronoun.*'
 
 
 class LatinDictScraper:
@@ -63,6 +64,10 @@ class LatinDictScraper:
     @staticmethod
     def conjunction_metadata() -> str:
         return '[conj]'
+
+    @staticmethod
+    def pronoun_metadata() -> str:
+        return '[pron]'
 
     @staticmethod
     def adjective_metadata() -> str:

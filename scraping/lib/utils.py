@@ -1,9 +1,5 @@
-import re
-import logging
-
 from scraping.lib.latin_scraper import *
-from vocabulary.lib.dict_classes import DictionaryEntry, LatinVerb, LatinNoun, LatinAdverb, LatinPreposition, \
-    LatinConjunction, LatinAdjective
+from vocabulary.lib.dict_classes import *
 
 output_temporary_file_name = 'scraping_out_tmp.txt'
 
@@ -111,8 +107,11 @@ def parse_dict_entry(flexion_soup, summary_and_translations) -> DictionaryEntry:
     elif is_present(adjective_pattern, grammatical_info):
         msg = f', {LatinDictScraper.adjective_forms(flexion_soup)} {LatinDictScraper.adjective_metadata()}'
         header = LatinAdjective.from_entry_head(word + msg)
+    elif is_present(pronoun_pattern, grammatical_info):
+        msg = f', {LatinDictScraper.pronoun_metadata()}'
+        header = LatinPronoun.from_entry_head(word + msg)
     else:
-        raise Exception(f'cannot parse')
+        raise Exception(f'cannot recognize pattern (verb, noun etc.)')
 
     entry = DictionaryEntry(head=header, example='', translations=translations)
 

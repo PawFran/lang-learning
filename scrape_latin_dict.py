@@ -1,3 +1,4 @@
+import logging
 import sys
 
 from scraping.lib.utils import *
