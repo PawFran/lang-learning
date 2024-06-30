@@ -325,7 +325,7 @@ difficile [adv]
 (Naturam mutare difficile est)
 1. trudno
 
-opulentus, opulenta, opulentum [adj]
+ŏpŭlentus, opulentă, opulentum [adj]
 (Opulentus vir romanus non laborabat)
 1. bogaty
 
@@ -1790,7 +1790,7 @@ crīmĕn, criminis [noun] [n] [III]
 1. zarzut, oskarżenie
 2. przestępstwo
 
-incīdo, incĭdĕre, incidi [verb] [III]
+incĭdo, incĭdĕre, incidi [verb] [III]
 (Incidis in Scyllam cupiens vitare Charybdim)
 1. wpadać, spadać (do czegoś, na kogoś/coś)
 
@@ -2155,7 +2155,7 @@ rĕgo, rĕgĕre, rexi, rectum [verb] [III]
 (Mars bella regebat)
 1. rządzić, kierować
 
-lyra, lyrae [noun] [f] [I]
+lўra, lyrae [noun] [f] [I]
 (Apollo lyra cantans deo deasque delectabat)
 1. lira, lutnia, harfa
 

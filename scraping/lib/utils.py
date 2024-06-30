@@ -67,17 +67,11 @@ def scrape(scraper, input_word) -> [DictionaryEntry]:
         parsed = dict_entry_from_soup(scraper, dict_soup)
         final_result.append(parsed)
     else:
-        all_other_hrefs = []
-        all_tables = [t for t in dict_soup.findAll('table') if t.findAll('a', href=True) is not None]
-        for t in all_tables:
-            relevant_hrefs = [x['href'] for x in t.findAll('a', href=True) if
-                              x['href'].startswith('latin-english-dictionary.php?lemma=')]
-            all_other_hrefs += relevant_hrefs
+        container_with_hrefs = dict_soup.find_all('div', {'class': 'ff_search_container pb-2'})[0]
+        unique_hrefs = {x['href'] for x in container_with_hrefs.find_all('a', href=True)}
 
-        unique_hrefs = set(all_other_hrefs)
         all_other_soups = []
-        for href in unique_hrefs:
-            link = URL_main_part + '/' + href
+        for link in unique_hrefs:
             page = requests.get(link)
             all_other_soups.append(BeautifulSoup(page.content, "html.parser"))
 

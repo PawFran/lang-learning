@@ -3,7 +3,7 @@ from dataclasses import dataclass
 
 import requests
 import re
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 URL_main_part = 'https://www.online-latin-dictionary.com'
 base_dict_URL = f'{URL_main_part}/latin-english-dictionary.php'
@@ -82,98 +82,100 @@ class LatinDictScraper:
         return flexion_soup
 
     @staticmethod
-    def verb_perfect_form(divs_with_conjugation) -> str:
-        div_with_perfect_conjugation = divs_with_conjugation[1]
-        perfect_first_sing_core = div_with_perfect_conjugation.find_all("span", {"class": "radice"})[0].text
-        perfect_first_sing_ending = div_with_perfect_conjugation.find_all("span", {"class": "desinenza"})[0].text
-
-        # accents from https://www.online-latin-dictionary.com are sometimes wrong
-        return (perfect_first_sing_core + perfect_first_sing_ending).replace('avi', 'āvī')
-
-    @staticmethod
-    def verb_infinitive(divs_with_conjugation) -> str:
-        div_with_infinitive_at_list = divs_with_conjugation[5].text.split('\n')
-        present_infinitive_index = div_with_infinitive_at_list.index('PRESENT') + 1
-
-        infinitive = div_with_infinitive_at_list[present_infinitive_index].strip()
-
-        return None if infinitive == '-' else infinitive
-
-    @staticmethod
-    def verb_supine(divs_with_conjugation) -> str:
-        div_with_infinitive_as_list = divs_with_conjugation[5].text.split('\n')
-
-        supine_index = div_with_infinitive_as_list.index('SUPIN') + 1
-        supine = div_with_infinitive_as_list[supine_index].strip()
-
-        if supine == '–':
-            return None
+    def find_index_of_tag_by_text(tags, txt, strict=True):
+        if strict:
+            for i in range(len(tags)):
+                if tags[i].text == txt:
+                    return i
         else:
-            return supine.replace('atum', 'ātum')
-            # accents from https://www.online-latin-dictionary.com are sometimes wrong
-
-    @staticmethod
-    def verb_forms(flexion_soup) -> str:
-        divs_with_conjugation = flexion_soup.find_all("div", {"class": "col span_1_of_2"})
-
-        perfect_first_sing_full = LatinDictScraper.verb_perfect_form(divs_with_conjugation)
-        infinitive = LatinDictScraper.verb_infinitive(divs_with_conjugation)
-        supine = LatinDictScraper.verb_supine(divs_with_conjugation)
-
-        inf_and_perfect = f'{infinitive}, {perfect_first_sing_full}'
-
-        if supine is not None:
-            return inf_and_perfect + f', {supine}'
-        else:
-            return inf_and_perfect
-
-    @staticmethod
-    def full_gen_sing(flexion_soup) -> str:
-        divs_with_declension = flexion_soup.find_all("div", {"class": "col span_1_of_2"})
-        singular_declension = divs_with_declension[0]
-
-        result_set = singular_declension.find_all("tr")
-        for tag in result_set:
-            if [x for x in tag][0].contents[0] == 'Gen.':
-                both = [x for x in tag][1]
-                gen_sing_core = both.find_all("span", {"class": "radice"})[0].contents[0]
-                gen_sing_ending = both.find_all("span", {"class": "desinenza"})[0].contents[0]
-
-                return gen_sing_core + gen_sing_ending
-
-        raise Exception('cannot parse Gen singularis')
-
-    @staticmethod
-    def adjective_form(declension):
-        fem_result_set = declension.find_all('tr')
-
-        for tag in fem_result_set:
-            if [x for x in tag][0].contents[0] == 'Nom.':
-                core = tag.find_all("span", {"class": "radice"})[0].contents[0]
-                ending = ''  # ex ferox
-                try:
-                    ending = tag.find_all("span", {"class": "desinenza"})[0].contents[0]
-                except IndexError:
-                    pass
-
-                return core + ending
-
+            for i in range(len(tags)):
+                current_tag = tags[i]
+                if txt in current_tag.text:
+                    return i
         return None
 
     @staticmethod
-    def adjective_forms(flexion_soup) -> str:
-        divs_with_declension = flexion_soup.find_all("div", {"class": "col span_1_of_2"})
+    def find_children_tags(divs, txt):
+        txt_tag_index = LatinDictScraper.find_index_of_tag_by_text(divs, txt=txt)
+        tag_container = divs[txt_tag_index + 1]
 
-        fem_sing_declension = divs_with_declension[2]
-        neut_sing_declension = divs_with_declension[4]
+        return [x for x in tag_container.children if type(x) == Tag]
 
-        femininum = LatinDictScraper.adjective_form(fem_sing_declension)
-        neutrum = LatinDictScraper.adjective_form(neut_sing_declension)
+    @staticmethod
+    def find_children_2_tags(divs, txt1, txt2):
+        txt1_tag_index = LatinDictScraper.find_index_of_tag_by_text(divs, txt=txt1)
+        divs_after_txt1 = divs[txt1_tag_index:]
 
-        if femininum is None or neutrum is None:
-            raise Exception(f'cannot find femininum or neutrum forms for this adjective')  # todo do sth with it
+        return LatinDictScraper.find_children_tags(divs_after_txt1, txt2)
 
-        return f'{femininum}, {neutrum}'
+    @staticmethod
+    def verb_forms(html_with_conjugations: BeautifulSoup) -> str:
+        all_divs = html_with_conjugations.find_all('div')
+
+        perfect_children_tags = LatinDictScraper.find_children_2_tags(all_divs, txt1='INDICATIVE', txt2='PERFECT')
+        perfect_form = LatinDictScraper.get_person(perfect_children_tags, person_number=0, person_name='I sing')
+
+        infinitive_children_tags = LatinDictScraper.find_children_2_tags(all_divs, txt1='INFINITIVE', txt2='PRESENT')
+        infinitive_form = infinitive_children_tags[0].text.strip()
+
+        supine_children_tags = LatinDictScraper.find_children_tags(all_divs, txt='SUPIN')
+        supine_form = supine_children_tags[0].text.strip()
+
+        result = f'{infinitive_form}, {perfect_form}'
+        if supine_form != '–':
+            result = f'{result}, {supine_form}'
+
+        return result
+
+    @staticmethod
+    def get_person(tags: [Tag], person_number: int, person_name: str):
+        person_and_value = tags[person_number].text.strip().split('.')
+        person = person_and_value[0]
+        value = person_and_value[1]
+        if person == person_name:
+            perfect_form = value
+            return perfect_form
+        else:
+            raise Exception('cannot parse perfect form')
+
+    @staticmethod
+    def get_case(tags: [Tag], case_number: int, case_name: str) -> str:
+        case_and_value = tags[case_number].text.strip().split('.')
+        grammatical_case = case_and_value[0]
+        value = case_and_value[1]
+        if grammatical_case != case_name:
+            raise Exception(f'cannot parse {case_name}')
+
+        return value
+
+    @staticmethod
+    def nominative_from_children_tags(tags) -> str:
+        return LatinDictScraper.get_case(tags, 0, 'Nom')
+
+    @staticmethod
+    def genetive_from_children_tags(tags) -> str:
+        return LatinDictScraper.get_case(tags, 1, 'Gen')
+
+    @staticmethod
+    def full_gen_sing(html_with_declension: BeautifulSoup) -> str:
+        all_divs = html_with_declension.find_all('div')
+        children_tags = LatinDictScraper.find_children_2_tags(all_divs, txt1='MASCULINE', txt2='SINGULAR')
+
+        return LatinDictScraper.genetive_from_children_tags(children_tags)
+
+    @staticmethod
+    def nominative(tags: [Tag], txt1: str, txt2: str):
+        children_tags = LatinDictScraper.find_children_2_tags(tags, txt1, txt2)
+        return LatinDictScraper.nominative_from_children_tags(children_tags)
+
+    @staticmethod
+    def adjective_forms(html_with_declension: BeautifulSoup) -> str:
+        all_divs = html_with_declension.find_all('div')
+
+        nom_sing_fem = LatinDictScraper.nominative(all_divs, 'FEMININE', 'SINGULAR')
+        nom_sing_neut = LatinDictScraper.nominative(all_divs, 'NEUTER', 'SINGULAR')
+
+        return f'{nom_sing_fem}, {nom_sing_neut}'
 
     def deepl_translation_en_to_pl(self, en_word) -> str:
         text_encoded = quote(en_word)
