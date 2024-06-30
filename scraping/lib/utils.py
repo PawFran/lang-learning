@@ -31,8 +31,11 @@ def dict_entry_from_soup(scraper, dict_soup) -> DictionaryEntry:
     single_result = dict_soup.find(id="myth")
     summary_and_translations: LatinScrapeResults = single_scraping_result(scraper, single_result)
 
-    this_href = single_result.findAll('a', href=True)[0]['href']
-    flexion_soup = LatinDictScraper.get_flexion_soup(this_href)
+    if 'This word is an invariable part of speech' in single_result.text:
+        flexion_soup = None
+    else:
+        this_href = single_result.findAll('a', href=True)[0]['href']
+        flexion_soup = LatinDictScraper.get_flexion_soup(this_href)
 
     return parse_dict_entry(flexion_soup, summary_and_translations)
 
