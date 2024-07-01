@@ -74,7 +74,7 @@ class LatinDictScraper:
         return '[adj]'
 
     def get_dict_html(self, input_word) -> BeautifulSoup:
-        dict_URL = self.base_dict_URL + f'?parola={input_word}'
+        dict_URL = self.base_dict_URL + f'?parola={input_word}&md=ff'
 
         page = requests.get(dict_URL)
         return BeautifulSoup(page.content, "html.parser")
