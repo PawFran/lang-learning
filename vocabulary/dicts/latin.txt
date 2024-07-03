@@ -940,7 +940,7 @@ plūrĭmum [adv]
 
 quī [adv]
 ()
-1. który, kto
+1. w jaki sposób?, jak?, dlaczego?
 
 gaudĭum, gaudii [noun] [n] [II]
 ()
@@ -1736,7 +1736,7 @@ fūnŭs, funeris [noun] [n] [III]
 
 ēx [prep]
 ()
-1. z, od (+ abl)
+1. z, od (+ abl) (źródło lub pochodzenie)
 
 lēvis, levis, leve [adj]
 ()
@@ -3128,3 +3128,108 @@ nātus, nată, natum [adj]
 perpello, perpellĕre, perpuli, perpulsum [verb] [III]
 (Nemo te ad hoc perpulit)
 1. zmuszać, nakłaniać
+
+iactatus, iactată, iactatum [adj]
+(Nautae tempestate iactati in eundem portum, quem reliquerant, confugerunt)
+1. rzucany, miotany
+
+portŭs, portūs [noun] [m] [IV]
+(Nautae tempestate iactati in eundem portum, quem reliquerant, confugerunt)
+1. port, przystań
+
+confŭgĭo, confŭgĕre, confugi [verb] [III]
+(Nautae tempestate iactati in eundem portum, quem reliquerant, confugerunt)
+1. schronić się
+
+trŏpaeum, tropaei [noun] [n] [II]
+(Imperator tropaeum posuit illo loco, quo pridie pugnaverunt)
+1. trofeum
+
+pōno, pōnĕre, posui, positum [verb] [III]
+(Imperator tropaeum posuit illo loco, quo pridie pugnaverunt)
+1. umieścić
+
+prīdĭē [adv]
+(Imperator tropaeum posuit illo loco, quo pridie pugnaverunt)
+1. dzień wcześniej
+
+ăvus, avi [noun] [m] [II]
+(Hieronymus, cuius avus Hiero amicus populi Romani fuerat, ad Carthaginienses defecit)
+1. dziadek, przodek
+
+dēfĭcĭo, dēfĭcĕre, defeci, defectum [verb] [III]
+(Hieronymus, cuius avus Hiero amicus populi Romani fuerat, ad Carthaginienses defecit)
+1. zawieść, rozczarować
+2. zdradzać, przechodzić na czyjąś stronę
+
+vĕl [adv]
+(Fuit moris antiqui eos, qui vel singulorum laudes vel urbium scripserant, aut honoribus aut pecunia ornare)
+1. lub, albo (łączenie dwóch alternatyw)
+
+scrībo, scrībĕre, scripsi, scriptum [verb] [III]
+(Fuit moris antiqui eos, qui vel singulorum laudes vel urbium scripserant, aut honoribus aut pecunia ornare)
+1. pisać
+
+hŏnŏs, honoris [noun] [m] [III]
+(Fuit moris antiqui eos, qui vel singulorum laudes vel urbium scripserant, aut honoribus aut pecunia ornare)
+1. szacunek lub poważanie
+2. urząd publiczny
+
+rĕvŏco, rĕvŏcāre, revocavi, revocatum [verb] [I]
+(Amicus tibi ero, si exercitum tuum ex finibus meis revocaveris)
+1. odwołać
+
+ălĭquis [pron]
+(Cum oppido appropinquaveris, ex aliquo, qui tibi occurret, viam quaere)
+1. ktoś, ktokolwiek
+
+occurro, occurrĕre, occurri o occucurri, occursum [verb] [III]
+(Cum oppido appropinquaveris, ex aliquo, qui tibi occurret, viam quaere)
+1. spotkać się, wpaść na kogoś
+
+quaero, quaerĕre, quaesii o quaesivi, quaesitum [verb] [III]
+(Cum oppido appropinquaveris, ex aliquo, qui tibi occurret, viam quaere)
+1. szukać czegoś, pytać o, dowiedzieć się o, żądać
+
+rūmŏr, rumoris [noun] [m] [III]
+(Qui erit rumor, si id feceris)
+1. pogłoska, plotka
+2. krzyk
+
+Graecus, Graecă, Graecum [adj]
+(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
+1. grecki
+
+dūco, dūcĕre, duxi, ductum [verb] [III]
+(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
+1. prowadzić, sprowadzić
+
+ōra, orae [noun] [f] [I]
+(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
+1. brzeg, wybrzeże
+
+excīdĭum, excidii [noun] [n] [II]
+(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
+1. zniszczenie (miast i armii)
+
+mălum, mali [noun] [n] [II]
+(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
+1. zło, nieszczęście, szkoda
+
+dōnĕc [conj]
+(Donec eris sospes, multos numerabis amicos)
+1. podczas gdy, tak długo jak, dopóki
+
+sospĕs, sospĕs, sospĕs [adj]
+(Donec eris sospes, multos numerabis amicos)
+1. bezpieczny i zdrowy
+2. pomyślny
+
+nŭmĕro, nŭmĕrāre, numeravi, numeratum [verb] [I]
+(Donec eris sospes, multos numerabis amicos)
+1. liczyć
+
+nūbĭlus, nubilă, nubilum [adj]
+(Tempora si fuerint nubila, solus eris)
+1. pochmurny
+2. smutny, trwożny, niezadowolony

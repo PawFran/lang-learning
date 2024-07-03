@@ -7,6 +7,9 @@ problematic
 lavat lavare post vis arma dissero praesse
 
 needs fix
+portus (dwie opcje gen sing), pono (dwie opcje perf i sup)
+malum
+nubila
 secundis secundum secundorum proelio frenis omnes duo singulorum pono cedo vicinis cesserunt medio pax vis arma dissero praesse
 
 pl tantum nie działają do końca dobrze
