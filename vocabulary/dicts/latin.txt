@@ -3260,3 +3260,35 @@ trādo, trādĕre, tradidi, traditum [verb] [III]
 insānĭa, insaniae [noun] [f] [I]
 (Iram bene Ennius initium dixit insaniae)
 1. szaleństwo
+
+mărītus, mariti [noun] [m] [II]
+(Artemisia maritum suum ama)
+1. mąż, żonaty mężczyzna
+
+ossum, ossi [noun] [n] [II]
+(Artemisia ossa cineremque eius aquae indidit ebibitque)
+1. kość
+
+cĭnis, cineris [noun] [m/f] [III]
+(Artemisia ossa cineremque eius aquae indidit ebibitque)
+1. popiół
+
+indo, indĕre, indidi, inditum [verb] [III]
+(Artemisia ossa cineremque eius aquae indidit ebibitque)
+1. włożyć, nałożyć
+
+ēbĭbo, ēbĭbĕre, ebibi, ebibitum [verb] [III]
+(Artemisia ossa cineremque eius aquae indidit ebibitque)
+1. wypić
+
+sĕpulchrum, sepulchri [noun] [n] [II]
+(Artemisia sepulchrum memorabile viro exstruit)
+1. grób, nagrobek, miejsce pochówku
+
+mĕmŏrābĭlis, memorabilis, memorabile [adj]
+(Artemisia sepulchrum memorabile viro exstruit)
+1. niezapomniany
+
+exstrŭo, exstrŭĕre, exstruxi, exstructum [verb] [III]
+(Artemisia sepulchrum memorabile viro exstruit)
+1. budować, wznosić
