@@ -889,7 +889,7 @@ urbs, urbis [noun] [f] [III]
 1. miasto
 
 appello, appellere, appuli, appulsum [verb] [III]
-()
+(Noster ille Ennius sanctos appellat poetas)
 1. nazywać
 
 dignus, dignă, dignum [adj]
@@ -2744,9 +2744,8 @@ longus, longă, longum [adj]
 reddo, reddĕre, reddidi, redditum [verb] [III]
 (Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
 1. powrócić
-2. przywrócić
-3. oddawać
-4. przyznawać, przydzielać
+2. przywrócić, oddawać
+3. dostarczać, przyznawać, przydzielać
 
 nĭvĕus, niveă, niveum [adj]
 (Thais habet nigros, niveos Lacaenia dentes)
@@ -3233,3 +3232,31 @@ nūbĭlus, nubilă, nubilum [adj]
 (Tempora si fuerint nubila, solus eris)
 1. pochmurny
 2. smutny, trwożny, niezadowolony
+
+cautus, caută, cautum [adj]
+(Felix, quem faciun aliena pericula cautum)
+1. ostrożny, uważny
+
+pānis, panis [noun] [m] [III]
+(Malum panem fames reddet tibi bonum)
+1. chleb
+
+fămēs, famis [noun] [f] [III]
+(Malum panem fames reddet tibi bonum)
+1. głód, pragnienie
+
+părens, parentis [noun] [m/f] [III]
+(Parentes carissimos habere debemus)
+1. rodzice, matka, ojciec
+
+trādo, trādĕre, tradidi, traditum [verb] [III]
+(Parentes nobis vitam tradiderunt)
+1. przekazać, powierzyć, dostarczyć
+
+ĭnĭtĭum, initii [noun] [n] [II]
+(Iram bene Ennius initium dixit insaniae)
+1. początek, rozpoczęcie
+
+insānĭa, insaniae [noun] [f] [I]
+(Iram bene Ennius initium dixit insaniae)
+1. szaleństwo
