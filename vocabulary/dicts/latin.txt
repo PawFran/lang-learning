@@ -619,10 +619,6 @@ castra, castrōrum [noun] [n] [II] [pl]
 (A Romanis castra ponebantur)
 1. obóz
 
-pōno, pōnĕre, posui, postum [verb] [III]
-(A Romanis castra ponebantur)
-1. umieścić
-
 mŏvĕo, mŏvēre, movi, motum [verb] [II]
 ()
 1. poruszać się
@@ -806,11 +802,6 @@ dēfendo, dēfendĕre, defendi, defensum [verb] [III]
 ()
 1. bronić
 
-fīnis, fīnis [noun] [m] [III]
-()
-1. koniec
-2. granica
-
 fīnes, fīnium [noun] [m] [III] [pl]
 ()
 1. państwo
@@ -899,10 +890,6 @@ dignus, dignă, dignum [adj]
 mīlĕs, militis [noun] [m] [III]
 ()
 1. żołnierz
-
-fīnis, finis [noun] [m] [III]
-()
-1. granica, koniec
 
 grātĭa, grātĭae [noun] [f] [I]
 ()
@@ -994,10 +981,6 @@ pĕto, pĕtĕre, petii, petitum [verb] [III]
 căput, capitis [noun] [n] [III]
 ()
 1. głowa
-
-sententĭa, sententiae [noun] [f] [I]
-()
-1. myśl, zdanie
 
 tempŭs, temporis [noun] [n] [III]
 ()
@@ -1211,10 +1194,6 @@ hospĭtĭum, hospitii [noun] [n] [II]
 accĭpĭo, accĭpĕre, accepi, acceptum [verb] [III]
 ()
 1. przyjmować
-
-stŭdĭum, studii [noun] [n] [II]
-()
-1. nauka
 
 ūnĭversĭtās, universitatis [noun] [f] [III]
 ()
@@ -1578,10 +1557,6 @@ lācte, lactis [noun] [n] [III]
 ()
 1. mleko
 
-virtus, virtutis [noun] [f] [III]
-()
-1. męstwo, zaleta, cnota
-
 mĕl, mellis [noun] [n] [III]
 ()
 1. miód
@@ -1807,7 +1782,7 @@ sĕdĕo, sĕdēre, sedi, sessum [verb] [II]
 1. siedzieć
 
 ŏs, ossis [noun] [n] [III]
-(Tarde venientibus ossa)
+(Tarde venientibus ossa. Artemisia ossa cineremque eius aquae indidit ebibitque)
 1. kość
 
 tardē [adv]
@@ -2230,7 +2205,7 @@ firmo, firmāre, firmāvī, firmātum [verb] [I]
 
 virtus, virtutis [noun] [f] [III]
 (Res publicam iustitia et virtutes civium firmant)
-1. siła, odwaga, cnota
+1. męstwo, zaleta, cnota
 
 exercĭtŭs, exercitūs [noun] [m] [IV]
 ()
@@ -2518,10 +2493,6 @@ rīdĕo, rīdēre, risi, risum [verb] [II]
 (Plane satis sunt, credo, Roamnis, etiam si avarissimi sunt)
 1. skąpy, chciwy
 
-praeda, praedae [noun] [f] [I]
-(Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
-1. łup, zdobycz
-
 sentĭo, sentīre, sensi, sensum [verb] [IV]
 (Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
 1. myśleć, zdawać sobie sprawę
@@ -2782,7 +2753,7 @@ etiam atque etiam [adv]
 
 fīnis, finis [noun] [m/f] [III]
 (Nolani et Neapolitani etiam atque etiam de finibus certabant)
-1. granica
+1. granica, koniec
 
 instĭtŭo, instĭtŭĕre, institui, institutum [verb] [III]
 (Fabius Labeo fines inter Nolanos et Neapolitanos instituere debebat)
@@ -3069,7 +3040,8 @@ rumpo, rumpĕre, rupi, ruptum [verb] [III]
 
 stŭdĭum, studii [noun] [n] [II]
 (Non omnes litteris Graecis magno studio se dabant)
-1. zapał, gorliwość
+1. nauka
+2. zapał, gorliwość
 
 iustē [adv]
 (Iuste venustesque reprehendit Cato Albinum)
@@ -3144,7 +3116,7 @@ trŏpaeum, tropaei [noun] [n] [II]
 (Imperator tropaeum posuit illo loco, quo pridie pugnaverunt)
 1. trofeum
 
-pōno, pōnĕre, posui, positum [verb] [III]
+pōno, pōnĕre, posui, positum / postum [verb] [III]
 (Imperator tropaeum posuit illo loco, quo pridie pugnaverunt)
 1. umieścić
 
