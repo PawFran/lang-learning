@@ -63,7 +63,7 @@ def insert_or_ignore_latin_verb(entry: DictionaryEntry, session: Session):
         # Commit changes to the session before retrieving translation IDs
         session.commit()
 
-        insert_word_translation_mappings(verb_id, 'verb', session, translation_ids)
+        insert_word_translation_mappings(word_id=verb_id, part_of_speech='verb', session=session, translation_ids=translation_ids)
 
         session.commit()
 
@@ -93,7 +93,7 @@ def insert_or_ignore_latin_noun(entry: DictionaryEntry, session: Session):
         # Commit changes to the session before retrieving translation IDs
         session.commit()
 
-        insert_word_translation_mappings(noun_id, 'noun', session, translation_ids)
+        insert_word_translation_mappings(word_id=noun_id, part_of_speech='noun', session=session, translation_ids=translation_ids)
 
         session.commit()
 

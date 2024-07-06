@@ -1,0 +1,11 @@
+CREATE VIEW nouns_with_translations as
+SELECT base_acc, gen_acc, text, example from latin_nouns n
+	join latin_words_translations_mapping m on n.id = m.word_id
+	join latin_translations t on t.id = m.translation_id
+order by text
+
+CREATE VIEW verbs_with_translations as
+SELECT base_word_acc, infinite_acc, perfect_acc, supine_acc, conjugation, text, example from latin_verbs v
+	join latin_words_translations_mapping m on v.id = m.word_id
+	join latin_translations t on t.id = m.translation_id
+order by text

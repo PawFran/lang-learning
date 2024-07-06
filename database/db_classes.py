@@ -29,8 +29,8 @@ class LatinDeclension(Base):
 
 class LatinWordsTranslationsMapping(Base):
     __tablename__ = 'latin_words_translations_mapping'
-    word_id = Column(Integer, unique=True)
-    translation_id = Column(Integer, unique=True)
+    word_id = Column(Integer, primary_key=True)
+    translation_id = Column(Integer, primary_key=True)
     part_of_speech = Column(String, primary_key=True)
 
 
