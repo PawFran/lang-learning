@@ -120,7 +120,7 @@ def insert_and_get_translation_ids(entry, session):
         # For each translation, upsert it
         is_already_present = session.query(LatinTranslations).filter_by(text=t).count() > 0
         # print(is_already_present)
-        if is_already_present is None:
+        if not is_already_present:
             translation = LatinTranslations(text=t, example=entry.example, associated_case=None)
             insert_or_ignore(session, translation)
 
