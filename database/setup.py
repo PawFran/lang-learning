@@ -3,7 +3,7 @@ from sqlalchemy import *
 langs = ['latin', 'english']
 latin_declensions = ['I', 'II', 'III', 'III vowel', 'III consonant', 'III mixed', 'IV', 'V']
 latin_conjugations = ['I', 'II', 'III', 'IV', 'ANOMALOUS']
-parts_of_speech = ['verb', 'noun', 'adjective', 'adverb', 'preposition', 'conjuncture']
+parts_of_speech = ['verb', 'noun', 'adjective', 'adverb', 'preposition', 'conjuncture', 'pronoun']
 genres = ['masculine', 'feminine', 'neutral', 'masculine and feminine']
 
 tables_with_enums = {
