@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-07-06T08:24:42.034Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" version="24.6.4" etag="mAcm4xD-_p3XCvAOa9nN" type="device">
+<mxfile host="app.diagrams.net" modified="2024-07-06T19:49:23.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" version="24.6.4" etag="72qtWgOLygaBg3vi6I91" type="device">
   <diagram name="Database Schema" id="0">
-    <mxGraphModel dx="1900" dy="701" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="701" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="words" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
-          <mxGeometry x="20" y="20" width="160" height="120" as="geometry" />
+          <mxGeometry x="757" y="144" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="3" value="lang (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="2" vertex="1">
           <mxGeometry y="20" width="160" height="20" as="geometry" />
@@ -17,25 +17,25 @@
           <mxGeometry y="60" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6" value="parts_of_speech" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
-          <mxGeometry x="220" y="20" width="160" height="80" as="geometry" />
+          <mxGeometry x="1030" y="9" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7" value="name (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="6" vertex="1">
           <mxGeometry y="20" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8" value="genres" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
-          <mxGeometry x="420" y="20" width="160" height="80" as="geometry" />
+          <mxGeometry x="545" y="17" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9" value="name (PK, Unique, Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="8" vertex="1">
           <mxGeometry y="20" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="10" value="latin_declensions" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
-          <mxGeometry x="620" y="20" width="160" height="80" as="geometry" />
+          <mxGeometry x="353" y="12" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="11" value="name (PK, Unique, Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="10" vertex="1">
           <mxGeometry y="20" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="12" value="latin_words_translations_mapping" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-51" y="200" width="231" height="96" as="geometry" />
+          <mxGeometry x="726" y="317" width="231" height="96" as="geometry" />
         </mxCell>
         <mxCell id="13" value="word_id (Unique)" style="text;html=1;strokeColor=none;fillColor=none;" parent="12" vertex="1">
           <mxGeometry y="20" width="160" height="20" as="geometry" />
@@ -113,7 +113,7 @@
           <mxGeometry y="180" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="38" value="latin_translations" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
-          <mxGeometry x="606" y="200" width="174" height="169" as="geometry" />
+          <mxGeometry x="750" y="494" width="174" height="169" as="geometry" />
         </mxCell>
         <mxCell id="39" value="id (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="38" vertex="1">
           <mxGeometry y="20" width="160" height="20" as="geometry" />
@@ -128,13 +128,13 @@
           <mxGeometry y="80" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="43" value="latin_conjugations" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
-          <mxGeometry x="426" y="541" width="160" height="80" as="geometry" />
+          <mxGeometry x="161" y="12" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="44" value="name (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="43" vertex="1">
           <mxGeometry y="20" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="45" value="languages" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="20" width="160" height="80" as="geometry" />
+          <mxGeometry x="804" y="20" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="46" value="name (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="45" vertex="1">
           <mxGeometry y="20" width="160" height="20" as="geometry" />

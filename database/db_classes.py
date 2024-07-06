@@ -1,5 +1,5 @@
 from sqlalchemy import Text
-from sqlalchemy import create_engine, Column, Integer, String, Numeric, ForeignKey, UniqueConstraint
+from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, UniqueConstraint
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
@@ -122,6 +122,20 @@ class LatinConjugations(Base):
 class Language(Base):
     __tablename__ = 'languages'
     name = Column(String, primary_key=True)
+
+
+class TranslationResult(Base):
+    __tablename__ = 'translation_results'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    user = Column(Text, nullable=False)
+    session_id = Column(Integer, nullable=False)
+    lang = Column(Text, nullable=False)
+    word_pl = Column(Text, nullable=False)
+    correct_translation = Column(Text, nullable=False)
+    user_answer = Column(Text, nullable=False)
+    is_correct = Column(Text, nullable=False)
+    time = Column(Text, nullable=False)
 
 
 engine = create_engine('sqlite:///lang_learning.sqlite')
