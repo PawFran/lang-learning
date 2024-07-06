@@ -58,29 +58,12 @@ def insert_or_ignore_latin_verb(entry: DictionaryEntry, session: Session):
         word = Words(lang="latin", word_id=verb_id, part_of_speech="verb")
         insert_or_ignore(session, word)
 
-        # List to store translation IDs and mapping IDs
-        translation_ids = []
-
-        for t in entry.translations:
-            # For each translation, upsert it
-            is_already_present = session.query(LatinTranslations).filter_by(text=t)
-            # print(is_already_present)
-            if is_already_present is None:
-                translation = LatinTranslations(text=t, example=entry.example, associated_case=None)
-                insert_or_ignore(session, translation)
-
-                # Append the translation ID to the list
-                translation_ids.append(session.query(LatinTranslations).filter_by(text=t).first().id)
+        translation_ids = insert_and_get_translation_ids(entry, session)
 
         # Commit changes to the session before retrieving translation IDs
         session.commit()
 
-        # Retrieve translation IDs from the list
-        for translation_id in translation_ids:
-            # For each verb-translation pair, upsert appropriate record into mapping table
-            mapping = LatinWordsTranslationsMapping(word_id=verb_id, translation_id=translation_id,
-                                                    part_of_speech='verb')
-            insert_or_ignore(session, mapping)
+        insert_word_translation_mappings(verb_id, 'verb', session, translation_ids)
 
         session.commit()
 
@@ -105,29 +88,12 @@ def insert_or_ignore_latin_noun(entry: DictionaryEntry, session: Session):
         word = Words(lang="latin", word_id=noun_id, part_of_speech="noun")
         insert_or_ignore(session, word)
 
-        # List to store translation IDs and mapping IDs
-        translation_ids = []
-
-        for t in entry.translations:
-            # For each translation, upsert it
-            is_already_present = session.query(LatinTranslations).filter_by(text=t)
-            # print(is_already_present)
-            if is_already_present is None:
-                translation = LatinTranslations(text=t, example=entry.example, associated_case=None)
-                insert_or_ignore(session, translation)
-
-                # Append the translation ID to the list
-                translation_ids.append(session.query(LatinTranslations).filter_by(text=t).first().id)
+        translation_ids = insert_and_get_translation_ids(entry, session)
 
         # Commit changes to the session before retrieving translation IDs
         session.commit()
 
-        # Retrieve translation IDs from the list
-        for translation_id in translation_ids:
-            # For each verb-translation pair, upsert appropriate record into mapping table
-            mapping = LatinWordsTranslationsMapping(word_id=noun_id, translation_id=translation_id,
-                                                    part_of_speech='noun')
-            insert_or_ignore(session, mapping)
+        insert_word_translation_mappings(noun_id, 'noun', session, translation_ids)
 
         session.commit()
 
@@ -137,3 +103,27 @@ def insert_or_ignore_latin_noun(entry: DictionaryEntry, session: Session):
     except Exception as e:
         session.rollback()
         print(f"Error - {head.base} not migrated because of:", str(e))
+
+
+def insert_word_translation_mappings(word_id, part_of_speech, session, translation_ids):
+    # Retrieve translation IDs from the list
+    for translation_id in translation_ids:
+        # For each verb-translation pair, upsert appropriate record into mapping table
+        mapping = LatinWordsTranslationsMapping(word_id=word_id, translation_id=translation_id,
+                                                part_of_speech=part_of_speech)
+        insert_or_ignore(session, mapping)
+
+
+def insert_and_get_translation_ids(entry, session):
+    translation_ids = []
+    for t in entry.translations:
+        # For each translation, upsert it
+        is_already_present = session.query(LatinTranslations).filter_by(text=t).count() > 0
+        # print(is_already_present)
+        if is_already_present is None:
+            translation = LatinTranslations(text=t, example=entry.example, associated_case=None)
+            insert_or_ignore(session, translation)
+
+            # Append the translation ID to the list
+            translation_ids.append(session.query(LatinTranslations).filter_by(text=t).first().id)
+    return translation_ids
