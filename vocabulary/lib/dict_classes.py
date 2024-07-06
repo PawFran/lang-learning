@@ -140,7 +140,7 @@ class LatinPreposition(AbstractWord):
 
     @staticmethod
     def from_entry_head(head):
-        return LatinAdverb(
+        return LatinPreposition(
             base=head.split(' ')[0],
             head_raw=head
         )

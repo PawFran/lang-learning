@@ -66,6 +66,46 @@ class LatinNouns(Base):
     )
 
 
+class LatinAdverbs(Base):
+    __tablename__ = 'latin_adverbs'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    base = Column(String, nullable=False)
+    base_acc = Column(String, unique=True, nullable=False)
+
+
+class LatinPrepositions(Base):
+    __tablename__ = 'latin_prepositions'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    base = Column(String, nullable=False)
+    base_acc = Column(String, unique=True, nullable=False)
+
+
+class LatinConjunctions(Base):
+    __tablename__ = 'latin_conjunctions'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    base = Column(String, nullable=False)
+    base_acc = Column(String, unique=True, nullable=False)
+
+
+class LatinPronouns(Base):
+    __tablename__ = 'latin_pronouns'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    base = Column(String, nullable=False)
+    base_acc = Column(String, unique=True, nullable=False)
+
+
+class LatinAdjectives(Base):
+    __tablename__ = 'latin_adjectives'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    base = Column(String, nullable=False)
+    base_acc = Column(String, unique=True, nullable=False)
+
+
 class LatinTranslations(Base):
     __tablename__ = 'latin_translations'
     id = Column(Integer, primary_key=True)
