@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net" modified="2024-07-06T08:24:42.034Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" version="24.6.4" etag="mAcm4xD-_p3XCvAOa9nN" type="device">
+  <diagram name="Database Schema" id="0">
+    <mxGraphModel dx="1900" dy="701" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="words" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="lang (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="2" vertex="1">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="word_id (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="2" vertex="1">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="part_of_speech (FK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="2" vertex="1">
+          <mxGeometry y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="parts_of_speech" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="220" y="20" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="name (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="6" vertex="1">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="genres" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="420" y="20" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="name (PK, Unique, Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="8" vertex="1">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="latin_declensions" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="620" y="20" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="name (PK, Unique, Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="10" vertex="1">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="latin_words_translations_mapping" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-51" y="200" width="231" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="word_id (Unique)" style="text;html=1;strokeColor=none;fillColor=none;" parent="12" vertex="1">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="translation_id (Unique)" style="text;html=1;strokeColor=none;fillColor=none;" parent="12" vertex="1">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="part_of_speech (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="12" vertex="1">
+          <mxGeometry y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="latin_verbs" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="220" y="200" width="160" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="id (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="base_word (Unique, Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="base_word_acc (Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+          <mxGeometry y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="infinite (Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+          <mxGeometry y="80" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="infinite_acc (Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+          <mxGeometry y="100" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="perfect (Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+          <mxGeometry y="120" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="perfect_acc (Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+          <mxGeometry y="140" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="supine" style="text;html=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+          <mxGeometry y="160" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="supine_acc" style="text;html=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+          <mxGeometry y="180" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="additional_info (Text)" style="text;html=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+          <mxGeometry y="200" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="conjugation (FK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+          <mxGeometry y="220" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="latin_nouns" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="420" y="200" width="160" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="id (PK, Auto Increment)" style="text;html=1;strokeColor=none;fillColor=none;" parent="28" vertex="1">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="base (Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="28" vertex="1">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="base_acc (Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="28" vertex="1">
+          <mxGeometry y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="gen (Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="28" vertex="1">
+          <mxGeometry y="80" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="gen_acc (Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="28" vertex="1">
+          <mxGeometry y="100" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="declension (FK, Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="28" vertex="1">
+          <mxGeometry y="120" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="genre (FK, Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="28" vertex="1">
+          <mxGeometry y="140" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="only_pl (Not Null)" style="text;html=1;strokeColor=none;fillColor=none;" parent="28" vertex="1">
+          <mxGeometry y="160" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="Unique(base, gen)" style="text;html=1;strokeColor=none;fillColor=none;" parent="28" vertex="1">
+          <mxGeometry y="180" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="latin_translations" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="606" y="200" width="174" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="id (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="38" vertex="1">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="text (Text, Not Null, Unique)" style="text;html=1;strokeColor=none;fillColor=none;" parent="38" vertex="1">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="example (Text)" style="text;html=1;strokeColor=none;fillColor=none;" parent="38" vertex="1">
+          <mxGeometry y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="associated_case (Text)" style="text;html=1;strokeColor=none;fillColor=none;" parent="38" vertex="1">
+          <mxGeometry y="80" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="latin_conjugations" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="426" y="541" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="name (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="43" vertex="1">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="languages" style="shape=swimlane;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="20" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="name (PK)" style="text;html=1;strokeColor=none;fillColor=none;" parent="45" vertex="1">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="47" parent="1" source="2" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48" parent="1" source="16" target="43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49" parent="1" source="28" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50" parent="1" source="28" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

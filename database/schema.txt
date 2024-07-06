@@ -1,0 +1,81 @@
+|-----------------|       |---------------------|       |---------------------|
+|     words       |       |  parts_of_speech    |       |       genres        |
+|-----------------|       |---------------------|       |---------------------|
+| lang (PK)       |       | name (PK)           |       | name (PK, Unique,   |
+| word_id (PK)    |       |                     |       | Not Null)           |
+| part_of_speech  |       |                     |       |                     |
+| (FK)            |       |                     |       |                     |
+|-----------------|       |---------------------|       |---------------------|
+
+            |                         |
+            |                         |
+            v                         |
+|----------------------|              |
+| latin_declensions    |              |
+|----------------------|              |
+| name (PK, Unique,    |              |
+| Not Null)            |              |
+|----------------------|              |
+            |                         |
+            |                         |
+            v                         v
+|----------------------|       |----------------------|
+| latin_nouns          |       | latin_words_trans... |
+|----------------------|       |----------------------|
+| id (PK, Auto Increment)|     | word_id (Unique)     |
+| base (Not Null)      |       | translation_id       |
+| base_acc (Not Null)  |       | (Unique)             |
+| gen (Not Null)       |       | part_of_speech (PK)  |
+| gen_acc (Not Null)   |       |----------------------|
+| declension (FK,      |
+| Not Null)            |
+| genre (FK, Not Null) |
+| only_pl (Not Null)   |
+| Unique(base, gen)    |
+|----------------------|
+
+|----------------------|
+| latin_verbs          |
+|----------------------|
+| id (PK)              |
+| base_word (Unique,   |
+| Not Null)            |
+| base_word_acc (Not   |
+| Null)                |
+| infinite (Not Null)  |
+| infinite_acc (Not    |
+| Null)                |
+| perfect (Not Null)   |
+| perfect_acc (Not     |
+| Null)                |
+| supine               |
+| supine_acc           |
+| additional_info (Text)|
+| conjugation (FK)     |
+|----------------------|
+
+            |
+            |
+            v
+|---------------------|
+| latin_conjugations  |
+|---------------------|
+| name (PK)           |
+|---------------------|
+
+|---------------------|
+| latin_translations  |
+|---------------------|
+| id (PK)             |
+| text (Text, Not     |
+| Null, Unique)       |
+| example (Text)      |
+| associated_case     |
+| (Text)              |
+|---------------------|
+
+|---------------------|
+|     languages       |
+|---------------------|
+| name (PK)           |
+|---------------------|
