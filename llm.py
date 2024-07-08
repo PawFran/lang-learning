@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from langchain_openai import ChatOpenAI
 import sys
 

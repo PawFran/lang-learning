@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from vocabulary.lib.parsing_dict import *
 import sys
 from collections import namedtuple
