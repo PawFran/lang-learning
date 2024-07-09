@@ -7,6 +7,8 @@ if __name__ == '__main__':
     if len(sys.argv) == 1:
         raise Exception('must give at least one argument (word to be found)')
 
+    # TODO first try to find if the word is already present
+
     llm = ChatOpenAI()
 
     output_temporary_file_name = 'scraping_out_tmp.txt'

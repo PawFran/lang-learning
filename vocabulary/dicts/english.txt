@@ -585,50 +585,73 @@ lewd [adjective]
 2. (of a person) having strong sexual desires
 
 fulminating [adjective]
-(He did not cease fulminating agains the greater part of the human race)
+(He did not cease fulminating against the greater part of the human race)
 1. expressing strong disapproval or criticism in a forceful and passionate way
 2. exploding or bursting forth in a sudden and violent way
 
 scatological [adjective]
-()
+(This was his most violent and scatological period)
 1. relating to excrement or feces, or to the study of excrement or feces
 2. containing references to excrement or feces, especially in an offensive or humorous way
 
 wallow [verb]
-()
+(His poems show tge obscene visions in which he wallowed)
 1. to roll around or lie in mud, dust, or water, especially for comfort or to keep cool
 2. to experience or show a strong feeling, especially one that is unpleasant
 
 repulsive [adjective]
-()
+(He would invent lewd stories about himself, attributing to himself monstrous and repulsive actions)
 1. causing a feeling of strong dislike or disgust
 2. pushing away or repelling something
 
-enticing [adjective]
-()
-1. Something that is enticing attracts you to it by offering you advantages or pleasure.
-2. Something that is enticing is so attractive that it makes you want to have it or to become involved with it.
+entice [verb]
+(He delighted in enticing bitches to his home whom he found wandering without owners in the streets)
+1. to persuade someone to do something by offering them something pleasant or advantageous
+2. to attract someone to a particular place or activity by offering something exciting or interesting
 
 abscess [noun]
-()
+(It was as if the shock he had just received had opened up an abscess that had been forming for many months)
 1. a painful, swollen area on the body that contains pus and is caused by an infection
 
 strain [noun]
-()
+(He had been living under acute nervous strain)
 1. a force or influence that stretches, pulls, or puts pressure on something, sometimes causing damage
-2. a particular type or quality of something that can be different from other types of the same thing
+
+abject [adjective]
+(He had lived in the most abject poverty)
+1. extremely bad or severe
+2. having no pride or respect for yourself
+
+searing [adjective]
+(He head encountered the most searing experience of his life)
+1. extremely hot or intense
+2. causing great pain or distress
+
+inherent [adjective]
+(The inherent conditions of life seemed to him insufferable and he hit out against them)
+1. existing as a natural or basic part of something
+2. existing as a permanent, essential quality or characteristic of someone or something
+
+hit out [phrasal verb]
+(The inherent conditions of life seemed to him insufferable, and he hit out against them)
+1. to criticize someone or something strongly
+2. to try to hit someone or something with a lot of force
 
 henceforth [adverb]
-()
+(His difficulty remained henceforth his inability to accept life as it was)
 1. from this time on; from now on
-2. starting from this point in time and continuing into the future
 
 outrage [noun]
-()
+(Life seemed to him an outrage)
 1. (a feeling of) anger and shock
 2. a shocking, morally unacceptable and usually violent event
 
+midst [noun]
+(Lost in the midsts of all these human beings whom he loathed and despised)
+1. the middle of a group of people or things
+2. the middle of a period of time
+
 loath [adjective]
-()
+(Lost in the midsts of all these human beings whom he loathed and despised)
 1. not wanting or willing to do something
 2. unwilling and therefore slow to do something
