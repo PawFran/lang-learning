@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from vocabulary.lib.parsing_dict import *
 
 if __name__ == "__main__":
