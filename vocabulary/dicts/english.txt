@@ -939,5 +939,22 @@ insipid [adjective]
 2. lacking in qualities that excite, stimulate, or interest; dull
 
 avidity [noun]
-(He devoured thiese book with the same avidity that he had previously devoted to his other studies)
+(He devoured these book with the same avidity that he had previously devoted to his other studies)
 1. the quality of being extremely eager or enthusiastic
+
+glibly [adverb]
+(He talks frequently and glibly about the East as being the center of all wisdom)
+1. in a way that is confident, but is too simple and lacks careful thought
+
+gleam [verb]
+(There is no evidence that he knew more about the East that could have been gleamed from magazine articles)
+1. to produce or reflect a small, bright light
+
+permeate [verb]
+(Some of the substance of occult philosophy has permeated nineteenth-century writers)
+1. to pass into or through every part of something
+2. to spread or flow through something
+
+subside [verb]
+(This subsided but interest was again revived)
+1. to become less strong or loud
