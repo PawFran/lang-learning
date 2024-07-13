@@ -1,24 +1,15 @@
 #!/usr/bin/env python
 
-from langchain_openai import ChatOpenAI
 import sys
 
-if __name__ == '__main__':
-    if len(sys.argv) == 1:
-        raise Exception('must give at least one argument (word to be found)')
+from langchain_openai import ChatOpenAI
 
-    # TODO first try to find if the word is already present
+output_temporary_file_name = 'scraping_out_tmp.txt'
 
-    llm = ChatOpenAI()
 
-    output_temporary_file_name = 'scraping_out_tmp.txt'
-
-    print('\n')
-
-    with (open(output_temporary_file_name, 'a', encoding="utf-8") as f):
-        for input_word in sys.argv[1:]:
-            response = llm.invoke(
-                f'''explain word "{input_word}" using Cambridge Dictionary in the following format:
+def llm_explain_word_dict_format(word, llm, f):
+    response = llm.invoke(
+        f'''explain word "{word}" using Cambridge Dictionary in the following format:
                 word [part of speech]
                 ()
                 1. explanation
@@ -30,7 +21,21 @@ if __name__ == '__main__':
                 1. hurt by being repeatedly hit
                 2. damaged, especially by being used a lot
                 '''
-            ).content + '\n'
+    ).content + '\n'
+    print(response)
+    f.write(response + '\n')
 
-            print(response)
-            f.write(response + '\n')
+
+if __name__ == '__main__':
+    if len(sys.argv) == 1:
+        raise Exception('must give at least one argument (word to be found)')
+
+    # TODO first try to find if the word is already present
+
+    llm = ChatOpenAI()
+
+    # print('\n')
+
+    with (open(output_temporary_file_name, 'a', encoding="utf-8") as f):
+        for input_word in sys.argv[1:]:
+            llm_explain_word_dict_format(input_word, llm, f)
