@@ -7,7 +7,7 @@ from langchain_openai import ChatOpenAI
 output_temporary_file_name = 'scraping_out_tmp.txt'
 
 
-def llm_explain_word_dict_format(word, llm, f):
+def llm_explain_word_dict_format(word, llm, f, sentence=None):
     response = llm.invoke(
         f'''explain word "{word}" using Cambridge Dictionary in the following format:
                 word [part of speech]
@@ -22,8 +22,17 @@ def llm_explain_word_dict_format(word, llm, f):
                 2. damaged, especially by being used a lot
                 '''
     ).content + '\n'
+    if sentence is not None:
+        response = fill_response_with_example(response, sentence)
     print(response)
     f.write(response + '\n')
+
+
+def fill_response_with_example(txt, sentence):
+    split = txt.split('\n')
+    split[1] = f'({sentence})'
+
+    return '\n'.join(split)
 
 
 if __name__ == '__main__':
