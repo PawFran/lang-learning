@@ -1830,3 +1830,16 @@ default_user;51;latin;obudzić, pobudzić;excĭto, excĭtāre, excitāvī, excit
 default_user;51;latin;podobizna, obraz, posąg;sĭmŭlācrum, simulacri ;simulacrum simulacri;True;2024-06-24 19:53:36
 default_user;51;latin;łąka;prātum, prati ;pretum preti;False;2024-06-24 19:53:41
 default_user;51;latin;łąka;prātum, prati ;pratum prati;True;2024-06-24 19:53:45
+default_user;52;latin;hańba;turpĭtūdo, turpitudinis ;;False;2024-09-09 19:26:47
+default_user;52;latin;testować, próbować;tempto, temptāre, temptāvī, temptātum ;;False;2024-09-09 19:26:51
+default_user;52;latin;mała mysz;muscŭlus, musculi ;;False;2024-09-09 19:26:55
+default_user;52;latin;kupiec;mercātŏr, mercatoris ;;False;2024-09-09 19:26:58
+default_user;52;latin;przyjść;advĕnĭo, advĕnīre, adveni, adventum ;venio venire venii ventum;False;2024-09-09 19:27:09
+default_user;52;latin;prezent;dōnum, doni ;;False;2024-09-09 19:27:12
+default_user;52;latin;na zewnątrz;fŏrās ;fotas;False;2024-09-09 19:27:15
+default_user;52;latin;rynek, forum;fŏrum, fori ;forum fori;True;2024-09-09 19:27:23
+default_user;52;latin;żona zarządcy/zarządczyni majątku ziemskiego;vīlĭca, vilicae ;;False;2024-09-09 19:27:27
+default_user;52;latin;do wewnątrz, do środka;introrsus ;intro;False;2024-09-09 19:27:31
+default_user;52;latin;wosk;cēra, cerae ;cera cerae;True;2024-09-09 19:27:38
+default_user;52;latin;wspaniały;magnĭfĭcus, magnifică, magnificum ;;False;2024-09-09 19:27:40
+default_user;52;latin;król;rex, regis ;rex regis;True;2024-09-09 19:27:45

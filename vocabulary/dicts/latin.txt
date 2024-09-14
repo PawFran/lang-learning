@@ -1296,8 +1296,9 @@ condītŏr, conditoris [noun] [m] [III]
 1. założyciel
 
 praesĭdĭum, praesidii [noun] [n] [II]
-()
+(Aedes quasdam, quae extra muros urbis cum parvo praesidium erant)
 1. ochrona
+2. garnizon
 
 lĕo, leonis [noun] [m] [III]
 ()
@@ -1380,7 +1381,7 @@ ornātus, ornata, um [adj]
 1. ozdobiony
 
 situs, sită, situm [adj]
-()
+(Demetrius Rhodus insulam oppidumque pulcherrimum in ea situm obsidebat oppugnabatque)
 1. położony
 
 rĕlĭquus, reliquă, reliquum [adj]
@@ -1519,10 +1520,6 @@ nāvis, navis [noun] [f] [III]
 cĕlĕr, celeris, celere [adj]
 ()
 1. szybki
-
-dēlĕo, dēlēre, delevi, deletum [verb] [II]
-()
-1. niszczyć, usuwać
 
 vasto, vastāre, vastāvī, vastātum [verb] [I]
 ()
@@ -3260,3 +3257,64 @@ mĕmŏrābĭlis, memorabilis, memorabile [adj]
 exstrŭo, exstrŭĕre, exstruxi, exstructum [verb] [III]
 (Artemisia sepulchrum memorabile viro exstruit)
 1. budować, wznosić
+
+obsĭdĕo, obsĭdēre, obsedi, obsessum [verb] [II]
+(De Demetrio Rhodum insulam obsidente)
+1. oblegać, otaczać, blokować
+
+obsĭdĭo, obsidionis [noun] [f] [III]
+(Tum ibi in obsidione aedes quasdam capere et igni delere parabat)
+1. oblężenie, blokada
+
+aedis, aedis [noun] [f] [III]
+(Aedes quasdam, quae extra muros urbis erant)
+1. świątynia
+2. dom, mieszkanie (pl)
+
+quis [pron]
+(Aedes quasdam, quae extra muros urbis erant)
+1. kto, który
+
+extrā [prep]
+(Aedes quasdam, quae extra muros urbis erant)
+1. poza, na zewnątrz
+
+mūrus, muri [noun] [m] [II]
+(Aedes quasdam, quae extra muros urbis erant)
+1. mur
+
+dēlĕo, dēlēre, delevi, deletum [verb] [II]
+(Tum ibi in obsidione aedes quasdam capere et igni delere parabat)
+1. zniszczyć, usunąć
+
+păro, părāre, paravi, paratum [verb] [I]
+(Tum ibi in obsidione aedes quasdam capere et igni delere parabat)
+1. przygotować
+
+Ĭālўsŏs, Ialysi [noun] [f] [II]
+()
+1. Ialysos, syn czwartego Sol, lub jego słynny obraz wykonany przez Protogensa na Rodos, później w Rzymie
+
+ĭmāgo, imaginis [noun] [f] [III]
+(In his aedibus, erat Ialysi imago, Protogenis, pictoris illustris manu facta)
+1. obraz, podobieństwo
+
+pictŏr, pictoris [noun] [m] [III]
+(In his aedibus, erat Ialysi imago, Protogenis, pictoris illustris manu facta)
+1. malarz
+
+illustris, illustris, illustre [adj]
+(In his aedibus, erat Ialysi imago, Protogenis, pictoris illustris manu facta)
+1. znakomity, wybitny, sławny
+
+factus, factă, factum [adj]
+(In his aedibus, erat Ialysi imago, Protogenis, pictoris illustris manu facta)
+1. wykonany
+
+invĭdĕo, invĭdēre, invidi, invisum [verb] [II]
+(Demetrius eius imaginis pulchritudinem Rhodiis invidebat)
+1. zazdrościć, być zazdrosnym
+
+pulchrĭtūdo, pulchritudinis [noun] [f] [III]
+(Demetrius eius imaginis pulchritudinem Rhodiis invidebat)
+1. piękno, doskonałość
