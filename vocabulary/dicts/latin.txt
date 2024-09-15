@@ -1507,7 +1507,7 @@ admŏnĕo, admŏnēre, admonui, admonitum [verb] [II]
 1. upominać
 
 făcĭlis, facilis, facile [adj]
-()
+(Pleraque dictu quam factu sunt faciliora)
 1. łatwy
 
 brĕvis, brevis, breve [adj]
@@ -3356,3 +3356,31 @@ dēsisto, dēsistĕre, destiti, destitum [verb] [III]
 cīvĭtās, civitatis [noun] [f] [III]
 (Demetrius oppugnatione destitit et non solum imagini sed etiam civitati pepercit)
 1. społeczność, miasto, obywatele
+
+explōro, explōrāre, exploravi, exploratum [verb] [I]
+(Dux milites exploratum misit)
+1. poszukiwać, odkrywać, rozpoznać, zbadać
+
+expugno, expugnāre, expugnavi, expugnatum [verb] [I]
+(Hostis Romae appropinquavit urbem expugnatum)
+1. atakować, szturmować, podbić
+
+initio [adv]
+(Verum consilium initio auditu grave postea iucundum erit)
+1. początkowo, na początku
+
+postĕā [adv]
+(Verum consilium initio auditu grave postea iucundum erit)
+1. później
+
+ōrācŭlum, oraculi [noun] [n] [II]
+(Tarquinius legatos misit Delphos oraculum consultum)
+1. wyrocznia, przepowiednia
+
+consŭlo, consŭlĕre, consului, consultum [verb] [III]
+(Tarquinius legatos misit Delphos oraculum consultum)
+1. konsultować się, radzić się
+
+diffĭcĭlis, difficilis, difficile [adj]
+(Res facilis dictu, difficilis factu)
+1. trudny

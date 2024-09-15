@@ -1,5 +1,8 @@
 roadmap for language learning
 
+zaimki są często odmienne - uwzględnić to w kodzie, w bazie i w słowniku!
+np. plerusque, pleraque, plerumque
+
 losować zdania ze słów często mylonych
 
 tempus znajduje dwa razy ? tempora
