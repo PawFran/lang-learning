@@ -36,7 +36,7 @@ legō, legere, lēgī, lectum [verb] [III]
 
 ubi [adv]
 (Ibi victoria ubi concordia)
-1. gdzie
+1. gdzie, kiedy
 
 ibi [adv]
 (Ibi victoria ubi concordia)
@@ -506,6 +506,7 @@ bellum, belli [noun] [n] [II]
 gĕro, gĕrĕre, gessi, gestum [verb] [III]
 (Antiqui Romani bella gerebant)
 1. nieść, nosić
+2. prowadzić, wykonywać
 
 pŏpŭlus, populi [noun] [m] [II]
 (Romani terras populorum finitimorum invadebant)
@@ -1000,7 +1001,7 @@ vĭr, viri [noun] [m] [II]
 
 ăt [conj]
 ()
-1. a wtedy, na to
+1. ale, jednak
 
 respondĕo, respondēre, respondi, responsum [verb] [II]
 ()
@@ -1052,7 +1053,7 @@ doctus, doctă, doctum [adj]
 
 possum, posse, potuī [verb] [anomalous]
 (Vos quoque Ciceronis orationes et epistulas legere poteris)
-1.móc
+1. móc
 
 impositus, imposită, impositum [adj]
 ()
@@ -1390,7 +1391,7 @@ rĕlĭquus, reliquă, reliquum [adj]
 
 sŭpĕro, sŭpĕrāre, superāvī, superātum [verb] [I]
 ()
-1. przewyższać
+1. przewyższać, pokonać
 
 Īlĭăs, Iliadis [noun] [f] [III]
 ()
@@ -3318,3 +3319,40 @@ invĭdĕo, invĭdēre, invidi, invisum [verb] [II]
 pulchrĭtūdo, pulchritudinis [noun] [f] [III]
 (Demetrius eius imaginis pulchritudinem Rhodiis invidebat)
 1. piękno, doskonałość
+
+Rhŏdĭi, – [noun] [p] [II]
+(Mittunt Rhodii legatos ad Demetrium cum his verbis)
+1. Rodyjczycy, mieszkańcy Rodos
+
+incendĭum, incendii [noun] [n] [II]
+(Cur tu imaginem illam incendio delere desideras ?)
+1. ogień, pożoga, pożar
+
+incŏlŭmis, incolumis, incolume [adj]
+(Imago incolumnis in tua potestate erit)
+1. bez szwanku, bez obrażeń
+
+pŏtestās, potestatis [noun] [f] [III]
+(Imago incolumnis in tua potestate erit)
+1. władza, panowanie, siła
+
+sīn [conj]
+(Sin autem nos vincere non potueris, considerabis: (...))
+1. ale jeśli, jeśli wręcz przeciwnie
+
+consīdĕro, consīdĕrāre, consideravi, consideratum [verb] [I]
+(Sin autem nos vincere non potueris, considerabis: (...))
+1. badać, przyglądać się, sprawdzać
+2. rozważać, kontemplować, oceniać
+
+oppugnātĭo, oppugnationis [noun] [f] [III]
+(Demetrius oppugnatione destitit et non solum imagini sed etiam civitati pepercit)
+1. szturm, napaść, oblężenie
+
+dēsisto, dēsistĕre, destiti, destitum [verb] [III]
+(Demetrius oppugnatione destitit et non solum imagini sed etiam civitati pepercit)
+1. zaprzestać, zrezygnować, odstąpić od
+
+cīvĭtās, civitatis [noun] [f] [III]
+(Demetrius oppugnatione destitit et non solum imagini sed etiam civitati pepercit)
+1. społeczność, miasto, obywatele
