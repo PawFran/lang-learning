@@ -809,7 +809,7 @@ fīnes, fīnium [noun] [m] [III] [pl]
 
 prŏhĭbĕo, prŏhĭbēre, prohibui, prohibitum [verb] [II]
 ()
-1. powstrzymywać
+1. powstrzymywać, zabraniać
 
 lex, legis [noun] [f] [III]
 ()
@@ -3384,3 +3384,11 @@ consŭlo, consŭlĕre, consului, consultum [verb] [III]
 diffĭcĭlis, difficilis, difficile [adj]
 (Res facilis dictu, difficilis factu)
 1. trudny
+
+ērŭdītus, erudită, eruditum [adj]
+(Venimus ad te, vir eruditissime, oratum: diem festum nobiscum age)
+1. uczony, wykształcony, oczytany
+
+festus, festă, festum [adj]
+(Venimus ad te, vir eruditissime, oratum: diem festum nobiscum age)
+1. świąteczny, radosny
