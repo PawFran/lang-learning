@@ -3,6 +3,8 @@ roadmap for language learning
 zaimki są często odmienne - uwzględnić to w kodzie, w bazie i w słowniku!
 np. plerusque, pleraque, plerumque
 
+complures źle się scrape'uje (adj pl ale też noun pl)
+
 losować zdania ze słów często mylonych
 
 tempus znajduje dwa razy ? tempora

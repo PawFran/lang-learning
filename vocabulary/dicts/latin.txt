@@ -3392,3 +3392,63 @@ diffĭcĭlis, difficilis, difficile [adj]
 festus, festă, festum [adj]
 (Venimus ad te, vir eruditissime, oratum: diem festum nobiscum age)
 1. świąteczny, radosny
+
+spectācŭlum, spectaculi [noun] [n] [II]
+(Aliquando Romae spectaculum venationis populo dabatur)
+1. widok, spektakl, występ publiczny, pokaz
+
+fĕrus, feră, ferum [adj]
+(Multae ferae bestiae apparebant)
+1. dziki
+
+magnĭtūdo, magnitudinis [noun] [f] [III]
+(Leo corporis magnitudine terribilique voce oculos omnium in se convertit)
+1. rozmiar, wielkość, masa
+
+terrĭbĭlis, terribilis, terribile [adj]
+(Leo corporis magnitudine terribilique voce oculos omnium in se convertit)
+1. przerażający, straszny
+
+converto, convertĕre, converti, conversum [verb] [III]
+(Leo corporis magnitudine terribilique voce oculos omnium in se convertit)
+1. odwrócić, zwracać
+
+intrōdūco, intrōdūcĕre, introduxi, introductum [verb] [III]
+(Introductus est inter complures servus viri consularis)
+1. wprowadzać
+
+complūres, complurĭum [noun] [pl] [III]
+(Introductus est inter complures servus viri consularis)
+1. kilka, spora liczba
+
+consŭlāris, consularis, consulare [adj]
+(Introductus est inter complures servus viri consularis)
+1. konsularny
+
+rĕpentĕ [adv]
+(Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans,  accedit)
+1. nagle, niespodziewanie
+
+consisto, consistĕre, constiti [verb] [III]
+(Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans,  accedit)
+1. zatrzymać się, przestać
+
+ăc [conj]
+(Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans,  accedit)
+1. (zwykle przed spółgłoskami) i, a także, a ponadto
+
+sensim [adv]
+(Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans,  accedit)
+1. powoli, stopniowo, ostrożnie
+
+plăcĭdē [adv]
+(Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans,  accedit)
+1. delikatnie, spokojnie, stopniowo
+
+tamquăm [adv]
+(Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans,  accedit)
+1. tak jak, tak jakby
+
+noscĭto, noscĭtāre, noscitavi, noscitatum [verb] [I]
+(Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans,  accedit)
+1. rozpoznać
