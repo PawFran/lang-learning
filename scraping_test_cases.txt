@@ -11,6 +11,7 @@ portus (dwie opcje gen sing), pono (dwie opcje perf i sup)
 malum
 nubila
 secundis secundum secundorum proelio frenis omnes duo singulorum pono cedo vicinis cesserunt medio pax vis arma dissero praesse
+crura
 
 pl tantum nie działają do końca dobrze
 

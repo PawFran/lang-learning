@@ -1,5 +1,7 @@
 roadmap for language learning
 
+dodać do ćwiczeń koniugacji perfecti passivi
+
 zaimki są często odmienne - uwzględnić to w kodzie, w bazie i w słowniku!
 np. plerusque, pleraque, plerumque
 
