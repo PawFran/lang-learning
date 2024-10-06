@@ -1362,8 +1362,8 @@ sērus, seră, serum [adj]
 1. późny
 
 impĕrĭum, imperii [noun] [n] [II]
-()
-1. państwo, imperium
+(Dominus meus provinciam Africam proconsulari imperio obtinebat)
+1. państwo, imperium, władza
 
 rex, regis [noun] [m] [III]
 ()
@@ -1632,7 +1632,7 @@ insŭla, insulae [noun] [f] [I]
 1. wyspa
 
 mīrus, miră, mirum [adj]
-()
+(Tum Androclus rem miram narravit)
 1. dziwny, nadzwyczajny
 
 captus, capta, captum [adj]
@@ -3488,3 +3488,34 @@ paulātim [adv]
 verto, vertĕre, verti, versum [verb] [III]
 (Androclus inter illa blandimenta ferocis bestiae amissum animum recuperat paulatimque oculos ad leonem vertit)
 1. obrócić się, odwrócić się
+
+tam [adv]
+(Ea re tam admirabili clamores populi excitati sunt)
+1. tak, tak dalece, tak bardzo, do tego stopnia
+
+admīrābĭlis, admirabilis, admirabile [adj]
+(Ea re tam admirabili clamores populi excitati sunt)
+1. godny podziwu, wspaniały
+2. dziwny, zadziwiający, niezwykły
+3. paradoksalny, sprzeczny
+
+clāmŏr, clamoris [noun] [m] [III]
+(Ea re tam admirabili clamores populi excitati sunt)
+1. krzyk, zgiełk, hałas
+
+excĭto, excĭtāre, excitavi, excitatum [verb] [I]
+(Ea re tam admirabili clamores populi excitati sunt)
+1. obudzić, pobudzić, powodować
+
+ătrox, ătrox, ătrox [adj]
+(Cur ille atrocissimus tibi perpercit ?)
+1. okrutny, dziki, straszny
+
+prōconsŭlāris, proconsularis, proconsulare [adj]
+(Dominus meus provinciam Africam proconsulari imperio obtinebat)
+1. prokonsularny
+
+obtĭnĕo, obtĭnēre, obtinui, obtentum [verb] [II]
+(Dominus meus provinciam Africam proconsulari imperio obtinebat)
+1. utrzymywać, zachowywać
+2. mieć, dzierżyć, sprawować
