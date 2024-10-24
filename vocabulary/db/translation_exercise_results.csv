@@ -1843,3 +1843,10 @@ default_user;52;latin;do wewnątrz, do środka;introrsus ;intro;False;2024-09-09
 default_user;52;latin;wosk;cēra, cerae ;cera cerae;True;2024-09-09 19:27:38
 default_user;52;latin;wspaniały;magnĭfĭcus, magnifică, magnificum ;;False;2024-09-09 19:27:40
 default_user;52;latin;król;rex, regis ;rex regis;True;2024-09-09 19:27:45
+default_user;53;latin;kogut;gallus, galli ;gallus gallus;False;2024-10-24 20:32:06
+default_user;53;latin;jeden;ūnus, ūna, ūnum ;unus una unum;True;2024-10-24 20:32:11
+default_user;53;latin;zasłużenie, słusznie;mĕrĭtō ;;False;2024-10-24 20:32:14
+default_user;53;latin;kobieta, żona, kochanka;mŭlĭĕr, mulieris ;;False;2024-10-24 20:32:24
+default_user;53;latin;dzisiaj, teraz;hŏdĭē ;;False;2024-10-24 20:32:27
+default_user;53;latin;więc, w związku z tym;ĭtă ;;False;2024-10-24 20:32:30
+default_user;53;latin;ząb;dens, dentis ;dens dentis;True;2024-10-24 20:32:35
