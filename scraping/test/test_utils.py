@@ -8,9 +8,14 @@ from scraping.lib.utils import is_present
 
 
 def prepare_bs(file_name: str) -> BeautifulSoup:
-    path = os.path.join('resources', file_name)
-    with open(path, encoding='utf-8') as f:
-        bs = BeautifulSoup(f.read())
+    path = os.path.join('resources', file_name) # path to be run within test dir
+    try:
+        with open(path, encoding='utf-8') as f:
+            bs = BeautifulSoup(f.read())
+    except FileNotFoundError:
+        path = os.path.join('scraping', 'test', 'resources', file_name)
+        with open(path, encoding='utf-8') as f:
+            bs = BeautifulSoup(f.read())
 
     return bs
 
