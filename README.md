@@ -21,10 +21,10 @@ A collection of modules for language learning. See individual module READMEs for
 This tool displays random words with translations for vocabulary practice. It’s read-only and does not require user input.
 
 ### Usage
-\`\`\`bash
+```bash
 python random_word.py -h           # Help
 python random_word.py -l LANGUAGE  # Choose language (english or latin - required)
-\`\`\`
+```
 
 #### Additional Flags
 - **-r / --remove**: Option to hide words after they appear (for the current session).
@@ -40,9 +40,9 @@ python random_word.py -l LANGUAGE  # Choose language (english or latin - require
 A guessing game that displays a Polish word and asks for the translation.
 
 ### Usage
-\`\`\`bash
+```bash
 python translation_exercise.py
-\`\`\`
+```
 
 #### Flags and Options
 - **-k**: Keeps words even after a correct answer.
@@ -62,9 +62,9 @@ With a user profile set up, "smart sampling" gives priority to:
 ## Declension Practice
 
 ### Usage
-\`\`\`bash
+```bash
 python declension_exercise.py -d DECLENSIONS -k (optional)
-\`\`\`
+```
 
 #### Declensions
 Specify declensions as a list:
@@ -78,9 +78,9 @@ Specify declensions as a list:
 ## Conjugation Practice
 
 ### Usage
-\`\`\`bash
+```bash
 python conjugation_exercise.py -c CONJUGATIONS -m MOODS -v VOICES -t TENSES -k
-\`\`\`
+```
 
 #### Options
 Separate multiple conjugations, moods, voices, or tenses by spaces.
@@ -92,9 +92,9 @@ Separate multiple conjugations, moods, voices, or tenses by spaces.
 Scrape Latin dictionary entries for specified words.
 
 ### Usage
-\`\`\`bash
+```bash
 python scrape_latin_dict.py [list of words separated by spaces]
-\`\`\`
+```
 
 ---
 
@@ -103,9 +103,9 @@ python scrape_latin_dict.py [list of words separated by spaces]
 Looks for specified words in the database; if not found, it initiates a scrape.
 
 ### Usage
-\`\`\`bash
+```bash
 python find_or_scrape.py [list of words to be found]
-\`\`\`
+```
 
 - **Output**: Found words are printed under the "found" hashtag; others are scraped.
 
