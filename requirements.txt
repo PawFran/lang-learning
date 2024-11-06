@@ -115,3 +115,4 @@ yellowbrick==1.5
 zipp==3.17.0
 langchain-openai~=0.2.3
 SpeechRecognition~=3.11.0
+Flask-Cors~=5.0.0
