@@ -1850,3 +1850,5 @@ default_user;53;latin;kobieta, żona, kochanka;mŭlĭĕr, mulieris ;;False;2024-
 default_user;53;latin;dzisiaj, teraz;hŏdĭē ;;False;2024-10-24 20:32:27
 default_user;53;latin;więc, w związku z tym;ĭtă ;;False;2024-10-24 20:32:30
 default_user;53;latin;ząb;dens, dentis ;dens dentis;True;2024-10-24 20:32:35
+default_user;54;latin;dziwny, zadziwiający, niezwykły;admīrābĭlis, admirabilis, admirabile ;admirabilis admirabilis admirabile;True;2024-10-31 22:52:48
+default_user;54;latin;urodzony;nātus, nată, natum ;;False;2024-10-31 22:52:51
