@@ -48,6 +48,6 @@ def find_or_scrape(args):
 
 if __name__ == '__main__':
     Args = namedtuple('Args', ['language', 'start_word', 'end_word'])
-    args = Args('latin', None, None)
+    scrape_args = Args('latin', None, None)
 
-    find_or_scrape(args)
+    find_or_scrape(scrape_args)
