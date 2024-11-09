@@ -300,7 +300,7 @@ function startScraping() {
     var output = document.getElementById('scrapeOutput')
 
     document.getElementById('startScrape').disabled = true
-    document.getElementById('interruptScrape').disabled = false
+//    document.getElementById('interruptScrape').disabled = false
 
     body = JSON.stringify({ words: words })
     console.log('scrape body: ', body)
@@ -317,12 +317,12 @@ function startScraping() {
     .then(data => {
         output.value = data.response + "\n"
         output.scrollTop = output.scrollHeight // Scroll to the bottom
+        document.getElementById('startScrape').disabled = false
+//        document.getElementById('interruptScrape').disabled = true
     })
     .catch(error => {
         console.error('Error:', error);
         output.textContent += "Failed to process command.\n"
     });
 
-    document.getElementById('startScrape').disabled = false
-    document.getElementById('interruptScrape').disabled = true
 }
