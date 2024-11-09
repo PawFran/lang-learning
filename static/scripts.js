@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function startTranslationSession() {
-    var startWord = document.getElementById('startWord');
-    var endWord = document.getElementById('endWord');
+    var startWord = document.getElementById('startWord').value;
+    var endWord = document.getElementById('endWord').value;
 
     var output = document.getElementById('consoleOutputTranslation');
 
@@ -27,9 +27,6 @@ function startTranslationSession() {
     document.getElementById('finishTranslation').disabled = false;
     document.getElementById('consoleInputTranslation').disabled = false;
     document.getElementById('consoleInputTranslation').focus()
-
-    // Display the command in the console output
-    output.textContent += "> Starting session with Start word: " + startWord.value + " and End word: " + endWord.value + "\n";
 
     // Send the data to the Flask server
     fetch('/start_translation_session', {
