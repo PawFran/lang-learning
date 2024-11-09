@@ -4,9 +4,14 @@ from vocabulary.lib.dict_classes import *
 output_temporary_file_name = 'scraping_out_tmp.txt'
 
 
-def print_and_write(f, text):
+def print_and_return(text, end='\n'):
     print(text)
+    return text + end
+
+
+def print_and_write(f, text):
     f.write(text + '\n')
+    return print_and_return(text)
 
 
 def is_present(pattern, text) -> bool:
@@ -140,19 +145,24 @@ def parse_dict_entry(flexion_soup, summary_and_translations) -> DictionaryEntry:
 
 
 def print_and_write_to_file(f, dict_entry: DictionaryEntry):
-    print_and_write(f, dict_entry.head.head_raw)
-    print_and_write(f, '()')
+    accumulator = ''
+    accumulator += print_and_write(f, dict_entry.head.head_raw)
+    accumulator += print_and_write(f, '()')
 
     translations = dict_entry.translations
     for t, i in zip(translations, range(len(translations))):
-        print_and_write(f, f'{i + 1}. {t}')
+        accumulator += print_and_write(f, f'{i + 1}. {t}')
 
-    print_and_write(f, '')
+    accumulator += print_and_write(f, '')
+
+    return accumulator
 
 
 def print_scraping_results(f, results):
+    accumulator = ''
     for scrape_result in results:
-        print_and_write_to_file(f, scrape_result)
+        accumulator += print_and_write_to_file(f, scrape_result)
+    return accumulator
 
 
 # this method is meant to be used from find_or_scrape_latin.py

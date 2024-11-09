@@ -3,16 +3,19 @@
 from vocabulary.lib.parsing_dict import *
 import sys
 from collections import namedtuple
-from scraping.lib.utils import get_scraped_data, print_scraping_results, output_temporary_file_name
+from scraping.lib.utils import get_scraped_data, print_scraping_results, output_temporary_file_name, print_and_return
 
-def find_or_scrape(args):
+def find_or_scrape(words: list[str]) -> str:
+    Args = namedtuple('Args', ['language', 'start_word', 'end_word'])
+    args = Args('latin', None, None)
+
     dictionary: Dictionary = parse_dictionary(args)
 
     entries_found: list[DictionaryEntry] = []
     words_initially_not_found: list[str] = []
     entries_finally_not_found: [DictionaryEntry] = []
 
-    for input_word in sys.argv[1:]:
+    for input_word in words:
         query_result = dictionary.find_by_word_using_weak_compare(input_word)
         if len(query_result) > 0:
             entries_found += query_result
@@ -31,23 +34,25 @@ def find_or_scrape(args):
             else:
                 entries_finally_not_found.append(entry)
 
+    output_placeholder = ''
+
     if len(entries_found) > 0:
-        print('### found ###\n')
+        output_placeholder += print_and_return('### found ###\n')
         for entry in entries_found:
-            print(entry.head.head_raw)
-            print(f'({entry.example})')
+            output_placeholder += print_and_return(entry.head.head_raw)
+            output_placeholder += print_and_return(f'({entry.example})')
             for i in range(len(entry.translations)):
-                print(f'{i + 1}. {entry.translations[i]}')
-            print('')
+                output_placeholder += print_and_return(f'{i + 1}. {entry.translations[i]}')
+            output_placeholder += print_and_return('')
 
     if len(entries_finally_not_found) > 0:
-        print('### scraped ###\n')
+        output_placeholder += print_and_return('### scraped ###\n')
         with (open(output_temporary_file_name, 'a', encoding="utf-8") as f):
-            print_scraping_results(f, entries_finally_not_found)
+            output_placeholder += print_scraping_results(f, entries_finally_not_found)
+
+    return output_placeholder
 
 
 if __name__ == '__main__':
-    Args = namedtuple('Args', ['language', 'start_word', 'end_word'])
-    scrape_args = Args('latin', None, None)
-
-    find_or_scrape(scrape_args)
+    words = sys.argv[1:]
+    find_or_scrape(words)

@@ -302,12 +302,15 @@ function startScraping() {
     document.getElementById('startScrape').disabled = true
     document.getElementById('interruptScrape').disabled = false
 
+    body = JSON.stringify({ words: words })
+    console.log('scrape body: ', body)
+
     fetch('/scrape', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ words: words })
+        body: body
 
     })
     .then(response => response.json())

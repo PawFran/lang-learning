@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 
+from find_or_scrape_latin import find_or_scrape
+
 app = Flask(__name__)
 CORS(app)
 
@@ -91,8 +93,10 @@ def check_conjugation_answer():
 def scrape():
     data = request.get_json()
     words = data['words']
-    response_text = f"Following words will be scraped: {words}"
-    print(response_text)
+    input_words = [w.lower() for w in words.split(' ')]
+    info = f"Following words will be scraped: {input_words} ..."
+    response_text = find_or_scrape(input_words)
+    # print(response_text)
     return jsonify({'response': response_text})
 
 
