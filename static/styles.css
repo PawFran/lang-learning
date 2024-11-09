@@ -225,6 +225,6 @@ button:disabled {
 }
 
 #Scraping textarea {
-    height: 300px; /* Adjust height as necessary */
+    height: 600px; /* Adjust height as necessary */
     resize: none; /* Disable resizing */
 }

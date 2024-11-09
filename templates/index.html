@@ -117,7 +117,7 @@
         <div class="flex-container">
             <div class="control-panel">
                 <label for="wordsInput">Words:</label>
-                <input type="text" id="wordsInput" placeholder="Enter words to scrape">
+                <input type="text" id="wordsInput" placeholder="Enter words to scrape" onkeydown="if (event.key === 'Enter') document.getElementById('startScrape').click();">
                 <button id="startScrape" onclick="startScraping()">Start</button>
             </div>
             <div class="output-panel">
