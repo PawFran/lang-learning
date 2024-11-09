@@ -94,9 +94,7 @@ def scrape():
     data = request.get_json()
     words = data['words']
     input_words = [w.lower() for w in words.split(' ')]
-    info = f"Following words will be scraped: {input_words} ..."
     response_text = find_or_scrape(input_words)
-    # print(response_text)
     return jsonify({'response': response_text})
 
 
