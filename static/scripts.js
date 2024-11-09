@@ -299,11 +299,12 @@ function startScraping() {
     var words = document.getElementById('wordsInput').value
     var output = document.getElementById('scrapeOutput')
 
-    document.getElementById('startScrape').disabled = true
-//    document.getElementById('interruptScrape').disabled = false
+    // Make the textarea read-only during the scraping process
+    output.readOnly = true
+    document.getElementById('startScrape').disabled = true;
 
-    body = JSON.stringify({ words: words })
-    console.log('scrape body: ', body)
+    body = JSON.stringify({ words: words });
+    console.log('scrape body: ', body);
 
     fetch('/scrape', {
         method: 'POST',
@@ -311,18 +312,20 @@ function startScraping() {
             'Content-Type': 'application/json',
         },
         body: body
-
     })
     .then(response => response.json())
     .then(data => {
-        output.value = data.response + "\n"
-        output.scrollTop = output.scrollHeight // Scroll to the bottom
-        document.getElementById('startScrape').disabled = false
-//        document.getElementById('interruptScrape').disabled = true
+        // Display the results and make the textarea editable
+        output.value = data.response + "\n";
+        output.readOnly = false;
+        output.scrollTop = output.scrollHeight; // Scroll to the bottom
+
+        // Re-enable the "Start" button
+        document.getElementById('startScrape').disabled = false;
     })
     .catch(error => {
         console.error('Error:', error);
-        output.textContent += "Failed to process command.\n"
+        output.textContent += "Failed to process command.\n";
+        output.readOnly = false; // Make the textarea editable even if there is an error
     });
-
 }
