@@ -5,10 +5,7 @@ import sys
 from collections import namedtuple
 from scraping.lib.utils import get_scraped_data, print_scraping_results, output_temporary_file_name
 
-if __name__ == '__main__':
-    Args = namedtuple('Args', ['language', 'start_word', 'end_word'])
-    args = Args('latin', None, None)
-
+def find_or_scrape(args):
     dictionary: Dictionary = parse_dictionary(args)
 
     entries_found: list[DictionaryEntry] = []
@@ -47,3 +44,10 @@ if __name__ == '__main__':
         print('### scraped ###\n')
         with (open(output_temporary_file_name, 'a', encoding="utf-8") as f):
             print_scraping_results(f, entries_finally_not_found)
+
+
+if __name__ == '__main__':
+    Args = namedtuple('Args', ['language', 'start_word', 'end_word'])
+    args = Args('latin', None, None)
+
+    find_or_scrape(args)
