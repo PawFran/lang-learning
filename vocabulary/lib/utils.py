@@ -1,7 +1,10 @@
 import re
+import os
 from common.lib.utils import weak_equals
 from vocabulary.lib.dict_classes import LatinVerb, LatinAdjective
 from conjugation.lib.conjugation_classes import ConjugationType
+
+DICT_DIR_PATH = os.path.join('vocabulary', 'dicts')
 
 
 # TODO test

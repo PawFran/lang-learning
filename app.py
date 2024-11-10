@@ -1,7 +1,10 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 
-from find_or_scrape_latin import find_or_scrape
+from find_or_scrape_latin import find_or_scrape, SCRAPED_HEADER
+
+from vocabulary.lib.parsing_dict import parse_latin_dict
+from vocabulary.lib.utils import DICT_DIR_PATH
 
 app = Flask(__name__)
 CORS(app)
@@ -95,6 +98,21 @@ def scrape():
     words = data['words']
     input_words = [w.lower() for w in words.split(' ')]
     response_text = find_or_scrape(input_words)
+    return jsonify({'response': response_text})
+
+
+@app.route('/dictionary', methods=['POST'])
+def add_to_dict():
+    data = request.get_json()
+    raw_lines = data['data']
+    lines = [l + '\n' for l in raw_lines.split('\n') if l != '\n'] # to quickly reuse parsing function for files newline character must be preserved
+    start_from = lines.index(SCRAPED_HEADER) + 1 if SCRAPED_HEADER in lines else 0
+    lines_to_be_parsed = lines[start_from:]
+
+    dict_to_be_added = parse_latin_dict(lines_to_be_parsed)
+    result = dict_to_be_added.save_to_file(DICT_DIR_PATH)
+
+    response_text = f'added to text dict:\n{result}'
     return jsonify({'response': response_text})
 
 

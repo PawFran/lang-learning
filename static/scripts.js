@@ -14,7 +14,8 @@ function openTab(evt, tabName) {
 
 // Add to handle default open tab or open specific tab on load
 document.addEventListener("DOMContentLoaded", function() {
-    document.querySelector('.tablink').click(); // Clicks the first tablink to open
+//    document.querySelector('.tablink').click(); // Clicks the first tablink to open
+    document.querySelector('button[onclick="openTab(event, \'Scraping\')"]').click(); // Selects the Scraping tab by default
 });
 
 function startTranslationSession() {
@@ -301,7 +302,9 @@ function startScraping() {
 
     // Make the textarea read-only during the scraping process
     output.readOnly = true
+    output.placeholder = "Results will appear here..."
     document.getElementById('startScrape').disabled = true;
+    document.getElementById('addToDictionary').disabled = true;
 
     body = JSON.stringify({ words: words });
     console.log('scrape body: ', body);
@@ -317,15 +320,38 @@ function startScraping() {
     .then(data => {
         // Display the results and make the textarea editable
         output.value = data.response + "\n";
-        output.readOnly = false;
         output.scrollTop = output.scrollHeight; // Scroll to the bottom
 
-        // Re-enable the "Start" button
+        // Re-enable the "Start" button, "Add output to dictionary" button and possibility to edit results
         document.getElementById('startScrape').disabled = false;
+        document.getElementById('addToDictionary').disabled = false;
+        output.readOnly = false;
     })
     .catch(error => {
         console.error('Error:', error);
         output.textContent += "Failed to process command.\n";
         output.readOnly = false; // Make the textarea editable even if there is an error
+    });
+}
+
+function addToDictionary() {
+    var output = document.getElementById('scrapeOutput').value;
+
+    // Send the output data to the /dictionary endpoint
+    fetch('/dictionary', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ data: output })
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Dictionary update response:', data);
+        output.textContent += "\n\n ### Output added to dictionary successfully. ### \n"
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert("Failed to add output to dictionary.");
     });
 }

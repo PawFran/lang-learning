@@ -2,7 +2,7 @@ import re
 
 from vocabulary.lib.dict_classes import *
 from vocabulary.lib.parsing_args import *
-
+from vocabulary.lib.utils import DICT_DIR_PATH
 
 def read_file_raw(path):
     with open(path, encoding="utf8") as f:
@@ -10,7 +10,7 @@ def read_file_raw(path):
     return lines_raw
 
 
-def group_raw_lines(raw_lines):
+def group_raw_lines(raw_lines: list[str]):
     groups = []
     single_group = []
     for line in raw_lines:
@@ -21,7 +21,9 @@ def group_raw_lines(raw_lines):
             single_group = []
     if len(single_group) > 0:  # if there's no '\n' at the end last append must be forced
         groups.append(single_group)
-    return groups
+
+    non_empty_groups = [g for g in groups if len(g) > 0]
+    return non_empty_groups
 
 
 def parse_example(example_raw):
@@ -76,7 +78,7 @@ def parse_english_dict_entry(single_group_of_lines):
     return DictionaryEntry(dict_entry_head, example, translations)
 
 
-def dict_subset(dictionary, start_word=None, end_word=None):
+def dict_subset(dictionary, start_word=None, end_word=None) -> Dictionary:
     start_index = dictionary.weak_index(start_word) if start_word is not None else 0
     end_index = dictionary.weak_index(end_word) if end_word is not None else dictionary.length() - 1
 
@@ -95,7 +97,7 @@ def dict_subset(dictionary, start_word=None, end_word=None):
     return Dictionary(entries_subset, dictionary.lang)
 
 
-def parse_dict(raw_lines, parser_for_dict_entry, lang: str, start_word=None, end_word=None):
+def parse_dict(raw_lines: list[str], parser_for_dict_entry, lang: str, start_word=None, end_word=None) -> Dictionary:
     raw_lines_grouped = group_raw_lines(raw_lines)
 
     dictionary = Dictionary(entries=list(), lang=lang)
@@ -106,21 +108,21 @@ def parse_dict(raw_lines, parser_for_dict_entry, lang: str, start_word=None, end
     return dict_subset(dictionary, start_word, end_word)
 
 
-def parse_latin_dict(raw_lines, start_word=None, end_word=None):
+def parse_latin_dict(raw_lines: list[str], start_word=None, end_word=None) -> Dictionary:
     return parse_dict(raw_lines, parse_latin_dict_entry, lang='latin', start_word=start_word, end_word=end_word)
 
 
-def parse_english_dict(raw_lines, start_word=None, end_word=None):
+def parse_english_dict(raw_lines: list[str], start_word=None, end_word=None) -> Dictionary:
     return parse_dict(raw_lines, parse_english_dict_entry, lang='english', start_word=start_word, end_word=end_word)
 
 
 # full dict parsing from top-level script
-def parse_dictionary(args, dictionary_folder=None):
-    dicts_folder = dictionary_folder if dictionary_folder is not None else os.path.join('vocabulary', 'dicts')
+def parse_dictionary(args, dictionary_folder=None) -> Dictionary:
+    dicts_folder = dictionary_folder if dictionary_folder is not None else DICT_DIR_PATH
 
     dict_path = parse_dict_path(args.language, dicts_folder)
 
-    raw_lines = read_file_raw(dict_path)
+    raw_lines: list[str] = read_file_raw(dict_path)
     dictionary = parse_english_dict(raw_lines, args.start_word, args.end_word) \
         if args.language == 'english' \
         else parse_latin_dict(raw_lines, args.start_word, args.end_word)

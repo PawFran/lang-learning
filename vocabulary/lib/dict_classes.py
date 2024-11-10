@@ -7,6 +7,7 @@ from common.lib.utils import flatten
 from common.lib.utils import weak_equals
 from vocabulary.lib.db import *
 import re
+import os
 from conjugation.lib.conjugation_classes import ConjugationType
 
 
@@ -242,6 +243,25 @@ class Dictionary:
 
     def append(self, dict_entry):
         self.entries.append(dict_entry)
+
+    # append
+    def save_to_file(self, dicts_dir_path) -> str:
+        final_str_accumulator = '\n'
+        for entry in self.entries:
+            header = entry.head.head_raw
+            example = f'({entry.example})'
+            zipped = zip(range(0, len(entry.translations)), entry.translations)
+            translations = [f'{i+1}. {t}' for (i, t) in zipped]
+            entry_str = '\n'.join([header] + [example] + translations) + '\n' + '\n'
+            final_str_accumulator += entry_str
+
+        final_str_accumulator = final_str_accumulator.rstrip('\n') + '\n' # make sure exactly one newline will be at the end
+
+        full_path = os.path.join(dicts_dir_path, self.lang + '.txt')
+        with open(full_path, mode='a', encoding="utf8") as f:
+            f.write(final_str_accumulator)
+
+        return final_str_accumulator
 
     def remove_entry(self, dict_entry):
         self.entries.remove(dict_entry)

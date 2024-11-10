@@ -5,6 +5,9 @@ import sys
 from collections import namedtuple
 from scraping.lib.utils import get_scraped_data, print_scraping_results, output_temporary_file_name, print_and_return
 
+FOUND_HEADER = '### found ###\n'
+SCRAPED_HEADER = '### scraped ###\n'
+
 def find_or_scrape(words: list[str]) -> str:
     Args = namedtuple('Args', ['language', 'start_word', 'end_word'])
     args = Args('latin', None, None)
@@ -37,7 +40,7 @@ def find_or_scrape(words: list[str]) -> str:
     output_placeholder = ''
 
     if len(entries_found) > 0:
-        output_placeholder += print_and_return('### found ###\n')
+        output_placeholder += print_and_return(FOUND_HEADER)
         for entry in entries_found:
             output_placeholder += print_and_return(entry.head.head_raw)
             output_placeholder += print_and_return(f'({entry.example})')
@@ -46,7 +49,7 @@ def find_or_scrape(words: list[str]) -> str:
             output_placeholder += print_and_return('')
 
     if len(entries_finally_not_found) > 0:
-        output_placeholder += print_and_return('### scraped ###\n')
+        output_placeholder += print_and_return(SCRAPED_HEADER)
         with (open(output_temporary_file_name, 'a', encoding="utf-8") as f):
             output_placeholder += print_scraping_results(f, entries_finally_not_found)
 
