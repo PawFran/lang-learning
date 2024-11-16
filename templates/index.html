@@ -17,6 +17,7 @@
         <button class="tablink" onclick="openTab(event, 'Declension')">Declension</button>
         <button class="tablink" onclick="openTab(event, 'Conjugation')">Conjugation</button>
         <button class="tablink" onclick="openTab(event, 'Scraping')">Scraping</button>
+        <button class="tablink" onclick="openTab(event, 'Rules')">Rules</button>
     </div>
 
     <div id="Translation" class="tabcontent">
@@ -114,19 +115,161 @@
     </div>
 
     <div id="Scraping" class="tabcontent">
-    <div class="flex-container">
-        <div class="control-panel">
-            <label for="wordsInput">Words:</label>
-            <input type="text" id="wordsInput" placeholder="Enter words to scrape" onkeydown="if (event.key === 'Enter') document.getElementById('startScrape').click();">
-            <button id="startScrape" onclick="startScraping()">Start</button>
-            <button id="addToDictionary" onclick="addToDictionary()" disabled>Add output to dictionary</button>
-        </div>
-        <div class="output-panel">
-            <label for="scrapeOutput">Results:</label>
-            <textarea id="scrapeOutput" placeholder="Results will appear here..." readonly></textarea>
+        <div class="flex-container">
+            <div class="control-panel">
+                <label for="wordsInput">Words:</label>
+                <input type="text" id="wordsInput" placeholder="Enter words to scrape" onkeydown="if (event.key === 'Enter') document.getElementById('startScrape').click();">
+                <button id="startScrape" onclick="startScraping()">Start</button>
+                <button id="addToDictionary" onclick="addToDictionary()" disabled>Add output to dictionary</button>
+            </div>
+            <div class="output-panel">
+                <label for="scrapeOutput">Results:</label>
+                <textarea id="scrapeOutput" placeholder="Results will appear here..." readonly></textarea>
+            </div>
         </div>
     </div>
-</div>
+
+    <div id="Rules" class="tabcontent">
+        <h2>Notes</h2>
+
+        <h3>Koniugacje</h3>
+        <ul>
+            <li>I-IV + esse</li>
+            <li>Indicativus:
+                <ul>
+                    <li>praesens, imperfectum, futurum I, perfectum, plusquamperfectum, futurum II</li>
+                </ul>
+            </li>
+            <li>act + strona bierna</li>
+            <li>Imperativus:
+                <ul>
+                    <li>praes act, praes pass</li>
+                </ul>
+            </li>
+            <li>Infinitivus:
+                <ul>
+                    <li>praes act, praes pass</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Deklinacje</h3>
+        <ul>
+            <li>I-V</li>
+        </ul>
+
+        <h3>Zaimki</h3>
+        <ul>
+            <li>osobowe</li>
+            <li>dzierżawcze</li>
+        </ul>
+
+        <h3>Koniugacje w skrócie</h3>
+        <ul>
+            <li>ind praes act</li>
+            <ul>
+                <li>I - temat ā</li>
+                <li>II - temat ē</li>
+                <li>III - temat spółgłoskowy, spójka ĭ (u w 3 os. lm.)</li>
+                <li>IIIb ma i w 1 os. lp i 3 lm. (odmienia się jak IV, ale i jest krótkie)</li>
+                <li>IV - temat ī</li>
+            </ul>
+            <li>ind imperf act</li>
+            <ul>
+                <li>końcówka -am w 1 os. lp. wszystkich koniugacji</li>
+                <li>spójka ē przed 'bā' w III i IV koniugacji</li>
+            </ul>
+            <li>ind fut I act</li>
+            <ul>
+                <li>spojka b i spójki i/u w I i II kon.</li>
+                <li>w III i IV 'am' w 1 os. sing i spójka 'ē' w pozostałych os. (nawet w 3 os. lm. nie ma tam 'u')</li>
+                <li>'b' w II koniugacji jest konieczne żeby odróżnić II kon fut I od III kon praes.</li>
+                <li>I i II kon po dodaniu 'b' odmieniają się jak deklinacje spółgłoskowe (III i IV) w praes.</li>
+                <li>III po dodaniu 'e' odmienia się jak II w praes (nie licząc 1 os. sing).</li>
+                <li>po co 'b' w I kon?</li>
+            </ul>
+            <li>ind praes pass</li>
+            <ul>
+                <li>2 os. lp. spójka i zamienia się na e - poza tym jak act tylko z końcówkami pass</li>
+            </ul>
+            <li>ind imperf pass</li>
+            <ul>
+                <li>jak act tylko z końcówkami pass</li>
+            </ul>
+            <li>ind fut I pass</li>
+            <ul>
+                <li>2 os. lp. spójka i zamienia się na e - poza tym jak act tylko z końcówkami pass</li>
+            </ul>
+        </ul>
+
+        <h3>Deklinacje w skrócie</h3>
+        <ul>
+            <li>III spółgłoskowa</li>
+            <ul>
+                <li>imparisyllaba z tematem kończącym się na spółgłoskę + rodzina z psem</li>
+            </ul>
+            <li>III samogłoskowa</li>
+            <ul>
+                <li>rzecz. końcówka -e -al -ar</li>
+                <li>niektóre przymiotniki (nie pasujące do 1/2 dekl)</li>
+                <li>imiesłowy</li>
+                <li>abl sing końc. -i</li>
+                <li>gen pl -ium, w neut. nom/acc/voc pl -ia</li>
+                <li>przykład odmiany przymiotników <a href="https://dcc.dickinson.edu/grammar/latin/3rd-declension-adjectives-classification-and-paradigms" target="_blank">here</a></li>
+            </ul>
+            <li>III mieszana</li>
+            <ul>
+                <li>parisyllaba z nom sing -is, -es</li>
+                <li>imparisyllaba które przed końcówką gen sing -is mają &ge; 2 spółgłoski np. urbs, urbis, arx, arcis, ars, artis</li>
+                <li>sing jak spółgłoskowa (abl -e)</li>
+                <li>pl jak samogłoskowa (gen -ium)</li>
+            </ul>
+        </ul>
+
+        <h3>Przymiotniki</h3>
+        <ul>
+            <li>gradus positivus III deklinacji - wzór samogłoskowy (jak vectigal)</li>
+            <li>comparativus - zamiana końcówki gen sing na -ior (m/f) lub -ius (n). odmiana III deklinacja spółgłoskowa (jak imperator)</li>
+            <li>superlativus - zamiana końcówki gen sing na -issimus/a/um ew. -rimus/a/um. odmiana I/II deklinacja</li>
+            <li>znaczenie bezwzględne przymiotnika (elativus):
+                <ul>
+                    <li>comparativus: longior (zbyt długi)</li>
+                    <li>superlativus: clarissimus (bardzo sławny)</li>
+                </ul>
+            </li>
+            <li>comparativus + quam (fidior quam canis) lub + abl comparationis (fidior cane)</li>
+            <li>superlativus może być połączony z gen partitivus (najwyższy ze wszystkich - omnis altissimus)</li>
+        </ul>
+
+        <h3>Imiesłów (participium)</h3>
+        <ul>
+            <li>do tematu praes dodaje się -ns (nom), -ntis (gen)</li>
+            <li>odmiana wg III deklinacji mieszanej, chociaż zdarza się, że participium jest w funkcji przymiotnika - wtedy abl. sing -i</li>
+            <li><a href="https://latinaomnibus.pl/index.php?dzial=czesci_mowy&opcja=imieslow" target="_blank">More on participium</a></li>
+        </ul>
+
+        <h3>Części zdania</h3>
+        <ul>
+            <li>podmiot</li>
+            <li>orzeczenie</li>
+            <li>dopełnienie bliższe / dalsze (uzupełnia czasownik)</li>
+            <li>przydawka dopełniaczowa / przymiotna (określa rzeczownik)</li>
+            <li>okolicznik czasu, miejsca, sposobu, przyczyny</li>
+        </ul>
+
+        <h3>Składnia nazw miast</h3>
+        <ul>
+            <li>quo (dokąd)? -> acc</li>
+            <li>unde (skąd)? -> abl</li>
+            <li>ubi (gdzie)?
+                <ul>
+                    <li>I i II dekl. -> gen (locativus)</li>
+                    <li>III i pl tantum -> abl</li>
+                </ul>
+            </li>
+            <li>miast III dekl. parisyllaba z nom. -is mają acc -im, abl -i</li>
+        </ul>
+    </div>
 
 </body>
 </html>
