@@ -1,35 +1,23 @@
 function openTab(evt, tabName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablink");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
+    const tabcontent = document.querySelectorAll(".tabcontent");
+    const tablinks = document.querySelectorAll(".tablink");
+
+    tabcontent.forEach(tc => tc.style.display = "none");
+    tablinks.forEach(tl => tl.className = tl.className.replace(" active", ""));
+
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
 
 function openSubTab(evt, subTabName) {
-    var i, subTabcontent, subTablinks;
+    const subTabcontent = document.querySelectorAll(".sub-tabcontent");
+    const subTablinks = document.querySelectorAll(".sub-tablink");
 
-    // Hide all elements with class="sub-tabcontent" by default
-    subTabcontent = document.getElementsByClassName("sub-tabcontent");
-    for (i = 0; i < subTabcontent.length; i++) {
-        subTabcontent[i].style.display = "none";
-    }
+    subTabcontent.forEach(subTab => subTab.style.display = "none");
+    subTablinks.forEach(subTablink => subTablink.classList.remove("active"));
 
-    // Remove the class "active" from all subTablinks
-    subTablinks = document.getElementsByClassName("sub-tablink");
-    for (i = 0; i < subTablinks.length; i++) {
-        subTablinks[i].className = subTablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current sub-tab and add an "active" class to the button that opened the sub-tab
     document.getElementById(subTabName).style.display = "block";
-    evt.currentTarget.className += " active";
+    evt.currentTarget.classList.add("active");
 }
 
 // Add to handle default open tab or open specific tab on load
