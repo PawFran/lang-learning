@@ -100,13 +100,6 @@ CREATE TABLE IF NOT EXISTS "latin_adjectives" (
 	"base_acc"	TEXT NOT NULL UNIQUE,
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
-CREATE TABLE latin_conjunctions (
-	id INTEGER NOT NULL, 
-	base VARCHAR NOT NULL, 
-	base_acc VARCHAR NOT NULL, 
-	PRIMARY KEY (id), 
-	UNIQUE (base_acc)
-);
 CREATE TABLE IF NOT EXISTS "translation_results" (
 	"id"	INTEGER,
 	"user"	TEXT NOT NULL,
@@ -119,21 +112,26 @@ CREATE TABLE IF NOT EXISTS "translation_results" (
 	"time"	TEXT NOT NULL,
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
+
+-- ### VIEWS ###
 CREATE VIEW nouns_with_translations as
 SELECT base_acc, gen_acc, text, example from latin_nouns n
 	join latin_words_translations_mapping m on n.id = m.word_id
 	join latin_translations t on t.id = m.translation_id
 order by text
 /* nouns_with_translations(base_acc,gen_acc,text,example) */;
+
 CREATE VIEW verbs_with_translations as
 SELECT base_word_acc, infinite_acc, perfect_acc, supine_acc, conjugation, text, example from latin_verbs v
 	join latin_words_translations_mapping m on v.id = m.word_id
 	join latin_translations t on t.id = m.translation_id
 order by text
 /* verbs_with_translations(base_word_acc,infinite_acc,perfect_acc,supine_acc,conjugation,text,example) */;
+
 CREATE VIEW view_translation_last_correct as SELECT word_pl, max(datetime(time)) as last_correct from translation_results where is_correct = "True" group by word_pl order by last_correct desc
 /* view_translation_last_correct(word_pl,last_correct) */;
-CREATE VIEW view_translation_correct_ratio as 
+
+CREATE VIEW view_translation_correct_ratio as
 select * from
 	(select word_pl, correct_translation, sum(correct) as correct, count(*) - sum(correct) as incorrect, round(sum(correct) / cast(count(*) as REAL) * 100, 0) as "correct %" FROM
 		(SELECT *,
@@ -142,6 +140,7 @@ select * from
 	group by word_pl)
 order by "correct %" asc, incorrect desc, correct asc
 /* view_translation_correct_ratio(word_pl,correct_translation,correct,incorrect,"correct %") */;
+
 CREATE VIEW view_translation_results as
 select ratio.word_pl, correct_translation, correct, incorrect, "correct %", last_correct
 from view_translation_correct_ratio ratio
