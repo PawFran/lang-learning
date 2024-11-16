@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS "latin_prepositions" (
 	"base_acc"	TEXT NOT NULL UNIQUE,
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
-CREATE TABLE IF NOT EXISTS "latin_conjuntions" (
+CREATE TABLE IF NOT EXISTS "latin_conjunctions" (
 	"id"	INTEGER,
 	"base"	TEXT NOT NULL,
 	"base_acc"	TEXT NOT NULL UNIQUE,
