@@ -228,3 +228,34 @@ button:disabled {
     height: 600px; /* Adjust height as necessary */
     resize: none; /* Disable resizing */
 }
+
+/* Style the sub-tab buttons */
+.sub-tabs {
+    margin-top: 20px;
+}
+
+.sub-tablink {
+    background-color: #555;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.sub-tablink.active {
+    background-color: #777;
+}
+
+/* Style the sub-tab content */
+.sub-tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}

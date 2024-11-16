@@ -12,10 +12,33 @@ function openTab(evt, tabName) {
     evt.currentTarget.className += " active";
 }
 
+function openSubTab(evt, subTabName) {
+    var i, subTabcontent, subTablinks;
+
+    // Hide all elements with class="sub-tabcontent" by default
+    subTabcontent = document.getElementsByClassName("sub-tabcontent");
+    for (i = 0; i < subTabcontent.length; i++) {
+        subTabcontent[i].style.display = "none";
+    }
+
+    // Remove the class "active" from all subTablinks
+    subTablinks = document.getElementsByClassName("sub-tablink");
+    for (i = 0; i < subTablinks.length; i++) {
+        subTablinks[i].className = subTablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current sub-tab and add an "active" class to the button that opened the sub-tab
+    document.getElementById(subTabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
 // Add to handle default open tab or open specific tab on load
 document.addEventListener("DOMContentLoaded", function() {
 //    document.querySelector('.tablink').click(); // Clicks the first tablink to open
-    document.querySelector('button[onclick="openTab(event, \'Scraping\')"]').click(); // Selects the Scraping tab by default
+    document.querySelector('button[onclick="openTab(event, \'Rules\')"]').click(); // Selects the Scraping tab by default
+});
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector('button[onclick="openSubTab(event, \'Conjugations\')"]').click(); // Selects the Conjugations subtab by default
 });
 
 function startTranslationSession() {
