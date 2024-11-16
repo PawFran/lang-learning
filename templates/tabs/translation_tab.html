@@ -1,0 +1,20 @@
+<div class="translation-container">
+    <div class="control-panel">
+        <label for="startWord">Start word</label>
+        <input type="text" id="startWord" placeholder="Enter start word">
+
+        <label for="endWord">End word</label>
+        <input type="text" id="endWord" placeholder="Enter end word">
+
+        <button id="startTranslation" onclick="startTranslationSession()">Start</button>
+        <button id="finishTranslation" onclick="finishTranslationSession()" disabled>Finish</button>
+
+    </div>
+    <div class="text-input">
+        <label for="console">Translation Console</label>
+        <div id="console" class="console">
+            <div id="consoleOutputTranslation" class="console-output"></div>
+            <input type="text" id="consoleInputTranslation" placeholder="Enter command" onkeydown="if (event.keyCode == 13) sendTranslation();" disabled>
+        </div>
+    </div>
+</div>

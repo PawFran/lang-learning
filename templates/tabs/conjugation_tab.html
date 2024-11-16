@@ -1,0 +1,43 @@
+<div class="flex-container">
+    <div class="control-panel">
+        <!-- Type Section -->
+        <div class="section" id="type-section">
+            <h3>Type</h3>
+            <label><input type="checkbox" value="I"> I</label>
+            <label><input type="checkbox" value="II"> II</label>
+            <label><input type="checkbox" value="III"> III</label>
+            <label><input type="checkbox" value="IV"> IV</label>
+            <label><input type="checkbox" value="esse" disabled>esse (TBD)</label>
+        </div>
+        <!-- Mood Section -->
+        <div class="section" id="mood-section">
+            <h3>Mood</h3>
+            <label><input type="checkbox" value="Indicativus"> Indicativus</label>
+            <label><input type="checkbox" value="Imperativus"> Imperativus</label>
+        </div>
+        <!-- Voice Section -->
+        <div class="section" id="voice-section">
+            <h3>Voice</h3>
+            <label><input type="checkbox" value="Activus"> Activus</label>
+            <label><input type="checkbox" value="Passivus"> Passivus</label>
+        </div>
+        <!-- Tense Section -->
+        <div class="section" id="tense-section">
+            <h3>Tense</h3>
+            <label><input type="checkbox" value="Praesens"> Praesens</label>
+            <label><input type="checkbox" value="Imperfectum"> Imperfectum</label>
+            <label><input type="checkbox" value="Futurum I"> Futurum I</label>
+            <label><input type="checkbox" value="Perfectum"> Perfectum</label>
+            <label><input type="checkbox" value="Plusquamperfectum"> Plusquamperfectum</label>
+            <label><input type="checkbox" value="Futurum II"> Futurum II</label>
+        </div>
+        <button id="startConjugation" onclick="startConjugationSession()">Start</button>
+        <button id="finishConjugation" onclick="finishConjugationSession()" disabled>Finish</button>
+    </div>
+    <div class="console-input">
+        <div id="consoleConjugation" class="console">
+            <div id="consoleOutputConjugation" class="console-output"></div>
+            <input type="text" id="consoleInputConjugation" placeholder="Enter text for Conjugation..." onkeydown="if (event.keyCode == 13) sendConjugationAnswer();" disabled>
+        </div>
+    </div>
+</div>

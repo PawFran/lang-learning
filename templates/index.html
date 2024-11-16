@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Language Learning - Translation</title>
+    <title>Language Learning</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="{{ url_for('static', filename='scripts.js') }}"></script>
@@ -21,113 +21,19 @@
     </div>
 
     <div id="Translation" class="tabcontent">
-        <div class="translation-container">
-            <div class="control-panel">
-                <label for="startWord">Start word</label>
-                <input type="text" id="startWord" placeholder="Enter start word">
-
-                <label for="endWord">End word</label>
-                <input type="text" id="endWord" placeholder="Enter end word">
-
-                <button id="startTranslation" onclick="startTranslationSession()">Start</button>
-                <button id="finishTranslation" onclick="finishTranslationSession()" disabled>Finish</button>
-
-            </div>
-            <div class="text-input">
-                <label for="console">Translation Console</label>
-                <div id="console" class="console">
-                    <div id="consoleOutputTranslation" class="console-output"></div>
-                    <input type="text" id="consoleInputTranslation" placeholder="Enter command" onkeydown="if (event.keyCode == 13) sendTranslation();" disabled>
-                </div>
-            </div>
-        </div>
+        {% include 'tabs/translation_tab.html' %}
     </div>
 
     <div id="Declension" class="tabcontent">
-        <div class="declension-container">
-            <div class="control-panel" id="declension-section">
-                <label><input type="checkbox" value="I"> I</label>
-                <label><input type="checkbox" value="II"> II</label>
-                <label><input type="checkbox" value="IIIv"> III vowel</label>
-                <label><input type="checkbox" value="IIIc"> III consonant</label>
-                <label><input type="checkbox" value="IIIm"> III mixed</label>
-                <label><input type="checkbox" value="IV"> IV</label>
-                <label><input type="checkbox" value="V"> V</label>
-                <label><input type="checkbox" value="relative"> relative</label>
-                <label><input type="checkbox" value="demonstrative"> demonstrative</label>
-                <label><input type="checkbox" value="interrogative"> interrogative</label>
-
-                <button id="startDeclension" onclick="startDeclensionSession()">Start</button>
-                <button id="finishDeclension" onclick="finishDeclensionSession()" disabled>Finish</button>
-            </div>
-            <div class="console-input">
-                <div id="consoleDeclension" class="console">
-                    <div id="consoleOutputDeclension" class="console-output"></div>
-                    <input type="text" id="consoleInputDeclension" placeholder="Enter text..." onkeydown="if (event.keyCode == 13) sendDeclensionAnswer();" disabled>
-                </div>
-            </div>
-        </div>
+        {% include 'tabs/declension_tab.html' %}
     </div>
 
     <div id="Conjugation" class="tabcontent">
-        <div class="flex-container">
-            <div class="control-panel">
-                <!-- Type Section -->
-                <div class="section" id="type-section">
-                    <h3>Type</h3>
-                    <label><input type="checkbox" value="I"> I</label>
-                    <label><input type="checkbox" value="II"> II</label>
-                    <label><input type="checkbox" value="III"> III</label>
-                    <label><input type="checkbox" value="IV"> IV</label>
-                    <label><input type="checkbox" value="esse" disabled>esse (TBD)</label>
-                </div>
-                <!-- Mood Section -->
-                <div class="section" id="mood-section">
-                    <h3>Mood</h3>
-                    <label><input type="checkbox" value="Indicativus"> Indicativus</label>
-                    <label><input type="checkbox" value="Imperativus"> Imperativus</label>
-                </div>
-                <!-- Voice Section -->
-                <div class="section" id="voice-section">
-                    <h3>Voice</h3>
-                    <label><input type="checkbox" value="Activus"> Activus</label>
-                    <label><input type="checkbox" value="Passivus"> Passivus</label>
-                </div>
-                <!-- Tense Section -->
-                <div class="section" id="tense-section">
-                    <h3>Tense</h3>
-                    <label><input type="checkbox" value="Praesens"> Praesens</label>
-                    <label><input type="checkbox" value="Imperfectum"> Imperfectum</label>
-                    <label><input type="checkbox" value="Futurum I"> Futurum I</label>
-                    <label><input type="checkbox" value="Perfectum"> Perfectum</label>
-                    <label><input type="checkbox" value="Plusquamperfectum"> Plusquamperfectum</label>
-                    <label><input type="checkbox" value="Futurum II"> Futurum II</label>
-                </div>
-                <button id="startConjugation" onclick="startConjugationSession()">Start</button>
-                <button id="finishConjugation" onclick="finishConjugationSession()" disabled>Finish</button>
-            </div>
-            <div class="console-input">
-                <div id="consoleConjugation" class="console">
-                    <div id="consoleOutputConjugation" class="console-output"></div>
-                    <input type="text" id="consoleInputConjugation" placeholder="Enter text for Conjugation..." onkeydown="if (event.keyCode == 13) sendConjugationAnswer();" disabled>
-                </div>
-            </div>
-        </div>
+        {% include 'tabs/conjugation_tab.html' %}
     </div>
 
     <div id="Scraping" class="tabcontent">
-        <div class="flex-container">
-            <div class="control-panel">
-                <label for="wordsInput">Words:</label>
-                <input type="text" id="wordsInput" placeholder="Enter words to scrape" onkeydown="if (event.key === 'Enter') document.getElementById('startScrape').click();">
-                <button id="startScrape" onclick="startScraping()">Start</button>
-                <button id="addToDictionary" onclick="addToDictionary()" disabled>Add output to dictionary</button>
-            </div>
-            <div class="output-panel">
-                <label for="scrapeOutput">Results:</label>
-                <textarea id="scrapeOutput" placeholder="Results will appear here..." readonly></textarea>
-            </div>
-        </div>
+        {% include 'tabs/scraping_tab.html' %}
     </div>
 
     <div id="Rules" class="tabcontent">
