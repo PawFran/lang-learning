@@ -28,4 +28,4 @@ if __name__ == '__main__':
             for x in tables_with_enums[t]:
                 conn.execute(text(f"""INSERT OR IGNORE INTO {t} (name) VALUES ('{x}')"""))
 
-    print('All initial values inserted (but it\'s now full migration!')
+    print('All initial values inserted (but it\'s now full migration!)')
