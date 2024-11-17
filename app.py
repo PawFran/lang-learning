@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 
-from find_or_scrape_latin import find_or_scrape, SCRAPED_HEADER
+from find_or_scrape_latin import find_or_scrape_words, SCRAPED_HEADER, find_or_scrape_sentence
 
 from vocabulary.lib.parsing_dict import parse_latin_dict
 from vocabulary.lib.utils import DICT_DIR_PATH
@@ -95,9 +95,16 @@ def check_conjugation_answer():
 @app.route('/scrape', methods=['POST'])
 def scrape():
     data = request.get_json()
-    words = data['words']
-    input_words = [w.lower() for w in words.split(' ')]
-    response_text = find_or_scrape(input_words)
+    words_raw = data['words']
+    sentence = data['sentence']
+
+    # if no words are specified it means that every word in a sentence must be scraped
+    words = [w for w in words_raw.split(' ') if w != '']
+    if len(words) == 0:
+        words = [w for w in sentence.split(' ') if w != '']
+
+    response_text = find_or_scrape_words(words, example = sentence)
+
     return jsonify({'response': response_text})
 
 

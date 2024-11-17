@@ -23,7 +23,7 @@ function openSubTab(evt, subTabName) {
 // Add to handle default open tab or open specific tab on load
 document.addEventListener("DOMContentLoaded", function() {
 //    document.querySelector('.tablink').click(); // Clicks the first tablink to open
-    document.querySelector('button[onclick="openTab(event, \'Rules\')"]').click(); // Selects the Scraping tab by default
+    document.querySelector('button[onclick="openTab(event, \'Scraping\')"]').click(); // Selects the Scraping tab by default
 });
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('button[onclick="openSubTab(event, \'Conjugations\')"]').click(); // Selects the Conjugations subtab by default
@@ -307,17 +307,18 @@ function sendConjugationAnswer() {
     });
 }
 
-function startScraping() {
+function startScraping(is_sentence = false) {
     var words = document.getElementById('wordsInput').value
-    var output = document.getElementById('scrapeOutput')
+    var sentence = document.getElementById('sentenceInput').value
 
+    var output = document.getElementById('scrapeOutput')
     // Make the textarea read-only during the scraping process
     output.readOnly = true
     output.placeholder = "Results will appear here..."
     document.getElementById('startScrape').disabled = true;
     document.getElementById('addToDictionary').disabled = true;
 
-    body = JSON.stringify({ words: words });
+    body = JSON.stringify({ words: words, sentence: sentence });
     console.log('scrape body: ', body);
 
     fetch('/scrape', {
@@ -365,4 +366,10 @@ function addToDictionary() {
         console.error('Error:', error);
         alert("Failed to add output to dictionary.");
     });
+}
+
+function cleanupScrapingTextFields() {
+    document.getElementById('wordsInput').value = '';
+    document.getElementById('sentenceInput').value = '';
+    document.getElementById('scrapeOutput').value = '';
 }

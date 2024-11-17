@@ -8,7 +8,13 @@ from scraping.lib.utils import get_scraped_data, print_scraping_results, output_
 FOUND_HEADER = '### found ###\n'
 SCRAPED_HEADER = '### scraped ###\n'
 
-def find_or_scrape(words: list[str]) -> str:
+
+def find_or_scrape_sentence(sentence: str) -> str:
+    words = [word for word in sentence.split(' ') if word != '']
+    return find_or_scrape_words(words, example = sentence)
+
+
+def find_or_scrape_words(words: list[str], example: str = '') -> str:
     Args = namedtuple('Args', ['language', 'start_word', 'end_word'])
     args = Args('latin', None, None)
 
@@ -51,11 +57,11 @@ def find_or_scrape(words: list[str]) -> str:
     if len(entries_finally_not_found) > 0:
         output_placeholder += print_and_return(SCRAPED_HEADER)
         with (open(output_temporary_file_name, 'a', encoding="utf-8") as f):
-            output_placeholder += print_scraping_results(f, entries_finally_not_found)
+            output_placeholder += print_scraping_results(f, entries_finally_not_found, example)
 
     return output_placeholder
 
 
 if __name__ == '__main__':
     words = sys.argv[1:]
-    find_or_scrape(words)
+    find_or_scrape_words(words)

@@ -144,10 +144,10 @@ def parse_dict_entry(flexion_soup, summary_and_translations) -> DictionaryEntry:
     return entry
 
 
-def print_and_write_to_file(f, dict_entry: DictionaryEntry):
+def print_and_write_to_file(f, dict_entry: DictionaryEntry, example: str = ''):
     accumulator = ''
     accumulator += print_and_write(f, dict_entry.head.head_raw)
-    accumulator += print_and_write(f, '()')
+    accumulator += print_and_write(f, f'({example})')
 
     translations = dict_entry.translations
     for t, i in zip(translations, range(len(translations))):
@@ -158,10 +158,10 @@ def print_and_write_to_file(f, dict_entry: DictionaryEntry):
     return accumulator
 
 
-def print_scraping_results(f, results):
+def print_scraping_results(f, results, example: str = ''):
     accumulator = ''
     for scrape_result in results:
-        accumulator += print_and_write_to_file(f, scrape_result)
+        accumulator += print_and_write_to_file(f, scrape_result, example)
     return accumulator
 
 

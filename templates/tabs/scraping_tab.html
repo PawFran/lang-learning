@@ -1,9 +1,12 @@
 <div class="flex-container">
     <div class="control-panel">
         <label for="wordsInput">Words:</label>
-        <input type="text" id="wordsInput" placeholder="Enter words to scrape" onkeydown="if (event.key === 'Enter') document.getElementById('startScrape').click();">
+        <input type="text" id="wordsInput" placeholder="Enter words to scrape (separated by space)" onkeydown="if (event.key === 'Enter') document.getElementById('startScrape').click();">
+        <label for="sentenceInput">Sentence:</label>
+        <input type="text" id="sentenceInput" placeholder="Enter sentence (all words will be scraped)" onkeydown="if (event.key === 'Enter') document.getElementById('startScrape').click();">
         <button id="startScrape" onclick="startScraping()">Start</button>
         <button id="addToDictionary" onclick="addToDictionary()" disabled>Add output to dictionary</button>
+        <button id="cleanupScrapingTextFields" onclick="cleanupScrapingTextFields()" >Clear</button>
     </div>
     <div class="output-panel">
         <label for="scrapeOutput">Results:</label>
