@@ -13,7 +13,7 @@ class Words(Base):
     part_of_speech = Column(String, ForeignKey('parts_of_speech.name'), nullable=False)
 
     __table_args__ = (
-        UniqueConstraint('base_word_acc', 'infinite_acc', 'perfect_acc', 'supine_acc')
+        UniqueConstraint('lang', 'external_word_id', 'part_of_speech'),
     )
 
 
@@ -40,7 +40,7 @@ class LatinWordsTranslationsMapping(Base):
     part_of_speech = Column(String, ForeignKey('parts_of_speech.name'), nullable=False)
 
     __table_args__ = (
-        UniqueConstraint('word_id', 'translation_id', 'part_of_speech')
+        UniqueConstraint('word_id', 'translation_id', 'part_of_speech'),
     )
 
 
@@ -59,7 +59,7 @@ class LatinVerbs(Base):
     conjugation = Column(String, ForeignKey('latin_conjugations.name'))
 
     __table_args__ = (
-        UniqueConstraint('base_word_acc', 'infinite_acc', 'perfect_acc', 'supine_acc')
+        UniqueConstraint('base_word_acc', 'infinite_acc', 'perfect_acc', 'supine_acc'),
     )
 
 
