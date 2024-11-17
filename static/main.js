@@ -369,7 +369,8 @@ function addToDictionary() {
 }
 
 function cleanupScrapingTextFields() {
-    document.getElementById('wordsInput').value = '';
-    document.getElementById('sentenceInput').value = '';
-    document.getElementById('scrapeOutput').value = '';
+    const fields = ['wordsInput', 'sentenceInput', 'scrapeOutput'];
+    fields.forEach(field => {
+        document.getElementById(field).value = '';
+    });
 }
