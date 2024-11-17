@@ -1,4 +1,5 @@
 from database.utils import *
+from sqlalchemy import create_engine
 
 if __name__ == '__main__':
     args = parse_args()
@@ -9,6 +10,8 @@ if __name__ == '__main__':
     dictionary: Dictionary = parse_dictionary(args, dictionary_folder=dict_folder)
 
     words_not_migrated = 0
+
+    engine = create_engine('sqlite:///lang_learning.sqlite')
 
     with Session(engine) as session:
         for entry in dictionary.entries:
@@ -31,4 +34,4 @@ if __name__ == '__main__':
                 print(f'{entry.head.base} not migrated')
                 words_not_migrated += 1
 
-    print(f'\n{words_not_migrated} words not migrated')
+    print(f'\n{words_not_migrated} words were not tried to be migrated')
