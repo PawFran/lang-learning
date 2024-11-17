@@ -110,3 +110,8 @@ python find_or_scrape.py [list of words to be found]
 - **Output**: Found words are printed under the "found" hashtag; others are scraped.
 
 ---
+
+## Other info
+DB documentation:
+* https://dbdiagram.io/d/lang-learning-6739c159e9daa85acab7031e
+* https://dbdocs.io/pawel.fran/lang-learning?schema=public&view=relationships&table=latin_verbs
