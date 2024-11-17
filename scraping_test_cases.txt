@@ -19,3 +19,5 @@ to be checked
 secundum - czemu nie znajduje tych wersji, których nie ma jeszcze w słowniku ?
 jeśli zmusić to się wywala
 
+Rhodiis is scraped but with error - "Rhŏdĭi, – [noun] [p] [II]" instead of Rhŏdĭi, Rhodiōrum [noun] [pl] [II]
+

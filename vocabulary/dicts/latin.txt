@@ -3320,7 +3320,7 @@ pulchrĭtūdo, pulchritudinis [noun] [f] [III]
 (Demetrius eius imaginis pulchritudinem Rhodiis invidebat)
 1. piękno, doskonałość
 
-Rhŏdĭi, – [noun] [p] [II]
+Rhŏdĭi, Rhodiōrum [noun] [pl] [II]
 (Mittunt Rhodii legatos ad Demetrium cum his verbis)
 1. Rodyjczycy, mieszkańcy Rodos
 
@@ -3417,7 +3417,7 @@ intrōdūco, intrōdūcĕre, introduxi, introductum [verb] [III]
 (Introductus est inter complures servus viri consularis)
 1. wprowadzać
 
-complūres, complurĭum [noun] [pl] [III]
+complūres, complurĭum [noun] [m] [pl] [III]
 (Introductus est inter complures servus viri consularis)
 1. kilka, spora liczba
 
