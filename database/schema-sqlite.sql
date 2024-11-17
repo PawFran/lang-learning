@@ -18,12 +18,14 @@ CREATE TABLE IF NOT EXISTS "parts_of_speech" (
 	PRIMARY KEY("name")
 );
 CREATE TABLE IF NOT EXISTS "words" (
+    "id"	INTEGER NOT NULL UNIQUE,
 	"lang"	TEXT NOT NULL,
-	"word_id"	INTEGER NOT NULL,
+	"external_word_id"	INTEGER NOT NULL,
 	"part_of_speech"	TEXT NOT NULL,
 	FOREIGN KEY("part_of_speech") REFERENCES "parts_of_speech"("name"),
 	FOREIGN KEY ("lang") REFERENCES "languages"("name"),
-	PRIMARY KEY("lang","word_id","part_of_speech")
+	PRIMARY KEY("id" AUTOINCREMENT),
+	UNIQUE("lang", "external_word_id", "part_of_speech")
 );
 CREATE TABLE IF NOT EXISTS "latin_verbs" (
 	"id"	INTEGER NOT NULL,
@@ -67,10 +69,15 @@ CREATE TABLE IF NOT EXISTS "latin_nouns" (
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
 CREATE TABLE IF NOT EXISTS "latin_words_translations_mapping" (
+    "id" INTEGER NOT NULL UNIQUE,
 	"word_id"	INTEGER,
 	"translation_id"	INTEGER,
 	"part_of_speech"	TEXT,
-	PRIMARY KEY("word_id","translation_id","part_of_speech")
+	PRIMARY KEY("id", AUTOINCREMENT),
+	UNIQUE("word_id", "translation_id", "part_of_speech"),
+	FOREIGN KEY("word_id") REFERENCES "words"("word_id"),
+    FOREIGN KEY("translation_id") REFERENCES "latin_translations"("id"),
+    FOREIGN KEY("part_of_speech") REFERENCES "parts_of_speech"("name")
 );
 CREATE TABLE IF NOT EXISTS "latin_adverbs" (
 	"id"	INTEGER,
@@ -116,6 +123,7 @@ CREATE TABLE IF NOT EXISTS "translation_results" (
 );
 
 -- ### VIEWS ###
+-- TODO fix joins: word_id it not enough, words table must be joined as well and external_word_id must be added
 CREATE VIEW nouns_with_translations as
 SELECT base_acc, gen_acc, text, example from latin_nouns n
 	join latin_words_translations_mapping m on n.id = m.word_id

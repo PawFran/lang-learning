@@ -1,5 +1,5 @@
 from sqlalchemy import Text
-from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, UniqueConstraint
+from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
@@ -7,9 +7,14 @@ Base = declarative_base()
 
 class Words(Base):
     __tablename__ = 'words'
-    lang = Column(String, ForeignKey('languages.name'), primary_key=True)
-    word_id = Column(Integer, primary_key=True)
-    part_of_speech = Column(String, ForeignKey('parts_of_speech.name'), primary_key=True)
+    id = Column(Integer, primary_key=True)
+    lang = Column(String, ForeignKey('languages.name'), nullable=False)
+    external_word_id = Column(Integer, nullable=False)
+    part_of_speech = Column(String, ForeignKey('parts_of_speech.name'), nullable=False)
+
+    __table_args__ = (
+        UniqueConstraint('base_word_acc', 'infinite_acc', 'perfect_acc', 'supine_acc')
+    )
 
 
 class PartOfSpeech(Base):
@@ -29,9 +34,14 @@ class LatinDeclension(Base):
 
 class LatinWordsTranslationsMapping(Base):
     __tablename__ = 'latin_words_translations_mapping'
-    word_id = Column(Integer, primary_key=True)
-    translation_id = Column(Integer, primary_key=True)
-    part_of_speech = Column(String, primary_key=True)
+    id = Column(Integer, primary_key=True)
+    word_id = Column(Integer, ForeignKey('words.id'), nullable=False)
+    translation_id = Column(Integer, ForeignKey('latin_translations.id'), nullable=False)
+    part_of_speech = Column(String, ForeignKey('parts_of_speech.name'), nullable=False)
+
+    __table_args__ = (
+        UniqueConstraint('word_id', 'translation_id', 'part_of_speech')
+    )
 
 
 class LatinVerbs(Base):
@@ -49,7 +59,7 @@ class LatinVerbs(Base):
     conjugation = Column(String, ForeignKey('latin_conjugations.name'))
 
     __table_args__ = (
-        UniqueConstraint('base_word_acc', 'infinite_acc', 'perfect_acc', 'supine_acc'),
+        UniqueConstraint('base_word_acc', 'infinite_acc', 'perfect_acc', 'supine_acc')
     )
 
 

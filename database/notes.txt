@@ -1,0 +1,11 @@
+dodawanie słowa:
+najpierw np. latin_verbs
+potem words
+potem translations
+potem mapping laczacy words z tranlations
+
+ale nie sie sensownie zrobic FK - latin_verb musi byc najpierw, wiec to words musialoby miec FK ale musialoby go miec do wielu tabel
+powinno byc na odwrot, szczegolne tabele powinny miec fk do words, ale wtedy words trzeba by bylo uzupelniac pierwsze
+idealnie: words i translations w tym samym czasie, potem automatyczny trigger do mapping, potem tabela szczegolowa
+
+czy ma sens robic pk na words jako zlozenie wszystkich trzech kolumn ?
