@@ -1,4 +1,5 @@
 from sqlalchemy import *
+from db_classes import Base
 
 langs = ['latin', 'english']
 latin_declensions = ['I', 'II', 'III', 'III vowel', 'III consonant', 'III mixed', 'IV', 'V']
@@ -16,6 +17,10 @@ tables_with_enums = {
 
 if __name__ == '__main__':
     engine = create_engine('sqlite:///lang_learning.sqlite')
+    Base.metadata.drop_all(engine)
+    print('All existing tables dropped')
+    Base.metadata.create_all(engine)
+    print('All tables created')
 
     # begin() means autocommit at the end of the block
     with engine.begin() as conn:
@@ -23,4 +28,4 @@ if __name__ == '__main__':
             for x in tables_with_enums[t]:
                 conn.execute(text(f"""INSERT OR IGNORE INTO {t} (name) VALUES ('{x}')"""))
 
-        # print(result.all())
+    print('All initial values inserted (but it\'s now full migration!')

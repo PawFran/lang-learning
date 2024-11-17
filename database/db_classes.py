@@ -7,7 +7,7 @@ Base = declarative_base()
 
 class Words(Base):
     __tablename__ = 'words'
-    lang = Column(String, primary_key=True)
+    lang = Column(String, ForeignKey('languages.name'), primary_key=True)
     word_id = Column(Integer, primary_key=True)
     part_of_speech = Column(String, ForeignKey('parts_of_speech.name'), primary_key=True)
 
@@ -37,7 +37,7 @@ class LatinWordsTranslationsMapping(Base):
 class LatinVerbs(Base):
     __tablename__ = 'latin_verbs'
     id = Column(Integer, primary_key=True)
-    base_word = Column(String, unique=True, nullable=False)
+    base_word = Column(String, nullable=False)
     base_word_acc = Column(String, nullable=False)
     infinite = Column(String, nullable=False)
     infinite_acc = Column(String, nullable=False)
@@ -47,6 +47,10 @@ class LatinVerbs(Base):
     supine_acc = Column(String)
     additional_info = Column(Text)
     conjugation = Column(String, ForeignKey('latin_conjugations.name'))
+
+    __table_args__ = (
+        UniqueConstraint('base_word_acc', 'infinite_acc', 'perfect_acc', 'supine_acc'),
+    )
 
 
 class LatinNouns(Base):
@@ -62,7 +66,7 @@ class LatinNouns(Base):
     only_pl = Column(String, nullable=False)
 
     __table_args__ = (
-        UniqueConstraint('base', 'gen'),
+        UniqueConstraint('base_acc', 'gen_acc'),
     )
 
 
@@ -136,7 +140,3 @@ class TranslationResult(Base):
     user_answer = Column(Text, nullable=False)
     is_correct = Column(Text, nullable=False)
     time = Column(Text, nullable=False)
-
-
-engine = create_engine('sqlite:///lang_learning.sqlite')
-Base.metadata.create_all(engine)

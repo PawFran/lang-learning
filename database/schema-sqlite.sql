@@ -22,11 +22,12 @@ CREATE TABLE IF NOT EXISTS "words" (
 	"word_id"	INTEGER NOT NULL,
 	"part_of_speech"	TEXT NOT NULL,
 	FOREIGN KEY("part_of_speech") REFERENCES "parts_of_speech"("name"),
+	FOREIGN KEY ("lang") REFERENCES "languages"("name"),
 	PRIMARY KEY("lang","word_id","part_of_speech")
 );
 CREATE TABLE IF NOT EXISTS "latin_verbs" (
-	"id"	INTEGER NOT NULL UNIQUE,
-	"base_word"	TEXT NOT NULL UNIQUE,
+	"id"	INTEGER NOT NULL,
+	"base_word"	TEXT NOT NULL,
 	"base_word_acc"	TEXT NOT NULL,
 	"infinite"	TEXT NOT NULL,
 	"infinite_acc"	TEXT NOT NULL,
@@ -37,6 +38,7 @@ CREATE TABLE IF NOT EXISTS "latin_verbs" (
 	"additional_info"	TEXT,
 	"conjugation"	TEXT NOT NULL,
 	PRIMARY KEY("id" AUTOINCREMENT),
+	UNIQUE("base_word_acc", "infinite_acc", "perfect_acc", "supine_acc"),
 	FOREIGN KEY("conjugation") REFERENCES "latin_conjugations"("name")
 );
 CREATE TABLE IF NOT EXISTS "latin_translations" (
@@ -61,7 +63,7 @@ CREATE TABLE IF NOT EXISTS "latin_nouns" (
 	"only_pl"	TEXT NOT NULL,
 	FOREIGN KEY("genre") REFERENCES "genres"("name"),
 	FOREIGN KEY("declension") REFERENCES "latin_declensions"("name"),
-	UNIQUE("base","base_acc"),
+	UNIQUE("base_acc", "gen_acc"),
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
 CREATE TABLE IF NOT EXISTS "latin_words_translations_mapping" (
