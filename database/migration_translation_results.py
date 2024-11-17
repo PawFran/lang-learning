@@ -1,9 +1,5 @@
-import os
-
-from sqlalchemy.orm import Session
-
-from db_classes import TranslationResult, engine
-from utils import insert_or_ignore
+from utils import *
+from sqlalchemy import create_engine
 
 
 def parse_translation_result_line(raw_line: str):
@@ -27,6 +23,8 @@ if __name__ == '__main__':
     with open(path, encoding="utf8") as f:
         f.readline()  # skip header
         lines = f.readlines()
+
+    engine = create_engine('sqlite:///lang_learning.sqlite')
 
     with Session(engine) as session:
         for line in lines:
