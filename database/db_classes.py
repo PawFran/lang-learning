@@ -2,7 +2,8 @@ from sqlalchemy import Text, text, create_engine, Float, DateTime, inspect
 from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint
 from sqlalchemy.ext.declarative import declarative_base
 
-DATABASE = 'sqlite:///lang_learning.sqlite'
+DB_FILE_NAME = 'lang_learning.sqlite'
+DATABASE = f'sqlite:///{DB_FILE_NAME}'
 
 Base = declarative_base()
 

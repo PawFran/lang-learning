@@ -3,7 +3,8 @@ from sqlalchemy import *
 from database.db_classes import drop_all_views
 from db_classes import Base, create_views
 from vocabulary.lib.dict_classes import PartOfSpeech
-from utils import DATABASE
+from utils import DATABASE, DB_FILE_NAME
+import os
 
 langs = ['latin', 'english']
 latin_declensions = ['I', 'II', 'III', 'III vowel', 'III consonant', 'III mixed', 'IV', 'V']
@@ -19,11 +20,19 @@ tables_with_enums = {
     'latin_declensions': latin_declensions
 }
 
+def remove_db():
+    if os.path.exists(DB_FILE_NAME):
+        os.remove(DB_FILE_NAME)
+        print(f'{DB_FILE_NAME} removed')
+    else:
+        print(f'{DB_FILE_NAME} does not exist')
+
 if __name__ == '__main__':
+    remove_db()
     engine = create_engine(DATABASE)
-    drop_all_views(engine)
-    Base.metadata.drop_all(engine)
-    print('All existing tables dropped')
+    # drop_all_views(engine)
+    # Base.metadata.drop_all(engine)
+    # print('All existing tables dropped')
     Base.metadata.create_all(engine)
     print('All tables created')
     # create_views(engine, Base)

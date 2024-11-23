@@ -129,7 +129,7 @@ CREATE TABLE IF NOT EXISTS "translation_results" (
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
 
--- ### VIEWS ###
+ ### VIEWS ###
 --CREATE VIEW nouns_with_translations as
 --select base_acc, gen_acc, text, example
 --    from latin_nouns n
