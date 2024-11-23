@@ -1,10 +1,14 @@
 from sqlalchemy import *
-from db_classes import Base
+
+from database.db_classes import drop_all_views
+from db_classes import Base, create_views
+from vocabulary.lib.dict_classes import PartOfSpeech
+from utils import DATABASE
 
 langs = ['latin', 'english']
 latin_declensions = ['I', 'II', 'III', 'III vowel', 'III consonant', 'III mixed', 'IV', 'V']
 latin_conjugations = ['I', 'II', 'III', 'IV', 'ANOMALOUS']
-parts_of_speech = ['verb', 'noun', 'adjective', 'adverb', 'preposition', 'conjuncture', 'pronoun']
+parts_of_speech = [p.value for p in PartOfSpeech]
 genres = ['masculine', 'feminine', 'neutral', 'masculine and feminine']
 
 tables_with_enums = {
@@ -16,11 +20,14 @@ tables_with_enums = {
 }
 
 if __name__ == '__main__':
-    engine = create_engine('sqlite:///lang_learning.sqlite')
+    engine = create_engine(DATABASE)
+    drop_all_views(engine)
     Base.metadata.drop_all(engine)
     print('All existing tables dropped')
     Base.metadata.create_all(engine)
     print('All tables created')
+    # create_views(engine, Base)
+    # print('All views created')
 
     # begin() means autocommit at the end of the block
     with engine.begin() as conn:

@@ -6,8 +6,9 @@ from database.db_classes import *
 from vocabulary.lib.parsing_dict import *
 
 
-def verb_from_head(head):
-    return LatinVerbs(base_word=replace_special(head.base),
+def verb_from_head(word_id, head):
+    return LatinVerbs(id=word_id,
+                      base_word=replace_special(head.base),
                       base_word_acc=head.base,
                       infinite=replace_special(head.infinite),
                       infinite_acc=head.infinite,
@@ -19,7 +20,7 @@ def verb_from_head(head):
                       conjugation=head.conjugation.name)
 
 
-def noun_from_head(head):
+def noun_from_head(word_id, head):
     if head.genre == 'm':
         genre = 'masculine'
     elif head.genre == 'f':
@@ -31,7 +32,8 @@ def noun_from_head(head):
     else:
         raise Exception(f'cannot parse {head.genre} to proper genre')
 
-    return LatinNouns(base=replace_special(head.base),
+    return LatinNouns(id=word_id,
+                      base=replace_special(head.base),
                       base_acc=head.base,
                       gen=replace_special(head.genetive),
                       gen_acc=head.genetive,
@@ -40,28 +42,33 @@ def noun_from_head(head):
                       only_pl='true' if head.only_plural else 'false')
 
 
-def adverb_from_head(head):
-    return LatinAdverbs(base=replace_special(head.base),
+def adverb_from_head(word_id, head):
+    return LatinAdverbs(id=word_id,
+                        base=replace_special(head.base),
                         base_acc=head.base)
 
 
-def preposition_from_head(head):
-    return LatinPrepositions(base=replace_special(head.base),
+def preposition_from_head(word_id, head):
+    return LatinPrepositions(id=word_id,
+                             base=replace_special(head.base),
                              base_acc=head.base)
 
 
-def conjunction_from_head(head):
-    return LatinConjunctions(base=replace_special(head.base),
+def conjunction_from_head(word_id, head):
+    return LatinConjunctions(id=word_id,
+                             base=replace_special(head.base),
                              base_acc=head.base)
 
 
-def pronoun_from_head(head):
-    return LatinPronouns(base=replace_special(head.base),
+def pronoun_from_head(word_id, head):
+    return LatinPronouns(id=word_id,
+                         base=replace_special(head.base),
                          base_acc=head.base)
 
 
-def adjective_from_head(head):
-    return LatinAdjectives(base=replace_special(head.base),
+def adjective_from_head(word_id, head):
+    return LatinAdjectives(id=word_id,
+                           base=replace_special(head.base),
                            base_acc=head.base)
 
 
@@ -71,21 +78,27 @@ def insert_or_ignore(session: Session, record):
 
 
 def insert_or_ignore_latin_word(entry: DictionaryEntry, parsing_function, session: Session):
-    head = entry.head
 
     try:
+        head = entry.head
+        head_raw = head.head_raw
+        part_of_speech = head.part_of_speech().value
+
+        # Insert into "words" table
+        word = Words(lang="latin", header=head_raw, part_of_speech=part_of_speech)
+        insert_or_ignore(session, word)
+
+        word_id = session.query(Words).filter_by(header=head_raw).first().id
+
+        # Insert into "latin_translations" table
+        translation_ids = insert_and_get_translation_ids(entry, session)
+
         # Upsert word into appropriate table (ex. LatinVerbs)
-        word = parsing_function(head)
+        word = parsing_function(word_id, head)
         insert_or_ignore(session, word)
 
         # Get info about upsert word to fill related tables
-        part_of_speech, word_id = get_part_of_speech_and_word_id(head, session, word)
-
-        # Upsert into words table
-        word = Words(lang="latin", external_word_id=word_id, part_of_speech=part_of_speech)
-        insert_or_ignore(session, word)
-
-        translation_ids = insert_and_get_translation_ids(entry, session)
+        # part_of_speech, word_id = get_part_of_speech_and_word_id(head, session, word)
 
         # Commit changes to the session before retrieving translation IDs
         session.commit()
@@ -134,7 +147,7 @@ def insert_word_translation_mappings(word_id, part_of_speech, session, translati
     # Retrieve translation IDs from the list
     for translation_id in translation_ids:
         # For each verb-translation pair, upsert appropriate record into mapping table
-        mapping = LatinWordsTranslationsMapping(word_id=word_id, translation_id=translation_id,
+        mapping = LatinWordsTranslationsMappings(word_id=word_id, translation_id=translation_id,
                                                 part_of_speech=part_of_speech)
         insert_or_ignore(session, mapping)
 

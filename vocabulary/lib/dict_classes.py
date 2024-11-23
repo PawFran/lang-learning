@@ -9,12 +9,26 @@ from vocabulary.lib.db import *
 import re
 import os
 from conjugation.lib.conjugation_classes import ConjugationType
+from enum import Enum
+
+
+class PartOfSpeech(Enum):
+    VERB = 'verb'
+    NOUN = 'noun'
+    ADVERB = 'adverb'
+    PREPOSITION = 'preposition'
+    CONJUNCTION = 'conjunction'
+    PRONOUN = 'pronoun'
+    ADJECTIVE = 'adjective'
 
 
 @dataclass
 class AbstractWord:
     base: str
     head_raw: str
+
+    def part_of_speech(self) -> PartOfSpeech:
+        pass
 
     # todo abstract static method from_entry head ?
 
@@ -42,6 +56,9 @@ class LatinVerb(AbstractWord):
     perfect: str
     supine: str
     conjugation: ConjugationType
+
+    def part_of_speech(self) -> PartOfSpeech:
+        return PartOfSpeech.VERB
 
     @staticmethod
     def is_verb(dict_entry_head):
@@ -85,6 +102,9 @@ class LatinNoun(AbstractWord):
     only_plural: bool
     declension: str  # roman number
 
+    def part_of_speech(self) -> PartOfSpeech:
+        return PartOfSpeech.NOUN
+
     @staticmethod
     def is_noun(dict_entry_head):
         return '[noun]' in dict_entry_head.lower()
@@ -120,6 +140,9 @@ class LatinNoun(AbstractWord):
 @dataclass
 class LatinAdverb(AbstractWord):
 
+    def part_of_speech(self) -> PartOfSpeech:
+        return PartOfSpeech.ADVERB
+
     @staticmethod
     def is_adverb(dict_entry_head):
         return '[adv]' in dict_entry_head.lower()
@@ -134,6 +157,9 @@ class LatinAdverb(AbstractWord):
 
 @dataclass
 class LatinPreposition(AbstractWord):
+
+    def part_of_speech(self) -> PartOfSpeech:
+        return PartOfSpeech.PREPOSITION
 
     @staticmethod
     def is_preposition(dict_entry_head):
@@ -150,6 +176,9 @@ class LatinPreposition(AbstractWord):
 @dataclass
 class LatinConjunction(AbstractWord):
 
+    def part_of_speech(self) -> PartOfSpeech:
+        return PartOfSpeech.CONJUNCTION
+
     @staticmethod
     def is_conjunction(dict_entry_head):
         return '[conj]' in dict_entry_head.lower()
@@ -164,6 +193,9 @@ class LatinConjunction(AbstractWord):
 
 @dataclass
 class LatinPronoun(AbstractWord):
+
+    def part_of_speech(self) -> PartOfSpeech:
+        return PartOfSpeech.PRONOUN
 
     @staticmethod
     def is_pronoun(dict_entry_head):
@@ -181,6 +213,9 @@ class LatinPronoun(AbstractWord):
 class LatinAdjective(AbstractWord):
     femininum: str
     neutrum: str
+
+    def part_of_speech(self) -> PartOfSpeech:
+        return PartOfSpeech.ADJECTIVE
 
     @staticmethod
     def is_adjective(dict_entry_head):
@@ -251,7 +286,7 @@ class Dictionary:
             header = entry.head.head_raw
             example = f'({entry.example})'
             zipped = zip(range(0, len(entry.translations)), entry.translations)
-            translations = [f'{i+1}. {t}' for (i, t) in zipped]
+            translations = [f'{i + 1}. {t}' for (i, t) in zipped]
             entry_str = '\n'.join([header] + [example] + translations) + '\n' + '\n'
             final_str_accumulator += entry_str
 

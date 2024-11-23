@@ -1,6 +1,6 @@
 from sqlalchemy import *
 
-tables_to_be_cleaned = ['latin_verbs', 'latin_nouns', 'latin_translations', 'latin_words_translations_mapping', 'words',
+tables_to_be_cleaned = ['latin_verbs', 'latin_nouns', 'latin_translations', 'latin_words_translations_mappings', 'words',
                         'latin_adverbs', 'latin_prepositions', 'latin_conjunctions', 'latin_pronouns',
                         'latin_adjectives', 'translation_results']
 
