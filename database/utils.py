@@ -85,13 +85,14 @@ def insert_or_ignore_latin_word(entry: DictionaryEntry, parsing_function, sessio
     try:
         head = entry.head
         head_raw = head.head_raw
+        head_raw_without_metadata = head_raw.split('[')[0]
         part_of_speech = head.part_of_speech().value
 
         # Insert into "words" table
-        word = Words(lang="latin", header=head_raw, part_of_speech=part_of_speech)
+        word = Words(lang="latin", header=head_raw_without_metadata, part_of_speech=part_of_speech)
         insert_or_ignore(session, word)
 
-        word_id = session.query(Words).filter_by(header=head_raw).first().id
+        word_id = session.query(Words).filter_by(header=head_raw_without_metadata).first().id
 
         # Insert into "latin_translations" table
         translation_ids = insert_and_get_translation_ids(entry, session)
