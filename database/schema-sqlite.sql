@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS "latin_verbs" (
 );
 CREATE TABLE IF NOT EXISTS "latin_translations" (
 	"id"	INTEGER NOT NULL UNIQUE,
-	"text"	TEXT NOT NULL UNIQUE,
+	"translation"	TEXT NOT NULL UNIQUE,
 	"example"	TEXT,
 	"associated_case"	TEXT,
 	PRIMARY KEY("id" AUTOINCREMENT)
@@ -111,9 +111,14 @@ CREATE TABLE IF NOT EXISTS "latin_pronouns" (
 );
 CREATE TABLE IF NOT EXISTS "latin_adjectives" (
 	"id"	INTEGER,
-	"base"	TEXT NOT NULL,
-	"base_acc"	TEXT NOT NULL UNIQUE,
+	"masculinum"	TEXT NOT NULL,
+	"masculinum_acc"	TEXT NOT NULL,
+	"femininum"	TEXT NOT NULL,
+	"femininum_acc"	TEXT NOT NULL,
+	"neutrum"	TEXT NOT NULL,
+	"neutrum_acc"	TEXT NOT NULL,
 	FOREIGN KEY("id") REFERENCES "words"("id"),
+    UNIQUE("masculinum_acc", "femininum_acc", "neutrum_acc"),
 	PRIMARY KEY("id")
 );
 CREATE TABLE IF NOT EXISTS "translation_results" (
@@ -138,12 +143,23 @@ CREATE TABLE IF NOT EXISTS "translation_results" (
 --	join latin_translations t on m.translation_id = t.id
 --
 --CREATE VIEW verbs_with_translations as
---select base_word_acc, infinite_acc, perfect_acc, supine_acc, conjugation, text, example
---	from latin_verbs v
---	join words w on v.id = w.external_word_id
---	join latin_words_translations_mapping m on w.id = m.word_id
---	join latin_translations t on m.translation_id = t.id
---order by text
+--select base_word_acc, infinite_acc, perfect_acc, supine_acc, conjugation, text, example from latin_verbs v
+--join words w on v.id = w.id
+--join latin_words_translations_mappings m on w.id = m.word_id
+--join latin_translations t on t.id = m.translation_id
+
+-- why it's empty ?
+--CREATE VIEW words_with_translations as
+--select * from words w
+--join latin_adjectives adj on adj.id = w.id
+--join latin_adverbs adv on adv.id = w.id
+--join latin_conjunctions c on c.id = w.id
+--join latin_nouns n on n.id = w.id
+--join latin_prepositions prep on prep.id = w.id
+--join latin_pronouns pron on pron.id = w.id
+--join latin_verbs v on v.id = w.id
+--join latin_words_translations_mappings m on w.id = m.word_id
+--join latin_translations t on t.id = m.translation_id
 --
 --CREATE VIEW translation_last_correct as
 --SELECT word_pl, max(datetime(time)) as last_correct

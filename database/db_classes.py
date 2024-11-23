@@ -125,14 +125,21 @@ class LatinAdjectives(Base):
     __tablename__ = 'latin_adjectives'
 
     id = Column(Integer, ForeignKey('words.id'), primary_key=True)
-    base = Column(String, nullable=False)
-    base_acc = Column(String, unique=True, nullable=False)
+    masculinum = Column(String, nullable=False)
+    masculinum_acc = Column(String, nullable=False)
+    femininum = Column(String, nullable=False)
+    neutrum = Column(String, nullable=False)
+    femininum_acc = Column(String, nullable=False)
+    neutrum_acc = Column(String, nullable=False)
 
+    __table_args__ = (
+        UniqueConstraint('masculinum_acc', 'femininum_acc', 'neutrum_acc'),
+    )
 
 class LatinTranslations(Base):
     __tablename__ = 'latin_translations'
     id = Column(Integer, primary_key=True)
-    text = Column(Text, nullable=False, unique=True)
+    translation = Column(Text, nullable=False, unique=True)
     example = Column(Text)
     associated_case = Column(Text)
 

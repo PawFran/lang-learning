@@ -68,9 +68,12 @@ def pronoun_from_head(word_id, head):
 
 def adjective_from_head(word_id, head):
     return LatinAdjectives(id=word_id,
-                           base=replace_special(head.base),
-                           base_acc=head.base)
-
+                           masculinum=replace_special(head.base),
+                           masculinum_acc=head.base,
+                           femininum=replace_special(head.femininum),
+                           femininum_acc=head.femininum,
+                           neutrum=replace_special(head.neutrum),
+                           neutrum_acc=head.neutrum)
 
 def insert_or_ignore(session: Session, record):
     session.add(record)
@@ -156,12 +159,12 @@ def insert_and_get_translation_ids(entry, session):
     translation_ids = []
     for t in entry.translations:
         # For each translation, upsert it
-        is_already_present = session.query(LatinTranslations).filter_by(text=t).count() > 0
+        is_already_present = session.query(LatinTranslations).filter_by(translation=t).count() > 0
         # print(is_already_present)
         if not is_already_present:
-            translation = LatinTranslations(text=t, example=entry.example, associated_case=None)
+            translation = LatinTranslations(translation=t, example=entry.example, associated_case=None)
             insert_or_ignore(session, translation)
 
             # Append the translation ID to the list
-            translation_ids.append(session.query(LatinTranslations).filter_by(text=t).first().id)
+            translation_ids.append(session.query(LatinTranslations).filter_by(translation=t).first().id)
     return translation_ids
