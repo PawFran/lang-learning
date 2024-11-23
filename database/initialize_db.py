@@ -30,9 +30,6 @@ def remove_db():
 if __name__ == '__main__':
     remove_db()
     engine = create_engine(DATABASE)
-    # drop_all_views(engine)
-    # Base.metadata.drop_all(engine)
-    # print('All existing tables dropped')
     Base.metadata.create_all(engine)
     print('All tables created')
     # create_views(engine, Base)

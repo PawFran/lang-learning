@@ -168,33 +168,29 @@ class TranslationResult(Base):
     time = Column(DateTime, nullable=False)
 
 # Views
-# class NounsWithTranslations(Base):
+# class AdjectivesWithTranslations(Base):
 #     __tablename__ = 'nouns_with_translations'
 #     __view_definition__ = '''
-#         CREATE VIEW nouns_with_translations AS
-#         SELECT base_acc, gen_acc, text, example
-#         FROM latin_nouns n
-#         JOIN words w ON n.id = w.external_word_id
-#         JOIN latin_words_translations_mapping m ON w.id = m.word_id
-#         JOIN latin_translations t ON m.translation_id = t.id;
+#         select masculinum_acc, femininum_acc, neutrum_acc, translation, example from words w
+#         join latin_adjectives adj on adj.id = w.id
+#         join latin_words_translations_mappings m on w.id = m.word_id
+#         join latin_translations t on t.id = m.translation_id
 #         '''
 #
-#     base_acc = Column(String, primary_key=True)
-#     gen_acc = Column(String)
-#     text = Column(String)
+#     masculinum_acc = Column(String, primary_key=True)
+#     femininum_acc = Column(String)
+#     neutrum_acc = Column(String)
+#     translation = Column(String)
 #     example = Column(String)
-
-
+#
 # class VerbsWithTranslations(Base):
 #     __tablename__ = 'verbs_with_translations'
 #     __view_definition__ = '''
-#         CREATE VIEW verbs_with_translations AS
-#         SELECT base_word_acc, infinite_acc, perfect_acc, supine_acc, conjugation, text, example
-#         FROM latin_verbs v
-#         JOIN words w ON v.id = w.external_word_id
-#         JOIN latin_words_translations_mapping m ON w.id = m.word_id
-#         JOIN latin_translations t ON m.translation_id = t.id
-#         ORDER BY text;
+#         CREATE VIEW verbs_with_translations as
+#         select base_word_acc, infinite_acc, perfect_acc, supine_acc, conjugation, translation, example from latin_verbs v
+#         join words w on v.id = w.id
+#         join latin_words_translations_mappings m on w.id = m.word_id
+#         join latin_translations t on t.id = m.translation_id
 #         '''
 #
 #     base_word_acc = Column(String, primary_key=True)
@@ -202,9 +198,27 @@ class TranslationResult(Base):
 #     perfect_acc = Column(String)
 #     supine_acc = Column(String)
 #     conjugation = Column(String)
-#     text = Column(String)
+#     translation = Column(String)
 #     example = Column(String)
 #
+# class NounsWithTranslations(Base):
+#     __tablename__ = 'nouns_with_translations'
+#     __view_definition__ = '''
+#         CREATE VIEW nouns_with_translations AS
+#         select base_acc, gen_acc, declension, genre, only_pl, translation, example from words w
+#         join latin_nouns n on n.id = w.id
+#         join latin_words_translations_mappings m on w.id = m.word_id
+#         join latin_translations t on t.id = m.translation_id
+#         '''
+#
+#     base_acc = Column(String, primary_key=True)
+#     gen_acc = Column(String)
+#     declension = Column(String)
+#     genre = Column(String)
+#     only_pl = Column(String)
+#     translation = Column(String)
+#     example = Column(String)
+
 #
 # class TranslationLastCorrect(Base):
 #     __tablename__ = 'translation_last_correct'
