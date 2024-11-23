@@ -1,9 +1,11 @@
 from utils import *
 from sqlalchemy import create_engine
+from datetime import datetime
 
 
 def parse_translation_result_line(raw_line: str):
     split = raw_line.split(';')
+    date_format = "%Y-%m-%d %H:%M:%S"
     return TranslationResult(
         user=split[0],
         session_id=split[1],
@@ -12,7 +14,7 @@ def parse_translation_result_line(raw_line: str):
         correct_translation=split[4],
         user_answer=split[5],
         is_correct=split[6],
-        time=split[7]
+        time=datetime.strptime(split[7].strip(), date_format)
     )
 
 
