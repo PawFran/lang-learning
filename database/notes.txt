@@ -4,7 +4,12 @@ widok: correct % (juz jest)
 widok: last asked (juz prawie)
 ustawianie kolejnosci na podstawie dwoch powyzszych
 
+word_pl nie jest unikalne - ale to powinno byc ok.. ?
+przemyslec to, ze jedno slowo moze miec wiele tlumaczen, i jedno tlumaczenie moze miec wiele slow
+
+
 translation results powinno miec foreign key do words
 na razie moze byc w.header = t.correct_translation
+docelowo lepiej poprawic skrypt migracyjny ?
 
 do przymiotnikow dodac info o typie (I/II czy III koniugacja, ilosc zakonczen (1/2/3)) - moze sie przydac do statystyk ?

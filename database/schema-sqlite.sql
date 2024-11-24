@@ -140,6 +140,12 @@ select header, w.part_of_speech, translation, example, associated_case from word
 join latin_words_translations_mappings m on w.id = m.word_id
 join latin_translations t on t.id = m.translation_id
 
+CREATE VIEW translation_last_asked as
+select word_pl, max(datetime(time)) as last_asked
+from translation_results
+group by word_pl
+order by last_asked desc
+
 CREATE VIEW translation_correct_ratio as
 select * from
 	(select word_pl, correct_translation, sum(correct) as correct, count(*) - sum(correct) as incorrect, round(sum(correct) / cast(count(*) as REAL) * 100, 0) as "correct %" FROM
@@ -148,6 +154,19 @@ select * from
 		from translation_results)
 	group by word_pl)
 order by "correct %" asc, incorrect desc, correct asc
+
+create view next_to_be_asked as
+select ratio.word_pl, correct_translation, last_asked, correct, incorrect, "correct %", ratio.idx as correct_idx, last_asked.idx as time_idx, ratio.idx + last_asked.idx as sum_idx
+from (
+	select *, ROW_NUMBER() over (order by last_asked asc) as idx
+	from translation_last_asked
+	) last_asked
+join (
+	select *, ROW_NUMBER() over (order by "correct %" asc, incorrect desc, correct asc) as idx
+	from translation_correct_ratio
+	) ratio
+on last_asked.word_pl = ratio.word_pl
+order by sum_idx asc
 
 --CREATE VIEW nouns_with_translations as
 --select base_acc, gen_acc, text, example

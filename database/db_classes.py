@@ -171,15 +171,15 @@ class TranslationResult(Base):
 
 # Utility function to create views
 def create_views(engine):
-    """Execute CREATE VIEW statements for all classes with __view_definition__."""
+
     with engine.connect() as connection:
         ### words_with_translations
         connection.execute(text('''
-                create view words_with_translations as
-                select header, w.part_of_speech, translation, example, associated_case from words w
-                join latin_words_translations_mappings m on w.id = m.word_id
-                join latin_translations t on t.id = m.translation_id
-                '''))
+            CREATE VIEW words_with_translations as
+            select header, w.part_of_speech, translation, example, associated_case from words w
+            join latin_words_translations_mappings m on w.id = m.word_id
+            join latin_translations t on t.id = m.translation_id
+        '''))
 
         ### translation_correct_ratio
         connection.execute(text('''
@@ -191,4 +191,29 @@ def create_views(engine):
                     from translation_results)
                 group by word_pl)
             order by "correct %" asc, incorrect desc, correct asc
+        '''))
+
+        ### translation_last_asked
+        connection.execute(text('''
+            CREATE VIEW translation_last_asked as
+            select word_pl, max(datetime(time)) as last_asked
+            from translation_results
+            group by word_pl
+            order by last_asked desc
+        '''))
+
+        ### next_to_be_asked
+        connection.execute(text('''
+            create view next_to_be_asked as
+            select ratio.word_pl, correct_translation, last_asked, correct, incorrect, "correct %", ratio.idx as correct_idx, last_asked.idx as time_idx, ratio.idx + last_asked.idx as sum_idx
+            from ( 
+                select *, ROW_NUMBER() over (order by last_asked asc) as idx 
+                from translation_last_asked
+                ) last_asked
+            join (
+                select *, ROW_NUMBER() over (order by "correct %" asc, incorrect desc, correct asc) as idx 
+                from translation_correct_ratio
+                ) ratio
+            on last_asked.word_pl = ratio.word_pl
+            order by sum_idx asc
         '''))
