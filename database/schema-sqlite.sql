@@ -144,7 +144,7 @@ CREATE VIEW translation_last_asked as
 select word_pl, max(datetime(time)) as last_asked
 from translation_results
 group by word_pl
-order by last_asked desc
+order by last_asked asc
 
 CREATE VIEW translation_correct_ratio as
 select * from

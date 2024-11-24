@@ -199,7 +199,7 @@ def create_views(engine):
             select word_pl, max(datetime(time)) as last_asked
             from translation_results
             group by word_pl
-            order by last_asked desc
+            order by last_asked asc
         '''))
 
         ### next_to_be_asked

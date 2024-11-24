@@ -1,5 +1,7 @@
 TODO
 
+dokonczyc next to be asked - chociaz moze nie ma sensu definiowac widoku bo to trzeba wyliczac w locie pod zastosowaniu filtra
+
 migracja associated case
 
 word_pl nie jest unikalne - ale to powinno byc ok.. ?
