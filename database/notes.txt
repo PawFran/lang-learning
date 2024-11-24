@@ -1,8 +1,6 @@
 TODO
 
-widok: correct % (juz jest)
-widok: last asked (juz prawie)
-ustawianie kolejnosci na podstawie dwoch powyzszych
+migracja associated case
 
 word_pl nie jest unikalne - ale to powinno byc ok.. ?
 przemyslec to, ze jedno slowo moze miec wiele tlumaczen, i jedno tlumaczenie moze miec wiele slow
