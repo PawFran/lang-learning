@@ -1,10 +1,15 @@
+import subprocess
+
 from sqlalchemy import *
 
-from database.db_classes import drop_all_views
+from database.migration_dictionary import migrate_dictionary
+from database.migration_translation_results import migrate_translation_results
 from db_classes import Base, create_views
 from vocabulary.lib.dict_classes import PartOfSpeech
 from utils import DATABASE, DB_FILE_NAME
 import os
+
+from vocabulary.lib.parsing_args import parse_args
 
 langs = ['latin', 'english']
 latin_declensions = ['I', 'II', 'III', 'III vowel', 'III consonant', 'III mixed', 'IV', 'V']
@@ -29,11 +34,12 @@ def remove_db():
 
 if __name__ == '__main__':
     remove_db()
+
     engine = create_engine(DATABASE)
     Base.metadata.create_all(engine)
     print('All tables created')
-    # create_views(engine, Base)
-    # print('All views created')
+    create_views(engine)
+    print('All views created')
 
     # begin() means autocommit at the end of the block
     with engine.begin() as conn:
@@ -41,4 +47,10 @@ if __name__ == '__main__':
             for x in tables_with_enums[t]:
                 conn.execute(text(f"""INSERT OR IGNORE INTO {t} (name) VALUES ('{x}')"""))
 
-    print('All initial values inserted (but it\'s now full migration!)')
+    print('All initial values inserted')
+
+    migrate_dictionary()
+    print('dictionary migrated')
+
+    migrate_translation_results()
+    print('translation results migrated')

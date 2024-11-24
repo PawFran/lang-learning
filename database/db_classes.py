@@ -136,6 +136,7 @@ class LatinAdjectives(Base):
         UniqueConstraint('masculinum_acc', 'femininum_acc', 'neutrum_acc'),
     )
 
+
 class LatinTranslations(Base):
     __tablename__ = 'latin_translations'
     id = Column(Integer, primary_key=True)
@@ -167,129 +168,27 @@ class TranslationResult(Base):
     is_correct = Column(Text, nullable=False)
     time = Column(DateTime, nullable=False)
 
-# Views
-# class AdjectivesWithTranslations(Base):
-#     __tablename__ = 'nouns_with_translations'
-#     __view_definition__ = '''
-#         select masculinum_acc, femininum_acc, neutrum_acc, translation, example from words w
-#         join latin_adjectives adj on adj.id = w.id
-#         join latin_words_translations_mappings m on w.id = m.word_id
-#         join latin_translations t on t.id = m.translation_id
-#         '''
-#
-#     masculinum_acc = Column(String, primary_key=True)
-#     femininum_acc = Column(String)
-#     neutrum_acc = Column(String)
-#     translation = Column(String)
-#     example = Column(String)
-#
-# class VerbsWithTranslations(Base):
-#     __tablename__ = 'verbs_with_translations'
-#     __view_definition__ = '''
-#         CREATE VIEW verbs_with_translations as
-#         select base_word_acc, infinite_acc, perfect_acc, supine_acc, conjugation, translation, example from latin_verbs v
-#         join words w on v.id = w.id
-#         join latin_words_translations_mappings m on w.id = m.word_id
-#         join latin_translations t on t.id = m.translation_id
-#         '''
-#
-#     base_word_acc = Column(String, primary_key=True)
-#     infinite_acc = Column(String)
-#     perfect_acc = Column(String)
-#     supine_acc = Column(String)
-#     conjugation = Column(String)
-#     translation = Column(String)
-#     example = Column(String)
-#
-# class NounsWithTranslations(Base):
-#     __tablename__ = 'nouns_with_translations'
-#     __view_definition__ = '''
-#         CREATE VIEW nouns_with_translations AS
-#         select base_acc, gen_acc, declension, genre, only_pl, translation, example from words w
-#         join latin_nouns n on n.id = w.id
-#         join latin_words_translations_mappings m on w.id = m.word_id
-#         join latin_translations t on t.id = m.translation_id
-#         '''
-#
-#     base_acc = Column(String, primary_key=True)
-#     gen_acc = Column(String)
-#     declension = Column(String)
-#     genre = Column(String)
-#     only_pl = Column(String)
-#     translation = Column(String)
-#     example = Column(String)
-
-#
-# class TranslationLastCorrect(Base):
-#     __tablename__ = 'translation_last_correct'
-#     __view_definition__ = '''
-#         CREATE VIEW translation_last_correct AS
-#         SELECT word_pl, MAX(DATETIME(time)) AS last_correct
-#         FROM translation_results
-#         WHERE is_correct = "True"
-#         GROUP BY word_pl
-#         ORDER BY last_correct DESC;
-#         '''
-#
-#     word_pl = Column(String, primary_key=True)
-#     last_correct = Column(DateTime)
-#
-#
-# class TranslationCorrectRatio(Base):
-#     __tablename__ = 'translation_correct_ratio'
-#     __view_definition__ = '''
-#         CREATE VIEW translation_correct_ratio AS
-#         SELECT *
-#         FROM (
-#             SELECT word_pl, correct_translation, SUM(correct) AS correct,
-#                    COUNT(*) - SUM(correct) AS incorrect,
-#                    ROUND(SUM(correct) / CAST(COUNT(*) AS REAL) * 100, 0) AS "correct %"
-#             FROM (
-#                 SELECT *,
-#                        CASE WHEN LOWER(is_correct) = 'true' THEN 1 ELSE 0 END AS correct
-#                 FROM translation_results
-#             )
-#             GROUP BY word_pl
-#         )
-#         ORDER BY "correct %" ASC, incorrect DESC, correct ASC;
-#         '''
-#
-#     word_pl = Column(String, primary_key=True)
-#     correct_translation = Column(String)
-#     correct = Column(Integer)
-#     incorrect = Column(Integer)
-#     correct_percentage = Column(Float, name='"correct %"')
-#
-#
-# class TranslationStatistics(Base):
-#     __tablename__ = 'translation_statistics'
-#     __view_definition__ = '''
-#         CREATE VIEW translation_statistics AS
-#         SELECT ratio.word_pl, correct_translation, correct, incorrect, "correct %", last_correct
-#         FROM translation_correct_ratio ratio
-#         LEFT JOIN translation_last_correct last
-#         ON last.word_pl = ratio.word_pl;
-#         '''
-#
-#     word_pl = Column(String, primary_key=True)
-#     correct_translation = Column(String)
-#     correct = Column(Integer)
-#     incorrect = Column(Integer)
-#     correct_percentage = Column(Float, name='"correct %"')
-#     last_correct = Column(DateTime)
 
 # Utility function to create views
-def create_views(engine, base):
+def create_views(engine):
     """Execute CREATE VIEW statements for all classes with __view_definition__."""
     with engine.connect() as connection:
-        for cls in base.__subclasses__():
-            if hasattr(cls, '__view_definition__'):
-                connection.execute(text(cls.__view_definition__))
+        ### words_with_translations
+        connection.execute(text('''
+                create view words_with_translations as
+                select header, w.part_of_speech, translation, example, associated_case from words w
+                join latin_words_translations_mappings m on w.id = m.word_id
+                join latin_translations t on t.id = m.translation_id
+                '''))
 
-def drop_all_views(engine):
-    with engine.connect() as conn:
-        # Drop views
-        inspector = inspect(engine)
-        for view_name in inspector.get_view_names():
-            conn.execute(text(f"DROP VIEW IF EXISTS {view_name}"))
-            print(f"View {view_name} dropped")
+        ### translation_correct_ratio
+        connection.execute(text('''
+            CREATE VIEW translation_correct_ratio as
+            select * from
+                (select word_pl, correct_translation, sum(correct) as correct, count(*) - sum(correct) as incorrect, round(sum(correct) / cast(count(*) as REAL) * 100, 0) as "correct %" FROM
+                    (SELECT *,
+                        CASE WHEN LOWER(is_correct) = 'true' THEN 1 ELSE 0 END AS correct
+                    from translation_results)
+                group by word_pl)
+            order by "correct %" asc, incorrect desc, correct asc
+        '''))

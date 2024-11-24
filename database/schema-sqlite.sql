@@ -135,6 +135,20 @@ CREATE TABLE IF NOT EXISTS "translation_results" (
 );
 
  ### VIEWS ###
+create view words_with_translations as
+select header, w.part_of_speech, translation, example, associated_case from words w
+join latin_words_translations_mappings m on w.id = m.word_id
+join latin_translations t on t.id = m.translation_id
+
+CREATE VIEW translation_correct_ratio as
+select * from
+	(select word_pl, correct_translation, sum(correct) as correct, count(*) - sum(correct) as incorrect, round(sum(correct) / cast(count(*) as REAL) * 100, 0) as "correct %" FROM
+		(SELECT *,
+			CASE WHEN LOWER(is_correct) = 'true' THEN 1 ELSE 0 END AS correct
+		from translation_results)
+	group by word_pl)
+order by "correct %" asc, incorrect desc, correct asc
+
 --CREATE VIEW nouns_with_translations as
 --select base_acc, gen_acc, text, example
 --    from latin_nouns n
@@ -168,14 +182,6 @@ CREATE TABLE IF NOT EXISTS "translation_results" (
 --group by word_pl
 --order by last_correct desc
 --
---CREATE VIEW translation_correct_ratio as
---select * from
---	(select word_pl, correct_translation, sum(correct) as correct, count(*) - sum(correct) as incorrect, round(sum(correct) / cast(count(*) as REAL) * 100, 0) as "correct %" FROM
---		(SELECT *,
---			CASE WHEN LOWER(is_correct) = 'true' THEN 1 ELSE 0 END AS correct
---		from translation_results)
---	group by word_pl)
---order by "correct %" asc, incorrect desc, correct asc
 --
 --CREATE VIEW translation_statistics as
 --select ratio.word_pl, correct_translation, correct, incorrect, "correct %", last_correct

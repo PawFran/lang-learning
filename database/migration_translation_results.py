@@ -18,19 +18,20 @@ def parse_translation_result_line(raw_line: str):
     )
 
 
-if __name__ == '__main__':
+def migrate_translation_results():
     file_name = 'translation_exercise_results.csv'
     path = os.path.join('..', 'vocabulary', 'db', file_name)
-
     with open(path, encoding="utf8") as f:
         f.readline()  # skip header
         lines = f.readlines()
-
     engine = create_engine('sqlite:///lang_learning.sqlite')
-
     with Session(engine) as session:
         for line in lines:
             translation_result = parse_translation_result_line(line)
             insert_or_ignore(session, translation_result)
 
         session.commit()
+
+
+if __name__ == '__main__':
+    migrate_translation_results()

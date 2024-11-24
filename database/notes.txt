@@ -1,8 +1,10 @@
 TODO
 
-widok: words with translations (czemu nie dziala?)
-i na podstawie tego nastepne widoki (verbs, adjectives etc.)
-
 widok: correct % (juz jest)
 widok: last asked (juz prawie)
 ustawianie kolejnosci na podstawie dwoch powyzszych
+
+translation results powinno miec foreign key do words
+na razie moze byc w.header = t.correct_translation
+
+do przymiotnikow dodac info o typie (I/II czy III koniugacja, ilosc zakonczen (1/2/3)) - moze sie przydac do statystyk ?
