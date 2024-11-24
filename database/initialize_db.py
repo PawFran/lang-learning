@@ -1,15 +1,12 @@
-import subprocess
+import os
 
 from sqlalchemy import *
 
 from database.migration_dictionary import migrate_dictionary
 from database.migration_translation_results import migrate_translation_results
 from db_classes import Base, create_views
-from vocabulary.lib.dict_classes import PartOfSpeech
 from utils import DATABASE, DB_FILE_NAME
-import os
-
-from vocabulary.lib.parsing_args import parse_args
+from vocabulary.lib.dict_classes import PartOfSpeech
 
 langs = ['latin', 'english']
 latin_declensions = ['I', 'II', 'III', 'III vowel', 'III consonant', 'III mixed', 'IV', 'V']

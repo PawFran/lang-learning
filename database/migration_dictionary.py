@@ -1,5 +1,7 @@
-from database.utils import *
 from sqlalchemy import create_engine
+
+from database.utils import *
+
 
 def migrate_dictionary():
     args = parse_args()
@@ -34,7 +36,9 @@ def migrate_dictionary():
                 print(f'{entry.head.base} not migrated')
                 words_not_migrated += 1
 
-    print(f'\n{words_not_migrated} words were not tried to be migrated')
+    if words_not_migrated > 0:
+        print(f'\n{words_not_migrated} words were not tried to be migrated')
+
 
 if __name__ == '__main__':
     migrate_dictionary()
