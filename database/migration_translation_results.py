@@ -6,7 +6,7 @@ from datetime import datetime
 def parse_translation_result_line(raw_line: str):
     split = raw_line.split(';')
     date_format = "%Y-%m-%d %H:%M:%S"
-    return TranslationResult(
+    return TranslationResults(
         user=split[0],
         session_id=split[1],
         lang=split[2],

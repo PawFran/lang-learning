@@ -155,7 +155,7 @@ class Languages(Base):
     name = Column(String, primary_key=True)
 
 
-class TranslationResult(Base):
+class TranslationResults(Base):
     __tablename__ = 'translation_results'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
@@ -186,15 +186,15 @@ def create_views(engine):
 
     with engine.connect() as connection:
         ### words_with_translations
-        connection.execute(text('''
+        connection.execute(text(f'''
             CREATE VIEW words_with_translations as
-            select header, w.part_of_speech, translation, example, associated_case from words w
-            join latin_words_translations_mappings m on w.id = m.word_id
-            join latin_translations t on t.id = m.translation_id
+            select header, w.part_of_speech, translation, example, associated_case from {Words.__tablename__} w
+            join {LatinWordsTranslationsMappings.__tablename__} m on w.id = m.word_id
+            join {TranslationsFromLatin.__tablename__} t on t.id = m.translation_id
         '''))
 
         ### translation_correct_ratio
-        connection.execute(text('''
+        connection.execute(text(f'''
             CREATE VIEW translation_correct_ratio as
             select * from
                 (select word_pl, correct_translation, sum(correct) as correct, count(*) - sum(correct) as incorrect, round(sum(correct) / cast(count(*) as REAL) * 100, 0) as "correct %" FROM
@@ -206,16 +206,16 @@ def create_views(engine):
         '''))
 
         ### translation_last_asked
-        connection.execute(text('''
+        connection.execute(text(f'''
             CREATE VIEW translation_last_asked as
             select word_pl, max(datetime(time)) as last_asked
-            from translation_results
+            from {TranslationResults.__tablename__}
             group by word_pl
             order by last_asked asc
         '''))
 
         ### next_to_be_asked
-        connection.execute(text('''
+        connection.execute(text(f'''
             create view next_to_be_asked as
             select ratio.word_pl, correct_translation, last_asked, correct, incorrect, "correct %", ratio.idx as correct_idx, last_asked.idx as time_idx, ratio.idx + last_asked.idx as sum_idx
             from ( 
