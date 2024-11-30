@@ -1,5 +1,8 @@
 TODO
 
+translation musi by brane z bazy a nie z pliku - wiele tlumaczen moze byc poprawnych
+obecne translation results moze byc przez to niepoprawne - da sie to jeszcze poprawic
+
 dokonczyc next to be asked - chociaz moze nie ma sensu definiowac widoku bo to trzeba wyliczac w locie pod zastosowaniu filtra
 
 migracja associated case
