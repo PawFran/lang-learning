@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 from database.utils import *
 
 
-def migrate_dictionary():
+def migrate_dictionary(engine):
     args = parse_args()
 
     args.language = 'latin'
@@ -12,8 +12,6 @@ def migrate_dictionary():
     dictionary: Dictionary = parse_dictionary(args, dictionary_folder=dict_folder)
 
     words_not_migrated = 0
-
-    engine = create_engine('sqlite:///lang_learning.sqlite')
 
     with Session(engine) as session:
         for entry in dictionary.entries:
@@ -41,4 +39,5 @@ def migrate_dictionary():
 
 
 if __name__ == '__main__':
-    migrate_dictionary()
+    engine = create_engine(DATABASE)
+    migrate_dictionary(engine)

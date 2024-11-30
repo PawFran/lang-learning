@@ -161,26 +161,12 @@ class TranslationResults(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     user = Column(Text, nullable=False)
     session_id = Column(Integer, nullable=False)
-    lang = Column(Text, nullable=False)
-    word_pl = Column(Text, nullable=False)
-    correct_translation = Column(Text, nullable=False)
+    lang = Column(Text, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)
+    word_pl = Column(Integer, ForeignKey(f'{Translations.__tablename__}.id'), nullable=False)
     user_answer = Column(Text, nullable=False)
-    is_correct = Column(Text, nullable=False)
+    is_correct = Column(Text, nullable=False) # needs to be store here, logic is to complex to calculate it in sql view
     time = Column(DateTime, nullable=False)
 
-
-# CREATE TABLE IF NOT EXISTS "translation_results" (
-# 	"id"	INTEGER,
-# 	"user"	TEXT NOT NULL,
-# 	"session_id"	INTEGER NOT NULL,
-# 	"from_lang"	TEXT NOT NULL,
-# 	"to_lang"	TEXT NOT NULL,
-# 	"from_word"	TEXT NOT NULL,
-# 	"to_word"	TEXT NOT NULL,
-# 	"user_answer"	TEXT NOT NULL,
-# 	"time"	TEXT NOT NULL,
-# 	PRIMARY KEY("id" AUTOINCREMENT)
-# );
 
 # Utility function to create views
 def create_views(engine):

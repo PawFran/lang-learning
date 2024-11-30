@@ -22,12 +22,14 @@ tables_with_enums = {
     'latin_declensions': latin_declensions
 }
 
+
 def remove_db():
     if os.path.exists(DB_FILE_NAME):
         os.remove(DB_FILE_NAME)
         print(f'{DB_FILE_NAME} removed')
     else:
         print(f'{DB_FILE_NAME} does not exist')
+
 
 if __name__ == '__main__':
     remove_db()
@@ -46,8 +48,8 @@ if __name__ == '__main__':
 
     print('All initial values inserted')
 
-    migrate_dictionary()
+    migrate_dictionary(engine)
     print('dictionary migrated')
 
-    migrate_translation_results()
+    migrate_translation_results(engine)
     print('translation results migrated')
