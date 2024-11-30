@@ -1,5 +1,5 @@
-from sqlalchemy import Text, text, create_engine, Float, DateTime, inspect
 from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint
+from sqlalchemy import Text, text, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 
 DB_FILE_NAME = 'lang_learning.sqlite'
@@ -8,17 +8,9 @@ DATABASE = f'sqlite:///{DB_FILE_NAME}'
 Base = declarative_base()
 
 
-class Words(Base):
-    __tablename__ = 'words'
-
-    id = Column(Integer, primary_key=True, autoincrement=True)
-    lang = Column(String, ForeignKey('languages.name'), nullable=False)
-    header = Column(Text, nullable=False)
-    part_of_speech = Column(String, ForeignKey('parts_of_speech.name'), nullable=False)
-
-    __table_args__ = (
-        UniqueConstraint('lang', 'header', 'part_of_speech'),
-    )
+class Languages(Base):
+    __tablename__ = 'languages'
+    name = Column(String, primary_key=True)
 
 
 class PartsOfSpeech(Base):
@@ -39,101 +31,21 @@ class LatinDeclensions(Base):
     name = Column(String, primary_key=True, unique=True, nullable=False)
 
 
-class LatinWordsTranslationsMappings(Base):
-    __tablename__ = 'latin_words_translations_mappings'
-
-    id = Column(Integer, primary_key=True)
-    word_id = Column(Integer, ForeignKey('words.id'), nullable=False)
-    translation_id = Column(Integer, ForeignKey('translations_from_latin.id'), nullable=False)
-    part_of_speech = Column(String, ForeignKey('parts_of_speech.name'), nullable=False)
-
-    __table_args__ = (
-        UniqueConstraint('word_id', 'translation_id', 'part_of_speech'),
-    )
+class LatinConjugations(Base):
+    __tablename__ = 'latin_conjugations'
+    name = Column(String, primary_key=True)
 
 
-class LatinVerbs(Base):
-    __tablename__ = 'latin_verbs'
+class Words(Base):
+    __tablename__ = 'words'
 
-    id = Column(Integer, ForeignKey('words.id'), primary_key=True)
-    base_word = Column(String, nullable=False)
-    base_word_acc = Column(String, nullable=False)
-    infinite = Column(String, nullable=False)
-    infinite_acc = Column(String, nullable=False)
-    perfect = Column(String, nullable=False)
-    perfect_acc = Column(String, nullable=False)
-    supine = Column(String)
-    supine_acc = Column(String)
-    additional_info = Column(Text)
-    conjugation = Column(String, ForeignKey('latin_conjugations.name'))
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    lang = Column(String, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)
+    header = Column(Text, nullable=False)
+    part_of_speech = Column(String, ForeignKey(f'{PartsOfSpeech.__tablename__}.name'), nullable=False)
 
     __table_args__ = (
-        UniqueConstraint('base_word_acc', 'infinite_acc', 'perfect_acc', 'supine_acc'),
-    )
-
-
-class LatinNouns(Base):
-    __tablename__ = 'latin_nouns'
-
-    id = Column(Integer, ForeignKey('words.id'), primary_key=True)
-    base = Column(String, nullable=False)
-    base_acc = Column(String, nullable=False)
-    gen = Column(String, nullable=False)
-    gen_acc = Column(String, nullable=False)
-    declension = Column(String, ForeignKey('latin_declensions.name'), nullable=False)
-    genre = Column(String, ForeignKey('genres.name'), nullable=False)
-    only_pl = Column(String, nullable=False)
-
-    __table_args__ = (
-        UniqueConstraint('base_acc', 'gen_acc'),
-    )
-
-
-class LatinAdverbs(Base):
-    __tablename__ = 'latin_adverbs'
-
-    id = Column(Integer, ForeignKey('words.id'), primary_key=True)
-    base = Column(String, nullable=False)
-    base_acc = Column(String, unique=True, nullable=False)
-
-
-class LatinPrepositions(Base):
-    __tablename__ = 'latin_prepositions'
-
-    id = Column(Integer, ForeignKey('words.id'), primary_key=True)
-    base = Column(String, nullable=False)
-    base_acc = Column(String, unique=True, nullable=False)
-
-
-class LatinConjunctions(Base):
-    __tablename__ = 'latin_conjunctions'
-
-    id = Column(Integer, ForeignKey('words.id'), primary_key=True)
-    base = Column(String, nullable=False)
-    base_acc = Column(String, unique=True, nullable=False)
-
-
-class LatinPronouns(Base):
-    __tablename__ = 'latin_pronouns'
-
-    id = Column(Integer, ForeignKey('words.id'), primary_key=True)
-    base = Column(String, nullable=False)
-    base_acc = Column(String, unique=True, nullable=False)
-
-
-class LatinAdjectives(Base):
-    __tablename__ = 'latin_adjectives'
-
-    id = Column(Integer, ForeignKey('words.id'), primary_key=True)
-    masculinum = Column(String, nullable=False)
-    masculinum_acc = Column(String, nullable=False)
-    femininum = Column(String, nullable=False)
-    neutrum = Column(String, nullable=False)
-    femininum_acc = Column(String, nullable=False)
-    neutrum_acc = Column(String, nullable=False)
-
-    __table_args__ = (
-        UniqueConstraint('masculinum_acc', 'femininum_acc', 'neutrum_acc'),
+        UniqueConstraint('lang', 'header', 'part_of_speech'),
     )
 
 
@@ -145,14 +57,102 @@ class Translations(Base):
     associated_case = Column(Text)
 
 
-class LatinConjugations(Base):
-    __tablename__ = 'latin_conjugations'
-    name = Column(String, primary_key=True)
+class LatinWordsTranslationsMappings(Base):
+    __tablename__ = 'latin_words_translations_mappings'
+
+    id = Column(Integer, primary_key=True)
+    word_id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), nullable=False)
+    translation_id = Column(Integer, ForeignKey(f'{Translations.__tablename__}.id'), nullable=False)
+    part_of_speech = Column(String, ForeignKey(f'{PartsOfSpeech.__tablename__}.name'), nullable=False)
+
+    __table_args__ = (
+        UniqueConstraint('word_id', 'translation_id', 'part_of_speech'),
+    )
 
 
-class Languages(Base):
-    __tablename__ = 'languages'
-    name = Column(String, primary_key=True)
+class LatinVerbs(Base):
+    __tablename__ = 'latin_verbs'
+
+    id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
+    base_word = Column(String, nullable=False)
+    base_word_acc = Column(String, nullable=False)
+    infinite = Column(String, nullable=False)
+    infinite_acc = Column(String, nullable=False)
+    perfect = Column(String, nullable=False)
+    perfect_acc = Column(String, nullable=False)
+    supine = Column(String)
+    supine_acc = Column(String)
+    additional_info = Column(Text)
+    conjugation = Column(String, ForeignKey(f'{LatinConjugations.__tablename__}.name'))
+
+    __table_args__ = (
+        UniqueConstraint('base_word_acc', 'infinite_acc', 'perfect_acc', 'supine_acc'),
+    )
+
+
+class LatinNouns(Base):
+    __tablename__ = 'latin_nouns'
+
+    id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
+    base = Column(String, nullable=False)
+    base_acc = Column(String, nullable=False)
+    gen = Column(String, nullable=False)
+    gen_acc = Column(String, nullable=False)
+    declension = Column(String, ForeignKey(f'{LatinDeclensions.__tablename__}.name'), nullable=False)
+    genre = Column(String, ForeignKey(f'{Genres.__tablename__}.name'), nullable=False)
+    only_pl = Column(String, nullable=False)
+
+    __table_args__ = (
+        UniqueConstraint('base_acc', 'gen_acc'),
+    )
+
+
+class LatinAdverbs(Base):
+    __tablename__ = 'latin_adverbs'
+
+    id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
+    base = Column(String, nullable=False)
+    base_acc = Column(String, unique=True, nullable=False)
+
+
+class LatinPrepositions(Base):
+    __tablename__ = 'latin_prepositions'
+
+    id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
+    base = Column(String, nullable=False)
+    base_acc = Column(String, unique=True, nullable=False)
+
+
+class LatinConjunctions(Base):
+    __tablename__ = 'latin_conjunctions'
+
+    id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
+    base = Column(String, nullable=False)
+    base_acc = Column(String, unique=True, nullable=False)
+
+
+class LatinPronouns(Base):
+    __tablename__ = 'latin_pronouns'
+
+    id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
+    base = Column(String, nullable=False)
+    base_acc = Column(String, unique=True, nullable=False)
+
+
+class LatinAdjectives(Base):
+    __tablename__ = 'latin_adjectives'
+
+    id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
+    masculinum = Column(String, nullable=False)
+    masculinum_acc = Column(String, nullable=False)
+    femininum = Column(String, nullable=False)
+    neutrum = Column(String, nullable=False)
+    femininum_acc = Column(String, nullable=False)
+    neutrum_acc = Column(String, nullable=False)
+
+    __table_args__ = (
+        UniqueConstraint('masculinum_acc', 'femininum_acc', 'neutrum_acc'),
+    )
 
 
 class TranslationResults(Base):
@@ -167,6 +167,7 @@ class TranslationResults(Base):
     user_answer = Column(Text, nullable=False)
     is_correct = Column(Text, nullable=False)
     time = Column(DateTime, nullable=False)
+
 
 # CREATE TABLE IF NOT EXISTS "translation_results" (
 # 	"id"	INTEGER,
@@ -183,7 +184,6 @@ class TranslationResults(Base):
 
 # Utility function to create views
 def create_views(engine):
-
     with engine.connect() as connection:
         ### words_with_translations
         connection.execute(text(f'''
