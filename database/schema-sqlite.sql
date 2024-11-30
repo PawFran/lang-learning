@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS "latin_verbs" (
 	FOREIGN KEY("id") REFERENCES "words"("id"),
 	FOREIGN KEY("conjugation") REFERENCES "latin_conjugations"("name")
 );
-CREATE TABLE IF NOT EXISTS "latin_translations" (
+CREATE TABLE IF NOT EXISTS "translations_from_latin" (
 	"id"	INTEGER NOT NULL UNIQUE,
 	"translation"	TEXT NOT NULL UNIQUE,
 	"example"	TEXT,
@@ -78,7 +78,7 @@ CREATE TABLE IF NOT EXISTS "latin_words_translations_mappings" (
 	PRIMARY KEY("id", AUTOINCREMENT),
 	UNIQUE("word_id", "translation_id", "part_of_speech"),
 	FOREIGN KEY("word_id") REFERENCES "words"("id"),
-    FOREIGN KEY("translation_id") REFERENCES "latin_translations"("id"),
+    FOREIGN KEY("translation_id") REFERENCES "translations_from_latin"("id"),
     FOREIGN KEY("part_of_speech") REFERENCES "parts_of_speech"("name")
 );
 CREATE TABLE IF NOT EXISTS "latin_adverbs" (
@@ -133,6 +133,19 @@ CREATE TABLE IF NOT EXISTS "translation_results" (
 	"time"	TEXT NOT NULL,
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
+
+--CREATE TABLE IF NOT EXISTS "translation_results" (
+--	"id"	INTEGER,
+--	"user"	TEXT NOT NULL,
+--	"session_id"	INTEGER NOT NULL,
+--	"from_lang"	TEXT NOT NULL,
+--	"to_lang"	TEXT NOT NULL,
+--	"from_word"	TEXT NOT NULL,
+--	"to_word"	TEXT NOT NULL,
+--	"user_answer"	TEXT NOT NULL,
+--	"time"	TEXT NOT NULL,
+--	PRIMARY KEY("id" AUTOINCREMENT)
+--);
 
  ### VIEWS ###
 create view words_with_translations as

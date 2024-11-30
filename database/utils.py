@@ -160,12 +160,12 @@ def insert_and_get_translation_ids(entry, session):
     translation_ids = []
     for t in entry.translations:
         # For each translation, upsert it
-        is_already_present = session.query(LatinTranslations).filter_by(translation=t).count() > 0
+        is_already_present = session.query(TranslationsFromLatin).filter_by(translation=t).count() > 0
         # print(is_already_present)
         if not is_already_present:
-            translation = LatinTranslations(translation=t, example=entry.example, associated_case=None)
+            translation = TranslationsFromLatin(translation=t, example=entry.example, associated_case=None)
             insert_or_ignore(session, translation)
 
             # Append the translation ID to the list
-            translation_ids.append(session.query(LatinTranslations).filter_by(translation=t).first().id)
+            translation_ids.append(session.query(TranslationsFromLatin).filter_by(translation=t).first().id)
     return translation_ids

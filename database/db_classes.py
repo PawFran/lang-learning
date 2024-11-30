@@ -44,7 +44,7 @@ class LatinWordsTranslationsMappings(Base):
 
     id = Column(Integer, primary_key=True)
     word_id = Column(Integer, ForeignKey('words.id'), nullable=False)
-    translation_id = Column(Integer, ForeignKey('latin_translations.id'), nullable=False)
+    translation_id = Column(Integer, ForeignKey('translations_from_latin.id'), nullable=False)
     part_of_speech = Column(String, ForeignKey('parts_of_speech.name'), nullable=False)
 
     __table_args__ = (
@@ -137,8 +137,8 @@ class LatinAdjectives(Base):
     )
 
 
-class LatinTranslations(Base):
-    __tablename__ = 'latin_translations'
+class TranslationsFromLatin(Base):
+    __tablename__ = 'translations_from_latin'
     id = Column(Integer, primary_key=True)
     translation = Column(Text, nullable=False, unique=True)
     example = Column(Text)
@@ -168,6 +168,18 @@ class TranslationResult(Base):
     is_correct = Column(Text, nullable=False)
     time = Column(DateTime, nullable=False)
 
+# CREATE TABLE IF NOT EXISTS "translation_results" (
+# 	"id"	INTEGER,
+# 	"user"	TEXT NOT NULL,
+# 	"session_id"	INTEGER NOT NULL,
+# 	"from_lang"	TEXT NOT NULL,
+# 	"to_lang"	TEXT NOT NULL,
+# 	"from_word"	TEXT NOT NULL,
+# 	"to_word"	TEXT NOT NULL,
+# 	"user_answer"	TEXT NOT NULL,
+# 	"time"	TEXT NOT NULL,
+# 	PRIMARY KEY("id" AUTOINCREMENT)
+# );
 
 # Utility function to create views
 def create_views(engine):
