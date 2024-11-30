@@ -137,8 +137,8 @@ class LatinAdjectives(Base):
     )
 
 
-class TranslationsFromLatin(Base):
-    __tablename__ = 'translations_from_latin'
+class Translations(Base):
+    __tablename__ = 'translations'
     id = Column(Integer, primary_key=True)
     translation = Column(Text, nullable=False, unique=True)
     example = Column(Text)
@@ -190,7 +190,7 @@ def create_views(engine):
             CREATE VIEW words_with_translations as
             select header, w.part_of_speech, translation, example, associated_case from {Words.__tablename__} w
             join {LatinWordsTranslationsMappings.__tablename__} m on w.id = m.word_id
-            join {TranslationsFromLatin.__tablename__} t on t.id = m.translation_id
+            join {Translations.__tablename__} t on t.id = m.translation_id
         '''))
 
         ### translation_correct_ratio
