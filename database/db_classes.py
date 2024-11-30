@@ -183,7 +183,7 @@ def create_views(engine):
         connection.execute(text(f'''
             CREATE VIEW translation_correct_ratio as
             select * from
-                (select word_pl, correct_translation, sum(correct) as correct, count(*) - sum(correct) as incorrect, round(sum(correct) / cast(count(*) as REAL) * 100, 0) as "correct %" FROM
+                (select word_pl, sum(correct) as correct, count(*) - sum(correct) as incorrect, round(sum(correct) / cast(count(*) as REAL) * 100, 0) as "correct %" FROM
                     (SELECT *,
                         CASE WHEN LOWER(is_correct) = 'true' THEN 1 ELSE 0 END AS correct
                     from {TranslationResults.__tablename__})
@@ -203,7 +203,7 @@ def create_views(engine):
         ### next_to_be_asked
         connection.execute(text(f'''
             create view next_to_be_asked as
-            select ratio.word_pl, correct_translation, last_asked, correct, incorrect, "correct %", ratio.idx as correct_idx, last_asked.idx as time_idx, ratio.idx + last_asked.idx as sum_idx
+            select ratio.word_pl, last_asked, correct, incorrect, "correct %", ratio.idx as correct_idx, last_asked.idx as time_idx, ratio.idx + last_asked.idx as sum_idx
             from ( 
                 select *, ROW_NUMBER() over (order by last_asked asc) as idx 
                 from translation_last_asked
