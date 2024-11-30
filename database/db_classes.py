@@ -200,7 +200,7 @@ def create_views(engine):
                 (select word_pl, correct_translation, sum(correct) as correct, count(*) - sum(correct) as incorrect, round(sum(correct) / cast(count(*) as REAL) * 100, 0) as "correct %" FROM
                     (SELECT *,
                         CASE WHEN LOWER(is_correct) = 'true' THEN 1 ELSE 0 END AS correct
-                    from translation_results)
+                    from {TranslationResults.__tablename__})
                 group by word_pl)
             order by "correct %" asc, incorrect desc, correct asc
         '''))
