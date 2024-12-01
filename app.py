@@ -1,13 +1,23 @@
+import os
+
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
+from sqlalchemy import create_engine
 
-from find_or_scrape_latin import find_or_scrape_words, SCRAPED_HEADER, find_or_scrape_sentence
-
+from database.db_classes import DB_FILE_NAME
+from database.migration_dictionary import add_words_with_translations
+from find_or_scrape_latin import find_or_scrape_words, SCRAPED_HEADER
+from vocabulary.lib.dict_classes import Dictionary
 from vocabulary.lib.parsing_dict import parse_latin_dict
 from vocabulary.lib.utils import DICT_DIR_PATH
 
 app = Flask(__name__)
 CORS(app)
+
+DB_DIR = 'database'
+DB_PATH = os.path.join(DB_DIR, DB_FILE_NAME)
+DATABASE = f'sqlite:///{DB_PATH}'
+engine = create_engine(DATABASE)
 
 
 @app.route('/')
@@ -103,23 +113,27 @@ def scrape():
     if len(words) == 0:
         words = [w for w in sentence.split(' ') if w != '']
 
-    response_text = find_or_scrape_words(words, example = sentence)
-
+    response_text = find_or_scrape_words(words, example=sentence)
     return jsonify({'response': response_text})
 
 
 @app.route('/dictionary', methods=['POST'])
 def add_to_dict():
     data = request.get_json()
-    raw_lines = data['data']
-    lines = [l + '\n' for l in raw_lines.split('\n') if l != '\n'] # to quickly reuse parsing function for files newline character must be preserved
-    start_from = lines.index(SCRAPED_HEADER) + 1 if SCRAPED_HEADER in lines else 0
+    raw_lines = data['data'].rstrip() + '\n'
+    lines = [l + '\n' for l in raw_lines.split('\n') if
+             l != '\n']  # to quickly reuse parsing function for files newline character must be preserved
+    start_from = lines.index(SCRAPED_HEADER) + 2 if SCRAPED_HEADER in lines else 0
     lines_to_be_parsed = lines[start_from:]
 
-    dict_to_be_added = parse_latin_dict(lines_to_be_parsed)
-    result = dict_to_be_added.save_to_file(DICT_DIR_PATH)
+    dict_to_be_added: Dictionary = parse_latin_dict(lines_to_be_parsed)
 
-    response_text = f'added to text dict:\n{result}'
+    saved_to_db = add_words_with_translations(dict_to_be_added, engine)
+    saved_to_file = dict_to_be_added.save_to_file(DICT_DIR_PATH)
+
+    result = f'saved to db: {saved_to_db}\nsaved to file: {saved_to_file}'
+
+    response_text = f'added to dict:\n{result}'
     return jsonify({'response': response_text})
 
 
