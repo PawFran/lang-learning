@@ -11,8 +11,11 @@ def migrate_dictionary(engine):
     dict_folder = os.path.join('..', 'vocabulary', 'dicts')
     dictionary: Dictionary = parse_dictionary(args, dictionary_folder=dict_folder)
 
-    words_not_migrated = 0
+    add_words_with_translations(dictionary, engine)
 
+
+def add_words_with_translations(dictionary, engine):
+    words_not_added = 0
     with Session(engine) as session:
         for entry in dictionary.entries:
             head = entry.head
@@ -31,11 +34,10 @@ def migrate_dictionary(engine):
             elif type(head) is LatinAdjective:
                 insert_or_ignore_latin_word(entry, adjective_from_head, session)
             else:
-                print(f'{entry.head.base} not migrated')
-                words_not_migrated += 1
-
-    if words_not_migrated > 0:
-        print(f'\n{words_not_migrated} words were not tried to be migrated')
+                print(f'{entry.head.base} not added')
+                words_not_added += 1
+    if words_not_added > 0:
+        print(f'\n{words_not_added} words were not tried to be added')
 
 
 if __name__ == '__main__':
