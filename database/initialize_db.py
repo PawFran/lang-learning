@@ -31,12 +31,18 @@ def remove_db():
         print(f'{DB_FILE_NAME} does not exist')
 
 
-if __name__ == '__main__':
-    remove_db()
+# def initializa(remove_all: bool, migrate_dictionary: bool, migrate_translation_results: bool):
+
+
+def initialize(remove_old: bool, dictionary_migration: bool, translation_results_migration: bool):
+    if remove_old:
+        remove_db()
 
     engine = create_engine(DATABASE)
+
     Base.metadata.create_all(engine)
     print('All tables created')
+
     create_views(engine)
     print('All views created')
 
@@ -45,11 +51,16 @@ if __name__ == '__main__':
         for t in tables_with_enums.keys():
             for x in tables_with_enums[t]:
                 conn.execute(text(f"""INSERT OR IGNORE INTO {t} (name) VALUES ('{x}')"""))
-
     print('All initial values inserted')
 
-    migrate_dictionary(engine)
-    print('dictionary migrated')
+    if dictionary_migration:
+        migrate_dictionary(engine)
+        print('dictionary migrated')
 
-    migrate_translation_results(engine)
-    print('translation results migrated')
+    if translation_results_migration:
+        migrate_translation_results(engine)
+        print('translation results migrated')
+
+
+if __name__ == '__main__':
+    initialize(remove_old=True, dictionary_migration=True, translation_results_migration=True)
