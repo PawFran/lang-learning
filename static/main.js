@@ -346,8 +346,9 @@ function startScraping(is_sentence = false) {
 }
 
 function addToDictionary() {
-    var output = document.getElementById('scrapeOutput').value;
-    console.log(output)
+    var output = document.getElementById('scrapeOutput');
+    var outputValue = output.value;
+    console.log(outputValue);
 
     // Send the output data to the /dictionary endpoint
     fetch('/dictionary', {
@@ -355,12 +356,14 @@ function addToDictionary() {
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ data: output })
+        body: JSON.stringify({ data: outputValue })
     })
     .then(response => response.json())
     .then(data => {
         console.log('Dictionary update response:', data);
-        output.textContent += "\n\n ### Output added to dictionary successfully. ### \n"
+        // Update the GUI
+        output.value = data.response;
+        output.scrollTop = output.scrollHeight; // Scroll to the bottom
     })
     .catch(error => {
         console.error('Error:', error);
