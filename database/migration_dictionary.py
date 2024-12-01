@@ -3,12 +3,11 @@ from sqlalchemy import create_engine
 from database.utils import *
 
 
-def migrate_dictionary(engine):
+def migrate_dictionary(engine, dict_folder):
     args = parse_args()
 
     args.language = 'latin'
 
-    dict_folder = os.path.join('..', 'vocabulary', 'dicts')
     dictionary: Dictionary = parse_dictionary(args, dictionary_folder=dict_folder)
 
     add_words_with_translations(dictionary, engine)
@@ -42,4 +41,5 @@ def add_words_with_translations(dictionary, engine):
 
 if __name__ == '__main__':
     engine = create_engine(DATABASE)
-    migrate_dictionary(engine)
+    dict_folder = os.path.join('..', 'vocabulary', 'dicts')
+    migrate_dictionary(engine, dict_folder)

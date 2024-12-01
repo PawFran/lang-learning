@@ -1,8 +1,12 @@
+import os
+import sys
 from datetime import datetime
 
 from sqlalchemy import create_engine
 
-from utils import *
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from database.utils import *
 
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 
@@ -21,9 +25,9 @@ def parse_translation_result_line(raw_line: str):
     )
 
 
-def migrate_translation_results(engine):
+def migrate_translation_results(engine, translation_results_dir: str):
     file_name = 'translation_exercise_results.csv'
-    path = os.path.join('..', 'vocabulary', 'db', file_name)
+    path = os.path.join(translation_results_dir, file_name)
     with open(path, encoding="utf8") as f:
         f.readline()  # skip header
         lines = f.readlines()
@@ -40,4 +44,5 @@ def migrate_translation_results(engine):
 
 if __name__ == '__main__':
     engine = create_engine(DATABASE)
-    migrate_translation_results(engine)
+    translation_results_dir = os.path.join('..', 'vocabulary', 'db')
+    migrate_translation_results(engine, translation_results_dir)

@@ -5,6 +5,7 @@ from flask_cors import CORS
 from sqlalchemy import create_engine
 
 from database.db_classes import DB_FILE_NAME
+from database.initialize_db import initialize_database
 from database.migration_dictionary import add_words_with_translations
 from find_or_scrape_latin import find_or_scrape_words, SCRAPED_HEADER
 from vocabulary.lib.dict_classes import Dictionary
@@ -136,4 +137,15 @@ def add_to_dict():
 
 
 if __name__ == '__main__':
+    # Flask's development server uses a reloading mechanism.
+    # This mechanism starts a child process to handle the actual running of the server,
+    # which causes the __main__ block to execute twice: once in the parent process and once in the child process.
+    # this if is to assure it will be run once
+    if os.environ.get('WERKZEUG_RUN_MAIN') == 'true':
+        # This block will only be executed in the child process
+        print('initializing db')
+        dict_folder = os.path.join('vocabulary', 'dicts')
+        translation_results_dir = os.path.join('vocabulary', 'db')
+        initialize_database(db_path=DB_PATH, remove_old=True, dictionary_migration=True, translation_results_migration=True,
+                            dictionary_folder=dict_folder, translation_results_folder=translation_results_dir)
     app.run(debug=True)
