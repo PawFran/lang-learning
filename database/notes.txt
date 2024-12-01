@@ -4,7 +4,13 @@ translation musi by brane z bazy a nie z pliku - wiele tlumaczen moze byc popraw
 obecne translation results moze byc przez to niepoprawne - da sie to jeszcze poprawic
 ale przez zastosowanie skrótów (w stylu 'vaco 1' moze to byc trudne - nie ma sensu)
 
-zastanowic sie jeszcze nad widokami next to be asked in correct ratio - czy expected answer brac z tabeli reuslts ? czy z words ? po co to sie tam pokazuje ?
+w scraped results zwracac tez info o not found, cannot parsed etc.
+
+gdyby do kazdego slowa w slowniku trzymac cala odmiane pomogloby to wyszukiwaniu
+
+w przyszlosci mozna by do zdania wypisywac wszystkie formy
+i odpytywac od rozne formy
+dla danego slowa zwracac jaka to forma
 
 dokonczyc next to be asked - chociaz moze nie ma sensu definiowac widoku bo to trzeba wyliczac w locie pod zastosowaniu filtra
 
