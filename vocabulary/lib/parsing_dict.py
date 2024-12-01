@@ -37,10 +37,10 @@ def parse_example(example_raw):
 def parse_translation(translation_raw):
     try:
         end = re.search('[1-9]+', translation_raw).end()
-        translation_raw[end + 1:].strip()
+        return translation_raw[end + 1:].strip()
     except Exception as e:
         print(f'error parsing {translation_raw}: {e}')
-    return None
+        return None
 
 
 def parse_single_group_of_lines(single_group_of_lines):
