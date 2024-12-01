@@ -34,7 +34,7 @@ def remove_db():
 # def initializa(remove_all: bool, migrate_dictionary: bool, migrate_translation_results: bool):
 
 
-def initialize(remove_old: bool, dictionary_migration: bool, translation_results_migration: bool):
+def initialize_database(remove_old: bool, dictionary_migration: bool, translation_results_migration: bool):
     if remove_old:
         remove_db()
 
@@ -63,4 +63,4 @@ def initialize(remove_old: bool, dictionary_migration: bool, translation_results
 
 
 if __name__ == '__main__':
-    initialize(remove_old=True, dictionary_migration=True, translation_results_migration=True)
+    initialize_database(remove_old=True, dictionary_migration=True, translation_results_migration=True)
