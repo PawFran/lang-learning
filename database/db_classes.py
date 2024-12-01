@@ -163,6 +163,7 @@ class TranslationResults(Base):
     session_id = Column(Integer, nullable=False)
     lang = Column(Text, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)
     word_pl = Column(Integer, ForeignKey(f'{Translations.__tablename__}.id'), nullable=False)
+    expected_answer = Column(Text, nullable=False) # needs to be here - cannot take it from Words in view because some words may be added later and were not available during translations - to the result will be fdifferent
     user_answer = Column(Text, nullable=False)
     is_correct = Column(Text, nullable=False) # needs to be store here, logic is to complex to calculate it in sql view
     time = Column(DateTime, nullable=False)
@@ -183,7 +184,7 @@ def create_views(engine):
         connection.execute(text(f'''
             CREATE VIEW translation_correct_ratio as
             select * from
-                (select word_pl, sum(correct) as correct, count(*) - sum(correct) as incorrect, round(sum(correct) / cast(count(*) as REAL) * 100, 0) as "correct %" FROM
+                (select word_pl, expected_answer, sum(correct) as correct, count(*) - sum(correct) as incorrect, round(sum(correct) / cast(count(*) as REAL) * 100, 0) as "correct %" FROM
                     (SELECT *,
                         CASE WHEN LOWER(is_correct) = 'true' THEN 1 ELSE 0 END AS correct
                     from {TranslationResults.__tablename__})
@@ -203,7 +204,7 @@ def create_views(engine):
         ### next_to_be_asked
         connection.execute(text(f'''
             create view next_to_be_asked as
-            select ratio.word_pl, last_asked, correct, incorrect, "correct %", ratio.idx as correct_idx, last_asked.idx as time_idx, ratio.idx + last_asked.idx as sum_idx
+            select ratio.word_pl, expected_answer, last_asked, correct, incorrect, "correct %", ratio.idx as correct_idx, last_asked.idx as time_idx, ratio.idx + last_asked.idx as sum_idx
             from ( 
                 select *, ROW_NUMBER() over (order by last_asked asc) as idx 
                 from translation_last_asked

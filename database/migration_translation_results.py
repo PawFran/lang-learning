@@ -14,6 +14,7 @@ def parse_translation_result_line(raw_line: str):
         session_id=split[1],
         lang=split[2],
         word_pl=split[3],
+        expected_answer=split[4],
         user_answer=split[5],
         is_correct=split[6],
         time=datetime.strptime(split[7].strip(), DATE_FORMAT)

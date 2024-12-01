@@ -2,6 +2,9 @@ TODO
 
 translation musi by brane z bazy a nie z pliku - wiele tlumaczen moze byc poprawnych
 obecne translation results moze byc przez to niepoprawne - da sie to jeszcze poprawic
+ale przez zastosowanie skrótów (w stylu 'vaco 1' moze to byc trudne - nie ma sensu)
+
+zastanowic sie jeszcze nad widokami next to be asked in correct ratio - czy expected answer brac z tabeli reuslts ? czy z words ? po co to sie tam pokazuje ?
 
 dokonczyc next to be asked - chociaz moze nie ma sensu definiowac widoku bo to trzeba wyliczac w locie pod zastosowaniu filtra
 
@@ -9,10 +12,5 @@ migracja associated case
 
 word_pl nie jest unikalne - ale to powinno byc ok.. ?
 przemyslec to, ze jedno slowo moze miec wiele tlumaczen, i jedno tlumaczenie moze miec wiele slow
-
-
-translation results powinno miec foreign key do words
-na razie moze byc w.header = t.correct_translation
-docelowo lepiej poprawic skrypt migracyjny ?
 
 do przymiotnikow dodac info o typie (I/II czy III koniugacja, ilosc zakonczen (1/2/3)) - moze sie przydac do statystyk ?
