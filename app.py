@@ -128,12 +128,10 @@ def add_to_dict():
 
     dict_to_be_added: Dictionary = parse_latin_dict(lines_to_be_parsed)
 
-    saved_to_db = add_words_with_translations(dict_to_be_added, engine)
+    add_words_with_translations(dict_to_be_added, engine)
     saved_to_file = dict_to_be_added.save_to_file(DICT_DIR_PATH)
 
-    result = f'saved to db: {saved_to_db}\nsaved to file: {saved_to_file}'
-
-    response_text = f'added to dict:\n{result}'
+    response_text = f'saved to file: {saved_to_file}'
     return jsonify({'response': response_text})
 
 

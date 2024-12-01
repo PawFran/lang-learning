@@ -340,7 +340,6 @@ function startScraping(is_sentence = false) {
         output.readOnly = false;
     })
     .catch(error => {
-        console.error('Error:', error);
         output.textContent += "Failed to process command.\n";
         output.readOnly = false; // Make the textarea editable even if there is an error
     });
@@ -348,6 +347,7 @@ function startScraping(is_sentence = false) {
 
 function addToDictionary() {
     var output = document.getElementById('scrapeOutput').value;
+    console.log(output)
 
     // Send the output data to the /dictionary endpoint
     fetch('/dictionary', {
