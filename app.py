@@ -31,7 +31,7 @@ def start_translation_session():
     data = request.get_json()
     start = data['start'].strip()
     end = data['end'].strip()
-    response_text = f"Starting session with start word {start} end word {end}"
+    response_text = f"Starting session with start word: {start} and end word: {end}"
     print(response_text)
     return jsonify({'response': response_text})
 
