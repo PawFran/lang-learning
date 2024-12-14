@@ -14,7 +14,7 @@
         <label for="console">Translation Console</label>
         <div id="console" class="console">
             <div id="consoleOutputTranslation" class="console-output"></div>
-            <input type="text" id="consoleInputTranslation" placeholder="Enter command" onkeydown="if (event.keyCode == 13) sendTranslation();" disabled>
+            <input type="text" id="consoleInputTranslation" placeholder="Enter command" onkeydown="if (event.key === 'Enter') sendTranslation();" disabled>
         </div>
     </div>
 </div>
