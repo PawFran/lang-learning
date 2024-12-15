@@ -5,6 +5,8 @@ dorobic inne exercise - zarowno baza jak i plik. dodac migracje
 wyswietlic caly slownik z filtrami
 dodac tabele odmian
 
+przy starcie aplikacji dodac finish na wszystkich cwiczeniach
+
 translation musi by brane z bazy a nie z pliku - wiele tlumaczen moze byc poprawnych
 obecne translation results moze byc przez to niepoprawne - da sie to jeszcze poprawic
 ale przez zastosowanie skrótów (w stylu 'vaco 1' moze to byc trudne - nie ma sensu)
