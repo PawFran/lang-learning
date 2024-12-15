@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from sqlalchemy import create_engine
 
-from actions.translation import start_session
+from actions.translation import start_translation_exercise_session
 from database.db_classes import DB_FILE_NAME
 from database.initialize_db import initialize_database
 from database.migration_dictionary import add_words_with_translations
@@ -32,7 +32,7 @@ def start_translation_session():
     data = request.get_json()
     start = data['start'].strip()
     end = data['end'].strip()
-    start_session(start_word=start, end_word=end, engine=engine)
+    start_translation_exercise_session(start_word=start, end_word=end, engine=engine)
     response_text = f"Starting session with start word: {start} and end word: {end}"
     print(response_text)
     return jsonify({'response': response_text})

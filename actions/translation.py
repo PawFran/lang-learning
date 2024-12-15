@@ -6,7 +6,7 @@ from common.lib.utils import replace_special
 from database.db_classes import *
 
 
-def start_session(start_word: str, end_word: str, engine: Engine):
+def start_translation_exercise_session(start_word: str, end_word: str, engine: Engine):
     with Session(engine) as session:
         clear_cache_table(session)
 
