@@ -7,20 +7,23 @@ from database.db_classes import *
 
 
 def start_session(start_word: str, end_word: str, engine: Engine):
-    # clear cache -> get words (headers) -> base -> replace special -> start / end -> filter original words ->
-    # -> use view words with translations with this filter -> create temp table for current translation session
-
     with Session(engine) as session:
-        session.query(TranslationExerciseCurrentSession).delete()
-        session.commit()
+        clear_cache_table(session)
 
-    with Session(engine) as session:
-        words = session.query(Words).all()
+        words_for_current_session = get_words_for_current_session(session, start_word=start_word, end_word=end_word)
+
+        # only one user is allowed with current approach
+        insert_words_into_cache_table(session, words_for_current_session)
+
+    return None
+
+
+def get_words_for_current_session(session, start_word, end_word):
+    words = session.query(Words).all()
 
     base_form = lambda w: w.header.split(',')[0].rstrip()
     base_simple_form = compose(replace_special, base_form)
     simple_word_with_id = lambda w: (w.id, base_simple_form(w))
-
     bases_simple_form = [simple_word_with_id(w) for w in words]
 
     start = find_first(bases_simple_form, start_word)
@@ -28,18 +31,22 @@ def start_session(start_word: str, end_word: str, engine: Engine):
 
     query: text = query_for_start_end(start_id=start[0], end_id=end[0])
 
-    with Session(engine) as session:
-        words_for_current_session = session.execute(query).fetchall()
+    words_for_current_session = session.execute(query).fetchall()
 
-        for word in words_for_current_session:
-            # only one user is allowed with current approach
-            session.add(TranslationExerciseCurrentSession(
-                id=word[0], header=word[1], part_of_speech=word[2],
-                translation=word[3], example=word[4], associated_case=word[5]))
+    return words_for_current_session
 
-        session.commit()
 
-    return None
+def insert_words_into_cache_table(session, words_for_current_session):
+    for word in words_for_current_session:
+        session.add(TranslationExerciseCurrentSession(
+            id=word[0], header=word[1], part_of_speech=word[2],
+            translation=word[3], example=word[4], associated_case=word[5]))
+    session.commit()
+
+
+def clear_cache_table(session):
+    session.query(TranslationExerciseCurrentSession).delete()
+    session.commit()
 
 
 def query_for_start_end(start_id, end_id) -> text:
