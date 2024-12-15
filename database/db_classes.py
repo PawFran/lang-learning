@@ -169,16 +169,31 @@ class TranslationResults(Base):
     time = Column(DateTime, nullable=False)
 
 
+class TranslationExerciseCurrentSession(Base):
+    __tablename__ = 'translation_exercise_current_session'
+
+    id = Column(Integer, primary_key=True)  # no autoincrement
+    header = Column(Text, nullable=False) # TODO FK to words ?
+    part_of_speech = Column(String, ForeignKey(f'{PartsOfSpeech.__tablename__}.name'), nullable=False)
+    translation = Column(Text, nullable=False) # TODO FK to translations ?
+    example = Column(Text)
+    associated_case = Column(Text)
+
+
+### VIEWS
+create_view_statement = 'CREATE VIEW words_with_translations as'
+
+view_words_with_translations_select = f'''
+            select w.id, header, w.part_of_speech, translation, example, associated_case from {Words.__tablename__} w
+            join {LatinWordsTranslationsMappings.__tablename__} m on w.id = m.word_id
+            join {Translations.__tablename__} t on t.id = m.translation_id
+        '''
+
 # Utility function to create views
 def create_views(engine):
     with engine.connect() as connection:
         ### words_with_translations
-        connection.execute(text(f'''
-            CREATE VIEW words_with_translations as
-            select header, w.part_of_speech, translation, example, associated_case from {Words.__tablename__} w
-            join {LatinWordsTranslationsMappings.__tablename__} m on w.id = m.word_id
-            join {Translations.__tablename__} t on t.id = m.translation_id
-        '''))
+        connection.execute(text(create_view_statement + '\n' + view_words_with_translations_select))
 
         ### translation_correct_ratio
         connection.execute(text(f'''
