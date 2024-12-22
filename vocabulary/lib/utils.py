@@ -2,7 +2,6 @@ import os
 import re
 
 from common.lib.utils import weak_equals, replace_special
-from conjugation.lib.conjugation_classes import ConjugationType
 from vocabulary.lib.dict_classes import LatinVerb, LatinAdjective
 
 DICT_DIR_PATH = os.path.join('vocabulary', 'dicts')
