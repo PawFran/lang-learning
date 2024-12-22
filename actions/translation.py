@@ -68,7 +68,7 @@ def clear_cache_table(session: Session):
 
 
 def remove_from_cache(record_id: int, session: Session):
-    session.query(TranslationExerciseCurrentSession).filter(id=record_id).delete()
+    session.query(TranslationExerciseCurrentSession).filter_by(id=record_id).delete()
     session.commit()
 
 
@@ -111,7 +111,7 @@ def check_translation_answer(answer, session) -> TranslationFeedback:
     part_of_speech = result[2]
     result_id = result[3]  # for another method to remove this row if necessary
 
-    header_with_part_of_speech = correct_answer + [f'{part_of_speech}']
+    header_with_part_of_speech = correct_answer + f' [{part_of_speech}]'
 
     verdict = compare_answer_with_full_head_raw(entry_head=header_with_part_of_speech, answer=answer)
 
