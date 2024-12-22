@@ -1,8 +1,9 @@
-import re
 import os
+import re
+
 from common.lib.utils import weak_equals
-from vocabulary.lib.dict_classes import LatinVerb, LatinAdjective
 from conjugation.lib.conjugation_classes import ConjugationType
+from vocabulary.lib.dict_classes import LatinVerb, LatinAdjective
 
 DICT_DIR_PATH = os.path.join('vocabulary', 'dicts')
 
@@ -40,39 +41,39 @@ def all_elements_equal_ending_shortcut(original, to_compare, shortcut_pattern) -
         return weak_equals(original[0], to_compare[0]) and all_elements_equal(shortcut_pattern, to_compare[1:])
 
 
-def all_elements_equal_number_shortcut(original, to_compare, shortcut_number) -> bool:
+def equality_number_shortcut(original, to_compare, shortcut_number) -> bool:
     if len(to_compare) != 2:
         return False
     else:
         return weak_equals(original[0], to_compare[0]) and all_elements_equal(shortcut_number, to_compare[1])
 
 
-def all_elements_equal_verb_ending_shortcut(original, to_compare) -> bool:
+def equality_verb_ending_shortcut(original, to_compare) -> bool:
     shortcut_pattern = ['āre', 'āvi', 'ātum']
     return all_elements_equal_ending_shortcut(original, to_compare, shortcut_pattern)
 
 
-def all_elements_equal_verb_number_shortcut(original, to_compare) -> bool:
+def equality_verb_number_shortcut(original, to_compare) -> bool:
     shortcut_number = '1'
-    return all_elements_equal_number_shortcut(original, to_compare, shortcut_number)
+    return equality_number_shortcut(original, to_compare, shortcut_number)
 
 
-def all_elements_equal_adjective_ending_shortcut(original, to_compare) -> bool:
+def equality_adjective_ending_shortcut(original, to_compare) -> bool:
     adj_pattern = ['a', 'um']
     return all_elements_equal_ending_shortcut(original, to_compare, adj_pattern)
 
 
-def all_elements_equal_adjective_number_shortcut(original, to_compare) -> bool:
+def equality_adjective_number_shortcut(original, to_compare) -> bool:
     shortcut_number = '3'
-    return all_elements_equal_number_shortcut(original, to_compare, shortcut_number)
+    return equality_number_shortcut(original, to_compare, shortcut_number)
 
 
-verb_shortcuts = compose_with_or(all_elements_equal, all_elements_equal_verb_ending_shortcut,
-                                 all_elements_equal_verb_number_shortcut)
+verb_shortcuts = compose_with_or(all_elements_equal, equality_verb_ending_shortcut,
+                                 equality_verb_number_shortcut)
 
-adjective_ending_shortcuts = compose_with_or(all_elements_equal, all_elements_equal_adjective_ending_shortcut)
+adjective_ending_shortcuts = compose_with_or(all_elements_equal, equality_adjective_ending_shortcut)
 
-adjective_number_shortcuts = compose_with_or(all_elements_equal, all_elements_equal_adjective_number_shortcut)
+adjective_number_shortcuts = compose_with_or(all_elements_equal, equality_adjective_number_shortcut)
 
 
 def all_forms_are_the_same(forms: [str]) -> bool:
