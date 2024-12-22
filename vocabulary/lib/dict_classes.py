@@ -5,7 +5,7 @@ from numpy.random import default_rng
 
 from common.lib.utils import flatten
 from common.lib.utils import weak_equals
-from vocabulary.lib.db import *
+from vocabulary.lib.file_db import *
 import re
 import os
 from conjugation.lib.conjugation_classes import ConjugationType

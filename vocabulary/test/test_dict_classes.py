@@ -2,7 +2,7 @@ from datetime import timedelta
 
 import pytest
 
-import vocabulary.lib.db
+import vocabulary.lib.file_db
 from vocabulary.lib.dict_classes import *
 
 

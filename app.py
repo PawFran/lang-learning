@@ -8,7 +8,7 @@ from database.db_classes import DB_FILE_NAME
 from database.initialize_db import initialize_database
 from database.migration_dictionary import add_words_with_translations
 from find_or_scrape_latin import find_or_scrape_words, SCRAPED_HEADER
-from vocabulary.lib.db import TranslationExerciseCSVHandler
+from vocabulary.lib.file_db import TranslationExerciseCSVHandler
 from vocabulary.lib.dict_classes import Dictionary
 from vocabulary.lib.parsing_dict import parse_latin_dict
 from vocabulary.lib.utils import DICT_DIR_PATH

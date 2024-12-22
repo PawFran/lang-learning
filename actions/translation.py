@@ -8,7 +8,7 @@ from toolz import compose
 from common.lib.utils import replace_special
 from database.db_classes import *
 from database.utils import insert_or_ignore
-from vocabulary.lib.db import TranslationExerciseCSVHandler
+from vocabulary.lib.file_db import TranslationExerciseCSVHandler
 from vocabulary.lib.utils import compare_answer_with_full_head_raw
 
 TRANSLATION_EXERCISE_CSV_LOG_FILE = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
