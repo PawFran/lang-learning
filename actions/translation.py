@@ -61,8 +61,13 @@ def insert_words_into_cache_table(session, words_for_current_session):
     session.commit()
 
 
-def clear_cache_table(session):
+def clear_cache_table(session: Session):
     session.query(TranslationExerciseCurrentSession).delete()
+    session.commit()
+
+
+def remove_from_cache(record_id: int, session: Session):
+    session.query(TranslationExerciseCurrentSession).filter(id=record_id).delete()
     session.commit()
 
 
@@ -89,6 +94,7 @@ class TranslationFeedback:
     user_answer: str
     correct_answer: str
     example: str
+    word_id: int
 
 
 def check_translation_answer(answer, session) -> TranslationFeedback:
@@ -96,10 +102,13 @@ def check_translation_answer(answer, session) -> TranslationFeedback:
     # check if answer matches any of them (weak equals cannot be easily implemented in sqlalchemy - or maybe it can ?)
     # return ok/nok and correct translation (even if ok for the sake of special characters)
     result = session.query(TranslationExerciseCurrentSession.header,
-                           TranslationExerciseCurrentSession.example).filter_by(is_active=1).first()
+                           TranslationExerciseCurrentSession.example,
+                           TranslationExerciseCurrentSession.id).filter_by(is_active=1).first()
     correct_answer = result[0]
     example = result[1]
+    result_id = result[2] # for another method to remove this row if necessary
 
     verdict = compare_answer_with_full_head_raw(entry_head=correct_answer, answer=answer)
 
-    return TranslationFeedback(is_correct=verdict, user_answer=answer, correct_answer=correct_answer, example=example)
+    return TranslationFeedback(is_correct=verdict, user_answer=answer, correct_answer=correct_answer, example=example,
+                               word_id=result_id)
