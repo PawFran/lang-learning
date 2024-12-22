@@ -70,10 +70,10 @@ def check_translation():
     if feedback.example is not None and feedback.example != '':
         response_text += f'({feedback.example})\n'
 
-    # TODO zalogowanie odpowiedzi. wpisanie rezultatu na bazę i do pliku
+    # TODO wpisanie rezultatu na bazę i do pliku
 
     if new_word is None:
-        response_text += 'no more words for this session'
+        response_text += '\nno more words for this session'
         # todo trigger finish ? maybe it should be structured differently
         # todo response should be divided between feedback and info about next word (or finish)
         # todo and appropriate logic should be applied on the client side

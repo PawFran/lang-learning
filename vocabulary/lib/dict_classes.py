@@ -219,7 +219,8 @@ class LatinAdjective(AbstractWord):
 
     @staticmethod
     def is_adjective(dict_entry_head):
-        return '[adj]' in dict_entry_head.lower()
+        head_lower = dict_entry_head.lower()
+        return '[adj]' in head_lower or '[adjective]' in head_lower
 
     @staticmethod
     def from_entry_head(head):

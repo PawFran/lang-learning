@@ -1,5 +1,7 @@
 TODO
 
+dodac czyszczenie konsoli przy start/finish
+
 translation_exercise - z bazy
 dorobic inne exercise - zarowno baza jak i plik. dodac migracje
 wyswietlic caly slownik z filtrami
