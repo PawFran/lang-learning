@@ -6,6 +6,7 @@ from toolz import compose
 
 from common.lib.utils import replace_special, weak_equals
 from database.db_classes import *
+from vocabulary.lib.utils import compare_answer_with_full_head_raw
 
 
 def start_translation_exercise_session(start_word: str, end_word: str, session: Session):
@@ -24,7 +25,6 @@ def random_word_for_cache(session: Session) -> str | None:
     # if cache is empty return None
     record = session.query(TranslationExerciseCurrentSession.id, TranslationExerciseCurrentSession.translation) \
         .order_by(func.random()).first()
-    # record = session.query(TranslationExerciseCurrentSession.id).order_by(func.random()).first()
     if record is not None:
         row_id, word = record[0], record[1]
         session.query(TranslationExerciseCurrentSession).filter_by(id=row_id) \
@@ -100,6 +100,6 @@ def check_translation_answer(answer, session) -> TranslationFeedback:
     correct_answer = result[0]
     example = result[1]
 
-    verdict = weak_equals(answer, correct_answer)
+    verdict = compare_answer_with_full_head_raw(entry_head=correct_answer, answer=answer)
 
     return TranslationFeedback(is_correct=verdict, user_answer=answer, correct_answer=correct_answer, example=example)
