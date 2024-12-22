@@ -19,5 +19,9 @@ def weak_equals(a, b, case_sensitive=False) -> bool:
     return replace_special(a).strip() == replace_special(b).strip()
 
 
+def weak_in(a, lst, case_sensitive=False) -> bool:
+    return any([weak_equals(a, b, case_sensitive) for b in lst])
+
+
 def flatten(lst):
     return [item for sublist in lst for item in sublist]
