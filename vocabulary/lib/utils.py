@@ -34,7 +34,7 @@ def compose_with_or(*functions):
     return composed_function
 
 
-def all_elements_equal_ending_shortcut(original, to_compare, shortcut_pattern) -> bool:
+def equality_ending_shortcut(original, to_compare, shortcut_pattern) -> bool:
     if len(original) != len(to_compare):
         return False
     else:
@@ -50,7 +50,13 @@ def equality_number_shortcut(original, to_compare, shortcut_number) -> bool:
 
 def equality_verb_ending_shortcut(original, to_compare) -> bool:
     shortcut_pattern = ['āre', 'āvi', 'ātum']
-    return all_elements_equal_ending_shortcut(original, to_compare, shortcut_pattern)
+    return equality_ending_shortcut(original, to_compare, shortcut_pattern)
+
+
+# TODO for later
+# def equality_noun_ending_shortcut(original, to_compare) -> bool:
+#     shortcut_pattern = ['ae']
+#     return equality_ending_shortcut(original, to_compare, shortcut_pattern)
 
 
 def equality_verb_number_shortcut(original, to_compare) -> bool:
@@ -60,7 +66,7 @@ def equality_verb_number_shortcut(original, to_compare) -> bool:
 
 def equality_adjective_ending_shortcut(original, to_compare) -> bool:
     adj_pattern = ['a', 'um']
-    return all_elements_equal_ending_shortcut(original, to_compare, adj_pattern)
+    return equality_ending_shortcut(original, to_compare, adj_pattern)
 
 
 def equality_adjective_number_shortcut(original, to_compare) -> bool:
@@ -87,8 +93,8 @@ def ending_are_avi_atum(forms: [str]) -> bool:
     forms_simplified = [replace_special(s).strip() for s in forms]
 
     return forms_simplified[1].endswith('are') and \
-           forms_simplified[2].endswith('avi') and \
-           forms_simplified[3].endswith('atum')
+        forms_simplified[2].endswith('avi') and \
+        forms_simplified[3].endswith('atum')
 
 
 def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
