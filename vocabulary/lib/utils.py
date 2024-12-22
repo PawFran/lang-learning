@@ -26,40 +26,11 @@ def adjective_first_and_second_declension(adj):
     return weak_equals(adj_as_list[1][-1], 'a') and weak_equals(adj_as_list[2][-2:], 'um')
 
 
-def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
-    """
-    apart from normal weak comparison a few shortcuts are possible
-    after first conjugation verb both are ok:
-        * typing ending 'āre, āvi, ātum'
-        * typing '1'
-    after adjective of 1/2 declension 'a, um' is ok
-    after adjective with three endings typing ending '3' is ok
-    """
+def compose_with_or(*functions):
+    def composed_function(*args, **kwargs):
+        return any(f(*args, **kwargs) for f in functions)
 
-    original_as_list = to_list_no_metadata(entry_head)
-    answer_as_list = to_list_no_metadata(answer)
-
-    if LatinVerb.is_verb(entry_head):
-        if LatinVerb.which_conjugation(entry_head) is ConjugationType.I:
-            return (all_elements_equal(original_as_list, answer_as_list) or
-                    all_elements_equal_verb_ending_shortcut(original_as_list, answer_as_list) or
-                    all_elements_equal_verb_number_shortcut(original_as_list, answer_as_list))
-        else:
-            return all_elements_equal(original_as_list, answer_as_list)
-    elif LatinAdjective.is_adjective(entry_head) and len(answer_as_list) == 3:
-        if adjective_first_and_second_declension(entry_head):
-            return (all_elements_equal(original_as_list, answer_as_list) or
-                    all_elements_equal_adjective_ending_shortcut(original_as_list, answer_as_list))
-        else:
-            return all_elements_equal(original_as_list, answer_as_list)
-    elif LatinAdjective.is_adjective(entry_head):
-        if len(set(original_as_list)) == 1:  # that is all entries are the same
-            return (all_elements_equal(original_as_list, answer_as_list) or
-                    all_elements_equal_adjective_number_shortcut(original_as_list, answer_as_list))
-        else:
-            return all_elements_equal(original_as_list, answer_as_list)
-    else:
-        return all_elements_equal(original_as_list, answer_as_list)
+    return composed_function
 
 
 def all_elements_equal_ending_shortcut(original, to_compare, shortcut_pattern) -> bool:
@@ -94,3 +65,39 @@ def all_elements_equal_adjective_ending_shortcut(original, to_compare) -> bool:
 def all_elements_equal_adjective_number_shortcut(original, to_compare) -> bool:
     shortcut_number = '3'
     return all_elements_equal_number_shortcut(original, to_compare, shortcut_number)
+
+
+verb_shortcuts = compose_with_or(all_elements_equal, all_elements_equal_verb_ending_shortcut,
+                                 all_elements_equal_verb_number_shortcut)
+
+adjective_ending_shortcuts = compose_with_or(all_elements_equal, all_elements_equal_adjective_ending_shortcut)
+
+adjective_number_shortcuts = compose_with_or(all_elements_equal, all_elements_equal_adjective_number_shortcut)
+
+
+def all_forms_are_the_same(forms: [str]) -> bool:
+    return len(set(forms)) == 1
+
+
+def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
+    """
+    apart from normal weak comparison a few shortcuts are possible
+    after first conjugation verb both are ok:
+        * typing ending 'āre, āvi, ātum'
+        * typing '1'
+    after adjective of 1/2 declension 'a, um' is ok
+    after adjective with three endings typing ending '3' is ok
+    """
+
+    original_as_list = to_list_no_metadata(entry_head)
+    answer_as_list = to_list_no_metadata(answer)
+
+    if LatinVerb.is_verb(entry_head) and LatinVerb.which_conjugation(entry_head) is ConjugationType.I:
+        return verb_shortcuts(original_as_list, answer_as_list)
+    elif LatinAdjective.is_adjective(entry_head) and len(answer_as_list) == 3 and adjective_first_and_second_declension(
+            entry_head):
+        return adjective_ending_shortcuts(original_as_list, answer_as_list)
+    elif LatinAdjective.is_adjective(entry_head) and all_forms_are_the_same(original_as_list):
+        return adjective_number_shortcuts(original_as_list, answer_as_list)
+    else:
+        return all_elements_equal(original_as_list, answer_as_list)
