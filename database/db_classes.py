@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint, event, Boolean
 from sqlalchemy import Text, text, DateTime
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import Session
 
 DB_FILE_NAME = 'lang_learning.sqlite'
 DATABASE = f'sqlite:///{DB_FILE_NAME}'
@@ -182,20 +183,18 @@ class TranslationExerciseCurrentSession(Base):
     is_active = Column(Boolean, default=False, nullable=False)  # New column to track active row
 
 
-# Enforce only one active row using an event listener
 @event.listens_for(TranslationExerciseCurrentSession, "before_insert")
 @event.listens_for(TranslationExerciseCurrentSession, "before_update")
 def enforce_one_active(mapper, connection, target):
     if target.is_active:  # If the row being inserted/updated is set as active
-        # Set is_active = False for all other rows in the table
-        connection.execute(
-            f"""
-                UPDATE {TranslationExerciseCurrentSession.__tablename__}
-                SET is_active = FALSE
-                WHERE id != :id
-                """,
-            {"id": target.id or -1}  # Use -1 for new rows where id is not yet set
-        )
+        session = Session(bind=connection)  # Create a session for executing ORM operations
+
+        # Set is_active = False for all other rows
+        session.query(TranslationExerciseCurrentSession).filter(
+            TranslationExerciseCurrentSession.id != target.id
+        ).update({"is_active": False})
+
+        session.commit()  # Commit changes to the database
 
 
 ### VIEWS
