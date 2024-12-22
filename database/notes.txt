@@ -6,7 +6,10 @@ wyswietlic caly slownik z filtrami
 dodac tabele odmian
 
 translation musi by brane z bazy a nie z pliku - wiele tlumaczen moze byc poprawnych
-obecne translation results moze byc przez to niepoprawne - da sie to jeszcze poprawic
+mozliwosc podawania wiecej niz jednego tlumaczenia. jak to obsluzyc ? co jesli sa dwa a poda sie jedno ? usunac je z listy ?
+wtedy za drugim razem jest juz tylko jedno a mialo tak nie byc....
+
+btw. obecne translation results moze byc przez to niepoprawne - da sie to jeszcze poprawic
 ale przez zastosowanie skrótów (w stylu 'vaco 1' moze to byc trudne - nie ma sensu)
 
 przy starcie aplikacji dodac finish na wszystkich cwiczeniach

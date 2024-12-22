@@ -99,7 +99,7 @@ function sendTranslation() {
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ translation: consoleValue, word: "example (to be implemented)" })
+        body: JSON.stringify({ answer: consoleValue })
 
     })
     .then(response => response.json())

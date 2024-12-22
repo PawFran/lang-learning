@@ -45,6 +45,7 @@ def start_translation_session():
 
 @app.route('/finish_translation_session', methods=['POST'])
 def finish_translation_session():
+    # todo clear cache
     response_text = f"Session finished"
     return jsonify({'response': response_text})
 
@@ -52,11 +53,27 @@ def finish_translation_session():
 @app.route('/translation', methods=['POST'])
 def check_translation():
     data = request.get_json()
-    word = data['word']
-    translation = data['translation']
-    check_translation_answer(word, translation)
-    # todo add word to guess
-    response_text = f"System will check if {translation} is correct translation for {word}"
+    answer = data['answer']
+    with Session(engine) as session:
+        feedback: TranslationFeedback = check_translation_answer(answer, session)
+        new_word = random_word_for_cache(session)
+
+    if feedback.is_correct:
+        response_text = f"correct "
+    else:
+        response_text = f"wrong. correct answer is \"{feedback.correct_answer}\""
+
+    if feedback.example is not None and feedback.example != '':
+        response_text += f'({feedback.example})\n'
+
+    if new_word is None:
+        response_text += 'no more words for this session'
+        # todo trigger finish ? maybe it should be structured differently
+        # todo response should be divided between feedback and info about next word (or finish)
+        # todo and appropriate logic should be applied on the client side
+    else:
+        response_text += f'\n\n{new_word}'
+
     return jsonify({'response': response_text})
 
 

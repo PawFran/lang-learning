@@ -1,7 +1,10 @@
+from dataclasses import dataclass
+
+from sqlalchemy import func
 from sqlalchemy.orm import Session
 from toolz import compose
 
-from common.lib.utils import replace_special
+from common.lib.utils import replace_special, weak_equals
 from database.db_classes import *
 
 
@@ -17,9 +20,11 @@ def start_translation_exercise_session(start_word: str, end_word: str, session: 
 
 
 def random_word_for_cache(session: Session) -> str | None:
-    # random translation (ideally with priorities taken into account)
+    # random translation (ideally with priorities taken into account - but this one is for later)
     # if cache is empty return None
-    record = session.query(TranslationExerciseCurrentSession.id, TranslationExerciseCurrentSession.translation).first()
+    record = session.query(TranslationExerciseCurrentSession.id, TranslationExerciseCurrentSession.translation) \
+        .order_by(func.random()).first()
+    # record = session.query(TranslationExerciseCurrentSession.id).order_by(func.random()).first()
     if record is not None:
         row_id, word = record[0], record[1]
         session.query(TranslationExerciseCurrentSession).filter_by(id=row_id) \
@@ -76,3 +81,25 @@ def query_for_start_end(start_id, end_id) -> text:
 
 def find_first(all_words, word):
     return next((t for t in all_words if t[1] == word), None)
+
+
+@dataclass
+class TranslationFeedback:
+    is_correct: bool
+    user_answer: str
+    correct_answer: str
+    example: str
+
+
+def check_translation_answer(answer, session) -> TranslationFeedback:
+    # get all active rows
+    # check if answer matches any of them (weak equals cannot be easily implemented in sqlalchemy - or maybe it can ?)
+    # return ok/nok and correct translation (even if ok for the sake of special characters)
+    result = session.query(TranslationExerciseCurrentSession.header,
+                           TranslationExerciseCurrentSession.example).filter_by(is_active=1).first()
+    correct_answer = result[0]
+    example = result[1]
+
+    verdict = weak_equals(answer, correct_answer)
+
+    return TranslationFeedback(is_correct=verdict, user_answer=answer, correct_answer=correct_answer, example=example)
