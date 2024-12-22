@@ -60,10 +60,12 @@ def check_translation():
             remove_from_cache(feedback.word_id, session)
         new_word = random_word_for_cache(session)
 
+    response_text = f'{answer}\n'
+
     if feedback.is_correct:
-        response_text = f"correct "
+        response_text += f"correct "
     else:
-        response_text = f"wrong. correct answer is \"{feedback.correct_answer}\""
+        response_text += f"wrong. correct answer is \"{feedback.correct_answer}\""
 
     if feedback.example is not None and feedback.example != '':
         response_text += f'({feedback.example})\n'
