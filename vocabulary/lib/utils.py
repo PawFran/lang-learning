@@ -36,34 +36,6 @@ def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
     after adjective with three endings typing ending '3' is ok
     """
 
-    def all_elements_equal_ending_shortcut(original, to_compare, shortcut_pattern) -> bool:
-        if len(original) != len(to_compare):
-            return False
-        else:
-            return weak_equals(original[0], to_compare[0]) and all_elements_equal(shortcut_pattern, to_compare[1:])
-
-    def all_elements_equal_number_shortcut(original, to_compare, shortcut_number) -> bool:
-        if len(to_compare) != 2:
-            return False
-        else:
-            return weak_equals(original[0], to_compare[0]) and all_elements_equal(shortcut_number, to_compare[1])
-
-    def all_elements_equal_verb_ending_shortcut(original, to_compare) -> bool:
-        shortcut_pattern = ['āre', 'āvi', 'ātum']
-        return all_elements_equal_ending_shortcut(original, to_compare, shortcut_pattern)
-
-    def all_elements_equal_verb_number_shortcut(original, to_compare) -> bool:
-        shortcut_number = '1'
-        return all_elements_equal_number_shortcut(original, to_compare, shortcut_number)
-
-    def all_elements_equal_adjective_ending_shortcut(original, to_compare) -> bool:
-        adj_pattern = ['a', 'um']
-        return all_elements_equal_ending_shortcut(original, to_compare, adj_pattern)
-
-    def all_elements_equal_adjective_number_shortcut(original, to_compare) -> bool:
-        shortcut_number = '3'
-        return all_elements_equal_number_shortcut(original, to_compare, shortcut_number)
-
     original_as_list = to_list_no_metadata(entry_head)
     answer_as_list = to_list_no_metadata(answer)
 
@@ -88,3 +60,37 @@ def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
             return all_elements_equal(original_as_list, answer_as_list)
     else:
         return all_elements_equal(original_as_list, answer_as_list)
+
+
+def all_elements_equal_ending_shortcut(original, to_compare, shortcut_pattern) -> bool:
+    if len(original) != len(to_compare):
+        return False
+    else:
+        return weak_equals(original[0], to_compare[0]) and all_elements_equal(shortcut_pattern, to_compare[1:])
+
+
+def all_elements_equal_number_shortcut(original, to_compare, shortcut_number) -> bool:
+    if len(to_compare) != 2:
+        return False
+    else:
+        return weak_equals(original[0], to_compare[0]) and all_elements_equal(shortcut_number, to_compare[1])
+
+
+def all_elements_equal_verb_ending_shortcut(original, to_compare) -> bool:
+    shortcut_pattern = ['āre', 'āvi', 'ātum']
+    return all_elements_equal_ending_shortcut(original, to_compare, shortcut_pattern)
+
+
+def all_elements_equal_verb_number_shortcut(original, to_compare) -> bool:
+    shortcut_number = '1'
+    return all_elements_equal_number_shortcut(original, to_compare, shortcut_number)
+
+
+def all_elements_equal_adjective_ending_shortcut(original, to_compare) -> bool:
+    adj_pattern = ['a', 'um']
+    return all_elements_equal_ending_shortcut(original, to_compare, adj_pattern)
+
+
+def all_elements_equal_adjective_number_shortcut(original, to_compare) -> bool:
+    shortcut_number = '3'
+    return all_elements_equal_number_shortcut(original, to_compare, shortcut_number)
