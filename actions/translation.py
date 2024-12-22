@@ -1,13 +1,14 @@
+import os
 from dataclasses import dataclass
 
 from sqlalchemy import func
-from sqlalchemy.orm import Session
 from toolz import compose
 
-from common.lib.utils import replace_special, weak_equals
+from common.lib.utils import replace_special
 from database.db_classes import *
-from database.initialize_db import parts_of_speech
 from vocabulary.lib.utils import compare_answer_with_full_head_raw
+
+TRANSLATION_EXERCISE_CSV_LOG_FILE = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
 
 
 def start_translation_exercise_session(start_word: str, end_word: str, session: Session):
@@ -102,6 +103,7 @@ def check_translation_answer(answer, session) -> TranslationFeedback:
     # get all active rows
     # check if answer matches any of them (weak equals cannot be easily implemented in sqlalchemy - or maybe it can ?)
     # return ok/nok and correct translation (even if ok for the sake of special characters)
+    # save results to csv and db
     result = session.query(TranslationExerciseCurrentSession.header,
                            TranslationExerciseCurrentSession.example,
                            TranslationExerciseCurrentSession.part_of_speech,

@@ -1,6 +1,7 @@
+from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE
+from common.lib.utils import DEFAULT_USER_NAME
 from vocabulary.lib.parsing_dict import *
 from vocabulary.lib.utils import compare_answer_with_full_head_raw
-from common.lib.utils import DEFAULT_USER_NAME
 
 # todo option to take only a number or percentage of the words ranked highest (in terms of probability)
 
@@ -20,8 +21,7 @@ if __name__ == '__main__':
     if args.filter is not None:
         dictionary = dictionary.filter_by_complex_condition(args.filter)
 
-    db_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
-    db_handler = TranslationExerciseDBHandler(db_path, args.user_name)
+    db_handler = TranslationExerciseDBHandler(TRANSLATION_EXERCISE_CSV_LOG_FILE, args.user_name)
 
     rng = default_rng()
 

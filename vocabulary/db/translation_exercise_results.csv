@@ -1852,3 +1852,13 @@ default_user;53;latin;więc, w związku z tym;ĭtă ;;False;2024-10-24 20:32:30
 default_user;53;latin;ząb;dens, dentis ;dens dentis;True;2024-10-24 20:32:35
 default_user;54;latin;dziwny, zadziwiający, niezwykły;admīrābĭlis, admirabilis, admirabile ;admirabilis admirabilis admirabile;True;2024-10-31 22:52:48
 default_user;54;latin;urodzony;nātus, nată, natum ;;False;2024-10-31 22:52:51
+default_user;55;latin;do wewnątrz, do środka;introrsus ;introrsus;True;2024-12-22 19:09:51
+default_user;55;latin;sprytny;astŭtus, astută, astutum ;astutus a um;True;2024-12-22 19:09:57
+default_user;55;latin;wejść;intro, intrāre, intrāvī, intrātum ;intro 1;True;2024-12-22 19:10:02
+default_user;55;latin;na zewnątrz;fŏrās ;foras;True;2024-12-22 19:10:05
+default_user;55;latin;zwierzę;ănĭmăl, animalis ;animal animali;False;2024-12-22 19:10:09
+default_user;55;latin;lew;lĕo, leonis ;leo leonis;True;2024-12-22 19:10:14
+default_user;55;latin;mały lis;vulpēcŭla, vulpeculae ;vulpecula vulpeculae;True;2024-12-22 19:10:19
+default_user;55;latin;zwierzę;ănĭmăl, animalis ;animal animalis;True;2024-12-22 19:10:23
+default_user;55;latin;ślad;vestīgĭum, vestigii ;vestigium vestigii;True;2024-12-22 19:10:28
+default_user;55;latin;jaskinia;spēlunca, speluncae ;spelunca speluncae;True;2024-12-22 19:10:35
