@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint
+from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint, event, Boolean
 from sqlalchemy import Text, text, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 
@@ -163,9 +163,10 @@ class TranslationResults(Base):
     session_id = Column(Integer, nullable=False)
     lang = Column(Text, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)
     word_pl = Column(Integer, ForeignKey(f'{Translations.__tablename__}.id'), nullable=False)
-    expected_answer = Column(Text, nullable=False) # needs to be here - cannot take it from Words in view because some words may be added later and were not available during translations - to the result will be fdifferent
+    expected_answer = Column(Text,
+                             nullable=False)  # needs to be here - cannot take it from Words in view because some words may be added later and were not available during translations - to the result will be fdifferent
     user_answer = Column(Text, nullable=False)
-    is_correct = Column(Text, nullable=False) # needs to be store here, logic is to complex to calculate it in sql view
+    is_correct = Column(Text, nullable=False)  # needs to be store here, logic is to complex to calculate it in sql view
     time = Column(DateTime, nullable=False)
 
 
@@ -173,11 +174,28 @@ class TranslationExerciseCurrentSession(Base):
     __tablename__ = 'translation_exercise_current_session'
 
     id = Column(Integer, primary_key=True)  # no autoincrement
-    header = Column(Text, nullable=False) # TODO FK to words ?
+    header = Column(Text, nullable=False)  # TODO FK to words ?
     part_of_speech = Column(String, ForeignKey(f'{PartsOfSpeech.__tablename__}.name'), nullable=False)
-    translation = Column(Text, nullable=False) # TODO FK to translations ?
+    translation = Column(Text, nullable=False)  # TODO FK to translations ?
     example = Column(Text)
     associated_case = Column(Text)
+    is_active = Column(Boolean, default=False, nullable=False)  # New column to track active row
+
+
+# Enforce only one active row using an event listener
+@event.listens_for(TranslationExerciseCurrentSession, "before_insert")
+@event.listens_for(TranslationExerciseCurrentSession, "before_update")
+def enforce_one_active(mapper, connection, target):
+    if target.is_active:  # If the row being inserted/updated is set as active
+        # Set is_active = False for all other rows in the table
+        connection.execute(
+            f"""
+                UPDATE {TranslationExerciseCurrentSession.__tablename__}
+                SET is_active = FALSE
+                WHERE id != :id
+                """,
+            {"id": target.id or -1}  # Use -1 for new rows where id is not yet set
+        )
 
 
 ### VIEWS
@@ -188,6 +206,7 @@ view_words_with_translations_select = f'''
             join {LatinWordsTranslationsMappings.__tablename__} m on w.id = m.word_id
             join {Translations.__tablename__} t on t.id = m.translation_id
         '''
+
 
 # Utility function to create views
 def create_views(engine):

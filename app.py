@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from sqlalchemy import create_engine
 
-from actions.translation import start_translation_exercise_session
+from actions.translation import *
 from database.db_classes import DB_FILE_NAME
 from database.initialize_db import initialize_database
 from database.migration_dictionary import add_words_with_translations
@@ -32,8 +32,13 @@ def start_translation_session():
     data = request.get_json()
     start = data['start'].strip()
     end = data['end'].strip()
-    start_translation_exercise_session(start_word=start, end_word=end, engine=engine)
-    response_text = f"Starting session with start word: {start} and end word: {end}"
+    with Session(engine) as session:
+        words_cnt = start_translation_exercise_session(start_word=start, end_word=end, session=session)
+        if words_cnt > 0:
+            word = random_word_for_cache(session)
+            response_text = f"Starting session with start word: \"{start}\" and end word: \"{end}\". Number of words: {words_cnt}\n\n{word}"
+        else:
+            response_text = f"Trying to start session with start word: \"{start}\" and end word: \"{end}\" - but no words found!"
     print(response_text)
     return jsonify({'response': response_text})
 
@@ -49,6 +54,8 @@ def check_translation():
     data = request.get_json()
     word = data['word']
     translation = data['translation']
+    check_translation_answer(word, translation)
+    # todo add word to guess
     response_text = f"System will check if {translation} is correct translation for {word}"
     return jsonify({'response': response_text})
 
@@ -148,6 +155,7 @@ if __name__ == '__main__':
         print('initializing db')
         dict_folder = os.path.join('vocabulary', 'dicts')
         translation_results_dir = os.path.join('vocabulary', 'db')
-        initialize_database(db_path=DB_PATH, remove_old=True, dictionary_migration=True, translation_results_migration=True,
+        initialize_database(db_path=DB_PATH, remove_old=True, dictionary_migration=True,
+                            translation_results_migration=True,
                             dictionary_folder=dict_folder, translation_results_folder=translation_results_dir)
     app.run(debug=True)

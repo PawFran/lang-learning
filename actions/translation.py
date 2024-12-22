@@ -1,4 +1,3 @@
-from sqlalchemy import Engine
 from sqlalchemy.orm import Session
 from toolz import compose
 
@@ -6,16 +5,29 @@ from common.lib.utils import replace_special
 from database.db_classes import *
 
 
-def start_translation_exercise_session(start_word: str, end_word: str, engine: Engine):
-    with Session(engine) as session:
-        clear_cache_table(session)
+def start_translation_exercise_session(start_word: str, end_word: str, session: Session):
+    clear_cache_table(session)
 
-        words_for_current_session = get_words_for_current_session(session, start_word=start_word, end_word=end_word)
+    words_for_current_session = get_words_for_current_session(session, start_word=start_word, end_word=end_word)
 
-        # only one user is allowed with current approach
-        insert_words_into_cache_table(session, words_for_current_session)
+    # only one user is allowed with current approach
+    insert_words_into_cache_table(session, words_for_current_session)
 
-    return None
+    return len(words_for_current_session)
+
+
+def random_word_for_cache(session: Session) -> str | None:
+    # random translation (ideally with priorities taken into account)
+    # if cache is empty return None
+    record = session.query(TranslationExerciseCurrentSession.id, TranslationExerciseCurrentSession.translation).first()
+    if record is not None:
+        row_id, word = record[0], record[1]
+        session.query(TranslationExerciseCurrentSession).filter_by(id=row_id) \
+            .update({TranslationExerciseCurrentSession.is_active: 1})
+        session.commit()
+        return word
+    else:
+        return None
 
 
 def get_words_for_current_session(session, start_word, end_word):
