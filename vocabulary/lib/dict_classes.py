@@ -500,7 +500,7 @@ class Dictionary:
         return DictEntryWithSingleTranslationHighlighted(entries[0], word_pl)
 
     # some statistical tests ?
-    def smart_random_dict_entry_with_translation(self, db_hadler: TranslationExerciseDBHandler, user: str, n_times=5,
+    def smart_random_dict_entry_with_translation(self, db_hadler: TranslationExerciseCSVHandler, user: str, n_times=5,
                                                  rng=default_rng()) -> DictEntryWithSingleTranslationHighlighted:
 
         translation_record = db_hadler.get().query('user == @user and lang == @self.lang').drop(['user', 'lang'],

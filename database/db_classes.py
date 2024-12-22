@@ -3,6 +3,8 @@ from sqlalchemy import Text, text, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
 
+from common.lib.utils import DEFAULT_USER_NAME
+
 DB_FILE_NAME = 'lang_learning.sqlite'
 DATABASE = f'sqlite:///{DB_FILE_NAME}'
 
@@ -181,6 +183,8 @@ class TranslationExerciseCurrentSession(Base):
     example = Column(Text)
     associated_case = Column(Text)
     is_active = Column(Boolean, default=False, nullable=False)  # New column to track active row
+    user_name = Column(Text, default=DEFAULT_USER_NAME, nullable=False)
+    session_id = Column(Integer, nullable=False) # now always the same, but will make sense for multiple users
 
 
 @event.listens_for(TranslationExerciseCurrentSession, "before_insert")

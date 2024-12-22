@@ -1,25 +1,45 @@
 import os
 from dataclasses import dataclass
+from datetime import datetime as dt
 
-from sqlalchemy import func
+from sqlalchemy import func, desc
 from toolz import compose
 
 from common.lib.utils import replace_special
 from database.db_classes import *
+from database.utils import insert_or_ignore
+from vocabulary.lib.db import TranslationExerciseCSVHandler
 from vocabulary.lib.utils import compare_answer_with_full_head_raw
 
 TRANSLATION_EXERCISE_CSV_LOG_FILE = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
+DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
 
 
-def start_translation_exercise_session(start_word: str, end_word: str, session: Session):
+@dataclass
+class SessionMetadata:
+    word_count: int
+    session_id: int
+
+
+def start_translation_exercise_session(start_word: str, end_word: str, session: Session) -> SessionMetadata:
     clear_cache_table(session)
 
     words_for_current_session = get_words_for_current_session(session, start_word=start_word, end_word=end_word)
+    new_session_id = get_session_id(session)  # for now only for default user
 
     # only one user is allowed with current approach
-    insert_words_into_cache_table(session, words_for_current_session)
+    setup_cache_table(session, words_for_current_session, new_session_id)
 
-    return len(words_for_current_session)
+    return SessionMetadata(len(words_for_current_session), new_session_id)
+
+
+def get_session_id(session: Session) -> int:
+    old_session_id = session.query(TranslationResults.session_id) \
+        .order_by(desc(TranslationResults.session_id)).first()[0]
+
+    new_session_id = 1 if old_session_id is None else old_session_id + 1
+
+    return new_session_id
 
 
 def random_word_for_cache(session: Session) -> str | None:
@@ -55,11 +75,13 @@ def get_words_for_current_session(session, start_word, end_word):
     return words_for_current_session
 
 
-def insert_words_into_cache_table(session, words_for_current_session):
+def setup_cache_table(session: Session, words_for_current_session: [str], new_session_id: int):
     for word in words_for_current_session:
         session.add(TranslationExerciseCurrentSession(
             id=word[0], header=word[1], part_of_speech=word[2],
-            translation=word[3], example=word[4], associated_case=word[5]))
+            translation=word[3], example=word[4], associated_case=word[5],
+            session_id=new_session_id)
+        )
     session.commit()
 
 
@@ -92,11 +114,14 @@ def find_first(all_words, word):
 
 @dataclass
 class TranslationFeedback:
-    is_correct: bool
+    word_id: int
+    word_pl: str
+    example: str
     user_answer: str
     correct_answer: str
-    example: str
-    word_id: int
+    is_correct: bool
+    user_name: str
+    session_id: int
 
 
 def check_translation_answer(answer, session) -> TranslationFeedback:
@@ -107,15 +132,37 @@ def check_translation_answer(answer, session) -> TranslationFeedback:
     result = session.query(TranslationExerciseCurrentSession.header,
                            TranslationExerciseCurrentSession.example,
                            TranslationExerciseCurrentSession.part_of_speech,
-                           TranslationExerciseCurrentSession.id).filter_by(is_active=1).first()
+                           TranslationExerciseCurrentSession.translation,
+                           TranslationExerciseCurrentSession.id,
+                           TranslationExerciseCurrentSession.user_name,
+                           TranslationExerciseCurrentSession.session_id).filter_by(is_active=1).first()
     correct_answer = result[0]
     example = result[1]
     part_of_speech = result[2]
-    result_id = result[3]  # for another method to remove this row if necessary
+    word_pl = result[3]
+    result_id = result[4]  # for another method to remove this row if necessary
+    user_name = result[5]
+    session_id = result[6]
 
     header_with_part_of_speech = correct_answer + f' [{part_of_speech}]'
 
     verdict = compare_answer_with_full_head_raw(entry_head=header_with_part_of_speech, answer=answer)
 
-    return TranslationFeedback(is_correct=verdict, user_answer=answer, correct_answer=correct_answer, example=example,
-                               word_id=result_id)
+    return TranslationFeedback(word_id=result_id, word_pl=word_pl, example=example,
+                               user_answer=answer, correct_answer=correct_answer, is_correct=verdict,
+                               user_name=user_name, session_id=session_id)
+
+
+def update_log_csv_file(translation_result: TranslationFeedback, csv_handler: TranslationExerciseCSVHandler):
+    csv_handler.update_db(user=DEFAULT_USER_NAME, word_pl=translation_result.word_pl,
+                         lang='latin', translation=translation_result.correct_answer,
+                         was_correct=translation_result.is_correct, user_answer=translation_result.user_answer)
+
+
+def update_translation_result_db(feedback: TranslationFeedback, session: Session):
+    translation_result = TranslationResults(user=feedback.user_name, session_id=feedback.session_id, lang='latin',
+                                            word_pl=feedback.word_pl, expected_answer=feedback.correct_answer,
+                                            user_answer=feedback.user_answer, is_correct=feedback.is_correct,
+                                            time=dt.now().replace(microsecond=0))
+
+    insert_or_ignore(session, translation_result)

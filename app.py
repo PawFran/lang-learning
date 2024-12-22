@@ -1,14 +1,14 @@
-import os
-
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from sqlalchemy import create_engine
 
 from actions.translation import *
+from common.lib.utils import DEFAULT_USER_NAME
 from database.db_classes import DB_FILE_NAME
 from database.initialize_db import initialize_database
 from database.migration_dictionary import add_words_with_translations
 from find_or_scrape_latin import find_or_scrape_words, SCRAPED_HEADER
+from vocabulary.lib.db import TranslationExerciseCSVHandler
 from vocabulary.lib.dict_classes import Dictionary
 from vocabulary.lib.parsing_dict import parse_latin_dict
 from vocabulary.lib.utils import DICT_DIR_PATH
@@ -20,6 +20,8 @@ DB_DIR = 'database'
 DB_PATH = os.path.join(DB_DIR, DB_FILE_NAME)
 DATABASE = f'sqlite:///{DB_PATH}'
 engine = create_engine(DATABASE)
+
+LOG_CSV_HANDLER = TranslationExerciseCSVHandler(TRANSLATION_EXERCISE_CSV_LOG_FILE, DEFAULT_USER_NAME)
 
 
 @app.route('/')
@@ -33,7 +35,8 @@ def start_translation_session():
     start = data['start'].strip()
     end = data['end'].strip()
     with Session(engine) as session:
-        words_cnt = start_translation_exercise_session(start_word=start, end_word=end, session=session)
+        session_metadata = start_translation_exercise_session(start_word=start, end_word=end, session=session)
+        words_cnt = session_metadata.word_count
         if words_cnt > 0:
             word = random_word_for_cache(session)
             response_text = f"Starting session with start word: \"{start}\" and end word: \"{end}\". Number of words: {words_cnt}\n\n{word}"
@@ -70,7 +73,8 @@ def check_translation():
     if feedback.example is not None and feedback.example != '':
         response_text += f'({feedback.example})\n'
 
-    # TODO wpisanie rezultatu na bazę i do pliku
+    update_log_csv_file(feedback, LOG_CSV_HANDLER)
+    update_translation_result_db(feedback, session)
 
     if new_word is None:
         response_text += '\nno more words for this session'

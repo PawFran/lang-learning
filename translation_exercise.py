@@ -21,7 +21,7 @@ if __name__ == '__main__':
     if args.filter is not None:
         dictionary = dictionary.filter_by_complex_condition(args.filter)
 
-    db_handler = TranslationExerciseDBHandler(TRANSLATION_EXERCISE_CSV_LOG_FILE, args.user_name)
+    db_handler = TranslationExerciseCSVHandler(TRANSLATION_EXERCISE_CSV_LOG_FILE, args.user_name)
 
     rng = default_rng()
 
