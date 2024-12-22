@@ -23,7 +23,7 @@ function openSubTab(evt, subTabName) {
 // Add to handle default open tab or open specific tab on load
 document.addEventListener("DOMContentLoaded", function() {
 //    document.querySelector('.tablink').click(); // Clicks the first tablink to open
-    document.querySelector('button[onclick="openTab(event, \'Scraping\')"]').click(); // Selects the Scraping tab by default
+    document.querySelector('button[onclick="openTab(event, \'Translation\')"]').click(); // Selects the Scraping tab by default
 });
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('button[onclick="openSubTab(event, \'Conjugations\')"]').click(); // Selects the Conjugations subtab by default
