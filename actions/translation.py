@@ -6,6 +6,7 @@ from toolz import compose
 
 from common.lib.utils import replace_special, weak_equals
 from database.db_classes import *
+from database.initialize_db import parts_of_speech
 from vocabulary.lib.utils import compare_answer_with_full_head_raw
 
 
@@ -103,12 +104,16 @@ def check_translation_answer(answer, session) -> TranslationFeedback:
     # return ok/nok and correct translation (even if ok for the sake of special characters)
     result = session.query(TranslationExerciseCurrentSession.header,
                            TranslationExerciseCurrentSession.example,
+                           TranslationExerciseCurrentSession.part_of_speech,
                            TranslationExerciseCurrentSession.id).filter_by(is_active=1).first()
     correct_answer = result[0]
     example = result[1]
-    result_id = result[2] # for another method to remove this row if necessary
+    part_of_speech = result[2]
+    result_id = result[3]  # for another method to remove this row if necessary
 
-    verdict = compare_answer_with_full_head_raw(entry_head=correct_answer, answer=answer)
+    header_with_part_of_speech = correct_answer + [f'{part_of_speech}']
+
+    verdict = compare_answer_with_full_head_raw(entry_head=header_with_part_of_speech, answer=answer)
 
     return TranslationFeedback(is_correct=verdict, user_answer=answer, correct_answer=correct_answer, example=example,
                                word_id=result_id)

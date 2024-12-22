@@ -1,7 +1,7 @@
 import os
 import re
 
-from common.lib.utils import weak_equals
+from common.lib.utils import weak_equals, replace_special
 from conjugation.lib.conjugation_classes import ConjugationType
 from vocabulary.lib.dict_classes import LatinVerb, LatinAdjective
 
@@ -80,6 +80,17 @@ def all_forms_are_the_same(forms: [str]) -> bool:
     return len(set(forms)) == 1
 
 
+def ending_are_avi_atum(forms: [str]) -> bool:
+    if len(forms) != 4:
+        return False
+
+    forms_simplified = [replace_special(s).strip() for s in forms]
+
+    return forms_simplified[1].endswith('are') and \
+           forms_simplified[2].endswith('avi') and \
+           forms_simplified[3].endswith('atum')
+
+
 def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
     """
     apart from normal weak comparison a few shortcuts are possible
@@ -93,7 +104,7 @@ def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
     original_as_list = to_list_no_metadata(entry_head)
     answer_as_list = to_list_no_metadata(answer)
 
-    if LatinVerb.is_verb(entry_head) and LatinVerb.which_conjugation(entry_head) is ConjugationType.I:
+    if LatinVerb.is_verb(entry_head) and ending_are_avi_atum(original_as_list):
         return verb_shortcuts(original_as_list, answer_as_list)
     elif LatinAdjective.is_adjective(entry_head) and len(answer_as_list) == 3 and adjective_first_and_second_declension(
             entry_head):
