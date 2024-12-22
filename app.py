@@ -63,7 +63,7 @@ def check_translation():
     response_text = f'{answer}\n'
 
     if feedback.is_correct:
-        response_text += f"correct "
+        response_text += f"correct ({feedback.correct_answer})"
     else:
         response_text += f"wrong. correct answer is \"{feedback.correct_answer}\""
 
