@@ -56,6 +56,8 @@ def check_translation():
     answer = data['answer']
     with Session(engine) as session:
         feedback: TranslationFeedback = check_translation_answer(answer, session)
+        if feedback.is_correct:
+            remove_from_cache(feedback.word_id, session)
         new_word = random_word_for_cache(session)
 
     if feedback.is_correct:
