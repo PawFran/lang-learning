@@ -1273,7 +1273,7 @@ fācundus, facundă, facundum [adj]
 1. wymowny
 
 ăd [prep]
-()
+(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
 1. do, w kierunku (+ acc)
 
 tandem [adv]
@@ -1314,7 +1314,7 @@ spēlunca, speluncae [noun] [f] [I]
 1. jaskinia
 
 intro, intrāre, intrāvī, intrātum [verb] [I]
-()
+(Aliquando specum remotum inveni ibique intravi)
 1. wejść
 
 ănĭmăl, animalis [noun] [n] [III]
@@ -2838,6 +2838,7 @@ sĕcundum [adv]
 nĕque [adv]
 (Secundum Varronem Romani non hastam ipsam neque caduceum miserunt)
 1. ani, ani nie
+2. nie, i nie, nawet nie
 
 tessĕra, tesserae [noun] [f] [I]
 (Romani duas terras, in quarum altera caducei, in altera hastae simulacra erant)
@@ -2913,8 +2914,9 @@ lux, lucis [noun] [f] [III]
 1. światło, światło dzienne
 
 cōgo, cōgĕre, coegi, coactum [verb] [III]
-(Vilica ancillas ad laborem prima luce cogebat)
+(Vilica ancillas ad laborem prima luce cogebat. Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
 1. zbierać, gromadzić
+2. zmusić, doprowadzać (do jakiegoś stanu)
 
 dĭūturnus, diuturnă, diuturnum [adj]
 (Ancillae diuturno labore fatigatae erant)
@@ -3519,3 +3521,80 @@ obtĭnĕo, obtĭnēre, obtinui, obtentum [verb] [II]
 (Dominus meus provinciam Africam proconsulari imperio obtinebat)
 1. utrzymywać, zachowywać
 2. mieć, dzierżyć, sprawować
+
+ăb (ā, ābs, aps) [prep]
+(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
+1. (strona bierna) przez (+ abl)
+2. (czas) od (+ abl)
+
+ille [pron]
+(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
+1. tamten, ów
+
+ĭnīquus, iniquă, iniquum [adj]
+(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
+1. niesprawiedliwy, nieuczciwy
+
+cōtīdĭānus, cotidiană, cotidianum [adj]
+(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
+1. codzienny
+2. zwykły, normalny
+
+fŭga, fugae [noun] [f] [I]
+(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
+1. ucieczka
+2. wygnanie
+
+campus, campi [noun] [m] [II]
+(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
+1. równina
+
+ărēna, arenae [noun] [f] [I]
+(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
+1. piasek
+2. piaszczysta ziemia lub pustynia
+3. arena, miejsce zawodów
+
+sōlĭtūdo, solitudinis [noun] [f] [III]
+(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
+1. samotność, osamotnienie
+
+concēdo, concēdĕre, concessi, concessum [verb] [III]
+(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
+1. zrzec się, zrezygnować, przyznać się
+2. odejść (odejść do = ustąpić w (niech to będzie później notatką))
+3. poddać się, pozwolić, zezwolić, zaakceptować
+
+spĕcŭs, specūs [noun] [m] [IV]
+(Aliquando specum remotum inveni ibique intravi)
+1. jaskinia, grota
+
+rĕmōtus, remotă, remotum [adj]
+(Aliquando specum remotum inveni ibique intravi)
+1. odległy, daleki
+2. usunięty, wycofany
+
+multō [adv]
+(Neque multo post ad eundem specum venit hic leo cruento pede)
+1. dużo
+
+post [prep]
+()
+1. (lokalizacja) z tyłu
+2. (czas) po
+
+post [adv]
+(Neque multo post ad eundem specum venit hic leo cruento pede)
+1. za, później, po
+
+hīc [pron]
+(Neque multo post ad eundem specum venit hic leo cruento pede)
+1. ten tutaj, ten oto
+
+crŭentus, cruentă, cruentum [adj]
+(Neque multo post ad eundem specum venit hic leo cruento pede)
+1. krwawy, krwawiący
+
+pēs, pedis [noun] [m] [III]
+(Neque multo post ad eundem specum venit hic leo cruento pede)
+1. stopa

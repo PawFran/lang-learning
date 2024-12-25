@@ -1,6 +1,49 @@
 TODO
 
+sprawdzic czy uda sie dodac to:
+-, verberis [noun] [n] [anomalous]
+(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
+1. bicz
+2. chłosta, bicie
+
 dodac czyszczenie konsoli przy start/finish
+
+dodac opcjonalne notatki do slow (w bazie i pliku)
+patrz drugie tlumaczenie do "concessi"
+
+dark mode w aplikacji web
+
+podpiecie chatgpt o1 pod intellij ?
+
+dodac do rules odmiany, m.in.
+https://lacina.globalnie.com.pl/zaimki-wskazujace-lacina/
+
+scrape - zaimki (pronoun) zwracaja tylko jedna forme, zamiast trzech (np. ille/illa/illud)
+
+dodawac linki do zesrape'owanych slow ?
+
+dodawac do scrape wyjatki: np. ego, et, sum (najlepiej po scrapie, zeby uwzglednic wszystkie formy)
+można by też patrzeć na inne tabele, jak powstaną (np. deklinacji zaimków, odmian czasowników nieregularnych)
+
+dodac do scrape opcje 'force' jak w skrypcie (np. checkbox)
+
+scrape trzeba poprawic - verberibus parsuje zle (nie ma formy nom. sing a ja podaje!)
+
+zastanowic sie nad wykorzystaniem llm - np. do sprawdzania poprawnosci ? na ile mozna mu ufac ?
+
+opcja dla widoku slownika - wyswietlic wszystkie slowa w jakims zdaniu
+moze rowniez podczas przegladania wynikow scrapeowania (symulacja) ?
+
+dodac tlumaczenia przykladow ?
+mozna by zaczac od "Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi"
+
+w translation trzeba bedzie umiec obslugiwac rozne formy - patrz np. "ăb (ā, ābs, aps) [prep]"
+
+niektore slowa sa scrape'owane dwa razy: patrz cessi, remotum
+
+dodawać info też o tym, czego nie udało się zescrape'ować
+
+zastanowić się nad czymś a la jira - np. youtrack ?
 
 translation_exercise - z bazy
 dorobic inne exercise - zarowno baza jak i plik. dodac migracje
