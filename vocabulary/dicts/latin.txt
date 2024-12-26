@@ -3538,7 +3538,7 @@ ille [pron]
 cōtīdĭānus, cotidiană, cotidianum [adj]
 (Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
 1. codzienny
-2. zwykły, normalny
+2. zwykły, normalny, rutynowy
 
 fŭga, fugae [noun] [f] [I]
 (Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
@@ -3558,6 +3558,8 @@ campus, campi [noun] [m] [II]
 sōlĭtūdo, solitudinis [noun] [f] [III]
 (Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
 1. samotność, osamotnienie
+2. samotnia, pustynia, dzicz
+3. brak, niezaspokojenie
 
 concēdo, concēdĕre, concessi, concessum [verb] [III]
 (Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
