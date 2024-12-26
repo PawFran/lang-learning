@@ -1302,7 +1302,7 @@ praesĭdĭum, praesidii [noun] [n] [II]
 2. garnizon
 
 lĕo, leonis [noun] [m] [III]
-()
+(Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
 1. lew
 
 vulpēcŭla, vulpeculae [noun] [f] [I]
@@ -1459,7 +1459,7 @@ lăbŏr, laboris [noun] [m] [III]
 1. trud, praca
 
 ingens, ingens, ingens [adj]
-()
+(Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
 1. ogromny
 
 incrēdĭbĭlis, incredibilis, incredibile [adj]
@@ -1708,8 +1708,9 @@ fūnŭs, funeris [noun] [n] [III]
 1. pogrzeb
 
 ēx [prep]
-()
-1. z, od (+ abl) (źródło lub pochodzenie)
+(Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
+1. z, od (+ abl) (źródło, pochodzenie/przyczyna, początek w czasie)
+2. były, dawny
 
 lēvis, levis, leve [adj]
 ()
@@ -3598,5 +3599,84 @@ crŭentus, cruentă, cruentum [adj]
 1. krwawy, krwawiący
 
 pēs, pedis [noun] [m] [III]
-(Neque multo post ad eundem specum venit hic leo cruento pede)
+(Neque multo post ad eundem specum venit hic leo cruento pede. cruento pede = ablativus qualitatis. po polsku byloby "z krawiacą stopą" (narzędnik). ale mogłoby też być "o krwawiącej stopie" - chociaż to mniej naturalne wyrażenie po polsku, ale bardziej pasuje do abl qualitatis - krwawiąca stopa nie jest czymś, co "towarzyszy" lwu, ale jego "cechą". patrz "mons magna altitudine" = "góra o dużej wysokości")
 1. stopa
+
+postquăm [conj]
+(Qui postquam vidit me, mitis accessit ac pedem suum mihi ostendit)
+1. po tym jak, gdy już
+
+mītis, mitis, mite [adj]
+(Qui postquam vidit me, mitis accessit ac pedem suum mihi ostendit)
+1. łagodny, delikatny, spokojny
+
+ostendo, ostendĕre, ostendi, ostentum o ostensum [verb] [III]
+(Qui postquam vidit me, mitis accessit ac pedem suum mihi ostendit)
+1. pokazać
+
+spīna, spinae [noun] [f] [I]
+(Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
+1. (roślina i zwierzę) cierń, kręgosłup, kolce
+
+is [pron]
+(Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
+1. on
+
+rĕvello, rĕvellĕre, revelli, revulsi, revulsum o revolsum [verb] [III]
+(Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
+1. wycofać się, oderwać, wyrwać
+
+sănĭēs, saniei [noun] [f] [V]
+(Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
+1. ropa itp. wypływająca z rany lub wrzodu
+
+exprĭmo, exprĭmĕre, expressi, expressum [verb] [III]
+(Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
+1. ściskać, wyciskać
+2. wymawiać, wyrażać
+
+mĕtŭs, metūs [noun] [m] [IV]
+(Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
+1. strach, niepokój
+
+dētergĕo, dētergēre, detersi, detersum [verb] [II]
+(Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
+1. wytrzeć, wyczyścić, zmyć
+
+crŭŏr, cruoris [noun] [m] [III]
+(Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
+1. krew
+
+tunc [adv]
+(Ille tunc recubuit et quievit)
+1. następnie, w tym czasie
+
+rĕcumbo, rĕcumbĕre, recubui [verb] [III]
+(Ille tunc recubuit et quievit)
+1. położyć się, uspokoić się
+
+quĭesco, quĭescĕre, quievi, quietum [verb] [III]
+(Ille tunc recubuit et quievit)
+1. odpoczywać, być cicho, być spokojnym
+
+dĭēs, diei [noun] [m] [V]
+(Ex eo die triennium ego et leo in eodem specu eodem victu viximus - jeden to abl loci, drugi abl modi)
+1. dzień
+
+trĭennĭum, triennii [noun] [n] [II]
+(Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
+1. trzy lata
+
+ĕōdem [adv]
+(Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
+1. do tego samego miejsca i celu
+
+victŭs, victūs [noun] [m] [IV]
+(Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
+1. życie, sposób życia
+2. pożywienia, odżywianie, dieta, zaopatrzenie
+
+vīvesco, vīvescĕre, vixi [verb] [III]
+(Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
+1. ożyć
+2. zacząć żyć

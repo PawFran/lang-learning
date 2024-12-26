@@ -1,8 +1,22 @@
 TODO
 
 dodac do notatek
+wytlumaczenie czesci mowy (zaimek, przyimek, przyslowek) i zdania (okolicznik itp)
 https://lacina.globalnie.com.pl/przyimki-lacinskie/
 https://lacina.globalnie.com.pl/zaimki-wskazujace-lacina/
+dodać zawartość 'latin notes.txt'
+https://lacina.globalnie.com.pl/funkcje-przypadkow-lacina/
+porownac z plskimi https://polszczyzna.pl/przypadki-w-jezyku-polskim/
+
+ulepszenie scrape'owania:
+jesli jakies slowo zawiera na koncu "que" i nie daje sie znalezc sprobowac to samo bez "que" (albo zawsze probowac ?)
+dodac slowa, ktorych sie nie scarepuje np.: et, ego, non
+nie wyswietlac slow w stylu:
+sŏlĕo, sŏlēre, solitus, –a, –um  sum (strona bierna od ...)
+oraz
+hăbens, hăbens, hăbens [adj]
+()
+1. present participe of [habeo]
 
 sprawdzic czy uda sie dodac to:
 -, verberis [noun] [n] [anomalous]
@@ -23,6 +37,13 @@ dodac do rules odmiany, m.in.
 https://lacina.globalnie.com.pl/zaimki-wskazujace-lacina/
 
 scrape - zaimki (pronoun) zwracaja tylko jedna forme, zamiast trzech (np. ille/illa/illud)
+
+dodac opcje sprawdzania formy danego slowa - tez scrape czy pobieranie bazy do siebie ?
+moze to drugie bo zrodlem moglaby byc wiecej niz jedna strona
+
+rozklad zdan. porownanie z llm
+
+ogolnie podpiecie llm do bazy/pliku tekstowego
 
 dodawac linki do zesrape'owanych slow ?
 
