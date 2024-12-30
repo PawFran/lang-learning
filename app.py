@@ -13,10 +13,6 @@ from vocabulary.lib.utils import DICT_DIR_PATH
 app = Flask(__name__)
 CORS(app)
 
-# DB_DIR = 'database'
-# DB_PATH = os.path.join(DB_DIR, DB_FILE_NAME)
-# DATABASE = f'sqlite:///{DB_PATH}'
-
 
 @app.route('/')
 def home():
