@@ -5,8 +5,8 @@ from sqlalchemy.orm import Session
 
 from common.lib.utils import DEFAULT_USER_NAME
 
-DB_FILE_NAME = 'lang_learning.sqlite'
-DATABASE = f'sqlite:///{DB_FILE_NAME}'
+# DB_FILE_NAME = 'lang_learning.sqlite'
+# DATABASE = f'sqlite:///{DB_FILE_NAME}'
 
 Base = declarative_base()
 
@@ -165,7 +165,7 @@ class TranslationResults(Base):
     user = Column(Text, nullable=False)
     session_id = Column(Integer, nullable=False)
     lang = Column(Text, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)
-    word_pl = Column(Integer, ForeignKey(f'{Translations.__tablename__}.id'), nullable=False)
+    word_pl = Column(Text, nullable=False) # foreign key was removed on purpose - words in dictionary are sometimes changed backwards
     expected_answer = Column(Text,
                              nullable=False)  # needs to be here - cannot take it from Words in view because some words may be added later and were not available during translations - to the result will be fdifferent
     user_answer = Column(Text, nullable=False)
@@ -221,18 +221,18 @@ def create_views(engine):
         connection.execute(text(f'''
             CREATE VIEW translation_correct_ratio as
             select * from
-                (select word_pl, expected_answer, sum(correct) as correct, count(*) - sum(correct) as incorrect, round(sum(correct) / cast(count(*) as REAL) * 100, 0) as "correct %" FROM
+                (select word_pl, expected_answer, sum(correct) as correct, count(*) - sum(correct) as incorrect, round((sum(correct) / count(*))::numeric * 100, 0) as "correct %" FROM
                     (SELECT *,
                         CASE WHEN LOWER(is_correct) = 'true' THEN 1 ELSE 0 END AS correct
-                    from {TranslationResults.__tablename__})
-                group by word_pl)
+                    from {TranslationResults.__tablename__}) as subquery_1 
+                group by word_pl, expected_answer) as subquery_2
             order by "correct %" asc, incorrect desc, correct asc
         '''))
 
         ### translation_last_asked
         connection.execute(text(f'''
             CREATE VIEW translation_last_asked as
-            select word_pl, max(datetime(time)) as last_asked
+            select word_pl, max(time) as last_asked
             from {TranslationResults.__tablename__}
             group by word_pl
             order by last_asked asc

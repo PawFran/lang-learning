@@ -2228,7 +2228,7 @@ spēro, spērāre, sperāvī, sperātum [verb] [I]
 1. mieć nadzieję
 
 dĭēs, diei [noun] [m/f] [V]
-()
+(Ex eo die triennium ego et leo in eodem specu eodem victu viximus - jeden to abl loci, drugi abl modi)
 1. dzień - pora doby (m), dzień - termin (f)
 
 sĕrēnus, serenă, serenum [adj]
@@ -3289,7 +3289,7 @@ mūrus, muri [noun] [m] [II]
 
 dēlĕo, dēlēre, delevi, deletum [verb] [II]
 (Tum ibi in obsidione aedes quasdam capere et igni delere parabat)
-1. zniszczyć, usunąć
+1. niszczyć, usuwać
 
 păro, părāre, paravi, paratum [verb] [I]
 (Tum ibi in obsidione aedes quasdam capere et igni delere parabat)
@@ -3658,10 +3658,6 @@ rĕcumbo, rĕcumbĕre, recubui [verb] [III]
 quĭesco, quĭescĕre, quievi, quietum [verb] [III]
 (Ille tunc recubuit et quievit)
 1. odpoczywać, być cicho, być spokojnym
-
-dĭēs, diei [noun] [m] [V]
-(Ex eo die triennium ego et leo in eodem specu eodem victu viximus - jeden to abl loci, drugi abl modi)
-1. dzień
 
 trĭennĭum, triennii [noun] [n] [II]
 (Ex eo die triennium ego et leo in eodem specu eodem victu viximus)

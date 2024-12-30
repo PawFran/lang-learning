@@ -1,7 +1,6 @@
-
 # Lang-Learning
 
-A collection of modules for language learning. See individual module READMEs for detailed information.
+A collection of modules for language learning. 
 
 ## Modules
 
@@ -15,6 +14,15 @@ A collection of modules for language learning. See individual module READMEs for
 - **Type Validation**: Use `mypy` for type checking.
 
 ---
+
+## Lang learning web app
+
+### Usage
+```bash
+python app.py
+```
+**Important** for correct working one must specify environment variables in ```.env``` file (top level directory): 
+- DATABASE_URL
 
 ## Random Word from Dictionary
 

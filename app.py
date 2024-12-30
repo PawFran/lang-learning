@@ -1,14 +1,11 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
-from sqlalchemy import create_engine
 
 from actions.translation import *
-from common.lib.utils import DEFAULT_USER_NAME
-from database.db_classes import DB_FILE_NAME
 from database.initialize_db import initialize_database
 from database.migration_dictionary import add_words_with_translations
+from environment import engine, LOG_CSV_HANDLER
 from find_or_scrape_latin import find_or_scrape_words, SCRAPED_HEADER
-from vocabulary.lib.file_db import TranslationExerciseCSVHandler
 from vocabulary.lib.dict_classes import Dictionary
 from vocabulary.lib.parsing_dict import parse_latin_dict
 from vocabulary.lib.utils import DICT_DIR_PATH
@@ -16,12 +13,9 @@ from vocabulary.lib.utils import DICT_DIR_PATH
 app = Flask(__name__)
 CORS(app)
 
-DB_DIR = 'database'
-DB_PATH = os.path.join(DB_DIR, DB_FILE_NAME)
-DATABASE = f'sqlite:///{DB_PATH}'
-engine = create_engine(DATABASE)
-
-LOG_CSV_HANDLER = TranslationExerciseCSVHandler(TRANSLATION_EXERCISE_CSV_LOG_FILE, DEFAULT_USER_NAME)
+# DB_DIR = 'database'
+# DB_PATH = os.path.join(DB_DIR, DB_FILE_NAME)
+# DATABASE = f'sqlite:///{DB_PATH}'
 
 
 @app.route('/')
@@ -182,7 +176,7 @@ if __name__ == '__main__':
         print('initializing db')
         dict_folder = os.path.join('vocabulary', 'dicts')
         translation_results_dir = os.path.join('vocabulary', 'db')
-        initialize_database(db_path=DB_PATH, remove_old=True, dictionary_migration=True,
+        initialize_database(engine=engine, remove_old=True, dictionary_migration=True,
                             translation_results_migration=True,
                             dictionary_folder=dict_folder, translation_results_folder=translation_results_dir)
     app.run(debug=True)
