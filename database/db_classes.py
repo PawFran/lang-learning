@@ -6,6 +6,7 @@ from sqlalchemy.orm import Session
 from common.lib.utils import DEFAULT_USER_NAME
 
 Base = declarative_base()
+views = []
 
 
 class Languages(Base):
@@ -162,7 +163,8 @@ class TranslationResults(Base):
     user = Column(Text, nullable=False)
     session_id = Column(Integer, nullable=False)
     lang = Column(Text, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)
-    word_pl = Column(Text, nullable=False) # foreign key was removed on purpose - words in dictionary are sometimes changed backwards
+    word_pl = Column(Text,
+                     nullable=False)  # foreign key was removed on purpose - words in dictionary are sometimes changed backwards
     expected_answer = Column(Text,
                              nullable=False)  # needs to be here - cannot take it from Words in view because some words may be added later and were not available during translations - to the result will be fdifferent
     user_answer = Column(Text, nullable=False)
@@ -181,7 +183,7 @@ class TranslationExerciseCurrentSession(Base):
     associated_case = Column(Text)
     is_active = Column(Boolean, default=False, nullable=False)  # New column to track active row
     user_name = Column(Text, default=DEFAULT_USER_NAME, nullable=False)
-    session_id = Column(Integer, nullable=False) # now always the same, but will make sense for multiple users
+    session_id = Column(Integer, nullable=False)  # now always the same, but will make sense for multiple users
 
 
 @event.listens_for(TranslationExerciseCurrentSession, "before_insert")
@@ -199,54 +201,94 @@ def enforce_one_active(mapper, connection, target):
 
 
 ### VIEWS
-create_view_statement = 'CREATE VIEW words_with_translations as'
+# Declarative View Base
+class View:
+    """Base class for SQLAlchemy views."""
+    __abstract__ = True
+    __view_name__ = None
+    __view_query__ = None
 
-view_words_with_translations_select = f'''
-            select w.id, header, w.part_of_speech, translation, example, associated_case from {Words.__tablename__} w
-            join {LatinWordsTranslationsMappings.__tablename__} m on w.id = m.word_id
-            join {Translations.__tablename__} t on t.id = m.translation_id
-        '''
+    @classmethod
+    def create_view(cls, engine):
+        """Create the SQL view in the database."""
+        if cls.__view_name__ and cls.__view_query__:
+            with engine.begin() as conn:
+                conn.execute(
+                    text(f"CREATE OR REPLACE VIEW {cls.__view_name__} AS {cls.__view_query__}")
+                )
+            print(f"View '{cls.__view_name__}' created.")
 
 
-# Utility function to create views
-def create_views(engine):
-    with engine.connect() as connection:
-        ### words_with_translations
-        connection.execute(text(create_view_statement + '\n' + view_words_with_translations_select))
+# Views
+class WordsWithTranslations(View):
+    __view_name__ = "words_with_translations"
+    __view_query__ = f"""
+        SELECT w.id, header, w.part_of_speech, translation, example, associated_case 
+        FROM {Words.__tablename__} w
+        JOIN latin_words_translations_mappings m ON w.id = m.word_id
+        JOIN translations t ON t.id = m.translation_id
+    """
 
-        ### translation_correct_ratio
-        connection.execute(text(f'''
-            CREATE VIEW translation_correct_ratio as
-            select * from
-                (select word_pl, expected_answer, sum(correct) as correct, count(*) - sum(correct) as incorrect, round((sum(correct) / count(*))::numeric * 100, 0) as "correct %" FROM
-                    (SELECT *,
-                        CASE WHEN LOWER(is_correct) = 'true' THEN 1 ELSE 0 END AS correct
-                    from {TranslationResults.__tablename__}) as subquery_1 
-                group by word_pl, expected_answer) as subquery_2
-            order by "correct %" asc, incorrect desc, correct asc
-        '''))
 
-        ### translation_last_asked
-        connection.execute(text(f'''
-            CREATE VIEW translation_last_asked as
-            select word_pl, max(time) as last_asked
-            from {TranslationResults.__tablename__}
-            group by word_pl
-            order by last_asked asc
-        '''))
+views.append(WordsWithTranslations)
 
-        ### next_to_be_asked
-        connection.execute(text(f'''
-            create view next_to_be_asked as
-            select ratio.word_pl, expected_answer, last_asked, correct, incorrect, "correct %", ratio.idx as correct_idx, last_asked.idx as time_idx, ratio.idx + last_asked.idx as sum_idx
-            from ( 
-                select *, ROW_NUMBER() over (order by last_asked asc) as idx 
-                from translation_last_asked
-                ) last_asked
-            join (
-                select *, ROW_NUMBER() over (order by "correct %" asc, incorrect desc, correct asc) as idx 
-                from translation_correct_ratio
-                ) ratio
-            on last_asked.word_pl = ratio.word_pl
-            order by sum_idx asc
-        '''))
+
+class TranslationCorrectRatio(View):
+    __view_name__ = "translation_correct_ratio"
+    __view_query__ = f"""
+        SELECT * FROM (
+            SELECT word_pl, expected_answer, SUM(correct) AS correct, 
+                   COUNT(*) - SUM(correct) AS incorrect, 
+                   ROUND((SUM(correct) / COUNT(*))::NUMERIC * 100, 0) AS "correct %"
+            FROM (
+                SELECT *, CASE WHEN LOWER(is_correct) = 'true' THEN 1 ELSE 0 END AS correct
+                FROM {TranslationResults.__tablename__}
+            ) subquery_1
+            GROUP BY word_pl, expected_answer
+        ) subquery_2
+        ORDER BY "correct %" ASC, incorrect DESC, correct ASC
+    """
+
+
+views.append(TranslationCorrectRatio)
+
+
+class TranslationLastAsked(View):
+    __view_name__ = "translation_last_asked"
+    __view_query__ = f"""
+        SELECT word_pl, MAX(time) AS last_asked
+        FROM {TranslationResults.__tablename__}
+        GROUP BY word_pl
+        ORDER BY last_asked ASC
+    """
+
+
+views.append(TranslationLastAsked)
+
+
+class NextToBeAsked(View):
+    __view_name__ = "next_to_be_asked"
+    __view_query__ = f"""
+        SELECT ratio.word_pl, expected_answer, last_asked, correct, incorrect, "correct %",
+               ratio.idx AS correct_idx, last_asked.idx AS time_idx, 
+               ratio.idx + last_asked.idx AS sum_idx
+        FROM (
+            SELECT *, ROW_NUMBER() OVER (ORDER BY last_asked ASC) AS idx
+            FROM translation_last_asked
+        ) last_asked
+        JOIN (
+            SELECT *, ROW_NUMBER() OVER (ORDER BY "correct %" ASC, incorrect DESC, correct ASC) AS idx
+            FROM translation_correct_ratio
+        ) ratio
+        ON last_asked.word_pl = ratio.word_pl
+        ORDER BY sum_idx ASC
+    """
+
+
+views.append(NextToBeAsked)
+
+
+# Utility function to create all views
+def create_all_views(engine):
+    for view in views:
+        view.create_view(engine)

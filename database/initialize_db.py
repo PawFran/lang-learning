@@ -4,13 +4,11 @@ import psycopg2
 from sqlalchemy import *
 from sqlalchemy_utils import database_exists, create_database
 
-from database.db_classes import Base, create_views
+from database.db_classes import Base, create_all_views
 from database.migration_dictionary import migrate_dictionary
 from database.migration_translation_results import migrate_translation_results
 from environment import DATABASE
 from vocabulary.lib.dict_classes import PartOfSpeech
-
-# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 langs = ['latin', 'english']
 latin_declensions = ['I', 'II', 'III', 'III vowel', 'III consonant', 'III mixed', 'IV', 'V']
@@ -75,7 +73,7 @@ def initialize_database(engine: Engine, remove_old: bool, dictionary_migration: 
     Base.metadata.create_all(engine)
     print('All tables created')
 
-    create_views(engine)
+    create_all_views(engine)
     print('All views created')
 
     # begin() means autocommit at the end of the block
