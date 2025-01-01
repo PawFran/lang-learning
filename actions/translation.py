@@ -1,13 +1,14 @@
 import os
 from dataclasses import dataclass
 from datetime import datetime as dt
+from typing import Optional
 
 from sqlalchemy import func, desc
 from toolz import compose
 
 from common.lib.utils import replace_special
 from database.db_classes import *
-from database.utils import insert_or_ignore
+from database.utils import insert_or_ignore_no_commit
 from vocabulary.lib.file_db import TranslationExerciseCSVHandler
 from vocabulary.lib.utils import compare_answer_with_full_head_raw
 
@@ -21,7 +22,8 @@ class SessionMetadata:
     session_id: int
 
 
-def start_translation_exercise_session(start_word: str, end_word: str, session: Session) -> SessionMetadata:
+def start_translation_exercise_session(start_word: Optional[str], end_word: Optional[str],
+                                       session: Session) -> SessionMetadata:
     clear_cache_table(session)
 
     words_for_current_session = get_words_for_current_session(session, start_word=start_word, end_word=end_word)
@@ -57,28 +59,43 @@ def random_word_for_cache(session: Session) -> str | None:
         return None
 
 
-def get_words_for_current_session(session, start_word, end_word):
+def get_words_for_current_session(session: Session, start_word: Optional[str], end_word: Optional[str]):
     words = session.query(Words).all()
 
-    base_form = lambda w: w.header.split(',')[0].rstrip()
-    base_simple_form = compose(replace_special, base_form)
-    simple_word_with_id = lambda w: (w.id, base_simple_form(w))
-    bases_simple_form = [simple_word_with_id(w) for w in words]
+    bases_simple_form = base_forms_simplified(words)
 
-    start = find_first(bases_simple_form, start_word)
-    end = find_first(bases_simple_form, end_word)
+    start_id, end_id = start_end_id(bases_simple_form, end_word, start_word)
 
-    query: text = query_for_start_end(start_id=start[0], end_id=end[0])
+    query: text = query_for_start_end(start_id=start_id, end_id=end_id)
 
     words_for_current_session = session.execute(query).fetchall()
 
     return words_for_current_session
 
 
-def setup_cache_table(session: Session, words_for_current_session: [str], new_session_id: int):
+def start_end_id(bases_simple_form, end_word, start_word) -> (Optional[str], Optional[str]):
+    start: Optional[(int, str)] = find_first(bases_simple_form, start_word)
+    end: Optional[(int, str)] = find_first(bases_simple_form, end_word)
+
+    start_id = start[0] if start is not None else None
+    end_id = end[0] if end is not None else None
+
+    return start_id, end_id
+
+
+def base_forms_simplified(words):
+    base_form = lambda w: w.header.split(',')[0].rstrip()
+    base_simple_form = compose(replace_special, base_form)
+    simple_word_with_id = lambda w: (w.id, base_simple_form(w))
+    bases_simple_form = [simple_word_with_id(w) for w in words]
+
+    return bases_simple_form
+
+
+def setup_cache_table(session: Session, words_for_current_session, new_session_id: int):
     for word in words_for_current_session:
         session.add(TranslationExerciseCurrentSession(
-            id=word[0], header=word[1], part_of_speech=word[2],
+            word_id=word[0], header=word[1], part_of_speech=word[2],
             translation=word[3], example=word[4], associated_case=word[5],
             session_id=new_session_id)
         )
@@ -95,14 +112,14 @@ def remove_from_cache(record_id: int, session: Session):
     session.commit()
 
 
-def query_for_start_end(start_id, end_id) -> text:
+def query_for_start_end(start_id: Optional[str], end_id: Optional[str]) -> text:
     words_with_translations_query = WordsWithTranslations.__view_query__
     if start_id is not None and end_id is not None:
         query = words_with_translations_query + f'\nwhere w.id between {start_id} and {end_id}'
     elif end_id is not None:
-        query = words_with_translations_query + f'\nwhere w.id < {end_id}'
+        query = words_with_translations_query + f'\nwhere w.id <= {end_id}'
     elif start_id is not None:
-        query = words_with_translations_query + f'\nwhere w.id > {start_id}'
+        query = words_with_translations_query + f'\nwhere w.id >= {start_id}'
     else:
         query = words_with_translations_query
 
@@ -171,4 +188,5 @@ def update_translation_result_db(feedback: TranslationFeedback, session: Session
                                             user_answer=feedback.user_answer, is_correct=feedback.is_correct,
                                             time=dt.now().replace(microsecond=0))
 
-    insert_or_ignore(session, translation_result)
+    insert_or_ignore_no_commit(session, translation_result)
+    session.commit()

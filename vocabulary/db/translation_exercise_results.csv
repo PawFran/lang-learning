@@ -1887,3 +1887,19 @@ default_user;58;latin;kara;castīgātĭo, castigationis;castigatio castigationis
 default_user;58;latin;ślad;vestīgĭum, vestigii;vestigium vestigii;True;2025-01-01 18:52:34
 default_user;58;latin;zwierzę;ănĭmăl, animalis;animal animalis;True;2025-01-01 18:52:37
 default_user;58;latin;na zewnątrz;fŏrās;foras;True;2025-01-01 18:52:40
+default_user;59;latin;zwykły, normalny, rutynowy;cōtīdĭānus, cotidiană, cotidianum;;False;2025-01-01 21:50:32
+default_user;59;latin;codzienny;cōtīdĭānus, cotidiană, cotidianum;cotidianus a um;True;2025-01-01 21:51:05
+default_user;59;latin;konsularny;consŭlāris, consularis, consulare;consularis 3;False;2025-01-01 21:51:11
+default_user;59;latin;zatrzymać się, przestać;consisto, consistĕre, constiti;;False;2025-01-01 21:51:17
+default_user;59;latin;następnie, w tym czasie;tunc;;False;2025-01-01 21:51:19
+default_user;59;latin;okrutny, dziki, straszny;ătrox, ătrox, ătrox;ferox 3;False;2025-01-01 21:51:23
+default_user;59;latin;ropa itp. wypływająca z rany lub wrzodu;sănĭēs, saniei;;False;2025-01-01 21:51:29
+default_user;59;latin;ucieczka;fŭga, fugae;fuga fugae;True;2025-01-01 21:52:59
+default_user;60;latin;obudzić, pobudzić, powodować;excĭto, excĭtāre, excitavi, excitatum;;False;2025-01-01 21:59:48
+default_user;60;latin;dziki;fĕrus, feră, ferum;ferox 3;False;2025-01-01 21:59:59
+default_user;60;latin;strach, niepokój;mĕtŭs, metūs;;False;2025-01-01 22:00:06
+default_user;60;latin;usunięty, wycofany;rĕmōtus, remotă, remotum;deletus 3;False;2025-01-01 22:00:12
+default_user;60;latin;rozpoznać;noscĭto, noscĭtāre, noscitavi, noscitatum;;False;2025-01-01 22:00:17
+default_user;60;latin;odwrócić, zwracać;converto, convertĕre, converti, conversum;;False;2025-01-01 22:00:19
+default_user;60;latin;strach, niepokój;mĕtŭs, metūs;;False;2025-01-01 22:00:20
+default_user;60;latin;wymawiać, wyrażać;exprĭmo, exprĭmĕre, expressi, expressum;exprimo exprimere expressi expressum;True;2025-01-01 22:00:33

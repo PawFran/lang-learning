@@ -175,7 +175,8 @@ class TranslationResults(Base):
 class TranslationExerciseCurrentSession(Base):
     __tablename__ = 'translation_exercise_current_session'
 
-    id = Column(Integer, primary_key=True)  # no autoincrement
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    word_id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'))
     header = Column(Text, nullable=False)  # TODO FK to words ?
     part_of_speech = Column(String, ForeignKey(f'{PartsOfSpeech.__tablename__}.name'), nullable=False)
     translation = Column(Text, nullable=False)  # TODO FK to translations ?

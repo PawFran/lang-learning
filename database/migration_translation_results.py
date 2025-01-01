@@ -37,7 +37,7 @@ def migrate_translation_results(engine, translation_results_dir: str):
         for line in lines:
             translation_result = parse_translation_result_line(line)
             if translation_result is not None:
-                insert_or_ignore(session, translation_result)
+                insert_or_ignore_no_commit(session, translation_result)
             else:
                 print(f'word from line {line} not found')
 

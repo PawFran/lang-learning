@@ -75,7 +75,7 @@ def adjective_from_head(word_id, head):
                            neutrum=replace_special(head.neutrum),
                            neutrum_acc=head.neutrum)
 
-def insert_or_ignore(session: Session, record):
+def insert_or_ignore_no_commit(session: Session, record):
     session.add(record)
     session.flush()
 
@@ -90,7 +90,7 @@ def insert_or_ignore_latin_word(entry: DictionaryEntry, parsing_function, sessio
 
         # Insert into "words" table
         word = Words(lang="latin", header=head_raw_without_metadata, part_of_speech=part_of_speech)
-        insert_or_ignore(session, word)
+        insert_or_ignore_no_commit(session, word)
 
         word_id = session.query(Words).filter_by(header=head_raw_without_metadata).first().id
 
@@ -99,7 +99,7 @@ def insert_or_ignore_latin_word(entry: DictionaryEntry, parsing_function, sessio
 
         # Upsert word into appropriate table (ex. LatinVerbs)
         word = parsing_function(word_id, head)
-        insert_or_ignore(session, word)
+        insert_or_ignore_no_commit(session, word)
 
         # Get info about upsert word to fill related tables
         # part_of_speech, word_id = get_part_of_speech_and_word_id(head, session, word)
@@ -153,7 +153,7 @@ def insert_word_translation_mappings(word_id, part_of_speech, session, translati
         # For each verb-translation pair, upsert appropriate record into mapping table
         mapping = LatinWordsTranslationsMappings(word_id=word_id, translation_id=translation_id,
                                                 part_of_speech=part_of_speech)
-        insert_or_ignore(session, mapping)
+        insert_or_ignore_no_commit(session, mapping)
 
 
 def insert_and_get_translation_ids(entry, session):
@@ -164,7 +164,7 @@ def insert_and_get_translation_ids(entry, session):
         # print(is_already_present)
         if not is_already_present:
             translation = Translations(translation=t, example=entry.example, associated_case=None)
-            insert_or_ignore(session, translation)
+            insert_or_ignore_no_commit(session, translation)
 
             # Append the translation ID to the list
             translation_ids.append(session.query(Translations).filter_by(translation=t).first().id)

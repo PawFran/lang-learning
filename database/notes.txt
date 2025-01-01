@@ -1,5 +1,7 @@
 TODO
 
+w tabeli translation_results is_correct jest stringiem pisanym czasem duza czasem mala litera. poprawic na boolean (i widoki!)
+
 dodac do notatek
 wytlumaczenie czesci mowy (zaimek, przyimek, przyslowek) i zdania (okolicznik itp)
 https://lacina.globalnie.com.pl/przyimki-lacinskie/

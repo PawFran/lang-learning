@@ -1,3 +1,5 @@
+from typing import Optional
+
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 
@@ -22,8 +24,8 @@ def home():
 @app.route('/start_translation_session', methods=['POST'])
 def start_translation_session():
     data = request.get_json()
-    start = data['start'].strip()
-    end = data['end'].strip()
+    start: Optional[str] = data['start'].strip()
+    end: Optional[str] = data['end'].strip()
     with Session(engine) as session:
         session_metadata = start_translation_exercise_session(start_word=start, end_word=end, session=session)
         words_cnt = session_metadata.word_count
@@ -58,9 +60,9 @@ def check_translation():
     response_text = f'{answer}\n'
 
     if feedback.is_correct:
-        response_text += f"correct ({feedback.correct_answer})"
+        response_text += f"correct ({feedback.correct_answer})\n"
     else:
-        response_text += f"wrong. correct answer is \"{feedback.correct_answer}\""
+        response_text += f"wrong. correct answer is \"{feedback.correct_answer}\"\n"
 
     if feedback.example is not None and feedback.example != '':
         response_text += f'({feedback.example})\n'
@@ -74,7 +76,7 @@ def check_translation():
         # todo response should be divided between feedback and info about next word (or finish)
         # todo and appropriate logic should be applied on the client side
     else:
-        response_text += f'\n\n{new_word}'
+        response_text += f'\n{new_word}'
 
     return jsonify({'response': response_text})
 
