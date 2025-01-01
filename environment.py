@@ -7,8 +7,6 @@ from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE
 from common.lib.utils import DEFAULT_USER_NAME
 from vocabulary.lib.file_db import TranslationExerciseCSVHandler
 
-# Explicitly load the .env file
-# load_dotenv(dotenv_path='/path/to/your/project/.env')
 load_dotenv()
 
 DATABASE = os.getenv('DATABASE_URL')
