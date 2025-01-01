@@ -1862,3 +1862,9 @@ default_user;55;latin;mały lis;vulpēcŭla, vulpeculae ;vulpecula vulpeculae;Tr
 default_user;55;latin;zwierzę;ănĭmăl, animalis ;animal animalis;True;2024-12-22 19:10:23
 default_user;55;latin;ślad;vestīgĭum, vestigii ;vestigium vestigii;True;2024-12-22 19:10:28
 default_user;55;latin;jaskinia;spēlunca, speluncae ;spelunca speluncae;True;2024-12-22 19:10:35
+default_user;56;latin;do wewnątrz, do środka;introrsus;introrsus;True;2025-01-01 18:16:26
+default_user;56;latin;państwo, imperium, władza;impĕrĭum, imperii;imperium imperii;True;2025-01-01 18:16:45
+default_user;56;latin;mały lis;vulpēcŭla, vulpeculae;vulpecula vulpeculae;True;2025-01-01 18:16:54
+default_user;56;latin;być wolnym od czegoś (+ abl);văco, văcāre, vacāvī, vacātum;;False;2025-01-01 18:16:59
+default_user;56;latin;być wolnym od czegoś (+ abl);văco, văcāre, vacāvī, vacātum;rex regis;False;2025-01-01 18:17:06
+default_user;56;latin;być wolnym od czegoś (+ abl);văco, văcāre, vacāvī, vacātum;auris auris;False;2025-01-01 18:17:13

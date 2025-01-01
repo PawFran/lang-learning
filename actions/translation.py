@@ -96,14 +96,15 @@ def remove_from_cache(record_id: int, session: Session):
 
 
 def query_for_start_end(start_id, end_id) -> text:
+    words_with_translations_query = WordsWithTranslations.__view_query__
     if start_id is not None and end_id is not None:
-        query = view_words_with_translations_select + f'\nwhere w.id between {start_id} and {end_id}'
+        query = words_with_translations_query + f'\nwhere w.id between {start_id} and {end_id}'
     elif end_id is not None:
-        query = view_words_with_translations_select + f'\nwhere w.id < {end_id}'
+        query = words_with_translations_query + f'\nwhere w.id < {end_id}'
     elif start_id is not None:
-        query = view_words_with_translations_select + f'\nwhere w.id > {start_id}'
+        query = words_with_translations_query + f'\nwhere w.id > {start_id}'
     else:
-        query = view_words_with_translations_select
+        query = words_with_translations_query
 
     return text(query)
 
@@ -135,7 +136,7 @@ def check_translation_answer(answer, session) -> TranslationFeedback:
                            TranslationExerciseCurrentSession.translation,
                            TranslationExerciseCurrentSession.id,
                            TranslationExerciseCurrentSession.user_name,
-                           TranslationExerciseCurrentSession.session_id).filter_by(is_active=1).first()
+                           TranslationExerciseCurrentSession.session_id).filter_by(is_active=True).first()
     correct_answer = result[0]
     example = result[1]
     part_of_speech = result[2]
