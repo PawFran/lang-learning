@@ -13,6 +13,16 @@ from database.utils import *
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 
 
+def str_to_bool(s: str) -> bool:
+    match s.lower().strip():
+        case 'true':
+            return True
+        case 'false':
+            return False
+        case _:
+            raise ValueError('''Only 'true' or 'false' strings are acceptable''')
+
+
 def parse_translation_result_line(raw_line: str):
     split = raw_line.split(';')
     return TranslationResults(
@@ -22,9 +32,10 @@ def parse_translation_result_line(raw_line: str):
         word_pl=split[3],
         expected_answer=split[4],
         user_answer=split[5],
-        is_correct=split[6],
+        is_correct=str_to_bool(split[6]),
         time=datetime.strptime(split[7].strip(), DATE_FORMAT)
     )
+
 
 
 def migrate_translation_results(engine, translation_results_dir: str):

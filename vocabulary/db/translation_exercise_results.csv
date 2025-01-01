@@ -1903,3 +1903,29 @@ default_user;60;latin;rozpoznać;noscĭto, noscĭtāre, noscitavi, noscitatum;;F
 default_user;60;latin;odwrócić, zwracać;converto, convertĕre, converti, conversum;;False;2025-01-01 22:00:19
 default_user;60;latin;strach, niepokój;mĕtŭs, metūs;;False;2025-01-01 22:00:20
 default_user;60;latin;wymawiać, wyrażać;exprĭmo, exprĭmĕre, expressi, expressum;exprimo exprimere expressi expressum;True;2025-01-01 22:00:33
+default_user;61;latin;stopniowo, niewielka ilość na raz, kawałek po kawałku;paulātim;;False;2025-01-01 22:16:46
+default_user;61;latin;zwykły, normalny, rutynowy;cōtīdĭānus, cotidiană, cotidianum;cotidianus cotidiana cotidiane;False;2025-01-01 22:16:59
+default_user;61;latin;mieć, dzierżyć, sprawować;obtĭnĕo, obtĭnēre, obtinui, obtentum;;False;2025-01-01 22:17:04
+default_user;61;latin;ropa itp. wypływająca z rany lub wrzodu;sănĭēs, saniei;;False;2025-01-01 22:17:08
+default_user;61;latin;obudzić, pobudzić, powodować;excĭto, excĭtāre, excitavi, excitatum;;False;2025-01-01 22:17:09
+default_user;61;latin;wytrzeć, wyczyścić, zmyć;dētergĕo, dētergēre, detersi, detersum;;False;2025-01-01 22:17:11
+default_user;61;latin;stopa;pēs, pedis;;False;2025-01-01 22:17:13
+default_user;61;latin;położyć się, uspokoić się;rĕcumbo, rĕcumbĕre, recubui;;False;2025-01-01 22:17:20
+default_user;61;latin;widok, spektakl, występ publiczny, pokaz;spectācŭlum, spectaculi;spectaclum;False;2025-01-01 22:17:25
+default_user;61;latin;(zwykle przed spółgłoskami) i, a także, a ponadto;ăc;;False;2025-01-01 22:17:29
+default_user;61;latin;łagodny, delikatny, spokojny;mītis, mitis, mite;;False;2025-01-01 22:17:30
+default_user;61;latin;poddać się, pozwolić, zezwolić, zaakceptować;concēdo, concēdĕre, concessi, concessum;;False;2025-01-01 22:17:31
+default_user;61;latin;(strona bierna) przez (+ abl);ăb (ā, ābs, aps);a;False;2025-01-01 22:17:36
+default_user;61;latin;brak, niezaspokojenie;sōlĭtūdo, solitudinis;;False;2025-01-01 22:17:40
+default_user;61;latin;rozmiar, wielkość, masa;magnĭtūdo, magnitudinis;;False;2025-01-01 22:17:41
+default_user;61;latin;delikatnie, łagodnie, lekko, nieznacznie;lēnĭtĕr;;False;2025-01-01 22:17:42
+default_user;61;latin;ściskać, wyciskać;exprĭmo, exprĭmĕre, expressi, expressum;;False;2025-01-01 22:17:42
+default_user;61;latin;poddać się, pozwolić, zezwolić, zaakceptować;concēdo, concēdĕre, concessi, concessum;;False;2025-01-01 22:17:44
+default_user;61;latin;bestia, zwierzę, stworzenie;bestĭa, bestiae;;False;2025-01-01 22:17:48
+default_user;61;latin;strach, niepokój;mĕtŭs, metūs;;False;2025-01-01 22:17:51
+default_user;61;latin;kilka, spora liczba;complūres, complurĭum;;False;2025-01-01 22:17:52
+default_user;61;latin;brak, niezaspokojenie;sōlĭtūdo, solitudinis;;False;2025-01-01 22:17:53
+default_user;61;latin;rozpoznać;noscĭto, noscĭtāre, noscitavi, noscitatum;;False;2025-01-01 22:17:54
+default_user;61;latin;ropa itp. wypływająca z rany lub wrzodu;sănĭēs, saniei;;False;2025-01-01 22:17:55
+default_user;61;latin;dziki;fĕrus, feră, ferum;;False;2025-01-01 22:17:58
+default_user;61;latin;mieć, dzierżyć, sprawować;obtĭnĕo, obtĭnēre, obtinui, obtentum;obtineo obtinere obtinui obtentum;True;2025-01-01 22:18:11

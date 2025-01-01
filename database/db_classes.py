@@ -168,7 +168,7 @@ class TranslationResults(Base):
     expected_answer = Column(Text,
                              nullable=False)  # needs to be here - cannot take it from Words in view because some words may be added later and were not available during translations - to the result will be fdifferent
     user_answer = Column(Text, nullable=False)
-    is_correct = Column(Text, nullable=False)  # needs to be store here, logic is to complex to calculate it in sql view
+    is_correct = Column(Boolean, nullable=False)  # needs to be stored here, logic is to complex to calculate it in sql view
     time = Column(DateTime, nullable=False)
 
 
@@ -242,7 +242,7 @@ class TranslationCorrectRatio(View):
                    COUNT(*) - SUM(correct) AS incorrect, 
                    ROUND((SUM(correct) / COUNT(*))::NUMERIC * 100, 0) AS "correct %"
             FROM (
-                SELECT *, CASE WHEN LOWER(is_correct) = 'true' THEN 1 ELSE 0 END AS correct
+                SELECT *, CASE WHEN is_correct THEN 1 ELSE 0 END AS correct
                 FROM {TranslationResults.__tablename__}
             ) subquery_1
             GROUP BY word_pl, expected_answer
