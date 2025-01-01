@@ -5,9 +5,6 @@ from sqlalchemy.orm import Session
 
 from common.lib.utils import DEFAULT_USER_NAME
 
-# DB_FILE_NAME = 'lang_learning.sqlite'
-# DATABASE = f'sqlite:///{DB_FILE_NAME}'
-
 Base = declarative_base()
 
 
