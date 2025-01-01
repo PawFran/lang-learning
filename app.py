@@ -51,6 +51,8 @@ def check_translation():
         feedback: TranslationFeedback = check_translation_answer(answer, session)
         if feedback.is_correct:
             remove_from_cache(feedback.word_id, session)
+        else:
+            deactivate(feedback.word_id, session)
         new_word = random_word_for_cache(session)
 
     response_text = f'{answer}\n'

@@ -46,11 +46,11 @@ def random_word_for_cache(session: Session) -> str | None:
     # random translation (ideally with priorities taken into account - but this one is for later)
     # if cache is empty return None
     record = session.query(TranslationExerciseCurrentSession.id, TranslationExerciseCurrentSession.translation) \
-        .order_by(func.random()).first()
+        .order_by(func.random()).first()  # only one is expected anyway, but who knows
     if record is not None:
         row_id, word = record[0], record[1]
         session.query(TranslationExerciseCurrentSession).filter_by(id=row_id) \
-            .update({TranslationExerciseCurrentSession.is_active: 1})
+            .update({TranslationExerciseCurrentSession.is_active: True})
         session.commit()
         return word
     else:
@@ -154,10 +154,15 @@ def check_translation_answer(answer, session) -> TranslationFeedback:
                                user_name=user_name, session_id=session_id)
 
 
+def deactivate(row_id: int, session: Session) -> None:
+    session.query(TranslationExerciseCurrentSession).filter_by(id=row_id) \
+        .update({TranslationExerciseCurrentSession.is_active: False})
+
+
 def update_log_csv_file(translation_result: TranslationFeedback, csv_handler: TranslationExerciseCSVHandler):
     csv_handler.update_db(user=DEFAULT_USER_NAME, word_pl=translation_result.word_pl,
-                         lang='latin', translation=translation_result.correct_answer,
-                         was_correct=translation_result.is_correct, user_answer=translation_result.user_answer)
+                          lang='latin', translation=translation_result.correct_answer,
+                          was_correct=translation_result.is_correct, user_answer=translation_result.user_answer)
 
 
 def update_translation_result_db(feedback: TranslationFeedback, session: Session):
