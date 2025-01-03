@@ -84,6 +84,47 @@ class DeclensionExerciseCSVHandler(ExerciseCSVHandler):
         return pd.concat([df, new_row])
 
 
+class ConjugationExerciseCSVHandler(ExerciseCSVHandler):
+    def __init__(self, path, user_name):
+        super().__init__(path, user_name)
+        self._current_session_id = self.create_new_session_id()
+
+    @property
+    def current_session_id(self):
+        return self._current_session_id
+
+    @current_session_id.setter
+    def current_session_id(self, value):
+        self._current_session_id = value
+
+    def update_db(self, user, lang, infinitive, mood, tense, voice, person, number, correct_form, user_answer,
+                  is_correct):
+        df = pd.read_csv(self.path, sep=';')
+
+        df = self.add_new_record(df, user, lang, infinitive, mood, tense, voice, person, number, correct_form,
+                                 user_answer, is_correct)
+
+        df.to_csv(self.path, index=False, sep=';')
+
+    def add_new_record(self, df, user, lang, infinitive, mood, tense, voice, person, number, correct_form, user_answer,
+                       is_correct):
+        new_row = pd.DataFrame({'user': user,
+                                'session_id': self.current_session_id,
+                                'lang': lang,
+                                'infinitive': infinitive,
+                                'mood': mood,
+                                'tense': tense,
+                                'voice': voice,
+                                'person': person,
+                                'number': number,
+                                'correct_form': correct_form,
+                                'user_answer': user_answer,
+                                'is_correct': is_correct,
+                                'time': dt.now().replace(microsecond=0)
+                                }, index=[0])
+        return pd.concat([df, new_row])
+
+
 class TranslationExerciseCSVHandler(ExerciseCSVHandler):
     def __init__(self, path, user_name):
         super().__init__(path, user_name)
