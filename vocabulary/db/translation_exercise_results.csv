@@ -1929,3 +1929,14 @@ default_user;61;latin;rozpoznać;noscĭto, noscĭtāre, noscitavi, noscitatum;;F
 default_user;61;latin;ropa itp. wypływająca z rany lub wrzodu;sănĭēs, saniei;;False;2025-01-01 22:17:55
 default_user;61;latin;dziki;fĕrus, feră, ferum;;False;2025-01-01 22:17:58
 default_user;61;latin;mieć, dzierżyć, sprawować;obtĭnĕo, obtĭnēre, obtinui, obtentum;obtineo obtinere obtinui obtentum;True;2025-01-01 22:18:11
+default_user;62;latin;tani, pospolity;vīlis, vilis, vile ;;False;2025-01-03 17:31:29
+default_user;62;latin;ułaskawić, przebaczyć (+ celownik);ignosco, ignoscĕre, ignovi, ignotum ;;False;2025-01-03 17:31:32
+default_user;62;latin;laska herolda noszona jako znak pokoju;cādūcĕum, caducei ;;False;2025-01-03 17:31:35
+default_user;62;latin;nauka;stŭdĭum, studii ;scientia scientiae;False;2025-01-03 17:31:41
+default_user;62;latin;walczyć, rywalizować;certo, certāre, certāvī, certātum ;;False;2025-01-03 17:31:44
+default_user;62;latin;prokonsularny;prōconsŭlāris, proconsularis, proconsulare ;proconsularis;False;2025-01-03 17:31:47
+default_user;62;latin;szyderca, kpiarz;dērīsŏr, derisoris ;;False;2025-01-03 17:31:50
+default_user;62;latin;obracać, obracać się, wirować;verso, versāre, versāvī, versātum ;volvo volvere volvui volvi;False;2025-01-03 17:31:59
+default_user;62;latin;powoli, stopniowo, ostrożnie;sensim ;;False;2025-01-03 17:32:02
+default_user;62;latin;lek;mĕdĭcāmĕn, medicaminis ;;False;2025-01-03 17:32:04
+default_user;62;latin;pogrzeb;fūnŭs, funeris ;funus funeris;True;2025-01-03 17:32:11

@@ -58,7 +58,7 @@ if __name__ == '__main__':
             else:
                 print(f'wrong. correct answer is "{entry.head.head_raw}" ({entry.example})')
                 # todo if another translation from dict was given print it's meaning - not that easy. it may be in original dict but not after some removals
-                # actually some translations may unequivocal (ex. także -> etiam, quoque)
+                # actually some translations may be unequivocal (ex. także -> etiam, quoque)
 
             if args.user_name is not None:
                 db_handler.update_db(user=args.user_name, word_pl=word_pl,
