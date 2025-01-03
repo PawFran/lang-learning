@@ -1,14 +1,16 @@
 # when third declension is mentioned all variants should be included
 # todo filter by word
 
-import os
 import copy
+import os
 
 from numpy.random import default_rng
 
-from common.lib.utils import weak_equals
+from actions.declension import DECLENSION_EXERCISE_CSV_LOG_FILE_PATH
+from common.lib.utils import weak_equals, DEFAULT_USER_NAME
 from declension.lib.parsing_args import *
 from declension.lib.utils import *
+from vocabulary.lib.file_db import DeclensionExerciseCSVHandler
 
 if __name__ == '__main__':
     rng = default_rng()
@@ -33,6 +35,8 @@ if __name__ == '__main__':
 
     current_dict = declensions_filtered
 
+    db_handler = DeclensionExerciseCSVHandler(DECLENSION_EXERCISE_CSV_LOG_FILE_PATH, DEFAULT_USER_NAME)
+
     should_continue = True
     while should_continue:
         backup_dict = copy.deepcopy(current_dict)  # in case remove is on and answer is wrong
@@ -47,11 +51,21 @@ if __name__ == '__main__':
 
             try:
                 user_answer = input()
-                if weak_equals(user_answer, declension_test.answer):
+                is_correct = weak_equals(user_answer, declension_test.answer)
+                if is_correct:
                     print('correct', end='\n\n')
                 else:
                     print(f'wrong. proper answer is {declension_test.answer}', end='\n\n')
                     current_dict = backup_dict
+
+                db_handler.update_db(user=DEFAULT_USER_NAME,
+                                     lang='latin',
+                                     base_word=declension_prompt.base_word,
+                                     number=declension_prompt.number,
+                                     case=declension_prompt.case,
+                                     correct_form=declension_test.answer,
+                                     user_answer=user_answer,
+                                     is_correct=is_correct)
             except KeyboardInterrupt:
                 should_continue = False
                 print('')

@@ -33,7 +33,10 @@ class ExerciseCSVHandler(ABC):
         """
         pass
 
-    def session_id(self):
+    def get(self):
+        return pd.read_csv(self.path, sep=separator, parse_dates=['time'], date_format=datetime_format)
+
+    def create_new_session_id(self):
         """
         Create session id for current session
         """
@@ -45,10 +48,10 @@ class ExerciseCSVHandler(ABC):
             return user_sessions.max() + 1
 
 
-class TranslationExerciseCSVHandler(ExerciseCSVHandler):
+class DeclensionExerciseCSVHandler(ExerciseCSVHandler):
     def __init__(self, path, user_name):
         super().__init__(path, user_name)
-        self._current_session_id = self.session_id()
+        self._current_session_id = self.create_new_session_id()
 
     @property
     def current_session_id(self):
@@ -58,8 +61,41 @@ class TranslationExerciseCSVHandler(ExerciseCSVHandler):
     def current_session_id(self, value):
         self._current_session_id = value
 
-    def get(self):
-        return pd.read_csv(self.path, sep=separator, parse_dates=['time'], date_format=datetime_format)
+    def update_db(self, user, lang: str, base_word: str, number: str, case: str, correct_form: str, user_answer: str,
+                  is_correct: bool):
+        df = pd.read_csv(self.path, sep=';')
+
+        df = self.add_new_record(df, user, lang, base_word, number, case, correct_form, user_answer, is_correct)
+
+        df.to_csv(self.path, index=False, sep=';')
+
+    def add_new_record(self, df, user, lang, base_word, number, case, correct_form, user_answer, is_correct):
+        new_row = pd.DataFrame({'user': user,
+                                'session_id': self.current_session_id,
+                                'lang': lang,
+                                'base_word': base_word,
+                                'number': number,
+                                'case': case,
+                                'correct_form': correct_form,
+                                'user_answer': user_answer,
+                                'is_correct': is_correct,
+                                'time': dt.now().replace(microsecond=0)
+                                }, index=[0])
+        return pd.concat([df, new_row])
+
+
+class TranslationExerciseCSVHandler(ExerciseCSVHandler):
+    def __init__(self, path, user_name):
+        super().__init__(path, user_name)
+        self._current_session_id = self.create_new_session_id()
+
+    @property
+    def current_session_id(self):
+        return self._current_session_id
+
+    @current_session_id.setter
+    def current_session_id(self, value):
+        self._current_session_id = value
 
     def update_db(self, user: str, word_pl: str, lang: str, translation: str, was_correct: bool, user_answer: str):
         df = pd.read_csv(self.path, sep=';')

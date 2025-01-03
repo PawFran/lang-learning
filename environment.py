@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
 
-from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE
+from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH
 from common.lib.utils import DEFAULT_USER_NAME
 from vocabulary.lib.file_db import TranslationExerciseCSVHandler
 
@@ -15,4 +15,4 @@ if DATABASE is None:
 
 engine = create_engine(DATABASE)
 
-LOG_CSV_HANDLER = TranslationExerciseCSVHandler(TRANSLATION_EXERCISE_CSV_LOG_FILE, DEFAULT_USER_NAME)
+LOG_CSV_HANDLER = TranslationExerciseCSVHandler(TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, DEFAULT_USER_NAME)

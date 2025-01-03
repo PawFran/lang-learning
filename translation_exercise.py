@@ -1,4 +1,4 @@
-from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE
+from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH
 from common.lib.utils import DEFAULT_USER_NAME
 from vocabulary.lib.parsing_dict import *
 from vocabulary.lib.utils import compare_answer_with_full_head_raw
@@ -21,7 +21,7 @@ if __name__ == '__main__':
     if args.filter is not None:
         dictionary = dictionary.filter_by_complex_condition(args.filter)
 
-    db_handler = TranslationExerciseCSVHandler(TRANSLATION_EXERCISE_CSV_LOG_FILE, args.user_name)
+    db_handler = TranslationExerciseCSVHandler(TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, args.user_name)
 
     rng = default_rng()
 
