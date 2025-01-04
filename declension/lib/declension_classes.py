@@ -13,10 +13,9 @@ class DeclensionType(Enum):
     III_mixed = 3.3
     IV = 4
     V = 5
-    RELATIVE = 6
-    DEMONSTRATIVE = 7
-    INTERROGATIVE = 8
-
+    relative = 6
+    demonstrative = 7
+    interrogative = 8
 
     @staticmethod
     def from_string(s: str):
@@ -38,11 +37,11 @@ class DeclensionType(Enum):
             case 'fifth' | 'v' | 'five' | '5':
                 return DeclensionType.V
             case 'relative' | 'rel':
-                return DeclensionType.RELATIVE
+                return DeclensionType.relative
             case 'demonstrative' | 'dem':
-                return DeclensionType.DEMONSTRATIVE
+                return DeclensionType.demonstrative
             case 'interrogative' | 'inter':
-                return DeclensionType.INTERROGATIVE
+                return DeclensionType.interrogative
             case _:
                 raise Exception(f'cannot parse string {s} to DeclensionType')
 
@@ -195,4 +194,3 @@ class Declensions:
             cnt += len(pattern.plural) + len(pattern.singular)
 
         return cnt
-
