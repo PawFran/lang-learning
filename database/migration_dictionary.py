@@ -38,9 +38,3 @@ def add_words_with_translations(dictionary, engine):
                 words_not_added += 1
     if words_not_added > 0:
         print(f'\n{words_not_added} words were not tried to be added')
-
-
-if __name__ == '__main__':
-    engine = create_engine(DATABASE)
-    dict_folder = os.path.join('..', 'vocabulary', 'dicts')
-    migrate_dictionary(engine, dict_folder)

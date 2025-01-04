@@ -37,7 +37,6 @@ def parse_translation_result_line(raw_line: str):
     )
 
 
-
 def migrate_translation_results(engine, translation_results_dir: str):
     file_name = 'translation_exercise_results.csv'
     path = os.path.join(translation_results_dir, file_name)
@@ -53,9 +52,3 @@ def migrate_translation_results(engine, translation_results_dir: str):
                 print(f'word from line {line} not found')
 
         session.commit()
-
-
-if __name__ == '__main__':
-    engine = create_engine(DATABASE)
-    translation_results_dir = os.path.join('..', 'vocabulary', 'db')
-    migrate_translation_results(engine, translation_results_dir)
