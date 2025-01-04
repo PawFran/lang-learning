@@ -3,7 +3,8 @@ from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
 from common.lib.utils import flatten
-from database.db_classes import LatinDeclensionPatterns
+from conjugation.lib.conjugation_classes import ConjugationTable, SingleConjugationRecord
+from database.db_classes import LatinDeclensionPatterns, LatinConjugationPatterns
 from database.utils import insert_or_ignore_no_commit
 from declension.lib.declension_classes import SingleDeclension, SingleDeclensionPattern, Declensions
 
@@ -50,6 +51,33 @@ def migrate_declension_patterns(engine: Engine, path: str):
     declension_patterns_parsed: [SingleDeclension] = [parse_single_declension(declension) for declension in declensions]
 
     rows = flatten(flatten(declension_patterns_parsed))
+
+    with Session(engine) as session:
+        try:
+            for row in rows:
+                insert_or_ignore_no_commit(session, row)
+            session.commit()
+        except IntegrityError as err:
+            print(f'cannot insert {row} because of {str(err)}')
+
+
+def parse_single_conjugation_pattern_record(x: SingleConjugationRecord) -> LatinConjugationPatterns:
+    return LatinConjugationPatterns(
+        infinitive=x.infinitive,
+        conjugation_type=x.conjugation_type.name,
+        mood=x.mood.name,
+        tense=x.tense.name,
+        voice=x.voice.name,
+        number=x.number.name,
+        person=x.person.name,
+        word=x.word
+    )
+
+
+def migrate_conjugation_patterns(engine: Engine, path: str):
+    conjugation_all_table: list[SingleConjugationRecord] = ConjugationTable.from_file_path(path).records
+
+    rows: list[LatinConjugationPatterns] = [parse_single_conjugation_pattern_record(x) for x in conjugation_all_table]
 
     with Session(engine) as session:
         try:

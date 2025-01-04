@@ -6,7 +6,7 @@ from conjugation.lib.conjugation_classes import ConjugationType
 from database.db_classes import Base, create_all_views
 from database.migration_dictionary import migrate_dictionary
 from database.migration_exercise_results import migrate_translation_results
-from database.migration_patterns import migrate_declension_patterns
+from database.migration_patterns import migrate_declension_patterns, migrate_conjugation_patterns
 from declension.lib.declension_classes import DeclensionType
 from vocabulary.lib.dict_classes import PartOfSpeech, Lang
 
@@ -66,9 +66,11 @@ def initialize_database(engine: Engine,
                         dictionary_migration: bool,
                         translation_results_migration: bool,
                         declension_patterns_migration: bool,
+                        conjugation_patterns_migration: bool,
                         dictionary_folder: str,
                         translation_results_path: str,
-                        declension_patterns_file_path: str):
+                        declension_patterns_file_path: str,
+                        conjugation_patterns_file_path: str):
     if remove_old:
         remove_db(engine)
 
@@ -102,3 +104,7 @@ def initialize_database(engine: Engine,
     if declension_patterns_migration:
         migrate_declension_patterns(engine, declension_patterns_file_path)
         print('declension patterns migrated')
+
+    if conjugation_patterns_migration:
+        migrate_conjugation_patterns(engine, conjugation_patterns_file_path)
+        print('conjugation patterns migrated')

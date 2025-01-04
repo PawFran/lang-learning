@@ -23,7 +23,7 @@ class PartsOfSpeech(Base):
 class Genres(Base):
     __tablename__ = 'genres'
 
-    name = Column(String, primary_key=True, unique=True, nullable=True) # quis quid has no genre
+    name = Column(String, primary_key=True, unique=True, nullable=True)  # quis quid has no genre
 
 
 class LatinDeclensions(Base):
@@ -165,6 +165,20 @@ class LatinDeclensionPatterns(Base):
     base_word = Column(String, nullable=False)
     number = Column(String, nullable=False)  # todo enum sing/pl
     case = Column(String, nullable=False)  # todo enum
+    word = Column(String, nullable=False)
+
+
+class LatinConjugationPatterns(Base):
+    __tablename__ = 'latin_conjugation_patterns'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    conjugation_type = Column(String, ForeignKey(f'{LatinConjugations.__tablename__}.name'))
+    infinitive = Column(String, nullable=False)
+    mood = Column(String, nullable=False)  # todo enum
+    tense = Column(String, nullable=False)  # todo enum
+    voice = Column(String, nullable=False)  # todo enum
+    number = Column(String, nullable=False)  # todo enum
+    person = Column(String, nullable=False)  # todo enum
     word = Column(String, nullable=False)
 
 
