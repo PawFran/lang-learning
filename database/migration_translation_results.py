@@ -2,9 +2,7 @@ import os
 import sys
 from datetime import datetime
 
-from sqlalchemy import create_engine
-
-from environment import DATABASE
+from sqlalchemy import Engine
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -37,16 +35,23 @@ def parse_translation_result_line(raw_line: str):
     )
 
 
-def migrate_translation_results(engine, path: str):
+def migrate_translation_results(engine: Engine, path: str):
+    message = lambda line: f'word from line {line} not found'
+
+    migrate(engine, path, parse_translation_result_line, message)
+
+
+def migrate(engine, path: str, parsing_function, error_message):
+    # to use string interpolation error message should be function str -> str
     with open(path, encoding="utf8") as f:
         f.readline()  # skip header
         lines = f.readlines()
     with Session(engine) as session:
         for line in lines:
-            translation_result = parse_translation_result_line(line)
-            if translation_result is not None:
-                insert_or_ignore_no_commit(session, translation_result)
+            result = parsing_function(line)
+            if result is not None:
+                insert_or_ignore_no_commit(session, result)
             else:
-                print(f'word from line {line} not found')
+                print(error_message)
 
         session.commit()
