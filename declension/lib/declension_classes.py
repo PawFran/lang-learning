@@ -5,17 +5,17 @@ from common.lib.utils import flatten
 
 
 class DeclensionType(Enum):
-    I = 1
-    II = 2
-    III = 3
-    III_consonant = 3.1
-    III_vowel = 3.2
-    III_mixed = 3.3
-    IV = 4
-    V = 5
-    relative = 6
-    demonstrative = 7
-    interrogative = 8
+    I = 'I'
+    II = 'II'
+    III = 'III'
+    III_consonant = 'III consonant'
+    III_vowel = 'III vowel'
+    III_mixed = 'III mixed'
+    IV = 'IV'
+    V = 'V'
+    relative = 'relative'
+    demonstrative = 'demonstrative'
+    interrogative = 'interrogative'
 
     @staticmethod
     def from_string(s: str):

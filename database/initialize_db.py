@@ -2,16 +2,17 @@ import psycopg2
 from sqlalchemy import *
 from sqlalchemy_utils import database_exists, create_database
 
+from conjugation.lib.conjugation_classes import ConjugationType
 from database.db_classes import Base, create_all_views
 from database.migration_dictionary import migrate_dictionary
 from database.migration_exercise_results import migrate_translation_results
 from database.migration_patterns import migrate_declension_patterns
 from declension.lib.declension_classes import DeclensionType
-from vocabulary.lib.dict_classes import PartOfSpeech
+from vocabulary.lib.dict_classes import PartOfSpeech, Lang
 
-langs = ['latin', 'english']
-latin_declensions = [p.name.replace('_', ' ') for p in DeclensionType]  # ex. III_mixed -> III mixed
-latin_conjugations = ['I', 'II', 'III', 'IV', 'ANOMALOUS']
+langs = [lang.value for lang in Lang]
+latin_declensions = [d_type.value for d_type in DeclensionType]  # ex. III_mixed -> III mixed
+latin_conjugations = [c_type.value for c_type in ConjugationType]
 parts_of_speech = [p.value for p in PartOfSpeech]
 genres = ['masculine', 'feminine', 'neutral', 'masculine and feminine', 'none']
 

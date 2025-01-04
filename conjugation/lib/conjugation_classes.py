@@ -7,13 +7,11 @@ from numpy.random import default_rng
 
 @dataclass
 class ConjugationType(Enum):
-    I = 1
-    II = 2
-    III = 3
-    # IIIa = 3.1
-    # IIIb = 3.2
-    IV = 4
-    ANOMALOUS = 5
+    I = 'I'
+    II = 'II'
+    III = 'III'
+    IV = 'IV'
+    ANOMALOUS = 'ANOMALOUS'
 
     @staticmethod
     def from_string(s: str):

@@ -11,6 +11,9 @@ import os
 from conjugation.lib.conjugation_classes import ConjugationType
 from enum import Enum
 
+class Lang(Enum):
+    LATIN = 'latin'
+    ENGLISH = 'english'
 
 class PartOfSpeech(Enum):
     VERB = 'verb'
