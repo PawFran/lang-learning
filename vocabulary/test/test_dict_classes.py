@@ -382,7 +382,7 @@ def test_word_distribution():
 
     dictionary = Dictionary([dict_entry_1, dict_entry_2, dict_entry_3, dict_entry_4], lang='latin')
 
-    t1 = dt.strptime('2020-01-01 12:30:00', vocabulary.lib.db.datetime_format)
+    t1 = dt.strptime('2020-01-01 12:30:00', vocabulary.lib.file_db.datetime_format)
 
     db = pd.DataFrame({
         'word_pl': ['do (+ acc)', 'do (+ acc)', 'bardzo', 'często', 'pomiędzy, wśród (+ acc)', 'bardzo', 'do (+ acc)',
