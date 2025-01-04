@@ -175,8 +175,8 @@ if __name__ == '__main__':
         # This block will only be executed in the child process
         print('initializing db')
         dict_folder = os.path.join('vocabulary', 'dicts')
-        translation_results_dir = os.path.join('vocabulary', 'db')
+        translation_results_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
         initialize_database(engine=engine, remove_old=True, dictionary_migration=True,
                             translation_results_migration=True,
-                            dictionary_folder=dict_folder, translation_results_folder=translation_results_dir)
+                            dictionary_folder=dict_folder, translation_results_path=translation_results_path)
     app.run(debug=True)

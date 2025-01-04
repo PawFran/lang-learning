@@ -63,7 +63,7 @@ def remove_db(engine):
 
 def initialize_database(engine: Engine, remove_old: bool, dictionary_migration: bool,
                         translation_results_migration: bool,
-                        dictionary_folder: str, translation_results_folder: str):
+                        dictionary_folder: str, translation_results_path: str):
     if remove_old:
         remove_db(engine)
 
@@ -91,14 +91,14 @@ def initialize_database(engine: Engine, remove_old: bool, dictionary_migration: 
         print('dictionary migrated')
 
     if translation_results_migration:
-        migrate_translation_results(engine, translation_results_folder)
+        migrate_translation_results(engine, translation_results_path)
         print('translation results migrated')
 
 
 if __name__ == '__main__':
-    dict_folder = os.path.join('..', 'vocabulary', 'dicts')
-    translation_results_dir = os.path.join('..', 'vocabulary', 'db')
+    dict_folder = os.path.join('..', 'vocabulary', 'dicts') # folder because of parsing method (file is chosen based on 'lang' argument
+    translation_results_path = os.path.join('..', 'vocabulary', 'db', 'translation_exercise_results.csv')
     engine = create_engine(DATABASE)
     initialize_database(engine=engine, remove_old=True, dictionary_migration=True,
                         translation_results_migration=True,
-                        dictionary_folder=dict_folder, translation_results_folder=translation_results_dir)
+                        dictionary_folder=dict_folder, translation_results_path=translation_results_path)

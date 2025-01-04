@@ -37,9 +37,7 @@ def parse_translation_result_line(raw_line: str):
     )
 
 
-def migrate_translation_results(engine, translation_results_dir: str):
-    file_name = 'translation_exercise_results.csv'
-    path = os.path.join(translation_results_dir, file_name)
+def migrate_translation_results(engine, path: str):
     with open(path, encoding="utf8") as f:
         f.readline()  # skip header
         lines = f.readlines()
