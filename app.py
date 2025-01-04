@@ -174,9 +174,18 @@ if __name__ == '__main__':
     if os.environ.get('WERKZEUG_RUN_MAIN') == 'true':
         # This block will only be executed in the child process
         print('initializing db')
+
         dict_folder = os.path.join('vocabulary', 'dicts')
         translation_results_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
-        initialize_database(engine=engine, remove_old=True, dictionary_migration=True,
+        declension_pattern_path = os.path.join("declension", "resources", "declension.json")
+
+        initialize_database(engine=engine,
+                            remove_old=True,
+                            dictionary_migration=True,
                             translation_results_migration=True,
-                            dictionary_folder=dict_folder, translation_results_path=translation_results_path)
+                            declension_patterns_migration=True,
+                            dictionary_folder=dict_folder,
+                            translation_results_path=translation_results_path,
+                            declension_patterns_file_path=declension_pattern_path)
+
     app.run(debug=True)

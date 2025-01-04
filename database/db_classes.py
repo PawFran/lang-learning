@@ -23,7 +23,7 @@ class PartsOfSpeech(Base):
 class Genres(Base):
     __tablename__ = 'genres'
 
-    name = Column(String, primary_key=True, unique=True, nullable=False)
+    name = Column(String, primary_key=True, unique=True, nullable=True) # quis quid has no genre
 
 
 class LatinDeclensions(Base):
@@ -147,13 +147,25 @@ class LatinAdjectives(Base):
     masculinum = Column(String, nullable=False)
     masculinum_acc = Column(String, nullable=False)
     femininum = Column(String, nullable=False)
-    neutrum = Column(String, nullable=False)
     femininum_acc = Column(String, nullable=False)
+    neutrum = Column(String, nullable=False)
     neutrum_acc = Column(String, nullable=False)
 
     __table_args__ = (
         UniqueConstraint('masculinum_acc', 'femininum_acc', 'neutrum_acc'),
     )
+
+
+class LatinDeclensionPatterns(Base):
+    __tablename__ = 'latin_declension_patterns'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    declension_type = Column(String, ForeignKey(f'{LatinDeclensions.__tablename__}.name'))
+    genre = Column(String, ForeignKey(f'{Genres.__tablename__}.name'))
+    base_word = Column(String, nullable=False)
+    number = Column(String, nullable=False)  # todo enum sing/pl
+    case = Column(String, nullable=False)  # todo enum
+    word = Column(String, nullable=False)
 
 
 class TranslationResults(Base):
@@ -168,7 +180,8 @@ class TranslationResults(Base):
     expected_answer = Column(Text,
                              nullable=False)  # needs to be here - cannot take it from Words in view because some words may be added later and were not available during translations - to the result will be fdifferent
     user_answer = Column(Text, nullable=False)
-    is_correct = Column(Boolean, nullable=False)  # needs to be stored here, logic is to complex to calculate it in sql view
+    is_correct = Column(Boolean,
+                        nullable=False)  # needs to be stored here, logic is to complex to calculate it in sql view
     time = Column(DateTime, nullable=False)
 
 

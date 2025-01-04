@@ -1,20 +1,19 @@
-import os
-
 import psycopg2
 from sqlalchemy import *
 from sqlalchemy_utils import database_exists, create_database
 
 from database.db_classes import Base, create_all_views
 from database.migration_dictionary import migrate_dictionary
-from database.migration_translation_results import migrate_translation_results
-from environment import DATABASE
+from database.migration_exercise_results import migrate_translation_results
+from database.migration_patterns import migrate_declension_patterns
+from declension.lib.declension_classes import DeclensionType
 from vocabulary.lib.dict_classes import PartOfSpeech
 
 langs = ['latin', 'english']
-latin_declensions = ['I', 'II', 'III', 'III vowel', 'III consonant', 'III mixed', 'IV', 'V']
+latin_declensions = [p.name.replace('_', ' ') for p in DeclensionType]  # ex. III_mixed -> III mixed
 latin_conjugations = ['I', 'II', 'III', 'IV', 'ANOMALOUS']
 parts_of_speech = [p.value for p in PartOfSpeech]
-genres = ['masculine', 'feminine', 'neutral', 'masculine and feminine']
+genres = ['masculine', 'feminine', 'neutral', 'masculine and feminine', 'none']
 
 tables_with_enums = {
     'languages': langs,
@@ -61,9 +60,14 @@ def remove_db(engine):
         conn.close()
 
 
-def initialize_database(engine: Engine, remove_old: bool, dictionary_migration: bool,
+def initialize_database(engine: Engine,
+                        remove_old: bool,
+                        dictionary_migration: bool,
                         translation_results_migration: bool,
-                        dictionary_folder: str, translation_results_path: str):
+                        declension_patterns_migration: bool,
+                        dictionary_folder: str,
+                        translation_results_path: str,
+                        declension_patterns_file_path: str):
     if remove_old:
         remove_db(engine)
 
@@ -93,3 +97,7 @@ def initialize_database(engine: Engine, remove_old: bool, dictionary_migration: 
     if translation_results_migration:
         migrate_translation_results(engine, translation_results_path)
         print('translation results migrated')
+
+    if declension_patterns_migration:
+        migrate_declension_patterns(engine, declension_patterns_file_path)
+        print('declension patterns migrated')

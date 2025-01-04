@@ -1,5 +1,7 @@
 TODO
 
+enumy numbers i cases w bazie sql
+
 do sesji powinno sie tez logowac startowe argumenty
 
 w tabeli translation_results is_correct jest stringiem pisanym czasem duza czasem mala litera. poprawic na boolean (i widoki!)
