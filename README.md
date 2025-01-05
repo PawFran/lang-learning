@@ -52,6 +52,16 @@ A guessing game that displays a Polish word and asks for the translation.
 python translation_exercise.py
 ```
 
+For easier access, add this alias to your `~/.zshrc` file:
+```bash
+alias translation='python /full/path/to/translation_exercise.py'
+```
+
+Then you can simply use:
+```bash
+translation -a word -z another_word
+```
+
 #### Flags and Options
 - **-k**: Keeps words even after a correct answer.
 - **-f**: Filter entries with multiple criteria. Separate filters with spaces and use a pipe (\`|\`) for “OR” conditions.

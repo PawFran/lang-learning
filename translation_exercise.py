@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH
 from common.lib.utils import DEFAULT_USER_NAME
 from vocabulary.lib.parsing_dict import *
