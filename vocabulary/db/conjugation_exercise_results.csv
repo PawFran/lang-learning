@@ -1,3 +1,3 @@
 user;session_id;lang;infinitive;mood;tense;voice;person;number;correct_form;user_answer;is_correct;time
-default_user;1;latin;legere;Mood.Indicativus;Tense.Praesens;Voice.Activus;Person.Third;Number.Singularis;legit;legit;True;2025-01-03 20:47:14
-default_user;1;latin;legere;Mood.Indicativus;Tense.Imperfectum;Voice.Passivus;Person.Second;Number.Singularis;legebāris;legebaris;True;2025-01-03 20:47:47
+default_user;1;latin;legere;indicative;present;active;3;singular;legit;legit;True;2025-01-03 20:47:14
+default_user;1;latin;legere;indicative;imperfect;passive;2;singular;legebāris;legebaris;True;2025-01-03 20:47:47

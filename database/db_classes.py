@@ -254,6 +254,25 @@ class DeclensionExerciseResults(Base):
     time = Column(DateTime, nullable=False)
 
 
+class ConjugationExerciseResults(Base):
+    __tablename__ = 'conjugation_exercise_results'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    user = Column(String, nullable=False)
+    session_id = Column(Integer, nullable=False)
+    lang = Column(String, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)  # more languages in the future
+    infinitive = Column(String, nullable=False)
+    mood = Column(String, ForeignKey(f'{Moods.__tablename__}.name'), nullable=False)
+    tense = Column(String, ForeignKey(f'{Tenses.__tablename__}.name'), nullable=False)
+    voice = Column(String, ForeignKey(f'{Voices.__tablename__}.name'), nullable=False)
+    number = Column(String, ForeignKey(f'{Numbers.__tablename__}.name'), nullable=False)
+    person = Column(String, ForeignKey(f'{Persons.__tablename__}.name'), nullable=False)
+    correct_answer = Column(String, nullable=False)
+    user_answer = Column(String, nullable=False)
+    is_correct = Column(Boolean, nullable=False)
+    time = Column(DateTime, nullable=False)
+
+
 class TranslationExerciseCurrentSession(Base):
     __tablename__ = 'translation_exercise_current_session'
 

@@ -178,6 +178,7 @@ if __name__ == '__main__':
         conjugation_pattern_path = os.path.join("conjugation", "resources", "conjugation.json")
         translation_exercise_results_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
         declension_exercise_results_path = os.path.join('vocabulary', 'db', 'declension_exercise_results.csv')
+        conjugaton_exercise_results_path = os.path.join('vocabulary', 'db', 'conjugation_exercise_results.csv')
 
         initialize_database(engine=engine,
                             remove_old=True,
@@ -186,10 +187,12 @@ if __name__ == '__main__':
                             conjugation_patterns_migration=True,
                             translation_exercise_results_migration=True,
                             declension_exercise_results_migration=True,
+                            conjugation_exercise_results_migration=True,
                             dictionary_folder=dict_folder,
                             declension_patterns_file_path=declension_pattern_path,
                             conjugation_patterns_file_path=conjugation_pattern_path,
                             translation_exercise_results_path=translation_exercise_results_path,
-                            declension_exercise_results_path=declension_exercise_results_path)
+                            declension_exercise_results_path=declension_exercise_results_path,
+                            conjugation_exercise_results_path=conjugaton_exercise_results_path)
 
     app.run(debug=True)

@@ -2,7 +2,7 @@ from datetime import datetime
 
 from sqlalchemy import Engine
 
-from conjugation.lib.conjugation_classes import Number
+from conjugation.lib.conjugation_classes import Number, Mood, Tense, Voice, Person
 from database.utils import *
 from declension.lib.declension_classes import DeclensionCase
 
@@ -49,12 +49,35 @@ def parse_declension_exercise_result_line(raw_line: str) -> TranslationExerciseR
     )
 
 
+def parse_conjugation_exercise_result_line(raw_line: str) -> TranslationExerciseResults:
+    split = raw_line.split(';')
+    return ConjugationExerciseResults(
+        user=split[0],
+        session_id=split[1],
+        lang=split[2],
+        infinitive=split[3],
+        mood=Mood.from_string(split[4]).value,
+        tense=Tense.from_string(split[5]).value,
+        voice=Voice.from_string(split[6]).value,
+        person=Person.from_string(split[7]).value,
+        number=Number.from_string(split[8]).value,
+        correct_answer=split[9],
+        user_answer=split[10],
+        is_correct=str_to_bool(split[11]),
+        time=datetime.strptime(split[12].strip(), DATE_FORMAT)
+    )
+
+
 def migrate_translation_exercise_results(engine: Engine, path: str):
     migrate_from_file_to_db(engine, path, parse_translation_exercise_result_line)
 
 
 def migrate_declension_exercise_results(engine: Engine, path: str):
     migrate_from_file_to_db(engine, path, parse_declension_exercise_result_line)
+
+
+def migrate_conjugation_exercise_results(engine: Engine, path: str):
+    migrate_from_file_to_db(engine, path, parse_conjugation_exercise_result_line)
 
 
 def migrate_from_file_to_db(engine, path: str, parsing_function):

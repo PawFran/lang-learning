@@ -7,7 +7,7 @@ from database.db_classes import Base, create_all_views, Languages, PartsOfSpeech
     LatinDeclensions, DeclensionCases, Moods, Tenses, Voices, Numbers, Persons
 from database.migration_dictionary import migrate_dictionary
 from database.migration_exercise_results import migrate_translation_exercise_results, \
-    migrate_declension_exercise_results
+    migrate_declension_exercise_results, migrate_conjugation_exercise_results
 from database.migration_patterns import migrate_declension_patterns, migrate_conjugation_patterns
 from declension.lib.declension_classes import DeclensionType, DeclensionCase, Genre
 from vocabulary.lib.dict_classes import PartOfSpeech, Lang
@@ -39,11 +39,13 @@ def initialize_database(engine: Engine,
                         conjugation_patterns_migration: bool,
                         translation_exercise_results_migration: bool,
                         declension_exercise_results_migration: bool,
+                        conjugation_exercise_results_migration: bool,
                         dictionary_folder: str,
                         declension_patterns_file_path: str,
                         conjugation_patterns_file_path: str,
                         translation_exercise_results_path: str,
-                        declension_exercise_results_path: str
+                        declension_exercise_results_path: str,
+                        conjugation_exercise_results_path: str
                         ):
     if remove_old:
         remove_db(engine)
@@ -86,6 +88,10 @@ def initialize_database(engine: Engine,
     if declension_exercise_results_migration:
         migrate_declension_exercise_results(engine, declension_exercise_results_path)
         print('declension exercise results migrated')
+
+    if conjugation_exercise_results_migration:
+        migrate_conjugation_exercise_results(engine, conjugation_exercise_results_path)
+        print('conjugation exercise results migrated')
 
 
 def remove_db(engine):
