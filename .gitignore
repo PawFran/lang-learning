@@ -1,2 +1,16 @@
 scraping_out_tmp.txt
 .env
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.idea/.gitignore
+.idea/csv-editor.xml
+.idea/lang-learning.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+database/.DS_Store
+vocabulary/.DS_Store
+.DS_Store
