@@ -238,6 +238,22 @@ class TranslationExerciseResults(Base):
     time = Column(DateTime, nullable=False)
 
 
+class DeclensionExerciseResults(Base):
+    __tablename__ = 'declension_exercise_results'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    user = Column(String, nullable=False)
+    session_id = Column(Integer, nullable=False)
+    lang = Column(String, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)  # more languages in the future
+    base_word = Column(String, nullable=False)
+    number = Column(String, ForeignKey(f'{Numbers.__tablename__}.name'), nullable=False)
+    case = Column(String, ForeignKey(f'{DeclensionCases.__tablename__}.name'), nullable=False)
+    correct_answer = Column(String, nullable=False)
+    user_answer = Column(String, nullable=False)
+    is_correct = Column(Boolean, nullable=False)
+    time = Column(DateTime, nullable=False)
+
+
 class TranslationExerciseCurrentSession(Base):
     __tablename__ = 'translation_exercise_current_session'
 

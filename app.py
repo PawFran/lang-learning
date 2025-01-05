@@ -174,19 +174,22 @@ if __name__ == '__main__':
         print('initializing db')
 
         dict_folder = os.path.join('vocabulary', 'dicts')
-        translation_results_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
         declension_pattern_path = os.path.join("declension", "resources", "declension.json")
         conjugation_pattern_path = os.path.join("conjugation", "resources", "conjugation.json")
+        translation_exercise_results_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
+        declension_exercise_results_path = os.path.join('vocabulary', 'db', 'declension_exercise_results.csv')
 
         initialize_database(engine=engine,
                             remove_old=True,
                             dictionary_migration=True,
-                            translation_results_migration=True,
                             declension_patterns_migration=True,
                             conjugation_patterns_migration=True,
+                            translation_exercise_results_migration=True,
+                            declension_exercise_results_migration=True,
                             dictionary_folder=dict_folder,
-                            translation_results_path=translation_results_path,
                             declension_patterns_file_path=declension_pattern_path,
-                            conjugation_patterns_file_path=conjugation_pattern_path)
+                            conjugation_patterns_file_path=conjugation_pattern_path,
+                            translation_exercise_results_path=translation_exercise_results_path,
+                            declension_exercise_results_path=declension_exercise_results_path)
 
     app.run(debug=True)
