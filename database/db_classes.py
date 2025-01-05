@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint, event, Boolean
-from sqlalchemy import Text, text, DateTime
+from sqlalchemy import text, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
 
@@ -81,7 +81,7 @@ class Words(Base):
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     lang = Column(String, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)
-    header = Column(Text, nullable=False)
+    header = Column(String, nullable=False)
     part_of_speech = Column(String, ForeignKey(f'{PartsOfSpeech.__tablename__}.name'), nullable=False)
 
     __table_args__ = (
@@ -92,9 +92,9 @@ class Words(Base):
 class Translations(Base):
     __tablename__ = 'translations'
     id = Column(Integer, primary_key=True)
-    translation = Column(Text, nullable=False, unique=True)
-    example = Column(Text)
-    associated_case = Column(Text, ForeignKey(f'{DeclensionCases.__tablename__}.name'))
+    translation = Column(String, nullable=False, unique=True)
+    example = Column(String)
+    associated_case = Column(String, ForeignKey(f'{DeclensionCases.__tablename__}.name'))
 
 
 class LatinWordsTranslationsMappings(Base):
@@ -122,7 +122,7 @@ class LatinVerbs(Base):
     perfect_acc = Column(String, nullable=False)
     supine = Column(String)
     supine_acc = Column(String)
-    additional_info = Column(Text)
+    additional_info = Column(String)
     conjugation = Column(String, ForeignKey(f'{LatinConjugations.__tablename__}.name'))
 
     __table_args__ = (
@@ -225,14 +225,14 @@ class TranslationExerciseResults(Base):
     __tablename__ = 'translation_exercise_results'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    user = Column(Text, nullable=False)
+    user = Column(String, nullable=False)
     session_id = Column(Integer, nullable=False)
-    lang = Column(Text, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)
-    word_pl = Column(Text,
+    lang = Column(String, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)
+    word_pl = Column(String,
                      nullable=False)  # foreign key was removed on purpose - words in dictionary are sometimes changed backwards
-    expected_answer = Column(Text,
+    expected_answer = Column(String,
                              nullable=False)  # needs to be here - cannot take it from Words in view because some words may be added later and were not available during translations - to the result will be fdifferent
-    user_answer = Column(Text, nullable=False)
+    user_answer = Column(String, nullable=False)
     is_correct = Column(Boolean,
                         nullable=False)  # needs to be stored here, logic is to complex to calculate it in sql view
     time = Column(DateTime, nullable=False)
@@ -243,13 +243,13 @@ class TranslationExerciseCurrentSession(Base):
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     word_id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'))
-    header = Column(Text, nullable=False)  # TODO FK to words ?
+    header = Column(String, nullable=False)  # TODO FK to words ?
     part_of_speech = Column(String, ForeignKey(f'{PartsOfSpeech.__tablename__}.name'), nullable=False)
-    translation = Column(Text, nullable=False)  # TODO FK to translations ?
-    example = Column(Text)
-    associated_case = Column(Text, ForeignKey(f'{DeclensionCases.__tablename__}.name'), nullable=True)
+    translation = Column(String, nullable=False)  # TODO FK to translations ?
+    example = Column(String)
+    associated_case = Column(String, ForeignKey(f'{DeclensionCases.__tablename__}.name'), nullable=True)
     is_active = Column(Boolean, default=False, nullable=False)  # New column to track active row
-    user_name = Column(Text, default=DEFAULT_USER_NAME, nullable=False)
+    user_name = Column(String, default=DEFAULT_USER_NAME, nullable=False)
     session_id = Column(Integer, nullable=False)  # now always the same, but will make sense for multiple users
 
 
