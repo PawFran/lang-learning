@@ -36,8 +36,8 @@ def start_translation_exercise_session(start_word: Optional[str], end_word: Opti
 
 
 def get_session_id(session: Session) -> int:
-    old_session_id = session.query(TranslationResults.session_id) \
-        .order_by(desc(TranslationResults.session_id)).first()[0]
+    old_session_id = session.query(TranslationExerciseResults.session_id) \
+        .order_by(desc(TranslationExerciseResults.session_id)).first()[0]
 
     new_session_id = 1 if old_session_id is None else old_session_id + 1
 
@@ -183,10 +183,10 @@ def update_log_csv_file(translation_result: TranslationFeedback, csv_handler: Tr
 
 
 def update_translation_result_db(feedback: TranslationFeedback, session: Session):
-    translation_result = TranslationResults(user=feedback.user_name, session_id=feedback.session_id, lang='latin',
-                                            word_pl=feedback.word_pl, expected_answer=feedback.correct_answer,
-                                            user_answer=feedback.user_answer, is_correct=feedback.is_correct,
-                                            time=dt.now().replace(microsecond=0))
+    translation_result = TranslationExerciseResults(user=feedback.user_name, session_id=feedback.session_id, lang='latin',
+                                                    word_pl=feedback.word_pl, expected_answer=feedback.correct_answer,
+                                                    user_answer=feedback.user_answer, is_correct=feedback.is_correct,
+                                                    time=dt.now().replace(microsecond=0))
 
     insert_or_ignore_no_commit(session, translation_result)
     session.commit()

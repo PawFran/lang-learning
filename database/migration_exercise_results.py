@@ -17,9 +17,9 @@ def str_to_bool(s: str) -> bool:
             raise ValueError('''Only 'true' or 'false' strings are acceptable''')
 
 
-def parse_translation_result_line(raw_line: str) -> TranslationResults:
+def parse_translation_result_line(raw_line: str) -> TranslationExerciseResults:
     split = raw_line.split(';')
-    return TranslationResults(
+    return TranslationExerciseResults(
         user=split[0],
         session_id=split[1],
         lang=split[2],

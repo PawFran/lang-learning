@@ -221,8 +221,8 @@ class LatinConjugationPatterns(Base):
     word = Column(String, nullable=False)
 
 
-class TranslationResults(Base):
-    __tablename__ = 'translation_results'
+class TranslationExerciseResults(Base):
+    __tablename__ = 'translation_exercise_results'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     user = Column(Text, nullable=False)
@@ -309,7 +309,7 @@ class TranslationCorrectRatio(View):
                    ROUND((SUM(correct) / COUNT(*))::NUMERIC * 100, 0) AS "correct %"
             FROM (
                 SELECT *, CASE WHEN is_correct THEN 1 ELSE 0 END AS correct
-                FROM {TranslationResults.__tablename__}
+                FROM {TranslationExerciseResults.__tablename__}
             ) subquery_1
             GROUP BY word_pl, expected_answer
         ) subquery_2
@@ -324,7 +324,7 @@ class TranslationLastAsked(View):
     __view_name__ = "translation_last_asked"
     __view_query__ = f"""
         SELECT word_pl, MAX(time) AS last_asked
-        FROM {TranslationResults.__tablename__}
+        FROM {TranslationExerciseResults.__tablename__}
         GROUP BY word_pl
         ORDER BY last_asked ASC
     """
