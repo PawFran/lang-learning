@@ -4,6 +4,7 @@ from vocabulary.lib.parsing_dict import *
 import sys
 from collections import namedtuple
 from scraping.lib.utils import get_scraped_data, print_scraping_results, output_temporary_file_name, print_and_return
+from typing import List
 
 FOUND_HEADER = '### found ###\n'
 SCRAPED_HEADER = '### scraped ###\n'
@@ -22,7 +23,7 @@ def find_or_scrape_words(words: list[str], example: str = '') -> str:
 
     entries_found: list[DictionaryEntry] = []
     words_initially_not_found: list[str] = []
-    entries_finally_not_found: [DictionaryEntry] = []
+    entries_finally_not_found: List[DictionaryEntry] = []
 
     for input_word in words:
         query_result = dictionary.find_by_word_using_weak_compare(input_word)
@@ -32,11 +33,11 @@ def find_or_scrape_words(words: list[str], example: str = '') -> str:
             words_initially_not_found.append(input_word)
 
     if len(words_initially_not_found) > 0:
-        scraped: [DictionaryEntry] = get_scraped_data(words_initially_not_found)
+        scraped: List[DictionaryEntry] = get_scraped_data(words_initially_not_found)
 
         # check again if not found (maybe another form, not in header, was in the input ex. abl sing)
         for entry in scraped:
-            query_result: [DictionaryEntry] = dictionary.find_by_full_header_using_weak_compare(entry.head.head_raw)
+            query_result: List[DictionaryEntry] = dictionary.find_by_full_header_using_weak_compare(entry.head.head_raw)
             if len(query_result) > 0:
                 for entry_found in query_result:
                     entries_found.append(entry_found)
