@@ -9,8 +9,16 @@ Base = declarative_base()
 views = []
 
 
+# Enum classes
 class Languages(Base):
     __tablename__ = 'languages'
+
+    name = Column(String, primary_key=True)
+
+
+class DeclensionCases(Base):
+    __tablename__ = 'declension_cases'
+
     name = Column(String, primary_key=True)
 
 
@@ -23,7 +31,37 @@ class PartsOfSpeech(Base):
 class Genres(Base):
     __tablename__ = 'genres'
 
-    name = Column(String, primary_key=True, unique=True, nullable=True)  # quis quid has no genre
+    name = Column(String, primary_key=True)
+
+
+class Moods(Base):
+    __tablename__ = 'moods'
+
+    name = Column(String, primary_key=True)
+
+
+class Tenses(Base):
+    __tablename__ = 'tenses'
+
+    name = Column(String, primary_key=True)
+
+
+class Voices(Base):
+    __tablename__ = 'voices'
+
+    name = Column(String, primary_key=True)
+
+
+class Numbers(Base):
+    __tablename__ = 'numbers'
+
+    name = Column(String, primary_key=True)
+
+
+class Persons(Base):
+    __tablename__ = 'persons'
+
+    name = Column(String, primary_key=True)
 
 
 class LatinDeclensions(Base):
@@ -37,6 +75,7 @@ class LatinConjugations(Base):
     name = Column(String, primary_key=True)
 
 
+# data classes
 class Words(Base):
     __tablename__ = 'words'
 
@@ -55,7 +94,7 @@ class Translations(Base):
     id = Column(Integer, primary_key=True)
     translation = Column(Text, nullable=False, unique=True)
     example = Column(Text)
-    associated_case = Column(Text)
+    associated_case = Column(Text, ForeignKey(f'{DeclensionCases.__tablename__}.name'))
 
 
 class LatinWordsTranslationsMappings(Base):
@@ -163,8 +202,8 @@ class LatinDeclensionPatterns(Base):
     declension_type = Column(String, ForeignKey(f'{LatinDeclensions.__tablename__}.name'))
     genre = Column(String, ForeignKey(f'{Genres.__tablename__}.name'))
     base_word = Column(String, nullable=False)
-    number = Column(String, nullable=False)  # todo enum sing/pl
-    case = Column(String, nullable=False)  # todo enum
+    number = Column(String, ForeignKey(f'{Numbers.__tablename__}.name'), nullable=False)
+    case = Column(String, ForeignKey(f'{DeclensionCases.__tablename__}.name'), nullable=False)
     word = Column(String, nullable=False)
 
 
@@ -174,11 +213,11 @@ class LatinConjugationPatterns(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     conjugation_type = Column(String, ForeignKey(f'{LatinConjugations.__tablename__}.name'))
     infinitive = Column(String, nullable=False)
-    mood = Column(String, nullable=False)  # todo enum
-    tense = Column(String, nullable=False)  # todo enum
-    voice = Column(String, nullable=False)  # todo enum
-    number = Column(String, nullable=False)  # todo enum
-    person = Column(String, nullable=False)  # todo enum
+    mood = Column(String, ForeignKey(f'{Moods.__tablename__}.name'), nullable=False)
+    tense = Column(String, ForeignKey(f'{Tenses.__tablename__}.name'), nullable=False)
+    voice = Column(String, ForeignKey(f'{Voices.__tablename__}.name'), nullable=False)
+    number = Column(String, ForeignKey(f'{Numbers.__tablename__}.name'), nullable=False)
+    person = Column(String, ForeignKey(f'{Persons.__tablename__}.name'), nullable=False)
     word = Column(String, nullable=False)
 
 
@@ -208,7 +247,7 @@ class TranslationExerciseCurrentSession(Base):
     part_of_speech = Column(String, ForeignKey(f'{PartsOfSpeech.__tablename__}.name'), nullable=False)
     translation = Column(Text, nullable=False)  # TODO FK to translations ?
     example = Column(Text)
-    associated_case = Column(Text)
+    associated_case = Column(Text, ForeignKey(f'{DeclensionCases.__tablename__}.name'), nullable=True)
     is_active = Column(Boolean, default=False, nullable=False)  # New column to track active row
     user_name = Column(Text, default=DEFAULT_USER_NAME, nullable=False)
     session_id = Column(Integer, nullable=False)  # now always the same, but will make sense for multiple users

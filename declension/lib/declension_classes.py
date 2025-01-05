@@ -1,6 +1,7 @@
 import json
 from dataclasses import dataclass
 from enum import Enum
+
 from common.lib.utils import flatten
 
 
@@ -47,12 +48,12 @@ class DeclensionType(Enum):
 
 
 class DeclensionCase(Enum):
-    NOMINATIVUS = 1
-    GENETIVUS = 2
-    DATIVUS = 3
-    ACCUSATIVUS = 4
-    ABLATIVUS = 5
-    VOCATIVUS = 6
+    NOMINATIVUS = 'nominative'
+    GENETIVUS = 'genitive'
+    DATIVUS = 'dative'
+    ACCUSATIVUS = 'accusative'
+    ABLATIVUS = 'ablative'
+    VOCATIVUS = 'vocative'
 
     @staticmethod
     def from_string(s: str):
@@ -90,6 +91,30 @@ class DeclensionCase(Enum):
                 return "nominativus"
             case _:
                 raise Exception(f'cannot parse {c} to case string representation')
+
+
+class Genre(Enum):
+    MASCULINE = 'masculine'
+    FEMININE = 'feminine'
+    NEUTRAL = 'neutral'
+    MASCULINE_AND_FEMININE = 'masculine and feminine'
+    NONE = 'none'
+
+    @staticmethod
+    def from_string(s):
+        match s.lower().strip():
+            case 'femininum' | 'f':
+                return Genre.FEMININE
+            case 'masculinum' | 'm':
+                return Genre.MASCULINE
+            case 'neutrum' | 'n':
+                return Genre.NEUTRAL
+            case 'm/f':
+                return Genre.MASCULINE_AND_FEMININE
+            case '' | None:
+                return Genre.NONE
+            case _:
+                raise ValueError(f'{s} cannot be converted to proper genre')
 
 
 @dataclass

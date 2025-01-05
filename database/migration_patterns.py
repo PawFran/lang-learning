@@ -6,7 +6,8 @@ from common.lib.utils import flatten
 from conjugation.lib.conjugation_classes import ConjugationTable, SingleConjugationRecord
 from database.db_classes import LatinDeclensionPatterns, LatinConjugationPatterns
 from database.utils import insert_or_ignore_no_commit
-from declension.lib.declension_classes import SingleDeclension, SingleDeclensionPattern, Declensions
+from declension.lib.declension_classes import SingleDeclension, SingleDeclensionPattern, Declensions, Genre, \
+    DeclensionCase
 
 
 def parse_single_declension(declension: SingleDeclension) -> [LatinDeclensionPatterns]:
@@ -19,28 +20,14 @@ def parse_single_declension_pattern(pattern: SingleDeclensionPattern) -> [LatinD
     return singular + plural
 
 
-def replace_genre(s: str) -> str:
-    match s.lower().strip():
-        case 'femininum':
-            return 'feminine'
-        case 'masculinum':
-            return 'masculine'
-        case 'neutrum':
-            return 'neutral'
-        case '':
-            return 'none'
-        case _:
-            raise ValueError(f'{s} cannot be converted to proper genre')
-
-
 def parse_single_declension_row(pattern: SingleDeclensionPattern, number: str, case: str,
                                 word) -> LatinDeclensionPatterns:
     return LatinDeclensionPatterns(
         base_word=pattern.base_word,
         declension_type=pattern.type.name.replace('_', ' '),
-        genre=replace_genre(pattern.genre),
+        genre=Genre.from_string(pattern.genre).value,
         number=number,
-        case=case,
+        case=DeclensionCase.from_string(case).value,
         word=word
     )
 
@@ -64,12 +51,12 @@ def migrate_declension_patterns(engine: Engine, path: str):
 def parse_single_conjugation_pattern_record(x: SingleConjugationRecord) -> LatinConjugationPatterns:
     return LatinConjugationPatterns(
         infinitive=x.infinitive,
-        conjugation_type=x.conjugation_type.name,
-        mood=x.mood.name,
-        tense=x.tense.name,
-        voice=x.voice.name,
-        number=x.number.name,
-        person=x.person.name,
+        conjugation_type=x.conjugation_type.value,
+        mood=x.mood.value,
+        tense=x.tense.value,
+        voice=x.voice.value,
+        number=x.number.value,
+        person=x.person.value,
         word=x.word
     )
 

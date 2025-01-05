@@ -32,8 +32,8 @@ class ConjugationType(Enum):
 
 @dataclass
 class Mood(Enum):
-    Indicativus = 'ind'
-    Imperativus = 'imp'
+    Indicativus = 'indicative'
+    Imperativus = 'imperative'
 
     # todo more will be added
 
@@ -50,12 +50,12 @@ class Mood(Enum):
 
 @dataclass
 class Tense(Enum):
-    Praesens = 'praes'
-    Imperfectum = 'imperf'
-    Futurum_I = 'fut I'
-    Perfectum = 'perf'
-    Plusquamperfectum = 'plusquamperf'
-    Futurum_II = 'fut II'
+    Praesens = 'present'
+    Imperfectum = 'imperfect'
+    Futurum_I = 'future simple'
+    Perfectum = 'perfect'
+    Plusquamperfectum = 'pluperfect'
+    Futurum_II = 'future perfect'
 
     # todo tests
     @staticmethod
@@ -80,8 +80,8 @@ class Tense(Enum):
 
 @dataclass
 class Voice(Enum):
-    Activus = 'act'
-    Passivus = 'pass'
+    Activus = 'active'
+    Passivus = 'passive'
 
     @staticmethod
     def from_string(s: str):
@@ -96,8 +96,8 @@ class Voice(Enum):
 
 @dataclass
 class Number(Enum):
-    Singularis = 'sing'
-    Pluralis = 'pl'
+    Singularis = 'singular'
+    Pluralis = 'plural'
 
     @staticmethod
     def from_string(s: str):
@@ -112,9 +112,9 @@ class Number(Enum):
 
 @dataclass
 class Person(Enum):
-    First = 1
-    Second = 2
-    Third = 3
+    First = '1'
+    Second = '2'
+    Third = '3'
 
     @staticmethod
     def from_string(s: str):
