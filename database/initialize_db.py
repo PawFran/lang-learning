@@ -14,8 +14,8 @@ if str(project_root) not in sys.path:
     sys.path.append(str(project_root))
 
 from conjugation.lib.conjugation_classes import ConjugationType, Mood, Number, Tense, Voice, Person
-from database.db_classes import Base, create_all_views, Languages, PartsOfSpeech, Genres, LatinConjugations, \
-    LatinDeclensions, DeclensionCases, Moods, Tenses, Voices, Numbers, Persons
+from database.db_classes import Base, create_all_views, Languages, PartsOfSpeech, Genres, LatinConjugationTypes, \
+    LatinDeclensionTypes, DeclensionCases, Moods, Tenses, Voices, Numbers, Persons
 from database.migration_dictionary import migrate_dictionary
 from database.migration_exercise_results import migrate_translation_exercise_results, \
     migrate_declension_exercise_results, migrate_conjugation_exercise_results
@@ -38,8 +38,8 @@ tables_with_enums = {
     Voices.__tablename__: values_from(Voice),
     Numbers.__tablename__: values_from(Number),
     Persons.__tablename__: values_from(Person),
-    LatinDeclensions.__tablename__: values_from(DeclensionType),
-    LatinConjugations.__tablename__: values_from(ConjugationType),
+    LatinDeclensionTypes.__tablename__: values_from(DeclensionType),
+    LatinConjugationTypes.__tablename__: values_from(ConjugationType),
 }
 
 # needs to be invoked from project root

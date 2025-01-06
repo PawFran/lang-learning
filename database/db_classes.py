@@ -64,14 +64,14 @@ class Persons(Base):
     name = Column(String, primary_key=True)
 
 
-class LatinDeclensions(Base):
-    __tablename__ = 'declensions_latin'
+class LatinDeclensionTypes(Base):
+    __tablename__ = 'declension_types_latin'
 
     name = Column(String, primary_key=True, unique=True, nullable=False)
 
 
-class LatinConjugations(Base):
-    __tablename__ = 'conjugations_latin'
+class LatinConjugationTypes(Base):
+    __tablename__ = 'conjugation_types_latin'
     name = Column(String, primary_key=True)
 
 
@@ -111,7 +111,7 @@ class LatinWordsTranslationsMappings(Base):
 
 
 class LatinVerbs(Base):
-    __tablename__ = 'verbs_latin'
+    __tablename__ = 'words_verbs_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     base_word = Column(String, nullable=False)
@@ -123,7 +123,7 @@ class LatinVerbs(Base):
     supine = Column(String)
     supine_acc = Column(String)
     additional_info = Column(String)
-    conjugation = Column(String, ForeignKey(f'{LatinConjugations.__tablename__}.name'))
+    conjugation = Column(String, ForeignKey(f'{LatinConjugationTypes.__tablename__}.name'))
 
     __table_args__ = (
         UniqueConstraint('base_word_acc', 'infinite_acc', 'perfect_acc', 'supine_acc'),
@@ -131,14 +131,14 @@ class LatinVerbs(Base):
 
 
 class LatinNouns(Base):
-    __tablename__ = 'nouns_latin'
+    __tablename__ = 'words_nouns_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     base = Column(String, nullable=False)
     base_acc = Column(String, nullable=False)
     gen = Column(String, nullable=False)
     gen_acc = Column(String, nullable=False)
-    declension = Column(String, ForeignKey(f'{LatinDeclensions.__tablename__}.name'), nullable=False)
+    declension = Column(String, ForeignKey(f'{LatinDeclensionTypes.__tablename__}.name'), nullable=False)
     genre = Column(String, ForeignKey(f'{Genres.__tablename__}.name'), nullable=False)
     only_pl = Column(String, nullable=False)
 
@@ -148,7 +148,7 @@ class LatinNouns(Base):
 
 
 class LatinAdverbs(Base):
-    __tablename__ = 'adverbs_latin'
+    __tablename__ = 'words_adverbs_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     base = Column(String, nullable=False)
@@ -156,7 +156,7 @@ class LatinAdverbs(Base):
 
 
 class LatinPrepositions(Base):
-    __tablename__ = 'prepositions_latin'
+    __tablename__ = 'words_prepositions_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     base = Column(String, nullable=False)
@@ -164,7 +164,7 @@ class LatinPrepositions(Base):
 
 
 class LatinConjunctions(Base):
-    __tablename__ = 'conjunctions_latin'
+    __tablename__ = 'words_conjunctions_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     base = Column(String, nullable=False)
@@ -172,7 +172,7 @@ class LatinConjunctions(Base):
 
 
 class LatinPronouns(Base):
-    __tablename__ = 'pronouns_latin'
+    __tablename__ = 'words_pronouns_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     base = Column(String, nullable=False)
@@ -180,7 +180,7 @@ class LatinPronouns(Base):
 
 
 class LatinAdjectives(Base):
-    __tablename__ = 'adjectives_latin'
+    __tablename__ = 'words_adjectives_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     masculinum = Column(String, nullable=False)
@@ -199,7 +199,7 @@ class LatinDeclensionPatterns(Base):
     __tablename__ = 'declension_patterns_latin'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    declension_type = Column(String, ForeignKey(f'{LatinDeclensions.__tablename__}.name'))
+    declension_type = Column(String, ForeignKey(f'{LatinDeclensionTypes.__tablename__}.name'))
     genre = Column(String, ForeignKey(f'{Genres.__tablename__}.name'))
     base_word = Column(String, nullable=False)
     number = Column(String, ForeignKey(f'{Numbers.__tablename__}.name'), nullable=False)
@@ -211,7 +211,7 @@ class LatinConjugationPatterns(Base):
     __tablename__ = 'conjugation_patterns_latin'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    conjugation_type = Column(String, ForeignKey(f'{LatinConjugations.__tablename__}.name'))
+    conjugation_type = Column(String, ForeignKey(f'{LatinConjugationTypes.__tablename__}.name'))
     infinitive = Column(String, nullable=False)
     mood = Column(String, ForeignKey(f'{Moods.__tablename__}.name'), nullable=False)
     tense = Column(String, ForeignKey(f'{Tenses.__tablename__}.name'), nullable=False)
