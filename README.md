@@ -52,16 +52,6 @@ A guessing game that displays a Polish word and asks for the translation.
 python translation_exercise.py
 ```
 
-For easier access, add this alias to your `~/.zshrc` file:
-```bash
-alias translation='python /full/path/to/translation_exercise.py'
-```
-
-Then you can simply use:
-```bash
-translation -a word -z another_word
-```
-
 #### Flags and Options
 - **-k**: Keeps words even after a correct answer.
 - **-f**: Filter entries with multiple criteria. Separate filters with spaces and use a pipe (\`|\`) for “OR” conditions.
@@ -84,6 +74,16 @@ With a user profile set up, "smart sampling" gives priority to:
 python declension_exercise.py -d DECLENSIONS -k (optional)
 ```
 
+For easier access, add this alias to your `~/.zshrc` file:
+```bash
+alias declension='python /full/path/to/declension_exercise.py'
+```
+
+Then you can simply use:
+```bash
+declension -d 1 2 3 -k
+```
+
 #### Declensions
 Specify declensions as a list:
 - Options: \`1, 2, 3, "3 consonant", "3 vowel", "3 mixed", 4, 5, relative\`
@@ -98,6 +98,16 @@ Specify declensions as a list:
 ### Usage
 ```bash
 python conjugation_exercise.py -c CONJUGATIONS -m MOODS -v VOICES -t TENSES -k
+```
+
+For easier access, add this alias to your `~/.zshrc` file:
+```bash
+alias conjugation='python /full/path/to/conjugation_exercise.py'
+```
+
+Then you can simply use:
+```bash
+conjugation -c 1 2 -m indicative -v active -t present -k
 ```
 
 #### Options
