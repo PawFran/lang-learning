@@ -1,5 +1,8 @@
 TODO
 
+dodac conjugation last asked exercise (obecne zmienic na word) - i tak samo dla declension
+potem ogolne moze 'exercise' zeby sprawdzic co kiedy bylo. albo wieksze podsumowanie ze skutecznoscia
+
 declension/conjugation_exercise.py powinno na biezaco wrzucac dane do bazy (teraz tylko przy migracji)
 add script with reports to be used from terminal (summary)
 better help on -h with terminal

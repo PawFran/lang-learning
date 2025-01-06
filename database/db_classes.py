@@ -410,6 +410,32 @@ class DeclensionLastAsked(View):
 views.append(DeclensionLastAsked)
 
 
+class ConjugationLastAsked(View):
+    __view_name__ = 'conjugation_last_asked'
+    __view_query__ = f"""
+            SELECT 
+                pattern.infinitive,
+                pattern.mood,
+                pattern.tense,
+                pattern.voice,
+                pattern.number,
+                pattern.person,
+                MAX(results.time) as last_asked
+            FROM {LatinConjugationPatterns.__tablename__} pattern
+            LEFT JOIN {ConjugationExerciseResults.__tablename__} results
+                ON pattern.infinitive = results.infinitive
+                AND pattern.mood = results.mood
+                AND pattern.tense = results.tense
+                AND pattern.voice = results.voice
+                AND pattern.number = results.number
+                AND pattern.person = results.person
+            GROUP BY pattern.infinitive, pattern.mood, pattern.tense, pattern.voice, pattern.number, pattern.person
+            ORDER BY last_asked ASC NULLS FIRST
+        """
+
+views.append(ConjugationLastAsked)
+
+
 # Utility function to create all views
 def create_all_views(engine):
     for view in views:
