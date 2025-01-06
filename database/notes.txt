@@ -1,7 +1,10 @@
 TODO
 
+declension/conjugation_exercise.py powinno na biezaco wrzucac dane do bazy (teraz tylko przy migracji)
 add script with reports to be used from terminal (summary)
 better help on -h with terminal
+
+w declension/conjugation_exercise.py nie ma sensu pytać o nom sing
 
 scrape'owanie tez przez konsole
 ogolnie uzycie z poziomu konsoli ale dane w bazie
