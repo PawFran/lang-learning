@@ -368,8 +368,8 @@ class TranslationLastAsked(View):
 views.append(TranslationLastAsked)
 
 
-class NextToBeAsked(View):
-    __view_name__ = "next_to_be_asked"
+class TranslationNextToBeAsked(View):
+    __view_name__ = "translation_next_to_be_asked"
     __view_query__ = f"""
         SELECT ratio.word_pl, expected_answer, last_asked, correct, incorrect, "correct %",
                ratio.idx AS correct_idx, last_asked.idx AS time_idx, 
@@ -387,7 +387,7 @@ class NextToBeAsked(View):
     """
 
 
-views.append(NextToBeAsked)
+views.append(TranslationNextToBeAsked)
 
 
 class DeclensionLastAsked(View):
