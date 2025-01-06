@@ -4,7 +4,19 @@ declension/conjugation_exercise.py powinno na biezaco wrzucac dane do bazy (tera
 add script with reports to be used from terminal (summary)
 better help on -h with terminal
 
+dodawac przyklady zdan do odmian
+
 w declension/conjugation_exercise.py nie ma sensu pytać o nom sing
+
+z poziomu konsoli odpytywac o tabelki odmian. dodac jakis skrot o co mozna pytac
+
+wyswietlac podsumowanie na koniec sesji - o ile zostala doprowadzona do konca
+
+dodawac do bazy session metadata
+
+w przypadku bledu jesli podalo sie inna forme mozna podpowiadac - z czym sie pomylilo
+
+czy daloby sie podpiac uzupelnianie glosowe ?
 
 scrape'owanie tez przez konsole
 ogolnie uzycie z poziomu konsoli ale dane w bazie
