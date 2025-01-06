@@ -1680,7 +1680,7 @@ nĭmĭum, nimii [noun] [n] [II]
 1. za, za dużo, za bardzo
 
 sōl, solis [noun] [m] [III]
-()
+(Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam)
 1. słońce
 
 mollĭo, mollīre, mollii, mollitum [verb] [IV]
@@ -2159,7 +2159,7 @@ fŏcus, foci [noun] [m] [II]
 2. dom, gospodarstwo domowe, rodzina
 
 ignis, ignis [noun] [m] [III]
-()
+(Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam)
 1. ogień
 
 mercātŏr, mercatoris [noun] [m] [III]
@@ -3663,10 +3663,6 @@ trĭennĭum, triennii [noun] [n] [II]
 (Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
 1. trzy lata
 
-ĕōdem [adv]
-(Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
-1. do tego samego miejsca i celu
-
 victŭs, victūs [noun] [m] [IV]
 (Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
 1. życie, sposób życia
@@ -3676,3 +3672,24 @@ vīvesco, vīvescĕre, vixi [verb] [III]
 (Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
 1. ożyć
 2. zacząć żyć
+
+membrum, membri [noun] [n] [II]
+(Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])
+1. członek, kończyna, organ
+
+fĕra, ferae [noun] [f] [I]
+(Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])
+1. dzika bestia, dzikie zwierzę
+
+cōpĭa, copiae [noun] [f] [I]
+(Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])
+1. obfitość
+2. zasoby, bogactwo
+
+mĕrīdĭānus, meridiană, meridianum [adj]
+(Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])
+1. południowy
+
+torrĕo, torrēre, torrui, tostum [verb] [II]
+(Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])
+1. parzyć, prażyć, przypalać, piec, palić się

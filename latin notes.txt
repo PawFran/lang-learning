@@ -35,3 +35,5 @@ parentes, quod (...) - neutrum jako "uogólnienie" masc i fem ?
 Artemisia ossa cineremque eius aquae indidit ebibitque - dlaczego aquae w genetivie ?
 
 Tum ibi in obsidione aedes quasdam, quae extra muros urbis erat... - quasdam jest żeńskie, a quae nijakie - czemu ?
+
+Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam - sole meridiano: abl instrumentalis/modi ? po polsku piec "w sloncu" / "na sloncu", a prawdziwe znaczenie to "sloncem" albo "za pomoca slonca" - gramatycznie poprawne po polsku ale pierwsze zwlaszcza nieuzywane - "sloncem" sugerowaloby ze ktos ma nad nim wladze, uzywa go (np. jesc widelcem). lepsze okreslenie to "za pomoca". w kazdym razie instrumentalis wydaje sie sensowny, chociac po polsku sugerowaloby sie cos innego. do tego non habens + nom - po polsku w zdaniu twierdzacym bylby nom, w przeczacym acc, w lacinie jest sensowniej - zawsze nom

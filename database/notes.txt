@@ -1,6 +1,15 @@
 TODO
 
-enumy numbers i cases w bazie sql
+add script with reports to be used from terminal (summary)
+better help on -h with terminal
+
+scrape'owanie tez przez konsole
+ogolnie uzycie z poziomu konsoli ale dane w bazie
+
+uaktualnić checklistę. notatki w pliku i na kartce połączyć
+do funkcji przypadkow dopisac przyklady
+
+losowanie ze wszystkich przykladow slow zeby podac ich formy. ale skad beda znane ? scrape calego slownika..
 
 do sesji powinno sie tez logowac startowe argumenty
 
