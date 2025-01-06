@@ -419,14 +419,14 @@ class DeclensionLastFinishedExercise(View):
                 CASE 
                     WHEN COUNT(*) FILTER (WHERE results.time IS NULL) > 0 THEN NULL
                     ELSE MAX(results.time)
-                END as last_asked
+                END as last_finished
             FROM {LatinDeclensionPatterns.__tablename__} pattern
             LEFT JOIN {DeclensionExerciseResults.__tablename__} results
                 ON pattern.base_word = results.base_word
                 AND pattern.number = results.number 
                 AND pattern.case = results.case
             GROUP BY pattern.base_word
-            ORDER BY last_asked ASC NULLS FIRST
+            ORDER BY last_finished ASC NULLS FIRST
         """
     
 views.append(DeclensionLastFinishedExercise)
@@ -443,7 +443,7 @@ class ConjugationLastFinishedExercise(View):
                 CASE 
                     WHEN COUNT(*) FILTER (WHERE results.time IS NULL) > 0 THEN NULL
                     ELSE MAX(results.time)
-                END as last_asked
+                END as last_finished
             FROM {LatinConjugationPatterns.__tablename__} pattern
             LEFT JOIN {ConjugationExerciseResults.__tablename__} results
                 ON pattern.infinitive = results.infinitive
@@ -453,7 +453,7 @@ class ConjugationLastFinishedExercise(View):
                 AND pattern.number = results.number
                 AND pattern.person = results.person
             GROUP BY pattern.infinitive, pattern.mood, pattern.tense, pattern.voice
-            ORDER BY last_asked ASC NULLS FIRST, pattern.mood, pattern.voice, pattern.tense
+            ORDER BY last_finished ASC NULLS FIRST, pattern.mood, pattern.voice, pattern.tense
         """
 
 views.append(ConjugationLastFinishedExercise)
