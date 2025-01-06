@@ -390,8 +390,8 @@ class TranslationNextToBeAsked(View):
 views.append(TranslationNextToBeAsked)
 
 
-class DeclensionLastAsked(View):
-    __view_name__ = 'declension_last_asked'
+class DeclensionLastAskedWord(View):
+    __view_name__ = 'declension_last_asked_word'
     __view_query__ = f"""
             SELECT 
                 pattern.base_word,
@@ -407,11 +407,56 @@ class DeclensionLastAsked(View):
             ORDER BY last_asked ASC NULLS FIRST
         """
 
-views.append(DeclensionLastAsked)
+views.append(DeclensionLastAskedWord)
 
 
-class ConjugationLastAsked(View):
-    __view_name__ = 'conjugation_last_asked'
+class DeclensionLastFinishedExercise(View):
+    __view_name__ = 'declension_last_finished_exercise'
+    __view_query__ = f"""
+            SELECT 
+                pattern.base_word,
+                CASE 
+                    WHEN COUNT(*) FILTER (WHERE results.time IS NULL) > 0 THEN NULL
+                    ELSE MAX(results.time)
+                END as last_asked
+            FROM {LatinDeclensionPatterns.__tablename__} pattern
+            LEFT JOIN {DeclensionExerciseResults.__tablename__} results
+                ON pattern.base_word = results.base_word
+                AND pattern.number = results.number 
+                AND pattern.case = results.case
+            GROUP BY pattern.base_word
+            ORDER BY last_asked ASC NULLS FIRST
+        """
+    
+views.append(DeclensionLastFinishedExercise)
+
+
+class ConjugationLastFinishedExercise(View):
+    __view_name__ = 'conjugation_last_finished_exercise'
+    __view_query__ = f"""
+            SELECT 
+                pattern.infinitive,
+                CASE 
+                    WHEN COUNT(*) FILTER (WHERE results.time IS NULL) > 0 THEN NULL
+                    ELSE MAX(results.time)
+                END as last_asked
+            FROM {LatinConjugationPatterns.__tablename__} pattern
+            LEFT JOIN {ConjugationExerciseResults.__tablename__} results
+                ON pattern.infinitive = results.infinitive
+                AND pattern.mood = results.mood
+                AND pattern.tense = results.tense
+                AND pattern.voice = results.voice
+                AND pattern.number = results.number
+                AND pattern.person = results.person
+            GROUP BY pattern.infinitive
+            ORDER BY last_asked ASC NULLS FIRST
+        """
+
+views.append(ConjugationLastFinishedExercise)
+
+
+class ConjugationLastAskedWord(View):
+    __view_name__ = 'conjugation_last_asked_word'
     __view_query__ = f"""
             SELECT 
                 pattern.infinitive,
@@ -433,7 +478,7 @@ class ConjugationLastAsked(View):
             ORDER BY last_asked ASC NULLS FIRST
         """
 
-views.append(ConjugationLastAsked)
+views.append(ConjugationLastAskedWord)
 
 
 # Utility function to create all views
