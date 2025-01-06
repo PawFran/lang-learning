@@ -3,6 +3,16 @@ import os
 from sqlalchemy import *
 from sqlalchemy_utils import database_exists, create_database
 
+# Allow imports to work when run from either top level or current directory
+import sys
+from pathlib import Path
+
+# Add project root to path if running from database/ directory
+current_dir = Path(__file__).parent
+project_root = current_dir.parent
+if str(project_root) not in sys.path:
+    sys.path.append(str(project_root))
+
 from conjugation.lib.conjugation_classes import ConjugationType, Mood, Number, Tense, Voice, Person
 from database.db_classes import Base, create_all_views, Languages, PartsOfSpeech, Genres, LatinConjugations, \
     LatinDeclensions, DeclensionCases, Moods, Tenses, Voices, Numbers, Persons
@@ -32,9 +42,10 @@ tables_with_enums = {
     LatinConjugations.__tablename__: values_from(ConjugationType),
 }
 
+# needs to be invoked from project root
 dictionary_folder = os.path.join('vocabulary', 'dicts')
 declension_patterns_file_path = os.path.join("declension", "resources", "declension.json")
-conjugation_patterns_file_path = os.path.join("conjugation", "resources", "conjugation.json")
+conjugation_patterns_file_path = os.path.join("conjugation", "resources", "conjugation.json") 
 translation_exercise_results_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
 declension_exercise_results_path = os.path.join('vocabulary', 'db', 'declension_exercise_results.csv')
 conjugation_exercise_results_path = os.path.join('vocabulary', 'db', 'conjugation_exercise_results.csv')
@@ -130,3 +141,17 @@ def remove_db(engine):
         cursor.close()
     finally:
         conn.close()
+
+
+# needs to be invoked from project root
+if __name__ == '__main__':
+    from environment import engine
+    
+    initialize_database(engine=engine,
+                       remove_old=True, 
+                       dictionary_migration=True,
+                       declension_patterns_migration=True,
+                       conjugation_patterns_migration=True,
+                       translation_exercise_results_migration=True,
+                       declension_exercise_results_migration=True,
+                       conjugation_exercise_results_migration=True)
