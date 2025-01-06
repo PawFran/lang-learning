@@ -1,4 +1,5 @@
 import psycopg2
+import os
 from sqlalchemy import *
 from sqlalchemy_utils import database_exists, create_database
 
@@ -31,6 +32,13 @@ tables_with_enums = {
     LatinConjugations.__tablename__: values_from(ConjugationType),
 }
 
+dictionary_folder = os.path.join('vocabulary', 'dicts')
+declension_patterns_file_path = os.path.join("declension", "resources", "declension.json")
+conjugation_patterns_file_path = os.path.join("conjugation", "resources", "conjugation.json")
+translation_exercise_results_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
+declension_exercise_results_path = os.path.join('vocabulary', 'db', 'declension_exercise_results.csv')
+conjugation_exercise_results_path = os.path.join('vocabulary', 'db', 'conjugation_exercise_results.csv')
+
 
 def initialize_database(engine: Engine,
                         remove_old: bool,
@@ -40,12 +48,6 @@ def initialize_database(engine: Engine,
                         translation_exercise_results_migration: bool,
                         declension_exercise_results_migration: bool,
                         conjugation_exercise_results_migration: bool,
-                        dictionary_folder: str,
-                        declension_patterns_file_path: str,
-                        conjugation_patterns_file_path: str,
-                        translation_exercise_results_path: str,
-                        declension_exercise_results_path: str,
-                        conjugation_exercise_results_path: str
                         ):
     if remove_old:
         remove_db(engine)
