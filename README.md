@@ -86,7 +86,7 @@ declension -d 1 2 3 -k
 
 #### Declensions
 Specify declensions as a list:
-- Options: \`1, 2, 3, "3 consonant", "3 vowel", "3 mixed", 4, 5, relative\`
+- Options: \`1, 2, 3, "3 consonant", "3 vowel", "3 mixed", 4, 5, relative, interrogative, demonstrative\`
 - Words or numbers are allowed, and underscores (\`_\`) or hyphens (\`-\`) can replace spaces.
 
 - **Relative**: Declines relative pronouns.
