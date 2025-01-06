@@ -390,7 +390,28 @@ class NextToBeAsked(View):
 views.append(NextToBeAsked)
 
 
+class DeclensionLastAsked(View):
+    __view_name__ = 'declension_last_asked'
+    __view_query__ = f"""
+            SELECT 
+                pattern.base_word,
+                pattern.number,
+                pattern.case,
+                MAX(results.time) as last_asked
+            FROM {LatinDeclensionPatterns.__tablename__} pattern
+            LEFT JOIN {DeclensionExerciseResults.__tablename__} results
+                ON pattern.base_word = results.base_word
+                AND pattern.number = results.number 
+                AND pattern.case = results.case
+            GROUP BY pattern.base_word, pattern.number, pattern.case
+            ORDER BY last_asked ASC NULLS FIRST
+        """
+
+views.append(DeclensionLastAsked)
+
+
 # Utility function to create all views
 def create_all_views(engine):
     for view in views:
+        # print(f'creating view {view.__view_name__}')
         view.create_view(engine)
