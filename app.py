@@ -173,8 +173,6 @@ if __name__ == '__main__':
         # This block will only be executed in the child process
         print('initializing db')
 
-        
-
         initialize_database(engine=engine,
                             remove_old=True,
                             dictionary_migration=True,
