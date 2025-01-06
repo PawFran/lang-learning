@@ -65,13 +65,13 @@ class Persons(Base):
 
 
 class LatinDeclensions(Base):
-    __tablename__ = 'latin_declensions'
+    __tablename__ = 'declensions_latin'
 
     name = Column(String, primary_key=True, unique=True, nullable=False)
 
 
 class LatinConjugations(Base):
-    __tablename__ = 'latin_conjugations'
+    __tablename__ = 'conjugations_latin'
     name = Column(String, primary_key=True)
 
 
@@ -98,7 +98,7 @@ class Translations(Base):
 
 
 class LatinWordsTranslationsMappings(Base):
-    __tablename__ = 'latin_words_translations_mappings'
+    __tablename__ = 'words_translations_mappings_latin'
 
     id = Column(Integer, primary_key=True)
     word_id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), nullable=False)
@@ -111,7 +111,7 @@ class LatinWordsTranslationsMappings(Base):
 
 
 class LatinVerbs(Base):
-    __tablename__ = 'latin_verbs'
+    __tablename__ = 'verbs_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     base_word = Column(String, nullable=False)
@@ -131,7 +131,7 @@ class LatinVerbs(Base):
 
 
 class LatinNouns(Base):
-    __tablename__ = 'latin_nouns'
+    __tablename__ = 'nouns_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     base = Column(String, nullable=False)
@@ -148,7 +148,7 @@ class LatinNouns(Base):
 
 
 class LatinAdverbs(Base):
-    __tablename__ = 'latin_adverbs'
+    __tablename__ = 'adverbs_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     base = Column(String, nullable=False)
@@ -156,7 +156,7 @@ class LatinAdverbs(Base):
 
 
 class LatinPrepositions(Base):
-    __tablename__ = 'latin_prepositions'
+    __tablename__ = 'prepositions_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     base = Column(String, nullable=False)
@@ -164,7 +164,7 @@ class LatinPrepositions(Base):
 
 
 class LatinConjunctions(Base):
-    __tablename__ = 'latin_conjunctions'
+    __tablename__ = 'conjunctions_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     base = Column(String, nullable=False)
@@ -172,7 +172,7 @@ class LatinConjunctions(Base):
 
 
 class LatinPronouns(Base):
-    __tablename__ = 'latin_pronouns'
+    __tablename__ = 'pronouns_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     base = Column(String, nullable=False)
@@ -180,7 +180,7 @@ class LatinPronouns(Base):
 
 
 class LatinAdjectives(Base):
-    __tablename__ = 'latin_adjectives'
+    __tablename__ = 'adjectives_latin'
 
     id = Column(Integer, ForeignKey(f'{Words.__tablename__}.id'), primary_key=True)
     masculinum = Column(String, nullable=False)
@@ -196,7 +196,7 @@ class LatinAdjectives(Base):
 
 
 class LatinDeclensionPatterns(Base):
-    __tablename__ = 'latin_declension_patterns'
+    __tablename__ = 'declension_patterns_latin'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     declension_type = Column(String, ForeignKey(f'{LatinDeclensions.__tablename__}.name'))
@@ -208,7 +208,7 @@ class LatinDeclensionPatterns(Base):
 
 
 class LatinConjugationPatterns(Base):
-    __tablename__ = 'latin_conjugation_patterns'
+    __tablename__ = 'conjugation_patterns_latin'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     conjugation_type = Column(String, ForeignKey(f'{LatinConjugations.__tablename__}.name'))
@@ -325,10 +325,11 @@ class View:
 class WordsWithTranslations(View):
     __view_name__ = "words_with_translations"
     __view_query__ = f"""
-        SELECT w.id, header, w.part_of_speech, translation, example, associated_case 
-        FROM {Words.__tablename__} w
-        JOIN latin_words_translations_mappings m ON w.id = m.word_id
-        JOIN translations t ON t.id = m.translation_id
+        SELECT w.id, w.header, w.part_of_speech, t.translation, t.example, t.associated_case
+        FROM words w
+        JOIN words_translations_mappings_latin m ON w.id = m.word_id
+        JOIN translations t ON m.translation_id = t.id
+        WHERE w.lang = 'latin'
     """
 
 
