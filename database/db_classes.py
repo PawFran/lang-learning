@@ -437,6 +437,9 @@ class ConjugationLastFinishedExercise(View):
     __view_query__ = f"""
             SELECT 
                 pattern.infinitive,
+                pattern.mood,
+                pattern.tense, 
+                pattern.voice,
                 CASE 
                     WHEN COUNT(*) FILTER (WHERE results.time IS NULL) > 0 THEN NULL
                     ELSE MAX(results.time)
@@ -449,8 +452,8 @@ class ConjugationLastFinishedExercise(View):
                 AND pattern.voice = results.voice
                 AND pattern.number = results.number
                 AND pattern.person = results.person
-            GROUP BY pattern.infinitive
-            ORDER BY last_asked ASC NULLS FIRST
+            GROUP BY pattern.infinitive, pattern.mood, pattern.tense, pattern.voice
+            ORDER BY last_asked ASC NULLS FIRST, pattern.mood, pattern.voice, pattern.tense
         """
 
 views.append(ConjugationLastFinishedExercise)
