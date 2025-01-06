@@ -1,5 +1,14 @@
 TODO
 
+tranlation exercise - opcja na top n slow. losowanie z widoku translation_next_to_be_asked
+
+dodac usprawnienia w translation dla przymiotnikow np. proconsularis
+przy starcie aplikacji wyswietlic reguly
+
+zawracac info o liczbie slow co 10 prob nie co 10 dobrych odpowiedzi (albo to i to - zwlaszcza w translation)
+
+dodac aliasy do find or scrape i scrape dla terminala
+
 dodac brakujace odmiany - np. nullus, idem..
 
 declension/conjugation_exercise.py powinno na biezaco wrzucac dane do bazy (teraz tylko przy migracji)
@@ -9,6 +18,10 @@ better help on -h with terminal
 dodawac przyklady zdan do odmian
 
 w declension/conjugation_exercise.py nie ma sensu pytać o nom sing
+
+obsluga przypadkow, gdy jest wiecej niz jedna poprawna forma np. perf lub sup. patrz revello. sprawdzic wstecz ?
+kolejny przyklad: to ăb (ā, ābs, aps) [prep]
+ostendo, ostendĕre, ostendi, ostentum o ostensum [verb] [III]
 
 z poziomu konsoli odpytywac o tabelki odmian. dodac jakis skrot o co mozna pytac
 

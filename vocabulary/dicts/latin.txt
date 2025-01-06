@@ -3523,7 +3523,7 @@ obtĭnĕo, obtĭnēre, obtinui, obtentum [verb] [II]
 1. utrzymywać, zachowywać
 2. mieć, dzierżyć, sprawować
 
-ăb (ā, ābs, aps) [prep]
+ăb [prep]
 (Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
 1. (strona bierna) przez (+ abl)
 2. (czas) od (+ abl)
@@ -3610,7 +3610,7 @@ mītis, mitis, mite [adj]
 (Qui postquam vidit me, mitis accessit ac pedem suum mihi ostendit)
 1. łagodny, delikatny, spokojny
 
-ostendo, ostendĕre, ostendi, ostentum o ostensum [verb] [III]
+ostendo, ostendĕre, ostendi, ostentum[verb] [III]
 (Qui postquam vidit me, mitis accessit ac pedem suum mihi ostendit)
 1. pokazać
 
@@ -3622,7 +3622,7 @@ is [pron]
 (Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
 1. on
 
-rĕvello, rĕvellĕre, revelli, revulsi, revulsum o revolsum [verb] [III]
+rĕvello, rĕvellĕre, revelli, revulsum [verb] [III]
 (Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
 1. wycofać się, oderwać, wyrwać
 
