@@ -66,13 +66,13 @@ class Tense(Enum):
                 return Tense.Praesens
             case 'imperfectum' | 'imperfect' | 'imperf':
                 return Tense.Imperfectum
-            case 'futurum i' | 'future i' | 'fut i':
+            case 'futurum i' | 'future i' | 'fut i' | 'future simple':
                 return Tense.Futurum_I
             case 'perfectum' | 'perfect' | 'perf':
                 return Tense.Perfectum
             case 'plusquamperfectum' | 'pluperfect' | 'plusquamperf':
                 return Tense.Plusquamperfectum
-            case 'futurum ii' | 'future ii' | 'fut ii':
+            case 'futurum ii' | 'future ii' | 'fut ii' | 'future perfect':
                 return Tense.Futurum_II
             case _:
                 raise Exception(f'cannot parse string {s} to Tense')
