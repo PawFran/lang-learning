@@ -16,6 +16,11 @@ if __name__ == '__main__':
     conjugation_all_table = ConjugationTable.from_file_path(json_file_path)
     conjugations_filtered: ConjugationTable = filter_conjugations(conjugation_all_table, args)
 
+    conjugations_included = {c.conjugation_type.value for c in conjugations_filtered.records}
+    moods_included = {c.mood.value for c in conjugations_filtered.records}
+    tenses_included = {c.tense.value for c in conjugations_filtered.records}
+    voices_included = {c.voice.value for c in conjugations_filtered.records}
+
     print(f'{len(conjugations_filtered.records)} left')
 
     print()
@@ -25,10 +30,10 @@ if __name__ == '__main__':
         path=CONJUGATION_EXERCISE_SESSION_METADATA_CSV_LOG_FILE_PATH,
         session_id=db_handler.current_session_id,
         user_name=DEFAULT_USER_NAME,
-        conjugations_included=args.conjugations,
-        moods_included=args.moods,
-        tenses_included=args.tenses,
-        voices_included=args.voices
+        conjugations_included=conjugations_included,
+        moods_included=moods_included,
+        tenses_included=tenses_included,
+        voices_included=voices_included
         )
 
     should_continue = True
