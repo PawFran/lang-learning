@@ -286,6 +286,16 @@ class ConjugationExerciseSessionMetadata(Base):
     interrupted = Column(Boolean, nullable=False)
 
 
+class DeclensionExerciseSessionMetadata(Base):
+    __tablename__ = 'declension_exercise_session_metadata'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    session_id = Column(Integer, nullable=False)
+    user_name = Column(String, default=DEFAULT_USER_NAME, nullable=False)
+    declensions_included = Column(String, nullable=False)
+    interrupted = Column(Boolean, nullable=False)
+
+
 class TranslationExerciseCurrentSession(Base):
     __tablename__ = 'translation_exercise_current_session'
 

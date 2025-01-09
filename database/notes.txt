@@ -8,16 +8,6 @@ napisac skrypt to generowana metadanych (domyslania sie ich)
 skrot do adjective - np. '2' to dwie koncowki
 dodac skroty do readme oraz wypisac na poczatku cwiczenia
 
-fix - conjugation zapisywanie metadanych
-Traceback (most recent call last):
-  File "/Users/pawelfranczak/dev/lang-learning/conjugation_exercise.py", line 68, in <module>
-    session_metadata_handler.update(finished=True)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
-  File "/Users/pawelfranczak/dev/lang-learning/vocabulary/lib/file_db.py", line 96, in update
-    df = pd.read_csv(self.path, sep=';')
-                     ^^^^^^^^^
-AttributeError: 'ConjugationExerciseSessionMetadataCSVHandler' object has no attribute 'path'
-
 najpilniejsze - dodac session metadata do cwiczen
 pierwsze conjugation - tylko ind praes act
 kolejne to pomylka

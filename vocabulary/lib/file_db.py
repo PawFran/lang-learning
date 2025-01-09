@@ -88,6 +88,30 @@ class DeclensionExerciseCSVHandler(ExerciseCSVHandler):
         return pd.concat([df, new_row])
 
 
+class DeclensionExerciseSessionMetadataCSVHandler:
+    def __init__(self, path: str, session_id: int, user_name: str, declensions_included: {str}):
+        self.path = path
+        self.session_id = session_id
+        self.user_name = user_name
+        self.declensions_included = declensions_included
+
+    def update(self, interrupted: bool):
+        df = pd.read_csv(self.path, sep=';')
+
+        df = self.add_new_record(df, interrupted)
+
+        df.to_csv(self.path, index=False, sep=';')
+
+    def add_new_record(self, df, interrupted: bool):
+        new_row = pd.DataFrame({
+            'session_id': self.session_id,
+            'user_name': self.user_name,
+            'declensions_included': human_readable_sets(self.declensions_included),
+            'interrupted': interrupted
+        }, index=[0])
+        return pd.concat([df, new_row])
+
+
 class ConjugationExerciseSessionMetadataCSVHandler:
     def __init__(self, path: str, session_id: int, user_name: str, conjugations_included: {str}, moods_included: {str},
                  tenses_included: {str}, voices_included: {str}):

@@ -6,11 +6,12 @@ import os
 
 from numpy.random import default_rng
 
-from actions.declension import DECLENSION_EXERCISE_CSV_LOG_FILE_PATH
+from actions.declension import DECLENSION_EXERCISE_CSV_LOG_FILE_PATH, DECLENSION_SESSION_METADATA_CSV_PATH
 from common.lib.utils import weak_equals, DEFAULT_USER_NAME
 from declension.lib.parsing_args import *
 from declension.lib.utils import *
-from vocabulary.lib.file_db import DeclensionExerciseCSVHandler
+from vocabulary.lib.file_db import DeclensionExerciseCSVHandler, DeclensionExerciseSessionMetadataCSVHandler
+
 
 if __name__ == '__main__':
     rng = default_rng()
@@ -36,8 +37,15 @@ if __name__ == '__main__':
     current_dict = declensions_filtered
 
     db_handler = DeclensionExerciseCSVHandler(DECLENSION_EXERCISE_CSV_LOG_FILE_PATH, DEFAULT_USER_NAME)
+    session_metadata_handler = DeclensionExerciseSessionMetadataCSVHandler(
+        path=DECLENSION_SESSION_METADATA_CSV_PATH,
+        session_id=db_handler.current_session_id,
+        user_name=DEFAULT_USER_NAME,
+        declensions_included={d.value for d in declensions_to_include}
+    )
 
     should_continue = True
+    interrupted = False
     while should_continue:
         backup_dict = copy.deepcopy(current_dict)  # in case remove is on and answer is wrong
         pop = False if args.keep else True
@@ -66,13 +74,18 @@ if __name__ == '__main__':
                                      correct_form=declension_test.answer,
                                      user_answer=user_answer,
                                      is_correct=is_correct)
-            except KeyboardInterrupt:
+            except (KeyboardInterrupt, EOFError):
                 should_continue = False
+                interrupted = True
+                session_metadata_handler.update(interrupted=True)
                 print('')
 
         if not args.keep:
             current_length = current_dict.length()
             if current_length % 10 == 0:
                 print(f'current nr of entries: {current_length}\n')
+
+    if not interrupted:
+        session_metadata_handler.update(interrupted=False)
 
     print('terminating..')
