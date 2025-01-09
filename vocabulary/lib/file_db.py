@@ -8,7 +8,7 @@ separator = ';'
 
 
 def human_readable_sets(s):
-    return str(s).replace('{', '').replace('}', '').replace('\'', '')
+    return str(sorted(s)).replace('{', '').replace('}', '').replace('[', '').replace(']', '').replace('\'', '')
 
 
 class ExerciseCSVHandler(ABC):
