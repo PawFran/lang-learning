@@ -83,6 +83,34 @@ class DeclensionExerciseCSVHandler(ExerciseCSVHandler):
                                 }, index=[0])
         return pd.concat([df, new_row])
 
+class ConjugationExerciseSessionMetadataCSVHandler:
+    def __init__(self, path: str, session_id: int, user_name: str, conjugations_included: str, moods_included: str, tenses_included: str, voices_included: str):
+        self.path = path
+        self.session_id = session_id
+        self.user_name = user_name
+        self.conjugations_included = conjugations_included
+        self.moods_included = moods_included
+        self.tenses_included = tenses_included
+        self.voices_included = voices_included
+    
+    def update(self, interrupted: bool):
+        df = pd.read_csv(self.path, sep=';')
+
+        df = self.add_new_record(df, self.session_id, self.user_name, self.conjugations_included, self.moods_included, self.tenses_included, self.voices_included, interrupted)
+        
+        df.to_csv(self.path, index=False, sep=';')
+
+    def add_new_record(self, df, session_id, user_name, conjugations_included, moods_included, tenses_included, voices_included, interrupted):
+        new_row = pd.DataFrame({'session_id': session_id,
+                                'user_name': user_name,
+                                'conjugations_included': conjugations_included,
+                                'moods_included': moods_included,
+                                'tenses_included': tenses_included,
+                                'voices_included': voices_included,
+                                'interrupted': interrupted
+                                }, index=[0])
+        return pd.concat([df, new_row])
+
 
 class ConjugationExerciseCSVHandler(ExerciseCSVHandler):
     def __init__(self, path, user_name):

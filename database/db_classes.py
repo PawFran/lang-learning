@@ -273,6 +273,19 @@ class ConjugationExerciseResults(Base):
     time = Column(DateTime, nullable=False)
 
 
+class ConjugationExerciseSessionMetadata(Base):
+    __tablename__ = 'conjugation_exercise_session_metadata'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    session_id = Column(Integer, nullable=False)
+    user_name = Column(String, default=DEFAULT_USER_NAME, nullable=False)
+    conjugations_included = Column(String, nullable=False)
+    moods_included = Column(String, nullable=False)
+    tenses_included = Column(String, nullable=False)
+    voices_included = Column(String, nullable=False)    
+    interrupted = Column(Boolean, nullable=False)
+
+
 class TranslationExerciseCurrentSession(Base):
     __tablename__ = 'translation_exercise_current_session'
 

@@ -1,5 +1,52 @@
 TODO
 
+generowanie trudnych slow - np. tych, ktore w ostatniej sesji, w ktorej byly uzyte, nie zostaly podane poprawnie za pierwszym razem
+opcja powtorzenia ostatniej sesji ale tylko z trudnymi slowami
+ale do tego trzeba miec metadane sesji
+napisac skrypt to generowana metadanych (domyslania sie ich)
+
+skrot do adjective - np. '2' to dwie koncowki
+dodac skroty do readme oraz wypisac na poczatku cwiczenia
+
+fix - conjugation zapisywanie metadanych
+Traceback (most recent call last):
+  File "/Users/pawelfranczak/dev/lang-learning/conjugation_exercise.py", line 68, in <module>
+    session_metadata_handler.update(finished=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/pawelfranczak/dev/lang-learning/vocabulary/lib/file_db.py", line 96, in update
+    df = pd.read_csv(self.path, sep=';')
+                     ^^^^^^^^^
+AttributeError: 'ConjugationExerciseSessionMetadataCSVHandler' object has no attribute 'path'
+
+najpilniejsze - dodac session metadata do cwiczen
+pierwsze conjugation - tylko ind praes act
+kolejne to pomylka
+drugie - tylko ind imperf act
+trzecie to in fut_i_act
+czwarte ind praes pass
+pierwsze declension to pierwsza i druga deklinacja
+drugie to trzecia
+nie zawsze wystarczy podac argumenty - np. w translation brak -z nie mowi, jakie bylo ostatnie slowo
+chociaz w przypadku declension/conjugation da sie to dosc dobrze wyciagnac z 'results'..
+mozna to nawet szacowac - ile % zostalo zrobione
+chociaz jednak kombinacje moga byc bardzo rozne
+
+wygenerowac jakies podsumowanie koncowek perf/sup - czy jest tu jakas regula ? ale najpierw obsluzyc wystepowanie alternatywnych form (uzupelnic slownik)
+
+dodac bardziej szczegolowe info o tym co zostalo pomylone - np. tylko jedna forma (w przyszlosci rowniez na bazie w raportach, na poczatek moze byc w terminalu)
+w raportach tez info o tym co z czym najczesciej jest mylone
+
+opcja uruchamiania w translation exercise konkretnych lekcji/czytanek. moze to powinien byc podstawowy sposob grupowania a nie slowa -a/z
+
+jesli w cwiczeniu jest tylko jeden tryb/strona itd. można ich nie podawac bo to tylko utrudnia odczytywanie
+
+cwiczenie: slowo i podac jego forme
+zarowno deklinacje/koniugacje jak i translation
+
+douczanie LLM na danych z bazy
+
+zle parsowanie ? ostendo  ostendere  ostendi  ostentum[verb] (bez spacji)
+
 tranlation exercise - opcja na top n slow. losowanie z widoku translation_next_to_be_asked
 
 dodac usprawnienia w translation dla przymiotnikow np. proconsularis

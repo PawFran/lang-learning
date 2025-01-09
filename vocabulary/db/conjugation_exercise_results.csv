@@ -99,3 +99,37 @@ default_user;5;latin;laudāre;indicative;future simple;active;1;singular;laudāb
 default_user;5;latin;capere;indicative;future simple;active;1;singular;capiam;capiam;True;2025-01-07 21:01:24
 default_user;5;latin;audīre;indicative;future simple;active;2;plural;audiētis;audietis;True;2025-01-07 21:01:31
 default_user;5;latin;capere;indicative;future simple;active;1;plural;capiēmus;capiemus;True;2025-01-07 21:01:42
+default_user;6;latin;monēre;indicative;present;passive;3;singular;monētur;monetur;True;2025-01-07 21:35:15
+default_user;6;latin;monēre;indicative;present;passive;2;plural;monemini;monemini;True;2025-01-07 21:35:20
+default_user;6;latin;audīre;indicative;present;passive;2;plural;audimini;audiemini;False;2025-01-07 21:35:30
+default_user;6;latin;audīre;indicative;present;passive;2;singular;audīris;audiris;True;2025-01-07 21:35:42
+default_user;6;latin;laudāre;indicative;present;passive;1;singular;laudor;laudor;True;2025-01-07 21:35:51
+default_user;6;latin;legere;indicative;present;passive;1;plural;legimur;legimur;True;2025-01-07 21:36:01
+default_user;6;latin;audīre;indicative;present;passive;3;singular;audītur;auditur;True;2025-01-07 21:36:06
+default_user;6;latin;legere;indicative;present;passive;3;singular;legitur;legitur;True;2025-01-07 21:37:05
+default_user;6;latin;audīre;indicative;present;passive;3;plural;audiuntur;audiuntur;True;2025-01-07 21:37:20
+default_user;6;latin;capere;indicative;present;passive;3;singular;capitur;capitur;True;2025-01-07 21:37:24
+default_user;6;latin;audīre;indicative;present;passive;2;plural;audimini;audimini;True;2025-01-07 21:37:32
+default_user;6;latin;monēre;indicative;present;passive;1;plural;monēmur;monemur;True;2025-01-07 21:41:39
+default_user;6;latin;capere;indicative;present;passive;3;plural;capiuntur;capiuntur;True;2025-01-07 21:41:45
+default_user;6;latin;capere;indicative;present;passive;1;plural;capimur;capimur;True;2025-01-07 21:41:54
+default_user;6;latin;laudāre;indicative;present;passive;2;plural;laudāmini;laudamini;True;2025-01-07 21:42:08
+default_user;6;latin;capere;indicative;present;passive;1;singular;capior;capior;True;2025-01-07 21:42:15
+default_user;6;latin;capere;indicative;present;passive;2;plural;capimini;capiemini;False;2025-01-07 21:42:19
+default_user;6;latin;legere;indicative;present;passive;3;plural;leguntur;leguntur;True;2025-01-07 21:42:43
+default_user;6;latin;laudāre;indicative;present;passive;2;singular;laudāris;ludaris;False;2025-01-07 21:42:49
+default_user;6;latin;laudāre;indicative;present;passive;2;singular;laudāris;laudaris;True;2025-01-07 21:42:56
+default_user;6;latin;audīre;indicative;present;passive;1;plural;audīmur;audimur;True;2025-01-07 21:43:02
+default_user;6;latin;monēre;indicative;present;passive;3;plural;monēntur;monentur;True;2025-01-07 21:43:08
+default_user;6;latin;legere;indicative;present;passive;2;singular;legeris;legeris;True;2025-01-07 21:43:16
+default_user;6;latin;laudāre;indicative;present;passive;1;plural;laudāmur;laudamur;True;2025-01-07 21:43:39
+default_user;6;latin;laudāre;indicative;present;passive;3;singular;laudātur;laudatur;True;2025-01-07 21:43:46
+default_user;6;latin;capere;indicative;present;passive;2;plural;capimini;capimini;True;2025-01-07 21:43:53
+default_user;6;latin;audīre;indicative;present;passive;1;singular;audior;audior;True;2025-01-07 21:43:59
+default_user;6;latin;capere;indicative;present;passive;2;singular;caperis;capieris;False;2025-01-07 21:44:05
+default_user;6;latin;laudāre;indicative;present;passive;3;plural;laudāntur;laudantur;True;2025-01-07 21:45:26
+default_user;6;latin;capere;indicative;present;passive;2;singular;caperis;caperis;True;2025-01-07 21:45:33
+default_user;6;latin;monēre;indicative;present;passive;2;singular;monēris;moneris;True;2025-01-07 21:45:38
+default_user;6;latin;legere;indicative;present;passive;1;singular;legor;legor;True;2025-01-07 21:45:43
+default_user;6;latin;monēre;indicative;present;passive;1;singular;moneor;moneor;True;2025-01-07 21:45:48
+default_user;6;latin;legere;indicative;present;passive;2;plural;legimini;legimini;True;2025-01-07 21:45:53
