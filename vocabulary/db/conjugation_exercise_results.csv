@@ -1,135 +1,132 @@
 user;session_id;lang;infinitive;mood;tense;voice;person;number;correct_form;user_answer;is_correct;time
-default_user;1;latin;legere;indicative;present;active;3;singular;legit;legit;True;2025-01-03 20:47:14
-default_user;1;latin;legere;indicative;imperfect;passive;2;singular;legebāris;legebaris;True;2025-01-03 20:47:47
-default_user;2;latin;capere;indicative;present;active;2;plural;capitis;capietis;False;2025-01-06 16:07:57
-default_user;2;latin;laudāre;indicative;present;active;1;singular;laudo;laudo;True;2025-01-06 16:08:07
-default_user;2;latin;audīre;indicative;present;active;1;plural;audīmus;audimus;True;2025-01-06 16:08:24
-default_user;2;latin;laudāre;indicative;present;active;3;singular;laudat;laudat;True;2025-01-06 16:08:32
-default_user;2;latin;capere;indicative;present;active;2;singular;capis;capis;True;2025-01-06 16:08:38
-default_user;2;latin;audīre;indicative;present;active;2;plural;audītis;auditis;True;2025-01-06 16:08:50
-default_user;2;latin;legere;indicative;present;active;1;singular;lego;lego;True;2025-01-06 16:09:00
-default_user;2;latin;legere;indicative;present;active;3;singular;legit;legit;True;2025-01-06 16:09:04
-default_user;2;latin;capere;indicative;present;active;1;plural;capimus;capimus;True;2025-01-06 16:09:08
-default_user;2;latin;audīre;indicative;present;active;1;singular;audio;audimus;False;2025-01-06 16:09:13
-default_user;2;latin;capere;indicative;present;active;2;plural;capitis;capitis;True;2025-01-06 16:09:31
-default_user;2;latin;laudāre;indicative;present;active;1;plural;laudāmus;laudamus;True;2025-01-06 16:09:37
-default_user;2;latin;monēre;indicative;present;active;3;singular;monet;monet;True;2025-01-06 16:10:05
-default_user;2;latin;monēre;indicative;present;active;1;plural;monēmus;monemus;True;2025-01-06 16:10:08
-default_user;2;latin;legere;indicative;present;active;2;plural;legitis;legitis;True;2025-01-06 16:10:20
-default_user;2;latin;laudāre;indicative;present;active;2;plural;laudātis;laudatis;True;2025-01-06 16:10:28
-default_user;2;latin;audīre;indicative;present;active;2;singular;audīs;audis;True;2025-01-06 16:10:33
-default_user;2;latin;audīre;indicative;present;active;3;singular;audīt;audit;True;2025-01-06 16:10:37
-default_user;2;latin;capere;indicative;present;active;3;plural;capiunt;capiunt;True;2025-01-06 16:10:46
-default_user;2;latin;capere;indicative;present;active;3;singular;capit;capit;True;2025-01-06 16:10:53
-default_user;2;latin;laudāre;indicative;present;active;3;plural;laudant;laudant;True;2025-01-06 16:11:06
-default_user;2;latin;legere;indicative;present;active;1;plural;legimus;legimus;True;2025-01-06 16:11:21
-default_user;2;latin;audīre;indicative;present;active;1;singular;audio;audio;True;2025-01-06 16:11:56
-default_user;2;latin;monēre;indicative;present;active;3;plural;monent;monent;True;2025-01-06 16:12:00
-default_user;2;latin;monēre;indicative;present;active;2;singular;mones;mones;True;2025-01-06 16:12:04
-default_user;2;latin;capere;indicative;present;active;1;singular;capio;capio;True;2025-01-06 16:12:08
-default_user;2;latin;audīre;indicative;present;active;3;plural;audiunt;audiunt;True;2025-01-06 16:12:16
-default_user;2;latin;legere;indicative;present;active;3;plural;legunt;legunt;True;2025-01-06 16:12:26
-default_user;2;latin;monēre;indicative;present;active;2;plural;monētis;monetis;True;2025-01-06 16:12:33
-default_user;2;latin;monēre;indicative;present;active;1;singular;moneo;moneo;True;2025-01-06 16:12:39
-default_user;2;latin;legere;indicative;present;active;2;singular;legis;legis;True;2025-01-06 16:12:44
-default_user;2;latin;laudāre;indicative;present;active;2;singular;laudas;laudas;True;2025-01-06 16:12:47
-default_user;3;latin;monēre;indicative;perfect;active;2;singular;monuisti;monebas;False;2025-01-07 18:46:14
-default_user;4;latin;audīre;indicative;imperfect;active;1;plural;audiebāmus;audiebamus;True;2025-01-07 18:46:35
-default_user;4;latin;capere;indicative;imperfect;active;2;singular;capiēbas;capiebas;True;2025-01-07 18:46:42
-default_user;4;latin;audīre;indicative;imperfect;active;3;singular;audiēbat;audiebat;True;2025-01-07 18:46:54
-default_user;4;latin;laudāre;indicative;imperfect;active;2;singular;laudābas;laudabas;True;2025-01-07 18:46:58
-default_user;4;latin;legere;indicative;imperfect;active;2;plural;legebātis;legebatis;True;2025-01-07 18:47:09
-default_user;4;latin;monēre;indicative;imperfect;active;2;plural;monebātis;monebatis;True;2025-01-07 18:48:01
-default_user;4;latin;laudāre;indicative;imperfect;active;1;plural;laudabāmus;laudabamus;True;2025-01-07 18:48:08
-default_user;4;latin;capere;indicative;imperfect;active;1;singular;capiēbam;capiebam;True;2025-01-07 18:48:12
-default_user;4;latin;legere;indicative;imperfect;active;1;singular;legēbam;legebam;True;2025-01-07 18:48:17
-default_user;4;latin;legere;indicative;imperfect;active;3;singular;legēbat;legebat;True;2025-01-07 18:48:21
-default_user;4;latin;monēre;indicative;imperfect;active;1;plural;monebāmus;monebamus;True;2025-01-07 18:48:30
-default_user;4;latin;monēre;indicative;imperfect;active;3;plural;monēbant;monebant;True;2025-01-07 18:48:35
-default_user;4;latin;monēre;indicative;imperfect;active;3;singular;monēbat;monebat;True;2025-01-07 18:48:40
-default_user;4;latin;monēre;indicative;imperfect;active;2;singular;monēbas;monebas;True;2025-01-07 18:48:43
-default_user;4;latin;audīre;indicative;imperfect;active;2;plural;audiebātis;audiebatis;True;2025-01-07 18:48:48
-default_user;4;latin;capere;indicative;imperfect;active;3;plural;capiēbant;capiebant;True;2025-01-07 18:49:02
-default_user;4;latin;laudāre;indicative;imperfect;active;3;singular;laudābat;laudabat;True;2025-01-07 18:49:14
-default_user;4;latin;monēre;indicative;imperfect;active;1;singular;monēbam;monebam;True;2025-01-07 18:49:18
-default_user;4;latin;legere;indicative;imperfect;active;2;singular;legēbas;legebas;True;2025-01-07 18:49:23
-default_user;4;latin;laudāre;indicative;imperfect;active;2;plural;laudabātis;legebatis;False;2025-01-07 18:49:29
-default_user;4;latin;audīre;indicative;imperfect;active;1;singular;audiēbam;audiebam;True;2025-01-07 18:49:37
-default_user;4;latin;laudāre;indicative;imperfect;active;1;singular;laudābam;laudabam;True;2025-01-07 18:49:46
-default_user;4;latin;laudāre;indicative;imperfect;active;2;plural;laudabātis;laudabatis;True;2025-01-07 18:49:58
-default_user;4;latin;capere;indicative;imperfect;active;3;singular;capiēbat;capiebat;True;2025-01-07 18:50:06
-default_user;4;latin;capere;indicative;imperfect;active;2;plural;capiebātis;capiebamus;False;2025-01-07 18:50:10
-default_user;4;latin;legere;indicative;imperfect;active;1;plural;legebāmus;legebamus;True;2025-01-07 18:50:22
-default_user;4;latin;capere;indicative;imperfect;active;2;plural;capiebātis;capiebatis;True;2025-01-07 18:50:38
-default_user;4;latin;legere;indicative;imperfect;active;3;plural;legēbant;legebant;True;2025-01-07 18:52:40
-default_user;4;latin;audīre;indicative;imperfect;active;3;plural;audiēbant;audiebant;True;2025-01-07 18:52:43
-default_user;4;latin;audīre;indicative;imperfect;active;2;singular;audiēbas;;False;2025-01-07 18:53:30
-default_user;4;latin;laudāre;indicative;imperfect;active;3;plural;laudābant;laudabant;True;2025-01-07 18:53:48
-default_user;4;latin;capere;indicative;imperfect;active;1;plural;capiebāmus;capiebamus;True;2025-01-07 18:53:55
-default_user;4;latin;audīre;indicative;imperfect;active;2;singular;audiēbas;audiebas;True;2025-01-07 18:54:02
-default_user;5;latin;monēre;indicative;future simple;active;2;singular;monēbis;monebis;True;2025-01-07 20:23:37
-default_user;5;latin;legere;indicative;future simple;active;1;singular;legam;legam;True;2025-01-07 20:26:04
-default_user;5;latin;capere;indicative;future simple;active;2;singular;capies;capies;True;2025-01-07 20:26:33
-default_user;5;latin;legere;indicative;future simple;active;3;plural;legent;legent;True;2025-01-07 20:26:42
-default_user;5;latin;monēre;indicative;future simple;active;3;singular;monēbit;monebit;True;2025-01-07 20:28:40
-default_user;5;latin;monēre;indicative;future simple;active;1;plural;monebimus;monebimus;True;2025-01-07 20:28:45
-default_user;5;latin;audīre;indicative;future simple;active;1;plural;audiēmus;audiemus;True;2025-01-07 20:29:23
-default_user;5;latin;legere;indicative;future simple;active;3;singular;leget;leget;True;2025-01-07 20:29:36
-default_user;5;latin;laudāre;indicative;future simple;active;3;plural;laudābunt;laudabunt;True;2025-01-07 20:40:44
-default_user;5;latin;monēre;indicative;future simple;active;3;plural;monēbunt;monebunt;True;2025-01-07 20:40:49
-default_user;5;latin;legere;indicative;future simple;active;2;plural;legētis;legetis;True;2025-01-07 20:41:06
-default_user;5;latin;legere;indicative;future simple;active;1;plural;legēmus;legemus;True;2025-01-07 20:41:27
-default_user;5;latin;audīre;indicative;future simple;active;3;plural;audient;audient;True;2025-01-07 20:42:09
-default_user;5;latin;monēre;indicative;future simple;active;2;plural;monebitis;monebitis;True;2025-01-07 20:42:28
-default_user;5;latin;legere;indicative;future simple;active;2;singular;leges;leges;True;2025-01-07 20:42:40
-default_user;5;latin;audīre;indicative;future simple;active;2;singular;audies;audies;True;2025-01-07 20:42:43
-default_user;5;latin;audīre;indicative;future simple;active;1;singular;audiam;audiam;True;2025-01-07 20:42:47
-default_user;5;latin;capere;indicative;future simple;active;3;singular;capiet;capiet;True;2025-01-07 20:42:51
-default_user;5;latin;capere;indicative;future simple;active;2;plural;capiētis;capietis;True;2025-01-07 20:42:57
-default_user;5;latin;laudāre;indicative;future simple;active;3;singular;laudābit;laudabat;False;2025-01-07 20:43:03
-default_user;5;latin;laudāre;indicative;future simple;active;3;singular;laudābit;laudabit;True;2025-01-07 20:43:17
-default_user;5;latin;audīre;indicative;future simple;active;3;singular;audiet;audiet;True;2025-01-07 20:43:24
-default_user;5;latin;laudāre;indicative;future simple;active;1;plural;laudabimus;laudabimus;True;2025-01-07 20:43:35
-default_user;5;latin;capere;indicative;future simple;active;3;plural;capient;capient;True;2025-01-07 20:43:45
-default_user;5;latin;laudāre;indicative;future simple;active;2;plural;laudabitis;laudabitis;True;2025-01-07 20:43:51
-default_user;5;latin;audīre;indicative;future simple;active;2;plural;audiētis;audiemus;False;2025-01-07 21:01:05
-default_user;5;latin;monēre;indicative;future simple;active;1;singular;monēbo;monebo;True;2025-01-07 21:01:11
-default_user;5;latin;laudāre;indicative;future simple;active;2;singular;laudābis;laudabis;True;2025-01-07 21:01:16
-default_user;5;latin;laudāre;indicative;future simple;active;1;singular;laudābo;laudabo;True;2025-01-07 21:01:20
-default_user;5;latin;capere;indicative;future simple;active;1;singular;capiam;capiam;True;2025-01-07 21:01:24
-default_user;5;latin;audīre;indicative;future simple;active;2;plural;audiētis;audietis;True;2025-01-07 21:01:31
-default_user;5;latin;capere;indicative;future simple;active;1;plural;capiēmus;capiemus;True;2025-01-07 21:01:42
-default_user;6;latin;monēre;indicative;present;passive;3;singular;monētur;monetur;True;2025-01-07 21:35:15
-default_user;6;latin;monēre;indicative;present;passive;2;plural;monemini;monemini;True;2025-01-07 21:35:20
-default_user;6;latin;audīre;indicative;present;passive;2;plural;audimini;audiemini;False;2025-01-07 21:35:30
-default_user;6;latin;audīre;indicative;present;passive;2;singular;audīris;audiris;True;2025-01-07 21:35:42
-default_user;6;latin;laudāre;indicative;present;passive;1;singular;laudor;laudor;True;2025-01-07 21:35:51
-default_user;6;latin;legere;indicative;present;passive;1;plural;legimur;legimur;True;2025-01-07 21:36:01
-default_user;6;latin;audīre;indicative;present;passive;3;singular;audītur;auditur;True;2025-01-07 21:36:06
-default_user;6;latin;legere;indicative;present;passive;3;singular;legitur;legitur;True;2025-01-07 21:37:05
-default_user;6;latin;audīre;indicative;present;passive;3;plural;audiuntur;audiuntur;True;2025-01-07 21:37:20
-default_user;6;latin;capere;indicative;present;passive;3;singular;capitur;capitur;True;2025-01-07 21:37:24
-default_user;6;latin;audīre;indicative;present;passive;2;plural;audimini;audimini;True;2025-01-07 21:37:32
-default_user;6;latin;monēre;indicative;present;passive;1;plural;monēmur;monemur;True;2025-01-07 21:41:39
-default_user;6;latin;capere;indicative;present;passive;3;plural;capiuntur;capiuntur;True;2025-01-07 21:41:45
-default_user;6;latin;capere;indicative;present;passive;1;plural;capimur;capimur;True;2025-01-07 21:41:54
-default_user;6;latin;laudāre;indicative;present;passive;2;plural;laudāmini;laudamini;True;2025-01-07 21:42:08
-default_user;6;latin;capere;indicative;present;passive;1;singular;capior;capior;True;2025-01-07 21:42:15
-default_user;6;latin;capere;indicative;present;passive;2;plural;capimini;capiemini;False;2025-01-07 21:42:19
-default_user;6;latin;legere;indicative;present;passive;3;plural;leguntur;leguntur;True;2025-01-07 21:42:43
-default_user;6;latin;laudāre;indicative;present;passive;2;singular;laudāris;ludaris;False;2025-01-07 21:42:49
-default_user;6;latin;laudāre;indicative;present;passive;2;singular;laudāris;laudaris;True;2025-01-07 21:42:56
-default_user;6;latin;audīre;indicative;present;passive;1;plural;audīmur;audimur;True;2025-01-07 21:43:02
-default_user;6;latin;monēre;indicative;present;passive;3;plural;monēntur;monentur;True;2025-01-07 21:43:08
-default_user;6;latin;legere;indicative;present;passive;2;singular;legeris;legeris;True;2025-01-07 21:43:16
-default_user;6;latin;laudāre;indicative;present;passive;1;plural;laudāmur;laudamur;True;2025-01-07 21:43:39
-default_user;6;latin;laudāre;indicative;present;passive;3;singular;laudātur;laudatur;True;2025-01-07 21:43:46
-default_user;6;latin;capere;indicative;present;passive;2;plural;capimini;capimini;True;2025-01-07 21:43:53
-default_user;6;latin;audīre;indicative;present;passive;1;singular;audior;audior;True;2025-01-07 21:43:59
-default_user;6;latin;capere;indicative;present;passive;2;singular;caperis;capieris;False;2025-01-07 21:44:05
-default_user;6;latin;laudāre;indicative;present;passive;3;plural;laudāntur;laudantur;True;2025-01-07 21:45:26
-default_user;6;latin;capere;indicative;present;passive;2;singular;caperis;caperis;True;2025-01-07 21:45:33
-default_user;6;latin;monēre;indicative;present;passive;2;singular;monēris;moneris;True;2025-01-07 21:45:38
-default_user;6;latin;legere;indicative;present;passive;1;singular;legor;legor;True;2025-01-07 21:45:43
-default_user;6;latin;monēre;indicative;present;passive;1;singular;moneor;moneor;True;2025-01-07 21:45:48
-default_user;6;latin;legere;indicative;present;passive;2;plural;legimini;legimini;True;2025-01-07 21:45:53
+default_user;1;latin;capere;indicative;present;active;2;plural;capitis;capietis;False;2025-01-06 16:07:57
+default_user;1;latin;laudāre;indicative;present;active;1;singular;laudo;laudo;True;2025-01-06 16:08:07
+default_user;1;latin;audīre;indicative;present;active;1;plural;audīmus;audimus;True;2025-01-06 16:08:24
+default_user;1;latin;laudāre;indicative;present;active;3;singular;laudat;laudat;True;2025-01-06 16:08:32
+default_user;1;latin;capere;indicative;present;active;2;singular;capis;capis;True;2025-01-06 16:08:38
+default_user;1;latin;audīre;indicative;present;active;2;plural;audītis;auditis;True;2025-01-06 16:08:50
+default_user;1;latin;legere;indicative;present;active;1;singular;lego;lego;True;2025-01-06 16:09:00
+default_user;1;latin;legere;indicative;present;active;3;singular;legit;legit;True;2025-01-06 16:09:04
+default_user;1;latin;capere;indicative;present;active;1;plural;capimus;capimus;True;2025-01-06 16:09:08
+default_user;1;latin;audīre;indicative;present;active;1;singular;audio;audimus;False;2025-01-06 16:09:13
+default_user;1;latin;capere;indicative;present;active;2;plural;capitis;capitis;True;2025-01-06 16:09:31
+default_user;1;latin;laudāre;indicative;present;active;1;plural;laudāmus;laudamus;True;2025-01-06 16:09:37
+default_user;1;latin;monēre;indicative;present;active;3;singular;monet;monet;True;2025-01-06 16:10:05
+default_user;1;latin;monēre;indicative;present;active;1;plural;monēmus;monemus;True;2025-01-06 16:10:08
+default_user;1;latin;legere;indicative;present;active;2;plural;legitis;legitis;True;2025-01-06 16:10:20
+default_user;1;latin;laudāre;indicative;present;active;2;plural;laudātis;laudatis;True;2025-01-06 16:10:28
+default_user;1;latin;audīre;indicative;present;active;2;singular;audīs;audis;True;2025-01-06 16:10:33
+default_user;1;latin;audīre;indicative;present;active;3;singular;audīt;audit;True;2025-01-06 16:10:37
+default_user;1;latin;capere;indicative;present;active;3;plural;capiunt;capiunt;True;2025-01-06 16:10:46
+default_user;1;latin;capere;indicative;present;active;3;singular;capit;capit;True;2025-01-06 16:10:53
+default_user;1;latin;laudāre;indicative;present;active;3;plural;laudant;laudant;True;2025-01-06 16:11:06
+default_user;1;latin;legere;indicative;present;active;1;plural;legimus;legimus;True;2025-01-06 16:11:21
+default_user;1;latin;audīre;indicative;present;active;1;singular;audio;audio;True;2025-01-06 16:11:56
+default_user;1;latin;monēre;indicative;present;active;3;plural;monent;monent;True;2025-01-06 16:12:00
+default_user;1;latin;monēre;indicative;present;active;2;singular;mones;mones;True;2025-01-06 16:12:04
+default_user;1;latin;capere;indicative;present;active;1;singular;capio;capio;True;2025-01-06 16:12:08
+default_user;1;latin;audīre;indicative;present;active;3;plural;audiunt;audiunt;True;2025-01-06 16:12:16
+default_user;1;latin;legere;indicative;present;active;3;plural;legunt;legunt;True;2025-01-06 16:12:26
+default_user;1;latin;monēre;indicative;present;active;2;plural;monētis;monetis;True;2025-01-06 16:12:33
+default_user;1;latin;monēre;indicative;present;active;1;singular;moneo;moneo;True;2025-01-06 16:12:39
+default_user;1;latin;legere;indicative;present;active;2;singular;legis;legis;True;2025-01-06 16:12:44
+default_user;1;latin;laudāre;indicative;present;active;2;singular;laudas;laudas;True;2025-01-06 16:12:47
+default_user;2;latin;audīre;indicative;imperfect;active;1;plural;audiebāmus;audiebamus;True;2025-01-07 18:46:35
+default_user;2;latin;capere;indicative;imperfect;active;2;singular;capiēbas;capiebas;True;2025-01-07 18:46:42
+default_user;2;latin;audīre;indicative;imperfect;active;3;singular;audiēbat;audiebat;True;2025-01-07 18:46:54
+default_user;2;latin;laudāre;indicative;imperfect;active;2;singular;laudābas;laudabas;True;2025-01-07 18:46:58
+default_user;2;latin;legere;indicative;imperfect;active;2;plural;legebātis;legebatis;True;2025-01-07 18:47:09
+default_user;2;latin;monēre;indicative;imperfect;active;2;plural;monebātis;monebatis;True;2025-01-07 18:48:01
+default_user;2;latin;laudāre;indicative;imperfect;active;1;plural;laudabāmus;laudabamus;True;2025-01-07 18:48:08
+default_user;2;latin;capere;indicative;imperfect;active;1;singular;capiēbam;capiebam;True;2025-01-07 18:48:12
+default_user;2;latin;legere;indicative;imperfect;active;1;singular;legēbam;legebam;True;2025-01-07 18:48:17
+default_user;2;latin;legere;indicative;imperfect;active;3;singular;legēbat;legebat;True;2025-01-07 18:48:21
+default_user;2;latin;monēre;indicative;imperfect;active;1;plural;monebāmus;monebamus;True;2025-01-07 18:48:30
+default_user;2;latin;monēre;indicative;imperfect;active;3;plural;monēbant;monebant;True;2025-01-07 18:48:35
+default_user;2;latin;monēre;indicative;imperfect;active;3;singular;monēbat;monebat;True;2025-01-07 18:48:40
+default_user;2;latin;monēre;indicative;imperfect;active;2;singular;monēbas;monebas;True;2025-01-07 18:48:43
+default_user;2;latin;audīre;indicative;imperfect;active;2;plural;audiebātis;audiebatis;True;2025-01-07 18:48:48
+default_user;2;latin;capere;indicative;imperfect;active;3;plural;capiēbant;capiebant;True;2025-01-07 18:49:02
+default_user;2;latin;laudāre;indicative;imperfect;active;3;singular;laudābat;laudabat;True;2025-01-07 18:49:14
+default_user;2;latin;monēre;indicative;imperfect;active;1;singular;monēbam;monebam;True;2025-01-07 18:49:18
+default_user;2;latin;legere;indicative;imperfect;active;2;singular;legēbas;legebas;True;2025-01-07 18:49:23
+default_user;2;latin;laudāre;indicative;imperfect;active;2;plural;laudabātis;legebatis;False;2025-01-07 18:49:29
+default_user;2;latin;audīre;indicative;imperfect;active;1;singular;audiēbam;audiebam;True;2025-01-07 18:49:37
+default_user;2;latin;laudāre;indicative;imperfect;active;1;singular;laudābam;laudabam;True;2025-01-07 18:49:46
+default_user;2;latin;laudāre;indicative;imperfect;active;2;plural;laudabātis;laudabatis;True;2025-01-07 18:49:58
+default_user;2;latin;capere;indicative;imperfect;active;3;singular;capiēbat;capiebat;True;2025-01-07 18:50:06
+default_user;2;latin;capere;indicative;imperfect;active;2;plural;capiebātis;capiebamus;False;2025-01-07 18:50:10
+default_user;2;latin;legere;indicative;imperfect;active;1;plural;legebāmus;legebamus;True;2025-01-07 18:50:22
+default_user;2;latin;capere;indicative;imperfect;active;2;plural;capiebātis;capiebatis;True;2025-01-07 18:50:38
+default_user;2;latin;legere;indicative;imperfect;active;3;plural;legēbant;legebant;True;2025-01-07 18:52:40
+default_user;2;latin;audīre;indicative;imperfect;active;3;plural;audiēbant;audiebant;True;2025-01-07 18:52:43
+default_user;2;latin;audīre;indicative;imperfect;active;2;singular;audiēbas;;False;2025-01-07 18:53:30
+default_user;2;latin;laudāre;indicative;imperfect;active;3;plural;laudābant;laudabant;True;2025-01-07 18:53:48
+default_user;2;latin;capere;indicative;imperfect;active;1;plural;capiebāmus;capiebamus;True;2025-01-07 18:53:55
+default_user;2;latin;audīre;indicative;imperfect;active;2;singular;audiēbas;audiebas;True;2025-01-07 18:54:02
+default_user;3;latin;monēre;indicative;future simple;active;2;singular;monēbis;monebis;True;2025-01-07 20:23:37
+default_user;3;latin;legere;indicative;future simple;active;1;singular;legam;legam;True;2025-01-07 20:26:04
+default_user;3;latin;capere;indicative;future simple;active;2;singular;capies;capies;True;2025-01-07 20:26:33
+default_user;3;latin;legere;indicative;future simple;active;3;plural;legent;legent;True;2025-01-07 20:26:42
+default_user;3;latin;monēre;indicative;future simple;active;3;singular;monēbit;monebit;True;2025-01-07 20:28:40
+default_user;3;latin;monēre;indicative;future simple;active;1;plural;monebimus;monebimus;True;2025-01-07 20:28:45
+default_user;3;latin;audīre;indicative;future simple;active;1;plural;audiēmus;audiemus;True;2025-01-07 20:29:23
+default_user;3;latin;legere;indicative;future simple;active;3;singular;leget;leget;True;2025-01-07 20:29:36
+default_user;3;latin;laudāre;indicative;future simple;active;3;plural;laudābunt;laudabunt;True;2025-01-07 20:40:44
+default_user;3;latin;monēre;indicative;future simple;active;3;plural;monēbunt;monebunt;True;2025-01-07 20:40:49
+default_user;3;latin;legere;indicative;future simple;active;2;plural;legētis;legetis;True;2025-01-07 20:41:06
+default_user;3;latin;legere;indicative;future simple;active;1;plural;legēmus;legemus;True;2025-01-07 20:41:27
+default_user;3;latin;audīre;indicative;future simple;active;3;plural;audient;audient;True;2025-01-07 20:42:09
+default_user;3;latin;monēre;indicative;future simple;active;2;plural;monebitis;monebitis;True;2025-01-07 20:42:28
+default_user;3;latin;legere;indicative;future simple;active;2;singular;leges;leges;True;2025-01-07 20:42:40
+default_user;3;latin;audīre;indicative;future simple;active;2;singular;audies;audies;True;2025-01-07 20:42:43
+default_user;3;latin;audīre;indicative;future simple;active;1;singular;audiam;audiam;True;2025-01-07 20:42:47
+default_user;3;latin;capere;indicative;future simple;active;3;singular;capiet;capiet;True;2025-01-07 20:42:51
+default_user;3;latin;capere;indicative;future simple;active;2;plural;capiētis;capietis;True;2025-01-07 20:42:57
+default_user;3;latin;laudāre;indicative;future simple;active;3;singular;laudābit;laudabat;False;2025-01-07 20:43:03
+default_user;3;latin;laudāre;indicative;future simple;active;3;singular;laudābit;laudabit;True;2025-01-07 20:43:17
+default_user;3;latin;audīre;indicative;future simple;active;3;singular;audiet;audiet;True;2025-01-07 20:43:24
+default_user;3;latin;laudāre;indicative;future simple;active;1;plural;laudabimus;laudabimus;True;2025-01-07 20:43:35
+default_user;3;latin;capere;indicative;future simple;active;3;plural;capient;capient;True;2025-01-07 20:43:45
+default_user;3;latin;laudāre;indicative;future simple;active;2;plural;laudabitis;laudabitis;True;2025-01-07 20:43:51
+default_user;3;latin;audīre;indicative;future simple;active;2;plural;audiētis;audiemus;False;2025-01-07 21:01:05
+default_user;3;latin;monēre;indicative;future simple;active;1;singular;monēbo;monebo;True;2025-01-07 21:01:11
+default_user;3;latin;laudāre;indicative;future simple;active;2;singular;laudābis;laudabis;True;2025-01-07 21:01:16
+default_user;3;latin;laudāre;indicative;future simple;active;1;singular;laudābo;laudabo;True;2025-01-07 21:01:20
+default_user;3;latin;capere;indicative;future simple;active;1;singular;capiam;capiam;True;2025-01-07 21:01:24
+default_user;3;latin;audīre;indicative;future simple;active;2;plural;audiētis;audietis;True;2025-01-07 21:01:31
+default_user;3;latin;capere;indicative;future simple;active;1;plural;capiēmus;capiemus;True;2025-01-07 21:01:42
+default_user;4;latin;monēre;indicative;present;passive;3;singular;monētur;monetur;True;2025-01-07 21:35:15
+default_user;4;latin;monēre;indicative;present;passive;2;plural;monemini;monemini;True;2025-01-07 21:35:20
+default_user;4;latin;audīre;indicative;present;passive;2;plural;audimini;audiemini;False;2025-01-07 21:35:30
+default_user;4;latin;audīre;indicative;present;passive;2;singular;audīris;audiris;True;2025-01-07 21:35:42
+default_user;4;latin;laudāre;indicative;present;passive;1;singular;laudor;laudor;True;2025-01-07 21:35:51
+default_user;4;latin;legere;indicative;present;passive;1;plural;legimur;legimur;True;2025-01-07 21:36:01
+default_user;4;latin;audīre;indicative;present;passive;3;singular;audītur;auditur;True;2025-01-07 21:36:06
+default_user;4;latin;legere;indicative;present;passive;3;singular;legitur;legitur;True;2025-01-07 21:37:05
+default_user;4;latin;audīre;indicative;present;passive;3;plural;audiuntur;audiuntur;True;2025-01-07 21:37:20
+default_user;4;latin;capere;indicative;present;passive;3;singular;capitur;capitur;True;2025-01-07 21:37:24
+default_user;4;latin;audīre;indicative;present;passive;2;plural;audimini;audimini;True;2025-01-07 21:37:32
+default_user;4;latin;monēre;indicative;present;passive;1;plural;monēmur;monemur;True;2025-01-07 21:41:39
+default_user;4;latin;capere;indicative;present;passive;3;plural;capiuntur;capiuntur;True;2025-01-07 21:41:45
+default_user;4;latin;capere;indicative;present;passive;1;plural;capimur;capimur;True;2025-01-07 21:41:54
+default_user;4;latin;laudāre;indicative;present;passive;2;plural;laudāmini;laudamini;True;2025-01-07 21:42:08
+default_user;4;latin;capere;indicative;present;passive;1;singular;capior;capior;True;2025-01-07 21:42:15
+default_user;4;latin;capere;indicative;present;passive;2;plural;capimini;capiemini;False;2025-01-07 21:42:19
+default_user;4;latin;legere;indicative;present;passive;3;plural;leguntur;leguntur;True;2025-01-07 21:42:43
+default_user;4;latin;laudāre;indicative;present;passive;2;singular;laudāris;ludaris;False;2025-01-07 21:42:49
+default_user;4;latin;laudāre;indicative;present;passive;2;singular;laudāris;laudaris;True;2025-01-07 21:42:56
+default_user;4;latin;audīre;indicative;present;passive;1;plural;audīmur;audimur;True;2025-01-07 21:43:02
+default_user;4;latin;monēre;indicative;present;passive;3;plural;monēntur;monentur;True;2025-01-07 21:43:08
+default_user;4;latin;legere;indicative;present;passive;2;singular;legeris;legeris;True;2025-01-07 21:43:16
+default_user;4;latin;laudāre;indicative;present;passive;1;plural;laudāmur;laudamur;True;2025-01-07 21:43:39
+default_user;4;latin;laudāre;indicative;present;passive;3;singular;laudātur;laudatur;True;2025-01-07 21:43:46
+default_user;4;latin;capere;indicative;present;passive;2;plural;capimini;capimini;True;2025-01-07 21:43:53
+default_user;4;latin;audīre;indicative;present;passive;1;singular;audior;audior;True;2025-01-07 21:43:59
+default_user;4;latin;capere;indicative;present;passive;2;singular;caperis;capieris;False;2025-01-07 21:44:05
+default_user;4;latin;laudāre;indicative;present;passive;3;plural;laudāntur;laudantur;True;2025-01-07 21:45:26
+default_user;4;latin;capere;indicative;present;passive;2;singular;caperis;caperis;True;2025-01-07 21:45:33
+default_user;4;latin;monēre;indicative;present;passive;2;singular;monēris;moneris;True;2025-01-07 21:45:38
+default_user;4;latin;legere;indicative;present;passive;1;singular;legor;legor;True;2025-01-07 21:45:43
+default_user;4;latin;monēre;indicative;present;passive;1;singular;moneor;moneor;True;2025-01-07 21:45:48
+default_user;4;latin;legere;indicative;present;passive;2;plural;legimini;legimini;True;2025-01-07 21:45:53
