@@ -12,7 +12,6 @@ from declension.lib.parsing_args import *
 from declension.lib.utils import *
 from vocabulary.lib.file_db import DeclensionExerciseCSVHandler, DeclensionExerciseSessionMetadataCSVHandler
 
-
 if __name__ == '__main__':
     rng = default_rng()
     args = parse_args()
@@ -41,7 +40,7 @@ if __name__ == '__main__':
         path=DECLENSION_SESSION_METADATA_CSV_PATH,
         session_id=db_handler.current_session_id,
         user_name=DEFAULT_USER_NAME,
-        declensions_included={d.value for d in declensions_to_include}
+        declensions_included={d.type.value for d in declensions_filtered.declensions}
     )
 
     should_continue = True
