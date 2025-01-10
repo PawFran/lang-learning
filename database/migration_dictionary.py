@@ -1,7 +1,4 @@
-from sqlalchemy import create_engine
-
 from database.utils import *
-from environment import DATABASE
 
 
 def migrate_dictionary(engine, dict_folder):

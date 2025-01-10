@@ -20,7 +20,7 @@ def str_to_bool(s: str) -> bool:
 
 
 def parse_translation_exercise_result_line(raw_line: str) -> TranslationExerciseResults:
-    split = raw_line.split(';')
+    split = [field.strip() for field in raw_line.split(';')]
     return TranslationExerciseResults(
         user=split[0],
         session_id=split[1],
@@ -34,7 +34,7 @@ def parse_translation_exercise_result_line(raw_line: str) -> TranslationExercise
 
 
 def parse_declension_exercise_result_line(raw_line: str) -> TranslationExerciseResults:
-    split = raw_line.split(';')
+    split = [field.strip() for field in raw_line.split(';')]
     return DeclensionExerciseResults(
         user=split[0],
         session_id=split[1],
@@ -50,7 +50,7 @@ def parse_declension_exercise_result_line(raw_line: str) -> TranslationExerciseR
 
 
 def parse_conjugation_exercise_result_line(raw_line: str) -> TranslationExerciseResults:
-    split = raw_line.split(';')
+    split = [field.strip() for field in raw_line.split(';')]
     return ConjugationExerciseResults(
         user=split[0],
         session_id=split[1],
@@ -82,7 +82,7 @@ def migrate_conjugation_exercise_results(engine: Engine, path: str):
 
 def migrate_declension_exercise_session_metadata(engine: Engine, path: str):
     def parse_declension_session_metadata_line(raw_line: str) -> DeclensionExerciseSessionMetadata:
-        split = raw_line.split(';')
+        split = [field.strip() for field in raw_line.split(';')]
         return DeclensionExerciseSessionMetadata(
             session_id=split[0],
             user_name=split[1], 
@@ -94,7 +94,7 @@ def migrate_declension_exercise_session_metadata(engine: Engine, path: str):
 
 def migrate_conjugation_exercise_session_metadata(engine: Engine, path: str):
     def parse_conjugation_session_metadata_line(raw_line: str) -> ConjugationExerciseSessionMetadata:
-        split = raw_line.split(';')
+        split = [field.strip() for field in raw_line.split(';')]
         return ConjugationExerciseSessionMetadata(
             session_id=split[0],
             user_name=split[1],
