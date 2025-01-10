@@ -1,0 +1,8 @@
+session_id;user_name;start_word;end_word;filtered_parts_of_speech;interrupted
+1;default_user;lĕo, leonis;rex, regis;;False
+2;default_user;spectācŭlum, spectaculi;torrĕo, torrēre, torrui, tostum;;True
+3;default_user;spectācŭlum, spectaculi;torrĕo, torrēre, torrui, tostum;;True
+4;default_user;spectācŭlum, spectaculi;torrĕo, torrēre, torrui, tostum;;True
+5;default_user;spectācŭlum, spectaculi;torrĕo, torrēre, torrui, tostum;;True
+6;default_user;spectācŭlum, spectaculi;torrĕo, torrēre, torrui, tostum;;False
+7;default_user;spectācŭlum, spectaculi;torrĕo, torrēre, torrui, tostum;;False
