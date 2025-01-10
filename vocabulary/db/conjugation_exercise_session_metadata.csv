@@ -1,1 +1,5 @@
 session_id;user_name;conjugations_included;moods_included;tenses_included;voices_included;interrupted
+1;default_user;I, II, III, IV;indicative;present;active;False
+2;default_user;I, II, III, IV;indicative;imperfect;active;False
+3;default_user;I, II, III, IV;indicative;future simple;active;False
+4;default_user;I, II, III, IV;indicative;present;passive;False

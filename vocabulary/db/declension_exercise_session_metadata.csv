@@ -1,1 +1,3 @@
 session_id;user_name;declensions_included;interrupted
+1;default_user;I, II;False
+2;default_user;III consonant, III mixed, III vowel;False

@@ -8,18 +8,8 @@ napisac skrypt to generowana metadanych (domyslania sie ich)
 skrot do adjective - np. '2' to dwie koncowki
 dodac skroty do readme oraz wypisac na poczatku cwiczenia
 
-najpilniejsze - dodac session metadata do cwiczen
-pierwsze conjugation - tylko ind praes act
-kolejne to pomylka
-drugie - tylko ind imperf act
-trzecie to in fut_i_act
-czwarte ind praes pass
-pierwsze declension to pierwsza i druga deklinacja
-drugie to trzecia
+dodac session metadata do cwiczenia translation
 nie zawsze wystarczy podac argumenty - np. w translation brak -z nie mowi, jakie bylo ostatnie slowo
-chociaz w przypadku declension/conjugation da sie to dosc dobrze wyciagnac z 'results'..
-mozna to nawet szacowac - ile % zostalo zrobione
-chociaz jednak kombinacje moga byc bardzo rozne
 
 wygenerowac jakies podsumowanie koncowek perf/sup - czy jest tu jakas regula ? ale najpierw obsluzyc wystepowanie alternatywnych form (uzupelnic slownik)
 

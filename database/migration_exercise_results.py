@@ -80,6 +80,33 @@ def migrate_conjugation_exercise_results(engine: Engine, path: str):
     migrate_from_file_to_db(engine, path, parse_conjugation_exercise_result_line)
 
 
+def migrate_declension_exercise_session_metadata(engine: Engine, path: str):
+    def parse_declension_session_metadata_line(raw_line: str) -> DeclensionExerciseSessionMetadata:
+        split = raw_line.split(';')
+        return DeclensionExerciseSessionMetadata(
+            session_id=split[0],
+            user_name=split[1], 
+            declensions_included=split[2],
+            interrupted=str_to_bool(split[3].strip())
+        )
+    
+    migrate_from_file_to_db(engine, path, parse_declension_session_metadata_line)
+
+def migrate_conjugation_exercise_session_metadata(engine: Engine, path: str):
+    def parse_conjugation_session_metadata_line(raw_line: str) -> ConjugationExerciseSessionMetadata:
+        split = raw_line.split(';')
+        return ConjugationExerciseSessionMetadata(
+            session_id=split[0],
+            user_name=split[1],
+            conjugations_included=split[2],
+            moods_included=split[3],
+            tenses_included=split[4],
+            voices_included=split[5],
+            interrupted=str_to_bool(split[6].strip())
+        )
+    
+    migrate_from_file_to_db(engine, path, parse_conjugation_session_metadata_line)
+
 def migrate_from_file_to_db(engine, path: str, parsing_function):
     with open(path, encoding="utf8") as f:
         f.readline()  # skip header
