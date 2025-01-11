@@ -8,9 +8,6 @@ napisac skrypt to generowana metadanych (domyslania sie ich)
 skrot do adjective - np. '2' to dwie koncowki
 dodac skroty do readme oraz wypisac na poczatku cwiczenia
 
-dodac session metadata do cwiczenia translation
-nie zawsze wystarczy podac argumenty - np. w translation brak -z nie mowi, jakie bylo ostatnie slowo
-
 wygenerowac jakies podsumowanie koncowek perf/sup - czy jest tu jakas regula ? ale najpierw obsluzyc wystepowanie alternatywnych form (uzupelnic slownik)
 
 dodac bardziej szczegolowe info o tym co zostalo pomylone - np. tylko jedna forma (w przyszlosci rowniez na bazie w raportach, na poczatek moze byc w terminalu)

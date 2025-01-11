@@ -273,6 +273,18 @@ class ConjugationExerciseResults(Base):
     time = Column(DateTime, nullable=False)
 
 
+class TranslationExerciseSessionMetadata(Base):
+    __tablename__ = 'translation_exercise_session_metadata'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    session_id = Column(Integer, nullable=False)
+    user_name = Column(String, default=DEFAULT_USER_NAME, nullable=False)
+    start_word = Column(String, nullable=False)
+    end_word = Column(String, nullable=False)
+    filtered_parts_of_speech = Column(String, nullable=True)
+    interrupted = Column(Boolean, nullable=False)
+
+
 class ConjugationExerciseSessionMetadata(Base):
     __tablename__ = 'conjugation_exercise_session_metadata'
 

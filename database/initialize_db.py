@@ -18,7 +18,7 @@ from database.db_classes import Base, create_all_views, Languages, PartsOfSpeech
     LatinDeclensionTypes, DeclensionCases, Moods, Tenses, Voices, Numbers, Persons
 from database.migration_dictionary import migrate_dictionary
 from database.migration_exercise_results import migrate_conjugation_exercise_session_metadata, migrate_declension_exercise_session_metadata, migrate_translation_exercise_results, \
-    migrate_declension_exercise_results, migrate_conjugation_exercise_results
+    migrate_declension_exercise_results, migrate_conjugation_exercise_results, migrate_translation_exercise_session_metadata
 from database.migration_patterns import migrate_declension_patterns, migrate_conjugation_patterns
 from declension.lib.declension_classes import DeclensionType, DeclensionCase, Genre
 from vocabulary.lib.dict_classes import PartOfSpeech, Lang
@@ -44,14 +44,17 @@ tables_with_enums = {
 
 # needs to be invoked from project root
 dictionary_folder = os.path.join('vocabulary', 'dicts')
+
 declension_patterns_file_path = os.path.join("declension", "resources", "declension.json")
 conjugation_patterns_file_path = os.path.join("conjugation", "resources", "conjugation.json") 
+
 translation_exercise_results_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
 declension_exercise_results_path = os.path.join('vocabulary', 'db', 'declension_exercise_results.csv')
 conjugation_exercise_results_path = os.path.join('vocabulary', 'db', 'conjugation_exercise_results.csv')
+
 declension_exercise_session_metadata_path = os.path.join('vocabulary', 'db', 'declension_exercise_session_metadata.csv')
 conjugation_exercise_session_metadata_path = os.path.join('vocabulary', 'db', 'conjugation_exercise_session_metadata.csv')
-
+translation_exercise_session_metadata_path = os.path.join('vocabulary', 'db', 'translation_exercise_session_metadata.csv')
 
 def initialize_database(engine: Engine,
                         remove_old: bool,
@@ -63,6 +66,7 @@ def initialize_database(engine: Engine,
                         conjugation_exercise_results_migration: bool,
                         declension_exercise_session_metadata_migration: bool,
                         conjugation_exercise_session_metadata_migration: bool,
+                        translation_exercise_session_metadata_migration: bool,
                         ):
     if remove_old:
         remove_db(engine)
@@ -118,6 +122,10 @@ def initialize_database(engine: Engine,
         migrate_conjugation_exercise_session_metadata(engine, conjugation_exercise_session_metadata_path)
         print('conjugation exercise session metadata migrated')
 
+    if translation_exercise_session_metadata_migration:
+        migrate_translation_exercise_session_metadata(engine, translation_exercise_session_metadata_path)
+        print('translation exercise session metadata migrated')
+
 
 def remove_db(engine):
     db_name = engine.url.database
@@ -168,4 +176,5 @@ if __name__ == '__main__':
                        declension_exercise_results_migration=True,
                        conjugation_exercise_results_migration=True,
                        declension_exercise_session_metadata_migration=True,
-                       conjugation_exercise_session_metadata_migration=True)
+                       conjugation_exercise_session_metadata_migration=True,
+                       translation_exercise_session_metadata_migration=True)

@@ -92,6 +92,21 @@ def migrate_declension_exercise_session_metadata(engine: Engine, path: str):
     
     migrate_from_file_to_db(engine, path, parse_declension_session_metadata_line)
 
+def migrate_translation_exercise_session_metadata(engine: Engine, path: str):
+    def parse_translation_session_metadata_line(raw_line: str) -> TranslationExerciseSessionMetadata:
+        split = [field.strip() for field in raw_line.split(';')]
+        return TranslationExerciseSessionMetadata(
+            session_id=split[0],
+            user_name=split[1],
+            start_word=split[2],
+            end_word=split[3],
+            filtered_parts_of_speech=split[4],
+            interrupted=str_to_bool(split[5].strip())
+        )
+    
+    migrate_from_file_to_db(engine, path, parse_translation_session_metadata_line)
+
+
 def migrate_conjugation_exercise_session_metadata(engine: Engine, path: str):
     def parse_conjugation_session_metadata_line(raw_line: str) -> ConjugationExerciseSessionMetadata:
         split = [field.strip() for field in raw_line.split(';')]
