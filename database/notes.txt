@@ -1,12 +1,14 @@
 TODO
 
-generowanie trudnych slow - np. tych, ktore w ostatniej sesji, w ktorej byly uzyte, nie zostaly podane poprawnie za pierwszym razem
-opcja powtorzenia ostatniej sesji ale tylko z trudnymi slowami
-ale do tego trzeba miec metadane sesji
+przed uruchomieniem kazdego cwiczenia powinno byc zrobione migration - skoro dane sa pobierane z bazy
 
-do results dodac jeszcze info o liczbie slow i score ?
+revision w translation powinno zawierac problematyczne tlumaczenia a nie slowa
 
-skrot do adjective - np. '2' to dwie koncowki
+dodac opcje filtrowania w translation po rozdzialach (definiowanyh recznie, np. z podrecznika, ale moze byc dowolnie - mapowanie nazwy rozdzialu na start/end word)
+
+do results dodac jeszcze info o liczbie slow i score ? raczej jakies widoki/dashboard
+
+skrot do adjective - np. '2' to dwie koncowki. a '1' to jedna
 dodac skroty do readme oraz wypisac na poczatku cwiczenia
 
 wygenerowac jakies podsumowanie koncowek perf/sup - czy jest tu jakas regula ? ale najpierw obsluzyc wystepowanie alternatywnych form (uzupelnic slownik)

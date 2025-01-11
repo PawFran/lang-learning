@@ -441,3 +441,66 @@ default_user;7;latin;stopniowo, niewielka ilość na raz, kawałek po kawałku;p
 default_user;7;latin;następnie, w tym czasie;tunc ;tunc;True;2025-01-09 11:47:35
 default_user;7;latin;delikatnie, łagodnie, lekko, nieznacznie;lēnĭtĕr ;placide;False;2025-01-09 11:47:42
 default_user;7;latin;delikatnie, łagodnie, lekko, nieznacznie;lēnĭtĕr ;leniter;True;2025-01-09 11:47:45
+default_user;8;latin;odejść (odejść do = ustąpić w (niech to będzie później notatką));concēdo, concēdĕre, concessi, concessum ;concedo concedere concessi concessum;True;2025-01-11 12:21:17
+default_user;8;latin;krew;crŭŏr, cruoris ;cruor cruoris;True;2025-01-11 12:21:22
+default_user;8;latin;łagodny, delikatny, spokojny;mītis, mitis, mite ;metis metis mete;False;2025-01-11 12:21:30
+default_user;8;latin;zatrzymać się, przestać;consisto, consistĕre, constiti ;;False;2025-01-11 12:21:34
+default_user;8;latin;rozmiar, wielkość, masa;magnĭtūdo, magnitudinis ;multitudo multitudinis;False;2025-01-11 12:21:42
+default_user;8;latin;obrócić się, odwrócić się;verto, vertĕre, verti, versum ;converto convertere conversi conversum;False;2025-01-11 12:22:15
+default_user;8;latin;noga, podudzie;crūs, cruris ;crus cruris;True;2025-01-11 12:22:26
+default_user;8;latin;rozpoznać;noscĭto, noscĭtāre, noscitavi, noscitatum ;noscito 1;True;2025-01-11 12:22:34
+default_user;8;latin;odwrócić, zwracać;converto, convertĕre, converti, conversum ;converto convertere conversi conversum;False;2025-01-11 12:22:49
+default_user;8;latin;południowy;mĕrīdĭānus, meridiană, meridianum ;meridianus a um;True;2025-01-11 12:22:55
+default_user;8;latin;nagle, niespodziewanie;rĕpentĕ ;repente;True;2025-01-11 12:22:59
+default_user;8;latin;zrzec się, zrezygnować, przyznać się;concēdo, concēdĕre, concessi, concessum ;concedo concedere concessi concessum;True;2025-01-11 12:23:11
+default_user;8;latin;łagodny, delikatny, spokojny;mītis, mitis, mite ;mitis mitis mite;True;2025-01-11 12:23:17
+default_user;8;latin;odzyskać, przywrócić, przywrócić do zdrowia;rĕcŭpĕro, rĕcŭpĕrāre, recuperavi, recuperatum ;revello revellere revulsi revulsum;False;2025-01-11 12:23:35
+default_user;8;latin;kilka, spora liczba;complūres, complurĭum ;complures complurium;True;2025-01-11 12:23:43
+default_user;8;latin;mieć, dzierżyć, sprawować;obtĭnĕo, obtĭnēre, obtinui, obtentum ;obtineo obtinere obtinui obtentum;True;2025-01-11 12:23:51
+default_user;8;latin;rozmiar, wielkość, masa;magnĭtūdo, magnitudinis ;magnitudo magnitudinis;True;2025-01-11 12:23:56
+default_user;8;latin;wprowadzać;intrōdūco, intrōdūcĕre, introduxi, introductum ;introduco 1;False;2025-01-11 12:24:00
+default_user;8;latin;utrzymywać, zachowywać;obtĭnĕo, obtĭnēre, obtinui, obtentum ;obtineo obtinere obtenti obtentum;False;2025-01-11 12:24:08
+default_user;8;latin;strach, niepokój;mĕtŭs, metūs ;;False;2025-01-11 12:24:17
+default_user;8;latin;tak, tak dalece, tak bardzo, do tego stopnia;tam ;tamquam;False;2025-01-11 12:24:21
+default_user;8;latin;obrócić się, odwrócić się;verto, vertĕre, verti, versum ;verso versere versi versum;False;2025-01-11 12:24:29
+default_user;8;latin;tak, tak dalece, tak bardzo, do tego stopnia;tam ;tam;True;2025-01-11 12:24:37
+default_user;8;latin;(strona bierna) przez (+ abl);ăb ;a;False;2025-01-11 12:24:40
+default_user;8;latin;strach, niepokój;mĕtŭs, metūs ;metus metus;True;2025-01-11 12:24:44
+default_user;8;latin;kuszenie, przymilanie się lub nakłanianie do czegoś;blandīmentum, blandimenti ;blandimentum blandimenti;True;2025-01-11 12:24:52
+default_user;8;latin;poddać się, pozwolić, zezwolić, zaakceptować;concēdo, concēdĕre, concessi, concessum ;concedo concedere concessi concessum;True;2025-01-11 12:25:00
+default_user;8;latin;odwrócić, zwracać;converto, convertĕre, converti, conversum ;converto convertere converti convertum;False;2025-01-11 12:25:12
+default_user;8;latin;zasoby, bogactwo;cōpĭa, copiae ;copia copiae;True;2025-01-11 12:25:17
+default_user;8;latin;obfitość;cōpĭa, copiae ;copia copiae;True;2025-01-11 12:25:21
+default_user;8;latin;utrzymywać, zachowywać;obtĭnĕo, obtĭnēre, obtinui, obtentum ;obtineo obtinere obtinui obtentum;True;2025-01-11 12:25:30
+default_user;8;latin;dzika bestia, dzikie zwierzę;fĕra, ferae ;fera ferae;True;2025-01-11 12:25:33
+default_user;8;latin;położyć się, uspokoić się;rĕcumbo, rĕcumbĕre, recubui ;quiesco quiescere quievi quietum;False;2025-01-11 12:25:43
+default_user;8;latin;trzy lata;trĭennĭum, triennii ;triennium triennii;True;2025-01-11 12:25:52
+default_user;8;latin;odwrócić, zwracać;converto, convertĕre, converti, conversum ;converto convertere converti conversum;True;2025-01-11 12:26:02
+default_user;8;latin;wycofać się, oderwać, wyrwać;rĕvello, rĕvellĕre, revelli, revulsum ;revello revellere revulsi revulsum;False;2025-01-11 12:26:13
+default_user;8;latin;wprowadzać;intrōdūco, intrōdūcĕre, introduxi, introductum ;introduco introducere introduxi introductum;True;2025-01-11 12:26:25
+default_user;8;latin;okrutny, dziki, straszny;ătrox, ătrox, ătrox ;ferus a um;False;2025-01-11 12:26:29
+default_user;8;latin;dziki;fĕrus, feră, ferum ;ferus a um;True;2025-01-11 12:26:33
+default_user;8;latin;odzyskać, przywrócić, przywrócić do zdrowia;rĕcŭpĕro, rĕcŭpĕrāre, recuperavi, recuperatum ;recupero 1;True;2025-01-11 12:26:39
+default_user;8;latin;wycofać się, oderwać, wyrwać;rĕvello, rĕvellĕre, revelli, revulsum ;;False;2025-01-11 12:26:45
+default_user;8;latin;zatrzymać się, przestać;consisto, consistĕre, constiti ;consisto conssitere constiti constitum;False;2025-01-11 12:26:58
+default_user;8;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostensum;False;2025-01-11 12:27:13
+default_user;8;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostensum;False;2025-01-11 12:27:23
+default_user;8;latin;odpoczywać, być cicho, być spokojnym;quĭesco, quĭescĕre, quievi, quietum ;quiesco quiescere quievi quietum;True;2025-01-11 12:27:33
+default_user;8;latin;zatrzymać się, przestać;consisto, consistĕre, constiti ;consisto consistere constitui;False;2025-01-11 12:27:42
+default_user;8;latin;wycofać się, oderwać, wyrwać;rĕvello, rĕvellĕre, revelli, revulsum ;revello revellere revelli revulsum;True;2025-01-11 12:27:52
+default_user;8;latin;(czas) od (+ abl);ăb ;ab;True;2025-01-11 12:27:57
+default_user;8;latin;położyć się, uspokoić się;rĕcumbo, rĕcumbĕre, recubui ;quiesco quiescere quievi quietum;False;2025-01-11 12:28:08
+default_user;8;latin;okrutny, dziki, straszny;ătrox, ătrox, ătrox ;atrox atrox atrox;True;2025-01-11 12:28:14
+default_user;8;latin;ropa itp. wypływająca z rany lub wrzodu;sănĭēs, saniei ;sanies saniei;True;2025-01-11 12:28:18
+default_user;8;latin;zatrzymać się, przestać;consisto, consistĕre, constiti ;consisto consistere constiti;True;2025-01-11 12:28:28
+default_user;8;latin;krwawy, krwawiący;crŭentus, cruentă, cruentum ;;False;2025-01-11 12:36:25
+default_user;8;latin;krwawy, krwawiący;crŭentus, cruentă, cruentum ;cruentus a um;True;2025-01-11 12:36:30
+default_user;8;latin;(strona bierna) przez (+ abl);ăb ;a;False;2025-01-11 12:36:35
+default_user;8;latin;delikatnie, łagodnie, lekko, nieznacznie;lēnĭtĕr ;leninter;False;2025-01-11 12:36:42
+default_user;8;latin;położyć się, uspokoić się;rĕcumbo, rĕcumbĕre, recubui ;recumbo recumbere recubui;True;2025-01-11 12:36:51
+default_user;8;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostensum;False;2025-01-11 12:36:59
+default_user;8;latin;obrócić się, odwrócić się;verto, vertĕre, verti, versum ;verto vertere verti versum;True;2025-01-11 12:37:12
+default_user;8;latin;stopniowo, niewielka ilość na raz, kawałek po kawałku;paulātim ;paulatim;True;2025-01-11 12:37:17
+default_user;8;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostentum;True;2025-01-11 12:37:25
+default_user;8;latin;delikatnie, łagodnie, lekko, nieznacznie;lēnĭtĕr ;leniter;True;2025-01-11 12:37:29
+default_user;8;latin;(strona bierna) przez (+ abl);ăb ;ab;True;2025-01-11 12:37:31
