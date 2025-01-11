@@ -13,6 +13,8 @@ from vocabulary.lib.file_db import TranslationExerciseCSVHandler
 from vocabulary.lib.utils import compare_answer_with_full_head_raw
 
 TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
+TRANSLATION_SESSION_METADATA_CSV_PATH = os.path.join('vocabulary', 'db', 'translation_exercise_session_metadata.csv')
+
 DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
 
 

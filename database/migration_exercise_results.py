@@ -101,7 +101,8 @@ def migrate_translation_exercise_session_metadata(engine: Engine, path: str):
             start_word=split[2],
             end_word=split[3],
             filtered_parts_of_speech=split[4],
-            interrupted=str_to_bool(split[5].strip())
+            revise_last_session=str_to_bool(split[5].strip()),
+            interrupted=str_to_bool(split[6].strip())
         )
     
     migrate_from_file_to_db(engine, path, parse_translation_session_metadata_line)

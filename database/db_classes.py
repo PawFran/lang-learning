@@ -282,6 +282,7 @@ class TranslationExerciseSessionMetadata(Base):
     start_word = Column(String, nullable=False)
     end_word = Column(String, nullable=False)
     filtered_parts_of_speech = Column(String, nullable=True)
+    revise_last_session = Column(Boolean, nullable=False)
     interrupted = Column(Boolean, nullable=False)
 
 
@@ -518,6 +519,24 @@ class ConjugationLastAskedWord(View):
         """
 
 views.append(ConjugationLastAskedWord)
+
+
+class TranslationLastUninterruptedSession(View):
+    __view_name__ = 'translation_last_uninterrupted_session'
+    __view_query__ = f"""
+            SELECT * FROM {TranslationExerciseResults.__tablename__}
+            WHERE session_id = (
+                SELECT max(session_id) FROM (
+                    SELECT res.*, metadata.interrupted 
+                    FROM {TranslationExerciseResults.__tablename__} res
+                    JOIN {TranslationExerciseSessionMetadata.__tablename__} metadata
+                        ON res.session_id = metadata.session_id
+                    WHERE metadata.interrupted = False
+                ) not_interrupted_sessions
+            )
+        """
+
+views.append(TranslationLastUninterruptedSession)
 
 
 # Utility function to create all views

@@ -183,6 +183,7 @@ if __name__ == '__main__':
                             conjugation_exercise_results_migration=True,
                             declension_exercise_session_metadata_migration=True,
                             conjugation_exercise_session_metadata_migration=True,
+                            translation_exercise_session_metadata_migration=True
                             )
                             
     app.run(debug=True)

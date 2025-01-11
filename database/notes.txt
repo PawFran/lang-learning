@@ -3,7 +3,8 @@ TODO
 generowanie trudnych slow - np. tych, ktore w ostatniej sesji, w ktorej byly uzyte, nie zostaly podane poprawnie za pierwszym razem
 opcja powtorzenia ostatniej sesji ale tylko z trudnymi slowami
 ale do tego trzeba miec metadane sesji
-napisac skrypt to generowana metadanych (domyslania sie ich)
+
+do results dodac jeszcze info o liczbie slow i score ?
 
 skrot do adjective - np. '2' to dwie koncowki
 dodac skroty do readme oraz wypisac na poczatku cwiczenia

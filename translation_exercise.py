@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH
+from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, TRANSLATION_SESSION_METADATA_CSV_PATH
 from common.lib.utils import DEFAULT_USER_NAME
 from vocabulary.lib.parsing_dict import *
 from vocabulary.lib.utils import compare_answer_with_full_head_raw
@@ -17,6 +17,9 @@ if __name__ == '__main__':
     if args.user_name is None:
         args.user_name = DEFAULT_USER_NAME
 
+    if args.revise_last_session is None:
+        args.revise_last_session = False
+
     print(f'logged as {args.user_name}')
 
     dictionary: Dictionary = parse_dictionary(args)
@@ -24,12 +27,22 @@ if __name__ == '__main__':
         dictionary = dictionary.filter_by_complex_condition(args.filter)
 
     db_handler = TranslationExerciseCSVHandler(TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, args.user_name)
+    session_metadata_handler = TranslationExerciseSessionMetadataCSVHandler(
+        path=TRANSLATION_SESSION_METADATA_CSV_PATH,
+        session_id=db_handler.current_session_id,
+        user_name=args.user_name,
+        revise_last_session=args.revise_last_session,
+        start_word=args.start_word,
+        end_word=args.end_word,
+        filtered_parts_of_speech=args.filtered_parts_of_speech
+    )
 
     rng = default_rng()
 
     print(f'number of translations in dictionary: {dictionary.translations_nr()}', end='\n\n')
 
     should_continue = True
+    interrupted = False
     while should_continue and dictionary is not None and dictionary.translations_nr() > 0:
         if args.user_name is not None:
             random_word_with_translation = dictionary.smart_random_dict_entry_with_translation(db_handler,
@@ -70,8 +83,13 @@ if __name__ == '__main__':
             print('')
 
             # todo ask about all possible forms and translations
-        except KeyboardInterrupt:
+        except (KeyboardInterrupt, EOFError):
             should_continue = False
+            interrupted = True
+            session_metadata_handler.update(interrupted=True)
             print('\n')
+
+    if not interrupted:
+        session_metadata_handler.update(interrupted=False)
 
     print('terminating..')
