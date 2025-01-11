@@ -33,6 +33,9 @@ class AbstractWord:
     def part_of_speech(self) -> PartOfSpeech:
         pass
 
+    def header_without_metadata(self):
+        return self.head_raw.split('[')[0].strip()
+
     # todo abstract static method from_entry head ?
 
     @staticmethod

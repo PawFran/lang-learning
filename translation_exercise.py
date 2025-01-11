@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 
+from sqlalchemy import text
 from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, TRANSLATION_SESSION_METADATA_CSV_PATH
 from common.lib.utils import DEFAULT_USER_NAME
 from vocabulary.lib.parsing_dict import *
 from vocabulary.lib.utils import compare_answer_with_full_head_raw
+from environment import engine
+from database.db_classes import TranslationLastUninterruptedSessionHardWords, Words
+from sqlalchemy.orm import Session
 
 # todo option to take only a number or percentage of the words ranked highest (in terms of probability)
 
@@ -17,16 +21,39 @@ if __name__ == '__main__':
     if args.user_name is None:
         args.user_name = DEFAULT_USER_NAME
 
-    if args.revise_last_session is None:
-        args.revise_last_session = False
-    else:
-        print('revising last session')
-
     print(f'logged as {args.user_name}')
 
-    
+    if args.revise_last_session is None:
+        args.revise_last_session = False
+
+    if args.revise_last_session:
+        args.start_word = None
+        args.end_word = None
+        args.filter = None
 
     dictionary: Dictionary = parse_dictionary(args)
+
+    if args.revise_last_session:
+        print('revising last session, arguments like start/end word and filtered parts of speech are ignored')
+        with Session(engine) as session:
+            hard_words = session.execute(text(TranslationLastUninterruptedSessionHardWords.__view_query__)).all()
+            if len(hard_words) > 0:
+                print(f"Found {len(hard_words)} difficult words from last session to review")
+            else:
+                print("No difficult words found from last session")
+
+        # Filter dictionary to only include words that were difficult in last session
+        filtered_entries = []
+        for word in hard_words:
+            found=False
+            for entry in dictionary.entries:
+                if entry.head.header_without_metadata() == word.header:
+                    filtered_entries.append(entry)
+                    found=True
+            if not found:
+                print(f'''couldn't find {word.header} in dictionary''')
+        dictionary = Dictionary(entries=filtered_entries, lang=dictionary.lang)
+
     if args.filter is not None:
         dictionary = dictionary.filter_by_complex_condition(args.filter)
 
@@ -38,7 +65,7 @@ if __name__ == '__main__':
         revise_last_session=args.revise_last_session,
         start_word=args.start_word,
         end_word=args.end_word,
-        filtered_parts_of_speech=args.filtered_parts_of_speech
+        filtered_parts_of_speech=args.filter
     )
 
     rng = default_rng()

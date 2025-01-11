@@ -143,8 +143,8 @@ class ConjugationExerciseSessionMetadataCSVHandler:
 
 
 class TranslationExerciseSessionMetadataCSVHandler:
-    def __init__(self, path: str, session_id: int, user_name: str, revise_last_session: bool, start_word: str,
-                 end_word: str, filtered_parts_of_speech: {str}):
+    def __init__(self, path: str, session_id: int, user_name: str, revise_last_session: bool, start_word: str | None,
+                 end_word: str | None, filtered_parts_of_speech: {str}):
         self.path = path
         self.session_id = session_id
         self.user_name = user_name
@@ -165,9 +165,9 @@ class TranslationExerciseSessionMetadataCSVHandler:
             'session_id': self.session_id,
             'user_name': self.user_name,
             'revise_last_session': self.revise_last_session,
-            'start_word': self.start_word,
-            'end_word': self.end_word,
-            'filtered_parts_of_speech': human_readable_sets(self.filtered_parts_of_speech),
+            'start_word': self.start_word if self.start_word is not None else '',
+            'end_word': self.end_word if self.end_word is not None else '',
+            'filtered_parts_of_speech': human_readable_sets(self.filtered_parts_of_speech) if self.filtered_parts_of_speech is not None else '',
             'interrupted': interrupted
         }, index=[0])
         return pd.concat([df, new_row])
