@@ -539,6 +539,37 @@ class TranslationLastUninterruptedSession(View):
 views.append(TranslationLastUninterruptedSession)
 
 
+class TranslationLastUninterruptedSessionHardWords(View):
+    __view_name__ = 'translation_last_uninterrupted_session_hard_words'
+    __view_query__ = f"""
+            SELECT * 
+            FROM {Words.__tablename__}
+            WHERE header IN (
+                SELECT distinct(expected_answer) 
+                FROM {TranslationLastUninterruptedSession.__view_name__}
+                WHERE is_correct = false
+            )
+        """
+
+views.append(TranslationLastUninterruptedSessionHardWords)
+
+
+class TranslationLastUninterruptedSessionEasyWords(View):
+    __view_name__ = 'translation_last_uninterrupted_session_easy_words'
+    __view_query__ = f"""
+            SELECT *
+            FROM {Words.__tablename__}
+            WHERE header IN (
+                SELECT distinct(expected_answer)
+                FROM {TranslationLastUninterruptedSession.__view_name__}
+            )
+            EXCEPT
+            {TranslationLastUninterruptedSessionHardWords.__view_query__}
+        """
+
+views.append(TranslationLastUninterruptedSessionEasyWords)
+
+
 # Utility function to create all views
 def create_all_views(engine):
     for view in views:

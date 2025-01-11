@@ -19,8 +19,12 @@ if __name__ == '__main__':
 
     if args.revise_last_session is None:
         args.revise_last_session = False
+    else:
+        print('revising last session')
 
     print(f'logged as {args.user_name}')
+
+    
 
     dictionary: Dictionary = parse_dictionary(args)
     if args.filter is not None:
