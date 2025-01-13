@@ -504,3 +504,38 @@ default_user;8;latin;stopniowo, niewielka ilość na raz, kawałek po kawałku;p
 default_user;8;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostentum;True;2025-01-11 12:37:25
 default_user;8;latin;delikatnie, łagodnie, lekko, nieznacznie;lēnĭtĕr ;leniter;True;2025-01-11 12:37:29
 default_user;8;latin;(strona bierna) przez (+ abl);ăb ;ab;True;2025-01-11 12:37:31
+default_user;9;latin;zatrzymać się, przestać;consisto, consistĕre, constiti ;consisto consistere constiti;True;2025-01-12 18:53:14
+default_user;9;latin;strach, niepokój;mĕtŭs, metūs ;metus metus;True;2025-01-12 18:53:24
+default_user;9;latin;okrutny, dziki, straszny;ătrox, ătrox, ătrox ;atrox atrox atrox;True;2025-01-12 18:53:28
+default_user;9;latin;wycofać się, oderwać, wyrwać;rĕvello, rĕvellĕre, revelli, revulsum ;revello revellere revelli revulsum;True;2025-01-12 18:53:42
+default_user;9;latin;tak, tak dalece, tak bardzo, do tego stopnia;tam ;tam;True;2025-01-12 18:53:46
+default_user;9;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostensum;False;2025-01-12 18:53:56
+default_user;9;latin;krwawy, krwawiący;crŭentus, cruentă, cruentum ;cruentus a um;True;2025-01-12 18:54:04
+default_user;9;latin;obrócić się, odwrócić się;verto, vertĕre, verti, versum ;vero vertere verti versum;False;2025-01-12 18:54:13
+default_user;9;latin;wprowadzać;intrōdūco, intrōdūcĕre, introduxi, introductum ;introduco introducere introduxi introductum;True;2025-01-12 18:54:30
+default_user;9;latin;mieć, dzierżyć, sprawować;obtĭnĕo, obtĭnēre, obtinui, obtentum ;obtineo obtinere obtenti obtentum;False;2025-01-12 18:54:38
+default_user;9;latin;położyć się, uspokoić się;rĕcumbo, rĕcumbĕre, recubui ;recumbo recumbere recubui;True;2025-01-12 18:54:48
+default_user;9;latin;(strona bierna) przez (+ abl);ăb ;ab;True;2025-01-12 18:54:51
+default_user;9;latin;odzyskać, przywrócić, przywrócić do zdrowia;rĕcŭpĕro, rĕcŭpĕrāre, recuperavi, recuperatum ;;False;2025-01-12 18:54:57
+default_user;9;latin;(czas) od (+ abl);ăb ;ab;True;2025-01-12 18:55:03
+default_user;9;latin;odzyskać, przywrócić, przywrócić do zdrowia;rĕcŭpĕro, rĕcŭpĕrāre, recuperavi, recuperatum ;recupero recupere recupui;False;2025-01-12 18:55:11
+default_user;9;latin;utrzymywać, zachowywać;obtĭnĕo, obtĭnēre, obtinui, obtentum ;obtineo obtinere obtinui obtentum;True;2025-01-12 18:55:26
+default_user;9;latin;odzyskać, przywrócić, przywrócić do zdrowia;rĕcŭpĕro, rĕcŭpĕrāre, recuperavi, recuperatum ;recupero 1;True;2025-01-12 18:55:30
+default_user;9;latin;rozmiar, wielkość, masa;magnĭtūdo, magnitudinis ;magnitudo magnitudinis;True;2025-01-12 18:55:35
+default_user;9;latin;odwrócić, zwracać;converto, convertĕre, converti, conversum ;converto convertere converti conversum;True;2025-01-12 18:55:46
+default_user;9;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostentum;True;2025-01-12 18:55:54
+default_user;9;latin;delikatnie, łagodnie, lekko, nieznacznie;lēnĭtĕr ;leninter;False;2025-01-12 18:55:57
+default_user;9;latin;delikatnie, łagodnie, lekko, nieznacznie;lēnĭtĕr ;leniter;True;2025-01-12 18:56:00
+default_user;9;latin;mieć, dzierżyć, sprawować;obtĭnĕo, obtĭnēre, obtinui, obtentum ;obniteo obtinere obtinui obtentum;False;2025-01-12 18:56:15
+default_user;9;latin;obrócić się, odwrócić się;verto, vertĕre, verti, versum ;verto vertere verti versum;True;2025-01-12 18:56:33
+default_user;9;latin;łagodny, delikatny, spokojny;mītis, mitis, mite ;;False;2025-01-12 18:56:39
+default_user;9;latin;łagodny, delikatny, spokojny;mītis, mitis, mite ;mitis mitis mite;True;2025-01-12 18:56:43
+default_user;9;latin;mieć, dzierżyć, sprawować;obtĭnĕo, obtĭnēre, obtinui, obtentum ;obtineo obtinere obtinui obtentum;True;2025-01-12 18:56:51
+default_user;10;latin;utrzymywać, zachowywać;obtĭnĕo, obtĭnēre, obtinui, obtentum ;obtineo obtinere obtinui obtentum;True;2025-01-13 10:09:19
+default_user;10;latin;odzyskać, przywrócić, przywrócić do zdrowia;rĕcŭpĕro, rĕcŭpĕrāre, recuperavi, recuperatum ;recupero 1;True;2025-01-13 10:09:24
+default_user;10;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostensum;False;2025-01-13 10:09:33
+default_user;10;latin;łagodny, delikatny, spokojny;mītis, mitis, mite ;mitis mitis mite;True;2025-01-13 10:09:47
+default_user;10;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostentum;True;2025-01-13 10:09:53
+default_user;10;latin;obrócić się, odwrócić się;verto, vertĕre, verti, versum ;verto vertere verti versum;True;2025-01-13 10:10:06
+default_user;10;latin;mieć, dzierżyć, sprawować;obtĭnĕo, obtĭnēre, obtinui, obtentum ;obtineo obtinere obtinui obtentum;True;2025-01-13 10:10:16
+default_user;10;latin;delikatnie, łagodnie, lekko, nieznacznie;lēnĭtĕr ;leniter;True;2025-01-13 10:10:20

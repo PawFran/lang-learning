@@ -6,3 +6,5 @@ session_id;user_name;start_word;end_word;filtered_parts_of_speeche;revise_last_s
 6;default_user;spectaculum;;;False;False;
 7;default_user;spectaculum;;;False;False;
 8;default_user;;;;True;False;
+9;default_user;;;;True;False;
+10;default_user;;;;True;False;

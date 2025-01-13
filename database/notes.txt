@@ -1,10 +1,34 @@
 TODO
 
+dodac obsluge pluperf jako parametru -t w conjugation
+
+do feedback correct w translation exercise dodawac tez zdania
+
+nie dawac w logach migration info o kazdym widoku z osobna
+
+dodac do declension brakujace rzeczy
+
+czy na pewno zbierać sesje interrupted ?
+
+dla kazdego cwiczenia (trans / conj / decl) dodac opcje "sugerowane" ktore uruchamia cwiczenie z opcjami wg prostej logiki:
+np. w translatoin revision jesli nie bylo dzisiaj albo ostatni rozdzial
+w conj/decl wg widoku last exercise itp.
+
 przed uruchomieniem kazdego cwiczenia powinno byc zrobione migration - skoro dane sa pobierane z bazy
+
+opcja powtorzenia sesji rowniez dla declension / conjugation
+
+cwiczenie odwrotne do declension / conjugation - slowo i jaka to forma (/formy). bedzie latwiej niz w translation
+
+dodac podsumowanie do koncowki sesji - albo uruchamiane automatycznie albo jako osobny skrypt (jakie slowa sie nie udaly, co znacza). albo po prostu zmienić widok ?
+
+czy daloby sie wyciagnac wszystkie slowa ze skanow/zdj podrecznika ?
 
 revision w translation powinno zawierac problematyczne tlumaczenia a nie slowa
 
 dodac opcje filtrowania w translation po rozdzialach (definiowanyh recznie, np. z podrecznika, ale moze byc dowolnie - mapowanie nazwy rozdzialu na start/end word)
+
+cwiczenie z tlumaczeniem slow lacinskiech na polskie - przemyslec jak. llm ? prosta wyszukiwarka i wybor ?
 
 do results dodac jeszcze info o liczbie slow i score ? raczej jakies widoki/dashboard
 
