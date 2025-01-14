@@ -70,7 +70,7 @@ class Tense(Enum):
                 return Tense.Futurum_I
             case 'perfectum' | 'perfect' | 'perf':
                 return Tense.Perfectum
-            case 'plusquamperfectum' | 'pluperfect' | 'plusquamperf':
+            case 'plusquamperfectum' | 'pluperfect' | 'pluperf' | 'plusquamperf':
                 return Tense.Plusquamperfectum
             case 'futurum ii' | 'future ii' | 'fut ii' | 'future perfect':
                 return Tense.Futurum_II
