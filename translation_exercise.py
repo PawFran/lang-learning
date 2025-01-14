@@ -4,7 +4,7 @@ from sqlalchemy import text
 from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, TRANSLATION_SESSION_METADATA_CSV_PATH
 from common.lib.utils import DEFAULT_USER_NAME
 from vocabulary.lib.parsing_dict import *
-from vocabulary.lib.utils import compare_answer_with_full_head_raw
+from vocabulary.lib.utils import compare_answer_with_full_head_raw, shortcuts_summary
 from environment import engine
 from database.db_classes import TranslationLastUninterruptedSessionHardWords, Words
 from sqlalchemy.orm import Session
@@ -69,6 +69,8 @@ if __name__ == '__main__':
     )
 
     rng = default_rng()
+
+    print(f'remember about shortcuts {shortcuts_summary}')
 
     print(f'number of translations in dictionary: {dictionary.translations_nr()}', end='\n\n')
 

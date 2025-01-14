@@ -112,14 +112,21 @@ def endings_a_ae(forms: list[str]) -> bool:
         simplified_forms[1].endswith('ae')
 
 
-def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
-    """
-    apart from normal weak comparison a few shortcuts are possible
+shortcuts_summary = """
     after first conjugation verb both are ok:
         * typing ending 'āre, āvi, ātum'
         * typing '1'
-    after adjective of 1/2 declension 'a, um' is ok
-    after adjective with three identical forms typing 'x3' is ok
+    after adjective: 
+        * of 1/2 declension 'a, um' is ok 
+        * with three identical forms typing 'x3' is ok
+    after nouns from first declension: 
+        * 'ae' is ok
+    """
+
+
+def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
+    """
+    apart from normal weak comparison a few shortcuts are possible - see shortcuts summary above
     """
 
     original_as_list = to_list_no_metadata(entry_head)
