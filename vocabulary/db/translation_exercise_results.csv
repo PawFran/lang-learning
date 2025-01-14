@@ -539,3 +539,113 @@ default_user;10;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo o
 default_user;10;latin;obrócić się, odwrócić się;verto, vertĕre, verti, versum ;verto vertere verti versum;True;2025-01-13 10:10:06
 default_user;10;latin;mieć, dzierżyć, sprawować;obtĭnĕo, obtĭnēre, obtinui, obtentum ;obtineo obtinere obtinui obtentum;True;2025-01-13 10:10:16
 default_user;10;latin;delikatnie, łagodnie, lekko, nieznacznie;lēnĭtĕr ;leniter;True;2025-01-13 10:10:20
+default_user;11;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostensum;False;2025-01-14 17:37:22
+default_user;11;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostentum;True;2025-01-14 17:37:32
+default_user;12;latin;brak, niezaspokojenie;sōlĭtūdo, solitudinis ;solitudo solitudinis;True;2025-01-14 17:38:44
+default_user;12;latin;okrutny, dziki, straszny;ătrox, ătrox, ătrox ;atrox atrox atrox;True;2025-01-14 17:38:48
+default_user;12;latin;piaszczysta ziemia lub pustynia;ărēna, arenae ;arena arenae;True;2025-01-14 17:38:52
+default_user;12;latin;ożyć;vīvesco, vīvescĕre, vixi ;vivesco vivescere vixi victus;False;2025-01-14 17:39:07
+default_user;12;latin;utrzymywać, zachowywać;obtĭnĕo, obtĭnēre, obtinui, obtentum ;obtineo obtinere obtinui obtentum;True;2025-01-14 17:39:21
+default_user;12;latin;pies;cănes, canis ;canis canis;False;2025-01-14 17:39:32
+default_user;12;latin;konsularny;consŭlāris, consularis, consulare ;consularis consularis consulare;True;2025-01-14 17:39:41
+default_user;12;latin;piasek;ărēna, arenae ;arena arenae;True;2025-01-14 17:39:44
+default_user;12;latin;południowy;mĕrīdĭānus, meridiană, meridianum ;meridianus a um;True;2025-01-14 17:39:48
+default_user;12;latin;dziwny, zadziwiający, niezwykły;admīrābĭlis, admirabilis, admirabile ;admirabilis admirabilis admirabile;True;2025-01-14 17:39:57
+default_user;12;latin;samotność, osamotnienie;sōlĭtūdo, solitudinis ;solitudo solitudinis;True;2025-01-14 17:40:02
+default_user;12;latin;niesprawiedliwy, nieuczciwy;ĭnīquus, iniquă, iniquum ;iniquus a um;True;2025-01-14 17:40:11
+default_user;12;latin;zrzec się, zrezygnować, przyznać się;concēdo, concēdĕre, concessi, concessum ;concedo concedere concessi concessum;True;2025-01-14 17:41:04
+default_user;12;latin;dużo;multō ;multo;True;2025-01-14 17:41:08
+default_user;12;latin;codzienny;cōtīdĭānus, cotidiană, cotidianum ;cotidianus a um;True;2025-01-14 17:41:15
+default_user;12;latin;ucieczka;fŭga, fugae ;fuga fugae;True;2025-01-14 17:41:18
+default_user;12;latin;(roślina i zwierzę) cierń, kręgosłup, kolce;spīna, spinae ;spina spinae;True;2025-01-14 17:41:23
+default_user;12;latin;tak jak, tak jakby;tamquăm ;;False;2025-01-14 17:41:25
+default_user;12;latin;powoli, stopniowo, ostrożnie;sensim ;sensim;True;2025-01-14 17:41:30
+default_user;12;latin;krzyk, zgiełk, hałas;clāmŏr, clamoris ;clamor clamoris;True;2025-01-14 17:41:34
+default_user;12;latin;ściskać, wyciskać;exprĭmo, exprĭmĕre, expressi, expressum ;exprimo exprimere expressi expressum;True;2025-01-14 17:42:34
+default_user;12;latin;noga, podudzie;crūs, cruris ;pes pedis;False;2025-01-14 17:42:40
+default_user;12;latin;wprowadzać;intrōdūco, intrōdūcĕre, introduxi, introductum ;introduco introducere introduxi introductum;True;2025-01-14 17:42:54
+default_user;12;latin;on;is ;is;True;2025-01-14 17:43:12
+default_user;12;latin;tamten, ów;ille ;ille;True;2025-01-14 17:43:19
+default_user;12;latin;delikatnie, spokojnie, stopniowo;plăcĭdē ;placide;True;2025-01-14 17:43:25
+default_user;12;latin;wygnanie;fŭga, fugae ;fuga fugae;True;2025-01-14 17:43:30
+default_user;12;latin;obudzić, pobudzić, powodować;excĭto, excĭtāre, excitavi, excitatum ;excito excitere excitui excituum;False;2025-01-14 17:43:40
+default_user;12;latin;rozpoznać;noscĭto, noscĭtāre, noscitavi, noscitatum ;noscito 1;True;2025-01-14 17:43:51
+default_user;12;latin;strach, niepokój;mĕtŭs, metūs ;metus metus;True;2025-01-14 17:43:59
+default_user;12;latin;noga, podudzie;crūs, cruris ;crus cruris;True;2025-01-14 17:44:04
+default_user;12;latin;prokonsularny;prōconsŭlāris, proconsularis, proconsulare ;proconsularis proconsularis proconsulare;True;2025-01-14 17:44:12
+default_user;12;latin;odwrócić, zwracać;converto, convertĕre, converti, conversum ;converto convertere converti convertum;False;2025-01-14 17:44:24
+default_user;12;latin;przerażający, straszny;terrĭbĭlis, terribilis, terribile ;terribilis terribilis terribile;True;2025-01-14 17:44:51
+default_user;12;latin;usunięty, wycofany;rĕmōtus, remotă, remotum ;remotus a um;True;2025-01-14 17:44:55
+default_user;12;latin;krew;crŭŏr, cruoris ;cruor cruoris;True;2025-01-14 17:44:59
+default_user;12;latin;poddać się, pozwolić, zezwolić, zaakceptować;concēdo, concēdĕre, concessi, concessum ;concedo concedere concessi concessum;True;2025-01-14 17:45:41
+default_user;12;latin;tak jak, tak jakby;tamquăm ;tamquam;True;2025-01-14 17:45:45
+default_user;12;latin;parzyć, prażyć, przypalać, piec, palić się;torrĕo, torrēre, torrui, tostum ;torreo torrere torrui tostum;True;2025-01-14 17:45:56
+default_user;12;latin;nagle, niespodziewanie;rĕpentĕ ;repente;True;2025-01-14 17:46:00
+default_user;12;latin;kilka, spora liczba;complūres, complurĭum ;complures complurium;True;2025-01-14 17:46:09
+default_user;12;latin;pies;cănes, canis ;canes canis;True;2025-01-14 17:46:15
+default_user;12;latin;odzyskać, przywrócić, przywrócić do zdrowia;rĕcŭpĕro, rĕcŭpĕrāre, recuperavi, recuperatum ;recupero 1;True;2025-01-14 17:46:27
+default_user;12;latin;zwykły, normalny, rutynowy;cōtīdĭānus, cotidiană, cotidianum ;cotidianus a um;True;2025-01-14 17:46:47
+default_user;12;latin;za, później, po;post ;post;True;2025-01-14 17:47:14
+default_user;12;latin;stopa;pēs, pedis ;pes pedis;True;2025-01-14 17:47:17
+default_user;12;latin;godny podziwu, wspaniały;admīrābĭlis, admirabilis, admirabile ;admirabilis admirabilis admirabile;True;2025-01-14 17:47:25
+default_user;12;latin;(strona bierna) przez (+ abl);ăb ;;False;2025-01-14 17:57:54
+default_user;12;latin;członek, kończyna, organ;membrum, membri ;membrum membri;True;2025-01-14 17:58:08
+default_user;12;latin;obudzić, pobudzić, powodować;excĭto, excĭtāre, excitavi, excitatum ;excito 1;True;2025-01-14 17:58:13
+default_user;12;latin;widok, spektakl, występ publiczny, pokaz;spectācŭlum, spectaculi ;spectaculum spectaculi;True;2025-01-14 17:58:24
+default_user;12;latin;(czas) po;post ;post;True;2025-01-14 17:58:27
+default_user;12;latin;obrócić się, odwrócić się;verto, vertĕre, verti, versum ;verto vertere verti versum;True;2025-01-14 17:58:38
+default_user;12;latin;wytrzeć, wyczyścić, zmyć;dētergĕo, dētergēre, detersi, detersum ;detergeo detergere detersi detersum;True;2025-01-14 17:58:50
+default_user;12;latin;dzika bestia, dzikie zwierzę;fĕra, ferae ;fera ferae;True;2025-01-14 17:58:55
+default_user;12;latin;odpoczywać, być cicho, być spokojnym;quĭesco, quĭescĕre, quievi, quietum ;quiesco quiescere quievi quietum;True;2025-01-14 17:59:12
+default_user;12;latin;dziki;fĕrus, feră, ferum ;ferox ferox ferox;False;2025-01-14 17:59:24
+default_user;12;latin;krwawy, krwawiący;crŭentus, cruentă, cruentum ;cruentus a um;True;2025-01-14 18:00:14
+default_user;12;latin;kuszenie, przymilanie się lub nakłanianie do czegoś;blandīmentum, blandimenti ;blandimentum blandimenti;True;2025-01-14 18:00:22
+default_user;12;latin;obfitość;cōpĭa, copiae ;copia copiae;True;2025-01-14 18:00:25
+default_user;12;latin;ożyć;vīvesco, vīvescĕre, vixi ;vivesco vivescere vixi;True;2025-01-14 18:00:32
+default_user;12;latin;bestia, zwierzę, stworzenie;bestĭa, bestiae ;bestia bestiae;True;2025-01-14 18:00:43
+default_user;12;latin;wymawiać, wyrażać;exprĭmo, exprĭmĕre, expressi, expressum ;exprimo exprimere expressi expressum;True;2025-01-14 18:00:54
+default_user;12;latin;zacząć żyć;vīvesco, vīvescĕre, vixi ;vivesco vivescero vixi;False;2025-01-14 18:01:02
+default_user;12;latin;rozmiar, wielkość, masa;magnĭtūdo, magnitudinis ;magnitudo magnitudinis;True;2025-01-14 18:01:09
+default_user;12;latin;mieć, dzierżyć, sprawować;obtĭnĕo, obtĭnēre, obtinui, obtentum ;obtineo obtinere obtinui obtentum;True;2025-01-14 18:01:17
+default_user;12;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostensum;False;2025-01-14 18:01:29
+default_user;12;latin;(czas) od (+ abl);ăb ;ab;True;2025-01-14 18:01:33
+default_user;12;latin;trzy lata;trĭennĭum, triennii ;triennium triennii;True;2025-01-14 18:01:40
+default_user;12;latin;(lokalizacja) z tyłu;post ;post;True;2025-01-14 18:01:43
+default_user;12;latin;jaskinia, grota;spĕcŭs, specūs ;specus specus;True;2025-01-14 18:01:48
+default_user;12;latin;dziki;fĕrus, feră, ferum ;ferox ferox ferox;False;2025-01-14 18:01:59
+default_user;12;latin;(strona bierna) przez (+ abl);ăb ;a;False;2025-01-14 18:02:03
+default_user;12;latin;odejść (odejść do = ustąpić w (niech to będzie później notatką));concēdo, concēdĕre, concessi, concessum ;concedo concedere concessi concessum;True;2025-01-14 18:02:13
+default_user;12;latin;ten tutaj, ten oto;hīc ;hic;True;2025-01-14 18:02:15
+default_user;12;latin;pożywienia, odżywianie, dieta, zaopatrzenie;victŭs, victūs ;victus victus;True;2025-01-14 18:02:31
+default_user;12;latin;zasoby, bogactwo;cōpĭa, copiae ;copia copiae;True;2025-01-14 18:02:37
+default_user;12;latin;(strona bierna) przez (+ abl);ăb ;ab;True;2025-01-14 18:02:40
+default_user;12;latin;położyć się, uspokoić się;rĕcumbo, rĕcumbĕre, recubui ;quiesco quiescere quievi quietum;False;2025-01-14 18:02:52
+default_user;12;latin;paradoksalny, sprzeczny;admīrābĭlis, admirabilis, admirabile ;admirabilis admirabilis admirabile;True;2025-01-14 18:03:02
+default_user;12;latin;dziki;fĕrus, feră, ferum ;ferus a um;True;2025-01-14 18:03:05
+default_user;12;latin;(zwierzęcy) ogon;cauda, caudae ;cauda caudae;True;2025-01-14 18:03:18
+default_user;12;latin;pokazać;ostendo, ostendĕre, ostendi, ostentum ;ostendo ostendere ostendi ostentum;True;2025-01-14 18:03:35
+default_user;12;latin;życie, sposób życia;victŭs, victūs ;victus victus;True;2025-01-14 18:03:41
+default_user;12;latin;łagodny, delikatny, spokojny;mītis, mitis, mite ;leniter;False;2025-01-14 18:03:44
+default_user;12;latin;samotnia, pustynia, dzicz;sōlĭtūdo, solitudinis ;solitudo solitudinis;True;2025-01-14 18:03:50
+default_user;12;latin;po tym jak, gdy już;postquăm ;tam;False;2025-01-14 18:03:53
+default_user;12;latin;położyć się, uspokoić się;rĕcumbo, rĕcumbĕre, recubui ;recumbo recumbere recubui;True;2025-01-14 18:04:04
+default_user;12;latin;odległy, daleki;rĕmōtus, remotă, remotum ;remotus a um;True;2025-01-14 18:04:09
+default_user;12;latin;równina;campus, campi ;campus campi;True;2025-01-14 18:04:14
+default_user;12;latin;ropa itp. wypływająca z rany lub wrzodu;sănĭēs, saniei ;sanies saniei;True;2025-01-14 18:04:18
+default_user;12;latin;tak, tak dalece, tak bardzo, do tego stopnia;tam ;tamquam;False;2025-01-14 18:04:22
+default_user;12;latin;arena, miejsce zawodów;ărēna, arenae ;arena arenae;True;2025-01-14 18:04:26
+default_user;12;latin;tak, tak dalece, tak bardzo, do tego stopnia;tam ;tam;True;2025-01-14 18:04:28
+default_user;12;latin;wycofać się, oderwać, wyrwać;rĕvello, rĕvellĕre, revelli, revulsum ;concedo concedere concessi concessum;False;2025-01-14 18:04:36
+default_user;12;latin;łagodny, delikatny, spokojny;mītis, mitis, mite ;mitis mitis mite;True;2025-01-14 18:04:51
+default_user;12;latin;zatrzymać się, przestać;consisto, consistĕre, constiti ;consisto consistere constiti constitum;False;2025-01-14 18:05:07
+default_user;12;latin;wycofać się, oderwać, wyrwać;rĕvello, rĕvellĕre, revelli, revulsum ;revello revellere revelli revulsum;True;2025-01-14 18:05:21
+default_user;12;latin;zatrzymać się, przestać;consisto, consistĕre, constiti ;;False;2025-01-14 18:05:25
+default_user;12;latin;odwrócić, zwracać;converto, convertĕre, converti, conversum ;converto convertere converti conversum;True;2025-01-14 18:06:19
+default_user;12;latin;zatrzymać się, przestać;consisto, consistĕre, constiti ;consisto consistere constiti;True;2025-01-14 18:06:30
+default_user;12;latin;stopniowo, niewielka ilość na raz, kawałek po kawałku;paulātim ;paulatim;True;2025-01-14 18:06:34
+default_user;12;latin;(zwykle przed spółgłoskami) i, a także, a ponadto;ăc ;ac;True;2025-01-14 18:06:37
+default_user;12;latin;następnie, w tym czasie;tunc ;;False;2025-01-14 18:06:41
+default_user;12;latin;zacząć żyć;vīvesco, vīvescĕre, vixi ;vivesco vivescere vixi;True;2025-01-14 18:06:48
+default_user;12;latin;po tym jak, gdy już;postquăm ;postquam;True;2025-01-14 18:06:54
+default_user;12;latin;następnie, w tym czasie;tunc ;tunc;True;2025-01-14 18:06:57
+default_user;12;latin;delikatnie, łagodnie, lekko, nieznacznie;lēnĭtĕr ;leniter;True;2025-01-14 18:07:02

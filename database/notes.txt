@@ -1,8 +1,10 @@
 TODO
 
-dodac obsluge pluperf jako parametru -t w conjugation
+przemyslec opcje do przymiotnikow
 
-do feedback correct w translation exercise dodawac tez zdania
+dodac opcje 'top' do translation i branie z widoku
+
+jesli wpisane slowo pasuje do czegos innego w slowniku dac taki feedback. zapisac tez w 'results' (nowa kolumna)
 
 nie dawac w logach migration info o kazdym widoku z osobna
 
