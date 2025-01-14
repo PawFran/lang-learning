@@ -59,9 +59,9 @@ def test_compare_answer_with_full_head_raw_adjective_number_shortcut():
     head_raw2 = 'imminens , imminens, imminens [adj]'
     head_raw3 = 'acer, acris, acre [adj]'
 
-    assert compare_answer_with_full_head_raw(head_raw, 'imminens 3')
-    assert compare_answer_with_full_head_raw(head_raw2, 'imminens 3')
-    assert not compare_answer_with_full_head_raw(head_raw3, 'acer 3')
+    assert compare_answer_with_full_head_raw(head_raw, 'imminens x3')
+    assert compare_answer_with_full_head_raw(head_raw2, 'imminens x3')
+    assert not compare_answer_with_full_head_raw(head_raw3, 'acer x3')
 
 
 def test_compare_answer_with_full_head_raw_adjective_shortcuts():

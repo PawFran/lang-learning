@@ -34,10 +34,9 @@ def compose_with_or(*functions):
 
 
 def equality_ending_shortcut(original, to_compare, shortcut_pattern) -> bool:
-    if len(original) != len(to_compare):
-        return False
-    else:
-        return weak_equals(original[0], to_compare[0]) and all_elements_equal(shortcut_pattern, to_compare[1:])
+    return len(original) == len(to_compare) and \
+           weak_equals(original[0], to_compare[0]) and \
+           all_elements_equal(shortcut_pattern, to_compare[1:])
 
 
 def equality_number_shortcut(original, to_compare, shortcut_number) -> bool:
@@ -58,20 +57,23 @@ def equality_verb_ending_shortcut(original, to_compare) -> bool:
 #     return equality_ending_shortcut(original, to_compare, shortcut_pattern)
 
 
+# ex. 'castigo castigare castigavi castigatum' == 'castigo 1'
 def equality_verb_number_shortcut(original, to_compare) -> bool:
     shortcut_number = '1'
     return equality_number_shortcut(original, to_compare, shortcut_number)
 
 
+# ex. 'ferus fera ferum' == 'ferus a um'
 def equality_adjective_ending_shortcut(original, to_compare) -> bool:
     adj_pattern = ['a', 'um']
     return equality_ending_shortcut(original, to_compare, adj_pattern)
 
 
-def equality_adjective_number_shortcut(original, to_compare) -> bool:
-    shortcut_number = '3'
-    return equality_number_shortcut(original, to_compare, shortcut_number)
-
+# ex. 'ferox ferox ferox' == 'ferox x3'
+def equality_adjective_number_shortcut(correct_forms: list[str], answer: list[str]) -> bool:
+    return all_forms_are_the_same(correct_forms) and \
+           answer[0] == correct_forms[0] and \
+           answer[1].lower().strip() == 'x3'
 
 verb_shortcuts = compose_with_or(all_elements_equal, equality_verb_ending_shortcut,
                                  equality_verb_number_shortcut)
@@ -81,11 +83,11 @@ adjective_ending_shortcuts = compose_with_or(all_elements_equal, equality_adject
 adjective_number_shortcuts = compose_with_or(all_elements_equal, equality_adjective_number_shortcut)
 
 
-def all_forms_are_the_same(forms: [str]) -> bool:
+def all_forms_are_the_same(forms: list[str]) -> bool:
     return len(set(forms)) == 1
 
 
-def ending_are_avi_atum(forms: [str]) -> bool:
+def ending_are_avi_atum(forms: list[str]) -> bool:
     if len(forms) != 4:
         return False
 
@@ -103,7 +105,7 @@ def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
         * typing ending 'āre, āvi, ātum'
         * typing '1'
     after adjective of 1/2 declension 'a, um' is ok
-    after adjective with three endings typing ending '3' is ok
+    after adjective with three identical forms typing 'x3' is ok
     """
 
     original_as_list = to_list_no_metadata(entry_head)

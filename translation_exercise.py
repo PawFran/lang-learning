@@ -96,7 +96,7 @@ if __name__ == '__main__':
             is_correct = compare_answer_with_full_head_raw(entry.head.head_raw, answer)
 
             if is_correct:
-                print(f'correct ({entry.head.head_raw})')
+                print(f'correct ({entry.head.head_raw}) \n({entry.example})')
                 if not args.keep:
                     dictionary.remove_single_translation(entry, word_pl)
                     if dictionary.translations_nr() % 10 == 0:
