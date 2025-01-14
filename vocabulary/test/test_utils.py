@@ -71,3 +71,14 @@ def test_compare_answer_with_full_head_raw_adjective_shortcuts():
     assert compare_answer_with_full_head_raw(head_raw, 'sempiternus a um')
     assert not compare_answer_with_full_head_raw(head_raw2, 'acer a um')
     assert not compare_answer_with_full_head_raw(head_raw2, 'acer is e')
+
+
+def test_compare_answer_with_full_head_raw_noun():
+    arena_head_raw = 'ărēna, arenae [noun] [f] [I]'
+    error_head_raw2 = 'errŏr, erroris [noun] [m] [III]'
+
+    assert compare_answer_with_full_head_raw(arena_head_raw, 'arena arenae')
+    assert compare_answer_with_full_head_raw(arena_head_raw, 'arena ae')
+    assert compare_answer_with_full_head_raw(error_head_raw2, 'error erroris')
+    assert not compare_answer_with_full_head_raw(arena_head_raw, 'arena e')
+    assert not compare_answer_with_full_head_raw(error_head_raw2, 'error ae')

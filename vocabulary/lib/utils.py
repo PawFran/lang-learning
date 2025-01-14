@@ -2,7 +2,7 @@ import os
 import re
 
 from common.lib.utils import weak_equals, replace_special
-from vocabulary.lib.dict_classes import LatinVerb, LatinAdjective
+from vocabulary.lib.dict_classes import LatinVerb, LatinAdjective, LatinNoun
 
 DICT_DIR_PATH = os.path.join('vocabulary', 'dicts')
 
@@ -33,10 +33,10 @@ def compose_with_or(*functions):
     return composed_function
 
 
-def equality_ending_shortcut(original, to_compare, shortcut_pattern) -> bool:
-    return len(original) == len(to_compare) and \
-           weak_equals(original[0], to_compare[0]) and \
-           all_elements_equal(shortcut_pattern, to_compare[1:])
+def equality_ending_shortcut(correct_full_forms: list[str], answer: list[str], correct_endings) -> bool:
+    return len(correct_full_forms) == len(answer) and \
+        weak_equals(correct_full_forms[0], answer[0]) and \
+        all_elements_equal(correct_endings, answer[1:])
 
 
 def equality_number_shortcut(original, to_compare, shortcut_number) -> bool:
@@ -46,15 +46,14 @@ def equality_number_shortcut(original, to_compare, shortcut_number) -> bool:
         return weak_equals(original[0], to_compare[0]) and all_elements_equal(shortcut_number, to_compare[1])
 
 
-def equality_verb_ending_shortcut(original, to_compare) -> bool:
-    shortcut_pattern = ['āre', 'āvi', 'ātum']
-    return equality_ending_shortcut(original, to_compare, shortcut_pattern)
+def equality_verb_ending_shortcut(correct_full_forms: list[str], answer: list[str]) -> bool:
+    correct_endings = ['āre', 'āvi', 'ātum']
+    return equality_ending_shortcut(correct_full_forms, answer, correct_endings)
 
 
-# TODO for later
-# def equality_noun_ending_shortcut(original, to_compare) -> bool:
-#     shortcut_pattern = ['ae']
-#     return equality_ending_shortcut(original, to_compare, shortcut_pattern)
+def equality_noun_ending_shortcut(correct_forms: list[str], answer: list[str]) -> bool:
+    shortcut_pattern = ['ae']
+    return equality_ending_shortcut(correct_forms, answer, shortcut_pattern)
 
 
 # ex. 'castigo castigare castigavi castigatum' == 'castigo 1'
@@ -72,8 +71,9 @@ def equality_adjective_ending_shortcut(original, to_compare) -> bool:
 # ex. 'ferox ferox ferox' == 'ferox x3'
 def equality_adjective_number_shortcut(correct_forms: list[str], answer: list[str]) -> bool:
     return all_forms_are_the_same(correct_forms) and \
-           answer[0] == correct_forms[0] and \
-           answer[1].lower().strip() == 'x3'
+        answer[0] == correct_forms[0] and \
+        answer[1].lower().strip() == 'x3'
+
 
 verb_shortcuts = compose_with_or(all_elements_equal, equality_verb_ending_shortcut,
                                  equality_verb_number_shortcut)
@@ -82,20 +82,34 @@ adjective_ending_shortcuts = compose_with_or(all_elements_equal, equality_adject
 
 adjective_number_shortcuts = compose_with_or(all_elements_equal, equality_adjective_number_shortcut)
 
+noun_shortcuts = compose_with_or(all_elements_equal, equality_noun_ending_shortcut)
+
 
 def all_forms_are_the_same(forms: list[str]) -> bool:
     return len(set(forms)) == 1
+
+
+def simplified(forms: list[str]) -> list[str]:
+    return [replace_special(s).strip().lower() for s in forms]
 
 
 def ending_are_avi_atum(forms: list[str]) -> bool:
     if len(forms) != 4:
         return False
 
-    forms_simplified = [replace_special(s).strip() for s in forms]
+    forms_simplified = simplified(forms)
 
     return forms_simplified[1].endswith('are') and \
         forms_simplified[2].endswith('avi') and \
         forms_simplified[3].endswith('atum')
+
+
+def endings_a_ae(forms: list[str]) -> bool:
+    simplified_forms = simplified(forms)
+
+    return len(forms) == 2 and \
+        simplified_forms[0].endswith('a') and \
+        simplified_forms[1].endswith('ae')
 
 
 def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
@@ -118,5 +132,7 @@ def compare_answer_with_full_head_raw(entry_head, answer) -> bool:
         return adjective_ending_shortcuts(original_as_list, answer_as_list)
     elif LatinAdjective.is_adjective(entry_head) and all_forms_are_the_same(original_as_list):
         return adjective_number_shortcuts(original_as_list, answer_as_list)
+    elif LatinNoun.is_noun(entry_head) and endings_a_ae(original_as_list):
+        return noun_shortcuts(original_as_list, answer_as_list)
     else:
         return all_elements_equal(original_as_list, answer_as_list)

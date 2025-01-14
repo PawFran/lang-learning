@@ -8,6 +8,8 @@ jesli wpisane slowo pasuje do czegos innego w slowniku dac taki feedback. zapisa
 
 nie dawac w logach migration info o kazdym widoku z osobna
 
+wywalic interrupted i w ogole session metadata ?
+
 dodac do declension brakujace rzeczy
 
 czy na pewno zbierać sesje interrupted ?
