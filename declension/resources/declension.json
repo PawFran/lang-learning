@@ -383,6 +383,186 @@
       }
     }
   },
+  "hic": {
+    "demonstrative": {
+      "masculinum": {
+        "singularis": {
+          "nominativus": "hic",
+          "genetivus": "huius",
+          "dativus": "huic",
+          "accusativus": "hunc",
+          "ablativus": "hoc"
+        },
+        "pluralis": {
+          "nominativus": "hī",
+          "genetivus": "hōrum",
+          "dativus": "hīs",
+          "accusativus": "hōs",
+          "ablativus": "hīs"
+        }
+      }
+    }
+  },
+  "haec": {
+    "demonstrative": {
+      "femininum": {
+        "singularis": {
+          "nominativus": "haec",
+          "genetivus": "huius",
+          "dativus": "huic",
+          "accusativus": "hanc",
+          "ablativus": "hāc"
+        },
+        "pluralis": {
+          "nominativus": "hae",
+          "genetivus": "hārum",
+          "dativus": "hīs",
+          "accusativus": "hās",
+          "ablativus": "hīs"
+        }
+      }
+    }
+  },
+  "hoc": {
+    "demonstrative": {
+      "neutrum": {
+        "singularis": {
+          "nominativus": "hoc",
+          "genetivus": "huius",
+          "dativus": "huic",
+          "accusativus": "hoc",
+          "ablativus": "hoc"
+        },
+        "pluralis": {
+          "nominativus": "haec",
+          "genetivus": "hōrum",
+          "dativus": "hīs",
+          "accusativus": "haec",
+          "ablativus": "hīs"
+        }
+      }
+    }
+  },
+  "ille": {
+    "demonstrative": {
+      "masculinum": {
+        "singularis": {
+          "nominativus": "ille",
+          "genetivus": "illīus",
+          "dativus": "illī",
+          "accusativus": "illum",
+          "ablativus": "illō"
+        },
+        "pluralis": {
+          "nominativus": "illī",
+          "genetivus": "illōrum",
+          "dativus": "illīs",
+          "accusativus": "illōs",
+          "ablativus": "illīs"
+        }
+      }
+    }
+  },
+  "illa": {
+    "demonstrative": {
+      "femininum": {
+        "singularis": {
+          "nominativus": "illa",
+          "genetivus": "illīus",
+          "dativus": "illī",
+          "accusativus": "illam",
+          "ablativus": "illā"
+        },
+        "pluralis": {
+          "nominativus": "illae",
+          "genetivus": "illārum",
+          "dativus": "illīs",
+          "accusativus": "illās",
+          "ablativus": "illīs"
+        }
+      }
+    }
+  },
+  "illud": {
+    "demonstrative": {
+      "neutrum": {
+        "singularis": {
+          "nominativus": "illud",
+          "genetivus": "illīus",
+          "dativus": "illī",
+          "accusativus": "illud",
+          "ablativus": "illō"
+        },
+        "pluralis": {
+          "nominativus": "illa",
+          "genetivus": "illōrum",
+          "dativus": "illīs",
+          "accusativus": "illa",
+          "ablativus": "illīs"
+        }
+      }
+    }
+  },
+  "idem (masculinum)": {
+    "demonstrative": {
+      "masculinum": {
+        "singularis": {
+          "nominativus": "īdem",
+          "genetivus": "eiusdem",
+          "dativus": "eīdem",
+          "accusativus": "eundem",
+          "ablativus": "eōdem"
+        },
+        "pluralis": {
+          "nominativus": "iīdem",
+          "genetivus": "eōrundem",
+          "dativus": "eīsdem",
+          "accusativus": "eōsdem",
+          "ablativus": "eīsdem"
+        }
+      }
+    }
+  },
+  "eadem": {
+    "demonstrative": {
+      "femininum": {
+        "singularis": {
+          "nominativus": "eadem",
+          "genetivus": "eiusdem",
+          "dativus": "eīdem",
+          "accusativus": "eandem",
+          "ablativus": "eādem"
+        },
+        "pluralis": {
+          "nominativus": "eaedem",
+          "genetivus": "eārundem",
+          "dativus": "eīsdem",
+          "accusativus": "eāsdem",
+          "ablativus": "eīsdem"
+        }
+      }
+    }
+  },
+  "idem (neutrum)": {
+    "demonstrative": {
+      "neutrum": {
+        "singularis": {
+          "nominativus": "īdem",
+          "genetivus": "eiusdem",
+          "dativus": "eīdem",
+          "accusativus": "īdem",
+          "ablativus": "eōdem"
+        },
+        "pluralis": {
+          "nominativus": "eadem",
+          "genetivus": "eōrundem",
+          "dativus": "eīsdem",
+          "accusativus": "eadem",
+          "ablativus": "eīsdem"
+        }
+      }
+    }
+  },
   "quis, quid": {
     "interrogative": {
       "": {
