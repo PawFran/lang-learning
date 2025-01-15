@@ -1842,6 +1842,10 @@ pro [prep]
 (Unus Plato mihi est pro centum millibus audientium)
 1. w zastępstwie (czymś), zamiast (kogoś, czegoś)
 
+is, ea, id [pron]
+()
+1. on, ona, ono
+
 centŭrĭo, centurionis [noun] [m] [III]
 ()
 1. centurion
@@ -1945,9 +1949,9 @@ vulnŭs, vulneris [noun] [n] [III]
 1. rana
 2. cios, uderzenie
 
-īdem [pron]
+īdem, eadem, īdem [pron]
 (Idem immemor antiqui vulneris arma capit)
-1. ten sam
+1. ten sam, ta sama, to samo
 
 arma, armōrum [noun] [n] [II] [pl]
 (Idem immemor antiqui vulneris arma capit)
@@ -1956,6 +1960,14 @@ arma, armōrum [noun] [n] [II] [pl]
 antīquus, antiquă, antiquum [adj]
 (Idem immemor antiqui vulneris arma capit)
 1. stary, wiekowy
+
+qui, quae, quod [pron]
+()
+1. który, która, które
+
+quis, quid [pron]
+()
+1. kto?, co?
 
 hŏdĭē [adv]
 (Hodie apud inferos fortasse cenabimus)
@@ -2647,6 +2659,10 @@ omnes, omnĭum [noun] [m] [III] [pl]
 turbātus, turbată, turbatum [adj]
 (Omnes per mare turbatum navigare timebant)
 1. wzburzony, zaniepokojony
+
+hic, haec, hoc [pron]
+()
+1. ten, ta, to (coś bliskiego - ten oto)
 
 classis, classis [noun] [f] [III]
 (Nobis magnam classem comparavit)
@@ -3528,7 +3544,7 @@ obtĭnĕo, obtĭnēre, obtinui, obtentum [verb] [II]
 1. (strona bierna) przez (+ abl)
 2. (czas) od (+ abl)
 
-ille [pron]
+ille, illa, illud [pron]
 (Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
 1. tamten, ów
 
