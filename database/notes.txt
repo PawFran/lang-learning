@@ -1,5 +1,14 @@
 TODO
 
+english - dodac pare usprawnien. wywolywanie z terminala, lista slow, zdanie, komentarz (kontekst, np. gdzie to bylo - albo po prostu 'source')
+
+dokonczyc replace_special (teraz dziala dobrze jak sie zacznie od head ale bez tego sie zawiesza)
+
+napisac parser do latin online dictionary w bazujac na prompcie w stylu english.py tego co jest w english.py
+co zrobic zeby wylapywac potencjalne bledy ? moze kilka roznych zapytan w rozny sposob, z roznych zrodel i sprawdzac zgodnosc ?
+
+stworzyc skrypt do zamiany w locie wszystkih specjalnych znakow na normalne ? wtedy mozna by uzywac np. grepa
+
 przemyslec opcje do przymiotnikow
 
 dodac opcje 'top' do translation i branie z widoku
