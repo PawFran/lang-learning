@@ -4,13 +4,14 @@ from dataclasses import dataclass
 import requests
 import re
 from bs4 import BeautifulSoup, Tag
+from environment import DEEPL_API_KEY
 
 URL_main_part = 'https://www.online-latin-dictionary.com'
 base_dict_URL = f'{URL_main_part}/latin-english-dictionary.php'
 base_flexion_URL = f'{URL_main_part}/latin-dictionary-flexion.php'
 
 deepl_headers = {
-    'Authorization': 'DeepL-Auth-Key 0346e75c-3679-c5ed-4ac4-260beade18db:fx',
+    'Authorization': f'DeepL-Auth-Key {DEEPL_API_KEY}',
     'Content-Type': 'application/x-www-form-urlencoded',
 }
 
@@ -135,7 +136,7 @@ class LatinDictScraper:
         return result
 
     @staticmethod
-    def get_person(tags: [Tag], person_number: int, person_name: str):
+    def get_person(tags: list[Tag], person_number: int, person_name: str):
         person_and_value = tags[person_number].text.strip().split('.')
         person = person_and_value[0]
         value = person_and_value[1]
@@ -146,7 +147,7 @@ class LatinDictScraper:
             raise Exception('cannot parse perfect form')
 
     @staticmethod
-    def get_case(tags: [Tag], case_number: int, case_name: str) -> str:
+    def get_case(tags: list[Tag], case_number: int, case_name: str) -> str:
         case_and_value = tags[case_number].text.strip().split('.')
         grammatical_case = case_and_value[0]
         value = case_and_value[1]
@@ -171,7 +172,7 @@ class LatinDictScraper:
         return LatinDictScraper.genetive_from_children_tags(children_tags)
 
     @staticmethod
-    def nominative(tags: [Tag], txt1: str, txt2: str):
+    def nominative(tags: list[Tag], txt1: str, txt2: str):
         children_tags = LatinDictScraper.find_children_2_tags(tags, txt1, txt2)
         return LatinDictScraper.nominative_from_children_tags(children_tags)
 
@@ -203,4 +204,4 @@ class LatinDictScraper:
 class LatinScrapeResults:
     word: str
     grammatical_info: str
-    polish_translations: [str]
+    polish_translations: list[str]

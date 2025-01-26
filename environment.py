@@ -9,9 +9,16 @@ from vocabulary.lib.file_db import TranslationExerciseCSVHandler
 
 load_dotenv()
 
-DATABASE = os.getenv('DATABASE_URL')
-if DATABASE is None:
-    raise RuntimeError("DATABASE_URL environment variable is not set.")
+def set_or_raise_error(var_name):
+    environment_var = os.getenv(var_name)
+    if environment_var is None:
+        raise RuntimeError(f'{var_name} environment variable is not set')
+    else:
+        return environment_var
+
+
+DATABASE = set_or_raise_error('DATABASE_URL')
+DEEPL_API_KEY = set_or_raise_error('DEEPL_API_KEY')
 
 engine = create_engine(DATABASE)
 

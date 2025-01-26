@@ -16,7 +16,7 @@ if __name__ == '__main__':
         for input_word in sys.argv[1:]:
 
             try:
-                results: [DictionaryEntry] = scrape(scraper, input_word)
+                results: list[DictionaryEntry] = scrape(scraper, input_word)
 
                 print_scraping_results(f, results)
 
