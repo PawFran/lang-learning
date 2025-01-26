@@ -1,0 +1,21 @@
+name: lang-learning
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - pytest
+  - requests
+  - sqlalchemy
+  - toolz
+  - pip
+  - pip:
+      - beautifulsoup4
+      - bs4
+      - flask
+      - flask-cors
+      - langchain-openai
+      - sqlalchemy-utils
+      - python-dotenv
