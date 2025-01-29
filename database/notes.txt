@@ -2,7 +2,13 @@ TODO
 
 english - dodac pare usprawnien. wywolywanie z terminala, lista slow, zdanie, komentarz (kontekst, np. gdzie to bylo - albo po prostu 'source')
 
+skrot do find_or_scrape z mozliwoscia sterowania czy tylko find tylko scrape czy to lub to czy jedno i drugie
+
 dokonczyc replace_special (teraz dziala dobrze jak sie zacznie od head ale bez tego sie zawiesza)
+
+summary of all exerices - dates, scores
+
+wydruk slow - po typach (np. adv, conjunction), po najnizszych score'ach
 
 napisac parser do latin online dictionary w bazujac na prompcie w stylu english.py tego co jest w english.py
 co zrobic zeby wylapywac potencjalne bledy ? moze kilka roznych zapytan w rozny sposob, z roznych zrodel i sprawdzac zgodnosc ?
