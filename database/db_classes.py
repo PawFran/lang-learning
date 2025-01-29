@@ -451,7 +451,7 @@ class DeclensionLastFinishedExercise(View):
     __view_name__ = 'declension_last_finished_exercise'
     __view_query__ = f"""
             SELECT 
-                pattern.base_word,
+                pattern.base_word, pattern.declension_type,
                 CASE 
                     WHEN COUNT(*) FILTER (WHERE results.time IS NULL) > 0 THEN NULL
                     ELSE MAX(results.time)
@@ -461,8 +461,8 @@ class DeclensionLastFinishedExercise(View):
                 ON pattern.base_word = results.base_word
                 AND pattern.number = results.number 
                 AND pattern.case = results.case
-            GROUP BY pattern.base_word
-            ORDER BY last_finished ASC NULLS FIRST
+            GROUP BY pattern.base_word, pattern.declension_type
+            ORDER BY last_finished ASC NULLS FIRST, pattern.declension_type
         """
     
 views.append(DeclensionLastFinishedExercise)
@@ -472,6 +472,7 @@ class ConjugationLastFinishedExercise(View):
     __view_name__ = 'conjugation_last_finished_exercise'
     __view_query__ = f"""
             SELECT 
+                pattern.conjugation_type,
                 pattern.infinitive,
                 pattern.mood,
                 pattern.tense, 
@@ -488,8 +489,8 @@ class ConjugationLastFinishedExercise(View):
                 AND pattern.voice = results.voice
                 AND pattern.number = results.number
                 AND pattern.person = results.person
-            GROUP BY pattern.infinitive, pattern.mood, pattern.tense, pattern.voice
-            ORDER BY last_finished ASC NULLS FIRST, pattern.mood, pattern.voice, pattern.tense
+            GROUP BY pattern.conjugation_type, pattern.infinitive, pattern.mood, pattern.tense, pattern.voice
+            ORDER BY last_finished ASC NULLS FIRST, pattern.mood, pattern.voice, pattern.tense, pattern.conjugation_type
         """
 
 views.append(ConjugationLastFinishedExercise)
