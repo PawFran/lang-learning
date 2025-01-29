@@ -11,4 +11,4 @@ Flask-Cors~=5.0.0
 toolz~=1.0.0
 SQLAlchemy-Utils~=0.41.2
 python-dotenv~=1.0.1
-psycopg2=2.9.10
+psycopg2==2.9.10
