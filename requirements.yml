@@ -19,3 +19,4 @@ dependencies:
       - langchain-openai
       - sqlalchemy-utils
       - python-dotenv
+      - psycopg2
