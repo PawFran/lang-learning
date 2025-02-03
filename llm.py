@@ -1,16 +1,23 @@
-#!/usr/bin/env python
-
-from langchain_openai import ChatOpenAI
-import sys
-
 if __name__ == '__main__':
-    if len(sys.argv) == 1:
-        raise Exception('must give at least one word')
+    from openai import OpenAI
+    import sys
 
-    llm = ChatOpenAI()
+    client = OpenAI()
+
+    if len(sys.argv) == 1:
+        raise Exception('You must give at least one word')
 
     prompt = ' '.join(sys.argv[1:])
 
-    response = llm.invoke(prompt)
+    completion = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+    )
 
-    print(response.content)
+    print(completion.choices[0].message.content)
