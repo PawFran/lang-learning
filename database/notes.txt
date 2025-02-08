@@ -1,6 +1,7 @@
 TODO
 
 english - dodac pare usprawnien. wywolywanie z terminala, lista slow, zdanie, komentarz (kontekst, np. gdzie to bylo - albo po prostu 'source')
+można by dodawać kontekst zdania żeby wybierał najlepsze tlumaczenia
 
 przemyśleć użycie mongoDB
 
