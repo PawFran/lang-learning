@@ -3,6 +3,8 @@
 import sys
 
 from openai import OpenAI
+# from langchain.chat_models import ChatOpenAI
+# from langchain.prompts import ChatPromptTemplate
 
 output_temporary_file_name = 'scraping_out_tmp.txt'
 
@@ -13,13 +15,19 @@ def llm_explain_word_dict_format(word, llm, f, sentence=None):
         word [part of speech]
         ()
         1. explanation
-        ( if there is more than one explanation you can list them using subsequent numbers)
+        (if there is more than one explanation you can list them using subsequent numbers)
 
         I will give you some example for word \'battered\':
         battered [adjective]
         ()
         1. hurt by being repeatedly hit
         2. damaged, especially by being used a lot
+
+        If You cannot find word please tell me that i probably made mistake and don't try to forcefully come up with something. 
+        You may give me instead suggestions with similar words in case I just misspelled it. 
+        For example if i write word \'beffled\' You can respond:
+        Cannot find \'beffled\' but I have found word(s) with similar spelling:
+        1. baffled
         '''
 
     completion = llm.chat.completions.create(
