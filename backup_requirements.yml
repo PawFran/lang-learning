@@ -1,0 +1,21 @@
+name: lang-learning
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13.1
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - pytest=7.2.1
+  - requests=2.31.0
+  - sqlalchemy=2.0.36
+  - toolz=1.0.0
+  - pip
+  - pip:
+      - beautifulsoup4==4.12.2
+      - bs4==0.0.1
+      - flask==3.0.1
+      - flask-cors~=5.0.0
+      - langchain-openai~=0.2.3
+      - sqlalchemy-utils~=0.41.2
+      - python-dotenv~=1.0.1

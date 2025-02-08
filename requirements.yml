@@ -16,7 +16,9 @@ dependencies:
       - bs4
       - flask
       - flask-cors
+      - openai
       - langchain-openai
+      - langchain_community
       - sqlalchemy-utils
       - python-dotenv
       - psycopg2

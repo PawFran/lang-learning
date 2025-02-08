@@ -2,6 +2,11 @@ TODO
 
 english - dodac pare usprawnien. wywolywanie z terminala, lista slow, zdanie, komentarz (kontekst, np. gdzie to bylo - albo po prostu 'source')
 
+przemyśleć użycie mongoDB
+
+wydzielic osobne repo na parsowanie i napisac je w haskellu ?
+i jeszcze osobne repo na przechowywanie formatu wspolnych danych - np. yaml ze struktura slownika
+
 skrot do find_or_scrape z mozliwoscia sterowania czy tylko find tylko scrape czy to lub to czy jedno i drugie
 
 dokonczyc replace_special (teraz dziala dobrze jak sie zacznie od head ale bez tego sie zawiesza)
