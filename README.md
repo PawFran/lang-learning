@@ -26,7 +26,7 @@ python app.py
 
 ## Random Word from Dictionary
 
-This tool displays random words with translations for vocabulary practice. It’s read-only and does not require user input.
+This tool displays random words with translations for vocabulary practice. It's read-only and does not require user input.
 
 ### Usage
 ```bash
@@ -54,7 +54,7 @@ python translation_exercise.py
 
 #### Flags and Options
 - **-k**: Keeps words even after a correct answer.
-- **-f**: Filter entries with multiple criteria. Separate filters with spaces and use a pipe (\`|\`) for “OR” conditions.
+- **-f**: Filter entries with multiple criteria. Separate filters with spaces and use a pipe (\`|\`) for "OR" conditions.
   - Example: \`-f verb II | noun I II | adj\` filters for verbs (2nd conj.), nouns (1st or 2nd declension), and adjectives.
 - **Special Cases**:
   - **Verbs (1st conj.)**: Answer can be "base āre āvi ātum" or "base 1".
@@ -87,7 +87,7 @@ declension -d 1 2 3 -k
 #### Declensions
 Specify declensions as a list:
 - Options: \`1, 2, 3, "3 consonant", "3 vowel", "3 mixed", 4, 5, relative, interrogative, demonstrative\`
-- Words or numbers are allowed, and underscores (\`_\`) or hyphens (\`-\`) can replace spaces.
+- Words or numbers are allowed, and underscores (\`_\`) or hyphens (e\`-\`) can replace spaces.
 
 - **Relative**: Declines relative pronouns.
 
@@ -136,6 +136,32 @@ python find_or_scrape.py [list of words to be found]
 ```
 
 - **Output**: Found words are printed under the "found" hashtag; others are scraped.
+
+---
+
+## English Dictionary
+
+Look up English words with their definitions and example sentences.
+
+### Usage
+```bash
+python english.py "words separated by space (sentence optionally with some words surrounded by \) [context]"
+```
+
+Examples:
+```bash
+# Single word
+python english.py spotty
+
+# Multiple words
+python english.py spotty harness
+
+# Word included in example and context
+python english.py "(Thanks to the wifi... which is \spotty\ at best) [The simpsons - Lisa]"
+
+# Word outside with example and context
+python english.py "spotty (Thanks to the wifi... which is spotty at best) [The simpsons - Lisa]"
+```
 
 ---
 

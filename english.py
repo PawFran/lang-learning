@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 
 import sys
+import re
 
 from openai import OpenAI
-# from langchain.chat_models import ChatOpenAI
-# from langchain.prompts import ChatPromptTemplate
+from utils.lib.utils import process_text
 
 output_temporary_file_name = 'scraping_out_tmp.txt'
 
 
-def llm_explain_word_dict_format(word, llm, f, sentence=None):
+def llm_explain_word_dict_format(word: str, llm, f, sentence: str = None, context: str = None):
     prompt = f'''
         explain word "{word}" using Cambridge Dictionary in the following format:
         word [part of speech]
@@ -41,30 +41,55 @@ def llm_explain_word_dict_format(word, llm, f, sentence=None):
         ]
     )
 
-    response = completion.choices[0].message.content + '\n'
+    response = completion.choices[0].message.content
+
     if sentence is not None:
         response = fill_response_with_example(response, sentence)
+
+    if context is not None:
+        response = add_context_to_response(response, context)
+
+    # remove dot at avery line if exists
+    response = re.sub(r"\.\s*$", "", response, flags=re.MULTILINE) + '\n'
+
     print(response)
     f.write(response + '\n')
 
 
+def add_context_to_response(txt, context) -> str:
+    split = txt.split('\n')
+    split[1] = f'{split[1].strip()} [{context}]'
+
+    return '\n'.join(split)
+
+
 def fill_response_with_example(txt, sentence):
     split = txt.split('\n')
-    split[1] = f'({sentence})'
+    split[1] = split[1].replace('()', f'({sentence})')
 
     return '\n'.join(split)
 
 
 if __name__ == '__main__':
-    if len(sys.argv) == 1:
-        raise Exception('must give at least one argument (word to be found)')
+    # Read input from command line arguments
+    if len(sys.argv) < 2:
+        print(
+            "Usage: python test_english.py words separated by space (sentence optionally with some words surrounded by \\) [context]")
+        sys.exit(1)
 
-    # TODO first try to find if the word is already present
+    input_text = sys.argv[1]
+    words, example, context = process_text(input_text)
+
+    # Print results
+    # print("Words:", words)
+    # print("Example:", example)
+    # print("Context:", context)
+    # print('')
 
     llm = OpenAI()
 
-    # print('\n')
-
     with (open(output_temporary_file_name, 'a', encoding="utf-8") as f):
-        for input_word in sys.argv[1:]:
-            llm_explain_word_dict_format(input_word, llm, f)
+        for input_word in words:
+            llm_explain_word_dict_format(input_word, llm, f, sentence=example, context=context)
+
+    # TODO first try to find if the word is already present
