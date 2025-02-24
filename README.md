@@ -71,7 +71,7 @@ With a user profile set up, "smart sampling" gives priority to:
 
 ### Usage
 ```bash
-python declension_exercise.py -d DECLENSIONS -k (optional)
+python declension_exercise.py -d DECLENSIONS -w WORDS -k (optional)
 ```
 
 For easier access, add this alias to your `~/.zshrc` file:
@@ -81,15 +81,14 @@ alias declension='python /full/path/to/declension_exercise.py'
 
 Then you can simply use:
 ```bash
-declension -d 1 2 3 -k
+declension -d 1 2 demonstrative -w hic haec hoc 
 ```
 
 #### Declensions
 Specify declensions as a list:
 - Options: \`1, 2, 3, "3 consonant", "3 vowel", "3 mixed", 4, 5, relative, interrogative, demonstrative\`
 - Words or numbers are allowed, and underscores (\`_\`) or hyphens (e\`-\`) can replace spaces.
-
-- **Relative**: Declines relative pronouns.
+- when both "d" and "w" options are specified it is understood than they are to be used in together like with "&" operator
 
 ---
 

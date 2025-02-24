@@ -22,12 +22,17 @@ if __name__ == '__main__':
 
     declensions_to_include = [*DeclensionType]
     if args.declensions is not None:
-        print(f'declensions to filter: {args.declensions}')
+        print(f'declensions to include: {args.declensions}')
         declensions_to_include = [DeclensionType.from_string(s) for s in args.declensions]
 
     print()
 
     declensions_filtered: Declensions = filter_by_type(declension_all, declensions_to_include)
+
+    words_to_include = args.words
+    if words_to_include is not None:
+        print(f'words to include: {words_to_include}\n')
+        declensions_filtered = declensions_filtered.filter_by_base_words(words_to_include)
 
     print(f'current nr of entries: {declensions_filtered.length()}')
 

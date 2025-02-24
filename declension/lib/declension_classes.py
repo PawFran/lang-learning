@@ -2,7 +2,7 @@ import json
 from dataclasses import dataclass
 from enum import Enum
 
-from common.lib.utils import flatten
+from common.lib.utils import flatten, weak_in
 
 
 class DeclensionType(Enum):
@@ -219,3 +219,16 @@ class Declensions:
             cnt += len(pattern.plural) + len(pattern.singular)
 
         return cnt
+
+    def filter_by_base_words(self, words: list[str]) -> 'Declensions':
+        filtered_declensions = []
+        for declension in self.declensions:
+            filtered_patterns = [pattern for pattern in declension.declension_patterns 
+                               if weak_in(pattern.base_word, words)]
+            if filtered_patterns:
+                filtered_declensions.append(SingleDeclension(
+                    type=declension.type,
+                    declension_patterns=filtered_patterns
+                ))
+        return Declensions(filtered_declensions)
+    
