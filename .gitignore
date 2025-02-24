@@ -16,3 +16,4 @@ vocabulary/.DS_Store
 .DS_Store
 .idea/inspectionProfiles/Project_Default.xml
 .vscode/launch.json
+.aider*

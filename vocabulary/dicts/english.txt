@@ -1045,3 +1045,18 @@ frail [adjective]
 ()
 1. weak and delicate
 2. easily damaged or broken
+
+panoply [noun]
+(Today the children are enjoing a panoply of nutrition) [The Simpsons S35E18 Bart's brain]
+1. a large and impressive array or display of things
+2. a complete or impressive collection of things
+3. a protective covering; a full suit of armor
+
+lug [verb]
+(I don't want to lug this thing everywhere I go) [The Simpsons S35E18 Bart's brain]
+1. to carry or drag something heavy with great effort
+
+entailment [noun]  
+(BridgeTower excels in multiple tasks, including visual question answering, image-text retrieval, and visual entailment) [ChatGPT about Bridge Tower model]
+1. a situation in which one thing must be true or exist if another thing is true or exists
+2. a logical relationship in which one proposition logically follows from one or more others
