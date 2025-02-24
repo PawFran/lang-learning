@@ -450,19 +450,36 @@ views.append(DeclensionLastAskedWord)
 class DeclensionLastFinishedExercise(View):
     __view_name__ = 'declension_last_finished_exercise'
     __view_query__ = f"""
+            WITH stats AS (
+                SELECT 
+                    base_word,
+                    ROUND((SUM(CASE WHEN is_correct THEN 1 ELSE 0 END)::NUMERIC / COUNT(*) * 100), 0) as correct_percentage
+                FROM {DeclensionExerciseResults.__tablename__}
+                GROUP BY base_word
+            )
             SELECT 
-                pattern.base_word, pattern.declension_type,
+                pattern.base_word, 
+                pattern.declension_type,
                 CASE 
                     WHEN COUNT(*) FILTER (WHERE results.time IS NULL) > 0 THEN NULL
                     ELSE MAX(results.time)
-                END as last_finished
+                END as last_finished,
+                COALESCE(stats.correct_percentage, 0) as "correct %"
             FROM {LatinDeclensionPatterns.__tablename__} pattern
             LEFT JOIN {DeclensionExerciseResults.__tablename__} results
                 ON pattern.base_word = results.base_word
                 AND pattern.number = results.number 
                 AND pattern.case = results.case
-            GROUP BY pattern.base_word, pattern.declension_type
-            ORDER BY last_finished ASC NULLS FIRST, pattern.declension_type
+            LEFT JOIN stats
+                ON pattern.base_word = stats.base_word
+            GROUP BY 
+                pattern.base_word, 
+                pattern.declension_type,
+                stats.correct_percentage
+            ORDER BY 
+                last_finished ASC NULLS FIRST, 
+                "correct %" ASC,
+                pattern.declension_type
         """
     
 views.append(DeclensionLastFinishedExercise)
@@ -471,6 +488,16 @@ views.append(DeclensionLastFinishedExercise)
 class ConjugationLastFinishedExercise(View):
     __view_name__ = 'conjugation_last_finished_exercise'
     __view_query__ = f"""
+            WITH stats AS (
+                SELECT 
+                    infinitive,
+                    mood,
+                    tense,
+                    voice,
+                    ROUND((SUM(CASE WHEN is_correct THEN 1 ELSE 0 END)::NUMERIC / COUNT(*) * 100), 0) as correct_percentage
+                FROM {ConjugationExerciseResults.__tablename__}
+                GROUP BY infinitive, mood, tense, voice
+            )
             SELECT 
                 pattern.conjugation_type,
                 pattern.infinitive,
@@ -480,7 +507,8 @@ class ConjugationLastFinishedExercise(View):
                 CASE 
                     WHEN COUNT(*) FILTER (WHERE results.time IS NULL) > 0 THEN NULL
                     ELSE MAX(results.time)
-                END as last_finished
+                END as last_finished,
+                COALESCE(stats.correct_percentage, 0) as "correct %"
             FROM {LatinConjugationPatterns.__tablename__} pattern
             LEFT JOIN {ConjugationExerciseResults.__tablename__} results
                 ON pattern.infinitive = results.infinitive
@@ -489,8 +517,25 @@ class ConjugationLastFinishedExercise(View):
                 AND pattern.voice = results.voice
                 AND pattern.number = results.number
                 AND pattern.person = results.person
-            GROUP BY pattern.conjugation_type, pattern.infinitive, pattern.mood, pattern.tense, pattern.voice
-            ORDER BY last_finished ASC NULLS FIRST, pattern.mood, pattern.voice, pattern.tense, pattern.conjugation_type
+            LEFT JOIN stats
+                ON pattern.infinitive = stats.infinitive
+                AND pattern.mood = stats.mood
+                AND pattern.tense = stats.tense
+                AND pattern.voice = stats.voice
+            GROUP BY 
+                pattern.conjugation_type, 
+                pattern.infinitive, 
+                pattern.mood, 
+                pattern.tense, 
+                pattern.voice,
+                stats.correct_percentage
+            ORDER BY 
+                last_finished ASC NULLS FIRST, 
+                "correct %" ASC,
+                pattern.mood, 
+                pattern.voice, 
+                pattern.tense, 
+                pattern.conjugation_type
         """
 
 views.append(ConjugationLastFinishedExercise)
