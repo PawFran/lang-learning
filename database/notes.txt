@@ -1,8 +1,23 @@
 TODO
 
+mongodb, neo4j
+
+dodac graficzne powiazania regul gramatycznych - na przyklad koncowki odmian
+
+dodac przyklady (zdania) do grammatical patterns
+
+dodac opcje wypisania danej odmiany. moze LLM na podstawie jsona ?
+
 english - można by dodawać kontekst zdania żeby wybierał najlepsze tlumaczenia
+dodawać też polskie tłumaczenia
+bardziej złożona struktura - patrz mongodb
+zapisywanie rowniez fonetyki tak zeby potem mozna bylo wymowic slowo (siri, chatgpt)
+
+czy na podstawie dokumentacji i metadanych np. schematu bazy LLM moglby wywolywac odpowiednie skrypty na podstawie jezyka naturalnego ? albo pisac kod... np. "chcialbym przecwiczyc czwarta deklinacje lacinska" albo "chcialbym przecwiczyc ten zaimek, ktory mi idzie najgorzej..."
 
 przemyśleć użycie mongoDB
+
+dawac tez date dodania slowa
 
 wydzielic osobne repo na parsowanie i napisac je w haskellu ?
 i jeszcze osobne repo na przechowywanie formatu wspolnych danych - np. yaml ze struktura slownika
