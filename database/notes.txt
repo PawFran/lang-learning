@@ -1,5 +1,13 @@
 TODO
 
+reconciliation between text and json representations
+
+langchain finding synonyms
+
+majac pryzklad powinno dac sie przeklikac kazde uzyte w nim slowo ktore jest w slowniku. w neo4j powinno sie dac (trzeba wziac pod uwage ze sa rozne formy)
+
+skrypt do dodawania slow ze schowka do slownika - ma sens jak ma byc baza
+
 mongodb, neo4j
 
 dodac graficzne powiazania regul gramatycznych - na przyklad koncowki odmian

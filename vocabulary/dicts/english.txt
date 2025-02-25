@@ -181,7 +181,7 @@ outstrip [verb]
 (Our species' pace of change now outstrips our ability to adapt) [A hunter-gatherer's guide to the 21st century]
 1. to be or become greater in amount, degree, or success than something or someone
 
-grapple[ verb]
+grapple [verb]
 (If we don't figure out how to grapple with the problem of accerating novelty humanity will perish) [A hunter-gatherer's guide to the 21st century]
 1. to fight, especially in order to win something
 
@@ -213,7 +213,7 @@ ramble [verb]
 (He spent his days in long country rambles, in interminable discussions on literature)
 1. to walk for a long time, especially in the countryside
 
-interminable
+interminable [adj]
 (He spent his days in long country rambles, in interminable discussions on literature)
 1. lasting a very long time, in a way that is boring
 
@@ -440,7 +440,7 @@ startling [adj]
 (It is probable that some startling experience shocked and terrified him)
 1. surprising and sometimes worrying
 
-stir [verb[
+stir [verb]
 (The only person ever to have stirred his emotions was Izambard)
 1. to mix a liquid or other substance by moving an object such as a spoon in a circular pattern
 2. if something stirs you, it makes you feel a strong emotion
