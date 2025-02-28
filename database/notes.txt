@@ -1,12 +1,25 @@
 TODO
 
+translation last session hard words wyswietlac jako podsumowanie na koniec cwiczenia
+
+wyswietlac na poczatku cwiczenia declension wyswietlac podsumowanie kiedy sie stosuje dana deklinacje (trzymac to tez docelowo na bazie ?) - przynajmniej przy wyborze deklinacji (nie slow)
+
+gdyby kazde slowo w tekscie moc traktowac jako link - do tlumaczenia, moze tez do odmiany ? znow baza grafowa 
+
+w cwiczeniach np. declension dawac przyklady (czy tylko jak jest zla odpowiedz ?)
+
+w bazie grafowej powinno byc info o koncowkach. znajdywac relacje w stylu "te deklinacje maja podobny schemat bo i tu i tu nom sing jest taki sam jak nom pl"
+cwiczenie odwrocone - np. "res" i wypisz wszystkie formy jakie to mogą byc
+
+w declension (tez gdzies indziej ?) jesli ktos poda zla odpowiedz to mowic do czego to pasuje - co z czym jest mylone
+
 reconciliation between text and json representations
 
 langchain finding synonyms
 
 majac pryzklad powinno dac sie przeklikac kazde uzyte w nim slowo ktore jest w slowniku. w neo4j powinno sie dac (trzeba wziac pod uwage ze sa rozne formy)
 
-skrypt do dodawania slow ze schowka do slownika - ma sens jak ma byc baza
+skrypt do dodawania slow ze schowka (tzn. plik txt, nie clipboard) do slownika - ma sens jak ma byc baza
 
 mongodb, neo4j
 

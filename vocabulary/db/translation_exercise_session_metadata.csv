@@ -10,3 +10,4 @@ session_id;user_name;start_word;end_word;filtered_parts_of_speeche;revise_last_s
 10;default_user;;;;True;False;
 11;default_user;;;;True;False;
 12;default_user;spectaculum;;;False;False;
+13;default_user;;;;True;True;
