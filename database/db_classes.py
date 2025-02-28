@@ -588,13 +588,17 @@ views.append(TranslationLastUninterruptedSession)
 class TranslationLastUninterruptedSessionHardWords(View):
     __view_name__ = 'translation_last_uninterrupted_session_hard_words'
     __view_query__ = f"""
-            SELECT * 
-            FROM {Words.__tablename__}
-            WHERE header IN (
-                SELECT distinct(expected_answer) 
+            select distinct on (hard.word_pl, hard.expected_answer, t.example, hard.wrong_answers_counter) hard.word_pl, hard.expected_answer, t.example, hard.wrong_answers_counter 
+            from 
+                (SELECT word_pl, expected_answer, count(*) as wrong_answers_counter
                 FROM {TranslationLastUninterruptedSession.__view_name__}
-                WHERE is_correct = false
-            )
+                WHERE is_correct = FALSE
+                GROUP BY word_pl, expected_answer 
+                ) hard
+            join words w on hard.expected_answer = w.header
+            join words_translations_mappings_latin m on w.id = m.word_id
+            join translations t on t.id = m.translation_id
+            ORDER BY wrong_answers_counter DESC
         """
 
 views.append(TranslationLastUninterruptedSessionHardWords)
@@ -603,14 +607,13 @@ views.append(TranslationLastUninterruptedSessionHardWords)
 class TranslationLastUninterruptedSessionEasyWords(View):
     __view_name__ = 'translation_last_uninterrupted_session_easy_words'
     __view_query__ = f"""
-            SELECT *
-            FROM {Words.__tablename__}
-            WHERE header IN (
-                SELECT distinct(expected_answer)
-                FROM {TranslationLastUninterruptedSession.__view_name__}
+            SELECT word_pl, expected_answer 
+            FROM {TranslationLastUninterruptedSession.__view_name__} 
+            where word_pl NOT IN (
+                SELECT distinct(word_pl) 
+                FROM translation_last_uninterrupted_session 
+                WHERE is_correct = FALSE
             )
-            EXCEPT
-            {TranslationLastUninterruptedSessionHardWords.__view_query__}
         """
 
 views.append(TranslationLastUninterruptedSessionEasyWords)
@@ -619,5 +622,4 @@ views.append(TranslationLastUninterruptedSessionEasyWords)
 # Utility function to create all views
 def create_all_views(engine):
     for view in views:
-        # print(f'creating view {view.__view_name__}')
         view.create_view(engine)
