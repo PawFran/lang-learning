@@ -266,3 +266,16 @@ default_user;9;latin;cornu;singularis;genetivus;cornus;cornus;True;2025-02-28 20
 default_user;9;latin;cornu;singularis;ablativus;cornu;cornu;True;2025-02-28 20:25:37
 default_user;9;latin;cornu;singularis;dativus;cornu;cornu;True;2025-02-28 20:25:53
 default_user;9;latin;cornu;singularis;nominativus;cornu;cornu;True;2025-02-28 20:25:56
+default_user;10;latin;exercitus;singularis;genetivus;exercitus;exercitus;True;2025-02-28 23:00:21
+default_user;10;latin;exercitus;singularis;nominativus;exercitus;exercitus;True;2025-02-28 23:00:25
+default_user;10;latin;exercitus;singularis;dativus;exercitui;exercitui;True;2025-02-28 23:00:29
+default_user;10;latin;exercitus;singularis;ablativus;exercitu;exercitu;True;2025-02-28 23:00:36
+default_user;10;latin;exercitus;pluralis;genetivus;exercituum;exercituum;True;2025-02-28 23:01:31
+default_user;10;latin;exercitus;pluralis;dativus;exercitibus;exercitibus;True;2025-02-28 23:01:36
+default_user;10;latin;exercitus;singularis;vocativus;exercitus;exercitus;True;2025-02-28 23:01:39
+default_user;10;latin;exercitus;singularis;accusativus;exercitum;exercitus;False;2025-02-28 23:01:43
+default_user;10;latin;exercitus;singularis;accusativus;exercitum;exercitum;True;2025-02-28 23:01:49
+default_user;10;latin;exercitus;pluralis;accusativus;exercitus;exercitus;True;2025-02-28 23:02:13
+default_user;10;latin;exercitus;pluralis;vocativus;exercitus;exercitus;True;2025-02-28 23:02:17
+default_user;10;latin;exercitus;pluralis;ablativus;exercitibus;exercitibus;True;2025-02-28 23:06:59
+default_user;10;latin;exercitus;pluralis;nominativus;exercitus;exercitus;True;2025-02-28 23:07:17

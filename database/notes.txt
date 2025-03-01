@@ -2,6 +2,8 @@ TODO
 
 translation last session hard words wyswietlac jako podsumowanie na koniec cwiczenia
 
+cwiczenie: top N z nextToBeAsked
+
 wyswietlac na poczatku cwiczenia declension wyswietlac podsumowanie kiedy sie stosuje dana deklinacje (trzymac to tez docelowo na bazie ?) - przynajmniej przy wyborze deklinacji (nie slow)
 
 gdyby kazde slowo w tekscie moc traktowac jako link - do tlumaczenia, moze tez do odmiany ? znow baza grafowa 
@@ -9,6 +11,7 @@ gdyby kazde slowo w tekscie moc traktowac jako link - do tlumaczenia, moze tez d
 w cwiczeniach np. declension dawac przyklady (czy tylko jak jest zla odpowiedz ?)
 
 w bazie grafowej powinno byc info o koncowkach. znajdywac relacje w stylu "te deklinacje maja podobny schemat bo i tu i tu nom sing jest taki sam jak nom pl"
+
 cwiczenie odwrocone - np. "res" i wypisz wszystkie formy jakie to mogą byc
 
 w declension (tez gdzies indziej ?) jesli ktos poda zla odpowiedz to mowic do czego to pasuje - co z czym jest mylone

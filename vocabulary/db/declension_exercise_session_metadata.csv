@@ -17,3 +17,4 @@ session_id;user_name;declensions_included;interrupted
 8;default_user;III consonant;True
 8;default_user;V;False
 9;default_user;IV;False
+10;default_user;IV;False
