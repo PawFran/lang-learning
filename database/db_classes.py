@@ -378,7 +378,7 @@ class TranslationCorrectRatio(View):
         SELECT * FROM (
             SELECT word_pl, expected_answer, SUM(correct) AS correct, 
                    COUNT(*) - SUM(correct) AS incorrect, 
-                   ROUND((SUM(correct) / COUNT(*))::NUMERIC * 100, 0) AS "correct %"
+                   ROUND((SUM(correct) / COUNT(*)::NUMERIC) * 100, 0) AS "correct %"
             FROM (
                 SELECT *, CASE WHEN is_correct THEN 1 ELSE 0 END AS correct
                 FROM {TranslationExerciseResults.__tablename__}
