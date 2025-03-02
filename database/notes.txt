@@ -1,5 +1,17 @@
 TODO
 
+zamiast last finished to time elapsed w last finished exercise
+
+cwiczenia dla przyimków, zaimków, przysłówków i spójników:
+wypisanie (dla danej kategorii) wszystkich polskich tłumaczeń
+podanie łacińskiego słowa
+trzeba odpowiedzieć podając przypadek (jeśli ma zastosowanie) oraz tłumaczenie (znane z listy)
+tłumaczeń może być wiele - uwzględnić to i powiedzieć, ile trzeba podać (może być wtedy z różnymi przypadkami)
+
+wydruk wszystkich zaimkow, przyimkow, przyslowkow i spojnikow ze slownika 
+
+example powinno byc do translation
+
 translation last session hard words wyswietlac jako podsumowanie na koniec cwiczenia
 
 cwiczenie: top N z nextToBeAsked

@@ -18,3 +18,8 @@ session_id;user_name;declensions_included;interrupted
 8;default_user;V;False
 9;default_user;IV;False
 10;default_user;IV;False
+11;default_user;relative;False
+12;default_user;relative;False
+13;default_user;III vowel;False
+14;default_user;demonstrative;False
+15;default_user;III consonant, demonstrative;True
