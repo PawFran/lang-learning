@@ -3,18 +3,20 @@
 
 import copy
 import os
+from argparse import Namespace
 
 from numpy.random import default_rng
 
 from actions.declension import DECLENSION_EXERCISE_CSV_LOG_FILE_PATH, DECLENSION_SESSION_METADATA_CSV_PATH
 from common.lib.utils import weak_equals, DEFAULT_USER_NAME
+from database.initialize_db import default_db_initialization
 from declension.lib.parsing_args import *
 from declension.lib.utils import *
 from vocabulary.lib.file_db import DeclensionExerciseCSVHandler, DeclensionExerciseSessionMetadataCSVHandler
 
 if __name__ == '__main__':
     rng = default_rng()
-    args = parse_args()
+    args: Namespace = parse_args()
 
     dict_file_path = os.path.join("declension", "resources", "declension.json")
 
@@ -91,5 +93,6 @@ if __name__ == '__main__':
 
     if not interrupted:
         session_metadata_handler.update(interrupted=False)
+        default_db_initialization()
 
     print('terminating..')

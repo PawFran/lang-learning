@@ -163,10 +163,9 @@ def remove_db(engine):
         conn.close()
 
 
-# needs to be invoked from project root
-if __name__ == '__main__':
+def default_db_initialization():
     from environment import engine
-    
+
     initialize_database(engine=engine,
                        remove_old=True, 
                        dictionary_migration=True,
@@ -178,3 +177,8 @@ if __name__ == '__main__':
                        declension_exercise_session_metadata_migration=True,
                        conjugation_exercise_session_metadata_migration=True,
                        translation_exercise_session_metadata_migration=True)
+
+
+# needs to be invoked from project root
+if __name__ == '__main__':
+    default_db_initialization()

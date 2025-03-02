@@ -1,10 +1,8 @@
 from database.utils import *
-
+import argparse
 
 def migrate_dictionary(engine, dict_folder):
-    args = parse_args()
-
-    args.language = 'latin'
+    args = argparse.Namespace(language='latin', start_word=None, end_word=None)
 
     dictionary: Dictionary = parse_dictionary(args, dictionary_folder=dict_folder)
 
