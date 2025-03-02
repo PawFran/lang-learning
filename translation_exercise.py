@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 
 from sqlalchemy import text
+from sqlalchemy.orm import Session
+
 from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, TRANSLATION_SESSION_METADATA_CSV_PATH
 from common.lib.utils import DEFAULT_USER_NAME
+from database.db_classes import TranslationLastUninterruptedSessionHardWords
+from database.initialize_db import default_db_initialization
+from environment import engine
 from vocabulary.lib.parsing_dict import *
 from vocabulary.lib.utils import compare_answer_with_full_head_raw, shortcuts_summary
-from environment import engine
-from database.db_classes import TranslationLastUninterruptedSessionHardWords, Words
-from sqlalchemy.orm import Session
 
 # todo option to take only a number or percentage of the words ranked highest (in terms of probability)
 
@@ -45,11 +47,11 @@ if __name__ == '__main__':
         # Filter dictionary to only include words that were difficult in last session
         filtered_entries = []
         for word in hard_words:
-            found=False
+            found = False
             for entry in dictionary.entries:
                 if entry.head.header_without_metadata() == word.header:
                     filtered_entries.append(entry)
-                    found=True
+                    found = True
             if not found:
                 print(f'''couldn't find {word.header} in dictionary''')
         dictionary = Dictionary(entries=filtered_entries, lang=dictionary.lang)
@@ -124,5 +126,6 @@ if __name__ == '__main__':
 
     if not interrupted:
         session_metadata_handler.update(interrupted=False)
+        default_db_initialization()
 
     print('terminating..')

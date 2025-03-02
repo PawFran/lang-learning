@@ -1,10 +1,12 @@
 import os
 
-from actions.conjugation import CONJUGATION_EXERCISE_CSV_LOG_FILE_PATH, CONJUGATION_EXERCISE_SESSION_METADATA_CSV_LOG_FILE_PATH
+from actions.conjugation import CONJUGATION_EXERCISE_CSV_LOG_FILE_PATH, \
+    CONJUGATION_EXERCISE_SESSION_METADATA_CSV_LOG_FILE_PATH
 from common.lib.utils import weak_equals, DEFAULT_USER_NAME
 from conjugation.lib.conjugation_classes import *
 from conjugation.lib.parsing_args import parse_args
 from conjugation.lib.utils import filter_conjugations
+from database.initialize_db import default_db_initialization
 from vocabulary.lib.file_db import ConjugationExerciseCSVHandler, ConjugationExerciseSessionMetadataCSVHandler
 
 if __name__ == '__main__':
@@ -34,7 +36,7 @@ if __name__ == '__main__':
         moods_included=moods_included,
         tenses_included=tenses_included,
         voices_included=voices_included
-        )
+    )
 
     should_continue = True
     interrupted = False
@@ -75,4 +77,6 @@ if __name__ == '__main__':
 
     if not interrupted:
         session_metadata_handler.update(interrupted=False)
+        default_db_initialization()
+
     print('terminating..')
