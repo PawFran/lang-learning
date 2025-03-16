@@ -7,3 +7,4 @@ session_id;user_name;conjugations_included;moods_included;tenses_included;voices
 6;default_user;I, II, III, IV;imperative;present;active;False
 7;default_user;I, II, III, IV;imperative;present;passive;False
 8;default_user;I, II, III, IV;indicative;perfect;active;False
+9;default_user;I, II, III, IV;indicative;future perfect;active;False

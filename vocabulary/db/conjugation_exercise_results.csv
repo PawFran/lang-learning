@@ -220,3 +220,36 @@ default_user;8;latin;legere;indicative;perfect;active;2;singular;legisti;legisti
 default_user;8;latin;legere;indicative;perfect;active;2;plural;legistis;legistis;True;2025-03-16 11:25:20
 default_user;8;latin;capere;indicative;perfect;active;3;plural;cepērunt;ceperunt;True;2025-03-16 11:25:26
 default_user;8;latin;capere;indicative;perfect;active;3;singular;cepit;cepit;True;2025-03-16 11:25:33
+default_user;9;latin;capere;indicative;future perfect;active;3;singular;ceperit;ceperit;True;2025-03-16 14:24:57
+default_user;9;latin;capere;indicative;future perfect;active;2;plural;ceperitis;ceperitis;True;2025-03-16 14:25:07
+default_user;9;latin;audīre;indicative;future perfect;active;3;singular;audiverit;audiverit;True;2025-03-16 14:25:25
+default_user;9;latin;legere;indicative;future perfect;active;1;singular;legero;legero;True;2025-03-16 14:26:14
+default_user;9;latin;monēre;indicative;future perfect;active;3;plural;monuerint;monuerit;False;2025-03-16 14:26:53
+default_user;9;latin;legere;indicative;future perfect;active;1;plural;legerimus;legerimus;True;2025-03-16 14:28:25
+default_user;9;latin;audīre;indicative;future perfect;active;2;plural;audiveritis;audiveritis;True;2025-03-16 14:28:48
+default_user;9;latin;capere;indicative;future perfect;active;1;singular;cepero;cepero;True;2025-03-16 14:28:55
+default_user;9;latin;monēre;indicative;future perfect;active;3;singular;monuerit;monuerit;True;2025-03-16 14:29:27
+default_user;9;latin;capere;indicative;future perfect;active;2;singular;ceperis;ceperis;True;2025-03-16 14:29:53
+default_user;9;latin;monēre;indicative;future perfect;active;1;plural;monuerimus;monuero;False;2025-03-16 14:29:58
+default_user;9;latin;legere;indicative;future perfect;active;2;singular;legeris;legeris;True;2025-03-16 14:30:05
+default_user;9;latin;laudāre;indicative;future perfect;active;2;singular;laudaveris;laudaveris;True;2025-03-16 14:30:11
+default_user;9;latin;audīre;indicative;future perfect;active;3;plural;audiverint;audiverunt;False;2025-03-16 14:30:22
+default_user;9;latin;monēre;indicative;future perfect;active;2;plural;monueritis;monueritis;True;2025-03-16 14:30:37
+default_user;9;latin;audīre;indicative;future perfect;active;1;plural;audiverimus;audiverimus;True;2025-03-16 14:30:46
+default_user;9;latin;audīre;indicative;future perfect;active;1;singular;audivero;audivero;True;2025-03-16 14:30:59
+default_user;9;latin;capere;indicative;future perfect;active;1;plural;ceperimus;ceperimus;True;2025-03-16 14:31:06
+default_user;9;latin;monēre;indicative;future perfect;active;1;singular;monuero;monuero;True;2025-03-16 14:31:09
+default_user;9;latin;monēre;indicative;future perfect;active;1;plural;monuerimus;monuerimus;True;2025-03-16 14:31:13
+default_user;9;latin;laudāre;indicative;future perfect;active;3;singular;laudaverit;laudaverit;True;2025-03-16 14:31:17
+default_user;9;latin;legere;indicative;future perfect;active;3;singular;legerit;legerit;True;2025-03-16 14:31:26
+default_user;9;latin;audīre;indicative;future perfect;active;3;plural;audiverint;audiverint;True;2025-03-16 14:32:29
+default_user;9;latin;audīre;indicative;future perfect;active;2;singular;audiveris;audiveris;True;2025-03-16 14:32:52
+default_user;9;latin;laudāre;indicative;future perfect;active;2;plural;laudaveritis;laudaveritis;True;2025-03-16 14:33:00
+default_user;9;latin;laudāre;indicative;future perfect;active;1;singular;laudavero;laudavero;True;2025-03-16 14:33:07
+default_user;9;latin;laudāre;indicative;future perfect;active;3;plural;laudaverint;laudaverint;True;2025-03-16 14:33:11
+default_user;9;latin;laudāre;indicative;future perfect;active;1;plural;laudaverimus;laudaverimus;True;2025-03-16 14:33:15
+default_user;9;latin;legere;indicative;future perfect;active;2;plural;legeritis;legeritis;True;2025-03-16 14:33:32
+default_user;9;latin;monēre;indicative;future perfect;active;3;plural;monuerint;monuerint;True;2025-03-16 14:33:37
+default_user;9;latin;legere;indicative;future perfect;active;3;plural;legerint;legerint;True;2025-03-16 14:33:40
+default_user;9;latin;monēre;indicative;future perfect;active;2;singular;monueris;monueris;True;2025-03-16 14:33:45
+default_user;9;latin;capere;indicative;future perfect;active;3;plural;ceperint;ceperint;True;2025-03-16 14:33:49

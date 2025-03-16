@@ -1,5 +1,7 @@
 TODO
 
+dodac do odmian esse
+
 zamiast last finished to time elapsed w last finished exercise
 
 optymalizacja cwiczen z conjugation  - jedno slowo i stosunkowo male zmiany, tzn. w miare mozliwosci tylko jedna rzecz na raz. 
