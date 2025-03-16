@@ -23,3 +23,6 @@ session_id;user_name;declensions_included;interrupted
 13;default_user;III vowel;False
 14;default_user;demonstrative;False
 15;default_user;III consonant, demonstrative;True
+15;default_user;demonstrative;False
+16;default_user;I, II, III consonant, III mixed, III vowel, IV, V, demonstrative, interrogative, relative;True
+16;default_user;demonstrative;True

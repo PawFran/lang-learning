@@ -4,3 +4,6 @@ session_id;user_name;conjugations_included;moods_included;tenses_included;voices
 3;default_user;I, II, III, IV;indicative;future simple;active;False
 4;default_user;I, II, III, IV;indicative;present;passive;False
 5;default_user;I, II, III, IV;indicative;imperfect;passive;False
+6;default_user;I, II, III, IV;imperative;present;active;False
+7;default_user;I, II, III, IV;imperative;present;passive;False
+8;default_user;I, II, III, IV;indicative;perfect;active;False

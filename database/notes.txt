@@ -2,11 +2,25 @@ TODO
 
 zamiast last finished to time elapsed w last finished exercise
 
+optymalizacja cwiczen z conjugation  - jedno slowo i stosunkowo male zmiany, tzn. w miare mozliwosci tylko jedna rzecz na raz. 
+czasem moze byc ciezko wiec moze podobienstwa form i wtedy losowanie wg prawdopodobienstw 
+moglaby to byc flaga w istniejacym cwiczeniu
+
+cwiczenie odwrocone - np. "res" i wypisz wszystkie formy jakie to mogą byc (jakas podpowiedz ile...)
+to samo w conjugation 
+
+ogolnie w przypadku wpisania zlej formy info zwrotne nt. tego, jaka to jest forma
+potem moze sie przydac do raportow co z czym pomylone (wrzucic taka tabele na baze)
+
 cwiczenia dla przyimków, zaimków, przysłówków i spójników:
 wypisanie (dla danej kategorii) wszystkich polskich tłumaczeń
 podanie łacińskiego słowa
 trzeba odpowiedzieć podając przypadek (jeśli ma zastosowanie) oraz tłumaczenie (znane z listy)
 tłumaczeń może być wiele - uwzględnić to i powiedzieć, ile trzeba podać (może być wtedy z różnymi przypadkami)
+... wlasciwie to samo tez z rzeczownikami i czasownikami. i z tlumaczeniami. mozna by miec cala baze slow z odmianami, nie tylko same slowa. wtedy cwiczenia bylyby bardziej zaawansowane (np. slowo po lacinie -> jakie to tlumaczenie, jakie forma)
+takie scrape'owanie mozna by zrobic w haskellu
+scrape najlepiej z dwoch zrodel zeby porownac czy jest tak samo i wykluczyc bledy
+moze llm do sprawdzenia ?
 
 wydruk wszystkich zaimkow, przyimkow, przyslowkow i spojnikow ze slownika 
 
@@ -23,8 +37,6 @@ gdyby kazde slowo w tekscie moc traktowac jako link - do tlumaczenia, moze tez d
 w cwiczeniach np. declension dawac przyklady (czy tylko jak jest zla odpowiedz ?)
 
 w bazie grafowej powinno byc info o koncowkach. znajdywac relacje w stylu "te deklinacje maja podobny schemat bo i tu i tu nom sing jest taki sam jak nom pl"
-
-cwiczenie odwrocone - np. "res" i wypisz wszystkie formy jakie to mogą byc
 
 w declension (tez gdzies indziej ?) jesli ktos poda zla odpowiedz to mowic do czego to pasuje - co z czym jest mylone
 
