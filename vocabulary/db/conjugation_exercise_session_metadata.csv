@@ -8,3 +8,5 @@ session_id;user_name;conjugations_included;moods_included;tenses_included;voices
 7;default_user;I, II, III, IV;imperative;present;passive;False
 8;default_user;I, II, III, IV;indicative;perfect;active;False
 9;default_user;I, II, III, IV;indicative;future perfect;active;False
+10;default_user;I, II, III, IV;indicative;pluperfect;active;False
+11;default_user;I, II, III, IV;indicative;perfect;passive;False

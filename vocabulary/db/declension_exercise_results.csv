@@ -424,3 +424,9 @@ default_user;15;latin;is;pluralis;ablativus;eis;eis;True;2025-03-02 19:42:16
 default_user;15;latin;is;singularis;genetivus;eius;eius;True;2025-03-02 19:42:19
 default_user;16;latin;id;singularis;dativus;ei;cui;False;2025-03-06 20:21:18
 default_user;16;latin;id;singularis;accusativus;id;id;True;2025-03-06 20:22:40
+default_user;17;latin;quis, quid;singularis;nominativus;quis? quid?;quis? quid?;True;2025-03-16 19:17:57
+default_user;17;latin;quis, quid;singularis;accusativus;quem? quid?;quem? quid?;True;2025-03-16 19:18:06
+default_user;17;latin;quis, quid;singularis;dativus;cui?;cuius?;False;2025-03-16 19:18:13
+default_user;17;latin;quis, quid;singularis;dativus;cui?;cui?;True;2025-03-16 19:18:17
+default_user;17;latin;quis, quid;singularis;genetivus;cuius?;cuius?;True;2025-03-16 19:18:21
+default_user;17;latin;quis, quid;singularis;ablativus;quo?;quo?;True;2025-03-16 19:18:27

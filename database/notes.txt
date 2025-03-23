@@ -1,5 +1,14 @@
 TODO
 
+translation cwiczenie odwrotne - jak podejsc ? 
+dwa stopnie - z podpowiedzia (przyklad) i nie. chociaz przyklady sa tylko do niektorych sensowne
+liczba mozliwych odpowiedzi
+synonimy
+
+w pierwszej wersji podawac pelna forme slownikowa do tlumaczenia. w kolejnej byc moze dowolno forme, albo forme wzieta z przykladow i pytac tez o to, jaka jest podstawowa forma slownikowa. a docelowo jeszcze byc moze jaka to jest forma podana
+
+opcja kontynuacji poprzedniej sesji w cwiczeniach
+
 dodac do odmian esse
 
 zamiast last finished to time elapsed w last finished exercise
@@ -25,6 +34,9 @@ scrape najlepiej z dwoch zrodel zeby porownac czy jest tak samo i wykluczyc bled
 moze llm do sprawdzenia ?
 
 wydruk wszystkich zaimkow, przyimkow, przyslowkow i spojnikow ze slownika 
+
+zaimki więcej informacji
+https://latinaomnibus.pl/index.php?dzial=czesci_mowy&opcja=zaimek#pyt_wzgl
 
 example powinno byc do translation
 

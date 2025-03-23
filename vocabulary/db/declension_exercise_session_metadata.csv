@@ -26,3 +26,4 @@ session_id;user_name;declensions_included;interrupted
 15;default_user;demonstrative;False
 16;default_user;I, II, III consonant, III mixed, III vowel, IV, V, demonstrative, interrogative, relative;True
 16;default_user;demonstrative;True
+17;default_user;interrogative;False
