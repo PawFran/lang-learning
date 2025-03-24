@@ -462,8 +462,8 @@ class DeclensionLastFinishedExercise(View):
                 pattern.declension_type,
                 CASE 
                     WHEN COUNT(*) FILTER (WHERE results.time IS NULL) > 0 THEN NULL
-                    ELSE MAX(results.time)
-                END as last_finished,
+                    ELSE EXTRACT(DAY FROM NOW() - MAX(results.time))::INTEGER
+                END as days_elapsed,
                 COALESCE(stats.correct_percentage, 0) as "correct %"
             FROM {LatinDeclensionPatterns.__tablename__} pattern
             LEFT JOIN {DeclensionExerciseResults.__tablename__} results
@@ -477,7 +477,7 @@ class DeclensionLastFinishedExercise(View):
                 pattern.declension_type,
                 stats.correct_percentage
             ORDER BY 
-                last_finished ASC NULLS FIRST, 
+                days_elapsed DESC NULLS FIRST, 
                 "correct %" ASC,
                 pattern.declension_type
         """
@@ -506,8 +506,8 @@ class ConjugationLastFinishedExercise(View):
                 pattern.voice,
                 CASE 
                     WHEN COUNT(*) FILTER (WHERE results.time IS NULL) > 0 THEN NULL
-                    ELSE MAX(results.time)
-                END as last_finished,
+                    ELSE EXTRACT(DAY FROM NOW() - MAX(results.time))::INTEGER
+                END as days_elapsed,
                 COALESCE(stats.correct_percentage, 0) as "correct %"
             FROM {LatinConjugationPatterns.__tablename__} pattern
             LEFT JOIN {ConjugationExerciseResults.__tablename__} results
@@ -530,7 +530,7 @@ class ConjugationLastFinishedExercise(View):
                 pattern.voice,
                 stats.correct_percentage
             ORDER BY 
-                last_finished ASC NULLS FIRST, 
+                days_elapsed DESC NULLS FIRST, 
                 "correct %" ASC,
                 pattern.mood, 
                 pattern.voice, 
