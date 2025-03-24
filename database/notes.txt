@@ -1,7 +1,5 @@
 TODO
 
-pogrupowac deklinacje - np. demonstrative (is, ea, id)
-
 translation cwiczenie odwrotne - jak podejsc ? 
 dwa stopnie - z podpowiedzia (przyklad) i nie. chociaz przyklady sa tylko do niektorych sensowne
 liczba mozliwych odpowiedzi
@@ -26,6 +24,8 @@ to samo w conjugation
 
 ogolnie w przypadku wpisania zlej formy info zwrotne nt. tego, jaka to jest forma
 potem moze sie przydac do raportow co z czym pomylone (wrzucic taka tabele na baze)
+
+uzywac llmow do domyslania sie argumentow ? zeby nie musiec wpisywac wszystkich wartosci np. w declension classes enum linijka ok 47
 
 cwiczenia dla przyimków, zaimków, przysłówków i spójników:
 wypisanie (dla danej kategorii) wszystkich polskich tłumaczeń

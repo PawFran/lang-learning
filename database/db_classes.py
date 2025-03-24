@@ -452,13 +452,16 @@ class DeclensionLastFinishedExercise(View):
     __view_query__ = f"""
             WITH stats AS (
                 SELECT 
-                    base_word,
-                    ROUND((SUM(CASE WHEN is_correct THEN 1 ELSE 0 END)::NUMERIC / COUNT(*) * 100), 0) as correct_percentage
-                FROM {DeclensionExerciseResults.__tablename__}
-                GROUP BY base_word
+                    pattern.declension_type,
+                    ROUND((SUM(CASE WHEN results.is_correct THEN 1 ELSE 0 END)::NUMERIC / COUNT(*) * 100), 0) as correct_percentage
+                FROM {LatinDeclensionPatterns.__tablename__} pattern
+                LEFT JOIN {DeclensionExerciseResults.__tablename__} results
+                    ON pattern.base_word = results.base_word
+                    AND pattern.number = results.number 
+                    AND pattern.case = results.case
+                GROUP BY pattern.declension_type
             )
             SELECT 
-                pattern.base_word, 
                 pattern.declension_type,
                 CASE 
                     WHEN COUNT(*) FILTER (WHERE results.time IS NULL) > 0 THEN NULL
@@ -471,9 +474,8 @@ class DeclensionLastFinishedExercise(View):
                 AND pattern.number = results.number 
                 AND pattern.case = results.case
             LEFT JOIN stats
-                ON pattern.base_word = stats.base_word
+                ON pattern.declension_type = stats.declension_type
             GROUP BY 
-                pattern.base_word, 
                 pattern.declension_type,
                 stats.correct_percentage
             ORDER BY 
@@ -481,7 +483,6 @@ class DeclensionLastFinishedExercise(View):
                 "correct %" ASC,
                 pattern.declension_type
         """
-    
 views.append(DeclensionLastFinishedExercise)
 
 
