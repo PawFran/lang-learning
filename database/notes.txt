@@ -1,9 +1,13 @@
 TODO
 
+pogrupowac deklinacje - np. demonstrative (is, ea, id)
+
 translation cwiczenie odwrotne - jak podejsc ? 
 dwa stopnie - z podpowiedzia (przyklad) i nie. chociaz przyklady sa tylko do niektorych sensowne
 liczba mozliwych odpowiedzi
 synonimy
+
+i declension, conjugation - cwiczenie odwrotne. bedzie prosciej ale tez jest kilka mozliwych odpowiedzi
 
 w pierwszej wersji podawac pelna forme slownikowa do tlumaczenia. w kolejnej byc moze dowolno forme, albo forme wzieta z przykladow i pytac tez o to, jaka jest podstawowa forma slownikowa. a docelowo jeszcze byc moze jaka to jest forma podana
 

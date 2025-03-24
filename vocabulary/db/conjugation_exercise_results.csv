@@ -320,3 +320,38 @@ default_user;11;latin;legere;indicative;perfect;passive;3;singular;lectus est;le
 default_user;11;latin;legere;indicative;perfect;passive;3;singular;lectus est;lectus est;True;2025-03-23 16:18:17
 default_user;11;latin;monēre;indicative;perfect;passive;3;plural;moniti sunt;moniti sunt;True;2025-03-23 16:18:22
 default_user;11;latin;capere;indicative;perfect;passive;2;singular;captus es;captus es;True;2025-03-23 16:18:28
+default_user;12;latin;capere;indicative;future perfect;active;1;plural;ceperimus;captus eramus;False;2025-03-24 15:32:25
+default_user;13;latin;capere;indicative;future perfect;passive;1;plural;capti erimus;captus erimus;False;2025-03-24 15:33:27
+default_user;13;latin;capere;indicative;future perfect;passive;3;singular;captus erit;captus erit;True;2025-03-24 15:33:51
+default_user;13;latin;monēre;indicative;future perfect;passive;1;singular;monitus ero;monitus ero;True;2025-03-24 15:34:01
+default_user;13;latin;audīre;indicative;future perfect;passive;2;plural;auditi eritis;auditi eritis;True;2025-03-24 15:34:12
+default_user;13;latin;laudāre;indicative;future perfect;passive;3;singular;laudatus erit;laudatus erit;True;2025-03-24 15:34:20
+default_user;13;latin;audīre;indicative;future perfect;passive;1;singular;auditus ero;auditus ero;True;2025-03-24 15:34:27
+default_user;13;latin;monēre;indicative;future perfect;passive;1;plural;moniti erimus;monitu erimus;False;2025-03-24 15:34:33
+default_user;13;latin;laudāre;indicative;future perfect;passive;2;plural;laudati eritis;laudati eritis;True;2025-03-24 15:34:40
+default_user;13;latin;monēre;indicative;future perfect;passive;3;plural;moniti erunt;moniti erunt;True;2025-03-24 15:34:46
+default_user;13;latin;capere;indicative;future perfect;passive;1;plural;capti erimus;capti erimus;True;2025-03-24 15:35:22
+default_user;13;latin;laudāre;indicative;future perfect;passive;2;singular;laudatus eris;laudatus eris;True;2025-03-24 15:36:27
+default_user;13;latin;laudāre;indicative;future perfect;passive;1;plural;laudati erimus;laudati erimus;True;2025-03-24 15:36:32
+default_user;13;latin;legere;indicative;future perfect;passive;3;singular;lectus erit;lectus erit;True;2025-03-24 15:36:40
+default_user;13;latin;monēre;indicative;future perfect;passive;2;singular;monitus eris;monitus eris;True;2025-03-24 15:36:46
+default_user;13;latin;monēre;indicative;future perfect;passive;1;plural;moniti erimus;moniti erimus;True;2025-03-24 15:36:51
+default_user;13;latin;legere;indicative;future perfect;passive;2;singular;lectus eris;lectus eris;True;2025-03-24 15:36:59
+default_user;13;latin;capere;indicative;future perfect;passive;1;singular;captus ero;captus ero;True;2025-03-24 15:37:05
+default_user;13;latin;monēre;indicative;future perfect;passive;3;singular;monitus erit;monitus erit;True;2025-03-24 15:37:10
+default_user;13;latin;legere;indicative;future perfect;passive;3;plural;lecti erunt;legi erint;False;2025-03-24 15:37:15
+default_user;13;latin;legere;indicative;future perfect;passive;3;plural;lecti erunt;lecti erunt;True;2025-03-24 15:37:28
+default_user;13;latin;capere;indicative;future perfect;passive;2;singular;captus eris;captus eris;True;2025-03-24 15:37:41
+default_user;13;latin;audīre;indicative;future perfect;passive;2;singular;auditus eris;auditus eris;True;2025-03-24 15:37:52
+default_user;13;latin;laudāre;indicative;future perfect;passive;3;plural;laudati erunt;laudati erunt;True;2025-03-24 15:37:58
+default_user;13;latin;capere;indicative;future perfect;passive;2;plural;capti eritis;capti eritis;True;2025-03-24 15:39:05
+default_user;13;latin;audīre;indicative;future perfect;passive;3;singular;auditus erit;auditus erit;True;2025-03-24 15:39:12
+default_user;13;latin;monēre;indicative;future perfect;passive;2;plural;moniti eritis;moniti eritis;True;2025-03-24 15:39:21
+default_user;13;latin;laudāre;indicative;future perfect;passive;1;singular;laudatus ero;laudatus ero;True;2025-03-24 15:39:28
+default_user;13;latin;audīre;indicative;future perfect;passive;3;plural;auditi erunt;auditi erunt;True;2025-03-24 15:39:32
+default_user;13;latin;capere;indicative;future perfect;passive;3;plural;capti erunt;capti erunt;True;2025-03-24 15:39:48
+default_user;13;latin;audīre;indicative;future perfect;passive;1;plural;auditi erimus;auditi erimus;True;2025-03-24 15:39:56
+default_user;13;latin;legere;indicative;future perfect;passive;1;plural;lecti erimus;lecti erimus;True;2025-03-24 15:40:02
+default_user;13;latin;legere;indicative;future perfect;passive;2;plural;lecti eritis;lecti eritis;True;2025-03-24 15:40:07
+default_user;13;latin;legere;indicative;future perfect;passive;1;singular;lectus ero;lecti ero;False;2025-03-24 15:40:15
+default_user;13;latin;legere;indicative;future perfect;passive;1;singular;lectus ero;lectus ero;True;2025-03-24 15:40:20
