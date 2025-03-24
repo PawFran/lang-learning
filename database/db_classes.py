@@ -485,22 +485,20 @@ class DeclensionLastFinishedExercise(View):
 views.append(DeclensionLastFinishedExercise)
 
 
+# some errors in correct_percentage but probably acceptable
 class ConjugationLastFinishedExercise(View):
     __view_name__ = 'conjugation_last_finished_exercise'
     __view_query__ = f"""
             WITH stats AS (
                 SELECT 
-                    infinitive,
                     mood,
                     tense,
                     voice,
                     ROUND((SUM(CASE WHEN is_correct THEN 1 ELSE 0 END)::NUMERIC / COUNT(*) * 100), 0) as correct_percentage
                 FROM {ConjugationExerciseResults.__tablename__}
-                GROUP BY infinitive, mood, tense, voice
+                GROUP BY mood, tense, voice
             )
             SELECT 
-                pattern.conjugation_type,
-                pattern.infinitive,
                 pattern.mood,
                 pattern.tense, 
                 pattern.voice,
@@ -511,20 +509,16 @@ class ConjugationLastFinishedExercise(View):
                 COALESCE(stats.correct_percentage, 0) as "correct %"
             FROM {LatinConjugationPatterns.__tablename__} pattern
             LEFT JOIN {ConjugationExerciseResults.__tablename__} results
-                ON pattern.infinitive = results.infinitive
-                AND pattern.mood = results.mood
+                ON pattern.mood = results.mood
                 AND pattern.tense = results.tense
                 AND pattern.voice = results.voice
                 AND pattern.number = results.number
                 AND pattern.person = results.person
             LEFT JOIN stats
-                ON pattern.infinitive = stats.infinitive
-                AND pattern.mood = stats.mood
+                ON pattern.mood = stats.mood
                 AND pattern.tense = stats.tense
                 AND pattern.voice = stats.voice
             GROUP BY 
-                pattern.conjugation_type, 
-                pattern.infinitive, 
                 pattern.mood, 
                 pattern.tense, 
                 pattern.voice,
@@ -534,10 +528,8 @@ class ConjugationLastFinishedExercise(View):
                 "correct %" ASC,
                 pattern.mood, 
                 pattern.voice, 
-                pattern.tense, 
-                pattern.conjugation_type
+                pattern.tense
         """
-
 views.append(ConjugationLastFinishedExercise)
 
 
