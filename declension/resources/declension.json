@@ -324,7 +324,7 @@
     }
   },
   "is": {
-    "demonstrative": {
+    "demonstrative (is, ea, id)": {
       "masculinum": {
         "singularis": {
           "nominativus": "is",
@@ -344,7 +344,7 @@
     }
   },
   "ea": {
-    "demonstrative": {
+    "demonstrative (is, ea, id)": {
       "femininum": {
         "singularis": {
           "nominativus": "ea",
@@ -364,7 +364,7 @@
     }
   },
   "id": {
-    "demonstrative": {
+    "demonstrative (is, ea, id)": {
       "neutrum": {
         "singularis": {
           "nominativus": "id",
@@ -384,7 +384,7 @@
     }
   },
   "hic": {
-    "demonstrative": {
+    "demonstrative (hic, haec, hoc)": {
       "masculinum": {
         "singularis": {
           "nominativus": "hic",
@@ -404,7 +404,7 @@
     }
   },
   "haec": {
-    "demonstrative": {
+    "demonstrative (hic, haec, hoc)": {
       "femininum": {
         "singularis": {
           "nominativus": "haec",
@@ -424,7 +424,7 @@
     }
   },
   "hoc": {
-    "demonstrative": {
+    "demonstrative (hic, haec, hoc)": {
       "neutrum": {
         "singularis": {
           "nominativus": "hoc",
@@ -444,7 +444,7 @@
     }
   },
   "ille": {
-    "demonstrative": {
+    "demonstrative (ille, illa, illud)": {
       "masculinum": {
         "singularis": {
           "nominativus": "ille",
@@ -464,7 +464,7 @@
     }
   },
   "illa": {
-    "demonstrative": {
+    "demonstrative (ille, illa, illud)": {
       "femininum": {
         "singularis": {
           "nominativus": "illa",
@@ -484,7 +484,7 @@
     }
   },
   "illud": {
-    "demonstrative": {
+    "demonstrative (ille, illa, illud)": {
       "neutrum": {
         "singularis": {
           "nominativus": "illud",
@@ -504,7 +504,7 @@
     }
   },
   "idem (masculinum)": {
-    "demonstrative": {
+    "demonstrative (idem, eadem, idem)": {
       "masculinum": {
         "singularis": {
           "nominativus": "īdem",
@@ -524,7 +524,7 @@
     }
   },
   "eadem": {
-    "demonstrative": {
+    "demonstrative (idem, eadem, idem)": {
       "femininum": {
         "singularis": {
           "nominativus": "eadem",
@@ -544,7 +544,7 @@
     }
   },
   "idem (neutrum)": {
-    "demonstrative": {
+    "demonstrative (idem, eadem, idem)": {
       "neutrum": {
         "singularis": {
           "nominativus": "īdem",

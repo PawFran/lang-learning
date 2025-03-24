@@ -24,7 +24,7 @@ def parse_single_declension_row(pattern: SingleDeclensionPattern, number: str, c
                                 word) -> LatinDeclensionPatterns:
     return LatinDeclensionPatterns(
         base_word=pattern.base_word,
-        declension_type=pattern.type.name.replace('_', ' '),
+        declension_type=pattern.type.value,
         genre=Genre.from_string(pattern.genre).value,
         number=number,
         case=DeclensionCase.from_string(case).value,
@@ -38,7 +38,7 @@ def migrate_declension_patterns(engine: Engine, path: str):
     declension_patterns_parsed: [SingleDeclension] = [parse_single_declension(declension) for declension in declensions]
 
     rows = flatten(flatten(declension_patterns_parsed))
-
+# [row for row in rows if 'demonstrative' in row.declension_type]
     with Session(engine) as session:
         try:
             for row in rows:

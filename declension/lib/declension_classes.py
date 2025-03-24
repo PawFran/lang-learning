@@ -15,12 +15,16 @@ class DeclensionType(Enum):
     IV = 'IV'
     V = 'V'
     relative = 'relative'
-    demonstrative = 'demonstrative'
+    demonstrative = 'demonstrative' # to be deleted ?
+    demonstrative_is_ea_id = 'demonstrative (is, ea, id)'
+    demonstrative_hic_haec_hoc = 'demonstrative (hic, haec, hoc)'
+    demonstrative_ille_illa_illud = 'demonstrative (ille, illa, illud)'
+    demonstrative_idem_eadem_idem = 'demonstrative (idem, eadem, idem)'
     interrogative = 'interrogative'
 
     @staticmethod
     def from_string(s: str):
-        match s.lower().replace('_', ' ').replace('-', ' ').strip():
+        match s.lower().replace('_', ' ').replace('-', ' ').replace('(', ' ').replace(')', ' ').replace(',', ' ').replace('  ', ' ').strip():
             case 'first' | 'i' | 'one' | '1':
                 return DeclensionType.I
             case 'second' | 'ii' | 'two' | '2':
@@ -41,6 +45,14 @@ class DeclensionType(Enum):
                 return DeclensionType.relative
             case 'demonstrative' | 'dem':
                 return DeclensionType.demonstrative
+            case 'demonstrative is ea id' | 'dem is ea id' | 'is ea id' | 'is':
+                return DeclensionType.demonstrative_is_ea_id
+            case 'demonstrative hic haec hoc' | 'dem hic haec hoc' | 'hic haec hoc' | 'hic':
+                return DeclensionType.demonstrative_hic_haec_hoc
+            case 'demonstrative ille illa illud' | 'dem ille illa illud' | 'ille illa illud' | 'ille':
+                return DeclensionType.demonstrative_ille_illa_illud
+            case 'demonstrative idem eadem idem' | 'dem idem eadem idem' | 'idem eadem idem' | 'idem':
+                return DeclensionType.demonstrative_idem_eadem_idem
             case 'interrogative' | 'inter':
                 return DeclensionType.interrogative
             case _:
