@@ -308,6 +308,22 @@ class Dictionary:
     def remove_entry(self, dict_entry):
         self.entries.remove(dict_entry)
 
+
+    def remove_translation(self, dict_entry: DictionaryEntry, translation: str):
+        """
+        Remove a particular translation from a dictionary entry.
+        If the translation is the last one, remove the entire entry.
+        :param dict_entry: The dictionary entry from which to remove the translation.
+        :param translation: The translation to be removed.
+        """
+        if dict_entry in self.entries:
+            if translation in dict_entry.translations:
+                if len(dict_entry.translations) == 1:
+                    self.remove_entry(dict_entry)
+                else:
+                    dict_entry.translations.remove(translation)
+
+
     def filter_by_simple_condition(self, metadata: list[str]):
         """
         :param metadata: ex. verb I etc.

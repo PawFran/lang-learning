@@ -1,9 +1,6 @@
 TODO
 
-translation cwiczenie odwrotne - jak podejsc ? 
-dwa stopnie - z podpowiedzia (przyklad) i nie. chociaz przyklady sa tylko do niektorych sensowne
-liczba mozliwych odpowiedzi
-synonimy
+do random word dodac session metadata, last finished exercise itd.
 
 i declension, conjugation - cwiczenie odwrotne. bedzie prosciej ale tez jest kilka mozliwych odpowiedzi
 
@@ -12,8 +9,6 @@ w pierwszej wersji podawac pelna forme slownikowa do tlumaczenia. w kolejnej byc
 opcja kontynuacji poprzedniej sesji w cwiczeniach
 
 dodac do odmian esse
-
-zamiast last finished to time elapsed w last finished exercise
 
 optymalizacja cwiczen z conjugation  - jedno slowo i stosunkowo male zmiany, tzn. w miare mozliwosci tylko jedna rzecz na raz. 
 czasem moze byc ciezko wiec moze podobienstwa form i wtedy losowanie wg prawdopodobienstw 
