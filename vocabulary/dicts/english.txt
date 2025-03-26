@@ -1060,3 +1060,72 @@ entailment [noun]
 (BridgeTower excels in multiple tasks, including visual question answering, image-text retrieval, and visual entailment) [ChatGPT about Bridge Tower model]
 1. a situation in which one thing must be true or exist if another thing is true or exists
 2. a logical relationship in which one proposition logically follows from one or more others
+
+frisson [noun]
+(I found this video three years ago and I still can't watch it without getting serious frisson...) [reddit comment on Andrew Bird - Section 8 City]
+1. a sudden strong feeling of excitement or fear; a thrill
+2. a shiver or tremor, especially when caused by emotion
+
+strays [noun]
+(Get control of your strays) [The Order - movie]
+1. animals that have no home and are wandering without a person in charge of them
+2. people who are lost or who do not belong to a particular place or group
+
+stray [verb]
+() []
+1. to move away from a group or from the right course or place
+2. to begin to do something different from what you should be doing
+
+stray [noun]
+()
+1. a pet that is lost or has no home
+2. a person or animal that is not in the right place or group
+
+stray [adjective]
+()
+1. separated from the group or lost
+2. not in the correct place; random
+
+stray [verb]
+(Get control of your strays) [The Order - movie]
+1. to move away from a group or from the right place; to wander
+2. to become separated from the group or the correct path
+
+stray [noun]
+()
+1. a person or animal that has no home or that has wandered away from home
+
+stray [adjective]
+()
+1. not closely related to the main subject; random or not contained
+
+unrelenting [adjective]
+(I hereby swear an unrelenting oath) [The Order - movie]
+1. never stopping or weakening; constant and determined
+2. not softening or yielding in severity or determination
+
+hereby [adverb]
+(I hereby swear an unrelenting oath) [The Order - movie]
+1. as a result of this statement or document; by this means
+
+clip [verb]
+(We need to clip that boy's wings) [The Order - movie]
+1. to cut something using a sharp tool, especially to make it shorter or to remove unwanted parts
+2. to fasten or hold something in place with a device or fastener
+3. to shorten or cut a film or audio recording
+
+clip [noun]
+()
+1. a small object used to hold things together or in place
+2. a short section of film or audio
+3. a fast, efficient way of doing something, often used informally to describe speed or pace
+
+frigid [adjective]
+()
+1. extremely cold in temperature
+2. lacking warmth or excitement; very unemotional or aloof
+
+retract [verb]
+(These universities have the most retracted scientific articles) [Nature post on FB]
+1. to withdraw or take back a statement, promise, or opinion
+2. to withdraw something that has been published or released, often because it is found to be incorrect or misleading

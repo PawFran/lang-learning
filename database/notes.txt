@@ -4,6 +4,12 @@ do random word dodac session metadata, last finished exercise itd.
 
 i declension, conjugation - cwiczenie odwrotne. bedzie prosciej ale tez jest kilka mozliwych odpowiedzi
 
+english wymaga poprawy - zawsze powinna byc bazowa forma. patrz:
+(These universities have the most \retracted\ scientific articles) [Nature on FB]
+powinno dac retract jako slowo nie retracted
+dodac kontekst zdania do prompta jesli nie ma
+nie powinien dawac zadnych komentarzy w stylu "If you need more information or have another word in mind, feel free to ask!"
+
 w pierwszej wersji podawac pelna forme slownikowa do tlumaczenia. w kolejnej byc moze dowolno forme, albo forme wzieta z przykladow i pytac tez o to, jaka jest podstawowa forma slownikowa. a docelowo jeszcze byc moze jaka to jest forma podana
 
 opcja kontynuacji poprzedniej sesji w cwiczeniach
