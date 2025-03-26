@@ -1,12 +1,15 @@
 #!/usr/bin/env python
 
-import sys
+import os
 import re
+import sys
 
 from openai import OpenAI
+
 from utils.lib.utils import process_text
 
-output_temporary_file_name = 'scraping_out_tmp.txt'
+this_script_path = os.path.dirname(__file__)
+output_temporary_file = os.path.join(this_script_path, 'scraping_out_tmp.txt')
 
 
 def llm_explain_word_dict_format(word: str, llm, f, sentence: str = None, context: str = None):
@@ -80,15 +83,9 @@ if __name__ == '__main__':
     input_text = sys.argv[1]
     words, example, context = process_text(input_text)
 
-    # Print results
-    # print("Words:", words)
-    # print("Example:", example)
-    # print("Context:", context)
-    # print('')
-
     llm = OpenAI()
 
-    with (open(output_temporary_file_name, 'a', encoding="utf-8") as f):
+    with (open(output_temporary_file, 'a', encoding="utf-8") as f):
         for input_word in words:
             llm_explain_word_dict_format(input_word, llm, f, sentence=example, context=context)
 
