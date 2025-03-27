@@ -1311,7 +1311,7 @@ vulpēcŭla, vulpeculae [noun] [f] [I]
 
 spēlunca, speluncae [noun] [f] [I]
 ()
-1. jaskinia
+1. jaskinia, grota, nora
 
 intro, intrāre, intrāvī, intrātum [verb] [I]
 (Aliquando specum remotum inveni ibique intravi)
@@ -3586,7 +3586,7 @@ concēdo, concēdĕre, concessi, concessum [verb] [III]
 
 spĕcŭs, specūs [noun] [m] [IV]
 (Aliquando specum remotum inveni ibique intravi)
-1. jaskinia, grota
+1. jaskinia, grota, nora
 
 rĕmōtus, remotă, remotum [adj]
 (Aliquando specum remotum inveni ibique intravi)
