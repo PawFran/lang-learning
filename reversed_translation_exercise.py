@@ -1,0 +1,130 @@
+#!/usr/bin/env python3
+
+import time
+
+from actions.translation import REVERSED_TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, REVERSED_TRANSLATION_SESSION_METADATA_CSV_PATH
+from common.lib.utils import DEFAULT_USER_NAME
+from database.initialize_db import default_db_initialization
+from synonyms.utils import SynonymFinder
+from vocabulary.lib.parsing_dict import *
+from utils.lib.utils import print_all
+
+if __name__ == "__main__":
+    args = parse_args()
+
+    synonyms_number = 3
+
+    if args.user_name is None:
+        args.user_name = DEFAULT_USER_NAME
+
+    if args.language is None:
+        args.language = 'latin'
+        print(f'no language chosen. {args.language} will be used as default')
+
+    dictionary: Dictionary = parse_dictionary(args)
+    if args.filter is not None:
+        dictionary = dictionary.filter_by_complex_condition(args.filter)
+
+    print(f'number of words in dictionary: {dictionary.length()}', end='\n\n')
+
+    print('Initializing synonyms finder...')
+    start_time = time.time()
+    synonym_finder = SynonymFinder()
+    end_time = time.time()
+    print(f'Synonyms finder initialized in {end_time - start_time:.1f} seconds', end='\n\n')
+
+    db_handler = ReversedTranslationExerciseCSVHandler(REVERSED_TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, args.user_name, args.language)
+    session_metadata_handler = TranslationExerciseSessionMetadataCSVHandler(
+        path=REVERSED_TRANSLATION_SESSION_METADATA_CSV_PATH,
+        session_id=db_handler.current_session_id,
+        user_name=args.user_name,
+        revise_last_session=args.revise_last_session,
+        start_word=args.start_word,
+        end_word=args.end_word,
+        filtered_parts_of_speech=args.filter
+    )
+
+    rng = default_rng()
+
+    continue_exercise = True
+    interrupted = False
+    while continue_exercise and dictionary is not None and dictionary.length() > 0:
+        current_entry: DictionaryEntry = dictionary.random_dict_entry(rng)
+        full_header = current_entry.head.head_raw
+        translations_number = len(current_entry.translations)
+        print(full_header)
+        print(current_entry.example)
+
+        continue_current_translation = True
+        while continue_current_translation:
+            translations_left = len(current_entry.translations)
+            last_translation = translations_left == 1
+            
+            print(f'translations left: {translations_left}')
+
+            try:
+                user_translation = input('translation: ')
+                
+                synonyms: list[str] = synonym_finder.similar_translations(user_translation, n=synonyms_number)
+                print_all(synonyms)
+                user_choice = input('choose answer (digit) or try again (a) or skip (s) or terminate (t): ').strip()
+                
+                if user_choice == 'a':  # try again
+                    continue
+                elif user_choice == 's':  # skip
+                    is_correct = False
+                    continue_current_translation = False
+                    
+                    print('all translations:')
+                    print_all(current_entry.translations)
+                    
+                    db_handler.update_db(head_raw=full_header,
+                                        example=current_entry.example,
+                                        number_of_translations_total=translations_number, 
+                                        translations_left=current_entry.translations, 
+                                        user_answer="", was_correct=is_correct)
+
+                    dictionary.remove_entry(current_entry)
+                    if dictionary.length() % 10 == 0:
+                        print(f'words left in dictionary: {dictionary.length()}', end='\n\n')
+                elif user_choice == 't':  # terminate
+                    continue_current_translation = False
+                    continue_exercise = False
+                elif user_choice.isdigit():  # answer
+                    user_answer = synonyms[int(user_choice) - 1]
+                    is_correct = user_answer in current_entry.translations
+                    
+                    if is_correct:
+                        print('correct', end='\n\n')
+                        
+                        continue_current_translation = not last_translation
+                        
+                        dictionary.remove_single_translation(current_entry, user_answer)
+                        if dictionary.length() % 10 == 0:
+                            print(f'words left in dictionary: {dictionary.length()}', end='\n\n')
+                    else:
+                        print('wrong. try again')
+
+                    db_handler.update_db(head_raw=full_header,
+                                        example=current_entry.example,
+                                        number_of_translations_total=translations_number, 
+                                        translations_left=current_entry.translations, 
+                                        user_answer=user_answer, was_correct=is_correct)
+                else:
+                    print('invalid response. try again')
+            except Exception as e:
+                print(f'Exception occurred: {e}')
+                continue_exercise = False
+                interrupted = True
+                session_metadata_handler.update(interrupted=True)
+                print('\n')
+
+    if dictionary is None or dictionary.length() == 0:
+        print('no words left')
+
+    if not interrupted:
+        session_metadata_handler.update(interrupted=False)
+    
+    default_db_initialization()
+
+    print('terminating..')

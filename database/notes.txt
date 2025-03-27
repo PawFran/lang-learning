@@ -1,7 +1,5 @@
 TODO
 
-do random word dodac session metadata, last finished exercise itd.
-
 i declension, conjugation - cwiczenie odwrotne. bedzie prosciej ale tez jest kilka mozliwych odpowiedzi
 
 english wymaga poprawy - zawsze powinna byc bazowa forma. patrz:

@@ -1,5 +1,10 @@
 import re
 
+def print_all(lst):
+    for i in range(len(lst)):
+        print(f'{i + 1}. {lst[i]}')
+    
+
 def process_text(text):
     # Extract words outside of any brackets
     text_outside_brackets = re.sub(r'\(.*?\)|\[.*?\]', '', text)  # Remove content inside () and []

@@ -1,11 +1,9 @@
-import psycopg2
-import os
-from sqlalchemy import *
-from sqlalchemy_utils import database_exists, create_database
-
 # Allow imports to work when run from either top level or current directory
 import sys
 from pathlib import Path
+
+import psycopg2
+from sqlalchemy_utils import database_exists, create_database
 
 # Add project root to path if running from database/ directory
 current_dir = Path(__file__).parent
@@ -13,12 +11,8 @@ project_root = current_dir.parent
 if str(project_root) not in sys.path:
     sys.path.append(str(project_root))
 
-from conjugation.lib.conjugation_classes import ConjugationType, Mood, Number, Tense, Voice, Person
-from database.db_classes import Base, create_all_views, Languages, PartsOfSpeech, Genres, LatinConjugationTypes, \
-    LatinDeclensionTypes, DeclensionCases, Moods, Tenses, Voices, Numbers, Persons
 from database.migration_dictionary import migrate_dictionary
-from database.migration_exercise_results import migrate_conjugation_exercise_session_metadata, migrate_declension_exercise_session_metadata, migrate_translation_exercise_results, \
-    migrate_declension_exercise_results, migrate_conjugation_exercise_results, migrate_translation_exercise_session_metadata
+from database.migration_exercise_results import *
 from database.migration_patterns import migrate_declension_patterns, migrate_conjugation_patterns
 from declension.lib.declension_classes import DeclensionType, DeclensionCase, Genre
 from vocabulary.lib.dict_classes import PartOfSpeech, Lang
@@ -46,15 +40,22 @@ tables_with_enums = {
 dictionary_folder = os.path.join('vocabulary', 'dicts')
 
 declension_patterns_file_path = os.path.join("declension", "resources", "declension.json")
-conjugation_patterns_file_path = os.path.join("conjugation", "resources", "conjugation.json") 
+conjugation_patterns_file_path = os.path.join("conjugation", "resources", "conjugation.json")
 
 translation_exercise_results_path = os.path.join('vocabulary', 'db', 'translation_exercise_results.csv')
+reversed_translation_exercise_results_path = os.path.join('vocabulary', 'db',
+                                                          'reversed_translation_exercise_results.csv')
 declension_exercise_results_path = os.path.join('vocabulary', 'db', 'declension_exercise_results.csv')
 conjugation_exercise_results_path = os.path.join('vocabulary', 'db', 'conjugation_exercise_results.csv')
 
 declension_exercise_session_metadata_path = os.path.join('vocabulary', 'db', 'declension_exercise_session_metadata.csv')
-conjugation_exercise_session_metadata_path = os.path.join('vocabulary', 'db', 'conjugation_exercise_session_metadata.csv')
-translation_exercise_session_metadata_path = os.path.join('vocabulary', 'db', 'translation_exercise_session_metadata.csv')
+conjugation_exercise_session_metadata_path = os.path.join('vocabulary', 'db',
+                                                          'conjugation_exercise_session_metadata.csv')
+translation_exercise_session_metadata_path = os.path.join('vocabulary', 'db',
+                                                          'translation_exercise_session_metadata.csv')
+reversed_translation_exercise_session_metadata_path = os.path.join('vocabulary', 'db',
+                                                                   'reversed_translation_exercise_session_metadata.csv')
+
 
 def initialize_database(engine: Engine,
                         remove_old: bool,
@@ -62,11 +63,13 @@ def initialize_database(engine: Engine,
                         declension_patterns_migration: bool,
                         conjugation_patterns_migration: bool,
                         translation_exercise_results_migration: bool,
+                        reversed_translation_exercise_results_migration: bool,
                         declension_exercise_results_migration: bool,
                         conjugation_exercise_results_migration: bool,
                         declension_exercise_session_metadata_migration: bool,
                         conjugation_exercise_session_metadata_migration: bool,
                         translation_exercise_session_metadata_migration: bool,
+                        reversed_translation_exercise_session_metadata_migration: bool
                         ):
     if remove_old:
         remove_db(engine)
@@ -106,6 +109,10 @@ def initialize_database(engine: Engine,
         migrate_translation_exercise_results(engine, translation_exercise_results_path)
         print('translation exercise results migrated')
 
+    if reversed_translation_exercise_results_migration:
+        migrate_reversed_translation_exercise_results(engine, reversed_translation_exercise_results_path)
+        print('translation exercise results migrated')
+
     if declension_exercise_results_migration:
         migrate_declension_exercise_results(engine, declension_exercise_results_path)
         print('declension exercise results migrated')
@@ -125,6 +132,11 @@ def initialize_database(engine: Engine,
     if translation_exercise_session_metadata_migration:
         migrate_translation_exercise_session_metadata(engine, translation_exercise_session_metadata_path)
         print('translation exercise session metadata migrated')
+
+    if reversed_translation_exercise_session_metadata_migration:
+        migrate_reversed_translation_exercise_session_metadata(engine,
+                                                               reversed_translation_exercise_session_metadata_path)
+        print('reversed translation exercise session metadata migrated')
 
 
 def remove_db(engine):
@@ -167,16 +179,18 @@ def default_db_initialization():
     from environment import engine
 
     initialize_database(engine=engine,
-                       remove_old=True, 
-                       dictionary_migration=True,
-                       declension_patterns_migration=True,
-                       conjugation_patterns_migration=True,
-                       translation_exercise_results_migration=True,
-                       declension_exercise_results_migration=True,
-                       conjugation_exercise_results_migration=True,
-                       declension_exercise_session_metadata_migration=True,
-                       conjugation_exercise_session_metadata_migration=True,
-                       translation_exercise_session_metadata_migration=True)
+                        remove_old=True,
+                        dictionary_migration=True,
+                        declension_patterns_migration=True,
+                        conjugation_patterns_migration=True,
+                        translation_exercise_results_migration=True,
+                        reversed_translation_exercise_results_migration=True,
+                        declension_exercise_results_migration=True,
+                        conjugation_exercise_results_migration=True,
+                        declension_exercise_session_metadata_migration=True,
+                        conjugation_exercise_session_metadata_migration=True,
+                        translation_exercise_session_metadata_migration=True,
+                        reversed_translation_exercise_session_metadata_migration=True)
 
 
 # needs to be invoked from project root

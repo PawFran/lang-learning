@@ -238,6 +238,22 @@ class TranslationExerciseResults(Base):
     time = Column(DateTime, nullable=False)
 
 
+class ReversedTranslationExerciseResults(Base):
+    __tablename__ = 'reversed_translation_exercise_results'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    user = Column(String, nullable=False)
+    session_id = Column(Integer, nullable=False)
+    lang = Column(String, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)
+    word_asked = Column(String, nullable=False) 
+    example = Column(String, nullable=True) 
+    translation_total_number = Column(Integer, nullable=False) 
+    translations_left = Column(String, nullable=False) # list separated by "\n"
+    user_answer = Column(String, nullable=False)
+    is_correct = Column(Boolean, nullable=False)
+    time = Column(DateTime, nullable=False)
+
+
 class DeclensionExerciseResults(Base):
     __tablename__ = 'declension_exercise_results'
 
@@ -275,6 +291,19 @@ class ConjugationExerciseResults(Base):
 
 class TranslationExerciseSessionMetadata(Base):
     __tablename__ = 'translation_exercise_session_metadata'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    session_id = Column(Integer, nullable=False)
+    user_name = Column(String, default=DEFAULT_USER_NAME, nullable=False)
+    start_word = Column(String, nullable=True)
+    end_word = Column(String, nullable=True)
+    filtered_parts_of_speech = Column(String, nullable=True)
+    revise_last_session = Column(Boolean, nullable=False)
+    interrupted = Column(Boolean, nullable=False)
+
+
+class ReversedTranslationExerciseSessionMetadata(Base):
+    __tablename__ = 'reversed_translation_exercise_session_metadata'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     session_id = Column(Integer, nullable=False)

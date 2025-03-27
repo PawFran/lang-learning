@@ -33,7 +33,23 @@ def parse_translation_exercise_result_line(raw_line: str) -> TranslationExercise
     )
 
 
-def parse_declension_exercise_result_line(raw_line: str) -> TranslationExerciseResults:
+def parse_reversed_translation_exercise_result_line(raw_line: str) -> ReversedTranslationExerciseResults:
+    split = [field.strip() for field in raw_line.split(';')]
+    return ReversedTranslationExerciseResults(
+        user=split[0],
+        session_id=split[1],
+        lang=split[2],
+        word_asked=split[3],
+        example=split[4],
+        translation_total_number=split[5],
+        translations_left=split[6],
+        user_answer=split[7],
+        is_correct=str_to_bool(split[8]),
+        time=datetime.strptime(split[9].strip(), DATE_FORMAT)
+    )
+
+
+def parse_declension_exercise_result_line(raw_line: str) -> DeclensionExerciseResults:
     split = [field.strip() for field in raw_line.split(';')]
     return DeclensionExerciseResults(
         user=split[0],
@@ -72,6 +88,10 @@ def migrate_translation_exercise_results(engine: Engine, path: str):
     migrate_from_file_to_db(engine, path, parse_translation_exercise_result_line)
 
 
+def migrate_reversed_translation_exercise_results(engine: Engine, path: str):
+    migrate_from_file_to_db(engine, path, parse_reversed_translation_exercise_result_line)
+
+
 def migrate_declension_exercise_results(engine: Engine, path: str):
     migrate_from_file_to_db(engine, path, parse_declension_exercise_result_line)
 
@@ -85,12 +105,13 @@ def migrate_declension_exercise_session_metadata(engine: Engine, path: str):
         split = [field.strip() for field in raw_line.split(';')]
         return DeclensionExerciseSessionMetadata(
             session_id=split[0],
-            user_name=split[1], 
+            user_name=split[1],
             declensions_included=split[2],
             interrupted=str_to_bool(split[3].strip())
         )
-    
+
     migrate_from_file_to_db(engine, path, parse_declension_session_metadata_line)
+
 
 def migrate_translation_exercise_session_metadata(engine: Engine, path: str):
     def parse_translation_session_metadata_line(raw_line: str) -> TranslationExerciseSessionMetadata:
@@ -104,8 +125,24 @@ def migrate_translation_exercise_session_metadata(engine: Engine, path: str):
             revise_last_session=str_to_bool(split[5].strip()),
             interrupted=str_to_bool(split[6].strip())
         )
-    
+
     migrate_from_file_to_db(engine, path, parse_translation_session_metadata_line)
+
+
+def migrate_reversed_translation_exercise_session_metadata(engine: Engine, path: str):
+    def parse_reversed_translation_session_metadata_line(raw_line: str) -> ReversedTranslationExerciseSessionMetadata:
+        split = [field.strip() for field in raw_line.split(';')]
+        return ReversedTranslationExerciseSessionMetadata(
+            session_id=split[0],
+            user_name=split[1],
+            start_word=split[2],
+            end_word=split[3],
+            filtered_parts_of_speech=split[4],
+            revise_last_session=str_to_bool(split[5].strip()),
+            interrupted=str_to_bool(split[6].strip())
+        )
+
+    migrate_from_file_to_db(engine, path, parse_reversed_translation_session_metadata_line)
 
 
 def migrate_conjugation_exercise_session_metadata(engine: Engine, path: str):
@@ -120,7 +157,7 @@ def migrate_conjugation_exercise_session_metadata(engine: Engine, path: str):
             voices_included=split[5],
             interrupted=str_to_bool(split[6].strip())
         )
-    
+
     migrate_from_file_to_db(engine, path, parse_conjugation_session_metadata_line)
 
 def migrate_from_file_to_db(engine, path: str, parsing_function):

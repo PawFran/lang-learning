@@ -167,7 +167,8 @@ class TranslationExerciseSessionMetadataCSVHandler:
             'revise_last_session': self.revise_last_session,
             'start_word': self.start_word if self.start_word is not None else '',
             'end_word': self.end_word if self.end_word is not None else '',
-            'filtered_parts_of_speech': human_readable_sets(self.filtered_parts_of_speech) if self.filtered_parts_of_speech is not None else '',
+            'filtered_parts_of_speech': human_readable_sets(
+                self.filtered_parts_of_speech) if self.filtered_parts_of_speech is not None else '',
             'interrupted': interrupted
         }, index=[0])
         return pd.concat([df, new_row])
@@ -240,6 +241,49 @@ class TranslationExerciseCSVHandler(ExerciseCSVHandler):
                                 'lang': lang,
                                 'word_pl': word_pl,
                                 'correct_translation': translation,
+                                'user_answer': user_answer,
+                                'is_correct': was_correct,
+                                'time': dt.now().replace(microsecond=0)
+                                }, index=[0])
+        return pd.concat([df, new_row])
+
+
+class ReversedTranslationExerciseCSVHandler(ExerciseCSVHandler):
+    def __init__(self, path, user_name, lang: str):
+        super().__init__(path, user_name)
+        self._current_session_id = self.create_new_session_id()
+        self.lang = lang
+
+    @property
+    def current_session_id(self):
+        return self._current_session_id
+
+    @current_session_id.setter
+    def current_session_id(self, value):
+        self._current_session_id = value
+
+    def update_db(self, head_raw: str, example: str,
+                  number_of_translations_total: int, translations_left: list[str],
+                  user_answer: str, was_correct: bool):
+        df = pd.read_csv(self.path, sep=';')
+
+        df = self.add_new_record(df, head_raw, example,
+                                 number_of_translations_total, translations_left,
+                                 user_answer, was_correct)
+
+        df.to_csv(self.path, index=False, sep=';')
+
+    def add_new_record(self, df: pd.DataFrame,
+                       head_raw: str, example: str,
+                       number_of_translations_total: int, translations_left: list[str],
+                       user_answer: str, was_correct: bool):
+        new_row = pd.DataFrame({'user': self.user_name,
+                                'session_id': self.current_session_id,
+                                'lang': self.lang,
+                                'word_asked': head_raw,
+                                'example': example,
+                                'translations_total_nr': number_of_translations_total,
+                                'translations_left': "\n".join(translations_left),
                                 'user_answer': user_answer,
                                 'is_correct': was_correct,
                                 'time': dt.now().replace(microsecond=0)
