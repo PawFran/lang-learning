@@ -1,5 +1,8 @@
 TODO
 
+reversed jak jest skip:
+Exception occurred: list index out of range
+
 i declension, conjugation - cwiczenie odwrotne. bedzie prosciej ale tez jest kilka mozliwych odpowiedzi
 
 w wyszukiwaniu synonimow sprawic, zeby zgadzal sie zawsze rodzaj slowa (czesc mowy)

@@ -2327,7 +2327,7 @@ măgistrātŭs, magistratūs [noun] [m] [IV]
 
 sŏnĭtŭs, sonitūs [noun] [m] [IV]
 (Sonitus tubarum signum exercitui ad impetum dat)
-1. hałas, głośny dźwięk
+1. dźwięk, odgłos, brzmienie
 
 impĕtŭs, impetūs [noun] [m] [IV]
 (Sonitus tubarum signum exercitui ad impetum dat)
@@ -3520,7 +3520,7 @@ admīrābĭlis, admirabilis, admirabile [adj]
 
 clāmŏr, clamoris [noun] [m] [III]
 (Ea re tam admirabili clamores populi excitati sunt)
-1. krzyk, zgiełk, hałas
+1. krzyk, zgiełk, hałas (ludzki)
 
 excĭto, excĭtāre, excitavi, excitatum [verb] [I]
 (Ea re tam admirabili clamores populi excitati sunt)
@@ -3599,8 +3599,8 @@ multō [adv]
 
 post [prep]
 ()
-1. (lokalizacja) z tyłu
-2. (czas) po
+1. po, za czymś, z tyłu (lokalizacja)
+2. po, później (czas)
 
 post [adv]
 (Neque multo post ad eundem specum venit hic leo cruento pede)

@@ -86,7 +86,9 @@ if __name__ == "__main__":
                                         translations_left=current_entry.translations, 
                                         user_answer="", was_correct=is_correct)
 
-                    dictionary.remove_entry(current_entry)
+                    for translation in current_entry.translations:
+                        dictionary.remove_single_translation(current_entry, translation)
+
                     if dictionary.length() % 10 == 0:
                         print(f'words left in dictionary: {dictionary.length()}', end='\n\n')
                 elif user_choice == 't':  # terminate
@@ -99,7 +101,7 @@ if __name__ == "__main__":
                     incorrect_answers = [answer for answer in user_answers if answer not in current_entry.translations]
 
                     for answer in correct_answers:
-                        print(f'{answer} is correct', end='\n\n')
+                        print(f'"{answer}" is correct', end='\n\n')
                         
                         continue_current_translation = not last_translation
 
@@ -110,8 +112,8 @@ if __name__ == "__main__":
                                              user_answer=answer, was_correct=True)
 
                         dictionary.remove_single_translation(current_entry, answer)
-                        if dictionary.length() % 10 == 0:
-                            print(f'words left in dictionary: {dictionary.length()}', end='\n\n')
+                    if dictionary.length() % 10 == 0:
+                        print(f'words left in dictionary: {dictionary.length()}', end='\n\n')
 
                     for answer in incorrect_answers:
                         print(f'{answer} is wrong', end='\n\n')
