@@ -2,6 +2,8 @@ TODO
 
 i declension, conjugation - cwiczenie odwrotne. bedzie prosciej ale tez jest kilka mozliwych odpowiedzi
 
+w wyszukiwaniu synonimow sprawic, zeby zgadzal sie zawsze rodzaj slowa (czesc mowy)
+
 english wymaga poprawy - zawsze powinna byc bazowa forma. patrz:
 (These universities have the most \retracted\ scientific articles) [Nature on FB]
 powinno dac retract jako slowo nie retracted
