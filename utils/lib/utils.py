@@ -3,6 +3,18 @@ import re
 def print_all(lst):
     for i in range(len(lst)):
         print(f'{i + 1}. {lst[i]}')
+
+
+def answer_split(answer: str) -> list[str]:
+    return [x for x in answer.split(' ') if x != '']
+
+
+def is_proper_answer(answer: str) -> bool:
+    return all([x.isdigit() for x in answer_split(answer)])
+
+
+def answer_parsed(answer: str) -> list[int]:
+    return [int(x) for x in answer_split(answer)]
     
 
 def process_text(text):

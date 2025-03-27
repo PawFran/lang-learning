@@ -7,7 +7,7 @@ from common.lib.utils import DEFAULT_USER_NAME
 from database.initialize_db import default_db_initialization
 from synonyms.utils import SynonymFinder
 from vocabulary.lib.parsing_dict import *
-from utils.lib.utils import print_all
+from utils.lib.utils import print_all, is_proper_answer, answer_parsed
 
 if __name__ == "__main__":
     args = parse_args()
@@ -67,16 +67,18 @@ if __name__ == "__main__":
                 
                 synonyms: list[str] = synonym_finder.similar_translations(user_translation, n=synonyms_number)
                 print_all(synonyms)
-                user_choice = input('choose answer (digit) or try again (a) or skip (s) or terminate (t): ').strip()
+                user_choice = input('choose answers (digits separated by space) or try again (a) or skip (s) or terminate (t): ').strip()
                 
                 if user_choice == 'a':  # try again
                     continue
                 elif user_choice == 's':  # skip
                     is_correct = False
                     continue_current_translation = False
-                    
-                    print('all translations:')
+
+                    print('')
+                    print('all remaining translations:')
                     print_all(current_entry.translations)
+                    print('')
                     
                     db_handler.update_db(head_raw=full_header,
                                         example=current_entry.example,
@@ -90,26 +92,35 @@ if __name__ == "__main__":
                 elif user_choice == 't':  # terminate
                     continue_current_translation = False
                     continue_exercise = False
-                elif user_choice.isdigit():  # answer
-                    user_answer = synonyms[int(user_choice) - 1]
-                    is_correct = user_answer in current_entry.translations
-                    
-                    if is_correct:
-                        print('correct', end='\n\n')
+                elif is_proper_answer(user_choice):  # answer
+                    user_answers = [synonyms[int(x) - 1] for x in answer_parsed(user_choice)]
+
+                    correct_answers =   [answer for answer in user_answers if answer in     current_entry.translations]
+                    incorrect_answers = [answer for answer in user_answers if answer not in current_entry.translations]
+
+                    for answer in correct_answers:
+                        print(f'{answer} is correct', end='\n\n')
                         
                         continue_current_translation = not last_translation
-                        
-                        dictionary.remove_single_translation(current_entry, user_answer)
+
+                        db_handler.update_db(head_raw=full_header,
+                                             example=current_entry.example,
+                                             number_of_translations_total=translations_number,
+                                             translations_left=current_entry.translations,
+                                             user_answer=answer, was_correct=True)
+
+                        dictionary.remove_single_translation(current_entry, answer)
                         if dictionary.length() % 10 == 0:
                             print(f'words left in dictionary: {dictionary.length()}', end='\n\n')
-                    else:
-                        print('wrong. try again')
 
-                    db_handler.update_db(head_raw=full_header,
-                                        example=current_entry.example,
-                                        number_of_translations_total=translations_number, 
-                                        translations_left=current_entry.translations, 
-                                        user_answer=user_answer, was_correct=is_correct)
+                    for answer in incorrect_answers:
+                        print(f'{answer} is wrong', end='\n\n')
+
+                        db_handler.update_db(head_raw=full_header,
+                                             example=current_entry.example,
+                                             number_of_translations_total=translations_number,
+                                             translations_left=current_entry.translations,
+                                             user_answer=answer, was_correct=False)
                 else:
                     print('invalid response. try again')
             except Exception as e:
