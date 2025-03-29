@@ -1,5 +1,7 @@
 TODO
 
+dodać widoki podsumowujące sesje reversed translation
+
 reversed jak jest skip:
 Exception occurred: list index out of range
 

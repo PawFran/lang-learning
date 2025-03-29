@@ -1645,7 +1645,7 @@ captus, capta, captum [adj]
 
 rĕtĭnĕo, rĕtĭnēre, retinui, retentum [verb] [II]
 ()
-1. zatrzymywać
+1. zatrzymywać, powstrzymywać, nie puszczać
 
 ăvis, avis [noun] [f] [III]
 ()
@@ -3450,7 +3450,7 @@ rĕpentĕ [adv]
 
 consisto, consistĕre, constiti [verb] [III]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
-1. zatrzymać się, przestać
+1. zatrzymać się, stanąć w miejscu
 
 sensim [adv]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
