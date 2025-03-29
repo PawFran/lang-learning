@@ -3457,7 +3457,7 @@ sensim [adv]
 
 plăcĭdē [adv]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
-1. delikatnie, spokojnie, stopniowo
+1. spokojnie, łagodnie, bez gniewu
 
 tamquăm [adv]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
@@ -3481,7 +3481,7 @@ crūs, cruris [noun] [n] [III]
 
 lēnĭtĕr [adv]
 (Tum leo caudam more canum placide movet cruraque et manum hominis linqua leniter tangit)
-1. delikatnie, łagodnie, lekko, nieznacznie
+1. delikatnie, łagodnie, miękko
 
 blandīmentum, blandimenti [noun] [n] [II]
 (Androclus inter illa blandimenta ferocis bestiae amissum animum recuperat paulatimque oculos ad leonem vertit)
@@ -3676,8 +3676,7 @@ victŭs, victūs [noun] [m] [IV]
 
 vīvesco, vīvescĕre, vixi [verb] [III]
 (Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
-1. ożyć
-2. zacząć żyć
+1. ożyć, zacząć żyć
 
 membrum, membri [noun] [n] [II]
 (Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])

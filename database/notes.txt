@@ -2,7 +2,9 @@ TODO
 
 dodać widoki podsumowujące sesje reversed translation
 
-moze chatgpt do tlumaczen ? moze jedno i drugie i mozna wybrac ?
+moze chatgpt do tlumaczen ? moze jedno i drugie i mozna wybrac ? wydaja sie duzo lepsze niz ze slownika i wiele dodatkowych informacji
+
+zapisac wszystkie porownania jakie zrobil chat (w stylu placide vs leniter)
 
 reversed jak jest skip:
 Exception occurred: list index out of range
