@@ -1,5 +1,7 @@
 TODO
 
+incĭto vs excĭto tłumaczenia
+
 reversed jak jest skip:
 Exception occurred: list index out of range
 
@@ -12,6 +14,15 @@ english wymaga poprawy - zawsze powinna byc bazowa forma. patrz:
 powinno dac retract jako slowo nie retracted
 dodac kontekst zdania do prompta jesli nie ma
 nie powinien dawac zadnych komentarzy w stylu "If you need more information or have another word in mind, feel free to ask!"
+
+napisać scraper w haskellu
+* przetestować go na całym słowniku
+* trzymać więcej metadanych i zrozumieć ich znaczenie, np. intransitive verb, semi-deponent
+
+jak obsłużyć coś takiego teraz w słowniku ?
+gaudĕo, gaudēre, gavisus –a –um sum, gavisum [verb] [II]
+(Amicum meum Varsoviam iam esse gaudeo)
+1. cieszyć się, radować się
 
 w pierwszej wersji podawac pelna forme slownikowa do tlumaczenia. w kolejnej byc moze dowolno forme, albo forme wzieta z przykladow i pytac tez o to, jaka jest podstawowa forma slownikowa. a docelowo jeszcze byc moze jaka to jest forma podana
 

@@ -116,7 +116,7 @@ if __name__ == "__main__":
                         print(f'words left in dictionary: {dictionary.length()}', end='\n\n')
 
                     for answer in incorrect_answers:
-                        print(f'{answer} is wrong', end='\n\n')
+                        print(f'"{answer}" is wrong', end='\n\n')
 
                         db_handler.update_db(head_raw=full_header,
                                              example=current_entry.example,
