@@ -559,7 +559,7 @@ dīlĭgentĕr [adv]
 
 copiae, ārum [noun] [f] [I] [pl]
 ()
-1. wojsko
+1. wojsko, siły zbrojne
 
 litterae, ārum [noun] [f] [I] [pl]
 ()
@@ -3691,7 +3691,6 @@ fĕra, ferae [noun] [f] [I]
 cōpĭa, copiae [noun] [f] [I]
 (Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])
 1. zasób, zapas
-2. wojsko, siły zbrojne (l.m)
 
 mĕrīdĭānus, meridiană, meridianum [adj]
 (Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])
