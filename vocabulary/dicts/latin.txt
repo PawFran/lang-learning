@@ -2923,7 +2923,7 @@ somnus, somni [noun] [m] [II]
 1. sen
 
 excĭto, excĭtāre, excitāvī, excitātum [verb] [I]
-(Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
+(Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat. Ea re tam admirabili clamores populi excitati sunt)
 1. obudzić, wywoływać (ze spoczynku, z bezruchu itp.)
 
 lux, lucis [noun] [f] [III]
@@ -3521,10 +3521,6 @@ admīrābĭlis, admirabilis, admirabile [adj]
 clāmŏr, clamoris [noun] [m] [III]
 (Ea re tam admirabili clamores populi excitati sunt)
 1. krzyk, zgiełk, hałas (ludzki)
-
-excĭto, excĭtāre, excitavi, excitatum [verb] [I]
-(Ea re tam admirabili clamores populi excitati sunt)
-1. obudzić, pobudzić, powodować
 
 ătrox, ătrox, ătrox [adj]
 (Cur ille atrocissimus tibi perpercit ?)
