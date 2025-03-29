@@ -260,8 +260,7 @@ placeō, placēre, placuī, placitum [verb] [II]
 
 per [prep]
 (Per aspera ad astra)
-1. przez (+ acc)
-2. wzdłuż (+ acc)
+1. przez (coś, kogoś), za pomocą (+ acc)
 
 notus, nota, notum [adj]
 (Notum est dictum Polonum)
@@ -3531,10 +3530,10 @@ obtĭnĕo, obtĭnēre, obtinui, obtentum [verb] [II]
 1. utrzymywać, zachowywać
 2. mieć, dzierżyć, sprawować
 
-ăb [prep]
+a / ăb [prep]
 (Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
-1. (strona bierna) przez (+ abl)
-2. (czas) od (+ abl)
+1. od (+ abl) (miejsca, czas itp.)
+2. przez (+ abl) (sprawca w stronie biernej)
 
 ille, illa, illud [pron]
 (Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
