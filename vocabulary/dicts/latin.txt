@@ -2307,7 +2307,7 @@ rīsŭs, risūs [noun] [m] [IV]
 
 cognosco, cognoscĕre, cognovi, cognitum [verb] [III]
 (Per risum multum poteris cognoscere stultum)
-1. rozpoznać, dowiedzieć się
+1. poznać, dowiedzieć się
 
 ĭneptus, ineptă, ineptum [adj]
 (Risu inepto res ineptior nulla est)
@@ -3378,7 +3378,7 @@ cīvĭtās, civitatis [noun] [f] [III]
 
 explōro, explōrāre, exploravi, exploratum [verb] [I]
 (Dux milites exploratum misit)
-1. poszukiwać, odkrywać, rozpoznać, zbadać
+1. poszukiwać, odkrywać, rozpoznawać (np. teren), badać
 
 expugno, expugnāre, expugnavi, expugnatum [verb] [I]
 (Hostis Romae appropinquavit urbem expugnatum)
@@ -3426,7 +3426,7 @@ magnĭtūdo, magnitudinis [noun] [f] [III]
 
 terrĭbĭlis, terribilis, terribile [adj]
 (Leo corporis magnitudine terribilique voce oculos omnium in se convertit)
-1. przerażający, straszny
+1. przerażający, straszny, budzący lęk
 
 converto, convertĕre, converti, conversum [verb] [III]
 (Leo corporis magnitudine terribilique voce oculos omnium in se convertit)
@@ -3520,7 +3520,7 @@ clāmŏr, clamoris [noun] [m] [III]
 
 ătrox, ătrox, ătrox [adj]
 (Cur ille atrocissimus tibi perpercit ?)
-1. okrutny, dziki, straszny
+1. potworny, okrutny, dziki
 
 prōconsŭlāris, proconsularis, proconsulare [adj]
 (Dominus meus provinciam Africam proconsulari imperio obtinebat)
