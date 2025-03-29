@@ -2245,8 +2245,8 @@ dĭēs, diei [noun] [m/f] [V]
 
 sĕrēnus, serenă, serenum [adj]
 (Venit post multos annos una serena dies)
-1. pogodny, spokojny
-2. wesoły, zadowolony
+1. spokojny, pogodny (np. nastrój, pogoda)
+2. przejrzysty, bezchmurny
 
 dŏmestĭcus, domestică, domesticum [adj]
 (Quid est domestica sede iucundius)
@@ -3498,7 +3498,7 @@ rĕcŭpĕro, rĕcŭpĕrāre, recuperavi, recuperatum [verb] [I]
 
 paulātim [adv]
 (Androclus inter illa blandimenta ferocis bestiae amissum animum recuperat paulatimque oculos ad leonem vertit)
-1. stopniowo, niewielka ilość na raz, kawałek po kawałku
+1. stopniowo, po trochu, kawałek po kawałku
 
 verto, vertĕre, verti, versum [verb] [III]
 (Androclus inter illa blandimenta ferocis bestiae amissum animum recuperat paulatimque oculos ad leonem vertit)
@@ -3615,7 +3615,7 @@ postquăm [conj]
 
 mītis, mitis, mite [adj]
 (Qui postquam vidit me, mitis accessit ac pedem suum mihi ostendit)
-1. łagodny, delikatny, spokojny
+1. łagodny, delikatny, przyjazny
 
 ostendo, ostendĕre, ostendi, ostentum [verb] [III]
 (Qui postquam vidit me, mitis accessit ac pedem suum mihi ostendit)

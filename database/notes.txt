@@ -2,6 +2,8 @@ TODO
 
 dodać widoki podsumowujące sesje reversed translation
 
+moze chatgpt do tlumaczen ? moze jedno i drugie i mozna wybrac ?
+
 reversed jak jest skip:
 Exception occurred: list index out of range
 
