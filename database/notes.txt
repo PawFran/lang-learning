@@ -6,6 +6,9 @@ Exception occurred: list index out of range
 i declension, conjugation - cwiczenie odwrotne. bedzie prosciej ale tez jest kilka mozliwych odpowiedzi
 
 w wyszukiwaniu synonimow sprawic, zeby zgadzal sie zawsze rodzaj slowa (czesc mowy)
+trzeba bedzie tlumaczeniom przypisac czesci mowy. czy jedno moze miec wiele ?
+
+dodac opcje komentarza do slow lub zdań lub tłumaczeń w słowniku - np. atque, ac
 
 english wymaga poprawy - zawsze powinna byc bazowa forma. patrz:
 (These universities have the most \retracted\ scientific articles) [Nature on FB]

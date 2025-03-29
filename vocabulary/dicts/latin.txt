@@ -333,9 +333,9 @@ iūmentum, iūmenti [noun] [n] [II]
 (Servi hortum atque iumenta curabat)
 1. zwierzę pociągowe
 
-atque [conj]
-(Servi hortum atque iumenta curabat)
-1. i
+atque / ăc [conj]
+(Servi hortum atque iumenta curabat. Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit - ac przed spółgłoskami z wyjątkiem 'h')
+1. i, a także, a ponadto
 
 liber, libri [noun] [n] [II]
 (Vir rusticus libros arāre docēbat)
@@ -3451,10 +3451,6 @@ rĕpentĕ [adv]
 consisto, consistĕre, constiti [verb] [III]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
 1. zatrzymać się, przestać
-
-ăc [conj]
-(Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
-1. (zwykle przed spółgłoskami) i, a także, a ponadto
 
 sensim [adv]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
