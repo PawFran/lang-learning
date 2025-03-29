@@ -58,12 +58,12 @@ if __name__ == "__main__":
         continue_current_translation = True
         while continue_current_translation:
             translations_left = len(current_entry.translations)
-            last_translation = translations_left == 1
-            
+
             print(f'translations left: {translations_left}')
 
             try:
                 user_translation = input('translation (or \'s\' for skip): ')
+                synonyms: list[str] = []
 
                 if user_translation.lower().strip() == 's':
                     user_choice = 's'
@@ -105,8 +105,9 @@ if __name__ == "__main__":
 
                     for answer in correct_answers:
                         print(f'"{answer}" is correct', end='\n\n')
-                        
-                        continue_current_translation = not last_translation
+
+                        # check if current translation is not the last one for current word
+                        continue_current_translation = len(current_entry.translations) > 1
 
                         db_handler.update_db(head_raw=full_header,
                                              example=current_entry.example,
