@@ -1,7 +1,5 @@
 TODO
 
-incĭto vs excĭto tłumaczenia
-
 reversed jak jest skip:
 Exception occurred: list index out of range
 

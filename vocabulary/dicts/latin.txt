@@ -121,7 +121,7 @@ nāvigo, nāvigāre, nāvigāvī, nāvigātum [verb] [I]
 
 divitiae, divitiārum [noun] [f] [I] [pl]
 (Fabri patriae divitias parant)
-1. bogactwa
+1. bogactwa (materialne)
 
 paro, parāre, parāvī, parātum [verb] [I]
 (Fabri patriae divitias parant)
@@ -3694,8 +3694,8 @@ fĕra, ferae [noun] [f] [I]
 
 cōpĭa, copiae [noun] [f] [I]
 (Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])
-1. obfitość
-2. zasoby, bogactwo
+1. zasób, zapas
+2. wojsko, siły zbrojne (l.m)
 
 mĕrīdĭānus, meridiană, meridianum [adj]
 (Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])
