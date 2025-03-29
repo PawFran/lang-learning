@@ -2335,7 +2335,7 @@ impĕtŭs, impetūs [noun] [m] [IV]
 
 incĭto, incĭtāre, incitāvī, incitātum [verb] [I]
 (Imperator spem civium incitat)
-1. pobudzić
+1. pobudzać (np. do działania), podburzać, zachęcać, wzniecać
 
 rĕdĭtŭs, reditūs [noun] [m] [IV]
 (Omnes reditum exercitus victoris exspectans)
@@ -2924,7 +2924,7 @@ somnus, somni [noun] [m] [II]
 
 excĭto, excĭtāre, excitāvī, excitātum [verb] [I]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
-1. obudzić, pobudzić
+1. obudzić, wywoływać (ze spoczynku, z bezruchu itp.)
 
 lux, lucis [noun] [f] [III]
 (Vilica ancillas ad laborem prima luce cogebat)
