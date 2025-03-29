@@ -1925,7 +1925,7 @@ pollex, pollicis [noun] [m] [III]
 
 iăcĕo, iăcēre, iacui [verb] [II]
 (Sed plerusque pollice verso mortem iacenti humi indicabat)
-1. leżeć, położyć się
+1. leżeć
 
 verso, versāre, versāvī, versātum [verb] [I]
 (Sed plerusque pollice verso mortem iacenti humi indicabat)
@@ -3660,7 +3660,7 @@ tunc [adv]
 
 rĕcumbo, rĕcumbĕre, recubui [verb] [III]
 (Ille tunc recubuit et quievit)
-1. położyć się, uspokoić się
+1. położyć się
 
 quĭesco, quĭescĕre, quievi, quietum [verb] [III]
 (Ille tunc recubuit et quievit)
