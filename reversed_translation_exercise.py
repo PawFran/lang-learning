@@ -63,11 +63,14 @@ if __name__ == "__main__":
             print(f'translations left: {translations_left}')
 
             try:
-                user_translation = input('translation: ')
-                
-                synonyms: list[str] = synonym_finder.similar_translations(user_translation, n=synonyms_number)
-                print_all(synonyms)
-                user_choice = input('choose answers (digits separated by space) or try again (a) or skip (s) or terminate (t): ').strip()
+                user_translation = input('translation (or \'s\' for skip): ')
+
+                if user_translation.lower().strip() == 's':
+                    user_choice = 's'
+                else:
+                    synonyms: list[str] = synonym_finder.similar_translations(user_translation, n=synonyms_number)
+                    print_all(synonyms)
+                    user_choice = input('choose answers (digits separated by space) or try again (a) or skip (s) or terminate (t): ').strip()
                 
                 if user_choice == 'a':  # try again
                     continue
