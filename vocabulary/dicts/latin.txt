@@ -3390,7 +3390,7 @@ initio [adv]
 
 postĕā [adv]
 (Verum consilium initio auditu grave postea iucundum erit)
-1. później
+1. potem, później
 
 ōrācŭlum, oraculi [noun] [n] [II]
 (Tarquinius legatos misit Delphos oraculum consultum)
@@ -3599,12 +3599,11 @@ multō [adv]
 
 post [prep]
 ()
-1. po, za czymś, z tyłu (lokalizacja)
-2. po, później (czas)
+1. po (za czymś, z tyłu - lokalizacja), po (później - czas)
 
 post [adv]
 (Neque multo post ad eundem specum venit hic leo cruento pede)
-1. za, później, po
+1. potem, później
 
 hīc [pron]
 (Neque multo post ad eundem specum venit hic leo cruento pede)
