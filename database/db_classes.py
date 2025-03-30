@@ -607,6 +607,55 @@ class TranslationLastUninterruptedSession(View):
 views.append(TranslationLastUninterruptedSession)
 
 
+class ReversedTranslationLastUninterruptedSession(View):
+    __view_name__ = 'reversed_translation_last_uninterrupted_session'
+    __view_query__ = f"""
+            SELECT * FROM {ReversedTranslationExerciseResults.__tablename__}
+            WHERE session_id = (
+                SELECT max(session_id) FROM (
+                    SELECT res.*, metadata.interrupted 
+                    FROM {ReversedTranslationExerciseResults.__tablename__} res
+                    JOIN {ReversedTranslationExerciseSessionMetadata.__tablename__} metadata
+                        ON res.session_id = metadata.session_id
+                    WHERE metadata.interrupted = False
+                ) not_interrupted_sessions
+            )
+        """
+
+views.append(ReversedTranslationLastUninterruptedSession)
+
+
+class ReversedTranslationLastUninterruptedSessionHardWords(View):
+    __view_name__ = 'reversed_translation_last_uninterrupted_session_hard_words'
+    __view_query__ = f"""
+            SELECT DISTINCT ON (hard.word_asked, hard.user_answer, hard.example, hard.wrong_answers_counter) 
+                hard.word_asked, hard.user_answer, hard.example, hard.wrong_answers_counter 
+            FROM 
+                (SELECT word_asked, user_answer, example, COUNT(*) AS wrong_answers_counter
+                FROM {ReversedTranslationLastUninterruptedSession.__view_name__}
+                WHERE is_correct = FALSE
+                GROUP BY word_asked, user_answer, example) hard
+            ORDER BY wrong_answers_counter DESC
+        """
+
+views.append(ReversedTranslationLastUninterruptedSessionHardWords)
+
+
+class ReversedTranslationLastUninterruptedSessionEasyWords(View):
+    __view_name__ = 'reversed_translation_last_uninterrupted_session_easy_words'
+    __view_query__ = f"""
+            SELECT word_asked, user_answer, example 
+            FROM {ReversedTranslationLastUninterruptedSession.__view_name__} 
+            WHERE word_asked NOT IN (
+                SELECT DISTINCT(word_asked) 
+                FROM {ReversedTranslationLastUninterruptedSession.__view_name__} 
+                WHERE is_correct = FALSE
+            )
+        """
+
+views.append(ReversedTranslationLastUninterruptedSessionEasyWords)
+
+
 class TranslationLastUninterruptedSessionHardWords(View):
     __view_name__ = 'translation_last_uninterrupted_session_hard_words'
     __view_query__ = f"""
