@@ -74,3 +74,15 @@ Zarówno **"divitiae"** jak i **"copia" (lub pluralis: "copiae")** mogą dotyczy
 | Liczba          | tylko liczba mnoga                      | liczba pojedyncza i mnoga                          |
 | Kontekst        | luksus, majątek                         | dostępność czegoś, zasoby, siła militarna          |
 | Użycie przykładowe | *divitiae Romae* – bogactwa Rzymu      | *copia aquae* – zapas wody, *copiae* – wojska      |
+
+### postea vs post
+
+**postea** – oznacza *"potem, później"*, odnosi się do przyszłości względem jakiegoś momentu, np. wydarzenia. Używane w sensie czasowym, jako przysłówek.
+
+> *Postea venit domum.* – Potem przyszedł do domu.
+
+**post** – również oznacza *"po"*, ale pełni funkcję przyimka z ablativem, wskazując kolejność w czasie lub przestrzeni.
+
+> *Post cenam ambulavit.* – Po kolacji poszedł na spacer.
+
+**podsumowanie**: *postea* to przysłówek używany samodzielnie, wskazujący kolejność wydarzeń. *post* to przyimek, który wymaga dopełnienia i wskazuje na coś, co nastąpiło po czymś innym.
