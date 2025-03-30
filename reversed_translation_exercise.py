@@ -2,6 +2,12 @@
 
 import time
 
+from sqlalchemy import text
+from sqlalchemy.orm import Session
+
+from database.db_classes import ReversedTranslationLastUninterruptedSessionHardWords
+from environment import engine
+
 from actions.translation import REVERSED_TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, REVERSED_TRANSLATION_SESSION_METADATA_CSV_PATH
 from common.lib.utils import DEFAULT_USER_NAME
 from database.initialize_db import default_db_initialization
@@ -25,6 +31,28 @@ if __name__ == "__main__":
     dictionary: Dictionary = parse_dictionary(args)
     if args.filter is not None:
         dictionary = dictionary.filter_by_complex_condition(args.filter)
+
+    if args.revise_last_session:
+        print('revising last session, arguments like start/end word and filtered parts of speech are ignored')
+        with Session(engine) as session:
+            hard_words_raw = session.execute(text(ReversedTranslationLastUninterruptedSessionHardWords.__view_query__)).all()
+            hard_words = [x[0] for x in hard_words_raw]
+            if len(hard_words) > 0:
+                print(f"Found {len(hard_words)} difficult words from last session to review")
+            else:
+                print("No difficult words found from last session")
+
+        # Filter dictionary to only include words that were difficult in last session
+        filtered_entries = []
+        for word in hard_words:
+            found = False
+            for entry in dictionary.entries:
+                if entry.head.head_raw == word:
+                    filtered_entries.append(entry)
+                    found = True
+            if not found:
+                print(f'''couldn't find {word} in dictionary''')
+        dictionary = Dictionary(entries=filtered_entries, lang=dictionary.lang)
 
     print(f'number of words in dictionary: {dictionary.length()}', end='\n\n')
 
