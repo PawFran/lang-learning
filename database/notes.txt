@@ -1,13 +1,20 @@
 TODO
 
+nagle vs niespodziewanie, nieoczekiwanie, nagle
+czyli sŭbĭtō vs rĕpentĕ
+
+1. pokazywać
+2. pokazać
+3. wskazywać
+czyli monstrō vs ostendo vs indĭco
+
+czasem synonimy dzialaja kiepsko (np 'widowisko'). uzyc LLM ?
+
 dodać widoki podsumowujące sesje reversed translation
 
 moze chatgpt do tlumaczen ? moze jedno i drugie i mozna wybrac ? wydaja sie duzo lepsze niz ze slownika i wiele dodatkowych informacji
 
 zapisac wszystkie porownania jakie zrobil chat (w stylu placide vs leniter)
-
-reversed jak jest skip:
-Exception occurred: list index out of range
 
 i declension, conjugation - cwiczenie odwrotne. bedzie prosciej ale tez jest kilka mozliwych odpowiedzi
 
@@ -25,6 +32,7 @@ nie powinien dawac zadnych komentarzy w stylu "If you need more information or h
 napisać scraper w haskellu
 * przetestować go na całym słowniku
 * trzymać więcej metadanych i zrozumieć ich znaczenie, np. intransitive verb, semi-deponent
+* może nie ma to sensu skoro chatgpt bardzo dobrze to podsumowuje
 
 jak obsłużyć coś takiego teraz w słowniku ?
 gaudĕo, gaudēre, gavisus –a –um sum, gavisum [verb] [II]
