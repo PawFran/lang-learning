@@ -2566,7 +2566,7 @@ conspĭcĭo, conspĭcĕre, conspexi, conspectum [verb] [III]
 
 sŭbĭtō [adv]
 (Duo amici subito procul ursum appropinquantem conspexerunt)
-1. nagle
+1. nagle, niespodziewanie
 
 altĕr [pron]
 (Alter ex iis celeriter arborem ascendit)
@@ -3443,7 +3443,7 @@ consŭlāris, consularis, consulare [adj]
 
 rĕpentĕ [adv]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
-1. niespodziewanie, nieoczekiwanie, nagle
+1. nagle, niespodziewanie
 
 consisto, consistĕre, constiti [verb] [III]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
