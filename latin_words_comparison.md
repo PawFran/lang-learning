@@ -87,40 +87,93 @@ Zarówno **"divitiae"** jak i **"copia" (lub pluralis: "copiae")** mogą dotyczy
 
 **podsumowanie**: *postea* to przysłówek używany samodzielnie, wskazujący kolejność wydarzeń. *post* to przyimek, który wymaga dopełnienia i wskazuje na coś, co nastąpiło po czymś innym.
 
+### atque vs ac
+
+**Znaczenie:** oba znaczą „i”, „oraz”
+
+**Kontekst składniowy:**  
+- **atque**: częstsze, bardziej uniwersalne, używane również po wyrażeniach porównawczych.
+- **ac**: używane przed wyrazami zaczynającymi się na spółgłoski (z wyjątkiem h), częściej w stylu poetyckim.
+
+**Przykłady:**  
+- pater atque filius – ojciec i syn  
+- virtus ac sapientia – cnota i mądrość
+
+→ *ac* to krótsza forma *atque*, różnica głównie rytmiczna/stylistyczna.
+
+**Porównanie w skrócie:**
+
+|             | atque                        | ac                          |
+|-------------|------------------------------|-----------------------------|
+| Znaczenie   | i, oraz                      | i, oraz                     |
+| Użycie      | bardziej uniwersalne         | przed spółgłoskami (z wyjątkiem h) |
+| Styl        | prozaiczny, formalny         | poetycki, rytmiczny        |
+
 ---
 
-### **consto** vs **consisto**
+### terrĭbĭlis vs ătrox
 
-**consto**  
-**Formy**: constare, constiti, —  
-**Znaczenia**:
-1. **składać się z czegoś** (*ex aliqua re constare*)  
-2. **kosztować** (*constare aliquo pretio* – „kosztować jakąś cenę”)  
-3. **być ustalonym**, **niezmiennym**, np. *res constat* – „rzecz jest pewna”
-4. **być zgodnym**, **być spójnym**
+**terrĭbĭlis, -e**  
+**Znaczenie:** przerażający, budzący lęk  
+**Kontekst emocjonalny:** podkreśla reakcję strachu lub trwogi
 
-**Przykłady**:
-- *Vita hominis ex laboribus constat.* – Życie człowieka składa się z trudów.  
-- *Hoc constat.* – To jest ustalone / bezsporne.  
-- *Haec domus decem milibus constat.* – Ten dom kosztuje 10 tysięcy.
+**Przykład:**  
+- *terribilis clamor* – przerażający krzyk  
+- *leo terribilis* – lew budzący grozę  
+→ Używane, gdy coś **robi wrażenie swoją siłą, wyglądem lub dźwiękiem**
 
-**consisto**  
-**Formy**: consistere, constiti, —  
-**Znaczenia**:
-1. **zatrzymywać się**, **stawać w miejscu** (*in loco consistere*)
-2. **stanąć**, np. na stanowisku, w opozycji (*consistere contra hostem*)  
-3. **trwać**, **utrzymywać się** (np. warunek, stanowisko)
-4. **opierać się na czymś**, **polegać na czymś** (*in aliqua re consistere*)
+**ătrox, -ocis**  
+**Znaczenie:** okrutny, dziki, bezwzględny  
+**Kontekst moralny:** brutalność, potworność, okrucieństwo
 
-**Przykłady**:
-- *Consistit in medio campo.* – Stoi pośrodku pola.  
-- *Consistit in virtute.* – Opiera się na cnocie.  
-- *Milites in via constiterunt.* – Żołnierze zatrzymali się na drodze.
+**Przykład:**  
+- *bellum atrox* – okrutna wojna  
+- *iudicium atrox* – bezlitosny wyrok  
+→ Używane, gdy coś jest **moralnie złe, brutalne lub dzikie**
 
-**Różnice w skrócie**:
+**Porównanie w skrócie:**
 
-|                | **consto**                                | **consisto**                               |
-|----------------|--------------------------------------------|---------------------------------------------|
-| Znaczenie główne | być ustalonym / kosztować / składać się z | stanąć / zatrzymać się / opierać się na czymś |
-| Typ działania  | bardziej abstrakcyjne, stan rzeczy         | bardziej fizyczne lub dynamiczne działanie   |
-| Czasownik typu | stan, fakt                                 | czynność, zatrzymanie                        |
+|            | terribilis               | atrox                      |
+|------------|--------------------------|----------------------------|
+| Znaczenie  | straszny, przerażający   | okrutny, dziki, brutalny   |
+| Nacisk     | efekt na emocje (strach) | brutalność i ocena moralna |
+| Przykład   | potworna burza, krzyk    | wojna, wyrok               |
+
+---
+
+### rĕtĭnĕo vs consisto
+
+**rĕtĭnĕo**
+
+**Znaczenie**: zatrzymywać, powstrzymywać, trzymać
+
+**Kontekst**: Podkreśla akt fizycznego lub mentalnego zatrzymania czegoś lub kogoś.
+
+**Przykład:**
+
+- retinere lacrimas – powstrzymać łzy
+- hostes retinere – zatrzymać wrogów
+
+➔ Używane, gdy coś jest trzymane, nie pozwala się temu ruszyć dalej.
+
+**consisto**
+
+**Znaczenie**: zatrzymywać się, stawać, stanąć
+
+**Kontekst**: Odnosi się do zatrzymania się przez podmiot (osobę lub rzecz).
+
+**Przykład:**
+
+- consistere in via – zatrzymać się na drodze
+- milites consistunt – żołnierze się zatrzymują
+
+➔ Używane, gdy coś się samo zatrzymuje, staje w miejscu.
+
+**Porównanie w skrócie:**
+
+
+|  | rĕtĭnĕo | consisto |
+| --- | --- | --- |
+| Znaczenie | zatrzymywać, powstrzymywać, trzymać | zatrzymywać się, stawać, stanąć |
+| Nacisk | utrzymanie, powstrzymanie | zatrzymanie się podmiotu |
+| Przykład | powstrzymywanie łez, wrogów | osoba się zatrzymuje |
