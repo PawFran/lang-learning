@@ -3590,7 +3590,8 @@ multō [adv]
 
 post [prep]
 ()
-1. po (za czymś, z tyłu - lokalizacja), po (później - czas)
+1. po (za czymś, z tyłu - lokalizacja)
+2. po (czymś - czas)
 
 post [adv]
 (Neque multo post ad eundem specum venit hic leo cruento pede)
@@ -3598,7 +3599,7 @@ post [adv]
 
 hīc [pron]
 (Neque multo post ad eundem specum venit hic leo cruento pede)
-1. ten tutaj, ten oto
+1. ten, ten tutaj, ten oto, ten bliższy
 
 crŭentus, cruentă, cruentum [adj]
 (Neque multo post ad eundem specum venit hic leo cruento pede)
