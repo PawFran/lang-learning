@@ -48,7 +48,7 @@ concordia, concordiae [noun] [I] [f]
 
 monstrō, monstrāre, monstrāvi, monstrātum [verb] [I]
 (Servis dominus hortum monstrat)
-1. pokazywać
+1. pokazywać (fizycznie, ale też uczyć, pouczać, objaśniać)
 
 cūrō, cūrāre, cūrāvi, cūrātum [verb] [I]
 (O servi, Spartacus fortūna vestrae curat!)
@@ -2438,7 +2438,7 @@ dux, ducis [noun] [m/f] [III]
 
 ostendo, ostendĕre, ostendi, ostentum/ostensum [verb] [III]
 (Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
-1. pokazać
+1. pokazywać (fizycznie, ale też uczyć, pouczać, objaśniać)
 
 ălĭquandō [adv]
 (Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
@@ -3432,6 +3432,7 @@ converto, convertĕre, converti, conversum [verb] [III]
 intrōdūco, intrōdūcĕre, introduxi, introductum [verb] [III]
 (Introductus est inter complures servus viri consularis)
 1. wprowadzać
+2. przedstawiać
 
 complūres, complurĭum [noun] [m] [pl] [III]
 (Introductus est inter complures servus viri consularis)
