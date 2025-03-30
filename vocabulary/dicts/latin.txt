@@ -3622,7 +3622,8 @@ ostendo, ostendĕre, ostendi, ostentum [verb] [III]
 
 spīna, spinae [noun] [f] [I]
 (Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
-1. (roślina i zwierzę) cierń, kręgosłup, kolce
+1. cierń, kolec
+2. kręgosłup
 
 is [pron]
 (Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
