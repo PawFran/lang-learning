@@ -12,6 +12,7 @@ def parse_args():
     parser.add_argument('-t', '--top', action='store')
     parser.add_argument('-f', '--filter', action='store')
     parser.add_argument('-r', '--revise_last_session', action='store_true') # take only words from last session which were not answered correctly at first time
+    parser.add_argument('-n', '--number_of_synonyms', action='store')
     return parser.parse_args()
 
 
