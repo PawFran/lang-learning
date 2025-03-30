@@ -1153,7 +1153,7 @@ mărĕ, maris [noun] [n] [III]
 
 longinquus, longinquă, longinquum [adj]
 ()
-1. odległy
+1. daleki, odległy (w przestrzeni lub czasie)
 
 caelum, caeli [noun] [n] [II] [sing]
 ()
@@ -3581,7 +3581,7 @@ spĕcŭs, specūs [noun] [m] [IV]
 
 rĕmōtus, remotă, remotum [adj]
 (Aliquando specum remotum inveni ibique intravi)
-1. odległy, daleki
+1. oddalony, odsunięty
 2. usunięty, wycofany
 
 multō [adv]
