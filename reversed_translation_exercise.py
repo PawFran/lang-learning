@@ -12,7 +12,8 @@ from utils.lib.utils import print_all, is_proper_answer, answer_parsed
 if __name__ == "__main__":
     args = parse_args()
 
-    synonyms_number = 3
+    DEFAULT_SYNONYMS_NUMBER = 3
+    synonyms_number = args.number_of_synonyms if args.number_of_synonyms is not None else DEFAULT_SYNONYMS_NUMBER
 
     if args.user_name is None:
         args.user_name = DEFAULT_USER_NAME

@@ -332,7 +332,7 @@ iūmentum, iūmenti [noun] [n] [II]
 (Servi hortum atque iumenta curabat)
 1. zwierzę pociągowe
 
-atque / ăc [conj]
+atque/ăc [conj]
 (Servi hortum atque iumenta curabat. Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit - ac przed spółgłoskami z wyjątkiem 'h')
 1. i, a także, a ponadto
 
@@ -764,11 +764,6 @@ custōdĭa, custodiae [noun] [f] [I]
 apprŏpinquo, apprŏpinquāre, appropinquāvī, appropinquātum [verb] [I]
 (Poeni vallo appropinquabunt)
 1. zbliżyć się (+ dat)
-
-a (ab) [prep]
-(Statim a custodiis cernentur)
-1. od (+ abl)
-2. przez (+ abl)
 
 tŭba, tubae [noun] [f] [I]
 (Signum tuba extemplo dabitur)
@@ -3128,7 +3123,7 @@ trŏpaeum, tropaei [noun] [n] [II]
 (Imperator tropaeum posuit illo loco, quo pridie pugnaverunt)
 1. trofeum
 
-pōno, pōnĕre, posui, positum / postum [verb] [III]
+pōno, pōnĕre, posui, positum/postum [verb] [III]
 (Imperator tropaeum posuit illo loco, quo pridie pugnaverunt)
 1. umieścić
 
@@ -3530,8 +3525,8 @@ obtĭnĕo, obtĭnēre, obtinui, obtentum [verb] [II]
 1. utrzymywać, zachowywać
 2. mieć, dzierżyć, sprawować
 
-a / ăb [prep]
-(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
+a/ăb [prep]
+(Statim a custodiis cernentur. Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
 1. od (+ abl) (miejsca, czas itp.)
 2. przez (+ abl) (sprawca w stronie biernej)
 

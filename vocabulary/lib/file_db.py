@@ -283,7 +283,7 @@ class ReversedTranslationExerciseCSVHandler(ExerciseCSVHandler):
                                 'word_asked': head_raw,
                                 'example': example,
                                 'translations_total_nr': number_of_translations_total,
-                                'translations_left': "\n".join(translations_left),
+                                'translations_left': " | ".join(translations_left),
                                 'user_answer': user_answer,
                                 'is_correct': was_correct,
                                 'time': dt.now().replace(microsecond=0)
