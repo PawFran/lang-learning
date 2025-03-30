@@ -87,93 +87,173 @@ Zarówno **"divitiae"** jak i **"copia" (lub pluralis: "copiae")** mogą dotyczy
 
 **podsumowanie**: *postea* to przysłówek używany samodzielnie, wskazujący kolejność wydarzeń. *post* to przyimek, który wymaga dopełnienia i wskazuje na coś, co nastąpiło po czymś innym.
 
-### atque vs ac
-
-**Znaczenie:** oba znaczą „i”, „oraz”
-
-**Kontekst składniowy:**  
-- **atque**: częstsze, bardziej uniwersalne, używane również po wyrażeniach porównawczych.
-- **ac**: używane przed wyrazami zaczynającymi się na spółgłoski (z wyjątkiem h), częściej w stylu poetyckim.
-
-**Przykłady:**  
-- pater atque filius – ojciec i syn  
-- virtus ac sapientia – cnota i mądrość
-
-→ *ac* to krótsza forma *atque*, różnica głównie rytmiczna/stylistyczna.
-
-**Porównanie w skrócie:**
-
-|             | atque                        | ac                          |
-|-------------|------------------------------|-----------------------------|
-| Znaczenie   | i, oraz                      | i, oraz                     |
-| Użycie      | bardziej uniwersalne         | przed spółgłoskami (z wyjątkiem h) |
-| Styl        | prozaiczny, formalny         | poetycki, rytmiczny        |
 
 ---
 
-### terrĭbĭlis vs ătrox
+### iaceō vs recumbō
 
-**terrĭbĭlis, -e**  
-**Znaczenie:** przerażający, budzący lęk  
-**Kontekst emocjonalny:** podkreśla reakcję strachu lub trwogi
+**iaceō, -ēre**
 
-**Przykład:**  
-- *terribilis clamor* – przerażający krzyk  
-- *leo terribilis* – lew budzący grozę  
-→ Używane, gdy coś **robi wrażenie swoją siłą, wyglądem lub dźwiękiem**
+**Znaczenie:** leżeć, znajdować się w pozycji poziomej  
+**Użycie:** opisywanie stanu spoczynku bez aktywnego ruchu, biernie
 
-**ătrox, -ocis**  
-**Znaczenie:** okrutny, dziki, bezwzględny  
-**Kontekst moralny:** brutalność, potworność, okrucieństwo
+**Przykład:**
+- corpus in terra iacet – ciało leży na ziemi
 
-**Przykład:**  
-- *bellum atrox* – okrutna wojna  
-- *iudicium atrox* – bezlitosny wyrok  
-→ Używane, gdy coś jest **moralnie złe, brutalne lub dzikie**
-
-**Porównanie w skrócie:**
-
-|            | terribilis               | atrox                      |
-|------------|--------------------------|----------------------------|
-| Znaczenie  | straszny, przerażający   | okrutny, dziki, brutalny   |
-| Nacisk     | efekt na emocje (strach) | brutalność i ocena moralna |
-| Przykład   | potworna burza, krzyk    | wojna, wyrok               |
+➤ Używane, gdy coś _leży_, często biernie, bez ruchu.
 
 ---
 
-### rĕtĭnĕo vs consisto
+**recumbō, -ere**
 
-**rĕtĭnĕo**
-
-**Znaczenie**: zatrzymywać, powstrzymywać, trzymać
-
-**Kontekst**: Podkreśla akt fizycznego lub mentalnego zatrzymania czegoś lub kogoś.
+**Znaczenie:** położyć się, opaść, zapaść się  
+**Użycie:** aktywna zmiana pozycji z siedzenia/stania do leżenia, często znużenie, odpoczynek
 
 **Przykład:**
+- recumbit post laborem – kładzie się po pracy
 
-- retinere lacrimas – powstrzymać łzy
-- hostes retinere – zatrzymać wrogów
-
-➔ Używane, gdy coś jest trzymane, nie pozwala się temu ruszyć dalej.
-
-**consisto**
-
-**Znaczenie**: zatrzymywać się, stawać, stanąć
-
-**Kontekst**: Odnosi się do zatrzymania się przez podmiot (osobę lub rzecz).
-
-**Przykład:**
-
-- consistere in via – zatrzymać się na drodze
-- milites consistunt – żołnierze się zatrzymują
-
-➔ Używane, gdy coś się samo zatrzymuje, staje w miejscu.
+➤ Używane, gdy coś _się kładzie_ – przechodzi do stanu spoczynku.
 
 **Porównanie w skrócie:**
 
+|                | iaceo               | recumbo                       |
+|----------------|---------------------|--------------------------------|
+| Znaczenie      | leżeć (biernie)      | położyć się (czynnie)         |
+| Czasownik      | stan bierny          | czynność przechodnia          |
+| Kontekst       | statyczny            | dynamiczny, związany z ruchem |
+| Przykład       | leżące ciało         | kładzenie się do odpoczynku   |
 
-|  | rĕtĭnĕo | consisto |
-| --- | --- | --- |
-| Znaczenie | zatrzymywać, powstrzymywać, trzymać | zatrzymywać się, stawać, stanąć |
-| Nacisk | utrzymanie, powstrzymanie | zatrzymanie się podmiotu |
-| Przykład | powstrzymywanie łez, wrogów | osoba się zatrzymuje |
+---
+
+### mītis vs sĕrēnus
+
+**mītis, -e**
+
+**Znaczenie:** łagodny, spokojny (np. osoba, charakter, reakcja)  
+**Kontekst:** odnosi się do natury osoby lub czegoś łagodnego w charakterze
+
+**Przykład:**
+- puer mitis – łagodny chłopiec  
+- mitis responsio – łagodna odpowiedź
+
+---
+
+**sĕrēnus, -a, -um**
+
+**Znaczenie:** pogodny, jasny, spokojny (np. niebo, dzień, nastrój)  
+**Kontekst:** odnosi się do pogody, atmosfery, nastroju
+
+**Przykład:**
+- caelum serenum – pogodne niebo  
+- dies serenus – spokojny dzień
+
+➤ _Mītis_ to łagodność w charakterze, _sĕrēnus_ to spokój zewnętrzny i jasność.
+
+**Porównanie w skrócie:**
+
+|                | mitis               | serenus                         |
+|----------------|---------------------|----------------------------------|
+| Znaczenie      | łagodny (osoba, zachowanie) | pogodny, jasny (niebo, dzień)     |
+| Zakres         | emocjonalno-moralny | opisowy, atmosferyczny          |
+| Przykład       | mitis puer          | caelum serenum                  |
+
+---
+
+### ab vs per vs a
+
+**ā / ab + abl.**
+
+**Znaczenie:** od, z dala od  
+**Funkcja:** określa punkt wyjścia, oddalenie, sprawcę (w stronie biernej)
+
+**Przykład:**
+- ab urbe – od miasta  
+- ab hoste vulneratus est – został zraniony przez wroga
+
+---
+
+**per + acc.**
+
+**Znaczenie:** przez, za pomocą  
+**Funkcja:** oznacza drogę, środek, sposób działania
+
+**Przykład:**
+- per viam – przez drogę  
+- per epistulam – za pomocą listu
+
+---
+
+**ā (krótsza forma ab)**
+
+**Znaczenie:** identyczne z ab, używana przed spółgłoskami  
+**Przykład:**  
+- a domino laudatus – pochwalony przez pana
+
+**Porównanie w skrócie:**
+
+|         | ab / a                      | per                          |
+|---------|-----------------------------|------------------------------|
+| Znaczenie | od, przez (biernik)        | przez (w sensie środka/drogi)|
+| Przypadek | ablativus                  | accusativus                  |
+| Kontekst | punkt wyjścia, sprawca     | środek, trasa, sposób        |
+| Przykład | ab urbe, a deo             | per viam, per litteras       |
+
+---
+
+### placidē vs leniter
+
+**placidē**
+
+**Znaczenie:** spokojnie, łagodnie, bez zakłóceń  
+**Użycie:** spokój zewnętrzny, brak zakłóceń lub emocji
+
+**Przykład:**
+- mare placidē fluit – morze płynie spokojnie
+
+---
+
+**leniter**
+
+**Znaczenie:** delikatnie, łagodnie (dotyk, dźwięk, ruch)  
+**Użycie:** fizyczna łagodność lub subtelność działania
+
+**Przykład:**
+- leniter tangit – dotyka delikatnie
+
+**Porównanie w skrócie:**
+
+|            | placidē                     | leniter                         |
+|------------|-----------------------------|----------------------------------|
+| Znaczenie  | spokojnie, bez emocji       | delikatnie, łagodnie (fizycznie)|
+| Kontekst   | spokój atmosfery, sytuacji  | ruch, dotyk, głos                |
+| Przykład   | morze spokojne              | delikatny dotyk, miękki głos     |
+
+---
+
+### rĕmōtus vs longinquus
+
+**rĕmōtus, -a, -um**
+
+**Znaczenie:** oddalony, odosobniony  
+**Użycie:** coś, co zostało oddalone lub jest poza zasięgiem
+
+**Przykład:**
+- locus remotus – miejsce odosobnione
+
+---
+
+**longinquus, -a, -um**
+
+**Znaczenie:** odległy, daleki w czasie lub przestrzeni  
+**Użycie:** wskazuje na dużą odległość geograficzną lub czasową
+
+**Przykład:**
+- patria longinqua – daleka ojczyzna
+
+**Porównanie w skrócie:**
+
+|              | remotus                 | longinquus                  |
+|--------------|--------------------------|------------------------------|
+| Znaczenie    | oddalony, usunięty       | odległy (czas/przestrzeń)    |
+| Cechy        | poza zasięgiem, ukryty   | bardzo daleko geograficznie  |
+| Przykład     | miejsce ustronne         | daleka ojczyzna              |
