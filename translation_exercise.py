@@ -35,6 +35,9 @@ if __name__ == '__main__':
 
     dictionary: Dictionary = parse_dictionary(args)
 
+    if args.filter is not None:
+        dictionary = dictionary.filter_by_complex_condition(args.filter)
+
     if args.revise_last_session:
         print('revising last session, arguments like start/end word and filtered parts of speech are ignored')
         with Session(engine) as session:
@@ -55,9 +58,6 @@ if __name__ == '__main__':
             if not found:
                 print(f'''couldn't find {word.header} in dictionary''')
         dictionary = Dictionary(entries=filtered_entries, lang=dictionary.lang)
-
-    if args.filter is not None:
-        dictionary = dictionary.filter_by_complex_condition(args.filter)
 
     db_handler = TranslationExerciseCSVHandler(TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, args.user_name)
     session_metadata_handler = TranslationExerciseSessionMetadataCSVHandler(
