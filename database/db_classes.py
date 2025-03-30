@@ -628,14 +628,14 @@ views.append(ReversedTranslationLastUninterruptedSession)
 class ReversedTranslationLastUninterruptedSessionHardWords(View):
     __view_name__ = 'reversed_translation_last_uninterrupted_session_hard_words'
     __view_query__ = f"""
-            SELECT DISTINCT ON (hard.word_asked, hard.user_answer, hard.example, hard.wrong_answers_counter) 
-                hard.word_asked, hard.user_answer, hard.example, hard.wrong_answers_counter 
+            SELECT DISTINCT ON (hard.word_asked, hard.example) 
+                hard.word_asked, hard.example
             FROM 
-                (SELECT word_asked, user_answer, example, COUNT(*) AS wrong_answers_counter
+                (SELECT word_asked, example, COUNT(*) AS wrong_answers_counter
                 FROM {ReversedTranslationLastUninterruptedSession.__view_name__}
                 WHERE is_correct = FALSE
-                GROUP BY word_asked, user_answer, example) hard
-            ORDER BY wrong_answers_counter DESC
+                GROUP BY word_asked, example) hard
+            ORDER BY hard.word_asked, hard.example DESC
         """
 
 views.append(ReversedTranslationLastUninterruptedSessionHardWords)
