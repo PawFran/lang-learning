@@ -1,12 +1,16 @@
 TODO
 
-nagle vs niespodziewanie, nieoczekiwanie, nagle
-czyli sŭbĭtō vs rĕpentĕ
+wiele, liczni vs kilka, spora liczba
 
-1. pokazywać
-2. pokazać
-3. wskazywać
-czyli monstrō vs ostendo vs indĭco
+powoli vs powoli, stopniowo, ostrożnie
+
+przemyśleć remotus: usunięty, wycofany - czy dobre ?
+
+"ropa rana" nie podpowiada "ropa itp. wypływająca z rany lub wrzodu"
+
+"wyraźać" nie podpowiada "wymawiać, wyrażać"
+
+migracja na koniec nia dziala a samodzielnie juz tak ?
 
 czasem synonimy dzialaja kiepsko (np 'widowisko'). uzyc LLM ?
 

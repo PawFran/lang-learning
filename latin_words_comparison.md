@@ -86,3 +86,127 @@ Zarówno **"divitiae"** jak i **"copia" (lub pluralis: "copiae")** mogą dotyczy
 > *Post cenam ambulavit.* – Po kolacji poszedł na spacer.
 
 **podsumowanie**: *postea* to przysłówek używany samodzielnie, wskazujący kolejność wydarzeń. *post* to przyimek, który wymaga dopełnienia i wskazuje na coś, co nastąpiło po czymś innym.
+
+### iaceo vs recumbo
+
+#### Definicja:
+- **iaceo** - leżeć, być położonym (o rzeczy lub osobie, statycznie).
+- **recumbo** - położyć się, ułożyć się (czynność dynamiczna).
+
+#### Kontekst:
+- **iaceo** wskazuje na stan spoczynku, bezruchu lub pasywność.
+- **recumbo** opisuje ruch, przechodzenie od pozycji stojącej lub siedzącej do pozycji leżącej.
+
+#### Przykłady:
+- **iaceo**: "Miles vulneratus in campo iacet." (Żołnierz leży ranny na polu.)
+- **recumbo**: "Post cenam in lectum recumbit." (Po kolacji kładzie się na łóżko.)
+
+#### Uwagi:
+- **iaceo** dotyczy długotrwałego stanu, podczas gdy **recumbo** odnosi się do momentu przejścia w stan leżenia.
+
+| Aspekt          | iaceo            | recumbo        |
+|-----------------|------------------|----------------|
+| Znaczenie       | leżeć            | kłaść się      |
+| Dynamika        | stan statyczny   | czynność       |
+| Zastosowanie    | opis stanu       | opis działania |
+
+---
+
+### mītis vs sĕrēnus
+
+#### Definicja:
+- **mītis** - łagodny, spokojny (o charakterze, naturze).
+- **sĕrēnus** - pogodny, bezchmurny, spokojny (o pogodzie, nastroju).
+
+#### Kontekst:
+- **mītis** odnosi się do łagodności charakteru, temperamentu ludzi lub zwierząt.
+- **sĕrēnus** odnosi się do spokoju atmosferycznego, ale także metaforycznie do umysłu.
+
+#### Przykłady:
+- **mītis**: "Magister mītis est et discipulos amat." (Nauczyciel jest łagodny i kocha uczniów.)
+- **sĕrēnus**: "Dies sĕrēnus animum meum tranquillat." (Pogodny dzień uspokaja mój umysł.)
+
+#### Uwagi:
+- **mītis** opisuje łagodność wewnętrzną, a **sĕrēnus** zewnętrzny spokój lub pogodę ducha.
+
+| Aspekt          | mītis                  | sĕrēnus                |
+|-----------------|------------------------|------------------------|
+| Znaczenie       | łagodny (charakter)    | pogodny (nastrój, pogoda) |
+| Zastosowanie    | charakter, osobowość   | pogoda, nastrój        |
+| Metaforyka      | rzadka                 | częsta                 |
+
+---
+
+### ăb vs per vs a
+
+#### Definicja:
+- **ăb (a)** - od, z (kierunek od miejsca, osoby).
+- **per** - przez (poprzez przestrzeń lub czas).
+
+#### Kontekst:
+- **ăb (a)** wskazuje na punkt wyjścia, pochodzenia.
+- **per** wskazuje na przechodzenie przez coś, zarówno fizycznie, jak i metaforycznie.
+
+#### Przykłady:
+- **ăb**: "Ab urbe venio." (Przychodzę z miasta.)
+- **per**: "Per silvam iter facit." (Podróżuje przez las.)
+
+#### Uwagi:
+- **ăb** i **a** są tożsame, przy czym **ăb** używane jest przed samogłoską lub "h".
+
+| Aspekt         | ăb (a)             | per                  |
+|----------------|--------------------|----------------------|
+| Znaczenie      | od, z              | przez                |
+| Zastosowanie   | punkt początkowy   | przechodzenie        |
+| Przyimek z Abl/Acc | ablativus       | accusativus          |
+
+---
+
+### placide vs leniter
+
+#### Definicja:
+- **placide** - spokojnie, łagodnie (z naciskiem na spokój ducha lub atmosferę).
+- **leniter** - łagodnie, delikatnie (z naciskiem na delikatność działania).
+
+#### Kontekst:
+- **placide** dotyczy raczej atmosfery lub nastroju, wewnętrznego spokoju.
+- **leniter** opisuje sposób działania lub ruchu.
+
+#### Przykłady:
+- **placide**: "Flumen placide fluit." (Rzeka płynie spokojnie.)
+- **leniter**: "Leniter ostium aperuit." (Łagodnie otworzył drzwi.)
+
+#### Uwagi:
+- **placide** odnosi się do stanu, a **leniter** do działania.
+
+| Aspekt         | placide                | leniter              |
+|----------------|------------------------|----------------------|
+| Znaczenie      | spokojnie (stan)       | łagodnie (działanie) |
+| Kontekst       | nastrój, atmosfera     | sposób działania     |
+| Zastosowanie   | opis sytuacji          | opis czynności       |
+
+---
+
+### rĕmōtus vs longinquus
+
+#### Definicja:
+- **rĕmōtus** - oddalony, usunięty (zwykle w sensie fizycznym lub metaforycznym od czegoś).
+- **longinquus** - odległy, daleki (zwykle w sensie geograficznym lub czasowym).
+
+#### Kontekst:
+- **rĕmōtus** podkreśla odsunięcie od czegoś bliskiego.
+- **longinquus** podkreśla dużą odległość geograficzną lub czasową.
+
+#### Przykłady:
+- **rĕmōtus**: "In villa rĕmōta habitat." (Mieszka w oddalonej willi.)
+- **longinquus**: "Iter ad terras longinquas fecit." (Odbył podróż do dalekich krajów.)
+
+#### Uwagi:
+- **rĕmōtus** często używany w sensie izolacji, natomiast **longinquus** głównie w kontekście dużych odległości.
+
+| Aspekt         | rĕmōtus            | longinquus          |
+|----------------|--------------------|---------------------|
+| Znaczenie      | oddalony, usunięty | odległy             |
+| Zastosowanie   | izolacja           | dystans             |
+| Kontekst       | fizyczny, metaforyczny | geograficzny, czasowy |
+

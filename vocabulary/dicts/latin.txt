@@ -1269,7 +1269,8 @@ fācundus, facundă, facundum [adj]
 
 ăd [prep]
 (Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
-1. do, w kierunku (+ acc)
+1. do (kierunek)
+2. do, dla, na (cel, zamiar)
 
 tandem [adv]
 ()
@@ -3580,8 +3581,7 @@ spĕcŭs, specūs [noun] [m] [IV]
 
 rĕmōtus, remotă, remotum [adj]
 (Aliquando specum remotum inveni ibique intravi)
-1. oddalony, odsunięty
-2. usunięty, wycofany
+1. oddalony, odsunięty, wycofany (izolacja)
 
 multō [adv]
 (Neque multo post ad eundem specum venit hic leo cruento pede)
