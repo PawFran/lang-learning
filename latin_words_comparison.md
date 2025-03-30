@@ -86,3 +86,41 @@ Zarówno **"divitiae"** jak i **"copia" (lub pluralis: "copiae")** mogą dotyczy
 > *Post cenam ambulavit.* – Po kolacji poszedł na spacer.
 
 **podsumowanie**: *postea* to przysłówek używany samodzielnie, wskazujący kolejność wydarzeń. *post* to przyimek, który wymaga dopełnienia i wskazuje na coś, co nastąpiło po czymś innym.
+
+---
+
+### **consto** vs **consisto**
+
+**consto**  
+**Formy**: constare, constiti, —  
+**Znaczenia**:
+1. **składać się z czegoś** (*ex aliqua re constare*)  
+2. **kosztować** (*constare aliquo pretio* – „kosztować jakąś cenę”)  
+3. **być ustalonym**, **niezmiennym**, np. *res constat* – „rzecz jest pewna”
+4. **być zgodnym**, **być spójnym**
+
+**Przykłady**:
+- *Vita hominis ex laboribus constat.* – Życie człowieka składa się z trudów.  
+- *Hoc constat.* – To jest ustalone / bezsporne.  
+- *Haec domus decem milibus constat.* – Ten dom kosztuje 10 tysięcy.
+
+**consisto**  
+**Formy**: consistere, constiti, —  
+**Znaczenia**:
+1. **zatrzymywać się**, **stawać w miejscu** (*in loco consistere*)
+2. **stanąć**, np. na stanowisku, w opozycji (*consistere contra hostem*)  
+3. **trwać**, **utrzymywać się** (np. warunek, stanowisko)
+4. **opierać się na czymś**, **polegać na czymś** (*in aliqua re consistere*)
+
+**Przykłady**:
+- *Consistit in medio campo.* – Stoi pośrodku pola.  
+- *Consistit in virtute.* – Opiera się na cnocie.  
+- *Milites in via constiterunt.* – Żołnierze zatrzymali się na drodze.
+
+**Różnice w skrócie**:
+
+|                | **consto**                                | **consisto**                               |
+|----------------|--------------------------------------------|---------------------------------------------|
+| Znaczenie główne | być ustalonym / kosztować / składać się z | stanąć / zatrzymać się / opierać się na czymś |
+| Typ działania  | bardziej abstrakcyjne, stan rzeczy         | bardziej fizyczne lub dynamiczne działanie   |
+| Czasownik typu | stan, fakt                                 | czynność, zatrzymanie                        |

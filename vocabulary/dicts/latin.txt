@@ -814,9 +814,10 @@ auctor, auctōris [noun] [m] [III]
 1. sprawca
 
 salus, salūtis [noun] [f] [III]
-()
-1. zdrowie
-2. zbawienie
+(Leges ad civium salutem inventas esse constat)
+1. bezpieczeństwo, pomyślność
+2. zdrowie
+3. pozdrowienie
 
 dispŭto, dispŭtāre, disputāvī, disputātum [verb] [I]
 ()
@@ -2397,8 +2398,10 @@ pĕdĭtātŭs, peditatūs [noun] [m] [IV]
 1. piechota
 
 consto, constāre, constiti [verb] [I]
-(Exercitus Romanus ex equitatu et peditatu constabat)
-1. składać się z
+(Exercitus Romanus ex equitatu et peditatu constabat. Leges ad civium salutem inventas esse constat)
+1. składać się z (czegoś)
+2. pozostawać niezmienionym, trwać, być ustalonym
+3. być oczywistym, pewnym, wiadomym
 
 ĕquĕs, equitis [noun] [m] [III]
 (In proelio equites in cornibus exercitus erant)
