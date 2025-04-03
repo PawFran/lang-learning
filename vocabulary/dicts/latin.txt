@@ -787,7 +787,7 @@ pārĕo, pārēre, parui, paritum [verb] [II]
 1. być posłusznym
 
 victŏr, victoris [noun] [m] [III]
-()
+(Victorem a victo superari saepe videmus)
 1. zwycięzca
 
 salvē [adv]
@@ -3705,10 +3705,6 @@ pŭto, pŭtāre, putavi, putatum [verb] [I]
 (Sententiam illam veram esse puto)
 1. myśleć, wierzyć, sądzić
 
-victŏr, victoris [noun] [m] [III]
-(Victorem a victo superari saepe videmus)
-1. zwycięzca
-
 condo, condĕre, condidi, conditum [verb] [III]
 (Romam a Romulo conditam esse scriptores tradunt)
 1. budować, zakładać, tworzyć
@@ -3791,11 +3787,6 @@ paupĕr, paupĕr, paupĕr [adj]
 (Alexandro vir pauper, qui asinum agebat, obviam venit)
 1. biedny, skromny
 
-ăsĭnus, asini [noun] [m] [II]
-(Alexandro vir pauper, qui asinum agebat, obviam venit)
-1. osioł
-2. tępak, głupiec, dureń
-
 obvĭăm [adv]
 (Alexandro vir pauper, qui asinum agebat, obviam venit)
 1. ku, naprzeciw (np. wyjść komuś naprzeciw) (+ dat)
@@ -3807,10 +3798,6 @@ obtempĕro, obtempĕrāre, obtemperavi, obtemperatum [verb] [I]
 ēnarro, ēnarrāre, enarravi, enarratum [verb] [I]
 (Alexander ei oraculi praeceptum enarrat)
 1. wyjaśniać, objaśniać, szczegółowo opisywać
-
-callĭdus, callidă, callidum [adj]
-(Tum vir callidus: ...)
-1. przebiegły, sprytny, doświadczony, pomysłowy
 
 explĭco, explĭcāre, explicavi o explicui, explicatum o explicitum [verb] [I]
 (Oraculi praeceptum non explicas recte: asinus meus tibi primus occurrit, eum interficire debes)
