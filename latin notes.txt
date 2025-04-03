@@ -2,6 +2,39 @@ ogólne
 https://docs.google.com/document/d/1yWrWEtepKA_5-TSOjKCQRJjfl2CPAGPQQEfYFN0njyk/edit
 + craft
 
+kiedy po czasownikach wyrażających rozkaz/zakaz nie ma osoby, do której jest skierowany, infinitivus jest w stronie biernej - przykład "Necari iube eum (...)"
+
+
+======
+
+dico - wyjaśnienie
+🧱 Znaczenie i składnia
+
+Podstawowe znaczenie to „mówić coś” lub „powiedzieć coś” – zarówno w kontekście mowy codziennej, jak i bardziej podniosłego ogłoszenia czy sądu.
+
+📌 Konstrukcje składniowe:
+	1.	dico + accusativus + infinitivus
+→ „mówię, że ktoś coś robi / zrobił / zrobi”
+Przykład:
+Dico eum venire. – „Mówię, że on przychodzi.”
+	2.	dico + AcI (oratio obliqua)
+→ typowa konstrukcja dla mowy zależnej.
+	3.	dico + sententiam / iudicium
+→ „wydaję wyrok”, „wypowiadam opinię”
+	4.	passivum: dicitur + inf.
+→ „mówi się, że…” (np. dicitur venire – „mówi się, że przychodzi”)
+
+⸻
+
+🧾 Przykłady użycia:
+	1.	Dico veritatem.
+→ „Mówię prawdę.”
+	2.	Philosophus multa de virtute dixit.
+→ „Filozof wiele powiedział o cnocie.”
+	3.	Amicus tuus dicitur sapientissimus esse.
+→ „Mówi się, że twój przyjaciel jest bardzo mądry.”
+
+======
 
 zaimki
 https://lacina.globalnie.com.pl/zaimki-wskazujace-lacina/

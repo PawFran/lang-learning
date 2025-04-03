@@ -1,5 +1,7 @@
 TODO
 
+dodać infinitivus do odmian - praes act/pass, perf act/pass, fut act/pass
+
 wiele, liczni vs kilka, spora liczba
 
 powoli vs powoli, stopniowo, ostrożnie
@@ -8,17 +10,24 @@ przemyśleć remotus: usunięty, wycofany - czy dobre ?
 
 "ropa rana" nie podpowiada "ropa itp. wypływająca z rany lub wrzodu"
 
-"wyraźać" nie podpowiada "wymawiać, wyrażać"
+"wyrażać" nie podpowiada "wymawiać, wyrażać"
+
+punio vs castigo
+
+neco vs interficio
+
+cupio vs desidero
+
+dodawać do słownika luźne (a może nie tak luźne ?) notatki nt. słów. raz, że w csv, dwa że w tabelach ? przykładem może być "dico". 
+notatki z chatagpt, przykładowe zdania, uwagi nt. konstrukcji
+dodać do csv np. nawiasy "{}" jako uwagi, notatki i odpowiednią kolumnę w tabeli. potem można by to sformalizować, mieć np. sekcje "konstrukcja", "przykłady", "porównanie z innymi słowami" itp. (patrz "dico" w "latin notes.txt") 
+czy odpytując API można mieć kontekst projektu z aplikacji chatgpt ?
 
 migracja na koniec nia dziala a samodzielnie juz tak ?
 
 czasem synonimy dzialaja kiepsko (np 'widowisko'). uzyc LLM ?
 
-dodać widoki podsumowujące sesje reversed translation
-
 moze chatgpt do tlumaczen ? moze jedno i drugie i mozna wybrac ? wydaja sie duzo lepsze niz ze slownika i wiele dodatkowych informacji
-
-zapisac wszystkie porownania jakie zrobil chat (w stylu placide vs leniter)
 
 i declension, conjugation - cwiczenie odwrotne. bedzie prosciej ale tez jest kilka mozliwych odpowiedzi
 
@@ -32,6 +41,12 @@ english wymaga poprawy - zawsze powinna byc bazowa forma. patrz:
 powinno dac retract jako slowo nie retracted
 dodac kontekst zdania do prompta jesli nie ma
 nie powinien dawac zadnych komentarzy w stylu "If you need more information or have another word in mind, feel free to ask!"
+
+do scrape'owania (web) mozliwosc dodania wielu zdan - wtedy iteracja po zdaniu i doklejanie do wyniku - a moze sekcje scraped i found zbiorcze a tylko example rozbijac ?
+
+do aplikacji (web) dodac slownik i tabelki z widokami
+
+odfiltrowywać ze wyników scrape hasła, które mają "strona bierna", "miesłów bierny" ? do zastanowienia
 
 napisać scraper w haskellu
 * przetestować go na całym słowniku

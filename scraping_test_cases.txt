@@ -5,6 +5,8 @@ volo summus hospitio umbra verso incido ferox prudens utilis opulentus lyra iust
 
 problematic
 lavat lavare post vis arma dissero praesse
+amaras (cannot scrape)
+iucundiores (cannot scrape) - stopniowanie przymiotników
 
 inny problematyczny: gaudeo - zwraca: gaudĕo, gaudēre, gavisus, –a, –um  sum, Attivo:gavisum [verb] [II]
 

@@ -219,8 +219,9 @@ iam [adv]
 1. już
 
 ago, agere, ēgi, actum [verb] [III]
-(Tu, agricola, vitam securam agis)
-1. czynić, pędzić
+(Tu, agricola, vitam securam agis. Alexandro vir pauper, qui asinum agebat, obviam venit)
+1. prowadzić, pędzić (np. życie, ale też zwierzę)
+2. czynić, działać, robić
 
 timeō, timēre, timuī [verb] [II]
 (Tu, agricola, pericula non times)
@@ -270,11 +271,10 @@ doceo, docēre, docuī, doctum [verb] [II]
 (Verba docent, exampla trahunt)
 1. uczyć, nauczać
 
-studeo, studēre, studui [verb] [II]
-(Nauta et agricola vitam suam laudare student)
-1. starać się
-2. oddawać się czemuś, zajmować się czymś (+ dat)
-1. uczyć się, studiować (+ dat)
+stŭdĕo, stŭdēre, studui, stŭdivi [verb] [II]
+(Avarus sero cognoscet se frustra pecuniae studuisse)
+1. poświęcać się (czemuś), starać się (o coś), dążyć (do czegoś), zajmować się (czymś) (+ dat)
+2. uczyć się, studiować (+ dat)
 
 semper [adv]
 (Ego miser sum, semper laboro)
@@ -286,7 +286,8 @@ appareo, apparere, apparui [verb] [II]
 
 tum [adv]
 (Tum deus apparet)
-1. wtedy, następnie
+1. wtedy
+2. i wtedy, następnie, zaraz potem
 
 ūnanimus, ūnanima, ūnanimum [adj]
 (Ego tu sum, tu es ego, unanimi sumus)
@@ -561,7 +562,7 @@ copiae, ārum [noun] [f] [I] [pl]
 1. wojsko, siły zbrojne
 
 litterae, ārum [noun] [f] [I] [pl]
-()
+(Cato dixit litterarum radices amaras esse, sed fructus iucundiores)
 1. pismo, literatura
 
 mŏnĕo, mŏnēre, monui, monitum [verb] [II]
@@ -844,11 +845,11 @@ nōmĕn, nominis [noun] [n] [III]
 1. wróżba
 
 hŏmo, hominis [noun] [m] [III]
-()
+(Placuit regi callidum responsum viri et asinum pro homine morti destinavit)
 1. człowiek
 
 dēsīdĕro, dēsīdĕrāre, desiderāvī, desiderātum [verb] [I]
-()
+(Cur me, domine, morte punire desideras ?)
 1. pragnąć
 
 praenōmĕn, praenominis [noun] [n] [III]
@@ -856,7 +857,7 @@ praenōmĕn, praenominis [noun] [n] [III]
 1. imię
 
 scriptŏr, scriptoris [noun] [m] [III]
-()
+(Romam a Romulo conditam esse scriptores tradunt)
 1. pisarz
 
 tĕnĕo, tĕnēre, tenui, tentum [verb] [II]
@@ -872,7 +873,7 @@ quăm [conj]
 1. niż
 
 urbs, urbis [noun] [f] [III]
-()
+(Necari iube eum, qui tibi in urbis porta primus occurret)
 1. miasto
 
 appello, appellere, appuli, appulsum [verb] [III]
@@ -902,7 +903,7 @@ interrŏgo, interrŏgāre, interrogāvī, interrogātum [verb] [I]
 1. pytać
 
 quōmŏdŏ [adv]
-()
+(Necari iube eum, qui tibi in urbis porta primus occurret)
 1. jak, w jaki sposób
 
 imprŏbus, improba, improbum [adj]
@@ -910,7 +911,7 @@ imprŏbus, improba, improbum [adj]
 1. niegodziwy
 
 pūnĭo, pūnīre, punii, punitum [verb] [IV]
-()
+(Cur me, domine, morte punire desideras ?)
 1. karać
 
 prŏbus, prŏba, prŏbum [adj]
@@ -991,7 +992,7 @@ stultus, stultă, stultum [adj]
 1. głupi
 
 vĭr, viri [noun] [m] [II]
-()
+(Credo miseram fuisse Penelopen, quae tam diu viro suo caruit)
 1. mężczyzna
 
 ăt [conj]
@@ -1216,8 +1217,8 @@ ingĕnĭum, ingenii [noun] [n] [II]
 1. talent
 
 vĕnĭo, vĕnīre, veni, ventum [verb] [IV]
-()
-1. przychodzić
+(Alexandro vir pauper, qui asinum agebat, obviam venit)
+1. przychodzić (również w sytuacjach, kiedy po polsku się mówi "wychodzić", np. "wyjść komuś naprzeciw")
 
 plēbēius, plebei [noun] [m] [II]
 ()
@@ -1362,7 +1363,7 @@ impĕrĭum, imperii [noun] [n] [II]
 1. państwo, imperium, władza
 
 rex, regis [noun] [m] [III]
-()
+(Placuit regi callidum responsum viri et asinum pro homine morti destinavit)
 1. król
 
 fŏrum, fori [noun] [n] [II]
@@ -1386,7 +1387,7 @@ rĕlĭquus, reliquă, reliquum [adj]
 1. pozostały, inny
 
 sŭpĕro, sŭpĕrāre, superāvī, superātum [verb] [I]
-()
+(Victorem a victo superari saepe videmus)
 1. przewyższać, pokonać
 
 Īlĭăs, Iliadis [noun] [f] [III]
@@ -1403,7 +1404,7 @@ errŏr, erroris [noun] [m] [III]
 2. błąd
 
 crēdo, crēdĕre, credidi, creditum [verb] [III]
-()
+(Credo miseram fuisse Penelopen, quae tam diu viro suo caruit)
 1. wierzyć
 
 pŏtĭus [adv]
@@ -1483,8 +1484,10 @@ immĭnens, immĭnens, immĭnens [adj]
 1. zagrażający (+ dat)
 
 praeceptum, praecepti [noun] [n] [II]
-()
-1. nauczanie
+(Alexander ei oraculi praeceptum enarrat)
+1. nakaz, polecenie
+2. rada, wskazówka
+3. nauka, zasada, przykazanie
 
 fortis, fortis, forte [adj]
 ()
@@ -1562,10 +1565,6 @@ flŭo, flŭĕre, fluxi, fluxum [verb] [III]
 ădŭlescentĭa, adulescentiae [noun] [f] [I]
 ()
 1. młodość
-
-dĭco, dīcĕre, dixi, dictum [verb] [I]
-()
-1. powiedzieć
 
 vīlis, vilis, vile [adj]
 ()
@@ -1748,8 +1747,8 @@ mŏlestĭa, molestiae [noun] [f] [I]
 1. kłopoty, irytacja
 
 cărĕo, cărēre, carui [verb] [II]
-(Non potest inveniri vita hominis carens molestia)
-1. być wolnym od (+ abl)
+(Non potest inveniri vita hominis carens molestia. Credo miseram fuisse Penelopen, quae tam diu viro suo caruit)
+1. być wolnym od (kogoś, czegoś), być pozbawionym (kogoś, czegoś) (+ abl)
 
 sĕnesco, sĕnescĕre, senui [verb] [III]
 ()
@@ -1958,7 +1957,7 @@ antīquus, antiquă, antiquum [adj]
 1. stary, wiekowy
 
 qui, quae, quod [pron]
-()
+(Credo miseram fuisse Penelopen, quae tam diu viro suo caruit)
 1. który, która, które
 
 quis, quid [pron]
@@ -2220,7 +2219,7 @@ cornū, cornūs [noun] [n] [IV]
 2. skrzydło, flanka
 
 rēs, rei [noun] [f] [V]
-()
+(Thales dixit aquam esse initium rerum)
 1. rzecz
 
 spēs, spei [noun] [f] [V]
@@ -2255,7 +2254,7 @@ sēdēs, sedis [noun] [f] [III]
 
 iūcundus, iucundă, iucundum [adj]
 (Quid est domestica sede iucundius)
-1. przyjemny
+1. przyjemny, miły, smaczny
 
 sensŭs, sensūs [noun] [m] [IV]
 ()
@@ -3166,8 +3165,10 @@ rĕvŏco, rĕvŏcāre, revocavi, revocatum [verb] [I]
 1. ktoś, ktokolwiek
 
 occurro, occurrĕre, occurri o occucurri, occursum [verb] [III]
-(Cum oppido appropinquaveris, ex aliquo, qui tibi occurret, viam quaere)
-1. spotkać się, wpaść na kogoś
+(Cum oppido appropinquaveris, ex aliquo, qui tibi occurret, viam quaere. Necari iube eum, qui tibi in urbis porta primus occurret)
+1. spotkać się, wpaść na kogoś (+ dat)
+2. nadchodzić, pojawić się, ukazać się (+ dat)
+3. przychodzić z pomocą (+ dat)
 
 quaero, quaerĕre, quaesii o quaesivi, quaesitum [verb] [III]
 (Cum oppido appropinquaveris, ex aliquo, qui tibi occurret, viam quaere)
@@ -3233,8 +3234,8 @@ părens, parentis [noun] [m/f] [III]
 1. rodzice, matka, ojciec
 
 trādo, trādĕre, tradidi, traditum [verb] [III]
-(Parentes nobis vitam tradiderunt)
-1. przekazać, powierzyć, dostarczyć
+(Parentes nobis vitam tradiderunt. Romam a Romulo conditam esse scriptores tradunt)
+1. przekazać (coś komuś), powierzyć, dostarczyć, przekazać relację/tradycję (ustnie, pisemnie)
 
 ĭnĭtĭum, initii [noun] [n] [II]
 (Iram bene Ennius initium dixit insaniae)
@@ -3392,7 +3393,8 @@ postĕā [adv]
 
 ōrācŭlum, oraculi [noun] [n] [II]
 (Tarquinius legatos misit Delphos oraculum consultum)
-1. wyrocznia, przepowiednia
+1. wyrocznia (zarówno miejsce, np. wyrocznia delficka, jak i bóstwo, które udziela odpowiedzi, a więc jest jest "wyrocznią")
+2. przepowiednia
 
 consŭlo, consŭlĕre, consului, consultum [verb] [III]
 (Tarquinius legatos misit Delphos oraculum consultum)
@@ -3698,3 +3700,131 @@ mĕrīdĭānus, meridiană, meridianum [adj]
 torrĕo, torrēre, torrui, tostum [verb] [II]
 (Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])
 1. parzyć, prażyć, przypalać, piec, palić się
+
+pŭto, pŭtāre, putavi, putatum [verb] [I]
+(Sententiam illam veram esse puto)
+1. myśleć, wierzyć, sądzić
+
+victŏr, victoris [noun] [m] [III]
+(Victorem a victo superari saepe videmus)
+1. zwycięzca
+
+condo, condĕre, condidi, conditum [verb] [III]
+(Romam a Romulo conditam esse scriptores tradunt)
+1. budować, zakładać, tworzyć
+
+dīco, dīcĕre, dixi, dictum [verb] [III]
+(Thales dixit aquam esse initium rerum)
+1. mówić, twierdzić, oświadczać
+
+ăqua, aquae [noun] [f] [I]
+(Thales dixit aquam esse initium rerum)
+1. woda
+
+rādix, radicis [noun] [f] [III]
+(Cato dixit litterarum radices amaras esse, sed fructus iucundiores)
+1. korzeń
+
+ămārus, amară, amarum [adj]
+(Cato dixit litterarum radices amaras esse, sed fructus iucundiores)
+1. gorzki
+2. przykry, uciążliwy
+
+fructŭs, fructūs [noun] [m] [IV]
+(Cato dixit litterarum radices amaras esse, sed fructus iucundiores)
+1. owoc (dosłownie, ale też jako zysk, nagroda)
+
+trĭumphus, triumphi [noun] [m] [II]
+(Imperator dicit se numquam triumphi cupidum fuisse)
+1. triumf, parada zwycięstwa
+
+cŭpĭdus, cupidă, cupidum [adj]
+(Imperator dicit se numquam triumphi cupidum fuisse)
+1. żądny, pragnący, spragniony (czegoś) (+ gen)
+
+innŭmĕrābĭlis, innumerabilis, innumerabile [adj]
+(Innumerabiles esse morbos affirmas ? coquos numera!)
+1. niezliczony
+
+morbus, morbi [noun] [m] [II]
+(Innumerabiles esse morbos affirmas ? coquos numera!)
+1. choroba
+
+cŏquus, coqui [noun] [m] [II]
+(Innumerabiles esse morbos affirmas ? coquos numera!)
+1. kucharz
+
+mĭsĕr, miseră, miserum [adj]
+(Credo miseram fuisse Penelopen, quae tam diu viro suo caruit)
+1. nieszczęśliwy
+
+dē [prep]
+(De Alexandro Magno et asini domino callido)
+1. o (kimś, czymś)
+
+magnus, magnă, magnum [adj]
+(De Alexandro Magno et asini domino callido)
+1. duży, wielki
+
+ăsĭnus, asini [noun] [m] [II]
+(De Alexandro Magno et asini domino callido)
+1. osioł
+2. tępak, głupiec, dureń
+
+callĭdus, callidă, callidum [adj]
+(De Alexandro Magno et asini domino callido)
+1. przebiegły, sprytny, pomysłowy
+
+iŭbĕo, iŭbēre, iussi, iussum [verb] [II]
+(Necari iube eum, qui tibi in urbis porta primus occurret)
+1. rozkazywać, nakazywać, żądać (+ acc + inf, ew. + sam inf w stronie biernej)
+
+porta, portae [noun] [f] [I]
+(Necari iube eum, qui tibi in urbis porta primus occurret)
+1. drzwi, brama, wejście
+
+prīmus, primă, primum [adj]
+(Necari iube eum, qui tibi in urbis porta primus occurret)
+1. pierwszy, najważniejszy lub najlepszy, naczelny, główny
+
+paupĕr, paupĕr, paupĕr [adj]
+(Alexandro vir pauper, qui asinum agebat, obviam venit)
+1. biedny, skromny
+
+ăsĭnus, asini [noun] [m] [II]
+(Alexandro vir pauper, qui asinum agebat, obviam venit)
+1. osioł
+2. tępak, głupiec, dureń
+
+obvĭăm [adv]
+(Alexandro vir pauper, qui asinum agebat, obviam venit)
+1. ku, naprzeciw (np. wyjść komuś naprzeciw) (+ dat)
+
+obtempĕro, obtempĕrāre, obtemperavi, obtemperatum [verb] [I]
+(Alexander oraculo obtemperans virum interfici iubet)
+1. być posłusznym, podporządkowywać się (+ dat)
+
+ēnarro, ēnarrāre, enarravi, enarratum [verb] [I]
+(Alexander ei oraculi praeceptum enarrat)
+1. wyjaśniać, objaśniać, szczegółowo opisywać
+
+callĭdus, callidă, callidum [adj]
+(Tum vir callidus: ...)
+1. przebiegły, sprytny, doświadczony, pomysłowy
+
+explĭco, explĭcāre, explicavi o explicui, explicatum o explicitum [verb] [I]
+(Oraculi praeceptum non explicas recte: asinus meus tibi primus occurrit, eum interficire debes)
+1. rozwijać, rozplątywać
+2. wyjaśniać, tłumaczyć (coś skomplikowanego, zawiłego)
+
+rectē [adv]
+(Oraculi praeceptum non explicas recte: asinus meus tibi primus occurrit, eum interficire debes)
+1. słusznie, prawidłowo, właściwie, poprawnie
+
+responsum, responsi [noun] [n] [II]
+(Placuit regi callidum responsum viri et asinum pro homine morti destinavit)
+1. odpowiedź, reakcja
+
+destĭno, destĭnāre, destinavi, destinatum [verb] [I]
+(Placuit regi callidum responsum viri et asinum pro homine morti destinavit)
+1. przeznaczać (do czegoś, na coś)
