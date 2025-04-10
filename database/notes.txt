@@ -1,6 +1,21 @@
 TODO
 
+jeśli jest forma bierna od danego słowa to wyszukiwać i scrape'ować to słowo, a nie formę bierną (np. iussu)
+
+stworzyć listę słów niewyrzucanych przez scrape (np. sum, et)
+
+pl tantum źle się scrape'uje:
+pauci, – [noun] [p] [II]
+
+dodać apkę webową (albo zakładkę do lang-learning) do angielskiego
+moze z linkami do cambridge dict ?
+teraz dodawanie zdan nie zawsze dziala dobrze - patrz coronary
+i niech idzie do osobnego scraping_out nie tego samego co lacina
+
 dodać infinitivus do odmian - praes act/pass, perf act/pass, fut act/pass
+
+migracja wszystkich prepositions tak żeby było w bazie "associated case" - może zamienić nawiasy okrągłe na kwadratowe ?
+czy "ex - były, dawny" to jest przyimek ?
 
 wiele, liczni vs kilka, spora liczba
 
@@ -17,6 +32,8 @@ punio vs castigo
 neco vs interficio
 
 cupio vs desidero
+
+iānŭa vs porta vs ostium
 
 dodawać do słownika luźne (a może nie tak luźne ?) notatki nt. słów. raz, że w csv, dwa że w tabelach ? przykładem może być "dico". 
 notatki z chatagpt, przykładowe zdania, uwagi nt. konstrukcji

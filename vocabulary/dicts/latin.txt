@@ -1269,9 +1269,10 @@ fācundus, facundă, facundum [adj]
 1. wymowny
 
 ăd [prep]
-(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi. Leges ad civium salutem inventas esse constat)
-1. do (kierunek)
-2. do, dla, na (cel, zamiar)
+(Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi. Leges ad civium salutem inventas esse constat. Ennius Nasicam ad ianuam quarebat)
+1. do (kierunek) (+ acc)
+2. do, dla, na (cel, zamiar) (+ acc)
+3. przy, pod, u (bliskość w czasie lub przestrzeniu) (+ acc)
 
 tandem [adv]
 ()
@@ -3170,9 +3171,9 @@ occurro, occurrĕre, occurri o occucurri, occursum [verb] [III]
 2. nadchodzić, pojawić się, ukazać się (+ dat)
 3. przychodzić z pomocą (+ dat)
 
-quaero, quaerĕre, quaesii o quaesivi, quaesitum [verb] [III]
+quaero, quaerĕre, quaesii / quaesivi, quaesitum [verb] [III]
 (Cum oppido appropinquaveris, ex aliquo, qui tibi occurret, viam quaere)
-1. szukać czegoś, pytać o, dowiedzieć się o, żądać
+1. szukać czegoś, pytać o coś, dowiadywać się o coś, zabiegać o coś, domagać się czegoś
 
 rūmŏr, rumoris [noun] [m] [III]
 (Qui erit rumor, si id feceris)
@@ -3180,23 +3181,23 @@ rūmŏr, rumoris [noun] [m] [III]
 2. krzyk
 
 Graecus, Graecă, Graecum [adj]
-(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
+(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae ducet et omne malum)
 1. grecki
 
 dūco, dūcĕre, duxi, ductum [verb] [III]
-(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
+(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae ducet et omne malum)
 1. prowadzić, sprowadzić
 
 ōra, orae [noun] [f] [I]
-(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
+(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae ducet et omne malum)
 1. brzeg, wybrzeże
 
 excīdĭum, excidii [noun] [n] [II]
-(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
+(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae ducet et omne malum)
 1. zniszczenie (miast i armii)
 
 mălum, mali [noun] [n] [II]
-(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
+(Si Paris ex Graecis uxorem duxerit oris, excidium Troiae ducet et omne malum)
 1. zło, nieszczęście, szkoda
 
 dōnĕc [conj]
@@ -3591,8 +3592,8 @@ multō [adv]
 
 post [prep]
 ()
-1. po (za czymś, z tyłu - lokalizacja)
-2. po (czymś - czas)
+1. po (za czymś, z tyłu - lokalizacja) (+ acc)
+2. po (czymś - czas) (+ acc)
 
 post [adv]
 (Neque multo post ad eundem specum venit hic leo cruento pede)
@@ -3815,3 +3816,43 @@ responsum, responsi [noun] [n] [II]
 destĭno, destĭnāre, destinavi, destinatum [verb] [I]
 (Placuit regi callidum responsum viri et asinum pro homine morti destinavit)
 1. przeznaczać (do czegoś, na coś)
+
+pŏēta, poetae [noun] [m] [I]
+(Nasica Ennium poetam visitat)
+1. poeta
+
+vīsĭto, vīsĭtāre, visitavi, visitatum [verb] [I]
+(Nasica Ennium poetam visitat)
+1. odwiedzać
+
+ostĭum, ostii [noun] [n] [II]
+(Nasica aliquando ad Ennium poetam venit, cui ab ostio Ennium quarenti ancilla dixit dominum domi non esse)
+1. drzwi wejściowe
+
+dŏmĭnus, domini [noun] [m] [II]
+(Nasica tamen sensit illam domini iussu dixisse et poetam domi esse)
+1. właściciel, pan
+
+iussŭs, iussūs [noun] [m] [IV]
+(Nasica tamen sensit illam domini iussu dixisse et poetam domi esse)
+1. rozkaz, polecenie, dekret, rozporządzenie
+
+dŏmŭs, domūs [noun] [f] [IV]
+(Nasica tamen sensit illam domini iussu dixisse et poetam domi esse)
+1. dom, budynek, gospodarstwo domowe
+
+paucus, paucă, paucum [adj]
+(Paucis diebus post ad Nasicam Ennius venit eumque ad ianuam quaerebat)
+1. mały, niewielki, niewielka liczba, tylko kilka
+
+iānŭa, ianuae [noun] [f] [I]
+(Paucis diebus post ad Nasicam Ennius venit eumque ad ianuam quaerebat)
+1. drzwi, wejście, dostęp
+
+exclāmo, exclāmāre, exclamavi, exclamatum [verb] [I]
+(Tum Nasica exlamat se domi non esse)
+1. wykrzyknąć, krzyczeć, wołać
+
+impŭdens, impŭdens, impŭdens [adj]
+(Homo es impudens)
+1. bezwstydny, bezczelny
