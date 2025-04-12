@@ -1,0 +1,4 @@
+naprzeciw - nie zwraca "ku, naprzeciw (np. wyjść komuś naprzeciw) (+ dat)"
+wierzyć - nie zwraca "myśleć, wierzyć, sądzić"
+rozkazać - nie zwraca "rozkazywać, nakazywać, żądać (+ acc + inf, ew. + sam inf w stronie biernej)"
+dom - nie zwraca ani "dom, budynek, gospodarstwo domowe" ani "dom, mieszkanie (pl)"
