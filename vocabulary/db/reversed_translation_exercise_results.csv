@@ -85,3 +85,55 @@ default_user;3;latin;rĕpentĕ [adv];Leo repente constitit, ac deinde sensim atq
 default_user;3;latin;obtĭnĕo, obtĭnēre, obtinui, obtentum [verb] [II];Dominus meus provinciam Africam proconsulari imperio obtinebat;2;utrzymywać, zachowywać | mieć, dzierżyć, sprawować;utrzymywać, zachowywać;True;2025-03-30 20:20:23
 default_user;3;latin;obtĭnĕo, obtĭnēre, obtinui, obtentum [verb] [II];Dominus meus provinciam Africam proconsulari imperio obtinebat;2;mieć, dzierżyć, sprawować;trzymać;False;2025-03-30 20:20:23
 default_user;3;latin;obtĭnĕo, obtĭnēre, obtinui, obtentum [verb] [II];Dominus meus provinciam Africam proconsulari imperio obtinebat;2;mieć, dzierżyć, sprawować;;False;2025-03-30 20:20:28
+default_user;4;latin;condo, condĕre, condidi, conditum [verb] [III];Romam a Romulo conditam esse scriptores tradunt;1;budować, zakładać, tworzyć;zakładać, ustanawiać;False;2025-04-12 11:22:17
+default_user;4;latin;condo, condĕre, condidi, conditum [verb] [III];Romam a Romulo conditam esse scriptores tradunt;1;budować, zakładać, tworzyć;;False;2025-04-12 11:22:21
+default_user;4;latin;dīco, dīcĕre, dixi, dictum [verb] [III];Thales dixit aquam esse initium rerum;1;mówić, twierdzić, oświadczać;mówić, twierdzić, oświadczać;True;2025-04-12 11:24:01
+default_user;4;latin;magnus, magnă, magnum [adj];De Alexandro Magno et asini domino callido;1;duży, wielki;duży, wielki;True;2025-04-12 11:25:32
+default_user;4;latin;exclāmo, exclāmāre, exclamavi, exclamatum [verb] [I];Tum Nasica exlamat se domi non esse;1;wykrzyknąć, krzyczeć, wołać;wykrzyknąć, krzyczeć, wołać;True;2025-04-12 11:25:41
+default_user;4;latin;rectē [adv];Oraculi praeceptum non explicas recte: asinus meus tibi primus occurrit, eum interficire debes;1;słusznie, prawidłowo, właściwie, poprawnie;słusznie;False;2025-04-12 11:26:21
+default_user;4;latin;rectē [adv];Oraculi praeceptum non explicas recte: asinus meus tibi primus occurrit, eum interficire debes;1;słusznie, prawidłowo, właściwie, poprawnie;słusznie, prawidłowo, właściwie, poprawnie;True;2025-04-12 11:26:33
+default_user;4;latin;pŭto, pŭtāre, putavi, putatum [verb] [I];Sententiam illam veram esse puto;1;myśleć, wierzyć, sądzić;wierzyć;False;2025-04-12 12:35:34
+default_user;4;latin;pŭto, pŭtāre, putavi, putatum [verb] [I];Sententiam illam veram esse puto;1;myśleć, wierzyć, sądzić;;False;2025-04-12 12:35:35
+default_user;4;latin;dē [prep];De Alexandro Magno et asini domino callido;1;o (kimś, czymś);o (kimś, czymś);True;2025-04-12 12:40:47
+default_user;4;latin;dŏmĭnus, domini [noun] [m] [II];Nasica tamen sensit illam domini iussu dixisse et poetam domi esse;1;właściciel, pan;właściciel, pan;True;2025-04-12 12:40:57
+default_user;4;latin;cŏquus, coqui [noun] [m] [II];Innumerabiles esse morbos affirmas ? coquos numera!;1;kucharz;kucharz;True;2025-04-12 12:41:10
+default_user;4;latin;mĭsĕr, miseră, miserum [adj];Credo miseram fuisse Penelopen, quae tam diu viro suo caruit;1;nieszczęśliwy;nieszczęśliwy;True;2025-04-12 12:41:30
+default_user;4;latin;prīmus, primă, primum [adj];Necari iube eum, qui tibi in urbis porta primus occurret;1;pierwszy, najważniejszy lub najlepszy, naczelny, główny;pierwszy, najważniejszy lub najlepszy, naczelny, główny;True;2025-04-12 12:41:44
+default_user;4;latin;iānŭa, ianuae [noun] [f] [I];Paucis diebus post ad Nasicam Ennius venit eumque ad ianuam quaerebat;1;drzwi, wejście, dostęp;drzwi, wejście, dostęp;True;2025-04-12 12:41:52
+default_user;4;latin;paucus, paucă, paucum [adj];Paucis diebus post ad Nasicam Ennius venit eumque ad ianuam quaerebat;1;mały, niewielki, niewielka liczba, tylko kilka;mały, niewielki, niewielka liczba, tylko kilka;True;2025-04-12 12:42:00
+default_user;4;latin;explĭco, explĭcāre, explicavi o explicui, explicatum o explicitum [verb] [I];Oraculi praeceptum non explicas recte: asinus meus tibi primus occurrit, eum interficire debes;2;rozwijać, rozplątywać | wyjaśniać, tłumaczyć (coś skomplikowanego, zawiłego);wyjaśniać, tłumaczyć (coś skomplikowanego, zawiłego);True;2025-04-12 12:42:19
+default_user;4;latin;explĭco, explĭcāre, explicavi o explicui, explicatum o explicitum [verb] [I];Oraculi praeceptum non explicas recte: asinus meus tibi primus occurrit, eum interficire debes;2;rozwijać, rozplątywać;uwalniać, rozwiązywać;False;2025-04-12 12:42:19
+default_user;4;latin;explĭco, explĭcāre, explicavi o explicui, explicatum o explicitum [verb] [I];Oraculi praeceptum non explicas recte: asinus meus tibi primus occurrit, eum interficire debes;2;rozwijać, rozplątywać;;False;2025-04-12 12:42:25
+default_user;4;latin;obvĭăm [adv];Alexandro vir pauper, qui asinum agebat, obviam venit;1;ku, naprzeciw (np. wyjść komuś naprzeciw) (+ dat);;False;2025-04-12 15:56:33
+default_user;4;latin;vīsĭto, vīsĭtāre, visitavi, visitatum [verb] [I];Nasica Ennium poetam visitat;1;odwiedzać;odwiedzać;True;2025-04-12 16:46:14
+default_user;4;latin;cŭpĭdus, cupidă, cupidum [adj];Imperator dicit se numquam triumphi cupidum fuisse;1;żądny, pragnący, spragniony (czegoś) (+ gen);żądny, pragnący, spragniony (czegoś) (+ gen);True;2025-04-12 16:46:58
+default_user;4;latin;ăsĭnus, asini [noun] [m] [II];De Alexandro Magno et asini domino callido;2;osioł | tępak, głupiec, dureń;osioł;True;2025-04-12 16:47:07
+default_user;4;latin;ăsĭnus, asini [noun] [m] [II];De Alexandro Magno et asini domino callido;2;tępak, głupiec, dureń;tępak, głupiec, dureń;True;2025-04-12 16:47:07
+default_user;4;latin;paupĕr, paupĕr, paupĕr [adj];Alexandro vir pauper, qui asinum agebat, obviam venit;1;biedny, skromny;biedny, skromny;True;2025-04-12 16:47:23
+default_user;4;latin;iŭbĕo, iŭbēre, iussi, iussum [verb] [II];Necari iube eum, qui tibi in urbis porta primus occurret;1;rozkazywać, nakazywać, żądać (+ acc + inf, ew. + sam inf w stronie biernej);rozkazywać, zlecić;False;2025-04-12 16:47:35
+default_user;4;latin;iŭbĕo, iŭbēre, iussi, iussum [verb] [II];Necari iube eum, qui tibi in urbis porta primus occurret;1;rozkazywać, nakazywać, żądać (+ acc + inf, ew. + sam inf w stronie biernej);;False;2025-04-12 16:47:39
+default_user;4;latin;rādix, radicis [noun] [f] [III];Cato dixit litterarum radices amaras esse, sed fructus iucundiores;1;korzeń;korzeń;True;2025-04-12 16:49:18
+default_user;4;latin;obtempĕro, obtempĕrāre, obtemperavi, obtemperatum [verb] [I];Alexander oraculo obtemperans virum interfici iubet;1;być posłusznym, podporządkowywać się (+ dat);być posłusznym, podporządkowywać się (+ dat);True;2025-04-12 16:50:04
+default_user;4;latin;nescĭo, nescīre, nescii o nescivi, nescitum [verb] [IV];Soror mea nesciebat amicam meam Varsoviae habitare;1;nie wiedzieć, nie znać (komentarz - ne + scio);nie wiedzieć, nie znać;False;2025-04-12 16:50:13
+default_user;4;latin;nescĭo, nescīre, nescii o nescivi, nescitum [verb] [IV];Soror mea nesciebat amicam meam Varsoviae habitare;1;nie wiedzieć, nie znać (komentarz - ne + scio);;False;2025-04-12 16:50:21
+default_user;4;latin;trĭumphus, triumphi [noun] [m] [II];Imperator dicit se numquam triumphi cupidum fuisse;1;triumf, parada zwycięstwa;triumf, parada zwycięstwa;True;2025-04-12 16:51:37
+default_user;4;latin;aeger, aegră, aegrum [adj];Amicus meus aeger fuit;1;chory, schorowany, niedołężny;chory, schorowany, niedołężny;True;2025-04-12 16:51:43
+default_user;4;latin;pŏēta, poetae [noun] [m] [I];Nasica Ennium poetam visitat;1;poeta;poeta;True;2025-04-12 16:52:21
+default_user;4;latin;porta, portae [noun] [f] [I];Necari iube eum, qui tibi in urbis porta primus occurret;1;drzwi, brama, wejście;drzwi, brama, wejście;True;2025-04-12 16:52:34
+default_user;4;latin;ămārus, amară, amarum [adj];Cato dixit litterarum radices amaras esse, sed fructus iucundiores;2;gorzki | przykry, uciążliwy;gorzki;True;2025-04-12 16:53:02
+default_user;4;latin;ămārus, amară, amarum [adj];Cato dixit litterarum radices amaras esse, sed fructus iucundiores;2;przykry, uciążliwy;trudny;False;2025-04-12 16:54:17
+default_user;4;latin;ămārus, amară, amarum [adj];Cato dixit litterarum radices amaras esse, sed fructus iucundiores;2;przykry, uciążliwy;;False;2025-04-12 16:54:26
+default_user;4;latin;callĭdus, callidă, callidum [adj];De Alexandro Magno et asini domino callido;1;przebiegły, sprytny, pomysłowy;przebiegły, sprytny, pomysłowy;True;2025-04-12 16:55:17
+default_user;4;latin;responsum, responsi [noun] [n] [II];Placuit regi callidum responsum viri et asinum pro homine morti destinavit;1;odpowiedź, reakcja;odpowiedź, reakcja;True;2025-04-12 16:55:25
+default_user;4;latin;innŭmĕrābĭlis, innumerabilis, innumerabile [adj];Innumerabiles esse morbos affirmas ? coquos numera!;1;niezliczony;niezliczony;True;2025-04-12 16:55:34
+default_user;4;latin;dŏmŭs, domūs [noun] [f] [IV];Nasica tamen sensit illam domini iussu dixisse et poetam domi esse;1;dom, budynek, gospodarstwo domowe;dom, budynek, gospodarstwo domowe;True;2025-04-12 16:55:57
+default_user;4;latin;morbus, morbi [noun] [m] [II];Innumerabiles esse morbos affirmas ? coquos numera!;1;choroba;choroba;True;2025-04-12 16:56:42
+default_user;4;latin;impŭdens, impŭdens, impŭdens [adj];Homo es impudens;1;bezwstydny, bezczelny;bezwstydny, bezczelny;True;2025-04-12 16:56:54
+default_user;4;latin;iussŭs, iussūs [noun] [m] [IV];Nasica tamen sensit illam domini iussu dixisse et poetam domi esse;1;rozkaz, polecenie, dekret, rozporządzenie;rozkaz, polecenie, dekret, rozporządzenie;True;2025-04-12 16:57:32
+default_user;4;latin;fructŭs, fructūs [noun] [m] [IV];Cato dixit litterarum radices amaras esse, sed fructus iucundiores;1;owoc (dosłownie, ale też jako zysk, nagroda);owoc (dosłownie, ale też jako zysk, nagroda);True;2025-04-12 16:57:41
+default_user;4;latin;destĭno, destĭnāre, destinavi, destinatum [verb] [I];Placuit regi callidum responsum viri et asinum pro homine morti destinavit;1;przeznaczać (do czegoś, na coś);wyznaczać;False;2025-04-12 16:57:58
+default_user;4;latin;destĭno, destĭnāre, destinavi, destinatum [verb] [I];Placuit regi callidum responsum viri et asinum pro homine morti destinavit;1;przeznaczać (do czegoś, na coś);;False;2025-04-12 16:57:59
+default_user;4;latin;ēnarro, ēnarrāre, enarravi, enarratum [verb] [I];Alexander ei oraculi praeceptum enarrat;1;wyjaśniać, objaśniać, szczegółowo opisywać;wyjaśniać, objaśniać, szczegółowo opisywać;True;2025-04-12 16:58:29
+default_user;4;latin;ăqua, aquae [noun] [f] [I];Thales dixit aquam esse initium rerum;1;woda;woda;True;2025-04-12 16:58:34
+default_user;4;latin;ostĭum, ostii [noun] [n] [II];Nasica aliquando ad Ennium poetam venit, cui ab ostio Ennium quarenti ancilla dixit dominum domi non esse;1;drzwi wejściowe;drzwi, brama, wejście;False;2025-04-12 16:58:40
+default_user;4;latin;ostĭum, ostii [noun] [n] [II];Nasica aliquando ad Ennium poetam venit, cui ab ostio Ennium quarenti ancilla dixit dominum domi non esse;1;drzwi wejściowe;drzwi wejściowe;True;2025-04-12 16:58:49

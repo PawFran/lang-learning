@@ -424,9 +424,9 @@ video, vidēre, vidi, visum [verb] [II]
 (Nautae terras alienas visitant, sed patriam suam vidēre cupiunt)
 1. widzieć
 
-scio, scīre, scivi, scitum [verb] [IV]
-(Nautae perīti pericula vitāre sciunt)
-1. umieć
+scĭo, scīre, scii o scivi, scitum [verb] [IV]
+((Nautae perīti pericula vitāre sciunt. Scis-ne Varsoviae pulchras statuas esse ?)
+1. wiedzieć, rozumieć, umieć
 
 vītō, vītāre, vītāvī, vītātum [verb] [I]
 (Nautae perīti pericula vitāre sciunt)
@@ -3643,7 +3643,7 @@ sănĭēs, saniei [noun] [f] [V]
 exprĭmo, exprĭmĕre, expressi, expressum [verb] [III]
 (Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
 1. ściskać, wyciskać
-2. wymawiać, wyrażać
+2. wyrażać
 
 mĕtŭs, metūs [noun] [m] [IV]
 (Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
@@ -3856,3 +3856,11 @@ exclāmo, exclāmāre, exclamavi, exclamatum [verb] [I]
 impŭdens, impŭdens, impŭdens [adj]
 (Homo es impudens)
 1. bezwstydny, bezczelny
+
+aeger, aegră, aegrum [adj]
+(Amicus meus aeger fuit)
+1. chory, schorowany, niedołężny
+
+nescĭo, nescīre, nescii o nescivi, nescitum [verb] [IV]
+(Soror mea nesciebat amicam meam Varsoviae habitare)
+1. nie wiedzieć, nie znać (komentarz - ne + scio)

@@ -1,3 +1,4 @@
 session_id;user_name;start_word;end_word;filtered_parts_of_speech;revise_last_session;interrupted
 1;default_user;spectaculum;;;False;False
 3;default_user;;;;True;False
+4;default_user;puto;nescio;;False;False

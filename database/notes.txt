@@ -1,5 +1,32 @@
 TODO
 
+tłumaczenia powinny wyrzucać tylko odpowiednią część mowy (trzeba ją do nich przypisać) - może to sprawi, że będę trochę lepsze ?
+do tego może do 5-ciu tłumaczeń powyżej progu confidence ?
+
+wrzucić do osobnych sekcji: "komentarz" i "przypadek, z którym się łączy". jak robić z przypadkiem ? on przynależy do kombinacji "słowo/tłumaczenie"
+do tego tłumaczenie powinno być przypisane do części mowy (uwzględnić to w bazie)
+
+instĭtŭo vs condo vs constĭtŭo
+
+affirmo vs dico
+
+merito vs recte
+
+puto vs credo
+
+wszystkie słowa do: wyjaśniać, rozwiązywać, rozplątywać
+
+być posłusznym vs być posłusznym, podporządkowywać się (+ dat)
+
+sprytny vs przebiegły, sprytny, pomysłowy
+
+rozkaz, polecenie, dekret, rozporządzenie vs nakaz, polecenie
+
+"wierzyć"" nie zwraca "myśleć, wierzyć, sądzić" - pewnie kiepsko działa, jak jest wiele słów ? albo większa liczba synonimów albo niech patrzy na każde słowo z osobna kiedy jest kilka oddzielonych przecinkami ?
+
+jeśli nie da się czegoś zescrape'owć to trzeba i w apce i do pliku wyrzucać info o tym - ale nie wrzucać tego do słownika poprzez "add" to dictionary. 
+może po prostu dodać sekcję "cannot scrape" jako trzecią ?
+
 jeśli jest forma bierna od danego słowa to wyszukiwać i scrape'ować to słowo, a nie formę bierną (np. iussu)
 
 stworzyć listę słów niewyrzucanych przez scrape (np. sum, et)
@@ -34,6 +61,10 @@ neco vs interficio
 cupio vs desidero
 
 iānŭa vs porta vs ostium
+
+łączyć ze sobą słowa - synonimy, ale też antonimy.
+może bielik byłby do tego lepszy skoro to po polsku ?
+potem urozmaicać ćwiczenia - np. po odpytaniu o słowo odpytać o synonim/antonim
 
 dodawać do słownika luźne (a może nie tak luźne ?) notatki nt. słów. raz, że w csv, dwa że w tabelach ? przykładem może być "dico". 
 notatki z chatagpt, przykładowe zdania, uwagi nt. konstrukcji
