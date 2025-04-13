@@ -178,6 +178,22 @@
             }
           }
         }
+      },
+      "coniunctivus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "first": "laudem",
+              "second": "laudes",
+              "third": "laudet"
+            },
+            "pluralis": {
+              "first": "laudemus",
+              "second": "laudetis",
+              "third": "laudent"
+            }
+          }
+        }
       }
     }
   },
@@ -357,6 +373,22 @@
             },
             "pluralis": {
               "second": "monemini"
+            }
+          }
+        }
+      },
+      "coniunctivus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "first": "moneam",
+              "second": "moneas",
+              "third": "moneat"
+            },
+            "pluralis": {
+              "first": "moneamus",
+              "second": "moneatis",
+              "third": "moneant"
             }
           }
         }
@@ -542,6 +574,22 @@
             }
           }
         }
+      },
+      "coniunctivus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "first": "legam",
+              "second": "legas",
+              "third": "legat"
+            },
+            "pluralis": {
+              "first": "legamus",
+              "second": "legatis",
+              "third": "legant"
+            }
+          }
+        }
       }
     }
   },
@@ -724,6 +772,22 @@
             }
           }
         }
+      },
+      "coniunctivus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "first": "capiam",
+              "second": "capias",
+              "third": "capiat"
+            },
+            "pluralis": {
+              "first": "capiamus",
+              "second": "capiatis",
+              "third": "capiant"
+            }
+          }
+        }
       }
     }
   },
@@ -735,7 +799,7 @@
             "singularis": {
               "first": "audio",
               "second": "audīs",
-              "third": "audīt"
+              "third": "audit"
             },
             "pluralis": {
               "first": "audīmus",
@@ -903,6 +967,22 @@
             },
             "pluralis": {
               "second": "audimini"
+            }
+          }
+        }
+      },
+      "coniunctivus": {
+        "praesens": {
+          "activus": {
+            "singularis": {
+              "first": "audiam",
+              "second": "audias",
+              "third": "audiat"
+            },
+            "pluralis": {
+              "first": "audiamus",
+              "second": "audiatis",
+              "third": "audiant"
             }
           }
         }
