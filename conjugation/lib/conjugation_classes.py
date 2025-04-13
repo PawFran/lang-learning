@@ -34,6 +34,7 @@ class ConjugationType(Enum):
 class Mood(Enum):
     Indicativus = 'indicative'
     Imperativus = 'imperative'
+    Coniunctivus = 'subjunctive'
 
     # todo more will be added
 
@@ -44,6 +45,8 @@ class Mood(Enum):
                 return Mood.Indicativus
             case 'imperativus' | 'imperative' | 'imp':
                 return Mood.Imperativus
+            case 'coniunctivus' | 'subjunctive' | 'con' | 'sub':
+                return Mood.Coniunctivus
             case _:
                 raise Exception(f'cannot parse string {s} to Mood')
 

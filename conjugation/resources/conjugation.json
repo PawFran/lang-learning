@@ -193,6 +193,20 @@
               "third": "laudent"
             }
           }
+        },
+        "imperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "laudarem",
+              "second": "laudares",
+              "third": "laudaret"
+            },
+            "pluralis": {
+              "first": "laudaremus",
+              "second": "laudaretis",
+              "third": "laudarent"
+            }
+          }
         }
       }
     }
@@ -391,6 +405,20 @@
               "third": "moneant"
             }
           }
+        },
+        "imperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "monerem",
+              "second": "moneres",
+              "third": "moneret"
+            },
+            "pluralis": {
+              "first": "moneremus",
+              "second": "moneretis",
+              "third": "monerent"
+            }
+          }
         }
       }
     }
@@ -587,6 +615,20 @@
               "first": "legamus",
               "second": "legatis",
               "third": "legant"
+            }
+          }
+        },
+        "imperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "legerem",
+              "second": "legeres",
+              "third": "legeret"
+            },
+            "pluralis": {
+              "first": "legeremus",
+              "second": "legeretis",
+              "third": "legerent"
             }
           }
         }
@@ -788,6 +830,21 @@
             }
           }
         }
+        ,
+        "imperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "caperem",
+              "second": "caperes",
+              "third": "caperet"
+            },
+            "pluralis": {
+              "first": "caperemus",
+              "second": "caperetis",
+              "third": "caperent"
+            }
+          }
+        }
       }
     }
   },
@@ -983,6 +1040,20 @@
               "first": "audiamus",
               "second": "audiatis",
               "third": "audiant"
+            }
+          }
+        },
+        "imperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "audirem",
+              "second": "audires",
+              "third": "audiret"
+            },
+            "pluralis": {
+              "first": "audiremus",
+              "second": "audiretis",
+              "third": "audirent"
             }
           }
         }
