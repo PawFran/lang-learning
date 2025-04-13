@@ -36,8 +36,6 @@ class Mood(Enum):
     Imperativus = 'imperative'
     Coniunctivus = 'subjunctive'
 
-    # todo more will be added
-
     @staticmethod
     def from_string(s: str):
         match s.lower().strip():
