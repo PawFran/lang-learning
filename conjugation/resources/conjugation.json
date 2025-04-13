@@ -32,25 +32,25 @@
           "activus": {
             "singularis": {
               "first": "laudābam",
-              "second": "laudābas",
+              "second": "laudābās",
               "third": "laudābat"
             },
             "pluralis": {
-              "first": "laudabāmus",
-              "second": "laudabātis",
+              "first": "laudābāmus",
+              "second": "laudābātis",
               "third": "laudābant"
             }
           }, 
           "passivus": {
             "singularis": {
               "first": "laudābar",
-              "second": "laudabāris",
-              "third": "laudabātur"
+              "second": "laudābāris",
+              "third": "laudābātur"
             },
             "pluralis": {
-              "first": "laudabāmur",
-              "second": "laudabamini",
-              "third": "laudabantur"
+              "first": "laudābāmur",
+              "second": "laudābāminī",
+              "third": "laudābantur"
             }
           }
         }, 
