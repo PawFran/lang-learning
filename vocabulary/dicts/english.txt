@@ -1143,3 +1143,7 @@ coating [noun]
 () []
 1. a layer of a substance that covers a surface  
 2. a covering or layer applied to an object for protection or decoration  
+
+insidious [adjective]
+(However, this pattern was more insidious) [Real World Haskell]
+1. having a gradual and cumulative effect; often in a way that is not easily noticed, but harmful

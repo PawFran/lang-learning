@@ -3864,3 +3864,17 @@ aeger, aegră, aegrum [adj]
 nescĭo, nescīre, nescii o nescivi, nescitum [verb] [IV]
 (Soror mea nesciebat amicam meam Varsoviae habitare)
 1. nie wiedzieć, nie znać (komentarz - ne + scio)
+
+ŭtĭnam [adv]
+(Utinam falsus vates sim)
+1. oby
+2. gdyby tylko
+
+falsus, falsă, falsum [adj]
+(Utinam falsus vates sim)
+1. błędny, fałszywy
+
+vātēs, vatis [noun] [m/f] [III]
+(Utinam falsus vates sim)
+1. prorok, wróżbita
+2. poeta
