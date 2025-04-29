@@ -1,5 +1,7 @@
 TODO
 
+dodac opcje powrotu do przerwanego cwiczenia - do tego najlepiej by trzymac stan sesji w bazie - chociaz z pliku tez by sie dalo. ale co gdyby slownik w miedzyczasie sie zmienil ?
+
 tłumaczenia powinny wyrzucać tylko odpowiednią część mowy (trzeba ją do nich przypisać) - może to sprawi, że będę trochę lepsze ?
 do tego może do 5-ciu tłumaczeń powyżej progu confidence ?
 
@@ -24,7 +26,7 @@ sprytny vs przebiegły, sprytny, pomysłowy
 
 rozkaz, polecenie, dekret, rozporządzenie vs nakaz, polecenie
 
-"wierzyć"" nie zwraca "myśleć, wierzyć, sądzić" - pewnie kiepsko działa, jak jest wiele słów ? albo większa liczba synonimów albo niech patrzy na każde słowo z osobna kiedy jest kilka oddzielonych przecinkami ?
+"wierzyć" nie zwraca "myśleć, wierzyć, sądzić" - pewnie kiepsko działa, jak jest wiele słów ? albo większa liczba synonimów albo niech patrzy na każde słowo z osobna kiedy jest kilka oddzielonych przecinkami ?
 
 jeśli nie da się czegoś zescrape'owć to trzeba i w apce i do pliku wyrzucać info o tym - ale nie wrzucać tego do słownika poprzez "add" to dictionary. 
 może po prostu dodać sekcję "cannot scrape" jako trzecią ?

@@ -12,3 +12,9 @@ session_id;user_name;conjugations_included;moods_included;tenses_included;voices
 11;default_user;I, II, III, IV;indicative;perfect;passive;False
 12;default_user;I, II, III, IV;indicative;future perfect;active;True
 13;default_user;I, II, III, IV;indicative;future perfect;passive;False
+14;default_user;I, II, III, IV;subjunctive;imperfect, present;active;True
+15;default_user;I, II, III, IV;subjunctive;present;active;False
+16;default_user;I, II, III, IV;subjunctive;imperfect;active;False
+17;default_user;I, II, III, IV;imperative, indicative, subjunctive;future perfect, future simple, imperfect, perfect, pluperfect, present;active, passive;True
+17;default_user;I, II, III, IV;indicative;future simple;passive;False
+18;default_user;I, II, III, IV;indicative;pluperfect;passive;False

@@ -3878,3 +3878,8 @@ vātēs, vatis [noun] [m/f] [III]
 (Utinam falsus vates sim)
 1. prorok, wróżbita
 2. poeta
+
+līs, litis [noun] [f] [III]
+(Sit nox cum somno, sit sine lite dies)
+1. pozew, proces sądowy
+2. spór, kłótnia
