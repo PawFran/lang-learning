@@ -87,9 +87,9 @@ class Voice(Enum):
     @staticmethod
     def from_string(s: str):
         match s.lower().strip():
-            case 'activus' | 'active' | 'act':
+            case 'activus' | 'active' | 'act' | 'a':
                 return Voice.Activus
-            case 'passivus' | 'passive' | 'pass':
+            case 'passivus' | 'passive' | 'pass' | 'p':
                 return Voice.Passivus
             case _:
                 raise Exception(f'cannot parse string {s} to Voice')
