@@ -1,6 +1,9 @@
 TODO
 
-dodac opcje powrotu do przerwanego cwiczenia - do tego najlepiej by trzymac stan sesji w bazie - chociaz z pliku tez by sie dalo. ale co gdyby slownik w miedzyczasie sie zmienil ?
+dodać opcje 'revise' do conjugation i declension (translation juz ma)
+revise mogłoby działać inaczej niż teraz w translation - dla zadanego zakresu (filtry) pobiera tylko te, ktore w ostatniej sesji byly bledne (nie w ostatniej sesji w ogole, ale w ostatniej sesji dla danego slowa)
+
+dodać opcje 'continue' do conjugation, declension i translation
 
 tłumaczenia powinny wyrzucać tylko odpowiednią część mowy (trzeba ją do nich przypisać) - może to sprawi, że będę trochę lepsze ?
 do tego może do 5-ciu tłumaczeń powyżej progu confidence ?
@@ -28,6 +31,28 @@ rozkaz, polecenie, dekret, rozporządzenie vs nakaz, polecenie
 
 "wierzyć" nie zwraca "myśleć, wierzyć, sądzić" - pewnie kiepsko działa, jak jest wiele słów ? albo większa liczba synonimów albo niech patrzy na każde słowo z osobna kiedy jest kilka oddzielonych przecinkami ?
 
+wiele, liczni vs kilka, spora liczba
+
+powoli vs powoli, stopniowo, ostrożnie
+
+przemyśleć remotus: usunięty, wycofany - czy dobre ?
+
+"ropa rana" nie podpowiada "ropa itp. wypływająca z rany lub wrzodu"
+
+"wyrażać" nie podpowiada "wymawiać, wyrażać"
+
+punio vs castigo
+
+neco vs interficio
+
+cupio vs desidero
+
+iānŭa vs porta vs ostium
+
+english scrape'ing - playwright (python)
+
+dodac opcje powrotu do przerwanego cwiczenia - do tego najlepiej by trzymac stan sesji w bazie - chociaz z pliku tez by sie dalo. ale co gdyby slownik w miedzyczasie sie zmienil ?
+
 jeśli nie da się czegoś zescrape'owć to trzeba i w apce i do pliku wyrzucać info o tym - ale nie wrzucać tego do słownika poprzez "add" to dictionary. 
 może po prostu dodać sekcję "cannot scrape" jako trzecią ?
 
@@ -48,24 +73,6 @@ dodać infinitivus do odmian - praes act/pass, perf act/pass, fut act/pass
 migracja wszystkich prepositions tak żeby było w bazie "associated case" - może zamienić nawiasy okrągłe na kwadratowe ?
 czy "ex - były, dawny" to jest przyimek ?
 
-wiele, liczni vs kilka, spora liczba
-
-powoli vs powoli, stopniowo, ostrożnie
-
-przemyśleć remotus: usunięty, wycofany - czy dobre ?
-
-"ropa rana" nie podpowiada "ropa itp. wypływająca z rany lub wrzodu"
-
-"wyrażać" nie podpowiada "wymawiać, wyrażać"
-
-punio vs castigo
-
-neco vs interficio
-
-cupio vs desidero
-
-iānŭa vs porta vs ostium
-
 łączyć ze sobą słowa - synonimy, ale też antonimy.
 może bielik byłby do tego lepszy skoro to po polsku ?
 potem urozmaicać ćwiczenia - np. po odpytaniu o słowo odpytać o synonim/antonim
@@ -74,8 +81,6 @@ dodawać do słownika luźne (a może nie tak luźne ?) notatki nt. słów. raz,
 notatki z chatagpt, przykładowe zdania, uwagi nt. konstrukcji
 dodać do csv np. nawiasy "{}" jako uwagi, notatki i odpowiednią kolumnę w tabeli. potem można by to sformalizować, mieć np. sekcje "konstrukcja", "przykłady", "porównanie z innymi słowami" itp. (patrz "dico" w "latin notes.txt") 
 czy odpytując API można mieć kontekst projektu z aplikacji chatgpt ?
-
-migracja na koniec nia dziala a samodzielnie juz tak ?
 
 czasem synonimy dzialaja kiepsko (np 'widowisko'). uzyc LLM ?
 

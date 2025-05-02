@@ -1,6 +1,7 @@
 import json
 from dataclasses import dataclass
 from enum import Enum
+import re
 
 from numpy.random import default_rng
 
@@ -36,6 +37,15 @@ class Mood(Enum):
     Imperativus = 'imperative'
     Coniunctivus = 'subjunctive'
 
+    def short(self):
+        match self:
+            case Mood.Indicativus:
+                return 'ind'
+            case Mood.Imperativus:
+                return 'imp'
+            case Mood.Coniunctivus:
+                return 'sub'
+
     @staticmethod
     def from_string(s: str):
         match s.lower().strip():
@@ -57,6 +67,21 @@ class Tense(Enum):
     Perfectum = 'perfect'
     Plusquamperfectum = 'pluperfect'
     Futurum_II = 'future perfect'
+
+    def short(self):
+        match self:
+            case Tense.Praesens:
+                return 'pres'
+            case Tense.Imperfectum:
+                return 'imperf'
+            case Tense.Futurum_I:
+                return 'fut simple'
+            case Tense.Perfectum:
+                return 'perf'
+            case Tense.Plusquamperfectum:
+                return 'pluperf'
+            case Tense.Futurum_II:
+                return 'fut perf'
 
     # todo tests
     @staticmethod
@@ -84,6 +109,13 @@ class Voice(Enum):
     Activus = 'active'
     Passivus = 'passive'
 
+    def short(self):
+        match self:
+            case Voice.Activus:
+                return 'act'
+            case Voice.Passivus:
+                return 'pass'
+
     @staticmethod
     def from_string(s: str):
         match s.lower().strip():
@@ -99,6 +131,13 @@ class Voice(Enum):
 class Number(Enum):
     Singularis = 'singular'
     Pluralis = 'plural'
+
+    def short(self):
+        match self:
+            case Number.Singularis:
+                return 'sing'
+            case Number.Pluralis:
+                return 'pl'
 
     @staticmethod
     def from_string(s: str):
@@ -141,8 +180,21 @@ class SingleConjugationRecord:
     person: Person
     word: str
 
-    def summary(self):
-        return f'''{self.infinitive} {self.mood.value.lower()} {self.tense.value} {self.voice.value.lower()} {self.person.value} {self.number.value.lower()}'''
+    def summary(self, mood=True, tense=True, voice=True):
+        full = f'''{self.infinitive} {self.mood.short()} {self.tense.short()} {self.voice.short()} {self.person.value} {self.number.short()}'''
+
+        if not mood:
+            full = full.replace(self.mood.short(), '')
+        if not tense:
+            full = full.replace(self.tense.short(), '')
+        if not voice:
+            full = full.replace(self.voice.short(), '')
+
+        full.replace(self.person.value.lower(), '')
+
+        final = re.sub(r'\s+', ' ', full).strip()
+
+        return final
 
 
 class ConjugationTable:

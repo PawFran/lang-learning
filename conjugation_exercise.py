@@ -23,6 +23,12 @@ if __name__ == '__main__':
     tenses_included = {c.tense.value for c in conjugations_filtered.records}
     voices_included = {c.voice.value for c in conjugations_filtered.records}
 
+    print()
+    print('exercise summary:')
+    for x in [conjugations_included, moods_included, tenses_included, voices_included]:
+        print(x)
+    print()
+
     print(f'{len(conjugations_filtered.records)} left')
 
     print()
@@ -42,7 +48,10 @@ if __name__ == '__main__':
     interrupted = False
     while should_continue and len(conjugations_filtered.records) > 0:
         verb = conjugations_filtered.random_record(rng)
-        print(verb.summary())
+        # do not tell about form when it's always the same in particular exercise
+        # summary = verb.summary(mood=len(moods_included) > 1, tense=len(tenses_included) > 1, voice=len(voices_included) > 1)
+        summary = verb.summary()
+        print(summary)
 
         try:
             user_answer = input()
