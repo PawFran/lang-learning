@@ -430,3 +430,8 @@ default_user;17;latin;quis, quid;singularis;dativus;cui?;cuius?;False;2025-03-16
 default_user;17;latin;quis, quid;singularis;dativus;cui?;cui?;True;2025-03-16 19:18:17
 default_user;17;latin;quis, quid;singularis;genetivus;cuius?;cuius?;True;2025-03-16 19:18:21
 default_user;17;latin;quis, quid;singularis;ablativus;quo?;quo?;True;2025-03-16 19:18:27
+default_user;18;latin;hic;singularis;nominativus;hic;hic;True;2025-04-29 22:33:53
+default_user;18;latin;hic;pluralis;genetivus;hōrum;horum;True;2025-04-29 22:33:59
+default_user;18;latin;hoc;singularis;nominativus;hoc;hoc;True;2025-04-29 22:34:06
+default_user;18;latin;haec;pluralis;dativus;hīs;haerum;False;2025-04-29 22:34:13
+default_user;18;latin;hoc;pluralis;ablativus;hīs;;False;2025-04-29 22:34:38

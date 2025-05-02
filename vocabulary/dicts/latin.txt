@@ -935,8 +935,8 @@ princĭpĭum, principii [n] [noun] [II]
 1. początek
 
 dum [adv]
-()
-1. podczas gdy
+(Dum spiramus, speremus)
+1. podczas gdy, tak długo jak, dopóki
 
 vĭtĭum, vitii [noun] [n] [II]
 ()
@@ -3883,3 +3883,7 @@ līs, litis [noun] [f] [III]
 (Sit nox cum somno, sit sine lite dies)
 1. pozew, proces sądowy
 2. spór, kłótnia
+
+spīro, spīrāre, spiravi, spiratum [verb] [I]
+(Dum spiramus, speremus)
+1. oddychać
