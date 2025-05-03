@@ -46,13 +46,17 @@ def parse_translation(translation_raw):
 def parse_single_group_of_lines(single_group_of_lines):
     first_line = single_group_of_lines[0].strip()
     example = parse_example(single_group_of_lines[1])
-    translations = [parse_translation(x) for x in single_group_of_lines[2:]]
+    translations = [parse_translation(x) for x in single_group_of_lines[2:] if x and x[0].isdigit()]
+    if single_group_of_lines[-1].startswith('['):
+        comment = single_group_of_lines[-1].replace('[', '').replace(']', '').strip()
+    else:
+        comment = ''
 
-    return first_line, example, translations
+    return first_line, example, translations, comment
 
 
 def parse_latin_dict_entry(single_group_of_lines):
-    first_line, example, translations = parse_single_group_of_lines(single_group_of_lines)
+    first_line, example, translations, comment = parse_single_group_of_lines(single_group_of_lines)
 
     # todo do it right (polimorphism)
     if LatinVerb.is_verb(first_line):
@@ -72,11 +76,11 @@ def parse_latin_dict_entry(single_group_of_lines):
     else:
         raise Exception(f'cannot recognize part of speech for: {first_line}')
 
-    return DictionaryEntry(dict_entry_head, example, translations)
+    return DictionaryEntry(dict_entry_head, example, translations, comment)
 
 
 def parse_english_dict_entry(single_group_of_lines):
-    first_line, example, translations = parse_single_group_of_lines(single_group_of_lines)
+    first_line, example, translations, comment = parse_single_group_of_lines(single_group_of_lines)
 
     dict_entry_head = EnglishWord.from_entry_head(first_line)
     return DictionaryEntry(dict_entry_head, example, translations)

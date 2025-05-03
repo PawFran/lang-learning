@@ -11,10 +11,12 @@ lines_raw_latin = \
     ['castīgo, āre, avi, atum [verb] [I]\n',
      '(Ancillam miseram domina sevēra castīgat)\n',
      '1. karać\n',
+     '[testowy komentarz do castīgo]\n',
      '\n',
      'vinea, ae [noun] [I] [f]\n',
      '(Ancillae in vineā labōrant)\n',
      '1. winnica\n',
+     '[]\n',
      '\n',
      'valdē [adv]\n',
      '(Varsoviam valde amamus)\n',
@@ -22,22 +24,26 @@ lines_raw_latin = \
      '\n',
      'sempiternus, a, um [adj]\n',
      '(Verae amicitiae sempiternae sunt)\n',
-     '1. ciągły, trwały, wieczny']
+     '1. ciągły, trwały, wieczny\n',
+     '[testowy komentarz do sempiternus]']
 lines_raw_latin_blank_line_at_the_end = lines_raw_latin + ['\n']
 lines_grouped_latin = \
     [
         ['castīgo, āre, avi, atum [verb] [I]\n',
          '(Ancillam miseram domina sevēra castīgat)\n',
-         '1. karać\n'],
+         '1. karać\n',
+         '[testowy komentarz do castīgo]\n'],
         ['vinea, ae [noun] [I] [f]\n',
          '(Ancillae in vineā labōrant)\n',
-         '1. winnica\n'],
+         '1. winnica\n',
+         '[]\n'],
         ['valdē [adv]\n',
          '(Varsoviam valde amamus)\n',
          '1. bardzo\n'],
         ['sempiternus, a, um [adj]\n',
          '(Verae amicitiae sempiternae sunt)\n',
-         '1. ciągły, trwały, wieczny']
+         '1. ciągły, trwały, wieczny\n',
+         '[testowy komentarz do sempiternus]']
     ]
 
 lines_raw_english = \
@@ -77,13 +83,15 @@ def test_parse_single_group_of_lines():
     assert parsed[0] == 'castīgo, āre, avi, atum [verb] [I]'
     assert parsed[1] == 'Ancillam miseram domina sevēra castīgat'
     assert parsed[2] == ['karać']
+    assert parsed[3] == 'testowy komentarz do castīgo'
 
 
 def test_parse_latin_entry():
     dict_entry = parse_latin_dict_entry(
         ['castīgo, āre, avi, atum [verb] [I]\n',
          '(Ancillam miseram domina sevēra castīgat)\n',
-         '1. karać\n']
+         '1. karać\n',
+         '[testowy komentarz do castīgo]\n']
     )
 
     assert dict_entry.head == LatinVerb(
@@ -97,6 +105,7 @@ def test_parse_latin_entry():
 
     assert dict_entry.example == 'Ancillam miseram domina sevēra castīgat'
     assert dict_entry.translations == ['karać']
+    assert dict_entry.comment == 'testowy komentarz do castīgo'
 
 
 def test_parse_english_entry():
@@ -130,7 +139,8 @@ def test_parse_latin_dict():
             conjugation=ConjugationType.I
         ),
         example='Ancillam miseram domina sevēra castīgat',
-        translations=['karać']
+        translations=['karać'],
+        comment='testowy komentarz do castīgo'
     )
 
 

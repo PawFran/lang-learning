@@ -1,10 +1,12 @@
 castīgo, āre, avi, atum [verb] [I]
 (Ancillam miseram domina sevēra castīgat)
 1. karać
+[testowy komentarz do castīgo]
 
 vinea, ae [noun] [I] [f]
 (Ancillae in vineā labōrant)
 1. winnica
+[]
 
 valdē [adv]
 (Varsoviam valde amamus)
@@ -13,3 +15,4 @@ valdē [adv]
 sempiternus, a, um [adj]
 (Verae amicitiae sempiternae sunt)
 1. ciągły, trwały, wieczny
+[testowy komentarz do sempiternus]

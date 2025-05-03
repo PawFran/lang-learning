@@ -2766,7 +2766,8 @@ fīnis, finis [noun] [m/f] [III]
 
 instĭtŭo, instĭtŭĕre, institui, institutum [verb] [III]
 (Fabius Labeo fines inter Nolanos et Neapolitanos instituere debebat)
-1. zakładać, ustanawiać
+1. inicjować, zakładać, ustanawiać
+[instĭtŭo podkreśla inicjację, rozpoczęcie czegoś, co od teraz będzie trwać. często w kontekście organizacji, instytucji, nauczania - ale sprawdzić w słowniku papierowym]
 
 cŭpĭdĭtās, cupiditatis [noun] [f] [III]
 (Sine cupiditate agite)
@@ -2808,8 +2809,9 @@ termĭnus, termini [noun] [m] [II]
 
 constĭtŭo, constĭtŭĕre, constitui, constitutum [verb] [III]
 (Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
-1. ustawiać lub ustawiać w pozycji, wznosić
-2. ustanowić, stworzyć, wprowadzić
+1. ustawiać lub ustawiać w pozycji, wznosić, rozbijać (obóz)
+2. ustanowić, postanowić, decydować
+[constĭtŭo podkreśla stałość - patrz "consto"]
 
 ŭt [conj]
 (Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
@@ -3708,7 +3710,8 @@ pŭto, pŭtāre, putavi, putatum [verb] [I]
 
 condo, condĕre, condidi, conditum [verb] [III]
 (Romam a Romulo conditam esse scriptores tradunt)
-1. budować, zakładać, tworzyć
+1. budować, zakładać (coś fizycznego)
+[condo podkreśla tworzenie fizyczne, inaczej niż instituo albo constituo które często dotyczą rzeczy abstrakcyjnych (chociaź nie zawsze). założenie szkoły - instituo. rozbicie obozu - constituo. założenie miasta - condo. być może dlatego, że obóz się "stawia" a miasto się "buduje"]
 
 dīco, dīcĕre, dixi, dictum [verb] [III]
 (Thales dixit aquam esse initium rerum)
@@ -3863,7 +3866,8 @@ aeger, aegră, aegrum [adj]
 
 nescĭo, nescīre, nescii o nescivi, nescitum [verb] [IV]
 (Soror mea nesciebat amicam meam Varsoviae habitare)
-1. nie wiedzieć, nie znać (komentarz - ne + scio)
+1. nie wiedzieć, nie znać
+[komentarz - ne + scio]
 
 ŭtĭnam [adv]
 (Utinam falsus vates sim)

@@ -264,7 +264,7 @@ class DictionaryEntry:
     castīgo, castīgāre, castīgāvi, castīgātum [verb] [I]
     (Ancillam miseram domina sevēra castīgat)
     1. karać
-    {komentarz}
+    [komentarz]
     """
     head: AbstractWord  # basic dictionary entry that is base word with another info like in above example
     example: str
@@ -296,6 +296,7 @@ class Dictionary:
             example = f'({entry.example})'
             zipped = zip(range(0, len(entry.translations)), entry.translations)
             translations = [f'{i + 1}. {t}' for (i, t) in zipped]
+            comment = f'[{entry.comment}]'
             entry_str = '\n'.join([header] + [example] + translations) + '\n' + '\n'
             final_str_accumulator += entry_str
 
