@@ -264,10 +264,12 @@ class DictionaryEntry:
     castīgo, castīgāre, castīgāvi, castīgātum [verb] [I]
     (Ancillam miseram domina sevēra castīgat)
     1. karać
+    {komentarz}
     """
     head: AbstractWord  # basic dictionary entry that is base word with another info like in above example
     example: str
     translations: list[str]
+    comment: str = ''
 
 
 @dataclass
