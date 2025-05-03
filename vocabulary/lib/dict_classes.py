@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from typing import Optional
 
 import numpy as np
 from numpy.random import default_rng
@@ -269,7 +270,7 @@ class DictionaryEntry:
     head: AbstractWord  # basic dictionary entry that is base word with another info like in above example
     example: str
     translations: list[str]
-    comment: str = ''
+    comment: Optional[str] = None
 
 
 @dataclass

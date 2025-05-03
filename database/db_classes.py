@@ -83,6 +83,7 @@ class Words(Base):
     lang = Column(String, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)
     header = Column(String, nullable=False)
     part_of_speech = Column(String, ForeignKey(f'{PartsOfSpeech.__tablename__}.name'), nullable=False)
+    comment = Column(String, nullable=True)
 
     __table_args__ = (
         UniqueConstraint('lang', 'header', 'part_of_speech'),

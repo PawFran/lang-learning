@@ -1,3 +1,4 @@
+from pygments.styles.dracula import comment
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
@@ -89,7 +90,7 @@ def insert_or_ignore_latin_word(entry: DictionaryEntry, parsing_function, sessio
         part_of_speech = head.part_of_speech().value
 
         # Insert into "words" table
-        word = Words(lang="latin", header=head_raw_without_metadata, part_of_speech=part_of_speech)
+        word = Words(lang="latin", header=head_raw_without_metadata, part_of_speech=part_of_speech, comment=entry.comment)
         insert_or_ignore_no_commit(session, word)
 
         word_id = session.query(Words).filter_by(header=head_raw_without_metadata).first().id
