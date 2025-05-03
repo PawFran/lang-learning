@@ -18,3 +18,13 @@ session_id;user_name;conjugations_included;moods_included;tenses_included;voices
 17;default_user;I, II, III, IV;imperative, indicative, subjunctive;future perfect, future simple, imperfect, perfect, pluperfect, present;active, passive;True
 17;default_user;I, II, III, IV;indicative;future simple;passive;False
 18;default_user;I, II, III, IV;indicative;pluperfect;passive;False
+20;default_user;I, II, III, IV;indicative;present;active, passive;True
+20;default_user;I, II, III, IV;indicative;present;active, passive;True
+20;default_user;I, II, III, IV;indicative;present;active, passive;True
+20;default_user;I, II, III, IV;indicative;present;active, passive;True
+20;default_user;I, II, III, IV;indicative;present;active, passive;True
+20;default_user;I, II, III, IV;indicative;present;active, passive;True
+20;default_user;I, II, III, IV;indicative;present;active, passive;True
+20;default_user;I, II, III, IV;indicative;present;active, passive;True
+21;default_user;I, II, III, IV;indicative;present;active, passive;True
+21;default_user;I, II, III, IV;indicative;present;active, passive;False

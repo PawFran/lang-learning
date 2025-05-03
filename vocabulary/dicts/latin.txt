@@ -3867,7 +3867,7 @@ aeger, aegră, aegrum [adj]
 nescĭo, nescīre, nescii o nescivi, nescitum [verb] [IV]
 (Soror mea nesciebat amicam meam Varsoviae habitare)
 1. nie wiedzieć, nie znać
-[komentarz - ne + scio]
+[ne + scio]
 
 ŭtĭnam [adv]
 (Utinam falsus vates sim)
