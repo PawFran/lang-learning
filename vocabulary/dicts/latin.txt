@@ -1407,6 +1407,7 @@ errŏr, erroris [noun] [m] [III]
 crēdo, crēdĕre, credidi, creditum [verb] [III]
 (Credo miseram fuisse Penelopen, quae tam diu viro suo caruit)
 1. wierzyć
+[wyraża wiarę, zaufanie, ma charakter bardziej emocjonalny niż intelektualny (puto). często z dat. ("credo tibi") albo w ACI]
 
 pŏtĭus [adv]
 ()
@@ -3706,7 +3707,8 @@ torrĕo, torrēre, torrui, tostum [verb] [II]
 
 pŭto, pŭtāre, putavi, putatum [verb] [I]
 (Sententiam illam veram esse puto)
-1. myśleć, wierzyć, sądzić
+1. uważać, sądzić, myśleć, przypuszczać
+[oznacza opinię opartą na przemyśleniu, ma zabarwienie intelektualne. nie oznacza wiary (credo), ani zaufania, ani procesu myślenia (cogito). czesto używane w ACI]
 
 condo, condĕre, condidi, conditum [verb] [III]
 (Romam a Romulo conditam esse scriptores tradunt)

@@ -11,13 +11,9 @@ do tego może do 5-ciu tłumaczeń powyżej progu confidence ?
 wrzucić do osobnych sekcji: "komentarz" i "przypadek, z którym się łączy". jak robić z przypadkiem ? on przynależy do kombinacji "słowo/tłumaczenie"
 do tego tłumaczenie powinno być przypisane do części mowy (uwzględnić to w bazie)
 
-instĭtŭo vs condo vs constĭtŭo
-
 affirmo vs dico
 
 merito vs recte
-
-puto vs credo
 
 ignoro vs nescio
 
