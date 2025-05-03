@@ -38,12 +38,12 @@ class Mood(Enum):
     Coniunctivus = 'subjunctive'
 
     def short(self):
-        match self:
-            case Mood.Indicativus:
+        match self.value:
+            case Mood.Indicativus.value:
                 return 'ind'
-            case Mood.Imperativus:
+            case Mood.Imperativus.value:
                 return 'imp'
-            case Mood.Coniunctivus:
+            case Mood.Coniunctivus.value:
                 return 'sub'
 
     @staticmethod
@@ -69,18 +69,18 @@ class Tense(Enum):
     Futurum_II = 'future perfect'
 
     def short(self):
-        match self:
-            case Tense.Praesens:
+        match self.value:
+            case Tense.Praesens.value:
                 return 'pres'
-            case Tense.Imperfectum:
+            case Tense.Imperfectum.value:
                 return 'imperf'
-            case Tense.Futurum_I:
+            case Tense.Futurum_I.value:
                 return 'fut simple'
-            case Tense.Perfectum:
+            case Tense.Perfectum.value:
                 return 'perf'
-            case Tense.Plusquamperfectum:
+            case Tense.Plusquamperfectum.value:
                 return 'pluperf'
-            case Tense.Futurum_II:
+            case Tense.Futurum_II.value:
                 return 'fut perf'
 
     # todo tests
@@ -110,10 +110,10 @@ class Voice(Enum):
     Passivus = 'passive'
 
     def short(self):
-        match self:
-            case Voice.Activus:
+        match self.value:
+            case Voice.Activus.value:
                 return 'act'
-            case Voice.Passivus:
+            case Voice.Passivus.value:
                 return 'pass'
 
     @staticmethod
@@ -133,10 +133,10 @@ class Number(Enum):
     Pluralis = 'plural'
 
     def short(self):
-        match self:
-            case Number.Singularis:
+        match self.value:
+            case Number.Singularis.value:
                 return 'sing'
-            case Number.Pluralis:
+            case Number.Pluralis.value:
                 return 'pl'
 
     @staticmethod

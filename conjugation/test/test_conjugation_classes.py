@@ -114,3 +114,16 @@ def test_conjugation_table_from_dict():
     assert last_but_one_record.number is Number.Pluralis
     assert last_but_one_record.person is Person.Second
     assert last_but_one_record.word == 'audimini'
+
+
+def test_enum_short():
+    assert Mood.Indicativus.short() == 'ind'
+    assert Mood.Imperativus.short() == 'imp'
+    assert Mood.Coniunctivus.short() == 'sub'
+
+    assert Tense.Praesens.short() == 'pres'
+    assert Tense.Imperfectum.short() == 'imperf'
+    assert Tense.Perfectum.short() == 'perf'
+
+    assert Voice.Activus.short() == 'act'
+    assert Voice.Passivus.short() == 'pass'
