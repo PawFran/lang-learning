@@ -27,7 +27,7 @@ small_test_dict = {
     },
 }
 
-json_file_path = os.path.join("conjugation", "resources", "conjugation.json")
+json_file_path = os.path.join("conjugation", "test", "resources", "conjugation.json")
 with open(json_file_path, encoding="utf8") as f:
     test_dict = json.load(f)
 
@@ -45,12 +45,6 @@ def test_conjugation_type_from_dict():
     assert ConjugationType.from_string('anomaly') is ConjugationType.ANOMALOUS
 
     assert not ConjugationType.from_string('first') is ConjugationType.II
-
-    # assert ConjugationType.from_string('third a') is ConjugationType.IIIa
-    # assert ConjugationType.from_string('third_a') is ConjugationType.IIIa
-    # assert ConjugationType.from_string('third-a') is ConjugationType.IIIa
-
-    # assert ConjugationType.from_string('third b') is ConjugationType.IIIb
 
 
 def test_conjugation_type_from_dict_invalid():
