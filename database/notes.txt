@@ -8,7 +8,7 @@ dodać opcje 'continue' do conjugation, declension i translation
 tłumaczenia powinny wyrzucać tylko odpowiednią część mowy (trzeba ją do nich przypisać) - może to sprawi, że będę trochę lepsze ?
 do tego może do 5-ciu tłumaczeń powyżej progu confidence ?
 
-wrzucić do osobnych sekcji: "komentarz" i "przypadek, z którym się łączy". jak robić z przypadkiem ? on przynależy do kombinacji "słowo/tłumaczenie"
+wrzucić do osobnych sekcji: "przypadek, z którym się łączy". tylko przypadek przynależy do kombinacji "słowo/tłumaczenie"
 do tego tłumaczenie powinno być przypisane do części mowy (uwzględnić to w bazie)
 
 wszystkie słowa do: wyjaśniać, rozwiązywać, rozplątywać
