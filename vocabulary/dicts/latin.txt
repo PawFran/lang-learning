@@ -146,7 +146,8 @@ erro, errāre, errāvī, errātum [verb] [I]
 
 affirmo, affirmāre, affirmāvī, affirmātum [verb] [I]
 (Errant, qui affirmant: "Ibi patria, ubi bene")
-1. twierdzić
+1. potwierdzać, zapewniać, twierdzić
+[bardziej stanowczy wydźwięk nić "dico" (które oznacza bardziej "mówić" bez akcentowania przekonania). często w tekstach formalnych, prawniczych, filozoficznych. często w konstrukcji ACI]
 
 bene [adv]
 (Errant, qui affirmant: "Ibi patria, ubi bene")
@@ -581,8 +582,8 @@ fŭgĭo, fŭgĕre, fugi, fugitum [verb] [III]
 
 ignōro, ignōrāre, ignorāvī, ignorātum [verb] [I]
 (Aliena laudātis, vestra ignorātis)
-1. nie wiedzieć, nie znać
-2. ignorować, nie zwracać uwagi na
+1. nie wiedzieć, nie znać, nie być świadomym, zaniedbywać, ignorować
+[in + gnosco. oznacza brak świadomości, często świadomą niewiedzę lub zaniedbanie uwagi]
 
 cūr [adv]
 (Cur Marcus saepe laudatur, et Publius semper castigatur a magistro ?)
@@ -2040,7 +2041,8 @@ flūmĕn, fluminis [noun] [n] [III]
 
 mĕrĭtō [adv]
 (Amittit merito proprium, qui alienum appetit)
-1. zasłużenie, słusznie
+1. zasłużenie, słusznie, sprawiedliwie (bo się należy)
+[podkreśla zasługę, konsekwencję czynów (dobrych i złych), sprawiedliwość. ma wydźwięk moralny]
 
 mĕrĭtus, merită, meritum [adj]
 ()
@@ -3717,7 +3719,8 @@ condo, condĕre, condidi, conditum [verb] [III]
 
 dīco, dīcĕre, dixi, dictum [verb] [III]
 (Thales dixit aquam esse initium rerum)
-1. mówić, twierdzić, oświadczać
+1. mówić, stwierdzać, nazywać
+[kosntrukcja ACI lub cytat bezpośredni]
 
 ăqua, aquae [noun] [f] [I]
 (Thales dixit aquam esse initium rerum)
@@ -3812,7 +3815,8 @@ explĭco, explĭcāre, explicavi o explicui, explicatum o explicitum [verb] [I]
 
 rectē [adv]
 (Oraculi praeceptum non explicas recte: asinus meus tibi primus occurrit, eum interficire debes)
-1. słusznie, prawidłowo, właściwie, poprawnie
+1. prawidłowo, poprawnie, właściwie, słusznie
+[podkreśla zgodność z normą, niekoniecznie moralną - np. językową]
 
 responsum, responsi [noun] [n] [II]
 (Placuit regi callidum responsum viri et asinum pro homine morti destinavit)
@@ -3868,8 +3872,8 @@ aeger, aegră, aegrum [adj]
 
 nescĭo, nescīre, nescii o nescivi, nescitum [verb] [IV]
 (Soror mea nesciebat amicam meam Varsoviae habitare)
-1. nie wiedzieć, nie znać
-[ne + scio]
+1. nie wiedzieć, nie umieć
+[ne + scio. oznacza niewiedzę czysto faktograficzną (nie brak świadomości = ignoro) albo brak umiejętności]
 
 ŭtĭnam [adv]
 (Utinam falsus vates sim)

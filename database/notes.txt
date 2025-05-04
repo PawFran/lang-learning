@@ -11,12 +11,6 @@ do tego może do 5-ciu tłumaczeń powyżej progu confidence ?
 wrzucić do osobnych sekcji: "komentarz" i "przypadek, z którym się łączy". jak robić z przypadkiem ? on przynależy do kombinacji "słowo/tłumaczenie"
 do tego tłumaczenie powinno być przypisane do części mowy (uwzględnić to w bazie)
 
-affirmo vs dico
-
-merito vs recte
-
-ignoro vs nescio
-
 wszystkie słowa do: wyjaśniać, rozwiązywać, rozplątywać
 
 być posłusznym vs być posłusznym, podporządkowywać się (+ dat)
