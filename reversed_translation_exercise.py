@@ -8,7 +8,8 @@ from sqlalchemy.orm import Session
 from database.db_classes import ReversedTranslationLastUninterruptedSessionHardWords
 from environment import engine
 
-from actions.translation import REVERSED_TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, REVERSED_TRANSLATION_SESSION_METADATA_CSV_PATH
+from actions.translation import REVERSED_TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, \
+    REVERSED_TRANSLATION_SESSION_METADATA_CSV_PATH
 from common.lib.utils import DEFAULT_USER_NAME
 from database.initialize_db import default_db_initialization
 from synonyms.utils import SynonymFinder
@@ -35,7 +36,8 @@ if __name__ == "__main__":
     if args.revise_last_session:
         print('revising last session, arguments like start/end word and filtered parts of speech are ignored')
         with Session(engine) as session:
-            hard_words_raw = session.execute(text(ReversedTranslationLastUninterruptedSessionHardWords.__view_query__)).all()
+            hard_words_raw = session.execute(
+                text(ReversedTranslationLastUninterruptedSessionHardWords.__view_query__)).all()
             hard_words = [x[0] for x in hard_words_raw]
             if len(hard_words) > 0:
                 print(f"Found {len(hard_words)} difficult words from last session to review")
@@ -62,7 +64,8 @@ if __name__ == "__main__":
     end_time = time.time()
     print(f'Synonyms finder initialized in {end_time - start_time:.1f} seconds', end='\n\n')
 
-    db_handler = ReversedTranslationExerciseCSVHandler(REVERSED_TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, args.user_name, args.language)
+    db_handler = ReversedTranslationExerciseCSVHandler(REVERSED_TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, args.user_name,
+                                                       args.language)
     session_metadata_handler = TranslationExerciseSessionMetadataCSVHandler(
         path=REVERSED_TRANSLATION_SESSION_METADATA_CSV_PATH,
         session_id=db_handler.current_session_id,
@@ -97,10 +100,15 @@ if __name__ == "__main__":
                 if user_translation.lower().strip() == 's':
                     user_choice = 's'
                 else:
-                    synonyms: list[str] = synonym_finder.similar_translations(user_translation, n=synonyms_number)
-                    print_all(synonyms)
-                    user_choice = input('choose answers (digits separated by space) or try again (a) or skip (s) or terminate (t): ').strip()
-                
+                    synonyms: list[str] = synonym_finder.similar_translations(user_translation, n=synonyms_number,
+                                                                              part_of_speech=current_entry.head.part_of_speech())
+                    if len(synonyms) > 0:
+                        print_all(synonyms)
+                        user_choice = input('choose answers (digits separated by space) or try again (a) or skip (s) or terminate (t): ').strip()
+                    else:
+                        print('no synonyms found')
+                        user_choice = input('try again (a) or skip (s) or terminate (t): ').strip()
+
                 if user_choice == 'a':  # try again
                     continue
                 elif user_choice == 's':  # skip
@@ -111,12 +119,12 @@ if __name__ == "__main__":
                     print('all remaining translations:')
                     print_all(current_entry.translations)
                     print('')
-                    
+
                     db_handler.update_db(head_raw=full_header,
-                                        example=current_entry.example,
-                                        number_of_translations_total=translations_number, 
-                                        translations_left=current_entry.translations, 
-                                        user_answer="", was_correct=is_correct)
+                                         example=current_entry.example,
+                                         number_of_translations_total=translations_number,
+                                         translations_left=current_entry.translations,
+                                         user_answer="", was_correct=is_correct)
 
                     for translation in current_entry.translations:
                         dictionary.remove_single_translation(current_entry, translation)
@@ -129,7 +137,7 @@ if __name__ == "__main__":
                 elif is_proper_answer(user_choice):  # answer
                     user_answers = [synonyms[int(x) - 1] for x in answer_parsed(user_choice)]
 
-                    correct_answers =   [answer for answer in user_answers if answer in     current_entry.translations]
+                    correct_answers = [answer for answer in user_answers if answer in current_entry.translations]
                     incorrect_answers = [answer for answer in user_answers if answer not in current_entry.translations]
 
                     for answer in correct_answers:
@@ -170,7 +178,7 @@ if __name__ == "__main__":
 
     if not interrupted:
         session_metadata_handler.update(interrupted=False)
-    
+
     default_db_initialization()
 
     print('terminating..')

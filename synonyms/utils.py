@@ -1,21 +1,29 @@
-import sys
-from pathlib import Path
+from dataclasses import dataclass
 from sqlalchemy.orm import sessionmaker
 from environment import engine
-
-# Add the parent directory to sys.path to import from database
-# sys.path.append(str(Path.cwd().parent))
-
-from database.db_classes import Translations
 
 from langchain.docstore.document import Document
 from langchain_openai import OpenAIEmbeddings
 import numpy as np
 
+from vocabulary.lib.dict_classes import PartOfSpeech
+
 Session = sessionmaker(bind=engine)
 
 
-def get_all_translations() -> list[Translations]:
+@dataclass
+class TranslationWithPartOfSpeech:
+    translation: str
+    part_of_speech: str
+
+
+@dataclass
+class QueriedDocument:
+    document: Document
+    score: float
+
+
+def get_all_translations() -> list[TranslationWithPartOfSpeech]:
     """
     Retrieve all translations from the database using the Translations class.
     
@@ -24,7 +32,20 @@ def get_all_translations() -> list[Translations]:
     """
     session = Session()
     try:
-        translations = session.query(Translations).all()
+        # Use SQLAlchemy ORM objects instead of raw SQL
+        from database.db_classes import Words, LatinWordsTranslationsMappings, Translations
+
+        translations_raw = (
+            session.query(
+                Translations.translation,
+                Words.part_of_speech,
+            )
+            .join(LatinWordsTranslationsMappings, Words.id == LatinWordsTranslationsMappings.word_id)
+            .join(Translations, LatinWordsTranslationsMappings.translation_id == Translations.id)
+            .filter(Words.lang == 'latin')
+            .all()
+        )
+        translations = [TranslationWithPartOfSpeech(translation=x[0], part_of_speech=x[1]) for x in translations_raw]
         return translations
     except Exception as e:
         print(f"Error retrieving translations: {e}")
@@ -33,14 +54,15 @@ def get_all_translations() -> list[Translations]:
         session.close()
 
 
-def translation_to_documents(translations: list[Translations]) -> list[Document]:
+def translation_to_documents(translations: list[TranslationWithPartOfSpeech]) -> list[Document]:
     translation_docs = []
     for translation in translations:
         doc = Document(
-            page_content=translation.translation
+            page_content=translation.translation,
+            metadata={"part_of_speech": translation.part_of_speech}
         )
         translation_docs.append(doc)
-    
+
     return translation_docs
 
 
@@ -51,43 +73,48 @@ class SynonymFinder:
         self.embeddings = OpenAIEmbeddings()
         self.doc_embeddings = self.embeddings.embed_documents([doc.page_content for doc in self.translation_docs])
 
+    def cosine_similarities(self, query_embedding: list[float]) -> list[(float, int)]:
+        similarities = []
+        for i, doc_embedding in enumerate(self.doc_embeddings):
+            similarity = np.dot(query_embedding, doc_embedding) / (
+                    np.linalg.norm(query_embedding) * np.linalg.norm(doc_embedding))
+            similarities.append((similarity, i))
 
-    def get_relevant_documents(self, query: str, n: int, documents: list, open_AI_embeddings: OpenAIEmbeddings, doc_embeddings: list) -> list:
+        return similarities
+
+    def get_similar_documents(self, query: str, documents: list,
+                              part_of_speech: PartOfSpeech = None) -> list:
         """
         Find the N most relevant documents for a given query word using LangChain embeddings and cosine similarity.
 
         Args:
             query (str): The input word to find similar documents for
-            n (int): Number of relevant documents to return
             documents (list): List of Document objects to search through
+            part_of_speech (PartOfSpeech): Optional parameter to filter by part of speech
 
         Returns:
             list: The N most relevant Document objects sorted by similarity
         """
 
         # Get embeddings for query and documents
-        query_embedding = open_AI_embeddings.embed_query(query)
+        query_embedding = self.embeddings.embed_query(query)
 
-        # Calculate cosine similarities
-        similarities = []
-        for i, doc_embedding in enumerate(doc_embeddings):
-            similarity = np.dot(query_embedding, doc_embedding) / (np.linalg.norm(query_embedding) * np.linalg.norm(doc_embedding))
-            similarities.append((similarity, i))
+        similarities = sorted(self.cosine_similarities(query_embedding), reverse=True)
 
-        # Sort by similarity and get top N
-        similarities.sort(reverse=True)
-        top_n_indices = [idx for _, idx in similarities[:n]]
+        docs_with_scores: list[QueriedDocument] = [QueriedDocument(documents[idx], similarity_score) for
+                                               similarity_score, idx in similarities]
 
-        # Return the most relevant documents
-        return [documents[idx] for idx in top_n_indices]
+        return docs_with_scores
 
-    def similar_translations(self, query: str, n: int = 3) -> list[str]:
-        relevant_docs = self.get_relevant_documents(
-            query, 
-            n=n, 
-            documents=self.translation_docs, 
-            open_AI_embeddings=self.embeddings, 
-            doc_embeddings=self.doc_embeddings
-            )
+    def similar_translations(self, query: str, n: int = 3, part_of_speech: PartOfSpeech = None) -> list[str]:
+        queried_docs: list[QueriedDocument] = self.get_similar_documents(
+            query,
+            documents=self.translation_docs
+        )
 
-        return [doc.page_content for doc in relevant_docs]
+        if part_of_speech is not None:
+            relevant_docs = [x for x in queried_docs if x.document.metadata['part_of_speech'] == part_of_speech.value]
+        else:
+            relevant_docs = queried_docs
+
+        return [doc.document.page_content for doc in relevant_docs[:n]]
