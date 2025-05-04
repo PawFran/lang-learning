@@ -1,20 +1,5 @@
 TODO
 
-dodać opcje 'revise' do conjugation i declension (translation juz ma)
-revise mogłoby działać inaczej niż teraz w translation - dla zadanego zakresu (filtry) pobiera tylko te, ktore w ostatniej sesji byly bledne (nie w ostatniej sesji w ogole, ale w ostatniej sesji dla danego slowa)
-
-dodać opcje 'continue' do conjugation, declension i translation
-
-tłumaczenia powinny wyrzucać tylko odpowiednią część mowy (trzeba ją do nich przypisać) - może to sprawi, że będę trochę lepsze ?
-do tego może do 5-ciu tłumaczeń powyżej progu confidence ?
-
-wrzucić do osobnych sekcji: "przypadek, z którym się łączy". tylko przypadek przynależy do kombinacji "słowo/tłumaczenie"
-do tego tłumaczenie powinno być przypisane do części mowy (uwzględnić to w bazie)
-
-wszystkie słowa do: wyjaśniać, rozwiązywać, rozplątywać
-
-być posłusznym vs być posłusznym, podporządkowywać się (+ dat)
-
 sprytny vs przebiegły, sprytny, pomysłowy
 
 rozkaz, polecenie, dekret, rozporządzenie vs nakaz, polecenie
@@ -40,6 +25,14 @@ cupio vs desidero
 iānŭa vs porta vs ostium
 
 english scrape'ing - playwright (python)
+
+dodać opcje 'revise' do conjugation i declension (translation juz ma)
+revise mogłoby działać inaczej niż teraz w translation - dla zadanego zakresu (filtry) pobiera tylko te, ktore w ostatniej sesji byly bledne (nie w ostatniej sesji w ogole, ale w ostatniej sesji dla danego slowa)
+
+dodać opcje 'continue' do conjugation, declension i translation
+
+wrzucić do osobnych sekcji: "przypadek, z którym się łączy". tylko przypadek przynależy do kombinacji "słowo/tłumaczenie"
+do tego tłumaczenie powinno być przypisane do części mowy (uwzględnić to w bazie)
 
 dodac opcje powrotu do przerwanego cwiczenia - do tego najlepiej by trzymac stan sesji w bazie - chociaz z pliku tez by sie dalo. ale co gdyby slownik w miedzyczasie sie zmienil ?
 

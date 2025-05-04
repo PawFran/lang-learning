@@ -785,7 +785,8 @@ lĕgĭo, legionis [noun] [f] [III]
 
 pārĕo, pārēre, parui, paritum [verb] [II]
 ()
-1. być posłusznym
+1. być posłusznym (ogólnie komuś, czemuś) (+ dat)
+[podkreśla ogólne posłuszeństwo normom czy przełożonym, w przeciwieństwie do aktywnego reagowania na polecenia (obtempĕro)]
 
 victŏr, victoris [noun] [m] [III]
 (Victorem a victo superari saepe videmus)
@@ -3802,16 +3803,18 @@ obvĭăm [adv]
 
 obtempĕro, obtempĕrāre, obtemperavi, obtemperatum [verb] [I]
 (Alexander oraculo obtemperans virum interfici iubet)
-1. być posłusznym, podporządkowywać się (+ dat)
+1. podporządkowywać się, spełniać żądanie, być posłusznym (+ dat)
+[podkreśla aktywne stosowanie się do poleceń, w przeciwieństwie do ogólnej akceptacji norm czy przełożonych (pārĕo)]
 
 ēnarro, ēnarrāre, enarravi, enarratum [verb] [I]
 (Alexander ei oraculi praeceptum enarrat)
-1. wyjaśniać, objaśniać, szczegółowo opisywać
+1. omawiać, szczegółowo opisywać lub opowiadać
+[ex + narro. ma charakter narracyjny, często opis faktów, wydarzeń, tekstów]
 
 explĭco, explĭcāre, explicavi o explicui, explicatum o explicitum [verb] [I]
 (Oraculi praeceptum non explicas recte: asinus meus tibi primus occurrit, eum interficire debes)
-1. rozwijać, rozplątywać
-2. wyjaśniać, tłumaczyć (coś skomplikowanego, zawiłego)
+1. wyjaśniać, rozwijać, tłumaczyć (coś skomplikowanego, zawiłego)
+[ex + plico (składać). bardziej logiczne niż narracyjne, bardziej wyjaśnianie niż opisywanie]
 
 rectē [adv]
 (Oraculi praeceptum non explicas recte: asinus meus tibi primus occurrit, eum interficire debes)
