@@ -391,7 +391,7 @@ class View:
 class WordsWithTranslations(View):
     __view_name__ = "words_with_translations"
     __view_query__ = f"""
-        SELECT w.id, w.header, w.part_of_speech, t.translation, t.example, t.associated_case
+        SELECT w.id, w.header, w.part_of_speech, t.translation, w.comment, t.example, t.associated_case
         FROM words w
         JOIN words_translations_mappings_latin m ON w.id = m.word_id
         JOIN translations t ON m.translation_id = t.id
