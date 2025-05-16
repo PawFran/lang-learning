@@ -1323,7 +1323,8 @@ intro, intrāre, intrāvī, intrātum [verb] [I]
 
 astŭtus, astută, astutum [adj]
 ()
-1. sprytny
+1. chytry, przebiegły, cwany
+[często negatywne zabarwienie, w przeciwieństwie do callĭdus. podkreśla umiejętność wykorzystywania sytuacji]
 
 vestīgĭum, vestigii [noun] [n] [II]
 ()
@@ -3779,7 +3780,8 @@ magnus, magnă, magnum [adj]
 
 callĭdus, callidă, callidum [adj]
 (De Alexandro Magno et asini domino callido)
-1. przebiegły, sprytny, pomysłowy
+1. sprytny, pomysłowy, zaradny
+[wydźwięk pozytywny lub neutralny (w przeciwieństwie do astŭtus), podkreśla praktyczne umiejętności]
 
 iŭbĕo, iŭbēre, iussi, iussum [verb] [II]
 (Necari iube eum, qui tibi in urbis porta primus occurret)

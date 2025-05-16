@@ -1,16 +1,14 @@
 TODO
 
-sprytny vs przebiegły, sprytny, pomysłowy
-
 rozkaz, polecenie, dekret, rozporządzenie vs nakaz, polecenie
-
-"wierzyć" nie zwraca "myśleć, wierzyć, sądzić" - pewnie kiepsko działa, jak jest wiele słów ? albo większa liczba synonimów albo niech patrzy na każde słowo z osobna kiedy jest kilka oddzielonych przecinkami ?
 
 wiele, liczni vs kilka, spora liczba
 
 powoli vs powoli, stopniowo, ostrożnie
 
 przemyśleć remotus: usunięty, wycofany - czy dobre ?
+
+"wierzyć" nie zwraca "myśleć, wierzyć, sądzić" - pewnie kiepsko działa, jak jest wiele słów ? albo większa liczba synonimów albo niech patrzy na każde słowo z osobna kiedy jest kilka oddzielonych przecinkami ?
 
 "ropa rana" nie podpowiada "ropa itp. wypływająca z rany lub wrzodu"
 
