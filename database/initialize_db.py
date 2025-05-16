@@ -14,7 +14,7 @@ if str(project_root) not in sys.path:
 from database.migration_dictionary import migrate_dictionary
 from database.migration_exercise_results import *
 from database.migration_patterns import migrate_declension_patterns, migrate_conjugation_patterns
-from declension.lib.declension_classes import DeclensionType, DeclensionCase, Genre
+from declension.lib.declension_classes import DeclensionType, DeclensionCase, Genre, GrammaticalCase
 from vocabulary.lib.dict_classes import PartOfSpeech, Lang
 
 
@@ -34,6 +34,7 @@ tables_with_enums = {
     Persons.__tablename__: values_from(Person),
     LatinDeclensionTypes.__tablename__: values_from(DeclensionType),
     LatinConjugationTypes.__tablename__: values_from(ConjugationType),
+    GrammaticalCases.__tablename__: values_from(GrammaticalCase)
 }
 
 # needs to be invoked from project root

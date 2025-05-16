@@ -82,9 +82,8 @@ def insert_or_ignore_no_commit(session: Session, record):
 
 
 def insert_or_ignore_latin_word(entry: DictionaryEntry, parsing_function, session: Session):
-
+    head = entry.head
     try:
-        head = entry.head
         head_raw = head.head_raw
         head_raw_without_metadata = head_raw.split('[')[0].rstrip()
         part_of_speech = head.part_of_speech().value

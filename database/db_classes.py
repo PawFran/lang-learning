@@ -75,6 +75,11 @@ class LatinConjugationTypes(Base):
     name = Column(String, primary_key=True)
 
 
+class GrammaticalCases(Base):
+    __tablename__ = 'grammatical_cases'
+    name = Column(String, primary_key=True)
+
+
 # data classes
 class Words(Base):
     __tablename__ = 'words'
@@ -96,6 +101,13 @@ class Translations(Base):
     translation = Column(String, nullable=False, unique=True)
     example = Column(String)
     associated_case = Column(String, ForeignKey(f'{DeclensionCases.__tablename__}.name'))
+
+
+class AssociatedCases(Base):
+    __tablename__ = "associated_cases"
+    word_id = Column(Integer, primary_key=True)
+    translation_id = Column(String, nullable=False, unique=True)
+    associated_case = Column(String, ForeignKey(f'{GrammaticalCases.__tablename__}.name'), nullable=True)
 
 
 class LatinWordsTranslationsMappings(Base):
@@ -246,10 +258,10 @@ class ReversedTranslationExerciseResults(Base):
     user = Column(String, nullable=False)
     session_id = Column(Integer, nullable=False)
     lang = Column(String, ForeignKey(f'{Languages.__tablename__}.name'), nullable=False)
-    word_asked = Column(String, nullable=False) 
-    example = Column(String, nullable=True) 
-    translation_total_number = Column(Integer, nullable=False) 
-    translations_left = Column(String, nullable=False) # list separated by "\n"
+    word_asked = Column(String, nullable=False)
+    example = Column(String, nullable=True)
+    translation_total_number = Column(Integer, nullable=False)
+    translations_left = Column(String, nullable=False)  # list separated by "\n"
     user_answer = Column(String, nullable=False)
     is_correct = Column(Boolean, nullable=False)
     time = Column(DateTime, nullable=False)
@@ -325,7 +337,7 @@ class ConjugationExerciseSessionMetadata(Base):
     conjugations_included = Column(String, nullable=False)
     moods_included = Column(String, nullable=False)
     tenses_included = Column(String, nullable=False)
-    voices_included = Column(String, nullable=False)    
+    voices_included = Column(String, nullable=False)
     interrupted = Column(Boolean, nullable=False)
 
 
@@ -474,6 +486,7 @@ class DeclensionLastAskedWord(View):
             ORDER BY last_asked ASC NULLS FIRST
         """
 
+
 views.append(DeclensionLastAskedWord)
 
 
@@ -513,6 +526,8 @@ class DeclensionLastFinishedExercise(View):
                 "correct %" ASC,
                 pattern.declension_type
         """
+
+
 views.append(DeclensionLastFinishedExercise)
 
 
@@ -561,6 +576,8 @@ class ConjugationLastFinishedExercise(View):
                 pattern.voice, 
                 pattern.tense
         """
+
+
 views.append(ConjugationLastFinishedExercise)
 
 
@@ -587,6 +604,7 @@ class ConjugationLastAskedWord(View):
             ORDER BY last_asked ASC NULLS FIRST
         """
 
+
 views.append(ConjugationLastAskedWord)
 
 
@@ -604,6 +622,7 @@ class TranslationLastUninterruptedSession(View):
                 ) not_interrupted_sessions
             )
         """
+
 
 views.append(TranslationLastUninterruptedSession)
 
@@ -623,6 +642,7 @@ class ReversedTranslationLastUninterruptedSession(View):
             )
         """
 
+
 views.append(ReversedTranslationLastUninterruptedSession)
 
 
@@ -639,6 +659,7 @@ class ReversedTranslationLastUninterruptedSessionHardWords(View):
             ORDER BY hard.word_asked, hard.example DESC
         """
 
+
 views.append(ReversedTranslationLastUninterruptedSessionHardWords)
 
 
@@ -653,6 +674,7 @@ class ReversedTranslationLastUninterruptedSessionEasyWords(View):
                 WHERE is_correct = FALSE
             )
         """
+
 
 views.append(ReversedTranslationLastUninterruptedSessionEasyWords)
 
@@ -673,6 +695,7 @@ class TranslationLastUninterruptedSessionHardWords(View):
             ORDER BY wrong_answers_counter DESC
         """
 
+
 views.append(TranslationLastUninterruptedSessionHardWords)
 
 
@@ -687,6 +710,7 @@ class TranslationLastUninterruptedSessionEasyWords(View):
                 WHERE is_correct = FALSE
             )
         """
+
 
 views.append(TranslationLastUninterruptedSessionEasyWords)
 

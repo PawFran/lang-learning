@@ -15,7 +15,7 @@ class DeclensionType(Enum):
     IV = 'IV'
     V = 'V'
     relative = 'relative'
-    demonstrative = 'demonstrative' # to be deleted ?
+    demonstrative = 'demonstrative'  # to be deleted ?
     demonstrative_is_ea_id = 'demonstrative (is, ea, id)'
     demonstrative_hic_haec_hoc = 'demonstrative (hic, haec, hoc)'
     demonstrative_ille_illa_illud = 'demonstrative (ille, illa, illud)'
@@ -24,7 +24,9 @@ class DeclensionType(Enum):
 
     @staticmethod
     def from_string(s: str):
-        match s.lower().replace('_', ' ').replace('-', ' ').replace('(', ' ').replace(')', ' ').replace(',', ' ').replace('  ', ' ').strip():
+        match s.lower().replace('_', ' ').replace('-', ' ').replace('(', ' ').replace(')', ' ').replace(',',
+                                                                                                        ' ').replace(
+            '  ', ' ').strip():
             case 'first' | 'i' | 'one' | '1':
                 return DeclensionType.I
             case 'second' | 'ii' | 'two' | '2':
@@ -127,6 +129,31 @@ class Genre(Enum):
                 return Genre.NONE
             case _:
                 raise ValueError(f'{s} cannot be converted to proper genre')
+
+
+class GrammaticalCase(Enum):
+    NOMINATIVE = 'nom'
+    GENITIVE = 'gen'
+    DATIVE = 'dat'
+    ACCUSATIVE = 'acc'
+    ABLATIVE = 'abl'
+    VOCATIVE = 'voc'
+
+    @staticmethod
+    def from_string(s):
+        match s.lower.strip():
+            case 'nom' | 'nominativus' | 'nominative':
+                return GrammaticalCase.NOMINATIVE
+            case 'gen' | 'genetivus' | 'genitive':
+                return GrammaticalCase.GENITIVE
+            case 'dat' | 'dativus' | 'dative':
+                return GrammaticalCase.DATIVE
+            case 'acc' | 'accusativus' | 'accusative':
+                return GrammaticalCase.ACCUSATIVE
+            case 'abl' | 'ablativus' | 'ablative':
+                return GrammaticalCase.ABLATIVE
+            case 'voc' | 'vocativus' | 'vocative':
+                return GrammaticalCase.VOCATIVE
 
 
 @dataclass
@@ -235,12 +262,11 @@ class Declensions:
     def filter_by_base_words(self, words: list[str]) -> 'Declensions':
         filtered_declensions = []
         for declension in self.declensions:
-            filtered_patterns = [pattern for pattern in declension.declension_patterns 
-                               if weak_in(pattern.base_word, words)]
+            filtered_patterns = [pattern for pattern in declension.declension_patterns
+                                 if weak_in(pattern.base_word, words)]
             if filtered_patterns:
                 filtered_declensions.append(SingleDeclension(
                     type=declension.type,
                     declension_patterns=filtered_patterns
                 ))
         return Declensions(filtered_declensions)
-    
