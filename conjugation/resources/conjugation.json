@@ -192,6 +192,18 @@
               "second": "laudetis",
               "third": "laudent"
             }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "lauder",
+              "second": "lauderis",
+              "third": "laudetur"
+            },
+            "pluralis": {
+              "first": "laudemur",
+              "second": "laudemini",
+              "third": "laudentur"
+            }
           }
         },
         "imperfectum": {
@@ -403,6 +415,18 @@
               "first": "moneamus",
               "second": "moneatis",
               "third": "moneant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "monear",
+              "second": "monearis",
+              "third": "moneatur"
+            },
+            "pluralis": {
+              "first": "moneamur",
+              "second": "moneamini",
+              "third": "moneantur"
             }
           }
         },
@@ -616,6 +640,18 @@
               "second": "legatis",
               "third": "legant"
             }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "legar",
+              "second": "legaris",
+              "third": "legatur"
+            },
+            "pluralis": {
+              "first": "legamur",
+              "second": "legamini",
+              "third": "legantur"
+            }
           }
         },
         "imperfectum": {
@@ -827,6 +863,18 @@
               "first": "capiamus",
               "second": "capiatis",
               "third": "capiant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "capiar",
+              "second": "capiaris",
+              "third": "capiatur"
+            },
+            "pluralis": {
+              "first": "capiamur",
+              "second": "capiamini",
+              "third": "capiantur"
             }
           }
         }
@@ -1040,6 +1088,18 @@
               "first": "audiamus",
               "second": "audiatis",
               "third": "audiant"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "audiar",
+              "second": "audiaris",
+              "third": "audiatur"
+            },
+            "pluralis": {
+              "first": "audiamur",
+              "second": "audiamini",
+              "third": "audiantur"
             }
           }
         },
