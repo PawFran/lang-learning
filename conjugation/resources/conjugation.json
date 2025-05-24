@@ -218,6 +218,18 @@
               "second": "laudaretis",
               "third": "laudarent"
             }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "laudarer",
+              "second": "laudareris",
+              "third": "laudaretur"
+            },
+            "pluralis": {
+              "first": "laudaremur",
+              "second": "laudaremini",
+              "third": "laudarentur"
+            }
           }
         }
       }
@@ -442,6 +454,18 @@
               "second": "moneretis",
               "third": "monerent"
             }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "monerer",
+              "second": "monereris",
+              "third": "moneretur"
+            },
+            "pluralis": {
+              "first": "moneremur",
+              "second": "moneremini",
+              "third": "monerentur"
+            }
           }
         }
       }
@@ -665,6 +689,18 @@
               "first": "legeremus",
               "second": "legeretis",
               "third": "legerent"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "legerer",
+              "second": "legereris",
+              "third": "legeretur"
+            },
+            "pluralis": {
+              "first": "legeremur",
+              "second": "legeremini",
+              "third": "legerentur"
             }
           }
         }
@@ -891,6 +927,18 @@
               "second": "caperetis",
               "third": "caperent"
             }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "caperer",
+              "second": "capereris",
+              "third": "caperetur"
+            },
+            "pluralis": {
+              "first": "caperemur",
+              "second": "caperemini",
+              "third": "caperentur"
+            }
           }
         }
       }
@@ -1114,6 +1162,18 @@
               "first": "audiremus",
               "second": "audiretis",
               "third": "audirent"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "audirer",
+              "second": "audireris",
+              "third": "audiretur"
+            },
+            "pluralis": {
+              "first": "audiremur",
+              "second": "audiremini",
+              "third": "audirentur"
             }
           }
         }
