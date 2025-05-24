@@ -24,6 +24,8 @@ iānŭa vs porta vs ostium
 
 english scrape'ing - playwright (python)
 
+ćwiczenie odwrotne do declension / conjugation - słowo i jakie to formy (reversed declension, reversed conjugation)
+
 dodać opcje 'revise' do conjugation i declension (translation juz ma)
 revise mogłoby działać inaczej niż teraz w translation - dla zadanego zakresu (filtry) pobiera tylko te, ktore w ostatniej sesji byly bledne (nie w ostatniej sesji w ogole, ale w ostatniej sesji dla danego slowa)
 
