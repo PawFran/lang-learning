@@ -22,6 +22,14 @@ cupio vs desidero
 
 iānŭa vs porta vs ostium
 
+nowy typ ćw. (ograniczony):
+* nie ma sensu pytać o wszystkie formy, bo w wielu przypadkach liczne formy wynikają z tej samej zasady
+* a więc: opisywać reguły i pytać o przykłady (po jednym) - wtedy ćwiczenia będą krótkie i równie owocne, a do tego da to impuls do zwerbalizowania reguł
+* prolog ? haskell ?
+* opisywać relacje, napisać generator form na podstawie reguł i sprawdzić czy są poprawne
+* wtedy będzie można też generować inne ?
+* dodać wtedy esse
+
 english scrape'ing - playwright (python)
 
 ćwiczenie odwrotne do declension / conjugation - słowo i jakie to formy (reversed declension, reversed conjugation)
