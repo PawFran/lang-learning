@@ -231,6 +231,58 @@
               "third": "laudarentur"
             }
           }
+        },
+        "perfectum": {
+          "activus": {
+            "singularis": {
+              "first": "laudaverim",
+              "second": "laudaveris",
+              "third": "laudaverit"
+            },
+            "pluralis": {
+              "first": "laudaverimus",
+              "second": "laudaveritis",
+              "third": "laudaverint"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "laudatus sim",
+              "second": "laudatus sis",
+              "third": "laudatus sit"
+            },
+            "pluralis": {
+              "first": "laudati simus",
+              "second": "laudati sitis",
+              "third": "laudati sint"
+            }
+          }
+        },
+        "plusquamperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "laudavissem",
+              "second": "laudavisses",
+              "third": "laudavisset"
+            },
+            "pluralis": {
+              "first": "laudavissemus",
+              "second": "laudavissetis",
+              "third": "laudavissent"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "laudatus essem",
+              "second": "laudatus esses",
+              "third": "laudatus esset"
+            },
+            "pluralis": {
+              "first": "laudati essemus",
+              "second": "laudati essetis",
+              "third": "laudati essent"
+            }
+          }
         }
       }
     }
@@ -467,6 +519,58 @@
               "third": "monerentur"
             }
           }
+        },
+        "perfectum": {
+          "activus": {
+            "singularis": {
+              "first": "monuerim",
+              "second": "monueris",
+              "third": "monuerit"
+            },
+            "pluralis": {
+              "first": "monuerimus",
+              "second": "monueritis",
+              "third": "monuerint"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "monitus sim",
+              "second": "monitus sis",
+              "third": "monitus sit"
+            },
+            "pluralis": {
+              "first": "moniti simus",
+              "second": "moniti sitis",
+              "third": "moniti sint"
+            }
+          }
+        },
+        "plusquamperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "monuissem",
+              "second": "monuisses",
+              "third": "monuisset"
+            },
+            "pluralis": {
+              "first": "monuissemus",
+              "second": "monuissetis",
+              "third": "monuissent"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "monitus essem",
+              "second": "monitus esses",
+              "third": "monitus esset"
+            },
+            "pluralis": {
+              "first": "moniti essemus",
+              "second": "moniti essetis",
+              "third": "moniti essent"
+            }
+          }
         }
       }
     }
@@ -701,6 +805,58 @@
               "first": "legeremur",
               "second": "legeremini",
               "third": "legerentur"
+            }
+          }
+        },
+        "perfectum": {
+          "activus": {
+            "singularis": {
+              "first": "legerim",
+              "second": "legeris",
+              "third": "legerit"
+            },
+            "pluralis": {
+              "first": "legerimus",
+              "second": "legeritis",
+              "third": "legerint"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "lectus sim",
+              "second": "lectus sis",
+              "third": "lectus sit"
+            },
+            "pluralis": {
+              "first": "lecti simus",
+              "second": "lecti sitis",
+              "third": "lecti sint"
+            }
+          }
+        },
+        "plusquamperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "legissem",
+              "second": "legisses",
+              "third": "legisset"
+            },
+            "pluralis": {
+              "first": "legissemus",
+              "second": "legissetis",
+              "third": "legissent"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "lectus essem",
+              "second": "lectus esses",
+              "third": "lectus esset"
+            },
+            "pluralis": {
+              "first": "lecti essemus",
+              "second": "lecti essetis",
+              "third": "lecti essent"
             }
           }
         }
@@ -940,6 +1096,58 @@
               "third": "caperentur"
             }
           }
+        },
+        "perfectum": {
+          "activus": {
+            "singularis": {
+              "first": "ceperim",
+              "second": "ceperis",
+              "third": "ceperit"
+            },
+            "pluralis": {
+              "first": "ceperimus",
+              "second": "ceperitis",
+              "third": "ceperint"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "captus sim",
+              "second": "captus sis",
+              "third": "captus sit"
+            },
+            "pluralis": {
+              "first": "capti simus",
+              "second": "capti sitis",
+              "third": "capti sint"
+            }
+          }
+        },
+        "plusquamperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "cepissem",
+              "second": "cepisses",
+              "third": "cepisset"
+            },
+            "pluralis": {
+              "first": "cepissemus",
+              "second": "cepissetis",
+              "third": "cepissent"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "captus essem",
+              "second": "captus esses",
+              "third": "captus esset"
+            },
+            "pluralis": {
+              "first": "capti essemus",
+              "second": "capti essetis",
+              "third": "capti essent"
+            }
+          }
         }
       }
     }
@@ -1174,6 +1382,58 @@
               "first": "audiremur",
               "second": "audiremini",
               "third": "audirentur"
+            }
+          }
+        },
+        "perfectum": {
+          "activus": {
+            "singularis": {
+              "first": "audiverim",
+              "second": "audiveris",
+              "third": "audiverit"
+            },
+            "pluralis": {
+              "first": "audiverimus",
+              "second": "audiveritis",
+              "third": "audiverint"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "auditus sim",
+              "second": "auditus sis",
+              "third": "auditus sit"
+            },
+            "pluralis": {
+              "first": "auditi simus",
+              "second": "auditi sitis",
+              "third": "auditi sint"
+            }
+          }
+        },
+        "plusquamperfectum": {
+          "activus": {
+            "singularis": {
+              "first": "audivissem",
+              "second": "audivisses",
+              "third": "audivisset"
+            },
+            "pluralis": {
+              "first": "audivissemus",
+              "second": "audivissetis",
+              "third": "audivissent"
+            }
+          },
+          "passivus": {
+            "singularis": {
+              "first": "auditus essem",
+              "second": "auditus esses",
+              "third": "auditus esset"
+            },
+            "pluralis": {
+              "first": "auditi essemus",
+              "second": "auditi essetis",
+              "third": "auditi essent"
             }
           }
         }
