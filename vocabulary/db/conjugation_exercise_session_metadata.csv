@@ -32,3 +32,6 @@ session_id;user_name;conjugations_included;moods_included;tenses_included;voices
 22;default_user;I, II, III, IV;indicative;imperfect;active, passive;False
 23;default_user;I, II, III, IV;imperative, indicative, subjunctive;future perfect, future simple, imperfect, perfect, pluperfect, present;active, passive;True
 23;default_user;I, II, III, IV;indicative;future simple;active, passive;False
+24;default_user;I, II, III, IV;subjunctive;present;active;True
+24;default_user;I, II, III, IV;subjunctive;present;passive;False
+25;default_user;I, II, III, IV;subjunctive;imperfect;passive;False
