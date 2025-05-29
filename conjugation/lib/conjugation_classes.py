@@ -90,7 +90,7 @@ class Tense(Enum):
             .replace('1', 'i').strip():
             case 'praesens' | 'present' | 'praes' | 'pres':
                 return Tense.Praesens
-            case 'imperfectum' | 'imperfect' | 'imperf':
+            case 'imperfectum' | 'imperfect' | 'imperf' | 'imp':
                 return Tense.Imperfectum
             case 'futurum i' | 'future i' | 'fut i' | 'future simple':
                 return Tense.Futurum_I
