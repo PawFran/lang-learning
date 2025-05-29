@@ -88,7 +88,7 @@ class Tense(Enum):
     def from_string(s: str):
         match s.lower().replace('_', ' ').replace('-', ' ').replace('2', 'ii') \
             .replace('1', 'i').strip():
-            case 'praesens' | 'present' | 'praes':
+            case 'praesens' | 'present' | 'praes' | 'pres':
                 return Tense.Praesens
             case 'imperfectum' | 'imperfect' | 'imperf':
                 return Tense.Imperfectum
