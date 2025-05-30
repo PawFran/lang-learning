@@ -35,3 +35,24 @@ session_id;user_name;conjugations_included;moods_included;tenses_included;voices
 24;default_user;I, II, III, IV;subjunctive;present;active;True
 24;default_user;I, II, III, IV;subjunctive;present;passive;False
 25;default_user;I, II, III, IV;subjunctive;imperfect;passive;False
+26;default_user;I, II, III, IV;imperative, indicative, subjunctive;future perfect, future simple, imperfect, perfect, pluperfect, present;active, passive;True
+26;default_user;I, II, III, IV;subjunctive;perfect;active;False
+27;default_user;I, II, III, IV;subjunctive;pluperfect;passive;False
+28;default_user;I, II, III, IV;subjunctive;pluperfect;active;False
+29;default_user;I, II, III, IV;subjunctive;perfect;passive;False
+30;default_user;I, II, III, IV;imperative;present;active, passive;False
+31;default_user;I, II, III, IV;indicative;perfect;active;False
+32;default_user;I, II, III, IV;indicative;future perfect;passive;False
+33;default_user;I, II, III, IV;indicative;future perfect;active;False
+34;default_user;I, II, III, IV;indicative;perfect;passive;False
+35;default_user;I, II, III, IV;subjunctive;present;active;False
+36;default_user;I, II, III, IV;subjunctive;imperfect;active;False
+37;default_user;I, II, III, IV;indicative;present;active;False
+38;default_user;I, II, III, IV;indicative;present;passive;False
+39;default_user;I, II, III, IV;indicative;pluperfect;passive;False
+40;default_user;I, II, III, IV;indicative;pluperfect;active;False
+41;default_user;I, II, III, IV;indicative;future perfect;passive;False
+42;default_user;I, II, III, IV;indicative;future simple;passive;False
+43;default_user;I, II, III, IV;indicative;future simple;active;False
+44;default_user;I, II, III, IV;indicative;imperfect;active;False
+45;default_user;I, II, III, IV;indicative;imperfect;passive;False
