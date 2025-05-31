@@ -1,6 +1,7 @@
 castīgo, castīgāre, castīgāvī, castīgātum [verb] [I]
 (Ancillam miseram domina sevēra castīgat)
-1. karać
+1. karcić, upominać, dyscyplinować
+[od castus + ago = czynić czystym. podkreśla działanie naprawcze, wychowawcze, moralne]
 
 vinea, vineae [noun] [I] [f]
 (Ancillae in vineā labōrant)
@@ -417,9 +418,10 @@ mercātūra, mercātūrae [noun] [f] [I]
 (Itaque Romani agriculturae studēbant)
 1. więc
 
-cupio, cupere, cupivi, cupitum [verb] [III]
+cupiō, cupere, cupīvī, cupītum [verb] [III]
 (Nautae terras alienas visitant, sed patriam suam vidēre cupiunt)
-1. pragnąć
+1. pożądać, pragnąć, bardzo chcieć
+[wydźwięk silnie emocjpnalny, wskazuje na zapał. bardziej impulsywne niż cupio]
 
 video, vidēre, vidi, visum [verb] [II]
 (Nautae terras alienas visitant, sed patriam suam vidēre cupiunt)
@@ -517,9 +519,10 @@ invādo, invādĕre, invasi, invasum [verb] [III]
 (Romani terras populorum finitimorum invadebant)
 1. wkraczać, najeżdżać
 
-interfĭcĭo, interfĭcĕre, interfeci, interfectum [verb] [III]
+interfĭcĭo, interfĭcĕre, interfēcī, interfectum [verb] [III]
 (Romani terras invadebant, incolas interficiebant aut captivos asportabant)
-1. zabić
+1. uśmiercić, odebrać życie, zabić
+[ma charakter formalny, wojskowy, prawny - raczej rzeczowy niż "dramatyczny"]
 
 captīvus, captivi [noun] [m] [II]
 (Romani terras invadebant, incolas interficiebant aut captivos asportabant)
@@ -852,7 +855,8 @@ hŏmo, hominis [noun] [m] [III]
 
 dēsīdĕro, dēsīdĕrāre, desiderāvī, desiderātum [verb] [I]
 (Cur me, domine, morte punire desideras ?)
-1. pragnąć
+1. tęsknić, pragnąć, chcieć
+[często odcień tęsknoty lub braku, pragnienia czegoś utraconego, nieobecnego. łagodniejsze niż cupio]
 
 praenōmĕn, praenominis [noun] [n] [III]
 ()
@@ -914,7 +918,8 @@ imprŏbus, improba, improbum [adj]
 
 pūnĭo, pūnīre, punii, punitum [verb] [IV]
 (Cur me, domine, morte punire desideras ?)
-1. karać
+1. karać, wymierzać karę / sprawiedliwość
+[od poena - kara. ma wydźwięk bardziej instytucjonalny niż wychowawczy (castigo)]
 
 prŏbus, prŏba, prŏbum [adj]
 ()
@@ -1346,9 +1351,10 @@ clausus, clausă, clausum [adj]
 ()
 1. zamknięty
 
-castīgātĭo, castigationis [noun] [f] [III]
+castīgātiō, castigatiōnis [noun] [f] [III]
 ()
-1. kara
+1. karcenie, napominanie
+[łagodniejsze niż poena, bardziej w celu wychowania niż zemsty]
 
 contŭmēlĭa, contumeliae [noun] [f] [I]
 ()
@@ -1490,9 +1496,8 @@ immĭnens, immĭnens, immĭnens [adj]
 
 praeceptum, praecepti [noun] [n] [II]
 (Alexander ei oraculi praeceptum enarrat)
-1. nakaz, polecenie
-2. rada, wskazówka
-3. nauka, zasada, przykazanie
+1. zalecenie, przykazanie, przestroga, wskazówka
+[często odcień edukacyjny]
 
 fortis, fortis, forte [adj]
 ()
@@ -1621,7 +1626,8 @@ motus, mota, motum [adj]
 
 poena, poenae [noun] [f] [I]
 ()
-1. kara
+1. kara, zemsta, odpłata
+[odpłata za poniesioną winę. wydźwięk formalny i ostry]
 
 mĕtŭo, mĕtŭĕre, metui, metutum [verb] [III]
 ()
@@ -1786,9 +1792,8 @@ sĕdĕo, sĕdēre, sedi, sessum [verb] [II]
 
 tardē [adv]
 (Tarde venientibus ossa)
-1. powoli
-2. z trudem
-3. późno
+1. powoli, opieszale, z opóźnieniem
+[od tardus - powolny, opóźniony. podkreśla że coś trwa długo lub jest opóźnione]
 
 contrā [prep]
 (Contra vim mortis medicamen non est in hortis)
@@ -2064,7 +2069,7 @@ appĕto, appĕtĕre, appetii/appetivi, appetitum [verb] [III]
 
 multus, multă, multum [adj]
 (Multos timere debet, quem multi timent)
-1. wiele, liczni (spr. w słowniku papierowym)
+1. wiele, liczni, duża ilość
 
 iūrĕ [adv]
 (Neminem captivabimus nisi iure victum)
@@ -2946,7 +2951,8 @@ dĭūturnus, diuturnă, diuturnum [adj]
 
 nĕco, nĕcāre, necāvī, necātum [verb] [I]
 (Ancillae, quibus dormire placebat, gallum necaverunt)
-1. zabić, uśmiercić
+1. zamordować, zabić
+[podkreśla brutalność, ma wydźwięk dramatyczny (bardziej "zamordować" niż "uśmiercić")]
 
 nex, necis [noun] [f] [III]
 (Ancillae galli necem deplorabant)
@@ -3447,7 +3453,7 @@ intrōdūco, intrōdūcĕre, introduxi, introductum [verb] [III]
 
 complūres, complurĭum [noun] [m] [pl] [III]
 (Introductus est inter complures servus viri consularis)
-1. kilka, spora liczba
+1. kilku, wielu, sporo
 
 consŭlāris, consularis, consulare [adj]
 (Introductus est inter complures servus viri consularis)
@@ -3461,9 +3467,10 @@ consisto, consistĕre, constiti [verb] [III]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
 1. zatrzymać się, stanąć w miejscu
 
-sensim [adv]
+sēnsim [adv]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
-1. powoli, stopniowo, ostrożnie
+1. stopniowo, powoli, ostrożnie, małymi krokami
+[w przeciwieństwie do tardē podkreśla progres, a nie opóźnienie]
 
 plăcĭdē [adv]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
@@ -3591,7 +3598,7 @@ spĕcŭs, specūs [noun] [m] [IV]
 
 rĕmōtus, remotă, remotum [adj]
 (Aliquando specum remotum inveni ibique intravi)
-1. oddalony, odsunięty, wycofany (izolacja)
+1. oddalony, odsunięty, wycofany (izolacja), niezwiązany z czymś (=daleki od czegoś, np. od uczynku)
 
 multō [adv]
 (Neque multo post ad eundem specum venit hic leo cruento pede)
@@ -3789,7 +3796,8 @@ iŭbĕo, iŭbēre, iussi, iussum [verb] [II]
 
 porta, portae [noun] [f] [I]
 (Necari iube eum, qui tibi in urbis porta primus occurret)
-1. drzwi, brama, wejście
+1. brama, wrota (np. do miasta, obozu)
+[oznacza duże wejście, raczej nie do domu (ianua)]
 
 prīmus, primă, primum [adj]
 (Necari iube eum, qui tibi in urbis porta primus occurret)
@@ -3841,7 +3849,8 @@ vīsĭto, vīsĭtāre, visitavi, visitatum [verb] [I]
 
 ostĭum, ostii [noun] [n] [II]
 (Nasica aliquando ad Ennium poetam venit, cui ab ostio Ennium quarenti ancilla dixit dominum domi non esse)
-1. drzwi wejściowe
+1. wejście, przejście, drzwi, ujście (np. rzeki)
+[może oznaczać drzwi jak ianua, ale na ogólnie oznacza bardziej przestrzeń niż przedmiot]
 
 dŏmĭnus, domini [noun] [m] [II]
 (Nasica tamen sensit illam domini iussu dixisse et poetam domi esse)
@@ -3849,7 +3858,8 @@ dŏmĭnus, domini [noun] [m] [II]
 
 iussŭs, iussūs [noun] [m] [IV]
 (Nasica tamen sensit illam domini iussu dixisse et poetam domi esse)
-1. rozkaz, polecenie, dekret, rozporządzenie
+1. rozkaz, polecenie (formalne, autorytarne)
+[oficjalne, często w kontekście wojskowym lub prawnym. często w konstrukcji "ex iussu ..."]
 
 dŏmŭs, domūs [noun] [f] [IV]
 (Nasica tamen sensit illam domini iussu dixisse et poetam domi esse)
@@ -3861,7 +3871,8 @@ paucus, paucă, paucum [adj]
 
 iānŭa, ianuae [noun] [f] [I]
 (Paucis diebus post ad Nasicam Ennius venit eumque ad ianuam quaerebat)
-1. drzwi, wejście, dostęp
+1. drzwi, wejście (do domu, budynku - ale też w przenośni)
+[od Ianus, bóg przejść i drzwi]
 
 exclāmo, exclāmāre, exclamavi, exclamatum [verb] [I]
 (Tum Nasica exlamat se domi non esse)
