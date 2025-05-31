@@ -94,7 +94,7 @@ faber, fabri [noun] [m] [II]
 
 operarius, operarii [noun] [m] [II]
 (Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt)
-1. robotnik
+1. robotnik, pracownik fizyczny
 
 etiam [conj]
 (Etiam silvae magnae et pulchrae terram nostram ornant)

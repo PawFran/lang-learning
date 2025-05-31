@@ -16,12 +16,16 @@ dependencies:
       - bs4
       - flask
       - flask-cors
-      - openai
-      - langchain-openai
-      - langchain_community
+      - openai~=1.60.1
       - sqlalchemy-utils
       - python-dotenv
       - psycopg2
+      - langchain==0.1.14
+      - langchain-core==0.1.37
+      - langchain-openai==0.0.8
+      - langchain-community==0.0.31
+      - langchain-text-splitters==0.0.2
+      - langsmith==0.1.147
 
 pytest~=8.3.4
 flask~=3.1.0
