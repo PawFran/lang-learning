@@ -3,3 +3,4 @@ session_id;user_name;start_word;end_word;filtered_parts_of_speech;revise_last_se
 3;default_user;;;;True;False
 4;default_user;puto;nescio;;False;False
 5;default_user;;;;True;False
+6;default_user;castigo;numquam;;False;False

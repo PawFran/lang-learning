@@ -151,3 +151,53 @@ default_user;5;latin;condo, condĕre, condidi, conditum [verb] [III];Romam a Rom
 default_user;5;latin;condo, condĕre, condidi, conditum [verb] [III];Romam a Romulo conditam esse scriptores tradunt;1;budować, zakładać, tworzyć;budować, zakładać, tworzyć;True;2025-04-12 20:00:01
 default_user;5;latin;nescĭo, nescīre, nescii o nescivi, nescitum [verb] [IV];Soror mea nesciebat amicam meam Varsoviae habitare;1;nie wiedzieć, nie znać (komentarz - ne + scio);nie wiedzieć, nie znać (komentarz - ne + scio);True;2025-04-12 20:00:16
 default_user;5;latin;obvĭăm [adv];Alexandro vir pauper, qui asinum agebat, obviam venit;1;ku, naprzeciw (np. wyjść komuś naprzeciw) (+ dat);ku, naprzeciw (np. wyjść komuś naprzeciw) (+ dat);True;2025-04-12 20:00:59
+default_user;6;latin;sum, esse, fuī [verb] [anomalous];Marcus discipulus est;1;być;być;True;2025-05-31 15:06:08
+default_user;6;latin;concordia, concordiae [noun] [I] [f];Ibi victoria, ubi concordia;1;zgoda;zgoda;True;2025-05-31 15:06:17
+default_user;6;latin;faber, fabri [noun] [m] [II];Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt;1;rzemieślnik;rzemieślnik;True;2025-05-31 15:06:31
+default_user;6;latin;vinea, vineae [noun] [I] [f];Ancillae in vineā labōrant;1;winnica;winnica;True;2025-05-31 15:07:40
+default_user;6;latin;rarus, rara, rarum [adj];Rarus fortūna suā contentus;1;rzadki, mało kto;rzadki, mało kto;True;2025-05-31 15:07:51
+default_user;6;latin;divitiae, divitiārum [noun] [f] [I] [pl];Fabri patriae divitias parant;1;bogactwa (materialne);bogactwa (materialne);True;2025-05-31 15:08:03
+default_user;6;latin;fīnitimī, fīnitimōrum [noun] [II] [m] [pl];Polōnis finitimi sunt: ..;1;sąsiedzi;sąsiedzi;True;2025-05-31 15:08:16
+default_user;6;latin;bene [adv];"Errant, qui affirmant: ""Ibi patria, ubi bene""";1;dobrze;dobrze;True;2025-05-31 15:08:23
+default_user;6;latin;humanum, humani [noun] [n] [II];Errare humanum est;1;rzecz ludzka;rzecz ludzka;True;2025-05-31 15:10:43
+default_user;6;latin;laudō, laudāre, laudāvī, laudātum [verb] [I];Marīa amīcam amat et laudat;1;chwalić;chwalić;True;2025-05-31 15:10:57
+default_user;6;latin;numquam [adv];Numquam fortunā nostrā contenti sumus;1;nigdy;nigdy;True;2025-05-31 15:11:42
+default_user;6;latin;do, dāre, dedī, datum [verb] [I];Matrona tunicas ancillis dat;2;dawać | oddawać się;dawać;True;2025-05-31 15:12:20
+default_user;6;latin;do, dāre, dedī, datum [verb] [I];Matrona tunicas ancillis dat;2;oddawać się;oddawać się;True;2025-05-31 15:12:20
+default_user;6;latin;valdē [adv];Varsoviam valde amamus;1;bardzo;bardzo;True;2025-05-31 15:12:33
+default_user;6;latin;properō, properāre, properāvi, properātum [verb] [I];Puer Romānus in scholam properat;1;spieszyć się, spieszyć;;False;2025-05-31 15:13:08
+default_user;6;latin;operarius, operarii [noun] [m] [II];Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt;1;robotnik, pracownik fizyczny;robotnik;False;2025-05-31 15:27:29
+default_user;6;latin;operarius, operarii [noun] [m] [II];Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt;1;robotnik, pracownik fizyczny;;False;2025-05-31 15:28:02
+default_user;6;latin;paro, parāre, parāvī, parātum [verb] [I];Fabri patriae divitias parant;2;przygotowywać | zdobywać;przygotowywać;True;2025-05-31 15:29:44
+default_user;6;latin;paro, parāre, parāvī, parātum [verb] [I];Fabri patriae divitias parant;2;zdobywać;zdobywać;True;2025-05-31 15:29:44
+default_user;6;latin;celebrō, celebrāre, celebrāvī, celebrātum [verb] [I];Poētae Polonōrum gloriam patriae nostrae celebrant;1;rozgłaszać;ogłaszać;False;2025-05-31 15:39:19
+default_user;6;latin;celebrō, celebrāre, celebrāvī, celebrātum [verb] [I];Poētae Polonōrum gloriam patriae nostrae celebrant;1;rozgłaszać;;False;2025-05-31 15:39:21
+default_user;6;latin;incola, incolae [noun] [I] [m/f];Varsovia incolis Poloniae cara est;1;mieszkaniec;mieszkaniec;True;2025-05-31 15:43:44
+default_user;6;latin;affirmo, affirmāre, affirmāvī, affirmātum [verb] [I];"Errant, qui affirmant: ""Ibi patria, ubi bene""";1;potwierdzać, zapewniać, twierdzić;potwierdzać, zapewniać, twierdzić;True;2025-05-31 15:43:57
+default_user;6;latin;prōsum, prōdesse, profuī [verb] [anomalous];Fabri patriae prosunt;1;pomagać, być pożytecznym;pomagać, być pożytecznym;True;2025-05-31 15:44:16
+default_user;6;latin;quia [conj];Patriam amāmus non quia magna est sed quia nostra;1;ponieważ;ponieważ;True;2025-05-31 15:44:31
+default_user;6;latin;erro, errāre, errāvī, errātum [verb] [I];Errare humanum est;1;mylić się;;False;2025-05-31 15:45:58
+default_user;6;latin;fluvius, fluviī [noun] [II] [m];Nautae Neptūno, Oceani et fluviōrum deo, equos at tauros mactābant;1;rzeka;rzeka;True;2025-05-31 15:47:57
+default_user;6;latin;perītus, perīta, perītum [adj];Nautae periti navigant;1;doświadczony;doświadczony;True;2025-05-31 15:51:20
+default_user;6;latin;ubi [adv];Ibi victoria ubi concordia;1;gdzie, kiedy;gdzie, kiedy;True;2025-05-31 15:51:30
+default_user;6;latin;habitō, habitāre, habitāvī, habitātum [verb] [I];Nos Poloni in Polonia habitamus;1;mieszkać;mieszkać;True;2025-05-31 15:51:44
+default_user;6;latin;etiam [conj];Etiam silvae magnae et pulchrae terram nostram ornant;1;także;bowiem, ponieważ;False;2025-05-31 15:51:51
+default_user;6;latin;etiam [conj];Etiam silvae magnae et pulchrae terram nostram ornant;1;także;;False;2025-05-31 15:51:53
+default_user;6;latin;saepe [adv];De Varsoviā poetae saepe narrant;1;często;często;True;2025-05-31 15:52:08
+default_user;6;latin;sempiternus, sempiterna, sempiternum [adj];Verae amicitiae sempiternae sunt;1;ciągły, trwały, wieczny;ciągły, trwały, wieczny;True;2025-05-31 15:52:16
+default_user;6;latin;ibi [adv];Ibi victoria ubi concordia;1;tam;tam;True;2025-05-31 15:52:21
+default_user;6;latin;legō, legere, lēgī, lectum [verb] [III];Marcus discipulus est, libros libenter legit;1;czytać;czytać;True;2025-05-31 15:52:34
+default_user;6;latin;habeo, habēre, habuī, habitum [verb] [II];Marcus discipulus est, libros multos habet;1;mieć;mieć;True;2025-05-31 15:52:43
+default_user;6;latin;nāvigo, nāvigāre, nāvigāvī, nāvigātum [verb] [I];Nautae periti navigant;1;żeglować;płynąć;False;2025-05-31 15:52:54
+default_user;6;latin;nāvigo, nāvigāre, nāvigāvī, nāvigātum [verb] [I];Nautae periti navigant;1;żeglować;;False;2025-05-31 15:53:10
+default_user;6;latin;spectō, spectāre, spectāvī, spectātum [verb] [I];Specta, Sophia. En, Victoriae statua clara;1;patrzeć, widzieć;spostrzegać;False;2025-05-31 15:53:25
+default_user;6;latin;spectō, spectāre, spectāvī, spectātum [verb] [I];Specta, Sophia. En, Victoriae statua clara;1;patrzeć, widzieć;patrzeć, widzieć;True;2025-05-31 15:53:39
+default_user;6;latin;ager, agri [noun] [m] [II];Agricolae in agris laborant;1;rola, pole;rola, pole;True;2025-05-31 15:54:31
+default_user;6;latin;cūrō, cūrāre, cūrāvi, cūrātum [verb] [I];O servi, Spartacus fortūna vestrae curat!;1;troszczyć się, dbać (o coś + dat);troszczyć się, dbać (o coś + dat);True;2025-05-31 15:54:48
+default_user;6;latin;monstrō, monstrāre, monstrāvi, monstrātum [verb] [I];Servis dominus hortum monstrat;1;pokazywać (fizycznie, ale też uczyć, pouczać, objaśniać);pokazać;False;2025-05-31 15:54:55
+default_user;6;latin;monstrō, monstrāre, monstrāvi, monstrātum [verb] [I];Servis dominus hortum monstrat;1;pokazywać (fizycznie, ale też uczyć, pouczać, objaśniać);;False;2025-05-31 15:54:57
+default_user;6;latin;castīgo, castīgāre, castīgāvī, castīgātum [verb] [I];Ancillam miseram domina sevēra castīgat;1;karcić, upominać, dyscyplinować;karać;False;2025-05-31 15:55:17
+default_user;6;latin;castīgo, castīgāre, castīgāvī, castīgātum [verb] [I];Ancillam miseram domina sevēra castīgat;1;karcić, upominać, dyscyplinować;;False;2025-05-31 15:55:18
+default_user;6;latin;nauta, nautae [noun] [m] [I];Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt;1;żeglarz;żeglarz;True;2025-05-31 15:55:51
+default_user;6;latin;aro, arāre, arāvī, arātum [verb] [I];Agricolae terram arant;1;orać;orać;True;2025-05-31 15:55:57
+default_user;6;latin;sed [conj];Patriam amāmus non quia magna est sed quia nostra;1;lecz;lecz;True;2025-05-31 15:56:01

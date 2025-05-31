@@ -69,8 +69,7 @@ fluvius, fluviī [noun] [II] [m]
 
 do, dāre, dedī, datum [verb] [I]
 (Matrona tunicas ancillis dat)
-1. dawać
-2. oddawać się
+1. dawać, ofiarowywać
 
 sum, esse, fuī [verb] [anomalous]
 (Marcus discipulus est)
@@ -86,7 +85,7 @@ habitō, habitāre, habitāvī, habitātum [verb] [I]
 
 celebrō, celebrāre, celebrāvī, celebrātum [verb] [I]
 (Poētae Polonōrum gloriam patriae nostrae celebrant)
-1. rozgłaszać
+1. rozsławiać, wychwalać, sławić
 
 faber, fabri [noun] [m] [II]
 (Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt)
@@ -126,8 +125,8 @@ divitiae, divitiārum [noun] [f] [I] [pl]
 
 paro, parāre, parāvī, parātum [verb] [I]
 (Fabri patriae divitias parant)
-1. przygotowywać
-2. zdobywać
+1. przygotowywać, szykować, zbierać
+[podkreśla bardziej proces, podczas gdy comparo naciska na efekt]
 
 prōsum, prōdesse, profuī [verb] [anomalous]
 (Fabri patriae prosunt)
@@ -2678,7 +2677,9 @@ classis, classis [noun] [f] [III]
 
 compăro, compărāre, comparāvī, comparātum [verb] [I]
 (Nobis magnam classem comparavit)
-1. przygotować, zapewnić
+1. zapewniać sobie, zdobywać, zorganizować, zebrać
+2. porównywać, zestawiać
+[dosł. "przygotowywać razem". w znaczeniu "zdobywać" podkreśla efekt, a nie sam proces (w przeciwieństwie do "paro")]
 
 admĭnistro, admĭnistrāre, administrāvī, administrātum [verb] [I]
 (Pecuniam publicam magna diligentia administravit)
