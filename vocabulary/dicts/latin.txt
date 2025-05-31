@@ -65,7 +65,8 @@ fīnitimī, fīnitimōrum [noun] [II] [m] [pl]
 
 fluvius, fluviī [noun] [II] [m]
 (Nautae Neptūno, Oceani et fluviōrum deo, equos at tauros mactābant)
-1. rzeka
+1. rzeka (geografia)
+[używane jako jednostka geograficzna, w przeciwieństwie do "flumen", które oznacza bardziej płynącą wodę]
 
 do, dāre, dedī, datum [verb] [I]
 (Matrona tunicas ancillis dat)
@@ -134,7 +135,8 @@ prōsum, prōdesse, profuī [verb] [anomalous]
 
 quia [conj]
 (Patriam amāmus non quia magna est sed quia nostra)
-1. ponieważ
+1. ponieważ, bo (spójnik)
+[wymienna z quod. pełni rolę spójnika łączącego zdanie nadrzędne z podrzędnym. podkreśla faktyczny związek przyczynowo-skutkowy]
 
 sed [conj]
 (Patriam amāmus non quia magna est sed quia nostra)
@@ -399,7 +401,8 @@ sacrifico, sacrificāre, sacrificāvī, sacrificātum [verb] [I]
 
 enim [conj]
 (Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
-1. bowiem, ponieważ
+1. bo, albowiem, bowiem (wyjaśnienie)
+[używane do podania wyjaśnienia, opisu a nie prostego, faktycznego stwierdzenia związku przyczynowo-skutkowego (quod/quia). nigdy nie występuje na początku zdania]
 
 fēcundus, fēcunda, fēcundum [adj]
 (Terra Italiae fecunda et agricultūrae idonea erat)
@@ -1176,7 +1179,8 @@ aurĕus, aureă, aureum [adj]
 
 nam [conj]
 (Ager non arabatur, nam terra ipsa per se frumentum dabat)
-1. bowiem, ponieważ
+1. bo, albowiem, bowiem (wyjaśnienie)
+[używane do podania wyjaśnienia, opisu a nie prostego, faktycznego stwierdzenia związku przyczynowo-skutkowego (quod/quia). często występuje na początku zdania]
 
 nāvĭgĭum, navigii [noun] [n] [II]
 ()
@@ -2043,7 +2047,8 @@ turpĭtūdo, turpitudinis [noun] [f] [III]
 
 flūmĕn, fluminis [noun] [n] [III]
 (Navis, quae in flumine magna est, in mari parva est)
-1. rzeka, strumień
+1. strumień wody, potok, rzeka
+[używane w znaczeniu "płynąca woda", a nie jako jednostka geograficzna (fluvius)]
 
 mĕrĭtō [adv]
 (Amittit merito proprium, qui alienum appetit)
@@ -2547,7 +2552,8 @@ exĭgŭum, exigui [noun] [n] [II]
 quod [conj]
 (Feci quod potui)
 1. o ile, tak dalece jak
-2. ponieważ
+2. ponieważ, bo (spójnik)
+[w znaczeniu "ponieważ" wymienna z quia. pełni rolę spójnika łączącego zdanie nadrzędne z podrzędnym. podkreśla faktyczny związek przyczynowo-skutkowy, w przeciwieństwie do enim/nam które jest bardziej uzasadnieniem, wyjaśnieniem]
 
 perfĭdus, perfidă, perfidum [adj]
 (Vicimus perfidos hospites, imbellis hostes)

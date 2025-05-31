@@ -1,10 +1,34 @@
 TODO
 
+widok reversed translation - słowo, kiedy ostatnio, ile dobrze, ile źle, skuteczność
+
+reversed translation "revise" - chyba ze juz jest ?
+
+"karcić"  nie zwraca "karcić, upominać, dyscyplinować"
+
+czemu migration po reversed_translation nie dziala ?
+
+patrzeć, widzieć vs spostrzegać vs widzieć vs obserwować, widzieć
+
+pokazywać vs pokazać
+
+skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo osobne ?)
+
+macos skróty klawiszowe na makrony ?
+
 "wierzyć" nie zwraca "myśleć, wierzyć, sądzić" - pewnie kiepsko działa, jak jest wiele słów ? albo większa liczba synonimów albo niech patrzy na każde słowo z osobna kiedy jest kilka oddzielonych przecinkami ?
 
 "ropa rana" nie podpowiada "ropa itp. wypływająca z rany lub wrzodu"
 
 "wyrażać" nie podpowiada "wymawiać, wyrażać"
+
+"głosić" nie zwraca rozgłaszać ale "chwalić" już tak
+
+reversed translation:
+* wyliczać podobieństwo skojarzeń
+* próg na podobieństwo zastosować
+* jeśli wpisane słowo 100% pokrywa się z którąś z sugestii automatycznie je uznać (i powiedzieć o tym)
+* to samo jeśli tylko jedno pasuje (przy zastosowaniu progu)
 
 dodać ćwiczenia na pozostałe formy, w tym nieodmienne:
 inf, part, gerundium
