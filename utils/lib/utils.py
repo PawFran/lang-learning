@@ -1,15 +1,24 @@
 import re
 
-def print_all(lst):
+from synonyms.utils import SynonymWithScore
+
+
+def print_all(lst: list[str]):
     for i in range(len(lst)):
         print(f'{i + 1}. {lst[i]}')
+
+
+def print_all_synonyms(lst: list[SynonymWithScore]):
+    for i in range(len(lst)):
+        current = lst[i]
+        print(f'{i + 1}. {current.synonym} ({100*round(current.score, 2)}%)')
 
 
 def answer_split(answer: str) -> list[str]:
     return [x for x in answer.split(' ') if x != '']
 
 
-def is_proper_answer(answer: str) -> bool:
+def only_digits(answer: str) -> bool:
     return all([x.isdigit() for x in answer_split(answer)])
 
 

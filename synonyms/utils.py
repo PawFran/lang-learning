@@ -18,15 +18,21 @@ class TranslationWithPartOfSpeech:
 
 
 @dataclass
-class QueriedDocument:
+class DocumentWithScore:
     document: Document
+    score: float
+
+
+@dataclass
+class SynonymWithScore:
+    synonym: str
     score: float
 
 
 def get_all_translations() -> list[TranslationWithPartOfSpeech]:
     """
     Retrieve all translations from the database using the Translations class.
-    
+
     Returns:
         list: A list of all translation records from the database
     """
@@ -83,7 +89,7 @@ class SynonymFinder:
         return similarities
 
     def get_similar_documents(self, query: str, documents: list,
-                              part_of_speech: PartOfSpeech = None) -> list:
+                              part_of_speech: PartOfSpeech = None) -> list[DocumentWithScore]:
         """
         Find the N most relevant documents for a given query word using LangChain embeddings and cosine similarity.
 
@@ -101,13 +107,14 @@ class SynonymFinder:
 
         similarities = sorted(self.cosine_similarities(query_embedding), reverse=True)
 
-        docs_with_scores: list[QueriedDocument] = [QueriedDocument(documents[idx], similarity_score) for
-                                               similarity_score, idx in similarities]
+        docs_with_scores: list[DocumentWithScore] = [DocumentWithScore(documents[idx], similarity_score) for
+                                                     similarity_score, idx in similarities]
 
         return docs_with_scores
 
-    def similar_translations(self, query: str, n: int = 3, part_of_speech: PartOfSpeech = None) -> list[str]:
-        queried_docs: list[QueriedDocument] = self.get_similar_documents(
+    def similar_translations(self, query: str, n: int = 3, part_of_speech: PartOfSpeech = None) -> list[
+        SynonymWithScore]:
+        queried_docs: list[DocumentWithScore] = self.get_similar_documents(
             query,
             documents=self.translation_docs
         )
@@ -117,4 +124,4 @@ class SynonymFinder:
         else:
             relevant_docs = queried_docs
 
-        return [doc.document.page_content for doc in relevant_docs[:n]]
+        return [SynonymWithScore(doc.document.page_content, doc.score) for doc in relevant_docs[:n]]

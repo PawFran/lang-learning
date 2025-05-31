@@ -13,8 +13,10 @@ from actions.translation import REVERSED_TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH,
 from common.lib.utils import DEFAULT_USER_NAME
 from database.initialize_db import default_db_initialization
 from synonyms.utils import SynonymFinder
+
+from synonyms.utils import SynonymWithScore
 from vocabulary.lib.parsing_dict import *
-from utils.lib.utils import print_all, is_proper_answer, answer_parsed
+from utils.lib.utils import print_all, only_digits, answer_parsed, print_all_synonyms
 
 if __name__ == "__main__":
     args = parse_args()
@@ -95,16 +97,18 @@ if __name__ == "__main__":
 
             try:
                 user_translation = input('translation (or \'s\' for skip): ')
-                synonyms: list[str] = []
+                synonyms_with_scores: list[SynonymWithScore] = []
 
                 if user_translation.lower().strip() == 's':
                     user_choice = 's'
                 else:
-                    synonyms: list[str] = synonym_finder.similar_translations(user_translation, n=synonyms_number,
-                                                                              part_of_speech=current_entry.head.part_of_speech())
-                    if len(synonyms) > 0:
-                        print_all(synonyms)
-                        user_choice = input('choose answers (digits separated by space) or try again (a) or skip (s) or terminate (t): ').strip()
+                    synonyms_with_scores: list[SynonymWithScore] = synonym_finder.similar_translations(user_translation,
+                                                                                                       n=synonyms_number,
+                                                                                                       part_of_speech=current_entry.head.part_of_speech())
+                    if len(synonyms_with_scores) > 0:
+                        print_all_synonyms(synonyms_with_scores)
+                        user_choice = input(
+                            'choose answers (digits separated by space) or try again (a) or skip (s) or terminate (t): ').strip()
                     else:
                         print('no synonyms found')
                         user_choice = input('try again (a) or skip (s) or terminate (t): ').strip()
@@ -134,8 +138,8 @@ if __name__ == "__main__":
                 elif user_choice == 't':  # terminate
                     continue_current_translation = False
                     continue_exercise = False
-                elif is_proper_answer(user_choice):  # answer
-                    user_answers = [synonyms[int(x) - 1] for x in answer_parsed(user_choice)]
+                elif only_digits(user_choice):  # answer
+                    user_answers = [synonyms_with_scores[int(x) - 1].synonym for x in answer_parsed(user_choice)]
 
                     correct_answers = [answer for answer in user_answers if answer in current_entry.translations]
                     incorrect_answers = [answer for answer in user_answers if answer not in current_entry.translations]
