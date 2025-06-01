@@ -1,9 +1,5 @@
 TODO
 
-widok reversed translation - słowo, kiedy ostatnio, ile dobrze, ile źle, skuteczność
-
-czemu migration po reversed_translation nie dziala ?
-
 skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo osobne ?)
 
 macos skróty klawiszowe na makrony ?
@@ -27,6 +23,8 @@ inf, part, gerundium
 dodać widok agregujący ćwiczenia ?
 
 ćwiczenie odwrotne do declension / conjugation - słowo i jakie to formy (reversed declension, reversed conjugation)
+
+czemu migration po reversed_translation nie dziala ?
 
 zrobić ćwiczenie dla word_comparison ?
 

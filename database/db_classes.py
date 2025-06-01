@@ -715,6 +715,38 @@ class TranslationLastUninterruptedSessionEasyWords(View):
 views.append(TranslationLastUninterruptedSessionEasyWords)
 
 
+class ReversedTranslationResults(View):
+    n_recent_answers = 5
+    __view_name__ = 'reversed_translation_results'
+    __view_query__ = f"""
+            WITH ranked_words AS (
+                SELECT w.id, w.header, r.is_correct, r.time,
+                       ROW_NUMBER() OVER (PARTITION BY w.id ORDER BY r.time DESC) AS rn
+                FROM (
+                    SELECT id, header, CONCAT(header, ' [', part_of_speech, ']') AS word_with_part_of_speech
+                    FROM words
+                    WHERE lang = 'latin'
+                ) w
+                LEFT JOIN reversed_translation_exercise_results r
+                    ON r.word_asked LIKE '%' || w.word_with_part_of_speech || '%'
+            )
+            SELECT
+                id,
+                header,
+                ROUND(
+                    100.0 * SUM(CASE WHEN is_correct THEN 1 ELSE 0 END) /
+                          NULLIF(COUNT(*), 0), 0
+                ) AS correct_ratio,
+                DATE(MAX(time)) AS last_time
+            FROM ranked_words
+            WHERE rn <= {n_recent_answers}
+            GROUP BY id, header;
+        """
+
+
+views.append(ReversedTranslationResults)
+
+
 # Utility function to create all views
 def create_all_views(engine):
     for view in views:
