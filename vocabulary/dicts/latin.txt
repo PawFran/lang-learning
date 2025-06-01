@@ -144,7 +144,7 @@ sed [conj]
 
 erro, errāre, errāvī, errātum [verb] [I]
 (Errare humanum est)
-1. mylić się
+1. mylić się, błądzić (fizycznie, umysłowo, moralnie)
 
 affirmo, affirmāre, affirmāvī, affirmātum [verb] [I]
 (Errant, qui affirmant: "Ibi patria, ubi bene")

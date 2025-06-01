@@ -201,3 +201,14 @@ default_user;6;latin;castīgo, castīgāre, castīgāvī, castīgātum [verb] [I
 default_user;6;latin;nauta, nautae [noun] [m] [I];Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt;1;żeglarz;żeglarz;True;2025-05-31 15:55:51
 default_user;6;latin;aro, arāre, arāvī, arātum [verb] [I];Agricolae terram arant;1;orać;orać;True;2025-05-31 15:55:57
 default_user;6;latin;sed [conj];Patriam amāmus non quia magna est sed quia nostra;1;lecz;lecz;True;2025-05-31 15:56:01
+default_user;7;latin;properō, properāre, properāvi, properātum [verb] [I];Puer Romānus in scholam properat;1;spieszyć się, spieszyć;spieszyć się, spieszyć;True;2025-06-01 10:13:33
+default_user;7;latin;celebrō, celebrāre, celebrāvī, celebrātum [verb] [I];Poētae Polonōrum gloriam patriae nostrae celebrant;1;rozsławiać, wychwalać, sławić;rozsławiać, wychwalać, sławić;True;2025-06-01 10:13:51
+default_user;7;latin;monstrō, monstrāre, monstrāvi, monstrātum [verb] [I];Servis dominus hortum monstrat;1;pokazywać (fizycznie, ale też uczyć, pouczać, objaśniać);pokazać;False;2025-06-01 10:14:03
+default_user;7;latin;monstrō, monstrāre, monstrāvi, monstrātum [verb] [I];Servis dominus hortum monstrat;1;pokazywać (fizycznie, ale też uczyć, pouczać, objaśniać);;False;2025-06-01 10:14:06
+default_user;7;latin;castīgo, castīgāre, castīgāvī, castīgātum [verb] [I];Ancillam miseram domina sevēra castīgat;1;karcić, upominać, dyscyplinować;karcić, upominać, dyscyplinować;True;2025-06-01 10:15:30
+default_user;7;latin;nāvigo, nāvigāre, nāvigāvī, nāvigātum [verb] [I];Nautae periti navigant;1;żeglować;żeglować;True;2025-06-01 10:15:37
+default_user;7;latin;erro, errāre, errāvī, errātum [verb] [I];Errare humanum est;1;mylić się;;False;2025-06-01 10:15:51
+default_user;7;latin;operarius, operarii [noun] [m] [II];Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt;1;robotnik, pracownik fizyczny;robotnik, pracownik fizyczny;True;2025-06-01 10:16:19
+default_user;7;latin;spectō, spectāre, spectāvī, spectātum [verb] [I];Specta, Sophia. En, Victoriae statua clara;1;patrzeć, widzieć;patrzeć, widzieć;True;2025-06-01 10:16:27
+default_user;7;latin;etiam [conj];Etiam silvae magnae et pulchrae terram nostram ornant;1;także;bowiem, ponieważ;False;2025-06-01 10:17:09
+default_user;7;latin;etiam [conj];Etiam silvae magnae et pulchrae terram nostram ornant;1;także;;False;2025-06-01 10:17:11
