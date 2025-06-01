@@ -212,3 +212,6 @@ default_user;7;latin;operarius, operarii [noun] [m] [II];Multi incolae Poloniae 
 default_user;7;latin;spectō, spectāre, spectāvī, spectātum [verb] [I];Specta, Sophia. En, Victoriae statua clara;1;patrzeć, widzieć;patrzeć, widzieć;True;2025-06-01 10:16:27
 default_user;7;latin;etiam [conj];Etiam silvae magnae et pulchrae terram nostram ornant;1;także;bowiem, ponieważ;False;2025-06-01 10:17:09
 default_user;7;latin;etiam [conj];Etiam silvae magnae et pulchrae terram nostram ornant;1;także;;False;2025-06-01 10:17:11
+default_user;8;latin;erro, errāre, errāvī, errātum [verb] [I];Errare humanum est;1;mylić się, błądzić (fizycznie, umysłowo, moralnie);mylić się, błądzić (fizycznie, umysłowo, moralnie);True;2025-06-01 11:40:33
+default_user;8;latin;etiam [conj];Etiam silvae magnae et pulchrae terram nostram ornant;1;także;także;True;2025-06-01 11:40:40
+default_user;8;latin;monstrō, monstrāre, monstrāvi, monstrātum [verb] [I];Servis dominus hortum monstrat;1;pokazywać, wskazywać, objaśniać;pokazywać, wskazywać, objaśniać;True;2025-06-01 11:40:54

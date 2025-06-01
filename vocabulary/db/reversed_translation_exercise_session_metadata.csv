@@ -5,3 +5,4 @@ session_id;user_name;start_word;end_word;filtered_parts_of_speech;revise_last_se
 5;default_user;;;;True;False
 6;default_user;castigo;numquam;;False;False
 7;default_user;;;;True;False
+8;default_user;;;;True;False
