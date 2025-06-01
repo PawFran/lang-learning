@@ -19,11 +19,11 @@ class Lang(Enum):
 class PartOfSpeech(Enum):
     VERB = 'verb'
     NOUN = 'noun'
-    ADVERB = 'adverb'
-    PREPOSITION = 'preposition'
-    CONJUNCTION = 'conjunction'
-    PRONOUN = 'pronoun'
-    ADJECTIVE = 'adjective'
+    ADVERB = 'adv'
+    PREPOSITION = 'prep'
+    CONJUNCTION = 'conj'
+    PRONOUN = 'pron'
+    ADJECTIVE = 'adj'
 
 
 @dataclass
@@ -69,7 +69,7 @@ class LatinVerb(AbstractWord):
 
     @staticmethod
     def is_verb(dict_entry_head):
-        return '[verb]' in dict_entry_head.lower()
+        return f'[{PartOfSpeech.VERB.value}]' in dict_entry_head.lower()
 
     @staticmethod
     def which_conjugation(dict_entry_head) -> ConjugationType:
@@ -114,7 +114,7 @@ class LatinNoun(AbstractWord):
 
     @staticmethod
     def is_noun(dict_entry_head):
-        return '[noun]' in dict_entry_head.lower()
+        return f'[{PartOfSpeech.NOUN.value}]' in dict_entry_head.lower()
 
     @staticmethod
     def is_only_plural(dict_entry_head):
@@ -152,7 +152,7 @@ class LatinAdverb(AbstractWord):
 
     @staticmethod
     def is_adverb(dict_entry_head):
-        return '[adv]' in dict_entry_head.lower()
+        return f'[{PartOfSpeech.ADVERB.value}]' in dict_entry_head.lower()
 
     @staticmethod
     def from_entry_head(head):
@@ -170,7 +170,7 @@ class LatinPreposition(AbstractWord):
 
     @staticmethod
     def is_preposition(dict_entry_head):
-        return '[prep]' in dict_entry_head.lower()
+        return f'[{PartOfSpeech.PREPOSITION.value}]' in dict_entry_head.lower()
 
     @staticmethod
     def from_entry_head(head):
@@ -188,7 +188,7 @@ class LatinConjunction(AbstractWord):
 
     @staticmethod
     def is_conjunction(dict_entry_head):
-        return '[conj]' in dict_entry_head.lower()
+        return f'[{PartOfSpeech.CONJUNCTION.value}]' in dict_entry_head.lower()
 
     @staticmethod
     def from_entry_head(head):
@@ -206,7 +206,7 @@ class LatinPronoun(AbstractWord):
 
     @staticmethod
     def is_pronoun(dict_entry_head):
-        return '[pron]' in dict_entry_head.lower()
+        return f'[{PartOfSpeech.PRONOUN.value}]' in dict_entry_head.lower()
 
     @staticmethod
     def from_entry_head(head):
@@ -226,8 +226,7 @@ class LatinAdjective(AbstractWord):
 
     @staticmethod
     def is_adjective(dict_entry_head):
-        head_lower = dict_entry_head.lower()
-        return '[adj]' in head_lower or '[adjective]' in head_lower
+        return f'[{PartOfSpeech.ADJECTIVE.value}]' in dict_entry_head.lower()
 
     @staticmethod
     def from_entry_head(head):

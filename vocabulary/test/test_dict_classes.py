@@ -154,7 +154,7 @@ def test_pronoun_from_entry_head():
 
 def test_is_adjective():
     assert LatinAdjective.is_adjective('sempiternus, a, um [adj]')
-    assert LatinAdjective.is_adjective('sempiternus, a, um [adjective]')
+    assert not LatinAdjective.is_adjective('sempiternus, a, um [adjective]')
     assert not LatinAdjective.is_adjective('saepe [adv]')
 
 

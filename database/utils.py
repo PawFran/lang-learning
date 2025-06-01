@@ -86,7 +86,7 @@ def insert_or_ignore_latin_word(entry: DictionaryEntry, parsing_function, sessio
     try:
         head_raw = head.head_raw
         head_raw_without_metadata = head_raw.split('[')[0].rstrip()
-        part_of_speech = head.part_of_speech().value
+        part_of_speech: str = head.part_of_speech().value
 
         # Insert into "words" table
         word = Words(lang="latin", header=head_raw_without_metadata, part_of_speech=part_of_speech, comment=entry.comment)
