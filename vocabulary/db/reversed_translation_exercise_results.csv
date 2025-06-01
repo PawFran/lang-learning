@@ -215,3 +215,42 @@ default_user;7;latin;etiam [conj];Etiam silvae magnae et pulchrae terram nostram
 default_user;8;latin;erro, errāre, errāvī, errātum [verb] [I];Errare humanum est;1;mylić się, błądzić (fizycznie, umysłowo, moralnie);mylić się, błądzić (fizycznie, umysłowo, moralnie);True;2025-06-01 11:40:33
 default_user;8;latin;etiam [conj];Etiam silvae magnae et pulchrae terram nostram ornant;1;także;także;True;2025-06-01 11:40:40
 default_user;8;latin;monstrō, monstrāre, monstrāvi, monstrātum [verb] [I];Servis dominus hortum monstrat;1;pokazywać, wskazywać, objaśniać;pokazywać, wskazywać, objaśniać;True;2025-06-01 11:40:54
+default_user;9;latin;traho, trahere, traxi, tractum [verb] [III];Verba docent, exempla trahunt;1;ciągnąć, pociągać;ciągnąć, pociągać;True;2025-06-01 17:10:35
+default_user;9;latin;iam [adv];Fatigatus iam sum sed numquam otium mihi est;1;już;już;True;2025-06-01 17:10:48
+default_user;9;latin;aedeficium, aedeficiī [noun] [n], [II];Operarii aedeficia magna struunt;1;budynek;budynek;True;2025-06-01 17:10:56
+default_user;9;latin;struō, struere, struxī, structum [verb] [III];Operarii aedeficia magna struunt;1;budować;budować;True;2025-06-01 17:11:35
+default_user;9;latin;beātus, beāta, beātum [adj];Beatus est nauta;1;szczęśliwy;szczęśliwy;True;2025-06-01 17:12:41
+default_user;9;latin;in [prep];In Polonia habitamus. Spectantium oculi in certantes versi erant;2;do, na (+ acc) | w (+ abl);w (+ abl);True;2025-06-01 17:13:18
+default_user;9;latin;in [prep];In Polonia habitamus. Spectantium oculi in certantes versi erant;2;do, na (+ acc);do, dla, na (cel, zamiar) (+ acc);False;2025-06-01 17:13:18
+default_user;9;latin;in [prep];In Polonia habitamus. Spectantium oculi in certantes versi erant;2;do, na (+ acc);do, dla, na (cel, zamiar) (+ acc);False;2025-06-01 17:14:12
+default_user;9;latin;in [prep];In Polonia habitamus. Spectantium oculi in certantes versi erant;2;do, na (+ acc);;False;2025-06-01 17:14:14
+default_user;9;latin;ōtium, ōtiī [noun] [n] [II];Otia post negotia;1;odpoczynek;odpoczynek;True;2025-06-01 17:14:22
+default_user;9;latin;cŭm [conj];Vade mecum. Cum munera gladiatoria erant;2;z (kim, czym) (+ abl) | kiedy, podczas gdy;z (kim, czym) (+ abl);True;2025-06-01 17:14:27
+default_user;9;latin;cŭm [conj];Vade mecum. Cum munera gladiatoria erant;2;kiedy, podczas gdy;;False;2025-06-01 17:14:40
+default_user;9;latin;libenter [adv];Marcus libros libenter legit;1;chętnie;chętnie;True;2025-06-01 17:14:46
+default_user;9;latin;negotium, negotiī [noun] [n] [II];Otia post negotia;1;praca;trud, praca;False;2025-06-01 17:14:55
+default_user;9;latin;negotium, negotiī [noun] [n] [II];Otia post negotia;1;praca;praca;True;2025-06-01 17:15:06
+default_user;9;latin;sēdulus, sēdula, sēdulum [adj];Agricolae seduli agrum arant;1;pilny, pracowity;;False;2025-06-01 17:15:24
+default_user;9;latin;ago, agere, ēgi, actum [verb] [III];Tu, agricola, vitam securam agis. Alexandro vir pauper, qui asinum agebat, obviam venit;2;prowadzić, pędzić (np. życie, ale też zwierzę) | czynić, działać, robić;prowadzić, pędzić (np. życie, ale też zwierzę);True;2025-06-01 17:15:45
+default_user;9;latin;ago, agere, ēgi, actum [verb] [III];Tu, agricola, vitam securam agis. Alexandro vir pauper, qui asinum agebat, obviam venit;2;czynić, działać, robić;prowadzić, wykonywać;False;2025-06-01 17:16:27
+default_user;9;latin;ago, agere, ēgi, actum [verb] [III];Tu, agricola, vitam securam agis. Alexandro vir pauper, qui asinum agebat, obviam venit;2;czynić, działać, robić;;False;2025-06-01 17:16:29
+default_user;9;latin;autem [conj];Tu pericula non times. Ego autem ventos et procellas semper timeo;1;zaś;zaś;True;2025-06-01 17:16:50
+default_user;9;latin;lūdō, lūdere, lūsī, lūsum [verb] [III];Iulia libros non legit, sed in horto ludit;1;bawić się;bawić się;True;2025-06-01 17:17:03
+default_user;9;latin;discō, discere, didicī [verb] [III];Nos linquam latinam discimus;1;uczyć się;uczyć się;True;2025-06-01 17:17:17
+default_user;9;latin;timeō, timēre, timuī [verb] [II];Tu, agricola, pericula non times;1;bać się;bać się;True;2025-06-01 17:17:39
+default_user;9;latin;invideo, invidēre, invidīdī, invidīsum [verb] [II];Agricola nautae fortūnae invidet;1;zazdrościć (komus + dat);zazdrościć, być zazdrosnym;False;2025-06-01 17:17:48
+default_user;9;latin;invideo, invidēre, invidīdī, invidīsum [verb] [II];Agricola nautae fortūnae invidet;1;zazdrościć (komus + dat);;False;2025-06-01 17:17:49
+default_user;10;latin;in [prep];In Polonia habitamus. Spectantium oculi in certantes versi erant;2;do, na (+ acc) | w (+ abl);do, na (+ acc);True;2025-06-01 17:24:27
+default_user;10;latin;in [prep];In Polonia habitamus. Spectantium oculi in certantes versi erant;2;w (+ abl);w (+ abl);True;2025-06-01 17:24:36
+default_user;10;latin;ago, agere, ēgi, actum [verb] [III];Tu, agricola, vitam securam agis. Alexandro vir pauper, qui asinum agebat, obviam venit;2;prowadzić, pędzić (np. życie, ale też zwierzę) | czynić, działać, robić;czynić, działać, robić;True;2025-06-01 17:24:46
+default_user;10;latin;ago, agere, ēgi, actum [verb] [III];Tu, agricola, vitam securam agis. Alexandro vir pauper, qui asinum agebat, obviam venit;2;prowadzić, pędzić (np. życie, ale też zwierzę);prowadzić, pędzić (np. życie, ale też zwierzę);True;2025-06-01 17:24:51
+default_user;10;latin;cŭm [conj];Vade mecum. Cum munera gladiatoria erant;2;z (kim, czym) (+ abl) | kiedy, podczas gdy;z (kim, czym) (+ abl);True;2025-06-01 17:24:57
+default_user;10;latin;cŭm [conj];Vade mecum. Cum munera gladiatoria erant;2;kiedy, podczas gdy;;False;2025-06-01 17:25:06
+default_user;10;latin;negotium, negotiī [noun] [n] [II];Otia post negotia;1;praca;trud, praca;False;2025-06-01 17:25:14
+default_user;10;latin;negotium, negotiī [noun] [n] [II];Otia post negotia;1;praca;praca;True;2025-06-01 17:25:20
+default_user;10;latin;sēdulus, sēdula, sēdulum [adj];Agricolae seduli agrum arant;1;pilny, pracowity;pilny, pracowity;True;2025-06-01 17:25:33
+default_user;10;latin;invideo, invidēre, invidīdī, invidīsum [verb] [II];Agricola nautae fortūnae invidet;1;zazdrościć (komus + dat);zazdrościć (komus + dat);True;2025-06-01 17:25:43
+default_user;11;latin;negotium, negotiī [noun] [n] [II];Otia post negotia;1;praca;trud, praca;False;2025-06-01 17:41:25
+default_user;11;latin;negotium, negotiī [noun] [n] [II];Otia post negotia;1;praca;praca;True;2025-06-01 17:41:34
+default_user;11;latin;cŭm [conj];Vade mecum. Cum munera gladiatoria erant;2;z (kim, czym) (+ abl) | kiedy, podczas gdy;z (kim, czym) (+ abl);True;2025-06-01 17:41:40
+default_user;11;latin;cŭm [conj];Vade mecum. Cum munera gladiatoria erant;2;kiedy, podczas gdy;kiedy, podczas gdy;True;2025-06-01 17:41:47

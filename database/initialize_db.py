@@ -162,7 +162,7 @@ def remove_db(engine):
     try:
         cursor = conn.cursor()
         # Terminate other connections to the target database
-        cursor.execute(f"""
+        cursor.execute(f""" 
             SELECT pg_terminate_backend(pg_stat_activity.pid)
             FROM pg_stat_activity
             WHERE pg_stat_activity.datname = '{db_name}'
@@ -178,6 +178,9 @@ def remove_db(engine):
 
 def default_db_initialization():
     from environment import engine
+
+    # Dispose of any existing connections
+    engine.dispose()
 
     initialize_database(engine=engine,
                         remove_old=True,

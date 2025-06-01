@@ -182,7 +182,6 @@ if __name__ == "__main__":
 
     if not interrupted:
         session_metadata_handler.update(interrupted=False)
-
-    default_db_initialization()
+        default_db_initialization()
 
     print('terminating..')
