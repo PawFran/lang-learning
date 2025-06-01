@@ -9,7 +9,8 @@ vinea, vineae [noun] [I] [f]
 
 spectō, spectāre, spectāvī, spectātum [verb] [I]
 (Specta, Sophia. En, Victoriae statua clara)
-1. patrzeć, widzieć
+1. patrzeć, oglądać, obserwować
+[intencjonalne przyglądanie się, w przeciwieństwie do video, które oznacza bardziej sam fakt rejestrowania czegoś wzrokiem]
 
 valdē [adv]
 (Varsoviam valde amamus)
@@ -49,7 +50,8 @@ concordia, concordiae [noun] [I] [f]
 
 monstrō, monstrāre, monstrāvi, monstrātum [verb] [I]
 (Servis dominus hortum monstrat)
-1. pokazywać (fizycznie, ale też uczyć, pouczać, objaśniać)
+1. pokazywać, wskazywać, objaśniać
+[wydźwięk bardziej dydaktyczny niż wizualny (ostendo)]
 
 cūrō, cūrāre, cūrāvi, cūrātum [verb] [I]
 (O servi, Spartacus fortūna vestrae curat!)
@@ -427,7 +429,8 @@ cupiō, cupere, cupīvī, cupītum [verb] [III]
 
 video, vidēre, vidi, visum [verb] [II]
 (Nautae terras alienas visitant, sed patriam suam vidēre cupiunt)
-1. widzieć
+1. widzieć, rozumieć
+[opisuje bierny stan, sam fakt widzenia, w przeciwieństwie do aktywnego obserwowania (specto) albo nagłego spostrzeżenia (conspicio)]
 
 scĭo, scīre, scii o scivi, scitum [verb] [IV]
 ((Nautae perīti pericula vitāre sciunt. Scis-ne Varsoviae pulchras statuas esse ?)
@@ -2436,8 +2439,7 @@ lĕpĭdus, lepidă, lepidum [adj]
 
 ăcerbus, acerbă, acerbum [adj]
 (Hannibalis lepidum sed acerbum dictum)
-1. cierpki
-2. kwaśny, niedojrzały
+1. kwaśny, niedojrzały, cierpki (również w przenośni)
 
 prŏfŭgus, profugă, profugum [adj]
 (Hannibal Carthagine profugus apud Antiuchum manebat)
@@ -2453,7 +2455,8 @@ dux, ducis [noun] [m/f] [III]
 
 ostendo, ostendĕre, ostendi, ostentum/ostensum [verb] [III]
 (Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
-1. pokazywać (fizycznie, ale też uczyć, pouczać, objaśniać)
+1. pokazać, ukazać, ,odsłonić, uczynić widzialnym
+[aspekt bardziej wizualny niż dydaktyczny (monstro), chociaż może oznaczać ukazywanie zarówno fizycznie, jak i w przenośni]
 
 ălĭquandō [adv]
 (Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
@@ -2578,7 +2581,8 @@ antĕā [adv]
 
 conspĭcĭo, conspĭcĕre, conspexi, conspectum [verb] [III]
 (Duo amici subito procul ursum appropinquantem conspexerunt)
-1. obserwować, widzieć
+1. zauważyć, spostrzec
+[bardziej nagłe, aktywne niż video]
 
 sŭbĭtō [adv]
 (Duo amici subito procul ursum appropinquantem conspexerunt)
@@ -3639,10 +3643,6 @@ postquăm [conj]
 mītis, mitis, mite [adj]
 (Qui postquam vidit me, mitis accessit ac pedem suum mihi ostendit)
 1. łagodny, delikatny, przyjazny
-
-ostendo, ostendĕre, ostendi, ostentum [verb] [III]
-(Qui postquam vidit me, mitis accessit ac pedem suum mihi ostendit)
-1. pokazać
 
 spīna, spinae [noun] [f] [I]
 (Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)

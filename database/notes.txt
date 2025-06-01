@@ -2,15 +2,7 @@ TODO
 
 widok reversed translation - słowo, kiedy ostatnio, ile dobrze, ile źle, skuteczność
 
-reversed translation "revise" - chyba ze juz jest ?
-
-"karcić"  nie zwraca "karcić, upominać, dyscyplinować"
-
 czemu migration po reversed_translation nie dziala ?
-
-patrzeć, widzieć vs spostrzegać vs widzieć vs obserwować, widzieć
-
-pokazywać vs pokazać
 
 skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo osobne ?)
 
