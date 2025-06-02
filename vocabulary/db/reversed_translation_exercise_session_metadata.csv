@@ -9,3 +9,4 @@ session_id;user_name;start_word;end_word;filtered_parts_of_speech;revise_last_se
 9;default_user;libenter;traho;;False;False
 10;default_user;;;;True;False
 11;default_user;;;;True;False
+12;default_user;procella;appareo;;False;False

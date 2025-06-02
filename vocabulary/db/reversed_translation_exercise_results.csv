@@ -254,3 +254,16 @@ default_user;11;latin;negotium, negotiī [noun] [n] [II];Otia post negotia;1;pra
 default_user;11;latin;negotium, negotiī [noun] [n] [II];Otia post negotia;1;praca;praca;True;2025-06-01 17:41:34
 default_user;11;latin;cŭm [conj];Vade mecum. Cum munera gladiatoria erant;2;z (kim, czym) (+ abl) | kiedy, podczas gdy;z (kim, czym) (+ abl);True;2025-06-01 17:41:40
 default_user;11;latin;cŭm [conj];Vade mecum. Cum munera gladiatoria erant;2;kiedy, podczas gdy;kiedy, podczas gdy;True;2025-06-01 17:41:47
+default_user;12;latin;mūto, mūtāre, mūtāvī, mūtātum [verb] [I];Deus inquit: fortunam vestram muto;1;zmieniać;zmieniać;True;2025-06-02 20:10:09
+default_user;12;latin;doceo, docēre, docuī, doctum [verb] [II];Verba docent, exampla trahunt;1;uczyć, nauczać;uczyć, nauczać;True;2025-06-02 20:10:19
+default_user;12;latin;placeō, placēre, placuī, placitum [verb] [II];Saepe aliena nobis placent;1;podobać się, być lubianym;podobać się, być lubianym;True;2025-06-02 20:10:31
+default_user;12;latin;ventus, venti [noun] [m] [II];Ego ventos et procellas semper timeo;1;wiatr;wiatr;True;2025-06-02 20:10:36
+default_user;12;latin;semper [adv];Ego miser sum, semper laboro;1;zawsze;zawsze;True;2025-06-02 20:10:46
+default_user;12;latin;conscendō, conscendere, conscendī, conscensum [verb] [III];Tu autem, agricola, navigium conscende;1;wsiadać, dosiadać (+ acc);wsiadać, dosiadać (+ acc);True;2025-06-02 20:11:02
+default_user;12;latin;appareo, apparere, apparui [verb] [II];Tum deus apparet;1;ukazywać się;ukazywać się;True;2025-06-02 20:11:14
+default_user;12;latin;stŭdĕo, stŭdēre, studui, stŭdivi [verb] [II];Avarus sero cognoscet se frustra pecuniae studuisse;2;poświęcać się (czemuś), starać się (o coś), dążyć (do czegoś), zajmować się (czymś) (+ dat) | uczyć się, studiować (+ dat);uczyć się, studiować (+ dat);True;2025-06-02 20:11:25
+default_user;12;latin;stŭdĕo, stŭdēre, studui, stŭdivi [verb] [II];Avarus sero cognoscet se frustra pecuniae studuisse;2;poświęcać się (czemuś), starać się (o coś), dążyć (do czegoś), zajmować się (czymś) (+ dat);;False;2025-06-02 20:11:38
+default_user;12;latin;procella, procellae [noun] [f] [I];Ego ventos et procellas semper timeo;1;burza;burza;True;2025-06-02 20:11:54
+default_user;12;latin;maneo, manēre, mansi, mansum [verb] [II];Agricola in casa manet;1;zostawać;;False;2025-06-02 20:12:02
+default_user;12;latin;notus, nota, notum [adj];Notum est dictum Polonum;1;znany;znany;True;2025-06-02 20:12:27
+default_user;12;latin;per [prep];Per aspera ad astra;1;przez (coś, kogoś), za pomocą (+ acc);przez (coś, kogoś), za pomocą (+ acc);True;2025-06-02 20:12:37

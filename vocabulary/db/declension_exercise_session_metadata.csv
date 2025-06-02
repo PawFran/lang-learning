@@ -28,3 +28,10 @@ session_id;user_name;declensions_included;interrupted
 16;default_user;demonstrative;True
 17;default_user;interrogative;False
 18;default_user;demonstrative (hic, haec, hoc);True
+19;default_user;I;False
+20;default_user;II;False
+21;default_user;III consonant;False
+22;default_user;IV;False
+23;default_user;V;False
+24;default_user;III vowel;False
+25;default_user;III mixed;False
