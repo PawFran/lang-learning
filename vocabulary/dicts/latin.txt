@@ -202,9 +202,10 @@ struō, struere, struxī, structum [verb] [III]
 (Operarii aedeficia magna struunt)
 1. budować
 
-negotium, negotiī [noun] [n] [II]
+negōtium, negotiī [noun] [n] [II]
 (Otia post negotia)
-1. praca
+1. praca, sprawa, obowiązek, interes
+[nec + otium (nie-odpoczynek). podkreśla aktywność jako przeciwieństwi bezczynności (jak ang. business kojarzy się z "busy"), niekoniecznie trud (labor)]
 
 in [prep] 
 (In Polonia habitamus. Spectantium oculi in certantes versi erant)
@@ -276,9 +277,9 @@ doceo, docēre, docuī, doctum [verb] [II]
 (Verba docent, exampla trahunt)
 1. uczyć, nauczać
 
-stŭdĕo, stŭdēre, studui, stŭdivi [verb] [II]
+stŭdĕo, stŭdēre, studui [verb] [II]
 (Avarus sero cognoscet se frustra pecuniae studuisse)
-1. poświęcać się (czemuś), starać się (o coś), dążyć (do czegoś), zajmować się (czymś) (+ dat)
+1. oddawać się, poświęcać się (czemuś), starać się (o coś), dążyć (do czegoś), zajmować się (czymś) (+ dat)
 2. uczyć się, studiować (+ dat)
 
 semper [adv]
@@ -1468,9 +1469,10 @@ deletus, deleta, deletum [adj]
 ()
 1. zniszczony
 
-lăbŏr, laboris [noun] [m] [III]
+lăbŏr, labōris [noun] [m] [III]
 ()
-1. trud, praca
+1. trud, praca, wysiłek, znój
+[praca jako trud i zmaganie, a nie sprawa do załatwienia (negotium)]
 
 ingens, ingens, ingens [adj]
 (Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
