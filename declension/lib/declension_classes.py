@@ -14,19 +14,21 @@ class DeclensionType(Enum):
     III_mixed = 'III mixed'
     IV = 'IV'
     V = 'V'
-    relative = 'relative'
+    relative = 'relative (qui, quae, quod)'
     demonstrative = 'demonstrative'  # to be deleted ?
     demonstrative_is_ea_id = 'demonstrative (is, ea, id)'
     demonstrative_hic_haec_hoc = 'demonstrative (hic, haec, hoc)'
     demonstrative_ille_illa_illud = 'demonstrative (ille, illa, illud)'
     demonstrative_idem_eadem_idem = 'demonstrative (idem, eadem, idem)'
-    interrogative = 'interrogative'
+    interrogative = 'interrogative (quis? quid?)'
 
     @staticmethod
     def from_string(s: str):
-        match s.lower().replace('_', ' ').replace('-', ' ').replace('(', ' ').replace(')', ' ').replace(',',
-                                                                                                        ' ').replace(
-            '  ', ' ').strip():
+        match s.lower().replace('_', ' ').replace('-', ' ')\
+            .replace('(', ' ').replace(')', ' ')\
+            .replace(',',' ').replace('  ', ' ')\
+            .replace('?','')\
+            .strip():
             case 'first' | 'i' | 'one' | '1':
                 return DeclensionType.I
             case 'second' | 'ii' | 'two' | '2':
@@ -43,7 +45,7 @@ class DeclensionType(Enum):
                 return DeclensionType.IV
             case 'fifth' | 'v' | 'five' | '5':
                 return DeclensionType.V
-            case 'relative' | 'rel':
+            case 'relative' | 'rel' | 'relative qui quae quod':
                 return DeclensionType.relative
             case 'demonstrative' | 'dem':
                 return DeclensionType.demonstrative
@@ -55,7 +57,7 @@ class DeclensionType(Enum):
                 return DeclensionType.demonstrative_ille_illa_illud
             case 'demonstrative idem eadem idem' | 'dem idem eadem idem' | 'idem eadem idem' | 'idem':
                 return DeclensionType.demonstrative_idem_eadem_idem
-            case 'interrogative' | 'inter':
+            case 'interrogative' | 'inter' | 'interrogative quis quid':
                 return DeclensionType.interrogative
             case _:
                 raise Exception(f'cannot parse string {s} to DeclensionType')

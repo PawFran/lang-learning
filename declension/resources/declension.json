@@ -264,7 +264,7 @@
     }
   },
   "qui": {
-    "relative": {
+    "relative (qui, quae, quod)": {
       "masculinum": {
         "singularis": {
           "nominativus": "qui",
@@ -284,7 +284,7 @@
     }
   },
   "quae": {
-    "relative": {
+    "relative (qui, quae, quod)": {
       "femininum": {
         "singularis": {
           "nominativus": "quae",
@@ -304,7 +304,7 @@
     }
   },
   "quod": {
-    "relative": {
+    "relative (qui, quae, quod)": {
       "neutrum": {
         "singularis": {
           "nominativus": "quod",
@@ -564,7 +564,7 @@
     }
   },
   "quis, quid": {
-    "interrogative": {
+    "interrogative (quis? quid?)": {
       "": {
         "singularis": {
           "nominativus": "quis? quid?",
