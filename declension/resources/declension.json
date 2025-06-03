@@ -564,14 +564,14 @@
     }
   },
   "quis, quid": {
-    "interrogative (quis? quid?)": {
+    "interrogative (quis quid)": {
       "": {
         "singularis": {
-          "nominativus": "quis? quid?",
-          "genetivus": "cuius?",
-          "dativus": "cui?",
-          "accusativus": "quem? quid?",
-          "ablativus": "quo?"
+          "nominativus": "quis quid",
+          "genetivus": "cuius",
+          "dativus": "cui",
+          "accusativus": "quem quid",
+          "ablativus": "quo"
         }
       }
     }

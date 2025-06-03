@@ -35,3 +35,6 @@ session_id;user_name;declensions_included;interrupted
 23;default_user;V;False
 24;default_user;III vowel;False
 25;default_user;III mixed;False
+26;default_user;demonstrative (is, ea, id);False
+27;default_user;demonstrative (hic, haec, hoc);False
+28;default_user;relative (qui, quae, quod);False
