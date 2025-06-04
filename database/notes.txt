@@ -1,5 +1,19 @@
 TODO
 
+ăd vs in
+
+ago vs gero vs duco
+
+aedefico, struo, construo, condo
+
+beatus vs felix
+
+prowadzić, pędzić vs prowadzić, wykonywać vs prowadzić, sprowadzić
+
+uczyć się vs uczyć się, studiować
+
+zazdrościć, być zazdrosnym vs zazdrościć
+
 skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo osobne ?)
 
 macos skróty klawiszowe na makrony ?
