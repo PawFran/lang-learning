@@ -685,3 +685,67 @@ default_user;29;latin;quis, quid;singularis;genetivus;cuius;cuius;True;2025-06-0
 default_user;29;latin;quis, quid;singularis;ablativus;quo;quo;True;2025-06-03 20:25:22
 default_user;29;latin;quis, quid;singularis;nominativus;quis quid;quis quid;True;2025-06-03 20:25:27
 default_user;29;latin;quis, quid;singularis;dativus;cui;cui;True;2025-06-03 20:25:30
+default_user;30;latin;ille;singularis;ablativus;illō;illo;True;2025-06-04 16:46:01
+default_user;30;latin;illud;singularis;dativus;illī;illi;True;2025-06-04 16:46:16
+default_user;30;latin;illud;singularis;ablativus;illō;illo;True;2025-06-04 16:46:21
+default_user;30;latin;illa;pluralis;ablativus;illīs;illis;True;2025-06-04 16:46:27
+default_user;30;latin;illud;pluralis;ablativus;illīs;illis;True;2025-06-04 16:46:31
+default_user;30;latin;ille;pluralis;accusativus;illōs;illa;False;2025-06-04 16:46:41
+default_user;30;latin;illud;singularis;genetivus;illīus;illius;True;2025-06-04 16:46:51
+default_user;30;latin;illud;singularis;accusativus;illud;illud;True;2025-06-04 17:17:25
+default_user;30;latin;illa;pluralis;nominativus;illae;illae;True;2025-06-04 17:17:29
+default_user;30;latin;ille;pluralis;genetivus;illōrum;illorum;True;2025-06-04 17:17:34
+default_user;30;latin;illud;pluralis;nominativus;illa;illa;True;2025-06-04 17:17:39
+default_user;30;latin;ille;singularis;nominativus;ille;ille;True;2025-06-04 17:17:43
+default_user;30;latin;illud;singularis;nominativus;illud;illud;True;2025-06-04 17:17:45
+default_user;30;latin;illa;singularis;ablativus;illā;illa;True;2025-06-04 17:17:49
+default_user;30;latin;illa;pluralis;genetivus;illārum;illarum;True;2025-06-04 17:17:55
+default_user;30;latin;ille;singularis;dativus;illī;illi;True;2025-06-04 17:17:58
+default_user;30;latin;illa;pluralis;accusativus;illās;illas;True;2025-06-04 17:18:03
+default_user;30;latin;illa;singularis;nominativus;illa;illa;True;2025-06-04 17:18:09
+default_user;30;latin;illa;pluralis;dativus;illīs;illis;True;2025-06-04 17:18:13
+default_user;30;latin;illa;singularis;dativus;illī;illi;True;2025-06-04 17:18:17
+default_user;30;latin;illud;pluralis;dativus;illīs;illis;True;2025-06-04 17:18:21
+default_user;30;latin;illud;pluralis;accusativus;illa;illa;True;2025-06-04 17:18:26
+default_user;30;latin;ille;singularis;genetivus;illīus;illius;True;2025-06-04 17:18:32
+default_user;30;latin;illud;pluralis;genetivus;illōrum;illorum;True;2025-06-04 17:18:37
+default_user;30;latin;ille;singularis;accusativus;illum;illum;True;2025-06-04 17:20:21
+default_user;30;latin;illa;singularis;genetivus;illīus;illius;True;2025-06-04 17:20:25
+default_user;30;latin;ille;pluralis;ablativus;illīs;illis;True;2025-06-04 17:20:28
+default_user;30;latin;illa;singularis;accusativus;illam;illam;True;2025-06-04 17:20:31
+default_user;30;latin;ille;pluralis;accusativus;illōs;illos;True;2025-06-04 17:20:36
+default_user;30;latin;ille;pluralis;nominativus;illī;illi;True;2025-06-04 17:20:45
+default_user;30;latin;ille;pluralis;dativus;illīs;illis;True;2025-06-04 17:20:48
+default_user;31;latin;eadem;pluralis;dativus;eīsdem;eisdem;True;2025-06-04 17:37:19
+default_user;31;latin;eadem;singularis;accusativus;eandem;eamdem;False;2025-06-04 17:37:49
+default_user;31;latin;eadem;pluralis;accusativus;eāsdem;easdem;True;2025-06-04 17:42:48
+default_user;31;latin;eadem;singularis;accusativus;eandem;eandem;True;2025-06-04 17:42:55
+default_user;31;latin;eadem;singularis;ablativus;eādem;eadem;True;2025-06-04 17:42:59
+default_user;31;latin;eadem;pluralis;genetivus;eārundem;earundem;True;2025-06-04 17:43:13
+default_user;31;latin;eadem;singularis;dativus;eīdem;eidem;True;2025-06-04 17:43:20
+default_user;31;latin;eadem;singularis;nominativus;eadem;eadem;True;2025-06-04 17:43:24
+default_user;31;latin;eadem;pluralis;nominativus;eaedem;eaedem;True;2025-06-04 17:43:27
+default_user;31;latin;eadem;singularis;genetivus;eiusdem;euisdem;False;2025-06-04 17:43:32
+default_user;31;latin;eadem;pluralis;ablativus;eīsdem;eisdem;True;2025-06-04 17:43:40
+default_user;31;latin;eadem;singularis;genetivus;eiusdem;eiusdem;True;2025-06-04 17:43:45
+default_user;32;latin;idem (neutrum);pluralis;dativus;eīsdem;eisdem;True;2025-06-04 18:12:22
+default_user;32;latin;idem (masculinum);singularis;genetivus;eiusdem;eiusdem;True;2025-06-04 18:12:30
+default_user;32;latin;idem (neutrum);pluralis;ablativus;eīsdem;eisdem;True;2025-06-04 18:12:37
+default_user;32;latin;idem (masculinum);pluralis;ablativus;eīsdem;eisdem;True;2025-06-04 18:12:41
+default_user;32;latin;idem (neutrum);pluralis;accusativus;eadem;eadem;True;2025-06-04 18:14:20
+default_user;32;latin;idem (neutrum);pluralis;nominativus;eadem;eidem;False;2025-06-04 18:14:25
+default_user;32;latin;idem (neutrum);pluralis;nominativus;eadem;eadem;True;2025-06-04 18:14:31
+default_user;32;latin;idem (neutrum);pluralis;genetivus;eōrundem;eorundem;True;2025-06-04 18:14:44
+default_user;32;latin;idem (neutrum);singularis;genetivus;eiusdem;eiusdem;True;2025-06-04 18:14:49
+default_user;32;latin;idem (neutrum);singularis;accusativus;īdem;idem;True;2025-06-04 18:14:54
+default_user;32;latin;idem (neutrum);singularis;ablativus;eōdem;eodem;True;2025-06-04 18:14:58
+default_user;32;latin;idem (masculinum);singularis;ablativus;eōdem;eodem;True;2025-06-04 18:15:02
+default_user;32;latin;idem (masculinum);pluralis;nominativus;eīdem;eidem;True;2025-06-04 18:15:07
+default_user;32;latin;idem (masculinum);singularis;accusativus;eundem;eundem;True;2025-06-04 18:16:33
+default_user;32;latin;idem (neutrum);singularis;nominativus;īdem;idem;True;2025-06-04 18:16:36
+default_user;32;latin;idem (neutrum);singularis;dativus;eīdem;eidem;True;2025-06-04 18:16:42
+default_user;32;latin;idem (masculinum);pluralis;dativus;eīsdem;eisdem;True;2025-06-04 18:16:48
+default_user;32;latin;idem (masculinum);pluralis;accusativus;eōsdem;eosdem;True;2025-06-04 18:18:05
+default_user;32;latin;idem (masculinum);singularis;nominativus;īdem;idem;True;2025-06-04 18:18:08
+default_user;32;latin;idem (masculinum);singularis;dativus;eīdem;eidem;True;2025-06-04 18:18:22
+default_user;32;latin;idem (masculinum);pluralis;genetivus;eōrundem;eorundem;True;2025-06-04 18:18:30
