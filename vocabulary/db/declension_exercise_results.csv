@@ -680,3 +680,8 @@ default_user;28;latin;quae;pluralis;ablativus;quibus;quibus;True;2025-06-03 20:2
 default_user;28;latin;quod;pluralis;dativus;quibus;quibus;True;2025-06-03 20:23:01
 default_user;28;latin;qui;singularis;genetivus;cuius;cuius;True;2025-06-03 20:23:09
 default_user;28;latin;qui;singularis;ablativus;quo;quo;True;2025-06-03 20:23:20
+default_user;29;latin;quis, quid;singularis;accusativus;quem quid;quem quid;True;2025-06-03 20:25:13
+default_user;29;latin;quis, quid;singularis;genetivus;cuius;cuius;True;2025-06-03 20:25:19
+default_user;29;latin;quis, quid;singularis;ablativus;quo;quo;True;2025-06-03 20:25:22
+default_user;29;latin;quis, quid;singularis;nominativus;quis quid;quis quid;True;2025-06-03 20:25:27
+default_user;29;latin;quis, quid;singularis;dativus;cui;cui;True;2025-06-03 20:25:30
