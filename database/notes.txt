@@ -38,8 +38,6 @@ dodać widok agregujący ćwiczenia ?
 
 ćwiczenie odwrotne do declension / conjugation - słowo i jakie to formy (reversed declension, reversed conjugation)
 
-czemu migration po reversed_translation nie dziala ?
-
 zrobić ćwiczenie dla word_comparison ?
 
 złe wyliczanie skuteczności ćwiczeń ? ind pres act 94 a nie 100%
