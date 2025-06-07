@@ -185,6 +185,7 @@ lūdō, lūdere, lūsī, lūsum [verb] [III]
 discō, discere, didicī [verb] [III]
 (Nos linquam latinam discimus)
 1. uczyć się
+[akcentuje nabywanie wiadomości / zdobywanie umiejętności, a nie wysiłek/zaangażowanie (stŭdĕo)]
 
 ōtium, ōtiī [noun] [n] [II]
 (Otia post negotia)
@@ -282,8 +283,8 @@ doceo, docēre, docuī, doctum [verb] [II]
 
 stŭdĕo, stŭdēre, studui [verb] [II]
 (Avarus sero cognoscet se frustra pecuniae studuisse)
-1. oddawać się, poświęcać się (czemuś), starać się (o coś), dążyć (do czegoś), zajmować się (czymś) (+ dat)
-2. uczyć się, studiować (+ dat)
+1. oddawać się (czemuś), poświęcać się (czemuś), starać się, zabiegać, dążyć, przykładać się, studiować (+ dat)
+[akcentuje oddawanie się czemuś z zaangażowaniem, a nie samo zdobywanie wiedzy (dico), z resztą może, ale nie musi dotyczyć nauki]
 
 semper [adv]
 (Ego miser sum, semper laboro)
