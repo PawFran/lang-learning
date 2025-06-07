@@ -328,7 +328,7 @@ sī [conj]
 1. jeśli
 
 dīligentia, dīligentiae [noun] [f] [I]
-(Vita rustica parsimonie, diligentiae magistra est)
+(Vita rustica parsimoniae, diligentiae magistra est)
 1. pilność
 
 difficile [adv]
@@ -367,7 +367,7 @@ tantum [adv]
 
 aut [conj]
 (Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
-1. lub
+1. lub, albo
 
 frūmentum, frumenti [noun] [n] [II]
 (Nautae in alienas terras navigābant, frumentum advehēbant)
@@ -479,10 +479,7 @@ pulcher, pulchra, pulchrum [adj]
 
 clārus, clară, clarum [adj]
 ()
-1. czysty, jasny
-2. oczywisty
-3. wyraźny
-4. znany
+1. czysty, jasny, oczywisty, wyraźny, znany
 
 cārus, cāra, cārum [adj]
 (Varsovia incolis Poloniae cara est)
@@ -582,13 +579,11 @@ litterae, ārum [noun] [f] [I] [pl]
 
 mŏnĕo, mŏnēre, monui, monitum [verb] [II]
 ()
-1. napominać, doradzać, przypominać
-2. ostrzegać
+1. napominać, doradzać, przypominać, ostrzegać
 
 căpĭo, căpĕre, cepi, captum [verb] [III]
 (Primum a tribuno locus capiebatur)
-1. brać, chwytać
-2. zajmować
+1. brać, chwytać, zajmować
 
 fŭgĭo, fŭgĕre, fugi, fugitum [verb] [III]
 (Fugit hora, fugiunt anni)
@@ -642,8 +637,7 @@ mŏvĕo, mŏvēre, movi, motum [verb] [II]
 
 prīmum [adv]
 (Primum a tribuno locus capiebatur)
-1. najpierw
-2. po pierwsze
+1. najpierw, po pierwsze
 
 trĭbūnus, tribuni [noun] [m] [II]
 (Primum a tribuno locus capiebatur)
@@ -834,9 +828,8 @@ auctor, auctōris [noun] [m] [III]
 
 salus, salūtis [noun] [f] [III]
 (Leges ad civium salutem inventas esse constat)
-1. bezpieczeństwo, pomyślność
-2. zdrowie
-3. pozdrowienie
+1. bezpieczeństwo, pomyślność, zdrowie,
+2. pozdrowienie
 
 dispŭto, dispŭtāre, disputāvī, disputātum [verb] [I]
 ()

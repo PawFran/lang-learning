@@ -267,3 +267,13 @@ default_user;12;latin;procella, procellae [noun] [f] [I];Ego ventos et procellas
 default_user;12;latin;maneo, manēre, mansi, mansum [verb] [II];Agricola in casa manet;1;zostawać;;False;2025-06-02 20:12:02
 default_user;12;latin;notus, nota, notum [adj];Notum est dictum Polonum;1;znany;znany;True;2025-06-02 20:12:27
 default_user;12;latin;per [prep];Per aspera ad astra;1;przez (coś, kogoś), za pomocą (+ acc);przez (coś, kogoś), za pomocą (+ acc);True;2025-06-02 20:12:37
+default_user;13;latin;dīligentia, dīligentiae [noun] [f] [I];Vita rustica parsimonie, diligentiae magistra est;1;pilność;pilność;True;2025-06-07 14:27:53
+default_user;13;latin;plaudō, plaudere, plausi, plasum [verb] [III];Vos valete et plaudite;1;klaskać;klaskać;True;2025-06-07 14:28:07
+default_user;13;latin;parsimonia, parsimoniae [noun] [f] [I];Vita rustica parsimonie, diligentiae magistra est;1;oszczędność;oszczędność;True;2025-06-07 14:28:16
+default_user;13;latin;valeō, valēre, valuī, valitum [verb] [II];Vos valete et plaudite;1;być zdrowym, mieć się dobrze;podobać się, być lubianym;False;2025-06-07 14:28:26
+default_user;13;latin;valeō, valēre, valuī, valitum [verb] [II];Vos valete et plaudite;1;być zdrowym, mieć się dobrze;;False;2025-06-07 14:28:40
+default_user;13;latin;quoque [conj];Tu quoque, mi fili ?;1;także;także;True;2025-06-07 14:28:46
+default_user;13;latin;sī [conj];Si tu vales, bene est, ego valeo;1;jeśli;jeśli;True;2025-06-07 14:28:53
+default_user;13;latin;gratus, grata, gratum [adj];Tibi vita rustica grata est, mihi vita urbana;1;miły;miły;True;2025-06-07 14:29:00
+default_user;13;latin;ūnanimus, ūnanima, ūnanimum [adj];Ego tu sum, tu es ego, unanimi sumus;1;jednomyślny, zgodny;jednomyślny, zgodny;True;2025-06-07 14:29:08
+default_user;14;latin;valeō, valēre, valuī, valitum [verb] [II];Vos valete et plaudite;1;być zdrowym, mieć się dobrze;być zdrowym, mieć się dobrze;True;2025-06-07 14:29:44
