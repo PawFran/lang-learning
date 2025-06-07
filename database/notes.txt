@@ -1,12 +1,6 @@
 TODO
 
-ago vs gero vs duco
-
 aedefico, struo, construo, condo
-
-beatus vs felix
-
-prowadzić, pędzić vs prowadzić, wykonywać vs prowadzić, sprowadzić
 
 uczyć się vs uczyć się, studiować
 
@@ -23,6 +17,8 @@ macos skróty klawiszowe na makrony ?
 "wyrażać" nie podpowiada "wymawiać, wyrażać"
 
 "głosić" nie zwraca rozgłaszać ale "chwalić" już tak
+
+może przy szukaniu podobieństw nie powinno się patrzeć na nawiasy ?
 
 reversed translation:
 * wyliczać podobieństwo skojarzeń

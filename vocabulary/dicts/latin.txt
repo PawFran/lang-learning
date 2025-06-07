@@ -219,7 +219,8 @@ invideo, invidēre, invidīdī, invidīsum [verb] [II]
 
 beātus, beāta, beātum [adj]
 (Beatus est nauta)
-1. szczęśliwy
+1. szczęśliwy, błogosławiony, spełniony
+[często oznacza łaskę bogów i ogólnie stan ducha ("być szczęśliwym") a nie pomyślny zbieg okoliczności ("mieć szczęście" -felix)]
 
 iam [adv]
 (Fatigatus iam sum sed numquam otium mihi est)
@@ -227,8 +228,8 @@ iam [adv]
 
 ago, agere, ēgi, actum [verb] [III]
 (Tu, agricola, vitam securam agis. Alexandro vir pauper, qui asinum agebat, obviam venit)
-1. prowadzić, pędzić (np. życie, ale też zwierzę)
-2. czynić, działać, robić
+1. czynić, działać, robić coś czynnie, prowadzić (działalność), pędzić (np. życie, ale też zwierzę)
+[bardzo ogólny, oznacza szeroko rozumianą działalność - spędzanie czasu, prowadzenie życia, sprawy, pędzenie zwierzęta]
 
 timeō, timēre, timuī [verb] [II]
 (Tu, agricola, pericula non times)
@@ -240,7 +241,8 @@ autem [conj]
 
 traho, trahere, traxi, tractum [verb] [III]
 (Verba docent, exempla trahunt)
-1. ciągnąć, pociągać
+1. ciągnąć, wlec, zabierać ze sobą, pociągać (również w przenośni)
+[może oznaczać zarówno fizyczne przemieszczanie jak i pociąganie w sensie atrakcji]
 
 procella, procellae [noun] [f] [I]
 (Ego ventos et procellas semper timeo)
@@ -515,8 +517,9 @@ bellum, belli [noun] [n] [II]
 
 gĕro, gĕrĕre, gessi, gestum [verb] [III]
 (Antiqui Romani bella gerebant)
-1. nieść, nosić
-2. prowadzić, wykonywać
+1. prowadzić, wykonywać, sprawować (np. urząd, ale też "się")
+2. nosić (np. ubranie)
+[wydźwięk często formalny, związany z czymś oficjalnym i zorganizowanym (prowadzić wojnę, sprawować urząd etc.). czasem ma wydźwięk bierny, np. sprawować urząd, nosić ubranie]
 
 pŏpŭlus, populi [noun] [m] [II]
 (Romani terras populorum finitimorum invadebant)
@@ -743,7 +746,8 @@ extemplō [adv]
 
 făcĭo, făcĕre, feci, factum [verb] [III]
 (Tribunus verba facit: audite!)
-1. robić 
+1. zrobić, sprawić, wytworzyć, wyrządzić
+[bardzo szeroki zakres "robienia" ale zawsze nacisk na efekt i na dokonanie czynności np. zbudować most, złożyć ofiarę, uczynić szczęśliwym, wypowiedzieć słowa, wyrządzić szkodę]
 
 tēlum, teli [noun] [n] [II]
 (Tela a vobis parabuntur)
@@ -3212,9 +3216,10 @@ Graecus, Graecă, Graecum [adj]
 (Si Paris ex Graecis uxorem duxerit oris, excidium Troiae ducet et omne malum)
 1. grecki
 
-dūco, dūcĕre, duxi, ductum [verb] [III]
+dūcō, dūcere, dūxī, ductum [verb] [III]
 (Si Paris ex Graecis uxorem duxerit oris, excidium Troiae ducet et omne malum)
-1. prowadzić, sprowadzić
+1. prowadzić (kogoś/coś gdzieś), kierować (kogoś/gdzieś), sprowadzić (kogoś/coś skądś), brać (np. żonę, ale też kogoś za coś)
+[używane w znaczeniu nadawania/wskazywania kierunku (również w przenośni), a nie w sensie "wykonywania". np. "prowadzić wojsko"=exercitum ducere, ale "prowadzić wojnę"=bellum gĕrĕre]
 
 ōra, orae [noun] [f] [I]
 (Si Paris ex Graecis uxorem duxerit oris, excidium Troiae ducet et omne malum)
@@ -3245,6 +3250,11 @@ nūbĭlus, nubilă, nubilum [adj]
 (Tempora si fuerint nubila, solus eris)
 1. pochmurny
 2. smutny, trwożny, niezadowolony
+
+fēlix, fēlix, fēlix [adj]
+(Felix, quem faciun aliena pericula cautum)
+1. szczęśliwy, pomyślny, udany, żyzny, urodzajny
+[podkreśla raczej szczęśliwy zbieg okoliczności (fart), niż ogólne szczęście jako stan ducha (beatus). raczej "mieć szczęście" niż "być szczęśliwym"]
 
 cautus, caută, cautum [adj]
 (Felix, quem faciun aliena pericula cautum)
