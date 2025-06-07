@@ -1,11 +1,5 @@
 TODO
 
-aedefico, struo, construo, condo
-
-uczyć się vs uczyć się, studiować
-
-zazdrościć, być zazdrosnym vs zazdrościć
-
 skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo osobne ?)
 
 macos skróty klawiszowe na makrony ?
@@ -44,6 +38,7 @@ nowy typ ćw. (ograniczony):
 * opisywać relacje, napisać generator form na podstawie reguł i sprawdzić czy są poprawne
 * wtedy będzie można też generować inne ?
 * dodać wtedy esse
+* dodać reguły tematów w perfecti
 
 english scrape'ing - playwright (python)
 

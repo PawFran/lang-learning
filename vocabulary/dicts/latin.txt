@@ -195,13 +195,14 @@ sēdulus, sēdula, sēdulum [adj]
 (Agricolae seduli agrum arant)
 1. pilny, pracowity
 
-aedeficium, aedeficiī [noun] [n], [II]
-(Operarii aedeficia magna struunt)
+aedificium, aedificiī [noun] [n], [II]
+(Operarii aedificia magna struunt)
 1. budynek
 
-struō, struere, struxī, structum [verb] [III]
-(Operarii aedeficia magna struunt)
-1. budować
+struō, struere, strūxī, strūctum [verb] [III]
+(Operarii aedificia magna struunt)
+1. układać, stawiać, budować, piętrzyć
+[często w przypadku tworzenia czegoś złożonego z wielu elementów/warstw/pięter - może być budynek, wał itp. ale też plan, intryga. raczej nie jest używane w przypadku czegoś bardzo wysokiego/monumentalnego (exstrŭo)]
 
 negōtium, negotiī [noun] [n] [II]
 (Otia post negotia)
@@ -214,9 +215,9 @@ in [prep]
 2. w (+ abl)
 [podkreśla przestrzeń, a nie cel (ăd)]
 
-invideo, invidēre, invidīdī, invidīsum [verb] [II]
-(Agricola nautae fortūnae invidet)
-1. zazdrościć (komus + dat)
+invideo, invidēre, invidi, invisum [verb] [II]
+(Agricola nautae fortūnae invidet. Demetrius eius imaginis pulchritudinem Rhodiis invidebat)
+1. zazdrościć  (+ dat)
 
 beātus, beāta, beātum [adj]
 (Beatus est nauta)
@@ -627,9 +628,10 @@ exercĕo, exercēre, exercui, exercitum [verb] [II]
 (Memoria minuitur, nisi memoriam exerces)
 1. ćwiczyć
 
-aedefico, aedeficāre, aedeficāvi, aedeficātum [verb] [I]
+aedificō, aedificāre, aedificāvī, aedificātum [verb] [I]
 (Fabri magna aedeficia aedeficant)
-1. budować
+1. budować, wznosić budynek
+[budować w sensie dosłownym "aedĭfĭcĭum" to budynek]
 
 castra, castrōrum [noun] [n] [II] [pl]
 (A Romanis castra ponebantur)
@@ -3313,9 +3315,10 @@ mĕmŏrābĭlis, memorabilis, memorabile [adj]
 (Artemisia sepulchrum memorabile viro exstruit)
 1. niezapomniany
 
-exstrŭo, exstrŭĕre, exstruxi, exstructum [verb] [III]
+exstruō, exstruere, exstrūxī, exstrūctum [verb] [III]
 (Artemisia sepulchrum memorabile viro exstruit)
-1. budować, wznosić
+1. budować, wznosić, piętrzyć (dosłownie i w przenośni)
+[podobne do struō, ale podkreśla wysokość, monumentalność]
 
 obsĭdĕo, obsĭdēre, obsedi, obsessum [verb] [II]
 (De Demetrio Rhodum insulam obsidente)
