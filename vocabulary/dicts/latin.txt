@@ -211,6 +211,7 @@ in [prep]
 (In Polonia habitamus. Spectantium oculi in certantes versi erant)
 1. do, na (+ acc)
 2. w (+ abl)
+[podkreśla przestrzeń, a nie cel (ăd)]
 
 invideo, invidēre, invidīdī, invidīsum [verb] [II]
 (Agricola nautae fortūnae invidet)
@@ -1287,6 +1288,7 @@ fācundus, facundă, facundum [adj]
 1. do (kierunek) (+ acc)
 2. do, dla, na (cel, zamiar) (+ acc)
 3. przy, pod, u (bliskość w czasie lub przestrzeniu) (+ acc)
+[jako "do" podkreśla cel - nawet wtedy, kiedy wyraża kierunek, np. "iść do miasta", wskazuje bardziej miejsce jako cel niż przestrzeń, do której się wchodzi (w przypadku przestrzeni używa się "in")]
 
 tandem [adv]
 ()

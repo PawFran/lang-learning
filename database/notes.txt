@@ -1,7 +1,5 @@
 TODO
 
-ăd vs in
-
 ago vs gero vs duco
 
 aedefico, struo, construo, condo
@@ -39,6 +37,7 @@ dodać widok agregujący ćwiczenia ?
 ćwiczenie odwrotne do declension / conjugation - słowo i jakie to formy (reversed declension, reversed conjugation)
 
 zrobić ćwiczenie dla word_comparison ?
+skrypt moglby wypisywac znaczenia + komentarze
 
 złe wyliczanie skuteczności ćwiczeń ? ind pres act 94 a nie 100%
 
