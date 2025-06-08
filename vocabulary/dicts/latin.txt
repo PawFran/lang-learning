@@ -387,7 +387,8 @@ tamen [adv]
 
 praebeo, praebēre, praebui, praebitum [verb] [II]
 (Divitia tamen magnas curas et magna pericula nautis praebēbant)
-1. dostarczać, przynosić
+1. dostarczać, udzielać, udostępniać, przynosić (w przenośni), okazywać
+[bardziej abstrakcyjne niż (ap)porto, np. oferować pomoc, udzielać rady, nieść niebezpieczeństwo. od prae + habeo = "mieć coś przed", czyli "do pokazania", "do dania" itp.]
 
 cūra, cūrae [noun] [f] [I]
 (Divitia tamen magnas curas et magna pericula nautis praebēbant)
@@ -447,7 +448,8 @@ vītō, vītāre, vītāvī, vītātum [verb] [I]
 
 porto, portāre, portāvī, portātum [verb] [I]
 (Ancilla dominae aquam portat)
-1. nieść, przynosić
+1. nosić, przenosić
+[noszenie w znaczeniu dosłownym, fizycznym]
 
 ămo, ămāre, amāvī, amātum [verb] [I]
 (Maria amicam amat et laudat)
@@ -2873,7 +2875,8 @@ neutĕr [pron]
 
 apporto, apportāre, apportāvī, apportātum [verb] [I]
 (Vos, qui haec signa apportavistis, ipsi eligite)
-1. nosić, przenosić, przynosić (do)
+1. przynosić
+[ad + porto = "nieść do". podkreśla kierunek, nie sam proces noszenia (porto)]
 
 sĕcundum [adv]
 (Secundum Varronem Romani non hastam ipsam neque caduceum miserunt)
