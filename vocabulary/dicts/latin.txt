@@ -507,7 +507,7 @@ nŏcĕo, nŏcēre, nocui, nocitum [verb] [II]
 
 ēmendo, ēmendāre, emendāvī, emendātum [verb] [I]
 (Unum castigabis, centum emendabis)
-1. poprawiać
+1. poprawiać, korygować
 
 bellum, belli [noun] [n] [II]
 (Antiqui Romani bella gerebant)
@@ -525,7 +525,8 @@ pŏpŭlus, populi [noun] [m] [II]
 
 invādo, invādĕre, invasi, invasum [verb] [III]
 (Romani terras populorum finitimorum invadebant)
-1. wkraczać, najeżdżać
+1. najechaćać, atakować, wkroczyć
+[dosłownie i w przynośni, np. zaatakować miasto/wkroczyć do domu, ale też "ogarnąć" umysł, duszę etc.]
 
 interfĭcĭo, interfĭcĕre, interfēcī, interfectum [verb] [III]
 (Romani terras invadebant, incolas interficiebant aut captivos asportabant)
@@ -538,7 +539,7 @@ captīvus, captivi [noun] [m] [II]
 
 asporto, asportāre, asportāvī, asportātum [verb] [I]
 (Romani terras invadebant, incolas interficiebant aut captivos asportabant)
-1. zabierać, uprowadzać, usuwać
+1. zabierać, uprowadzać, wywozić
 
 victŭs, victa, victum [adj]
 (Romani bella gerebant, populos victos premebant)
@@ -546,8 +547,10 @@ victŭs, victa, victum [adj]
 
 prĕmo, prĕmĕre, pressi, pressum [verb] [III]
 (Romani bella gerebant, populos victos premebant)
-1. naciskać
-2. gnębić
+1. naciskać, przyciskać
+2. gnębić, uciskać
+3. tłumić, powstrzymywać
+[wywierać presję, nacisk - dosłownie i w przenośni]
 
 ăpud [prep]
 (In numero servōrum apud Graecos multi captivi erant)
@@ -555,7 +558,7 @@ prĕmo, prĕmĕre, pressi, pressum [verb] [III]
 
 ŏdĭōsus, odiosă, odiosum [adj]
 (Nobis bella odiōsa sunt)
-1. wstrętny, nieprzyjemny
+1. wstrętny, nieprzyjemny, znienawidzony
 
 intĕr [adv]
 (Nos concordiam inter populos colēmus)
@@ -571,7 +574,8 @@ dīlĭgentĕr [adv]
 
 copiae, ārum [noun] [f] [I] [pl]
 ()
-1. wojsko, siły zbrojne
+1. wojska, oddziały
+[podkreśla zbiorowisko żołnierzy (stąd liczba mnoga), w przeciwieństwie do exercitus, które oznacza armię jako całość, formalną jednostkę]
 
 litterae, ārum [noun] [f] [I] [pl]
 (Cato dixit litterarum radices amaras esse, sed fructus iucundiores)
@@ -579,7 +583,8 @@ litterae, ārum [noun] [f] [I] [pl]
 
 mŏnĕo, mŏnēre, monui, monitum [verb] [II]
 ()
-1. napominać, doradzać, przypominać, ostrzegać
+1. upominać, ostrzegać, napominać, zwracać uwagę
+[zwracanie uwagi lub łagodny nakaz oparty na autorytecie]
 
 căpĭo, căpĕre, cepi, captum [verb] [III]
 (Primum a tribuno locus capiebatur)
@@ -608,7 +613,7 @@ nĭsi [conj]
 
 mĭnŭo, mĭnŭĕre, minui, minutum [verb] [III]
 (Memoria minuitur, nisi memoriam exerces)
-1. zmniejszać
+1. zmniejszać, osłabiać
 
 sălūto, sălūtāre, salutāvī, salutātum [verb] [I]
 (Ut salutabis, ita salutaberis)
@@ -2232,7 +2237,8 @@ virtus, virtutis [noun] [f] [III]
 
 exercĭtŭs, exercitūs [noun] [m] [IV]
 ()
-1. wojsko
+1. armia, wojsko
+[bardziej formalne niż copiae i oznacza raczej armię jako zorganizowaną jednostkę, niż zbiorowisko żołnierzy]
 
 cornū, cornūs [noun] [n] [IV]
 ()

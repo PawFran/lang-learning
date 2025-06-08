@@ -145,7 +145,7 @@ if __name__ == "__main__":
                     incorrect_answers = [answer for answer in user_answers if answer not in current_entry.translations]
 
                     for answer in correct_answers:
-                        print(f'"{answer}" is correct', end='\n\n')
+                        print(f'\n"{answer}" is correct', end='\n\n')
 
                         # check if current translation is not the last one for current word
                         continue_current_translation = len(current_entry.translations) > 1

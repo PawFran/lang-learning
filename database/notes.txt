@@ -29,6 +29,8 @@ dodać widok agregujący ćwiczenia ?
 zrobić ćwiczenie dla word_comparison ?
 skrypt moglby wypisywac znaczenia + komentarze
 
+scrape mogloby dzialac podwojnie - tak jak teraz ale tez dodawac zwrotke z czata. w tym samym miejscu albo osobno
+
 złe wyliczanie skuteczności ćwiczeń ? ind pres act 94 a nie 100%
 
 nowy typ ćw. (ograniczony):
