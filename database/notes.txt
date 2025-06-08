@@ -1,5 +1,17 @@
 TODO
 
+notus vs clarus
+
+ĭtăquĕ vs ergō vs ĭgĭtur vs ĭtă
+
+cārus (drogi) poprawić
+
+dodać "ponieważ" do enim ?
+
+kochać, lubić vs kochać, cenić
+
+debeo zmniejszyć liczbę tłumaczeń ?
+
 opcja "perfect match" w reversed translation (nie trzeba potwierdzenia). zaimplementować i dodać do dokumentacji
 
 skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo osobne ?)
