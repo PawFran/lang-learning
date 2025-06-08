@@ -1,6 +1,14 @@
 TODO
 
-notus vs clarus
+skroty klawiszowe macos pycharm focus terminal vs notebook
+
+macos makrony lacinskie skroty klawiszowe
+
+liber książka vs dziecko ?
+
+dodać asporto do porównania porto, adporto, praebeo
+
+uciekać vs wymknąć się, uciec od
 
 ĭtăquĕ vs ergō vs ĭgĭtur vs ĭtă
 
@@ -10,7 +18,17 @@ dodać "ponieważ" do enim ?
 
 kochać, lubić vs kochać, cenić
 
-debeo zmniejszyć liczbę tłumaczeń ?
+dēbeō zmniejszyć liczbę tłumaczeń ?
+
+sĕcundus sprawdzic tlumaczenie
+
+mŏnĕo vs admŏnĕo
+
+sacrifico sprawdzić tłumaczenia
+
+"mieć, dzierżyć, sprawować" sprawdzić
+
+adveho sprawdzić i porównać z adporto, praebeo itp.
 
 opcja "perfect match" w reversed translation (nie trzeba potwierdzenia). zaimplementować i dodać do dokumentacji
 

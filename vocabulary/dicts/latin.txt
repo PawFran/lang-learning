@@ -276,7 +276,8 @@ per [prep]
 
 notus, nota, notum [adj]
 (Notum est dictum Polonum)
-1. znany
+1. znany, wiadomy
+[podkreśla rozpoznawalność, ma wydźwięk neutralny. od nosco = "poznać". często z dat poss (znany komuś)]
 
 doceo, docēre, docuī, doctum [verb] [II]
 (Verba docent, exampla trahunt)
@@ -481,7 +482,9 @@ pulcher, pulchra, pulchrum [adj]
 
 clārus, clară, clarum [adj]
 ()
-1. czysty, jasny, oczywisty, wyraźny, znany
+1. jasny, wyraźny, czysty
+2. sławny, chwalebny
+[sens dosłowny i przenośny łączy skojarzenie dobrej widoczności i pozytywny wydźwięk]
 
 cārus, cāra, cārum [adj]
 (Varsovia incolis Poloniae cara est)
@@ -527,7 +530,7 @@ pŏpŭlus, populi [noun] [m] [II]
 
 invādo, invādĕre, invasi, invasum [verb] [III]
 (Romani terras populorum finitimorum invadebant)
-1. najechaćać, atakować, wkroczyć
+1. najechać, atakować, wkroczyć
 [dosłownie i w przynośni, np. zaatakować miasto/wkroczyć do domu, ale też "ogarnąć" umysł, duszę etc.]
 
 interfĭcĭo, interfĭcĕre, interfēcī, interfectum [verb] [III]
@@ -1626,7 +1629,8 @@ artĭfex, artificis [noun] [m/f] [III]
 
 cĕlĕbĕr, celebris, celebre [adj]
 ()
-1. sławny
+1. słynny, wzbudzający zainteresowanie, ludny, uczęszczany
+[w przeciwieństwie do clārus, które oznacza "słynny, chwalebny" cĕlĕbĕr podkreśla rozgłos i zainteresowanie ludzi. wydźwięk neutralny lub pozytywny]
 
 ūnus, ūna, ūnum [adj]
 ()
@@ -3368,7 +3372,8 @@ pictŏr, pictoris [noun] [m] [III]
 
 illustris, illustris, illustre [adj]
 (In his aedibus, erat Ialysi imago, Protogenis, pictoris illustris manu facta)
-1. znakomity, wybitny, sławny
+1. wybitny, znakomity, świetny, jaśniejący, sławny
+[podobne do clarus, ale bardziej patetyczne, oficjalne i mocniejsze, często kojarzone z rangą, godnością, autorytetem]
 
 factus, factă, factum [adj]
 (In his aedibus, erat Ialysi imago, Protogenis, pictoris illustris manu facta)

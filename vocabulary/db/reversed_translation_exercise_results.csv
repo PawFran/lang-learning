@@ -277,3 +277,77 @@ default_user;13;latin;sī [conj];Si tu vales, bene est, ego valeo;1;jeśli;jeśl
 default_user;13;latin;gratus, grata, gratum [adj];Tibi vita rustica grata est, mihi vita urbana;1;miły;miły;True;2025-06-07 14:29:00
 default_user;13;latin;ūnanimus, ūnanima, ūnanimum [adj];Ego tu sum, tu es ego, unanimi sumus;1;jednomyślny, zgodny;jednomyślny, zgodny;True;2025-06-07 14:29:08
 default_user;14;latin;valeō, valēre, valuī, valitum [verb] [II];Vos valete et plaudite;1;być zdrowym, mieć się dobrze;być zdrowym, mieć się dobrze;True;2025-06-07 14:29:44
+default_user;15;latin;adveho, advehere, advexi, advectum [verb] [III];Nautae in alienas terras navigābant, frumentum advehēbant;1;dowozić, przywozić;dowozić, przywozić;True;2025-06-08 11:18:06
+default_user;15;latin;parvus, parva, parvum [adj];Vir rusticus, qui parvum agellus habēbat..;1;mały;mały;True;2025-06-08 11:18:12
+default_user;15;latin;ignōro, ignōrāre, ignorāvī, ignorātum [verb] [I];Aliena laudātis, vestra ignorātis;1;nie wiedzieć, nie znać, nie być świadomym, zaniedbywać, ignorować;nie wiedzieć, nie znać, nie być świadomym, zaniedbywać, ignorować;True;2025-06-08 11:19:09
+default_user;15;latin;ergō [prep];Cogito ergo sum;1;więc, w wyniku;więc, w wyniku;True;2025-06-08 11:19:14
+default_user;15;latin;porto, portāre, portāvī, portātum [verb] [I];Ancilla dominae aquam portat;1;nieść, przynosić;nieść, przynosić;True;2025-06-08 11:19:26
+default_user;15;latin;iūmentum, iūmenti [noun] [n] [II];Servi hortum atque iumenta curabat;1;zwierzę pociągowe;zwierzę pociągowe;True;2025-06-08 11:34:34
+default_user;15;latin;clārus, clară, clarum [adj];;1;czysty, jasny, oczywisty, wyraźny, znany;czysty, jasny, oczywisty, wyraźny, znany;True;2025-06-08 11:34:46
+default_user;15;latin;fēcundus, fēcunda, fēcundum [adj];Terra Italiae fecunda et agricultūrae idonea erat;1;urodzajny;urodzajny;True;2025-06-08 11:35:18
+default_user;15;latin;fābŭla, fabulae [noun] [f] [I];Puelae, narrate fabulas!;1;opowieść, baśń, bajka;opowieść, baśń, bajka;True;2025-06-08 11:35:30
+default_user;15;latin;ĭtăquĕ [conj];Itaque Romani agriculturae studēbant;1;więc;więc;True;2025-06-08 11:35:38
+default_user;15;latin;cūr [adv];Cur Marcus saepe laudatur, et Publius semper castigatur a magistro ?;1;dlaczego, z jakiego powodu?;dlaczego, z jakiego powodu?;True;2025-06-08 11:37:10
+default_user;15;latin;prĕmo, prĕmĕre, pressi, pressum [verb] [III];Romani bella gerebant, populos victos premebant;3;naciskać, przyciskać | gnębić, uciskać | tłumić, powstrzymywać;gnębić, uciskać;True;2025-06-08 11:37:23
+default_user;15;latin;prĕmo, prĕmĕre, pressi, pressum [verb] [III];Romani bella gerebant, populos victos premebant;3;naciskać, przyciskać | tłumić, powstrzymywać;naciskać, przyciskać;True;2025-06-08 11:37:23
+default_user;15;latin;prĕmo, prĕmĕre, pressi, pressum [verb] [III];Romani bella gerebant, populos victos premebant;3;tłumić, powstrzymywać;tłumić, powstrzymywać;True;2025-06-08 11:37:23
+default_user;15;latin;pŏpŭlus, populi [noun] [m] [II];Romani terras populorum finitimorum invadebant;1;ludzie, naród;ludzie, naród;True;2025-06-08 11:37:33
+default_user;15;latin;interfĭcĭo, interfĭcĕre, interfēcī, interfectum [verb] [III];Romani terras invadebant, incolas interficiebant aut captivos asportabant;1;uśmiercić, odebrać życie, zabić;uśmiercić, odebrać życie, zabić;True;2025-06-08 11:37:49
+default_user;15;latin;cārus, cāra, cārum [adj];Varsovia incolis Poloniae cara est;1;drogi;miły;False;2025-06-08 11:38:03
+default_user;15;latin;cārus, cāra, cārum [adj];Varsovia incolis Poloniae cara est;1;drogi;drogi;True;2025-06-08 11:38:09
+default_user;15;latin;enim [conj];Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat;1;bo, albowiem, bowiem (wyjaśnienie);bo, albowiem, bowiem (wyjaśnienie);True;2025-06-08 11:38:56
+default_user;15;latin;altus, alta, altum [adj];Oppido parvo murus non altus est;1;wysoki;wysoki;True;2025-06-08 11:39:27
+default_user;15;latin;tamen [adv];Divitia tamen magnas curas et magna pericula nautis praebēbant;1;jednak;jednak;True;2025-06-08 11:39:33
+default_user;15;latin;pĕcūnĭa, pecuniae [noun] [f] [I];Verum amicum pecunia non parabitis;1;pieniądze;pieniądze;True;2025-06-08 11:39:39
+default_user;15;latin;ămo, ămāre, amāvī, amātum [verb] [I];Maria amicam amat et laudat;1;kochać, lubić;kochać, lubić;True;2025-06-08 11:40:25
+default_user;15;latin;video, vidēre, vidi, visum [verb] [II];Nautae terras alienas visitant, sed patriam suam vidēre cupiunt;1;widzieć, rozumieć;widzieć, rozumieć;True;2025-06-08 11:40:40
+default_user;15;latin;difficile [adv];Naturam mutare difficile est;1;trudno;trudno;True;2025-06-08 11:40:47
+default_user;15;latin;dēbeō, debēre, debuī, debitum [verb] [II];Vir rusticus magna cura laborare debebat. Multos timere debet, quem multi timent;3;być dłużnym (komuś) | zawdzięczać (coś komuś) | musieć, być zobowiązanym do (+ bezokolicznik);musieć, być zobowiązanym do (+ bezokolicznik);True;2025-06-08 11:41:01
+default_user;15;latin;dēbeō, debēre, debuī, debitum [verb] [II];Vir rusticus magna cura laborare debebat. Multos timere debet, quem multi timent;3;być dłużnym (komuś) | zawdzięczać (coś komuś);;False;2025-06-08 11:41:03
+default_user;15;latin;ĭnĭmīcus, inimici [noun] [m] [II];;1;nieprzyjaciel;nieprzyjaciel;True;2025-06-08 11:41:30
+default_user;15;latin;pulcher, pulchra, pulchrum [adj];Varsoviam pulchrae statuae ornant;1;piękny;piękny;True;2025-06-08 11:41:35
+default_user;15;latin;victŭs, victa, victum [adj];Romani bella gerebant, populos victos premebant;1;zwyciężony;zwyciężony;True;2025-06-08 11:41:47
+default_user;15;latin;ēmendo, ēmendāre, emendāvī, emendātum [verb] [I];Unum castigabis, centum emendabis;1;poprawiać, korygować;poprawiać, korygować;True;2025-06-08 11:41:52
+default_user;15;latin;ŏpŭlentus, opulentă, opulentum [adj];Opulentus vir romanus non laborabat;1;bogaty;bogaty;True;2025-06-08 11:41:59
+default_user;15;latin;bellum, belli [noun] [n] [II];Antiqui Romani bella gerebant;1;wojna;wojna;True;2025-06-08 11:42:04
+default_user;15;latin;captīvus, captivi [noun] [m] [II];Romani terras invadebant, incolas interficiebant aut captivos asportabant;1;jeniec;jeniec;True;2025-06-08 11:42:09
+default_user;15;latin;iustĭtĭa, iustitiae [noun] [f] [I];Iustitiam colore debemus;1;sprawiedliwość;sprawiedliwość;True;2025-06-08 11:42:17
+default_user;15;latin;cupiō, cupere, cupīvī, cupītum [verb] [III];Nautae terras alienas visitant, sed patriam suam vidēre cupiunt;1;pożądać, pragnąć, bardzo chcieć;pożądać, pragnąć, bardzo chcieć;True;2025-06-08 11:42:31
+default_user;15;latin;ămīcus, amici [noun] [m] [II];Maria amicam amat et laudat;1;przyjaciel;przyjaciel;True;2025-06-08 11:42:37
+default_user;15;latin;idōneus, idōnea, idōneum [adj];Terra Italiae fecunda et agricultūrae idonea erat;1;odpowiedni, nadający się;szczęśliwy, sprzyjający;False;2025-06-08 11:42:51
+default_user;15;latin;idōneus, idōnea, idōneum [adj];Terra Italiae fecunda et agricultūrae idonea erat;1;odpowiedni, nadający się;;False;2025-06-08 11:44:01
+default_user;15;latin;cūra, cūrae [noun] [f] [I];Divitia tamen magnas curas et magna pericula nautis praebēbant;1;troska;troska;True;2025-06-08 11:44:10
+default_user;15;latin;invādo, invādĕre, invasi, invasum [verb] [III];Romani terras populorum finitimorum invadebant;1;najechaćać, atakować, wkroczyć;najechaćać, atakować, wkroczyć;True;2025-06-08 11:44:47
+default_user;15;latin;praebeo, praebēre, praebui, praebitum [verb] [II];Divitia tamen magnas curas et magna pericula nautis praebēbant;1;dostarczać, przynosić;dostarczać, przynosić;True;2025-06-08 11:45:04
+default_user;15;latin;asporto, asportāre, asportāvī, asportātum [verb] [I];Romani terras invadebant, incolas interficiebant aut captivos asportabant;1;zabierać, uprowadzać, wywozić;dostarczać, przynosić;False;2025-06-08 11:45:12
+default_user;15;latin;asporto, asportāre, asportāvī, asportātum [verb] [I];Romani terras invadebant, incolas interficiebant aut captivos asportabant;1;zabierać, uprowadzać, wywozić;;False;2025-06-08 11:45:13
+default_user;15;latin;copiae, ārum [noun] [f] [I] [pl];;1;wojska, oddziały;wojska, oddziały;True;2025-06-08 11:45:48
+default_user;15;latin;mŏnĕo, mŏnēre, monui, monitum [verb] [II];;1;upominać, ostrzegać, napominać, zwracać uwagę;upominać, ostrzegać, napominać, zwracać uwagę;True;2025-06-08 11:46:11
+default_user;15;latin;mercātūra, mercātūrae [noun] [f] [I];Nautae Mercurium, mercātūrae deum, colēbant;1;handel;handel;True;2025-06-08 11:46:28
+default_user;15;latin;sacrifico, sacrificāre, sacrificāvī, sacrificātum [verb] [I];Agricolae deis debusque agrōrum sacrificābant;1;składać ofiarę;;False;2025-06-08 11:46:38
+default_user;15;latin;gĕro, gĕrĕre, gessi, gestum [verb] [III];Antiqui Romani bella gerebant;2;"prowadzić, wykonywać, sprawować (np. urząd, ale też ""się"") | nosić (np. ubranie)";"prowadzić, wykonywać, sprawować (np. urząd, ale też ""się"")";True;2025-06-08 11:47:17
+default_user;15;latin;gĕro, gĕrĕre, gessi, gestum [verb] [III];Antiqui Romani bella gerebant;2;nosić (np. ubranie);nosić (np. ubranie);True;2025-06-08 11:47:45
+default_user;15;latin;tantum [adv];Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat;1;tylko;tylko;True;2025-06-08 11:47:50
+default_user;15;latin;narro, narrāre, narrāvī, narrātum [verb] [I];De ancillis miseris dominae narrant;1;opowiadać;opowiadać;True;2025-06-08 11:48:03
+default_user;15;latin;intĕr [adv];Nos concordiam inter populos colēmus;1;między (+acc);między (+acc);True;2025-06-08 11:48:11
+default_user;15;latin;macto, mactāre, mactāvī, mactātum [verb] [I];Agricolae deis debusque equos et tauros mactābant;1;zabijać na ofiarę;zabijać na ofiarę;True;2025-06-08 11:48:19
+default_user;15;latin;orno, ornāre, ornāvī, ornātum [verb] [I];Varsoviam pulchrae statuae ornant;1;ozdabiać;ozdabiać;True;2025-06-08 11:48:24
+default_user;15;latin;scĭo, scīre, scii o scivi, scitum [verb] [IV];(Nautae perīti pericula vitāre sciunt. Scis-ne Varsoviae pulchras statuas esse ?;1;wiedzieć, rozumieć, umieć;wiedzieć, rozumieć, umieć;True;2025-06-08 11:48:44
+default_user;15;latin;ŏdĭōsus, odiosă, odiosum [adj];Nobis bella odiōsa sunt;1;wstrętny, nieprzyjemny, znienawidzony;wstrętny, nieprzyjemny, znienawidzony;True;2025-06-08 11:48:53
+default_user;15;latin;dēbeō, debēre, debuī, debitum [verb] [II];Vir rusticus magna cura laborare debebat. Multos timere debet, quem multi timent;1;zawdzięczać (coś komuś);być dłużnym (komuś);False;2025-06-08 11:49:05
+default_user;15;latin;dēbeō, debēre, debuī, debitum [verb] [II];Vir rusticus magna cura laborare debebat. Multos timere debet, quem multi timent;1;zawdzięczać (coś komuś);;False;2025-06-08 11:49:06
+default_user;15;latin;frūmentum, frumenti [noun] [n] [II];Nautae in alienas terras navigābant, frumentum advehēbant;1;zboże;zboże;True;2025-06-08 11:49:42
+default_user;15;latin;aut [conj];Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat;1;lub, albo;lub, albo;True;2025-06-08 11:49:47
+default_user;15;latin;colo, colere, colui, cultum [verb] [III];Agricolae antīqui multos deos colēbant;2;uprawiać | czcić;uprawiać;True;2025-06-08 11:50:02
+default_user;15;latin;colo, colere, colui, cultum [verb] [III];Agricolae antīqui multos deos colēbant;2;czcić;czcić;True;2025-06-08 11:50:09
+default_user;15;latin;liber, libri [noun] [n] [II];Vir rusticus libros arāre docēbat;1;dziecko;;False;2025-06-08 11:50:26
+default_user;15;latin;nŏcĕo, nŏcēre, nocui, nocitum [verb] [II];Littera docet, littera nocet;1;szkodzić;szkodzić;True;2025-06-08 11:50:50
+default_user;15;latin;fŭgĭo, fŭgĕre, fugi, fugitum [verb] [III];Fugit hora, fugiunt anni;1;uciekać;uciekać;True;2025-06-08 11:50:57
+default_user;15;latin;vītō, vītāre, vītāvī, vītātum [verb] [I];Nautae perīti pericula vitāre sciunt;1;unikać;unikać;True;2025-06-08 11:51:25
+default_user;15;latin;atque/ăc [conj];Servi hortum atque iumenta curabat. Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit - ac przed spółgłoskami z wyjątkiem 'h';1;i, a także, a ponadto;i, a także, a ponadto;True;2025-06-08 11:51:30
+default_user;15;latin;ăpud [prep];In numero servōrum apud Graecos multi captivi erant;1;u (+ acc);u (+ acc);True;2025-06-08 11:51:34
+default_user;15;latin;vērus, veră, verum [adj];Verae amicitiae sempiternae sunt;1;prawdziwy;prawdziwy;True;2025-06-08 11:51:41
+default_user;15;latin;căpĭo, căpĕre, cepi, captum [verb] [III];Primum a tribuno locus capiebatur;1;brać, chwytać, zajmować;brać, chwytać, zajmować;True;2025-06-08 11:51:47
+default_user;15;latin;litterae, ārum [noun] [f] [I] [pl];Cato dixit litterarum radices amaras esse, sed fructus iucundiores;1;pismo, literatura;pismo, literatura;True;2025-06-08 11:52:04
+default_user;15;latin;dīlĭgentĕr [adv];Tu diligenter studēbis;1;pilnie, skrupulatnie;pilnie, skrupulatnie;True;2025-06-08 11:52:09
+default_user;15;latin;vendo, vendere, vendidi, venditum [verb] [III];Nautae frumentum advehēbant et incolis Romae vendēbant;1;sprzedawać;sprzedawać;True;2025-06-08 11:52:24
