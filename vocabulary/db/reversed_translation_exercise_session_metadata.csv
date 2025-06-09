@@ -13,3 +13,6 @@ session_id;user_name;start_word;end_word;filtered_parts_of_speech;revise_last_se
 13;default_user;unanimus;diligentia;;False;False
 14;default_user;;;;True;False
 15;default_user;difficile;cur;;False;False
+16;default_user;memoria;spatium;;False;True
+17;default_user;memoria;spatium;;False;True
+18;default_user;memoria;spatium;;False;False

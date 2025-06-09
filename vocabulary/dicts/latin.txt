@@ -643,7 +643,7 @@ castra, castrōrum [noun] [n] [II] [pl]
 
 mŏvĕo, mŏvēre, movi, motum [verb] [II]
 ()
-1. poruszać się, poruszać, potrząsać
+1. poruszać, przenosić, wzruszać, wzbudzać, wywoływać zmianę
 
 prīmum [adv]
 (Primum a tribuno locus capiebatur)
@@ -675,7 +675,8 @@ făcĭlĕ [adv]
 
 dĕindĕ [adv]
 (Deinde quadratum spatium signabatur et muniebatur)
-1. potem
+1. następnie, potem, dalej
+[de + inde =  z/od stamtąd. wskazuje kolejność czasową/logiczną]
 
 spătĭum, spatii [noun] [n] [II]
 (Deinde quadratum spatium signabatur et muniebatur)

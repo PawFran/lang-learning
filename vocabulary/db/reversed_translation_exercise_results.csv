@@ -351,3 +351,24 @@ default_user;15;latin;căpĭo, căpĕre, cepi, captum [verb] [III];Primum a trib
 default_user;15;latin;litterae, ārum [noun] [f] [I] [pl];Cato dixit litterarum radices amaras esse, sed fructus iucundiores;1;pismo, literatura;pismo, literatura;True;2025-06-08 11:52:04
 default_user;15;latin;dīlĭgentĕr [adv];Tu diligenter studēbis;1;pilnie, skrupulatnie;pilnie, skrupulatnie;True;2025-06-08 11:52:09
 default_user;15;latin;vendo, vendere, vendidi, venditum [verb] [III];Nautae frumentum advehēbant et incolis Romae vendēbant;1;sprzedawać;sprzedawać;True;2025-06-08 11:52:24
+default_user;16;latin;mĕmŏrĭa, memoriae [noun] [f] [I];Memoria minuitur, nisi memoriam exerces;1;pamięć, wspomnienie;pamięć, wspomnienie;True;2025-06-09 21:11:44
+default_user;16;latin;castra, castrōrum [noun] [n] [II] [pl];A Romanis castra ponebantur;1;obóz;obóz;True;2025-06-09 21:11:51
+default_user;17;latin;mŏvĕo, mŏvēre, movi, motum [verb] [II];;1;poruszać, przenosić, wzruszać, wzbudzać, wywoływać zmianę;poruszać się, poruszać, potrząsać;False;2025-06-09 21:13:05
+default_user;18;latin;aedificō, aedificāre, aedificāvī, aedificātum [verb] [I];Fabri magna aedeficia aedeficant;1;budować, wznosić budynek;budować, wznosić budynek;True;2025-06-09 21:18:40
+default_user;18;latin;mūnĭo, mūnīre, munii, munitum [verb] [IV];Deinde quadratum spatium signabatur et muniebatur;1;obwarowywać;;False;2025-06-09 21:18:48
+default_user;18;latin;bŏnum, boni [noun] [n] [II];Divitiae bonum non sunt;1;dobro;dobro;True;2025-06-09 21:18:54
+default_user;18;latin;mĭnŭo, mĭnŭĕre, minui, minutum [verb] [III];Memoria minuitur, nisi memoriam exerces;1;zmniejszać, osłabiać;zmniejszać, osłabiać;True;2025-06-09 21:19:01
+default_user;18;latin;nĭsi [conj];Memoria minuitur, nisi memoriam exerces;1;jeśli nie;jeśli nie;True;2025-06-09 21:19:10
+default_user;18;latin;prīmum [adv];Primum a tribuno locus capiebatur;1;najpierw, po pierwsze;najpierw, po pierwsze;True;2025-06-09 21:19:19
+default_user;18;latin;făcĭlĕ [adv];Aqua et cibus facile inveniri poterat;1;łatwo;łatwo;True;2025-06-09 21:19:36
+default_user;18;latin;mĕmŏrĭa, memoriae [noun] [f] [I];Memoria minuitur, nisi memoriam exerces;1;pamięć, wspomnienie;pamięć, wspomnienie;True;2025-06-09 21:19:43
+default_user;18;latin;mŏvĕo, mŏvēre, movi, motum [verb] [II];;1;poruszać, przenosić, wzruszać, wzbudzać, wywoływać zmianę;poruszać, przenosić, wzruszać, wzbudzać, wywoływać zmianę;True;2025-06-09 21:19:50
+default_user;18;latin;sălūto, sălūtāre, salutāvī, salutātum [verb] [I];Ut salutabis, ita salutaberis;1;pozdrawiać;pozdrawiać;True;2025-06-09 21:19:55
+default_user;18;latin;cĭbus, cibi [noun] [m] [II];Aqua et cibus facile inveniri poterat;1;żywność;żywność;True;2025-06-09 21:20:04
+default_user;18;latin;exercĕo, exercēre, exercui, exercitum [verb] [II];Memoria minuitur, nisi memoriam exerces;1;ćwiczyć;ćwiczyć;True;2025-06-09 21:20:12
+default_user;18;latin;mūnītus, munită, munitum [adj];;1;obwarowany;obwarowany;True;2025-06-09 21:20:20
+default_user;18;latin;trĭbūnus, tribuni [noun] [m] [II];Primum a tribuno locus capiebatur;1;trybun;trybun;True;2025-06-09 21:20:24
+default_user;18;latin;dĕindĕ [adv];Deinde quadratum spatium signabatur et muniebatur;1;następnie, potem, dalej;następnie, potem, dalej;True;2025-06-09 21:20:30
+default_user;18;latin;lŏcus, loci [noun] [m] [II];Primum a tribuno locus capiebatur;1;miejsce;miejsce;True;2025-06-09 21:20:34
+default_user;18;latin;spătĭum, spatii [noun] [n] [II];Deinde quadratum spatium signabatur et muniebatur;1;przestrzeń, obszar;przestrzeń, obszar;True;2025-06-09 21:20:41
+default_user;18;latin;castra, castrōrum [noun] [n] [II] [pl];A Romanis castra ponebantur;1;obóz;obóz;True;2025-06-09 21:20:46
