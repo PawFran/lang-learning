@@ -453,9 +453,10 @@ porto, portāre, portāvī, portātum [verb] [I]
 1. nosić, przenosić
 [noszenie w znaczeniu dosłownym, fizycznym]
 
-ămo, ămāre, amāvī, amātum [verb] [I]
+ămō, amāre, amāvī, amātum [verb] [I]
 (Maria amicam amat et laudat)
 1. kochać, lubić
+[podkreśla emocjonalność, chociaż nie musi być bardzo intensywne (może oznaczać po prostu "lubić"), w przeciwieństwie do dīligō, które podkreśla bardziej szacunek]
 
 ămīcus, amici [noun] [m] [II]
 (Maria amicam amat et laudat)
@@ -589,8 +590,8 @@ litterae, ārum [noun] [f] [I] [pl]
 
 mŏnĕo, mŏnēre, monui, monitum [verb] [II]
 ()
-1. upominać, ostrzegać, napominać, zwracać uwagę
-[zwracanie uwagi lub łagodny nakaz oparty na autorytecie]
+1. zwracać uwagę, ostrzegać, pouczać, zalecać
+[zwracanie uwagi lub łagodny nakaz oparty na autorytecie. w przypadku silniejszego upominania bardziej pasuje admŏnĕo]
 
 căpĭo, căpĕre, cepi, captum [verb] [III]
 (Primum a tribuno locus capiebatur)
@@ -598,7 +599,7 @@ căpĭo, căpĕre, cepi, captum [verb] [III]
 
 fŭgĭo, fŭgĕre, fugi, fugitum [verb] [III]
 (Fugit hora, fugiunt anni)
-1. uciekać
+1. uciekać, unikać
 
 ignōro, ignōrāre, ignorāvī, ignorātum [verb] [I]
 (Aliena laudātis, vestra ignorātis)
@@ -1534,7 +1535,8 @@ prūdens, prūdens, prūdens [adj]
 
 admŏnĕo, admŏnēre, admonui, admonitum [verb] [II]
 ()
-1. upominać
+1. upominać, napominać
+[spokrewnione z mŏnĕo ale silniejsze, może zawierać wyrzut lub reprymendę]
 
 făcĭlis, facilis, facile [adj]
 (Pleraque dictu quam factu sunt faciliora)
@@ -2102,9 +2104,10 @@ captīvo, captīvāre, captivāvī, captivātum [verb] [I]
 (Neminem captivabimus nisi iure victum)
 1. wziąć w niewolę
 
-dīlĭgo, dīlĭgĕre, dilexi, dilectum [verb] [III]
+dīligō, dīligere, dīlēxī, dīlēctum [verb] [III]
 (A nullo diligitur qui neminem diligit)
-1. kochać, cenić
+1. kochać, cenić, darzyć szacunkiem/przywiązaniem
+[w przeciwieństwie do uczuciowego amo, diligo podkreśla bardziej dojrzałe, trwałe przywiązanie oparte na poważaniu. częstsze np. w relacjach rodzinnych i przyjacielskich]
 
 quisquĕ [pron]
 (Suae quisque fortunae faber est)
@@ -2536,10 +2539,10 @@ sentĭo, sentīre, sensi, sensum [verb] [IV]
 (Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
 1. myśleć, zdawać sobie sprawę
 
-ēlūdo, ēlūdĕre, elusi, elusum [verb] [III]
+ēlūdō, ēlūdere, ēlūsī, ēlūsum [verb] [III]
 (Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
-1. wymknąć się, uciec od
-2. kpić, wyśmiewać się
+1. wymykać się, uchylać, przechytrzyć, drwić, kpić, wyśmiewać
+[trudno znaleźć polski odpowiednik - oznacza "unikanie" nie jako prostą ucieczkę (fugio), ale pokaz sprytu, zręczności, która demonstruje przewagę nad przeciwnikiem i zabarwia sytuację ironią/poczuciem wyższości, tak że może nawet oznaczać celowe ośmieszanie]
 
 ignāvĭa, ignaviae [noun] [f] [I]
 (Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)

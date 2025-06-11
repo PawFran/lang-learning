@@ -1,8 +1,12 @@
 TODO
 
+czemu w widoku words_with_translations nie ma adverbs, adjectives ani conjunctions ?
+
 skroty klawiszowe macos pycharm focus terminal vs notebook
 
 macos makrony lacinskie skroty klawiszowe
+
+opcja "perfect match" w reversed translation (nie trzeba potwierdzenia). zaimplementować i dodać do dokumentacji
 
 dorobic opcje -continue dla cwiczen declension / conjugation / translation / reversed translation
 
@@ -16,21 +20,15 @@ liber książka vs dziecko ?
 
 dodać asporto do porównania porto, adporto, praebeo
 
-uciekać vs wymknąć się, uciec od
-
 ĭtăquĕ vs ergō vs ĭgĭtur vs ĭtă
 
 cārus (drogi) poprawić
 
 dodać "ponieważ" do enim ?
 
-kochać, lubić vs kochać, cenić
-
 dēbeō zmniejszyć liczbę tłumaczeń ?
 
 sĕcundus sprawdzic tlumaczenie
-
-mŏnĕo vs admŏnĕo
 
 sacrifico sprawdzić tłumaczenia
 
@@ -38,11 +36,7 @@ sacrifico sprawdzić tłumaczenia
 
 adveho sprawdzić i porównać z adporto, praebeo itp.
 
-opcja "perfect match" w reversed translation (nie trzeba potwierdzenia). zaimplementować i dodać do dokumentacji
-
 skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo osobne ?)
-
-macos skróty klawiszowe na makrony ?
 
 "wierzyć" nie zwraca "myśleć, wierzyć, sądzić" - pewnie kiepsko działa, jak jest wiele słów ? albo większa liczba synonimów albo niech patrzy na każde słowo z osobna kiedy jest kilka oddzielonych przecinkami ?
 
