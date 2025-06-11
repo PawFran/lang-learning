@@ -1,17 +1,16 @@
 TODO
 
-do cwiczen na deklinacje koniugacje brac pod uwage wszystkie slowa ze slownika:
-* scrape pelnej odmiany kazdego slowa jakie ma byc wziete pod uwage (haskell ?)
-* trzeba jakos obsluzyc podwojne formy
-* zapisywanie kiedy bylo jakie slowo, zeby rotowac
-* mozliwosc wskazania konkretnego slowa przy uruchamianiu cwiczenia a jesli nie to losowe
-* jak losowe to brac pod uwage kiedy jakie bylo
-* trzeba brac po uwage do jakiej deklinacji/koniugacji slowo nalezy przy losowaniu
-* na poczatek po prostu przygotowac jsony z kilkoma innymi slowami i opcja wskazywania ?
-
 skroty klawiszowe macos pycharm focus terminal vs notebook
 
 macos makrony lacinskie skroty klawiszowe
+
+dorobic opcje -continue dla cwiczen declension / conjugation / translation / reversed translation
+
+generator form na podstawie regul (haskell)
+
+scrape innych slow i uzywanie ich w cwiczeniach (haskell ?)
+
+cwiczenie odwrotne
 
 liber książka vs dziecko ?
 
@@ -52,6 +51,15 @@ macos skróty klawiszowe na makrony ?
 "wyrażać" nie podpowiada "wymawiać, wyrażać"
 
 "głosić" nie zwraca rozgłaszać ale "chwalić" już tak
+
+do cwiczen na deklinacje koniugacje brac pod uwage wszystkie slowa ze slownika:
+* scrape pelnej odmiany kazdego slowa jakie ma byc wziete pod uwage (haskell ?)
+* trzeba jakos obsluzyc podwojne formy
+* zapisywanie kiedy bylo jakie slowo, zeby rotowac
+* mozliwosc wskazania konkretnego slowa przy uruchamianiu cwiczenia a jesli nie to losowe
+* jak losowe to brac pod uwage kiedy jakie bylo
+* trzeba brac po uwage do jakiej deklinacji/koniugacji slowo nalezy przy losowaniu
+* na poczatek po prostu przygotowac jsony z kilkoma innymi slowami i opcja wskazywania ?
 
 może przy szukaniu podobieństw nie powinno się patrzeć na nawiasy ?
 

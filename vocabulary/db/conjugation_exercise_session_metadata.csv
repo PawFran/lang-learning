@@ -56,3 +56,5 @@ session_id;user_name;conjugations_included;moods_included;tenses_included;voices
 43;default_user;I, II, III, IV;indicative;future simple;active;False
 44;default_user;I, II, III, IV;indicative;imperfect;active;False
 45;default_user;I, II, III, IV;indicative;imperfect;passive;False
+46;default_user;I, II, III, IV;subjunctive;present;active;False
+47;default_user;I, II, III, IV;subjunctive;present;passive;False

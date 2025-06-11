@@ -299,6 +299,7 @@ appareo, apparere, apparui [verb] [II]
 tum [adv]
 (Tum deus apparet)
 1. wtedy, w tym czasie, następnie, zaraz potem
+[podkreśla bliskość czasu, że jedno dzieje się zaraz pod drugim (w przeciwieństwie do postea)]
 
 ūnanimus, ūnanima, ūnanimum [adj]
 (Ego tu sum, tu es ego, unanimi sumus)
@@ -675,8 +676,8 @@ făcĭlĕ [adv]
 
 dĕindĕ [adv]
 (Deinde quadratum spatium signabatur et muniebatur)
-1. następnie, potem, dalej
-[de + inde =  z/od stamtąd. wskazuje kolejność czasową/logiczną]
+1. następnie, potem, w następnej kolejności
+[de + inde =  z/od stamtąd. wskazuje kolejność czasową/logiczną, jak w wyliczeniach]
 
 spătĭum, spatii [noun] [n] [II]
 (Deinde quadratum spatium signabatur et muniebatur)
@@ -1302,7 +1303,7 @@ fācundus, facundă, facundum [adj]
 
 tandem [adv]
 ()
-1. w końcu
+1. w końcu, nareszcie
 
 iniūrĭa, iniuriae [noun] [f] [I]
 ()
@@ -3440,6 +3441,7 @@ initio [adv]
 postĕā [adv]
 (Verum consilium initio auditu grave postea iucundum erit)
 1. potem, później
+[w przeciwieństwie do tum, postea podkreśla upływ czasu pomiędzy wydarzeniami]
 
 ōrācŭlum, oraculi [noun] [n] [II]
 (Tarquinius legatos misit Delphos oraculum consultum)
