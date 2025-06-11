@@ -16,6 +16,8 @@ scrape innych slow i uzywanie ich w cwiczeniach (haskell ?)
 
 cwiczenie odwrotne
 
+### słownik ###
+
 liber książka vs dziecko ?
 
 dodać asporto do porównania porto, adporto, praebeo
@@ -36,7 +38,7 @@ sacrifico sprawdzić tłumaczenia
 
 adveho sprawdzić i porównać z adporto, praebeo itp.
 
-skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo osobne ?)
+### synonimy ###
 
 "wierzyć" nie zwraca "myśleć, wierzyć, sądzić" - pewnie kiepsko działa, jak jest wiele słów ? albo większa liczba synonimów albo niech patrzy na każde słowo z osobna kiedy jest kilka oddzielonych przecinkami ?
 
@@ -45,6 +47,10 @@ skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo o
 "wyrażać" nie podpowiada "wymawiać, wyrażać"
 
 "głosić" nie zwraca rozgłaszać ale "chwalić" już tak
+
+### inne ###
+
+skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo osobne ?)
 
 do cwiczen na deklinacje koniugacje brac pod uwage wszystkie slowa ze slownika:
 * scrape pelnej odmiany kazdego slowa jakie ma byc wziete pod uwage (haskell ?)
@@ -129,8 +135,6 @@ czy odpytując API można mieć kontekst projektu z aplikacji chatgpt ?
 czasem synonimy dzialaja kiepsko (np 'widowisko'). uzyc LLM ?
 
 moze chatgpt do tlumaczen ? moze jedno i drugie i mozna wybrac ? wydaja sie duzo lepsze niz ze slownika i wiele dodatkowych informacji
-
-i declension, conjugation - cwiczenie odwrotne. bedzie prosciej ale tez jest kilka mozliwych odpowiedzi
 
 w wyszukiwaniu synonimow sprawic, zeby zgadzal sie zawsze rodzaj slowa (czesc mowy)
 trzeba bedzie tlumaczeniom przypisac czesci mowy. czy jedno moze miec wiele ?
