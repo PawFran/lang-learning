@@ -1683,3 +1683,71 @@ default_user;54;latin;monēre;imperative;present;passive;2;plural;monemini;monem
 default_user;54;latin;audīre;imperative;present;active;2;plural;audīte;audimini;False;2025-06-11 14:45:07
 default_user;54;latin;audīre;imperative;present;active;2;plural;audīte;audite;True;2025-06-11 14:45:11
 default_user;54;latin;audīre;imperative;present;passive;2;plural;audimini;audimini;True;2025-06-11 14:45:15
+default_user;55;latin;laudāre;indicative;perfect;passive;1;plural;laudati sumus;laudati sumus;True;2025-06-11 15:50:41
+default_user;55;latin;legere;indicative;perfect;passive;3;plural;lecti sunt;lecti sunt;True;2025-06-11 15:50:47
+default_user;55;latin;audīre;indicative;perfect;passive;3;singular;auditus est;auditus es;False;2025-06-11 15:50:51
+default_user;55;latin;audīre;indicative;perfect;passive;2;singular;auditus es;auditus es;True;2025-06-11 15:50:57
+default_user;55;latin;monēre;indicative;perfect;passive;2;plural;moniti estis;monitus estis;False;2025-06-11 15:51:03
+default_user;55;latin;legere;indicative;perfect;passive;1;singular;lectus sum;lectus sum;True;2025-06-11 15:51:08
+default_user;55;latin;legere;indicative;perfect;passive;3;singular;lectus est;lectus es;False;2025-06-11 15:51:12
+default_user;55;latin;capere;indicative;perfect;passive;3;singular;captus est;captus est;True;2025-06-11 15:51:17
+default_user;55;latin;capere;indicative;perfect;passive;3;plural;capti sunt;capti sunt;True;2025-06-11 15:51:31
+default_user;55;latin;audīre;indicative;perfect;passive;1;plural;auditi sumus;auditi sumus;True;2025-06-11 15:51:34
+default_user;55;latin;laudāre;indicative;perfect;passive;1;singular;laudatus sum;laudatus sum;True;2025-06-11 15:51:40
+default_user;55;latin;legere;indicative;perfect;passive;1;plural;lecti sumus;lecti sumus;True;2025-06-11 15:51:43
+default_user;55;latin;monēre;indicative;perfect;passive;3;singular;monitus est;monitus est;True;2025-06-11 15:51:49
+default_user;55;latin;capere;indicative;perfect;passive;1;plural;capti sumus;capti sumus;True;2025-06-11 15:51:52
+default_user;55;latin;audīre;indicative;perfect;passive;2;plural;auditi estis;auditi estis;True;2025-06-11 15:51:57
+default_user;55;latin;legere;indicative;perfect;passive;2;plural;lecti estis;lecti estis;True;2025-06-11 15:51:59
+default_user;55;latin;laudāre;indicative;perfect;passive;2;plural;laudati estis;laudati estis;True;2025-06-11 15:52:03
+default_user;55;latin;audīre;indicative;perfect;passive;3;plural;auditi sunt;auditi sunt;True;2025-06-11 15:52:07
+default_user;55;latin;monēre;indicative;perfect;passive;3;plural;moniti sunt;moniti sunt;True;2025-06-11 15:52:11
+default_user;55;latin;monēre;indicative;perfect;passive;2;plural;moniti estis;moniti estis;True;2025-06-11 15:52:15
+default_user;55;latin;monēre;indicative;perfect;passive;2;singular;monitus es;monitus es;True;2025-06-11 15:52:19
+default_user;55;latin;laudāre;indicative;perfect;passive;3;plural;laudati sunt;laudati sunt;True;2025-06-11 15:52:25
+default_user;55;latin;legere;indicative;perfect;passive;3;singular;lectus est;lectus est;True;2025-06-11 15:52:38
+default_user;55;latin;laudāre;indicative;perfect;passive;3;singular;laudatus est;laudatus est;True;2025-06-11 15:52:43
+default_user;55;latin;monēre;indicative;perfect;passive;1;plural;moniti sumus;moniti sumus;True;2025-06-11 15:52:46
+default_user;55;latin;legere;indicative;perfect;passive;2;singular;lectus es;lectus es;True;2025-06-11 15:52:49
+default_user;55;latin;audīre;indicative;perfect;passive;1;singular;auditus sum;auditus sum;True;2025-06-11 15:52:52
+default_user;55;latin;capere;indicative;perfect;passive;2;singular;captus es;captus es;True;2025-06-11 15:52:57
+default_user;55;latin;capere;indicative;perfect;passive;1;singular;captus sum;captus sum;True;2025-06-11 15:53:01
+default_user;55;latin;monēre;indicative;perfect;passive;1;singular;monitus sum;monitus sum;True;2025-06-11 15:53:07
+default_user;55;latin;capere;indicative;perfect;passive;2;plural;capti estis;moniti estis;False;2025-06-11 15:53:12
+default_user;55;latin;audīre;indicative;perfect;passive;3;singular;auditus est;auditus est;True;2025-06-11 15:53:17
+default_user;55;latin;capere;indicative;perfect;passive;2;plural;capti estis;capti estis;True;2025-06-11 15:53:20
+default_user;55;latin;laudāre;indicative;perfect;passive;2;singular;laudatus es;laudatus es;True;2025-06-11 15:53:24
+default_user;56;latin;monēre;indicative;future simple;active;3;plural;monēbunt;monebunt;True;2025-06-11 17:56:56
+default_user;56;latin;audīre;indicative;future simple;active;3;plural;audient;audiantur;False;2025-06-11 17:57:03
+default_user;56;latin;capere;indicative;future simple;active;2;plural;capiētis;capemini;False;2025-06-11 17:57:25
+default_user;56;latin;audīre;indicative;future simple;active;2;plural;audiētis;audietis;True;2025-06-11 17:57:31
+default_user;56;latin;laudāre;indicative;future simple;active;1;singular;laudābo;laudabo;True;2025-06-11 17:57:35
+default_user;56;latin;capere;indicative;future simple;active;1;singular;capiam;capiam;True;2025-06-11 17:57:58
+default_user;56;latin;legere;indicative;future simple;active;1;singular;legam;legam;True;2025-06-11 17:58:02
+default_user;56;latin;capere;indicative;future simple;active;2;plural;capiētis;capietis;True;2025-06-11 17:58:45
+default_user;56;latin;audīre;indicative;future simple;active;3;plural;audient;audient;True;2025-06-11 17:58:51
+default_user;56;latin;audīre;indicative;future simple;active;3;singular;audiet;audiet;True;2025-06-11 17:58:55
+default_user;56;latin;audīre;indicative;future simple;active;1;plural;audiēmus;audiemus;True;2025-06-11 17:58:57
+default_user;56;latin;capere;indicative;future simple;active;2;singular;capies;capies;True;2025-06-11 17:58:59
+default_user;56;latin;monēre;indicative;future simple;active;3;singular;monēbit;monebit;True;2025-06-11 17:59:04
+default_user;56;latin;monēre;indicative;future simple;active;2;singular;monēbis;monebis;True;2025-06-11 17:59:07
+default_user;56;latin;laudāre;indicative;future simple;active;3;plural;laudābunt;laudabunt;True;2025-06-11 17:59:13
+default_user;56;latin;legere;indicative;future simple;active;2;plural;legētis;legetis;True;2025-06-11 17:59:20
+default_user;56;latin;laudāre;indicative;future simple;active;2;plural;laudabitis;laudabitis;True;2025-06-11 17:59:26
+default_user;56;latin;monēre;indicative;future simple;active;1;plural;monebimus;monebimus;True;2025-06-11 17:59:29
+default_user;56;latin;laudāre;indicative;future simple;active;3;singular;laudābit;laudabit;True;2025-06-11 17:59:32
+default_user;56;latin;capere;indicative;future simple;active;3;plural;capient;capient;True;2025-06-11 17:59:36
+default_user;56;latin;laudāre;indicative;future simple;active;2;singular;laudābis;laudabis;True;2025-06-11 17:59:42
+default_user;56;latin;legere;indicative;future simple;active;3;singular;leget;legebit;False;2025-06-11 17:59:47
+default_user;56;latin;legere;indicative;future simple;active;3;singular;leget;leget;True;2025-06-11 17:59:51
+default_user;56;latin;monēre;indicative;future simple;active;1;singular;monēbo;monebo;True;2025-06-11 17:59:54
+default_user;56;latin;monēre;indicative;future simple;active;2;plural;monebitis;monebitis;True;2025-06-11 17:59:59
+default_user;56;latin;audīre;indicative;future simple;active;1;singular;audiam;audiam;True;2025-06-11 18:00:03
+default_user;56;latin;capere;indicative;future simple;active;1;plural;capiēmus;capiemus;True;2025-06-11 18:00:07
+default_user;56;latin;laudāre;indicative;future simple;active;1;plural;laudabimus;laudabimus;True;2025-06-11 18:00:15
+default_user;56;latin;legere;indicative;future simple;active;1;plural;legēmus;legemus;True;2025-06-11 18:00:18
+default_user;56;latin;legere;indicative;future simple;active;2;singular;leges;leges;True;2025-06-11 18:00:23
+default_user;56;latin;audīre;indicative;future simple;active;2;singular;audies;audies;True;2025-06-11 18:00:25
+default_user;56;latin;legere;indicative;future simple;active;3;plural;legent;legentur;False;2025-06-11 18:00:28
+default_user;56;latin;capere;indicative;future simple;active;3;singular;capiet;capiet;True;2025-06-11 18:00:33
+default_user;56;latin;legere;indicative;future simple;active;3;plural;legent;legent;True;2025-06-11 18:00:37

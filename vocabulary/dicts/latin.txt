@@ -428,7 +428,8 @@ mercātūra, mercātūrae [noun] [f] [I]
 
 ĭtăquĕ [conj]
 (Itaque Romani agriculturae studēbant)
-1. więc
+1. więc, z tego powodu
+[podkreśla konsekwencję, bezpośredni skutek. często na początku zdania]
 
 cupiō, cupere, cupīvī, cupītum [verb] [III]
 (Nautae terras alienas visitant, sed patriam suam vidēre cupiunt)
@@ -506,7 +507,8 @@ pĕcūnĭa, pecuniae [noun] [f] [I]
 
 ergō [prep]
 (Cogito ergo sum)
-1. więc, w wyniku
+1. zatem, więc, w wyniku
+[podkreśla czysto logiczny wniosek, w przeciwieństwie do itaque, które może oznaczać wynik przyczynowo-skutkowy, a niekoniecznie dedukcję]
 
 nŏcĕo, nŏcēre, nocui, nocitum [verb] [II]
 (Littera docet, littera nocet)
@@ -2059,7 +2061,8 @@ umbră, umbrae [noun] [f] [I]
 
 ĭgĭtur [adv]
 (In umbra igitur pugnabimus)
-1. dlatego, więc
+1. więc, w związku z tym, dlatego
+[podobne do itaque, ale oznacza bardziej konkluzję, niż samo następstwo faktów]
 
 turpĭtūdo, turpitudinis [noun] [f] [III]
 (Liber est qui nulli turpitiduni servit)
@@ -2217,7 +2220,7 @@ nuntius, nuntii [noun] [m] [II]
 
 ĭtă [adv]
 (Romani summos deos deasque ita enumerabant: ... )
-1. więc, w związku z tym
+1. tak, tak oto, w ten sposób
 
 ēnŭmĕro, ēnŭmĕrāre, enumerāvī, enumerātum [verb] [I]
 (Romani summos deos deasque ita enumerabant: ... )
