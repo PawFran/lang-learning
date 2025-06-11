@@ -58,3 +58,10 @@ session_id;user_name;conjugations_included;moods_included;tenses_included;voices
 45;default_user;I, II, III, IV;indicative;imperfect;passive;False
 46;default_user;I, II, III, IV;subjunctive;present;active;False
 47;default_user;I, II, III, IV;subjunctive;present;passive;False
+48;default_user;I, II, III, IV;subjunctive;imperfect;active;False
+49;default_user;I, II, III, IV;subjunctive;imperfect;passive;False
+50;default_user;I, II, III, IV;subjunctive;perfect;active;False
+51;default_user;I, II, III, IV;subjunctive;perfect;passive;False
+52;default_user;I, II, III, IV;subjunctive;pluperfect;active;False
+53;default_user;I, II, III, IV;subjunctive;pluperfect;passive;False
+54;default_user;I, II, III, IV;imperative;present;active, passive;False

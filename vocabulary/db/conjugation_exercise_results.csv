@@ -1473,3 +1473,213 @@ default_user;47;latin;monēre;subjunctive;present;passive;3;singular;moneatur;mo
 default_user;47;latin;audīre;subjunctive;present;passive;2;singular;audiaris;audiaris;True;2025-06-11 08:57:38
 default_user;47;latin;legere;subjunctive;present;passive;2;singular;legaris;legaris;True;2025-06-11 08:57:41
 default_user;47;latin;monēre;subjunctive;present;passive;1;plural;moneamur;moneamur;True;2025-06-11 08:57:43
+default_user;48;latin;laudāre;subjunctive;imperfect;active;3;singular;laudaret;laudaret;True;2025-06-11 11:31:17
+default_user;48;latin;audīre;subjunctive;imperfect;active;1;singular;audirem;audirem;True;2025-06-11 11:31:31
+default_user;48;latin;legere;subjunctive;imperfect;active;3;plural;legerent;legerent;True;2025-06-11 11:31:36
+default_user;48;latin;monēre;subjunctive;imperfect;active;1;plural;moneremus;moneremus;True;2025-06-11 11:31:40
+default_user;48;latin;laudāre;subjunctive;imperfect;active;1;plural;laudaremus;laudaremus;True;2025-06-11 11:31:43
+default_user;48;latin;monēre;subjunctive;imperfect;active;3;singular;moneret;moneret;True;2025-06-11 11:31:46
+default_user;48;latin;capere;subjunctive;imperfect;active;1;singular;caperem;caperem;True;2025-06-11 11:31:51
+default_user;48;latin;capere;subjunctive;imperfect;active;2;plural;caperetis;caperetis;True;2025-06-11 11:31:57
+default_user;48;latin;capere;subjunctive;imperfect;active;1;plural;caperemus;caperemus;True;2025-06-11 11:32:03
+default_user;48;latin;legere;subjunctive;imperfect;active;3;singular;legeret;legeret;True;2025-06-11 11:32:07
+default_user;48;latin;legere;subjunctive;imperfect;active;2;plural;legeretis;legeretis;True;2025-06-11 11:32:11
+default_user;48;latin;audīre;subjunctive;imperfect;active;3;plural;audirent;audirent;True;2025-06-11 11:32:27
+default_user;48;latin;audīre;subjunctive;imperfect;active;1;plural;audiremus;audiremus;True;2025-06-11 11:32:30
+default_user;48;latin;capere;subjunctive;imperfect;active;3;plural;caperent;caperent;True;2025-06-11 11:32:34
+default_user;48;latin;laudāre;subjunctive;imperfect;active;2;plural;laudaretis;laudaretis;True;2025-06-11 11:32:37
+default_user;48;latin;monēre;subjunctive;imperfect;active;1;singular;monerem;monerem;True;2025-06-11 11:32:39
+default_user;48;latin;laudāre;subjunctive;imperfect;active;1;singular;laudarem;laudarem;True;2025-06-11 11:32:43
+default_user;48;latin;audīre;subjunctive;imperfect;active;2;plural;audiretis;audiretis;True;2025-06-11 11:32:46
+default_user;48;latin;audīre;subjunctive;imperfect;active;2;singular;audires;audires;True;2025-06-11 11:32:49
+default_user;48;latin;monēre;subjunctive;imperfect;active;2;singular;moneres;moneres;True;2025-06-11 11:32:51
+default_user;48;latin;laudāre;subjunctive;imperfect;active;3;plural;laudarent;laudarent;True;2025-06-11 11:32:55
+default_user;48;latin;capere;subjunctive;imperfect;active;3;singular;caperet;caperet;True;2025-06-11 11:32:59
+default_user;48;latin;legere;subjunctive;imperfect;active;1;plural;legeremus;legeremus;True;2025-06-11 11:33:03
+default_user;48;latin;capere;subjunctive;imperfect;active;2;singular;caperes;caperes;True;2025-06-11 11:33:07
+default_user;48;latin;legere;subjunctive;imperfect;active;1;singular;legerem;legerem;True;2025-06-11 11:33:12
+default_user;48;latin;laudāre;subjunctive;imperfect;active;2;singular;laudares;laudares;True;2025-06-11 11:33:15
+default_user;48;latin;audīre;subjunctive;imperfect;active;3;singular;audiret;audiret;True;2025-06-11 11:33:18
+default_user;48;latin;monēre;subjunctive;imperfect;active;3;plural;monerent;monerent;True;2025-06-11 11:33:20
+default_user;48;latin;legere;subjunctive;imperfect;active;2;singular;legeres;legeres;True;2025-06-11 11:33:24
+default_user;48;latin;monēre;subjunctive;imperfect;active;2;plural;moneretis;moneretis;True;2025-06-11 11:33:29
+default_user;49;latin;monēre;subjunctive;imperfect;passive;3;plural;monerentur;monerentur;True;2025-06-11 11:34:03
+default_user;49;latin;audīre;subjunctive;imperfect;passive;1;plural;audiremur;audiremur;True;2025-06-11 11:34:08
+default_user;49;latin;monēre;subjunctive;imperfect;passive;1;singular;monerer;monerer;True;2025-06-11 11:34:13
+default_user;49;latin;audīre;subjunctive;imperfect;passive;3;singular;audiretur;audiretur;True;2025-06-11 11:34:18
+default_user;49;latin;laudāre;subjunctive;imperfect;passive;2;singular;laudareris;laudareris;True;2025-06-11 11:34:25
+default_user;49;latin;monēre;subjunctive;imperfect;passive;1;plural;moneremur;moneremur;True;2025-06-11 11:34:33
+default_user;49;latin;audīre;subjunctive;imperfect;passive;1;singular;audirer;audirem;False;2025-06-11 11:34:37
+default_user;49;latin;audīre;subjunctive;imperfect;passive;3;plural;audirentur;audirentur;True;2025-06-11 11:34:42
+default_user;49;latin;capere;subjunctive;imperfect;passive;1;plural;caperemur;caperemur;True;2025-06-11 11:34:45
+default_user;49;latin;monēre;subjunctive;imperfect;passive;2;plural;moneremini;moneremini;True;2025-06-11 11:34:49
+default_user;49;latin;legere;subjunctive;imperfect;passive;3;singular;legeretur;legeretur;True;2025-06-11 11:34:53
+default_user;49;latin;capere;subjunctive;imperfect;passive;2;singular;capereris;capereris;True;2025-06-11 11:34:56
+default_user;49;latin;laudāre;subjunctive;imperfect;passive;3;plural;laudarentur;laudarentur;True;2025-06-11 11:34:59
+default_user;49;latin;laudāre;subjunctive;imperfect;passive;1;singular;laudarer;laudarer;True;2025-06-11 11:35:02
+default_user;49;latin;legere;subjunctive;imperfect;passive;1;plural;legeremur;legeremur;True;2025-06-11 11:35:05
+default_user;49;latin;legere;subjunctive;imperfect;passive;3;plural;legerentur;legerentur;True;2025-06-11 11:35:07
+default_user;49;latin;audīre;subjunctive;imperfect;passive;1;singular;audirer;audirer;True;2025-06-11 11:35:10
+default_user;49;latin;monēre;subjunctive;imperfect;passive;3;singular;moneretur;moneretur;True;2025-06-11 11:35:14
+default_user;49;latin;legere;subjunctive;imperfect;passive;1;singular;legerer;legerer;True;2025-06-11 11:35:16
+default_user;49;latin;legere;subjunctive;imperfect;passive;2;singular;legereris;legereris;True;2025-06-11 11:35:25
+default_user;49;latin;laudāre;subjunctive;imperfect;passive;3;singular;laudaretur;laudaretur;True;2025-06-11 11:35:33
+default_user;49;latin;laudāre;subjunctive;imperfect;passive;1;plural;laudaremur;laudaremur;True;2025-06-11 11:35:37
+default_user;49;latin;laudāre;subjunctive;imperfect;passive;2;plural;laudaremini;laudaremini;True;2025-06-11 11:35:41
+default_user;49;latin;capere;subjunctive;imperfect;passive;3;singular;caperetur;caperetur;True;2025-06-11 11:35:44
+default_user;49;latin;capere;subjunctive;imperfect;passive;2;plural;caperemini;caperemini;True;2025-06-11 11:35:46
+default_user;49;latin;capere;subjunctive;imperfect;passive;1;singular;caperer;caperer;True;2025-06-11 11:35:48
+default_user;49;latin;legere;subjunctive;imperfect;passive;2;plural;legeremini;legeremini;True;2025-06-11 11:35:52
+default_user;49;latin;monēre;subjunctive;imperfect;passive;2;singular;monereris;monereris;True;2025-06-11 11:36:01
+default_user;49;latin;audīre;subjunctive;imperfect;passive;2;plural;audiremini;audiremini;True;2025-06-11 11:36:06
+default_user;49;latin;capere;subjunctive;imperfect;passive;3;plural;caperentur;caparentur;False;2025-06-11 11:36:09
+default_user;49;latin;audīre;subjunctive;imperfect;passive;2;singular;audireris;audireris;True;2025-06-11 11:36:16
+default_user;49;latin;capere;subjunctive;imperfect;passive;3;plural;caperentur;caperentur;True;2025-06-11 11:36:18
+default_user;50;latin;legere;subjunctive;perfect;active;3;singular;legerit;legerit;True;2025-06-11 11:45:19
+default_user;50;latin;laudāre;subjunctive;perfect;active;1;singular;laudaverim;laudaverim;True;2025-06-11 11:45:26
+default_user;50;latin;laudāre;subjunctive;perfect;active;3;plural;laudaverint;laudaverint;True;2025-06-11 11:45:38
+default_user;50;latin;audīre;subjunctive;perfect;active;2;singular;audiveris;audiveris;True;2025-06-11 11:45:48
+default_user;50;latin;audīre;subjunctive;perfect;active;2;plural;audiveritis;audiveritis;True;2025-06-11 11:45:54
+default_user;50;latin;legere;subjunctive;perfect;active;2;plural;legeritis;legeritis;True;2025-06-11 11:45:58
+default_user;50;latin;monēre;subjunctive;perfect;active;3;plural;monuerint;monuerint;True;2025-06-11 11:46:03
+default_user;50;latin;laudāre;subjunctive;perfect;active;2;plural;laudaveritis;laudaveritis;True;2025-06-11 11:46:06
+default_user;50;latin;monēre;subjunctive;perfect;active;3;singular;monuerit;monuerit;True;2025-06-11 11:46:22
+default_user;50;latin;audīre;subjunctive;perfect;active;1;singular;audiverim;audiverim;True;2025-06-11 11:46:28
+default_user;50;latin;laudāre;subjunctive;perfect;active;3;singular;laudaverit;laudaverit;True;2025-06-11 11:46:33
+default_user;50;latin;laudāre;subjunctive;perfect;active;1;plural;laudaverimus;laudaverimus;True;2025-06-11 11:46:39
+default_user;50;latin;capere;subjunctive;perfect;active;3;plural;ceperint;ceperint;True;2025-06-11 11:46:49
+default_user;50;latin;audīre;subjunctive;perfect;active;3;singular;audiverit;audiverit;True;2025-06-11 11:46:54
+default_user;50;latin;monēre;subjunctive;perfect;active;1;singular;monuerim;monuerim;True;2025-06-11 11:46:57
+default_user;50;latin;laudāre;subjunctive;perfect;active;2;singular;laudaveris;laudaveris;True;2025-06-11 11:47:00
+default_user;50;latin;legere;subjunctive;perfect;active;1;singular;legerim;legerim;True;2025-06-11 11:47:04
+default_user;50;latin;capere;subjunctive;perfect;active;2;singular;ceperis;ceperis;True;2025-06-11 11:47:12
+default_user;50;latin;legere;subjunctive;perfect;active;1;plural;legerimus;legerimus;True;2025-06-11 11:47:14
+default_user;50;latin;monēre;subjunctive;perfect;active;1;plural;monuerimus;monuerimus;True;2025-06-11 11:47:17
+default_user;50;latin;monēre;subjunctive;perfect;active;2;plural;monueritis;monueritis;True;2025-06-11 11:47:21
+default_user;50;latin;legere;subjunctive;perfect;active;2;singular;legeris;legeris;True;2025-06-11 11:47:24
+default_user;50;latin;audīre;subjunctive;perfect;active;1;plural;audiverimus;audiverimus;True;2025-06-11 11:47:30
+default_user;50;latin;capere;subjunctive;perfect;active;3;singular;ceperit;ceperit;True;2025-06-11 11:47:34
+default_user;50;latin;monēre;subjunctive;perfect;active;2;singular;monueris;monueris;True;2025-06-11 11:47:37
+default_user;50;latin;capere;subjunctive;perfect;active;1;singular;ceperim;ceperim;True;2025-06-11 11:47:42
+default_user;50;latin;legere;subjunctive;perfect;active;3;plural;legerint;legerint;True;2025-06-11 11:47:44
+default_user;50;latin;capere;subjunctive;perfect;active;2;plural;ceperitis;ceperitis;True;2025-06-11 11:47:47
+default_user;50;latin;capere;subjunctive;perfect;active;1;plural;ceperimus;ceperimus;True;2025-06-11 11:47:50
+default_user;50;latin;audīre;subjunctive;perfect;active;3;plural;audiverint;audiverint;True;2025-06-11 11:47:54
+default_user;51;latin;monēre;subjunctive;perfect;passive;3;singular;monitus sit;monuisset;False;2025-06-11 11:49:01
+default_user;51;latin;capere;subjunctive;perfect;passive;1;plural;capti simus;captus simus;False;2025-06-11 11:49:15
+default_user;51;latin;legere;subjunctive;perfect;passive;1;plural;lecti simus;lecti simus;True;2025-06-11 11:49:22
+default_user;51;latin;monēre;subjunctive;perfect;passive;1;plural;moniti simus;moniti simus;True;2025-06-11 11:49:27
+default_user;51;latin;laudāre;subjunctive;perfect;passive;1;plural;laudati simus;laudati simus;True;2025-06-11 11:49:33
+default_user;51;latin;audīre;subjunctive;perfect;passive;3;singular;auditus sit;auditus sit;True;2025-06-11 11:49:37
+default_user;51;latin;laudāre;subjunctive;perfect;passive;2;singular;laudatus sis;laudatus sis;True;2025-06-11 11:49:42
+default_user;51;latin;capere;subjunctive;perfect;passive;2;plural;capti sitis;capti sitis;True;2025-06-11 11:49:49
+default_user;51;latin;capere;subjunctive;perfect;passive;1;plural;capti simus;capti simus;True;2025-06-11 11:49:54
+default_user;51;latin;legere;subjunctive;perfect;passive;2;singular;lectus sis;lectus sis;True;2025-06-11 11:50:12
+default_user;51;latin;legere;subjunctive;perfect;passive;2;plural;lecti sitis;lecti sitis;True;2025-06-11 11:50:19
+default_user;51;latin;monēre;subjunctive;perfect;passive;3;singular;monitus sit;monitus sit;True;2025-06-11 11:50:22
+default_user;51;latin;laudāre;subjunctive;perfect;passive;3;singular;laudatus sit;laudatus sit;True;2025-06-11 11:50:27
+default_user;51;latin;capere;subjunctive;perfect;passive;1;singular;captus sim;captus sim;True;2025-06-11 11:50:31
+default_user;51;latin;capere;subjunctive;perfect;passive;3;plural;capti sint;captus sint;False;2025-06-11 11:50:34
+default_user;51;latin;legere;subjunctive;perfect;passive;1;singular;lectus sim;lectus sim;True;2025-06-11 11:50:40
+default_user;51;latin;monēre;subjunctive;perfect;passive;1;singular;monitus sim;monitus sim;True;2025-06-11 11:50:43
+default_user;51;latin;capere;subjunctive;perfect;passive;3;plural;capti sint;capti sint;True;2025-06-11 11:50:49
+default_user;51;latin;legere;subjunctive;perfect;passive;3;singular;lectus sit;lectus sit;True;2025-06-11 11:50:53
+default_user;51;latin;capere;subjunctive;perfect;passive;3;singular;captus sit;captus sit;True;2025-06-11 11:50:56
+default_user;51;latin;legere;subjunctive;perfect;passive;3;plural;lecti sint;lecti sint;True;2025-06-11 11:51:00
+default_user;51;latin;laudāre;subjunctive;perfect;passive;3;plural;laudati sint;laudati sint;True;2025-06-11 11:51:02
+default_user;51;latin;capere;subjunctive;perfect;passive;2;singular;captus sis;captus sis;True;2025-06-11 11:51:08
+default_user;51;latin;monēre;subjunctive;perfect;passive;3;plural;moniti sint;moniti sint;True;2025-06-11 11:51:11
+default_user;51;latin;monēre;subjunctive;perfect;passive;2;plural;moniti sitis;moniti sitis;True;2025-06-11 11:51:14
+default_user;51;latin;audīre;subjunctive;perfect;passive;1;plural;auditi simus;auditi simus;True;2025-06-11 11:51:17
+default_user;51;latin;laudāre;subjunctive;perfect;passive;2;plural;laudati sitis;laudati sitis;True;2025-06-11 11:51:23
+default_user;51;latin;audīre;subjunctive;perfect;passive;3;plural;auditi sint;auditi sint;True;2025-06-11 11:51:26
+default_user;51;latin;monēre;subjunctive;perfect;passive;2;singular;monitus sis;monitus sis;True;2025-06-11 11:51:31
+default_user;51;latin;audīre;subjunctive;perfect;passive;2;singular;auditus sis;auditus sis;True;2025-06-11 11:51:34
+default_user;51;latin;laudāre;subjunctive;perfect;passive;1;singular;laudatus sim;laudatus sim;True;2025-06-11 11:51:41
+default_user;51;latin;audīre;subjunctive;perfect;passive;2;plural;auditi sitis;auditi sitis;True;2025-06-11 11:51:45
+default_user;51;latin;audīre;subjunctive;perfect;passive;1;singular;auditus sim;auditus sim;True;2025-06-11 11:51:50
+default_user;52;latin;audīre;subjunctive;pluperfect;active;1;plural;audivissemus;audivissemus;True;2025-06-11 11:52:21
+default_user;52;latin;audīre;subjunctive;pluperfect;active;3;singular;audivisset;audivisset;True;2025-06-11 11:52:31
+default_user;52;latin;audīre;subjunctive;pluperfect;active;3;plural;audivissent;audivissent;True;2025-06-11 11:52:36
+default_user;52;latin;laudāre;subjunctive;pluperfect;active;1;singular;laudavissem;laudavissem;True;2025-06-11 11:52:41
+default_user;52;latin;monēre;subjunctive;pluperfect;active;1;singular;monuissem;monuissem;True;2025-06-11 11:52:44
+default_user;52;latin;capere;subjunctive;pluperfect;active;1;singular;cepissem;cepissem;True;2025-06-11 11:52:47
+default_user;52;latin;laudāre;subjunctive;pluperfect;active;2;plural;laudavissetis;laudavissetis;True;2025-06-11 11:52:50
+default_user;52;latin;capere;subjunctive;pluperfect;active;3;plural;cepissent;cepissent;True;2025-06-11 11:52:54
+default_user;52;latin;monēre;subjunctive;pluperfect;active;3;plural;monuissent;monuissent;True;2025-06-11 11:52:57
+default_user;52;latin;monēre;subjunctive;pluperfect;active;2;singular;monuisses;monuisses;True;2025-06-11 11:53:00
+default_user;52;latin;capere;subjunctive;pluperfect;active;2;singular;cepisses;cepisses;True;2025-06-11 11:53:02
+default_user;52;latin;monēre;subjunctive;pluperfect;active;1;plural;monuissemus;monuissemus;True;2025-06-11 11:53:05
+default_user;52;latin;capere;subjunctive;pluperfect;active;1;plural;cepissemus;cepissmus;False;2025-06-11 11:53:08
+default_user;52;latin;audīre;subjunctive;pluperfect;active;2;plural;audivissetis;audivissetis;True;2025-06-11 11:53:22
+default_user;52;latin;legere;subjunctive;pluperfect;active;3;plural;legissent;legissent;True;2025-06-11 11:53:28
+default_user;52;latin;legere;subjunctive;pluperfect;active;1;plural;legissemus;legissemus;True;2025-06-11 11:53:31
+default_user;52;latin;laudāre;subjunctive;pluperfect;active;3;plural;laudavissent;laudavissent;True;2025-06-11 11:53:38
+default_user;52;latin;monēre;subjunctive;pluperfect;active;3;singular;monuisset;monuisset;True;2025-06-11 11:53:41
+default_user;52;latin;audīre;subjunctive;pluperfect;active;1;singular;audivissem;audivissem;True;2025-06-11 11:53:43
+default_user;52;latin;audīre;subjunctive;pluperfect;active;2;singular;audivisses;audivisses;True;2025-06-11 11:53:49
+default_user;52;latin;legere;subjunctive;pluperfect;active;2;plural;legissetis;legissetis;True;2025-06-11 11:53:56
+default_user;52;latin;monēre;subjunctive;pluperfect;active;2;plural;monuissetis;monuissetis;True;2025-06-11 11:53:59
+default_user;52;latin;capere;subjunctive;pluperfect;active;3;singular;cepisset;cepisset;True;2025-06-11 11:54:02
+default_user;52;latin;capere;subjunctive;pluperfect;active;1;plural;cepissemus;cepissemus;True;2025-06-11 11:54:04
+default_user;52;latin;legere;subjunctive;pluperfect;active;1;singular;legissem;legissem;True;2025-06-11 11:54:11
+default_user;52;latin;legere;subjunctive;pluperfect;active;3;singular;legisset;legisset;True;2025-06-11 11:54:14
+default_user;52;latin;capere;subjunctive;pluperfect;active;2;plural;cepissetis;cepissetis;True;2025-06-11 11:54:19
+default_user;52;latin;laudāre;subjunctive;pluperfect;active;3;singular;laudavisset;laudavisset;True;2025-06-11 11:54:23
+default_user;52;latin;laudāre;subjunctive;pluperfect;active;1;plural;laudavissemus;laudavissemus;True;2025-06-11 11:54:27
+default_user;52;latin;laudāre;subjunctive;pluperfect;active;2;singular;laudavisses;laudavisses;True;2025-06-11 11:54:31
+default_user;52;latin;legere;subjunctive;pluperfect;active;2;singular;legisses;legisses;True;2025-06-11 11:54:34
+default_user;53;latin;monēre;subjunctive;pluperfect;passive;2;plural;moniti essetis;monitus essetis;False;2025-06-11 14:39:38
+default_user;53;latin;legere;subjunctive;pluperfect;passive;2;plural;lecti essetis;lecti essetis;True;2025-06-11 14:39:44
+default_user;53;latin;capere;subjunctive;pluperfect;passive;3;plural;capti essent;capti essent;True;2025-06-11 14:39:49
+default_user;53;latin;monēre;subjunctive;pluperfect;passive;2;plural;moniti essetis;moniti essetis;True;2025-06-11 14:39:53
+default_user;53;latin;laudāre;subjunctive;pluperfect;passive;2;plural;laudati essetis;laudati essetis;True;2025-06-11 14:39:56
+default_user;53;latin;audīre;subjunctive;pluperfect;passive;2;singular;auditus esses;auditus esses;True;2025-06-11 14:40:02
+default_user;53;latin;capere;subjunctive;pluperfect;passive;1;singular;captus essem;captus essem;True;2025-06-11 14:40:05
+default_user;53;latin;laudāre;subjunctive;pluperfect;passive;2;singular;laudatus esses;laudatus esses;True;2025-06-11 14:40:10
+default_user;53;latin;monēre;subjunctive;pluperfect;passive;1;singular;monitus essem;monitus essem;True;2025-06-11 14:40:14
+default_user;53;latin;laudāre;subjunctive;pluperfect;passive;1;plural;laudati essemus;laudati essemus;True;2025-06-11 14:40:19
+default_user;53;latin;audīre;subjunctive;pluperfect;passive;1;plural;auditi essemus;auditi essemus;True;2025-06-11 14:40:28
+default_user;53;latin;monēre;subjunctive;pluperfect;passive;2;singular;monitus esses;monitus esses;True;2025-06-11 14:40:32
+default_user;53;latin;monēre;subjunctive;pluperfect;passive;3;singular;monitus esset;monitus esset;True;2025-06-11 14:40:39
+default_user;53;latin;legere;subjunctive;pluperfect;passive;1;plural;lecti essemus;lecti essemus;True;2025-06-11 14:40:47
+default_user;53;latin;audīre;subjunctive;pluperfect;passive;1;singular;auditus essem;auditus essem;True;2025-06-11 14:40:52
+default_user;53;latin;legere;subjunctive;pluperfect;passive;1;singular;lectus essem;lectus essem;True;2025-06-11 14:40:56
+default_user;53;latin;capere;subjunctive;pluperfect;passive;3;singular;captus esset;captus esset;True;2025-06-11 14:41:01
+default_user;53;latin;audīre;subjunctive;pluperfect;passive;3;plural;auditi essent;auditi essent;True;2025-06-11 14:41:05
+default_user;53;latin;legere;subjunctive;pluperfect;passive;3;singular;lectus esset;lectus esset;True;2025-06-11 14:41:10
+default_user;53;latin;audīre;subjunctive;pluperfect;passive;3;singular;auditus esset;auditus esset;True;2025-06-11 14:41:17
+default_user;53;latin;capere;subjunctive;pluperfect;passive;1;plural;capti essemus;capti essemus;True;2025-06-11 14:41:22
+default_user;53;latin;laudāre;subjunctive;pluperfect;passive;1;singular;laudatus essem;laudatus essem;True;2025-06-11 14:41:25
+default_user;53;latin;capere;subjunctive;pluperfect;passive;2;plural;capti essetis;capti essetis;True;2025-06-11 14:41:29
+default_user;53;latin;laudāre;subjunctive;pluperfect;passive;3;plural;laudati essent;laudati essent;True;2025-06-11 14:41:31
+default_user;53;latin;laudāre;subjunctive;pluperfect;passive;3;singular;laudatus esset;laudatus esset;True;2025-06-11 14:41:36
+default_user;53;latin;legere;subjunctive;pluperfect;passive;3;plural;lecti essent;lecti essent;True;2025-06-11 14:41:50
+default_user;53;latin;legere;subjunctive;pluperfect;passive;2;singular;lectus esses;lectus esses;True;2025-06-11 14:42:00
+default_user;53;latin;monēre;subjunctive;pluperfect;passive;1;plural;moniti essemus;moniti essemus;True;2025-06-11 14:42:04
+default_user;53;latin;capere;subjunctive;pluperfect;passive;2;singular;captus esses;captus esses;True;2025-06-11 14:42:07
+default_user;53;latin;monēre;subjunctive;pluperfect;passive;3;plural;moniti essent;moniti essent;True;2025-06-11 14:42:10
+default_user;53;latin;audīre;subjunctive;pluperfect;passive;2;plural;auditi essetis;auditi essetis;True;2025-06-11 14:42:14
+default_user;54;latin;monēre;imperative;present;active;2;singular;mone;mone;True;2025-06-11 14:43:11
+default_user;54;latin;capere;imperative;present;active;2;singular;cape;cape;True;2025-06-11 14:43:17
+default_user;54;latin;legere;imperative;present;passive;2;singular;legere;lege;False;2025-06-11 14:43:20
+default_user;54;latin;legere;imperative;present;active;2;plural;legite;legite;True;2025-06-11 14:43:31
+default_user;54;latin;capere;imperative;present;passive;2;plural;capimini;capimini;True;2025-06-11 14:43:41
+default_user;54;latin;capere;imperative;present;passive;2;singular;capere;capere;True;2025-06-11 14:43:53
+default_user;54;latin;capere;imperative;present;active;2;plural;capite;capite;True;2025-06-11 14:43:59
+default_user;54;latin;monēre;imperative;present;active;2;plural;monēte;monete;True;2025-06-11 14:44:04
+default_user;54;latin;legere;imperative;present;passive;2;plural;legimini;legimini;True;2025-06-11 14:44:09
+default_user;54;latin;monēre;imperative;present;passive;2;singular;monēre;monere;True;2025-06-11 14:44:17
+default_user;54;latin;audīre;imperative;present;passive;2;singular;audīre;audire;True;2025-06-11 14:44:24
+default_user;54;latin;laudāre;imperative;present;active;2;singular;lauda;lauda;True;2025-06-11 14:44:31
+default_user;54;latin;audīre;imperative;present;active;2;singular;audi;audi;True;2025-06-11 14:44:33
+default_user;54;latin;legere;imperative;present;active;2;singular;lege;lege;True;2025-06-11 14:44:36
+default_user;54;latin;laudāre;imperative;present;active;2;plural;laudāte;laudate;True;2025-06-11 14:44:40
+default_user;54;latin;laudāre;imperative;present;passive;2;singular;laudāre;laudare;True;2025-06-11 14:44:43
+default_user;54;latin;laudāre;imperative;present;passive;2;plural;laudamini;laudamini;True;2025-06-11 14:44:47
+default_user;54;latin;legere;imperative;present;passive;2;singular;legere;legere;True;2025-06-11 14:44:54
+default_user;54;latin;monēre;imperative;present;passive;2;plural;monemini;monimini;False;2025-06-11 14:44:59
+default_user;54;latin;monēre;imperative;present;passive;2;plural;monemini;monemini;True;2025-06-11 14:45:04
+default_user;54;latin;audīre;imperative;present;active;2;plural;audīte;audimini;False;2025-06-11 14:45:07
+default_user;54;latin;audīre;imperative;present;active;2;plural;audīte;audite;True;2025-06-11 14:45:11
+default_user;54;latin;audīre;imperative;present;passive;2;plural;audimini;audimini;True;2025-06-11 14:45:15

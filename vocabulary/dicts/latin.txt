@@ -544,9 +544,10 @@ captīvus, captivi [noun] [m] [II]
 (Romani terras invadebant, incolas interficiebant aut captivos asportabant)
 1. jeniec
 
-asporto, asportāre, asportāvī, asportātum [verb] [I]
+asportō, asportāre, asportāvī, asportātum [verb] [I]
 (Romani terras invadebant, incolas interficiebant aut captivos asportabant)
-1. zabierać, uprowadzać, wywozić
+1. wynosić, zabierać, uprowadzać
+[pochodzi od ab + porto = "nosić z"]
 
 victŭs, victa, victum [adj]
 (Romani bella gerebant, populos victos premebant)
