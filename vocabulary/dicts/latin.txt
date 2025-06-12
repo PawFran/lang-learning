@@ -377,9 +377,10 @@ frūmentum, frumenti [noun] [n] [II]
 (Nautae in alienas terras navigābant, frumentum advehēbant)
 1. zboże
 
-adveho, advehere, advexi, advectum [verb] [III]
+advehō, advehere, advēxī, advectum [verb] [III]
 (Nautae in alienas terras navigābant, frumentum advehēbant)
-1. dowozić, przywozić
+1. przywozić, sprowadzać, transportować
+[ad + veho = "wieźć do". ale w przeciwieństiwe apporto (przynosić) adveho używa się raczej w kontekście transportu, tzn. przywożenia czegoś z daleka, środkiem transportu, często w kontekście wojskowym lub handlowym]
 
 vendo, vendere, vendidi, venditum [verb] [III]
 (Nautae frumentum advehēbant et incolis Romae vendēbant)
@@ -409,11 +410,12 @@ macto, mactāre, mactāvī, mactātum [verb] [I]
 
 sacrifico, sacrificāre, sacrificāvī, sacrificātum [verb] [I]
 (Agricolae deis debusque agrōrum sacrificābant)
-1. składać ofiarę
+1. składać ofiarę, poświęcać coś w ofierze
+[dosłownie "czynić świętym" (= sacer + facio]
 
 enim [conj]
 (Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
-1. bo, albowiem, bowiem (wyjaśnienie)
+1. bo, albowiem, bowiem, ponieważ (wyjaśnienie)
 [używane do podania wyjaśnienia, opisu a nie prostego, faktycznego stwierdzenia związku przyczynowo-skutkowego (quod/quia). nigdy nie występuje na początku zdania]
 
 fēcundus, fēcunda, fēcundum [adj]
@@ -493,7 +495,7 @@ clārus, clară, clarum [adj]
 
 cārus, cāra, cārum [adj]
 (Varsovia incolis Poloniae cara est)
-1. drogi
+1. drogi, ukochany, cenny, kosztowny
 
 altus, alta, altum [adj]
 (Oppido parvo murus non altus est)
@@ -510,7 +512,7 @@ pĕcūnĭa, pecuniae [noun] [f] [I]
 ergō [prep]
 (Cogito ergo sum)
 1. zatem, więc, w wyniku
-[podkreśla czysto logiczny wniosek, w przeciwieństwie do itaque, które może oznaczać wynik przyczynowo-skutkowy, a niekoniecznie dedukcję]
+[podkreśla czysto logiczny wniosek, implikację, dedukcję (w przeciwieństwie do itaque, które oznacza raczej związek przyczynowo-skutkowy)]
 
 nŏcĕo, nŏcēre, nocui, nocitum [verb] [II]
 (Littera docet, littera nocet)
@@ -2394,7 +2396,9 @@ adversus, adversă, adversum [adj]
 
 sĕcundus, secundă, secundum [adj]
 (Et in rebus advertis et in rebus secundis Romani deis sacrificabant)
-1. szczęśliwy, sprzyjający
+1. drugi, następny
+2. sprzyjający, pomyślny, pomocny, wspierający
+[jego przenośne znaczenia ("sprzyjający", "pomyślny" itp. są pokrewne dosłownemu "drugi", "następny" - w obu przypadkych kojarzy się z kimś, kto podąża "za" (dosłownie secundus = idący za kimś)]
 
 cŏrōna, coronae [noun] [f] [I]
 (Imperator militibus coronas et dona multa tribuit)
@@ -3591,8 +3595,8 @@ prōconsŭlāris, proconsularis, proconsulare [adj]
 
 obtĭnĕo, obtĭnēre, obtinui, obtentum [verb] [II]
 (Dominus meus provinciam Africam proconsulari imperio obtinebat)
-1. utrzymywać, zachowywać
-2. mieć, dzierżyć, sprawować
+1. utrzymywać, zachowywać, uzyskiwać, zajmować
+[ob + teneo = trzymać naprzeciw, trzymać wobec. podkreśla więc posiadanie/zdobycie czegoś w obliczu przeciwności]
 
 a/ăb [prep]
 (Statim a custodiis cernentur. Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)

@@ -19,19 +19,7 @@ scrape innych slow i uzywanie ich w cwiczeniach (haskell ?)
 
 cwiczenia odwrotne
 
-### słownik ###
-
-cārus (drogi) poprawić
-
-dodać "ponieważ" do enim ?
-
-sĕcundus sprawdzic tlumaczenie
-
-sacrifico sprawdzić tłumaczenia
-
-"mieć, dzierżyć, sprawować" sprawdzić
-
-adveho sprawdzić i porównać z adporto, praebeo itp.
+konsekwentnie w slowniku zaznaczac tylko dlugie makrony ? ew. jesli krotki jest wyjatkiem
 
 cwiczenie: funkcje przypadkow. zdania i do nich trzeba przyporzadkowac odpowiednia funkcje (czyli po prostu losowanie przykladow. moze z niebieskiej ksiazki skladnia lacinska ? albo rozowa)
 aktualny wydruk funkcji przypadkow i przyimkow
