@@ -693,8 +693,8 @@ spătĭum, spatii [noun] [n] [II]
 
 signo, signāre, signāvī, signātum [verb] [I]
 (Deinde quadratum spatium signabatur et muniebatur)
-1. wyznaczać
-2. podpisywać
+1. oznaczać, wyznaczać, pieczętować, podpisywać, dawać znak (sygnał)
+[szeroko rozumiane (na)dawanie znaku, żeby coś odróżnić, czynić rozpoznawalnym lub przekazać informację]
 
 circum [prep]
 (Circum castra fossa fodiebatur)
@@ -706,7 +706,8 @@ mĕdĭus, mediă, medium [adj]
 
 invĕnĭo, invĕnīre, inveni, inventum [verb] [IV]
 (.. ubi aqua facile invenīri poterat)
-1. odkryć, znaleźć
+1. znaleźć, odkryć, wymyślić, napotkać
+[od in + venio = "przychodzić do", wchodzić na coś]
 
 fossa, fossae [noun] [f] [I]
 (Circum castra fossa fodiebatur et vallum struebatur)
