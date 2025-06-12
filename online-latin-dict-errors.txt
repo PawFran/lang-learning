@@ -1,0 +1,6 @@
+prawd. zle tlumaczenie liber
+* https://www.online-latin-dictionary.com/latin-dictionary-flexion.php?lemma=LIBER100
+* jako dzieci jest tylko w liczbie mnogiej (wg chata i wg slownika papierowego)
+* takie jak tutaj jest dla "ksiazka"
+* w ogole na tej stronie widac blad (porownanie tego co sie zaznacza z tym co jest wyswietlane w tlumaczeniu) https://www.online-latin-dictionary.com/latin-english-dictionary.php?lemma=LIBER200#
+* wyglada jakby liber (ksiazki) z liberi (dzieci) bylo odwrocone

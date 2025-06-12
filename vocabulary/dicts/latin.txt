@@ -55,7 +55,7 @@ monstrō, monstrāre, monstrāvi, monstrātum [verb] [I]
 
 cūrō, cūrāre, cūrāvi, cūrātum [verb] [I]
 (O servi, Spartacus fortūna vestrae curat!)
-1. troszczyć się, dbać (o coś + dat)
+1. troszczyć się, dbać (o kogoś, coś) (+ acc)
 
 properō, properāre, properāvi, properātum [verb] [I]
 (Puer Romānus in scholam properat)
@@ -349,9 +349,13 @@ atque/ăc [conj]
 (Servi hortum atque iumenta curabat. Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit - ac przed spółgłoskami z wyjątkiem 'h')
 1. i, a także, a ponadto
 
-liber, libri [noun] [n] [II]
+līberī, līberōrum [noun] [m] [II] [pl]
 (Vir rusticus libros arāre docēbat)
-1. dziecko
+1. dzieci
+
+liber, libri [noun] [m] [II]
+(Ego librum meum lego, tu librum tuum legis)
+1. ksiąźka
 
 parvus, parva, parvum [adj]
 (Vir rusticus, qui parvum agellus habēbat..)
@@ -359,9 +363,7 @@ parvus, parva, parvum [adj]
 
 dēbeō, debēre, debuī, debitum [verb] [II]
 (Vir rusticus magna cura laborare debebat. Multos timere debet, quem multi timent)
-1. być dłużnym (komuś)
-2. zawdzięczać (coś komuś)
-3. musieć, być zobowiązanym do (+ bezokolicznik)
+1. być dłużnym (komuś), zawdzięczać (coś komuś), musieć, być zobowiązanym do (+ bezokolicznik)
 
 tantum [adv]
 (Filii agricolae in horto laborabant, agricola enim unum aut duos tantum servos habebat)
@@ -389,8 +391,8 @@ tamen [adv]
 
 praebeo, praebēre, praebui, praebitum [verb] [II]
 (Divitia tamen magnas curas et magna pericula nautis praebēbant)
-1. dostarczać, udzielać, udostępniać, przynosić (w przenośni), okazywać
-[bardziej abstrakcyjne niż (ap)porto, np. oferować pomoc, udzielać rady, nieść niebezpieczeństwo. od prae + habeo = "mieć coś przed", czyli "do pokazania", "do dania" itp.]
+1. dostarczać, przynosić (w przenośni), udzielać, udostępniać, okazywać, przedstawiać
+[bardziej abstrakcyjne niż (ap)porto, np. oferować pomoc, udzielać rady, nieść niebezpieczeństwo. od prae + habeo = "mieć coś przed", czyli "do pokazania", "do dania" itp. może dobrym odpowiednikiem byłoby polskie: "postawić kogoś przed zadaniem", "postawić przed kimś zadanie", "to podejście przedstawia ryzyko" itp.]
 
 cūra, cūrae [noun] [f] [I]
 (Divitia tamen magnas curas et magna pericula nautis praebēbant)

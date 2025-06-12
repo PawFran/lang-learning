@@ -6,6 +6,9 @@ skroty klawiszowe macos pycharm focus terminal vs notebook
 
 macos makrony lacinskie skroty klawiszowe
 
+skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo osobne ?)
+zaimportowac do vscode skroty z pycharm
+
 opcja "perfect match" w reversed translation (nie trzeba potwierdzenia). zaimplementować i dodać do dokumentacji
 
 dorobic opcje -continue dla cwiczen declension / conjugation / translation / reversed translation
@@ -14,17 +17,13 @@ generator form na podstawie regul (haskell)
 
 scrape innych slow i uzywanie ich w cwiczeniach (haskell ?)
 
-cwiczenie odwrotne
+cwiczenia odwrotne
 
 ### słownik ###
-
-liber książka vs dziecko ?
 
 cārus (drogi) poprawić
 
 dodać "ponieważ" do enim ?
-
-dēbeō zmniejszyć liczbę tłumaczeń ?
 
 sĕcundus sprawdzic tlumaczenie
 
@@ -33,6 +32,9 @@ sacrifico sprawdzić tłumaczenia
 "mieć, dzierżyć, sprawować" sprawdzić
 
 adveho sprawdzić i porównać z adporto, praebeo itp.
+
+cwiczenie: funkcje przypadkow. zdania i do nich trzeba przyporzadkowac odpowiednia funkcje (czyli po prostu losowanie przykladow. moze z niebieskiej ksiazki skladnia lacinska ? albo rozowa)
+aktualny wydruk funkcji przypadkow i przyimkow
 
 ### synonimy ###
 
@@ -45,8 +47,6 @@ adveho sprawdzić i porównać z adporto, praebeo itp.
 "głosić" nie zwraca rozgłaszać ale "chwalić" już tak
 
 ### inne ###
-
-skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo osobne ?)
 
 do cwiczen na deklinacje koniugacje brac pod uwage wszystkie slowa ze slownika:
 * scrape pelnej odmiany kazdego slowa jakie ma byc wziete pod uwage (haskell ?)
