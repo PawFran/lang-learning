@@ -372,3 +372,24 @@ default_user;18;latin;dĕindĕ [adv];Deinde quadratum spatium signabatur et muni
 default_user;18;latin;lŏcus, loci [noun] [m] [II];Primum a tribuno locus capiebatur;1;miejsce;miejsce;True;2025-06-09 21:20:34
 default_user;18;latin;spătĭum, spatii [noun] [n] [II];Deinde quadratum spatium signabatur et muniebatur;1;przestrzeń, obszar;przestrzeń, obszar;True;2025-06-09 21:20:41
 default_user;18;latin;castra, castrōrum [noun] [n] [II] [pl];A Romanis castra ponebantur;1;obóz;obóz;True;2025-06-09 21:20:46
+default_user;19;latin;fossa, fossae [noun] [f] [I];Circum castra fossa fodiebatur et vallum struebatur;1;rów;rów;True;2025-06-14 11:11:07
+default_user;19;latin;signum, signi [noun] [n] [II];Signum tuba extemplo dabitur;1;znak;znak;True;2025-06-14 11:11:17
+default_user;19;latin;impĕdīmentum, impedimenti [noun] [n] [II] [pl];Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur;2;przeszkoda, utrudnienie, opóźnienie | bagaż, ekwipunek, tabor [pl];przeszkoda, utrudnienie, opóźnienie;True;2025-06-14 11:11:48
+default_user;19;latin;impĕdīmentum, impedimenti [noun] [n] [II] [pl];Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur;2;bagaż, ekwipunek, tabor [pl];bagaż, ekwipunek, tabor [pl];True;2025-06-14 11:11:48
+default_user;19;latin;invĕnĭo, invĕnīre, inveni, inventum [verb] [IV];.. ubi aqua facile invenīri poterat;1;znaleźć, odkryć, wymyślić, napotkać;znaleźć, odkryć, wymyślić, napotkać;True;2025-06-14 11:12:15
+default_user;19;latin;extemplō [adv];Signum tuba extemplo dabitur;1;natychmiast, od razu;natychmiast, od razu;True;2025-06-14 11:12:25
+default_user;19;latin;fŏdĭo, fŏdĕre, fodi, fossum [verb] [III];Circum castra fossa fodiebatur et vallum struebatur;1;kopać, wydobywać;kopać, wydobywać;True;2025-06-14 11:12:33
+default_user;19;latin;vallum, valli [noun] [n] [II];Circum castra fossa fodiebatur et vallum struebatur;1;wał;wał;True;2025-06-14 11:12:39
+default_user;19;latin;cŭmŭlo, cŭmŭlāre, cumulāvī, cumulātum [verb] [I];Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur;1;gromadzić, nagromadzać, pomnażać, usypywać (na stos), piętrzyć;gromadzić, pomnażać, usypywać (na stos);False;2025-06-14 11:12:57
+default_user;20;latin;mĕdĭus, mediă, medium [adj];;1;środkowy;środkowy;True;2025-06-14 11:13:47
+default_user;20;latin;dispōno, dispōnĕre, disposui, dispositum [verb] [III];Custodiae per vallum disponentur;1;rozmieszczać, rozporządzać;rozmieszczać, rozporządzać;True;2025-06-14 11:13:53
+default_user;20;latin;fŏdĭo, fŏdĕre, fodi, fossum [verb] [III];Circum castra fossa fodiebatur et vallum struebatur;1;kopać, wydobywać;kopać, wydobywać;True;2025-06-14 11:13:57
+default_user;20;latin;extemplō [adv];Signum tuba extemplo dabitur;1;natychmiast, od razu;natychmiast, od razu;True;2025-06-14 11:14:03
+default_user;20;latin;vallum, valli [noun] [n] [II];Circum castra fossa fodiebatur et vallum struebatur;1;wał;wał;True;2025-06-14 11:14:06
+default_user;20;latin;cerno, cernĕre, crevi, cretum [verb] [III];Statim a custodiis cernentur;1;dostrzegać, zauważać, rozróżniać, decydować;dostrzegać, zauważać, rozróżniać, decydować;True;2025-06-14 11:14:15
+default_user;20;latin;signo, signāre, signāvī, signātum [verb] [I];Deinde quadratum spatium signabatur et muniebatur;1;oznaczać, wyznaczać, pieczętować, podpisywać, dawać znak (sygnał);oznaczać, wyznaczać, pieczętować, podpisywać, dawać znak (sygnał);True;2025-06-14 11:14:25
+default_user;20;latin;fossa, fossae [noun] [f] [I];Circum castra fossa fodiebatur et vallum struebatur;1;rów;rów;True;2025-06-14 11:16:01
+default_user;20;latin;signum, signi [noun] [n] [II];Signum tuba extemplo dabitur;1;znak;znak;True;2025-06-14 11:16:05
+default_user;20;latin;impĕdīmentum, impedimenti [noun] [n] [II] [pl];Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur;2;przeszkoda, utrudnienie, opóźnienie | bagaż, ekwipunek, tabor [pl];przeszkoda, utrudnienie, opóźnienie;True;2025-06-14 11:16:12
+default_user;20;latin;impĕdīmentum, impedimenti [noun] [n] [II] [pl];Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur;2;bagaż, ekwipunek, tabor [pl];bagaż, ekwipunek, tabor [pl];True;2025-06-14 11:16:12
+default_user;20;latin;invĕnĭo, invĕnīre, inveni, inventum [verb] [IV];.. ubi aqua facile invenīri poterat;1;znaleźć, odkryć, wymyślić, napotkać;znaleźć, odkryć, wymyślić, napotkać;True;2025-06-14 11:17:32

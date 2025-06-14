@@ -16,3 +16,6 @@ session_id;user_name;start_word;end_word;filtered_parts_of_speech;revise_last_se
 16;default_user;memoria;spatium;;False;True
 17;default_user;memoria;spatium;;False;True
 18;default_user;memoria;spatium;;False;False
+19;default_user;signo;extemplo;;False;True
+19;default_user;signo;extemplo;;False;True
+20;default_user;signo;extemplo;;False;True

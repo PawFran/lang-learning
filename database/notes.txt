@@ -4,8 +4,6 @@ skroty klawiszowe do aplikacji dodac
 
 youtrack sprawdzic
 
-czemu w widoku words_with_translations nie ma adverbs, adjectives ani conjunctions ?
-
 skroty klawiszowe macos pycharm focus terminal vs notebook
 
 macos makrony lacinskie skroty klawiszowe
@@ -65,6 +63,7 @@ czasem [pl] jest nie do calego slowa, ale do jednego z tlumaczen (np. impediment
 
 zrobić ćwiczenie dla word_comparison ?
 skrypt moglby wypisywac znaczenia + komentarze
+ładowanie tylko oznaczonych słów + tłumaczeń z nich wziętych. albo nawet do tłumaczeń brać tylko "grupy", czyli np. wrzucać do jednego worka tłumaczenia dla synonimów i dawać ich listę (już bez SynonymFinder)
 
 scrape mogloby dzialac podwojnie - tak jak teraz ale tez dodawac zwrotke z czata. w tym samym miejscu albo osobno
 
