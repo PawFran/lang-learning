@@ -2016,7 +2016,7 @@ hŏdĭē [adv]
 
 cēno, cēnāre, cenāvī, cenātum [verb] [I]
 (Hodie apud inferos fortasse cenabimus)
-1. zjeść obiad
+1. jeść obiad
 
 antĕ [adv]
 (Ante pugnam ad milites verba facit)
@@ -2040,7 +2040,7 @@ absŭm, abesse, abfui [verb] [anomalous]
 
 advĕnĭo, advĕnīre, adveni, adventum [verb] [IV]
 (Nos ab hostibus advenientibus non procul absumus)
-1. przyjść
+1. przychodzić
 
 collŏquĭum, colloquii [noun] [n] [II]
 (Persa hostis in colloquio cum militibus inquit ...)
@@ -2115,7 +2115,7 @@ iūrĕ [adv]
 
 captīvo, captīvāre, captivāvī, captivātum [verb] [I]
 (Neminem captivabimus nisi iure victum)
-1. wziąć w niewolę
+1. brać w niewolę
 
 dīligō, dīligere, dīlēxī, dīlēctum [verb] [III]
 (A nullo diligitur qui neminem diligit)
@@ -2233,7 +2233,7 @@ nuntius, nuntii [noun] [m] [II]
 
 ēnŭmĕro, ēnŭmĕrāre, enumerāvī, enumerātum [verb] [I]
 (Romani summos deos deasque ita enumerabant: ... )
-1. wyliczyć
+1. wyliczać
 
 sto, stāre, steti, stātum [verb] [I]
 (Res publicae legibus et civibus bonic stabis)
@@ -2253,7 +2253,7 @@ praesum, praeesse, praefui [verb] [anomalous]
 
 firmo, firmāre, firmāvī, firmātum [verb] [I]
 (Res publicam iustitia et virtutes civium firmant)
-1. wzmocnić, wspierać
+1. wzmacniać, wspierać
 
 virtus, virtutis [noun] [f] [III]
 (Res publicam iustitia et virtutes civium firmant)
@@ -2353,7 +2353,7 @@ rīsŭs, risūs [noun] [m] [IV]
 
 cognosco, cognoscĕre, cognovi, cognitum [verb] [III]
 (Per risum multum poteris cognoscere stultum)
-1. poznać, dowiedzieć się
+1. poznawać, dowiadywać się
 
 ĭneptus, ineptă, ineptum [adj]
 (Risu inepto res ineptior nulla est)
@@ -2490,7 +2490,7 @@ dux, ducis [noun] [m/f] [III]
 
 ostendo, ostendĕre, ostendi, ostentum/ostensum [verb] [III]
 (Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
-1. pokazać, ukazać, ,odsłonić, uczynić widzialnym
+1. pokazywać, ukazywać, odsłaniać, czynić widzialnym
 [aspekt bardziej wizualny niż dydaktyczny (monstro), chociaż może oznaczać ukazywanie zarówno fizycznie, jak i w przenośni]
 
 ălĭquandō [adv]
@@ -2577,7 +2577,7 @@ pingo, pingĕre, pinxi, pictum [verb] [III]
 
 prōmitto, prōmittĕre, promisi, promissum [verb] [III]
 (Magna promisisti, exigua video)
-1. obiecać
+1. obiecywać
 
 magnum, magni [noun] [n] [II]
 (Magna promisisti, exigua video)
@@ -2616,7 +2616,7 @@ antĕā [adv]
 
 conspĭcĭo, conspĭcĕre, conspexi, conspectum [verb] [III]
 (Duo amici subito procul ursum appropinquantem conspexerunt)
-1. zauważyć, spostrzec
+1. zauważać, spostrzegać
 [bardziej nagłe, aktywne niż video]
 
 sŭbĭtō [adv]
@@ -2654,7 +2654,7 @@ attingo, attingĕre, attigi, attactum [verb] [III]
 
 tango, tangĕre, tetigi, tactum [verb] [III]
 ()
-1. dotknąć
+1. dotykać
 
 mortŭus, mortuă, mortuum [adj]
 (Ursus mortuorum corpora non attingit)
@@ -2670,7 +2670,7 @@ tempto, temptāre, temptāvī, temptātum [verb] [I]
 
 discēdo, discēdĕre, discessi, discessum [verb] [III]
 (Ursus iacenti appropinquavit, corpus eius temptavit, denique discessit)
-1. odejść, wycofać się
+1. odchodzić, wycofywać się
 
 intactus, intactă, intactum [adj]
 (Ursus iuvenem intactum reliquit)
@@ -2697,8 +2697,8 @@ insŭsurro, insŭsurrāre, insusurrāvī, insusurrātum [verb] [I]
 
 solvo, solvĕre, solvi, solutum [verb] [III]
 (Subito tempestas magna nautas naves solvere prohibuit)
-1. uwolnić, rozplątać, rozwiązać
-2. postawić żagle, wypłynąć na morze
+1. uwalniać, rozplątywać, rozwiązywać
+2. stawić żagle, wypływać na morze
 
 tempestās, tempestatis [noun] [f] [III]
 (Subito tempestas magna nautas naves solvere prohibuit)
@@ -2806,7 +2806,7 @@ emptus, emptă, emptum [adj]
 
 ĕmo, ĕmĕre, emi, emptum [verb] [III]
 ()
-1. kupić
+1. kupowć
 
 callĭdĭtās, calliditatis [noun] [f] [III]
 ()
@@ -2837,11 +2837,11 @@ cŭpĭdĭtās, cupiditatis [noun] [f] [III]
 
 cĕdŏ, cēdĕre, cessi, cessum [verb] [III]
 (Neapolitanis agri aliquantum cedite)
-1. dać, przynieść, przekazać
+1. dawać, przynosić, przekazywać
 
 mando, mandāre, mandāvī, mandātum [verb] [I]
 (Tum ad Neapolitanos properavit eademque iss mandavit)
-1. rozkazywać, zlecić
+1. rozkazywać, zlecać
 
 verbum, verbi [noun] [n] [II]
 (Nolani verbis viri Romani moti vicinis cesserunt)
@@ -2866,7 +2866,7 @@ termĭnus, termini [noun] [m] [II]
 constĭtŭo, constĭtŭĕre, constitui, constitutum [verb] [III]
 (Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
 1. ustawiać lub ustawiać w pozycji, wznosić, rozbijać (obóz)
-2. ustanowić, postanowić, decydować
+2. ustanowiać, postanowiać, decydować
 [constĭtŭo podkreśla stałość - patrz "consto"]
 
 ŭt [conj]
@@ -2936,7 +2936,7 @@ saxum, saxi [noun] [n] [II]
 
 accēdo, accēdĕre, accessi, accessum [verb] [III]
 (Ad eam accedere non potuit)
-1. zbliżyć się, podejść
+1. zbliżać się, podchodzić
 
 căpella, capellae [noun] [f] [I]
 (Cur capella pulcherrima saxum illud non relinques ?)
@@ -2981,7 +2981,7 @@ somnus, somni [noun] [m] [II]
 
 excĭto, excĭtāre, excitāvī, excitātum [verb] [I]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat. Ea re tam admirabili clamores populi excitati sunt)
-1. obudzić, wywoływać (ze spoczynku, z bezruchu itp.)
+1. budzić, wywoływać (ze spoczynku, z bezruchu itp.)
 
 lux, lucis [noun] [f] [III]
 (Vilica ancillas ad laborem prima luce cogebat)
@@ -2997,7 +2997,7 @@ dĭūturnus, diuturnă, diuturnum [adj]
 
 nĕco, nĕcāre, necāvī, necātum [verb] [I]
 (Ancillae, quibus dormire placebat, gallum necaverunt)
-1. zamordować, zabić
+1. mordować, zabijać
 [podkreśla brutalność, ma wydźwięk dramatyczny (bardziej "zamordować" niż "uśmiercić")]
 
 nex, necis [noun] [f] [III]
@@ -3026,7 +3026,7 @@ interdum [adv]
 
 dormĭo, dormīre, dormivi, dormitum [verb] [IV]
 (Vilica interdum ancillas iam media nocte dormientes excitare studebat)
-1. spać, odpoczywać, zasnąć
+1. spać, odpoczywać, zasypiać
 
 prŏpĕ [prep]
 (Prope leonem dormientem musculi ludebant)
@@ -3046,7 +3046,7 @@ rogatus, rogată, rogatum [adj]
 
 ignosco, ignoscĕre, ignovi, ignotum [verb] [III]
 (Leo a musculo rogatus eum ignovit ei et vitam donavit)
-1. ułaskawić, przebaczyć (+ celownik)
+1. ułaskawiać, przebaczać (+ celownik)
 
 dōno, dōnāre, donāvī, donātum [verb] [I]
 (Leo a musculo rogatus eum ignovit ei et vitam donavit)
@@ -3078,7 +3078,7 @@ vēnātŏr, venatoris [noun] [m] [III]
 
 tendo, tendĕre, tetendi, tentum/tensum [verb] [III]
 (Leo in rete, quod venatoris tetenderunt, incidit)
-1. rozciągnąć, rozłożyć
+1. rozciągnać, rozkładać
 
 dĭū [adv]
 (Leo diu frustra ex rete se expedire temptans magno clamore totam silvam implevit)
@@ -3098,7 +3098,7 @@ tŏtus, totă, totum [adj]
 
 implĕo, implēre, implevi, impletum [verb] [II]
 (Leo diu frustra ex rete se expedire temptans magno clamore totam silvam implevit)
-1. wypełnić
+1. wypełniać
 
 vox, vocis [noun] [f] [III]
 (Musculus vocem leonis, cui ipse vitam debebat, audivit)
@@ -3188,7 +3188,7 @@ trŏpaeum, tropaei [noun] [n] [II]
 
 pōno, pōnĕre, posui, positum/postum [verb] [III]
 (Imperator tropaeum posuit illo loco, quo pridie pugnaverunt)
-1. umieścić
+1. umieszczać
 
 prīdĭē [adv]
 (Imperator tropaeum posuit illo loco, quo pridie pugnaverunt)
@@ -3218,7 +3218,7 @@ hŏnŏs, honoris [noun] [m] [III]
 
 rĕvŏco, rĕvŏcāre, revocavi, revocatum [verb] [I]
 (Amicus tibi ero, si exercitum tuum ex finibus meis revocaveris)
-1. odwołać
+1. odwoływać
 
 ălĭquis [pron]
 (Cum oppido appropinquaveris, ex aliquo, qui tibi occurret, viam quaere)
@@ -3227,7 +3227,7 @@ rĕvŏco, rĕvŏcāre, revocavi, revocatum [verb] [I]
 occurro, occurrĕre, occurri o occucurri, occursum [verb] [III]
 (Cum oppido appropinquaveris, ex aliquo, qui tibi occurret, viam quaere. Necari iube eum, qui tibi in urbis porta primus occurret)
 1. spotkać się, wpaść na kogoś (+ dat)
-2. nadchodzić, pojawić się, ukazać się (+ dat)
+2. nadchodzić, pojawić się, ukazywaać się (+ dat)
 3. przychodzić z pomocą (+ dat)
 
 quaero, quaerĕre, quaesii / quaesivi, quaesitum [verb] [III]
@@ -3301,7 +3301,7 @@ părens, parentis [noun] [m/f] [III]
 
 trādo, trādĕre, tradidi, traditum [verb] [III]
 (Parentes nobis vitam tradiderunt. Romam a Romulo conditam esse scriptores tradunt)
-1. przekazać (coś komuś), powierzyć, dostarczyć, przekazać relację/tradycję (ustnie, pisemnie)
+1. przekazywać (coś komuś), powierzać, dostarczać, przekazywać relację/tradycję (ustnie, pisemnie)
 
 ĭnĭtĭum, initii [noun] [n] [II]
 (Iram bene Ennius initium dixit insaniae)
@@ -3325,7 +3325,7 @@ cĭnis, cineris [noun] [m/f] [III]
 
 indo, indĕre, indidi, inditum [verb] [III]
 (Artemisia ossa cineremque eius aquae indidit ebibitque)
-1. włożyć, nałożyć
+1. wkładać, nakładać
 
 ēbĭbo, ēbĭbĕre, ebibi, ebibitum [verb] [III]
 (Artemisia ossa cineremque eius aquae indidit ebibitque)
@@ -3375,7 +3375,7 @@ dēlĕo, dēlēre, delevi, deletum [verb] [II]
 
 păro, părāre, paravi, paratum [verb] [I]
 (Tum ibi in obsidione aedes quasdam capere et igni delere parabat)
-1. przygotować
+1. przygotowywać
 
 Ĭālўsŏs, Ialysi [noun] [f] [II]
 ()
@@ -3437,7 +3437,7 @@ oppugnātĭo, oppugnationis [noun] [f] [III]
 
 dēsisto, dēsistĕre, destiti, destitum [verb] [III]
 (Demetrius oppugnatione destitit et non solum imagini sed etiam civitati pepercit)
-1. zaprzestać, zrezygnować, odstąpić od
+1. zaprzestawać, rezygnować, odstępować od
 
 cīvĭtās, civitatis [noun] [f] [III]
 (Demetrius oppugnatione destitit et non solum imagini sed etiam civitati pepercit)
@@ -3449,7 +3449,7 @@ explōro, explōrāre, exploravi, exploratum [verb] [I]
 
 expugno, expugnāre, expugnavi, expugnatum [verb] [I]
 (Hostis Romae appropinquavit urbem expugnatum)
-1. atakować, szturmować, podbić
+1. atakować, szturmować, podbijać
 
 initio [adv]
 (Verum consilium initio auditu grave postea iucundum erit)
@@ -3499,7 +3499,7 @@ terrĭbĭlis, terribilis, terribile [adj]
 
 converto, convertĕre, converti, conversum [verb] [III]
 (Leo corporis magnitudine terribilique voce oculos omnium in se convertit)
-1. odwrócić, zwracać
+1. odwracać, zwracać
 
 intrōdūco, intrōdūcĕre, introduxi, introductum [verb] [III]
 (Introductus est inter complures servus viri consularis)
@@ -3520,7 +3520,7 @@ rĕpentĕ [adv]
 
 consisto, consistĕre, constiti [verb] [III]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
-1. zatrzymać się, stanąć w miejscu
+1. zatrzymywać się, stawać w miejscu
 
 sēnsim [adv]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
@@ -3537,7 +3537,7 @@ tamquăm [adv]
 
 noscĭto, noscĭtāre, noscitavi, noscitatum [verb] [I]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
-1. rozpoznać
+1. rozpoznawać
 
 cauda, caudae [noun] [f] [I]
 (Tum leo caudam more canum placide movet cruraque et manum hominis linqua leniter tangit)
@@ -3565,7 +3565,7 @@ bestĭa, bestiae [noun] [f] [I]
 
 rĕcŭpĕro, rĕcŭpĕrāre, recuperavi, recuperatum [verb] [I]
 (Androclus inter illa blandimenta ferocis bestiae amissum animum recuperat paulatimque oculos ad leonem vertit)
-1. odzyskać, przywrócić, przywrócić do zdrowia
+1. odzyskiwać, przywracać, przywracać do zdrowia
 
 paulātim [adv]
 (Androclus inter illa blandimenta ferocis bestiae amissum animum recuperat paulatimque oculos ad leonem vertit)
@@ -3573,7 +3573,7 @@ paulātim [adv]
 
 verto, vertĕre, verti, versum [verb] [III]
 (Androclus inter illa blandimenta ferocis bestiae amissum animum recuperat paulatimque oculos ad leonem vertit)
-1. obrócić się, odwrócić się
+1. obracać się, odwracać się
 
 tam [adv]
 (Ea re tam admirabili clamores populi excitati sunt)
@@ -3643,9 +3643,10 @@ sōlĭtūdo, solitudinis [noun] [f] [III]
 
 concēdo, concēdĕre, concessi, concessum [verb] [III]
 (Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
-1. zrzec się, zrezygnować, przyznać się
-2. odejść (odejść do = ustąpić w (niech to będzie później notatką))
-3. poddać się, pozwolić, zezwolić, zaakceptować
+1. zrzekać się, rezygnować, przyznawać się
+2. odchodzić
+3. poddwaać się, pozwolać, zezwolać, akceptować
+[odejść do = ustąpić w]
 
 spĕcŭs, specūs [noun] [m] [IV]
 (Aliquando specum remotum inveni ibique intravi)
@@ -3699,7 +3700,7 @@ is [pron]
 
 rĕvello, rĕvellĕre, revelli, revulsum [verb] [III]
 (Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
-1. wycofać się, oderwać, wyrwać
+1. wycofywać się, odrywać, wyrywać
 
 sănĭēs, saniei [noun] [f] [V]
 (Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
@@ -3716,7 +3717,7 @@ mĕtŭs, metūs [noun] [m] [IV]
 
 dētergĕo, dētergēre, detersi, detersum [verb] [II]
 (Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
-1. wytrzeć, wyczyścić, zmyć
+1. wycierać, czyścić, myć
 
 crŭŏr, cruoris [noun] [m] [III]
 (Ibi ego spinam ingentem ex pede eius revelli saniemque vulnere expressi ac sine metu detersi cruorem)
@@ -3728,7 +3729,7 @@ tunc [adv]
 
 rĕcumbo, rĕcumbĕre, recubui [verb] [III]
 (Ille tunc recubuit et quievit)
-1. położyć się
+1. kłaść się
 
 quĭesco, quĭescĕre, quievi, quietum [verb] [III]
 (Ille tunc recubuit et quievit)
@@ -3745,7 +3746,7 @@ victŭs, victūs [noun] [m] [IV]
 
 vīvesco, vīvescĕre, vixi [verb] [III]
 (Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
-1. ożyć, zacząć żyć
+1. ożywać, zaczynać żyć
 
 membrum, membri [noun] [n] [II]
 (Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])
@@ -3927,7 +3928,7 @@ iānŭa, ianuae [noun] [f] [I]
 
 exclāmo, exclāmāre, exclamavi, exclamatum [verb] [I]
 (Tum Nasica exlamat se domi non esse)
-1. wykrzyknąć, krzyczeć, wołać
+1. wykrzykiwać, krzyczeć, wołać
 
 impŭdens, impŭdens, impŭdens [adj]
 (Homo es impudens)
