@@ -706,7 +706,7 @@ mĕdĭus, mediă, medium [adj]
 
 invĕnĭo, invĕnīre, inveni, inventum [verb] [IV]
 (.. ubi aqua facile invenīri poterat)
-1. znaleźć, odkryć, wymyślić, napotkać
+1. znajdywać, odkrywać, wymyślać, napotykać
 [od in + venio = "przychodzić do", wchodzić na coś]
 
 fossa, fossae [noun] [f] [I]
@@ -800,7 +800,7 @@ custōdĭa, custodiae [noun] [f] [I]
 
 apprŏpinquo, apprŏpinquāre, appropinquāvī, appropinquātum [verb] [I]
 (Poeni vallo appropinquabunt)
-1. zbliżyć się (+ dat)
+1. zbliżać się (+ dat)
 
 tŭba, tubae [noun] [f] [I]
 (Signum tuba extemplo dabitur)
@@ -853,7 +853,7 @@ auctor, auctōris [noun] [m] [III]
 
 salus, salūtis [noun] [f] [III]
 (Leges ad civium salutem inventas esse constat)
-1. bezpieczeństwo, pomyślność, zdrowie,
+1. bezpieczeństwo, pomyślność, zdrowie
 2. pozdrowienie
 
 dispŭto, dispŭtāre, disputāvī, disputātum [verb] [I]
@@ -1034,12 +1034,12 @@ vĭr, viri [noun] [m] [II]
 1. mężczyzna
 
 ăt [conj]
-()
+()e
 1. ale, jednak
 
 respondĕo, respondēre, respondi, responsum [verb] [II]
 ()
-1. odpowiedzieć
+1. odpowiadać
 
 ēgrĕgĭus, egregiă, egregium [adj]
 ()
@@ -1431,7 +1431,7 @@ rĕlĭquus, reliquă, reliquum [adj]
 
 sŭpĕro, sŭpĕrāre, superāvī, superātum [verb] [I]
 (Victorem a victo superari saepe videmus)
-1. przewyższać, pokonać
+1. przewyższać, pokonywać
 
 Īlĭăs, Iliadis [noun] [f] [III]
 ()
@@ -1510,7 +1510,7 @@ incrēdĭbĭlis, incredibilis, incredibile [adj]
 
 restĭtŭo, restĭtŭĕre, restitui, restitutum [verb] [III]
 ()
-1. przywrócić, odnawiać
+1. przywracić, odnawiać
 
 commūnis, communis, commune [adj]
 ()
@@ -1568,7 +1568,7 @@ cĕlĕr, celeris, celere [adj]
 
 vasto, vastāre, vastāvī, vastātum [verb] [I]
 ()
-1. spustoszyć
+1. pustoszyć
 
 adsum, adesse, adfui [verb] [anomalous]
 ()
@@ -1727,11 +1727,11 @@ sōl, solis [noun] [m] [III]
 
 mollĭo, mollīre, mollii, mollitum [verb] [IV]
 ()
-1. rozzmiękczyć, roztapiać
+1. rozmiękczać, roztapiać
 
 cădo, cădĕre, cecidi [verb] [III]
 ()
-1. spaść
+1. spadać
 
 infēlix, infēlix, infēlix [adj]
 ()
@@ -1799,7 +1799,7 @@ cărĕo, cărēre, carui [verb] [II]
 
 sĕnesco, sĕnescĕre, senui [verb] [III]
 ()
-1. zestarzeć się
+1. starzeć się
 
 crīmĕn, criminis [noun] [n] [III]
 (Nocentem qui defendit sibi crimen parit)
@@ -1877,7 +1877,7 @@ praetĕr [prep]
 
 dēsĭno, dēsĭnĕre, desii, desitum [verb] [III]
 ()
-1. zaprzestać, zakończyć
+1. zaprzestawać, kończyć
 
 pro [prep]
 (Unus Plato mihi est pro centum millibus audientium)
@@ -1935,7 +1935,7 @@ certo, certāre, certāvī, certātum [verb] [I]
 
 concĭdo, concĭdĕre, concidi [verb] [III]
 ()
-1. upaść, być martwym
+1. upadać, być martwym
 
 turba, turbae [noun] [f] [I]
 (Turba spectans veniam gladiatori dare et vitam eius servare poterat)
@@ -1950,7 +1950,7 @@ vĕnĭa, veniae [noun] [f] [I]
 
 servo, servāre, servāvī, servātum [verb] [I]
 (Turba spectans veniam gladiatori dare et vitam eius servare poterat)
-1. chronić, zachować, oszczędzać
+1. chronić, zachowywać, oszczędzać
 
 indĭco, indĭcāre, indicāvī, indicātum [verb] [I]
 (Sed plerusque pollice verso mortem iacenti humi indicabat)
