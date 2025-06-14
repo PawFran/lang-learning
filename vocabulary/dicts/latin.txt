@@ -758,7 +758,7 @@ cerno, cernĕre, crevi, cretum [verb] [III]
 
 signum, signi [noun] [n] [II]
 (Signum tuba extemplo dabitur)
-1. znak
+1. znak, sygnał, sztandar, posąg
 
 extemplō [adv]
 (Signum tuba extemplo dabitur)
@@ -2503,7 +2503,8 @@ părātus, parată, paratum [adj]
 
 insignĕ, insignis [noun] [n] [III]
 (Rex ostendabat exercitum argenteis et aureis insignibus florentem)
-1. znak, emblemat, odznaka
+1. odznaka, emblemat
+[nieco podobne do signum, ale używane w kontekście czegoś, co wyróżnia, np. kojarzy się z rangą, stanowiskiem itp.]
 
 currŭs, currūs [noun] [m] [IV]
 (Rex ostendabat currus cum falcibus)
@@ -2648,13 +2649,15 @@ rĕlictus, relictă, relictum [adj]
 ()
 1. opuszczony, porzucony
 
-attingo, attingĕre, attigi, attactum [verb] [III]
+attingō, attingere, attigī, attāctum [verb] [III]
 (Ursus mortuorum corpora non attingit)
-1. dotykać
+1. dosięgać, dotykać
+[w przeciwieństwie do tango podkreśla nie sam fakt styczności, ale fakt "dosięgania", doprowadzania do styczności]
 
-tango, tangĕre, tetigi, tactum [verb] [III]
+tangō, tangere, tetigī, tāctum [verb] [III]
 ()
-1. dotykać
+1. dotykać, naruszać, stykać się z
+[pokreśla sam stan "dotykania", "styczności" itp. a nie akcję doprowadzającą do niego (attingo)]
 
 mortŭus, mortuă, mortuum [adj]
 (Ursus mortuorum corpora non attingit)
