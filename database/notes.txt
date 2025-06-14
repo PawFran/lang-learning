@@ -1,5 +1,9 @@
 TODO
 
+skroty klawiszowe do aplikacji dodac
+
+youtrack sprawdzic
+
 czemu w widoku words_with_translations nie ma adverbs, adjectives ani conjunctions ?
 
 skroty klawiszowe macos pycharm focus terminal vs notebook
@@ -12,6 +16,10 @@ zaimportowac do vscode skroty z pycharm
 opcja "perfect match" w reversed translation (nie trzeba potwierdzenia). zaimplementować i dodać do dokumentacji
 
 dorobic opcje -continue dla cwiczen declension / conjugation / translation / reversed translation
+
+reversed translation priorytety odpytywania, opcje w stylu "top"
+
+zebrac do markdown notatki z chata gpt latin - rozne czaty
 
 generator form na podstawie regul (haskell)
 
@@ -47,22 +55,20 @@ do cwiczen na deklinacje koniugacje brac pod uwage wszystkie slowa ze slownika:
 
 może przy szukaniu podobieństw nie powinno się patrzeć na nawiasy ?
 
-reversed translation:
-* wyliczać podobieństwo skojarzeń
-* próg na podobieństwo zastosować
-* jeśli wpisane słowo 100% pokrywa się z którąś z sugestii automatycznie je uznać (i powiedzieć o tym)
-* to samo jeśli tylko jedno pasuje (przy zastosowaniu progu)
-
 dodać ćwiczenia na pozostałe formy, w tym nieodmienne:
 inf, part, gerundium
 dodać widok agregujący ćwiczenia ?
 
 ćwiczenie odwrotne do declension / conjugation - słowo i jakie to formy (reversed declension, reversed conjugation)
 
+czasem [pl] jest nie do calego slowa, ale do jednego z tlumaczen (np. impedimentum)
+
 zrobić ćwiczenie dla word_comparison ?
 skrypt moglby wypisywac znaczenia + komentarze
 
 scrape mogloby dzialac podwojnie - tak jak teraz ale tez dodawac zwrotke z czata. w tym samym miejscu albo osobno
+
+czasem slowa w tlumaczeniu to doprecyzowania, a czasem kolejne tlumaczenia - jak je odroznic ?
 
 złe wyliczanie skuteczności ćwiczeń ? ind pres act 94 a nie 100%
 

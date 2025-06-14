@@ -715,43 +715,46 @@ fossa, fossae [noun] [f] [I]
 
 fŏdĭo, fŏdĕre, fodi, fossum [verb] [III]
 (Circum castra fossa fodiebatur et vallum struebatur)
-1. kopać
+1. kopać, wydobywać
 
 vallum, valli [noun] [n] [II]
 (Circum castra fossa fodiebatur et vallum struebatur)
 1. wał
 
-impedimenta, impedimentōrum [noun] [n] [II]
-(Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
-1. tabor
-
 impĕdīmentum, impedimenti [noun] [n] [II] [pl]
 (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
-1. przeszkoda
+1. przeszkoda, utrudnienie, opóźnienie
+2. bagaż, ekwipunek, tabor [pl]
+[typowe dla łaciny wykorzystanie pojęcia konkretnego do opisania czegoś abstrakcyjnego - "bagaż" jest "przeszkodą" w ruchu]
 
 spŏlĭa, spoliōrum [noun] [n] [I] [pl]
 (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
-1. łupy
+1. łupy, trofea
 
-tăbernācŭlum, tabernaculi [noun] [n] [II]
+tabernāculum, tabernaculi [noun] [n] [II]
 (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
-1. namiot
+1. namiot, szałas, przenośne schronienie
+[w ogólnym znaczeniu oznacza schronienie / mieszkanie, które jest przenośne, tymczasowe. używane również w literaturze chrześcijańskiej jako ciało = tymczasowe mieszkanie dla duszy]
 
 cŭmŭlo, cŭmŭlāre, cumulāvī, cumulātum [verb] [I]
 (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
-1. gromadzić
+1. gromadzić, pomnażać, usypywać (na stos)
+[od cumulus - stos, masa nagromadzenie]
 
 dispōno, dispōnĕre, disposui, dispositum [verb] [III]
 (Custodiae per vallum disponentur)
-1. rozkładać, rozmieszczać
+1. rozmieszczać, rozporządzać
+[od "dis + pono" = "umieszczać w różne strony"]
 
 stătim [adv]
 (Statim a custodiis cernentur)
-1. natychmiast
+1. natychmiast, od razu
+[znaczenie takie samo jak extemplō, ale częściej używane, neutralne, prozaiczne]
 
 cerno, cernĕre, crevi, cretum [verb] [III]
 (Statim a custodiis cernentur)
-1. spostrzegać
+1. dostrzegać, zauważać, rozróżniać, decydować
+["dostrzegać" dosłownie i w przenośni. chodzi nie tylko o "widzenie", ale o widzenie "wyraźne", zauważanie różnic, granic itp. pierwotnie oznaczało "przesiewać, oddzielać". powiązane: secerno, decerno, discerno, cretus, discretus]
 
 signum, signi [noun] [n] [II]
 (Signum tuba extemplo dabitur)
@@ -759,7 +762,8 @@ signum, signi [noun] [n] [II]
 
 extemplō [adv]
 (Signum tuba extemplo dabitur)
-1. natychmiast
+1. natychmiast, od razu
+[znaczenie takie samo jak statim, ale rzadziej używane, bardziej literackie i poetyckie]
 
 făcĭo, făcĕre, feci, factum [verb] [III]
 (Tribunus verba facit: audite!)
