@@ -201,7 +201,7 @@ aedificium, aedificiī [noun] [n], [II]
 
 struō, struere, strūxī, strūctum [verb] [III]
 (Operarii aedificia magna struunt)
-1. układać, stawiać, budować, piętrzyć
+1. układać, stawiać, budować (piętrami)
 [często w przypadku tworzenia czegoś złożonego z wielu elementów/warstw/pięter - może być budynek, wał itp. ale też plan, intryga. raczej nie jest używane w przypadku czegoś bardzo wysokiego/monumentalnego (exstrŭo)]
 
 negōtium, negotiī [noun] [n] [II]
@@ -738,7 +738,7 @@ tabernāculum, tabernaculi [noun] [n] [II]
 
 cŭmŭlo, cŭmŭlāre, cumulāvī, cumulātum [verb] [I]
 (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
-1. gromadzić, pomnażać, usypywać (na stos)
+1. gromadzić, nagromadzać, pomnażać, usypywać (na stos), piętrzyć
 [od cumulus - stos, masa nagromadzenie]
 
 dispōno, dispōnĕre, disposui, dispositum [verb] [III]
@@ -2987,10 +2987,9 @@ lux, lucis [noun] [f] [III]
 (Vilica ancillas ad laborem prima luce cogebat)
 1. światło, światło dzienne
 
-cōgo, cōgĕre, coegi, coactum [verb] [III]
+cŏgō, cōgere, coēgī, coāctum [verb] [III]
 (Vilica ancillas ad laborem prima luce cogebat. Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)
-1. zbierać, gromadzić
-2. zmusić, doprowadzać (do jakiegoś stanu)
+1. zmuszać, zbierać, koncentrować, streszczać
 
 dĭūturnus, diuturnă, diuturnum [adj]
 (Ancillae diuturno labore fatigatae erant)
@@ -3342,7 +3341,7 @@ mĕmŏrābĭlis, memorabilis, memorabile [adj]
 
 exstruō, exstruere, exstrūxī, exstrūctum [verb] [III]
 (Artemisia sepulchrum memorabile viro exstruit)
-1. budować, wznosić, piętrzyć (dosłownie i w przenośni)
+1. wznosić, piętrzyć, budować
 [podobne do struō, ale podkreśla wysokość, monumentalność]
 
 obsĭdĕo, obsĭdēre, obsedi, obsessum [verb] [II]

@@ -24,7 +24,7 @@ negotium vs lăbŏr
 ago vs gero vs duco vs făcĭo
 beātus vs fēlix
 discō vs stŭdĕo
-aedificō vs struō vs exstruō
+aedificō vs struō vs exstruō vs cŭmŭlo
 porto vs apporto vs asporto vs praebeo vs advehō
 notus vs clarus vs praeclārus vs cĕlĕbĕr vs illustris
 deinde vs tum vs postea vs tandem
@@ -32,3 +32,4 @@ fugiō vs ēlūdō
 mŏnĕo vs admŏnĕo
 ămo vs dīlĭgo
 ĭtăquĕ vs ergō vs ĭgĭtur
+stătim vs extemplō
