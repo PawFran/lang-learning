@@ -42,3 +42,18 @@ session_id;user_name;declensions_included;interrupted
 30;default_user;demonstrative (ille, illa, illud);False
 31;default_user;demonstrative (idem, eadem, idem);False
 32;default_user;demonstrative (idem, eadem, idem);False
+33;default_user;II;False
+34;default_user;I;False
+35;default_user;III consonant;False
+36;default_user;III vowel;True
+36;default_user;V;False
+37;default_user;IV;False
+38;default_user;III vowel;False
+39;default_user;III mixed;False
+40;default_user;demonstrative (is, ea, id);False
+41;default_user;demonstrative (hic, haec, hoc);False
+42;default_user;relative (qui, quae, quod);False
+43;default_user;interrogative (quis? quid?);False
+44;default_user;demonstrative (ille, illa, illud);False
+45;default_user;demonstrative (idem, eadem, idem);False
+46;default_user;demonstrative (idem, eadem, idem);False

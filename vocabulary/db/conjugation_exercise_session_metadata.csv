@@ -71,3 +71,9 @@ session_id;user_name;conjugations_included;moods_included;tenses_included;voices
 57;default_user;I, II, III, IV;indicative;pluperfect;active;False
 58;default_user;I, II, III, IV;indicative;future simple;passive;False
 59;default_user;I, II, III, IV;indicative;future perfect;active;False
+60;default_user;I, II, III, IV;indicative;future perfect;passive;False
+61;default_user;I, II, III, IV;indicative;perfect;active;False
+62;default_user;I, II, III, IV;indicative;present;passive;False
+63;default_user;I, II, III, IV;indicative;present;active;False
+64;default_user;I, II, III, IV;indicative;pluperfect;passive;False
+65;default_user;I, II, III, IV;indicative;imperfect;active;False

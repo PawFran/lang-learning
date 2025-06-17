@@ -1,5 +1,7 @@
 TODO
 
+zapytać czata jakie czasowniki odmieniają się wg różnych wariantów III koniugacji, jakie wg IV, jakie wg V i skonfrontować to z notatkami
+
 skroty klawiszowe do aplikacji dodac
 
 youtrack sprawdzic
@@ -49,7 +51,8 @@ do cwiczen na deklinacje koniugacje brac pod uwage wszystkie slowa ze slownika:
 * mozliwosc wskazania konkretnego slowa przy uruchamianiu cwiczenia a jesli nie to losowe
 * jak losowe to brac pod uwage kiedy jakie bylo
 * trzeba brac po uwage do jakiej deklinacji/koniugacji slowo nalezy przy losowaniu
-* na poczatek po prostu przygotowac jsony z kilkoma innymi slowami i opcja wskazywania ?
+* na poczatek po prostu przygotowac jsony z kilkoma innymi slowami i opcja wskazywania ?e
+* trzeba dac opcje wybierania konkretnego slowa jako argumentu w terminalu
 
 może przy szukaniu podobieństw nie powinno się patrzeć na nawiasy ?
 

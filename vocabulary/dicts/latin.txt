@@ -767,24 +767,28 @@ extemplō [adv]
 
 făcĭo, făcĕre, feci, factum [verb] [III]
 (Tribunus verba facit: audite!)
-1. zrobić, sprawić, wytworzyć, wyrządzić
+1. zrobić, uczynić, sprawić, wytworzyć, wyrządzić
 [bardzo szeroki zakres "robienia" ale zawsze nacisk na efekt i na dokonanie czynności np. zbudować most, złożyć ofiarę, uczynić szczęśliwym, wypowiedzieć słowa, wyrządzić szkodę]
 
 tēlum, teli [noun] [n] [II]
 (Tela a vobis parabuntur)
-1. pocisk
+1. pocisk, oszczep, strzała
+[ogólnie broń miotana / zaczepna]
 
 fortĭtĕr [adv]
 (Si fortiter pugnabitis, Poeni depellentur)
-1. odważnie
+1. odważnie, dzielnie, mężnie, z determinacją, stanowczo
+[podkreśla niezachwianą postawę]
 
 pugno, pugnāre, pugnāvī, pugnātum [verb] [I]
 (Si fortiter pugnabitis, Poeni depellentur)
-1. walczyć
+1. walczyć, bić się, toczyć bitwę
+[przeważnie walka w sensie fizyzycznym/militarnym, rzadziej w przenośni]
 
-dēpello, dēpellĕre, depuli, depultum [verb] [I]
+dēpellō, dēpellere, dēpulī, dēpulsum [verb] [I]
 (Si fortiter pugnabitis, Poeni depellentur)
-1. odpędzać
+1. odpędzać, odganiać, wypędzać
+[de + pello = "popychać od"]
 
 vinco, vincĕre, vici, victum [verb] [III]
 (Si fortiter pugnabitis, Poeni vincentur)
@@ -800,7 +804,8 @@ custōdĭa, custodiae [noun] [f] [I]
 
 apprŏpinquo, apprŏpinquāre, appropinquāvī, appropinquātum [verb] [I]
 (Poeni vallo appropinquabunt)
-1. zbliżać się (+ dat)
+1. zbliżać się, nadchodzić, podchodzić (+ dat)
+[łączenie się z dativem jest naturalne, bo dopełnienie opisuje "cel" zbliżania. ad + propinquo = "być blisko do"]
 
 tŭba, tubae [noun] [f] [I]
 (Signum tuba extemplo dabitur)
