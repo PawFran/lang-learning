@@ -7,6 +7,7 @@ skroty klawiszowe do aplikacji dodac
 youtrack sprawdzic
 
 skroty klawiszowe macos pycharm focus terminal vs notebook
+dodać ctrl+shift+[0-9] jako zakładka do linii i ctrl+[0-9] jako przejście do zakładki + F3 (z Fn) do usunięcia zakładki oraz shift+F3 przejście do następnej zakładki
 
 macos makrony lacinskie skroty klawiszowe
 

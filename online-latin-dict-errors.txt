@@ -4,3 +4,7 @@ prawd. zle tlumaczenie liber
 * takie jak tutaj jest dla "ksiazka"
 * w ogole na tej stronie widac blad (porownanie tego co sie zaznacza z tym co jest wyswietlane w tlumaczeniu) https://www.online-latin-dictionary.com/latin-english-dictionary.php?lemma=LIBER200#
 * wyglada jakby liber (ksiazki) z liberi (dzieci) bylo odwrocone
+
+salve nie jest przysłówkiem, tylko czasownikiem (salvere)
+https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=salve
+

@@ -817,7 +817,7 @@ impĕrātŏr, imperatoris [noun] [m] [III]
 
 praetōrĭum, praetorii [noun] [n] [II]
 ()
-1. kwatera główna
+1. kwatera główna, namiot dowódcy, siedziba władzy
 
 lĕgĭo, legionis [noun] [f] [III]
 ()
@@ -834,15 +834,11 @@ victŏr, victoris [noun] [m] [III]
 
 salvē [adv]
 ()
-1. witaj
+1. witaj, bądź zdrów
 
 dēfendo, dēfendĕre, defendi, defensum [verb] [III]
 ()
 1. bronić
-
-fīnes, fīnium [noun] [m] [III] [pl]
-()
-1. państwo
 
 prŏhĭbĕo, prŏhĭbēre, prohibui, prohibitum [verb] [II]
 ()
@@ -2827,6 +2823,7 @@ etiam atque etiam [adv]
 fīnis, finis [noun] [m/f] [III]
 (Nolani et Neapolitani etiam atque etiam de finibus certabant)
 1. granica, koniec
+2. obszar, terytorium [pl]
 
 instĭtŭo, instĭtŭĕre, institui, institutum [verb] [III]
 (Fabius Labeo fines inter Nolanos et Neapolitanos instituere debebat)
