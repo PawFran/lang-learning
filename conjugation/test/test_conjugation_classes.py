@@ -27,9 +27,16 @@ small_test_dict = {
     },
 }
 
-json_file_path = os.path.join("conjugation", "test", "resources", "conjugation.json")
-with open(json_file_path, encoding="utf8") as f:
-    test_dict = json.load(f)
+
+def prepare_test_dict(json_file_path: str):
+    with open(json_file_path, encoding="utf8") as f:
+        return json.load(f)
+
+
+try:
+    test_dict = prepare_test_dict(os.path.join("conjugation", "test", "resources", "conjugation.json"))
+except FileNotFoundError:
+    test_dict = prepare_test_dict(os.path.join("resources", "conjugation.json"))
 
 
 def test_conjugation_type_from_dict():
