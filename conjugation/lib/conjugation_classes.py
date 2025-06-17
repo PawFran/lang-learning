@@ -51,7 +51,7 @@ class Mood(Enum):
         match s.lower().strip():
             case 'indicativus' | 'indicative' | 'ind':
                 return Mood.Indicativus
-            case 'imperativus' | 'imperative' | 'imp':
+            case 'imperativus' | 'imperative' | 'imp' | 'imper':
                 return Mood.Imperativus
             case 'coniunctivus' | 'subjunctive' | 'con' | 'sub':
                 return Mood.Coniunctivus
