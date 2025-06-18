@@ -767,7 +767,7 @@ extemplō [adv]
 
 făcĭo, făcĕre, feci, factum [verb] [III]
 (Tribunus verba facit: audite!)
-1. zrobić, uczynić, sprawić, wytworzyć, wyrządzić
+1. robić, czynić, sprawiać, wytwarzać, wyrządzać
 [bardzo szeroki zakres "robienia" ale zawsze nacisk na efekt i na dokonanie czynności np. zbudować most, złożyć ofiarę, uczynić szczęśliwym, wypowiedzieć słowa, wyrządzić szkodę]
 
 tēlum, teli [noun] [n] [II]
@@ -832,17 +832,14 @@ victŏr, victoris [noun] [m] [III]
 (Victorem a victo superari saepe videmus)
 1. zwycięzca
 
-salvē [adv]
-()
-1. witaj, bądź zdrów
-
 dēfendo, dēfendĕre, defendi, defensum [verb] [III]
 ()
 1. bronić
 
 prŏhĭbĕo, prŏhĭbēre, prohibui, prohibitum [verb] [II]
-()
-1. powstrzymywać, zabraniać
+(Te ab urbe prohibeō. Lēx prohibet fūrārī.)
+1. powstrzymywać, zabraniać, nie dopuszczać (+ acc lub + inf)
+[pro + hibeo = "trzymać przed/od". popularne konstrukcje: 1) prohibeō + accusativus + ab + ablativus 2) prohibeō + infinitivus]
 
 lex, legis [noun] [f] [III]
 ()
@@ -854,12 +851,12 @@ auctor, auctōris [noun] [m] [III]
 
 salus, salūtis [noun] [f] [III]
 (Leges ad civium salutem inventas esse constat)
-1. bezpieczeństwo, pomyślność, zdrowie
+1. zdrowie, ocalenie, pomyślność, bezpieczeństwo
 2. pozdrowienie
 
 dispŭto, dispŭtāre, disputāvī, disputātum [verb] [I]
 ()
-1. dyskutować
+1. dyskutować, rozważać,
 
 cīvis, civis [noun] [m/f] [III]
 ()
@@ -871,7 +868,8 @@ adversarius, adversarii [noun] [m] [II]
 
 făvĕo, făvēre, fāvī, fautum [verb] [II]
 ()
-1. sprzyjać
+1. sprzyjać, kibicować, faworyzować (+ dat)
+[po polsku niektóre tłumaczenia łączyłyby się z celownikiem, inne z biernikiem (faworyzować "kogoś"), w łacinie zawsze z celownikiem (nieprzechodni)]
 
 nōmĕn, nominis [noun] [n] [III]
 ()
@@ -898,16 +896,18 @@ scriptŏr, scriptoris [noun] [m] [III]
 (Romam a Romulo conditam esse scriptores tradunt)
 1. pisarz
 
-tĕnĕo, tĕnēre, tenui, tentum [verb] [II]
+teneō, tenēre, tenuī, tentum [verb] [II]
 ()
 1. trzymać
+[zarówno dosłownie (np. gladium tenet) jak i w przenośni np. "trzymać coś w pamięci". bardziej neutralne niż obtineō (które jest bardziej urzędowe)]
 
 quăm [adv]
-()
-1. jak, jak bardzo
+(Quam pulchra es! )
+1. jak, jak bardzo, jak tylko, jak tylko się da
+[]
 
 quăm [conj]
-()
+(Pulchrior quam soror)
 1. niż
 
 urbs, urbis [noun] [f] [III]
@@ -3602,10 +3602,10 @@ prōconsŭlāris, proconsularis, proconsulare [adj]
 (Dominus meus provinciam Africam proconsulari imperio obtinebat)
 1. prokonsularny
 
-obtĭnĕo, obtĭnēre, obtinui, obtentum [verb] [II]
+obtineō, obtinēre, obtinuī, obtentum [verb] [II]
 (Dominus meus provinciam Africam proconsulari imperio obtinebat)
-1. utrzymywać, zachowywać, uzyskiwać, zajmować
-[ob + teneo = trzymać naprzeciw, trzymać wobec. podkreśla więc posiadanie/zdobycie czegoś w obliczu przeciwności]
+1. utrzymywać, zachowywać, uzyskiwać, obejmować urząd
+[ob + teneo = trzymać naprzeciw, trzymać wobec. podkreśla więc posiadanie/zdobycie czegoś w obliczu przeciwności. silniejsze niż teneō i używane bardziej w kontekście formalnej władzy, kontroli, sprawowania urzędu itp.]
 
 a/ăb [prep]
 (Statim a custodiis cernentur. Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi)

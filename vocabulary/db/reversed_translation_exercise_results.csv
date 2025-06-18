@@ -393,3 +393,27 @@ default_user;20;latin;signum, signi [noun] [n] [II];Signum tuba extemplo dabitur
 default_user;20;latin;impĕdīmentum, impedimenti [noun] [n] [II] [pl];Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur;2;przeszkoda, utrudnienie, opóźnienie | bagaż, ekwipunek, tabor [pl];przeszkoda, utrudnienie, opóźnienie;True;2025-06-14 11:16:12
 default_user;20;latin;impĕdīmentum, impedimenti [noun] [n] [II] [pl];Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur;2;bagaż, ekwipunek, tabor [pl];bagaż, ekwipunek, tabor [pl];True;2025-06-14 11:16:12
 default_user;20;latin;invĕnĭo, invĕnīre, inveni, inventum [verb] [IV];.. ubi aqua facile invenīri poterat;1;znaleźć, odkryć, wymyślić, napotkać;znaleźć, odkryć, wymyślić, napotkać;True;2025-06-14 11:17:32
+default_user;21;latin;praemĭum, praemii [noun] [n] [II];Praemia vobis dabuntur;1;nagroda;nagroda;True;2025-06-17 20:18:51
+default_user;21;latin;tēlum, teli [noun] [n] [II];Tela a vobis parabuntur;1;pocisk, oszczep, strzała;pocisk, oszczep, strzała;True;2025-06-17 20:18:56
+default_user;21;latin;fortĭtĕr [adv];Si fortiter pugnabitis, Poeni depellentur;1;odważnie, dzielnie, mężnie, z determinacją, stanowczo;odważnie, dzielnie, mężnie, z determinacją, stanowczo;True;2025-06-17 20:19:48
+default_user;21;latin;auctor, auctōris [noun] [m] [III];;1;sprawca;sprawca;True;2025-06-17 20:19:52
+default_user;21;latin;făcĭo, făcĕre, feci, factum [verb] [III];Tribunus verba facit: audite!;1;zrobić, uczynić, sprawić, wytworzyć, wyrządzić;zrobić, uczynić, sprawić, wytworzyć, wyrządzić;True;2025-06-17 20:20:51
+default_user;21;latin;pārĕo, pārēre, parui, paritum [verb] [II];;1;być posłusznym (ogólnie komuś, czemuś) (+ dat);być posłusznym (ogólnie komuś, czemuś) (+ dat);True;2025-06-17 20:21:09
+default_user;21;latin;prŏhĭbĕo, prŏhĭbēre, prohibui, prohibitum [verb] [II];Te ab urbe prohibeō. Lēx prohibet fūrārī.;1;powstrzymywać, zabraniać, nie dopuszczać (+ acc lub + inf);tłumić, powstrzymywać;False;2025-06-17 20:21:39
+default_user;21;latin;prŏhĭbĕo, prŏhĭbēre, prohibui, prohibitum [verb] [II];Te ab urbe prohibeō. Lēx prohibet fūrārī.;1;powstrzymywać, zabraniać, nie dopuszczać (+ acc lub + inf);;False;2025-06-17 20:21:42
+default_user;21;latin;lex, legis [noun] [f] [III];;1;prawo;prawo;True;2025-06-17 20:22:23
+default_user;21;latin;custōdĭa, custodiae [noun] [f] [I];Custodiae per vallum disponentur;1;straż;straż;True;2025-06-17 20:22:39
+default_user;21;latin;tŭba, tubae [noun] [f] [I];Signum tuba extemplo dabitur;1;trąba;róg;False;2025-06-17 20:23:18
+default_user;21;latin;tŭba, tubae [noun] [f] [I];Signum tuba extemplo dabitur;1;trąba;;False;2025-06-17 20:23:21
+default_user;21;latin;vinco, vincĕre, vici, victum [verb] [III];Si fortiter pugnabitis, Poeni vincentur;1;zwyciężać;zwyciężać;True;2025-06-17 20:24:14
+default_user;21;latin;apprŏpinquo, apprŏpinquāre, appropinquāvī, appropinquātum [verb] [I];Poeni vallo appropinquabunt;1;zbliżać się, nadchodzić, podchodzić (+ dat);zbliżać się, podchodzić;False;2025-06-17 20:24:28
+default_user;21;latin;apprŏpinquo, apprŏpinquāre, appropinquāvī, appropinquātum [verb] [I];Poeni vallo appropinquabunt;1;zbliżać się, nadchodzić, podchodzić (+ dat);zbliżać się, nadchodzić, podchodzić (+ dat);True;2025-06-17 20:26:34
+default_user;21;latin;victŏr, victoris [noun] [m] [III];Victorem a victo superari saepe videmus;1;zwycięzca;zwycięzca;True;2025-06-17 20:26:46
+default_user;21;latin;impĕrātŏr, imperatoris [noun] [m] [III];;1;wódz;wódz;True;2025-06-17 20:26:52
+default_user;21;latin;dēfendo, dēfendĕre, defendi, defensum [verb] [III];;1;bronić;bronić;True;2025-06-17 20:26:59
+default_user;21;latin;dēpellō, dēpellere, dēpulī, dēpulsum [verb] [I];Si fortiter pugnabitis, Poeni depellentur;1;odpędzać, odganiać, wypędzać;;False;2025-06-17 20:27:57
+default_user;21;latin;pugno, pugnāre, pugnāvī, pugnātum [verb] [I];Si fortiter pugnabitis, Poeni depellentur;1;walczyć, bić się, toczyć bitwę;walczyć, bić się, toczyć bitwę;True;2025-06-17 20:28:15
+default_user;21;latin;praetōrĭum, praetorii [noun] [n] [II];;1;kwatera główna, namiot dowódcy, siedziba władzy;kwatera główna, namiot dowódcy, siedziba władzy;True;2025-06-17 20:28:41
+default_user;21;latin;salus, salūtis [noun] [f] [III];Leges ad civium salutem inventas esse constat;2;zdrowie, ocalenie, pomyślność, bezpieczeństwo | pozdrowienie;zdrowie, ocalenie, pomyślność, bezpieczeństwo;True;2025-06-17 20:29:06
+default_user;21;latin;salus, salūtis [noun] [f] [III];Leges ad civium salutem inventas esse constat;2;pozdrowienie;pozdrowienie;True;2025-06-17 20:29:35
+default_user;21;latin;lĕgĭo, legionis [noun] [f] [III];;1;legion;legion;True;2025-06-17 20:29:41

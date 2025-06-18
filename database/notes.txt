@@ -1,5 +1,36 @@
 TODO
 
+"powstrzymywać" ma kilka tłumaczeń - co najmniej trzy
+
+custodia sprawdzić tłumaczenia
+
+zbliżać się, podchodzić vs zbliżać się, nadchodzić, podchodzić (+ dat)
+
+walczyć, rywalizować vs walczyć, bić się, toczyć bitwę
+
+jakiś inny SynonymFinder ? ten jest słaby do j. polskiego, np. "róg" zwraca:
+1. róg (100.0%)
+2. rów (89.0%)
+3. wróg (87.0%)
+
+w ogóle powinno się wyliczać podobieństwa per segment (między rzecinkami, bez nawiasów) ? patrz:
+zbliżać się, podchodzić
+1. zbliżać się, podchodzić (100.0%)
+2. zbliżać się, nadchodzić, podchodzić (+ dat) (96.0%)
+3. przychodzić (91.0%)
+
+translation (or 's' for skip): podchodzić
+1. przychodzić (93.0%)
+2. zbliżać się, podchodzić (92.0%)
+3. odchodzić (92.0%)
+
+zbawienie ocalenie
+1. wygnanie (88.0%)
+2. wyginięcie, zniszczenie (87.0%)
+3. zdrowie, ocalenie, pomyślność, bezpieczeństwo (87.0%)
+
+dodać możliwość wpisywania wielu tłumaczeń - oddzielać średnikami ?
+
 zapytać czata jakie czasowniki odmieniają się wg różnych wariantów III koniugacji, jakie wg IV, jakie wg V i skonfrontować to z notatkami
 
 skroty klawiszowe do aplikacji dodac
@@ -33,7 +64,11 @@ konsekwentnie w slowniku zaznaczac tylko dlugie makrony ? ew. jesli krotki jest 
 cwiczenie: funkcje przypadkow. zdania i do nich trzeba przyporzadkowac odpowiednia funkcje (czyli po prostu losowanie przykladow. moze z niebieskiej ksiazki skladnia lacinska ? albo rozowa)
 aktualny wydruk funkcji przypadkow i przyimkow
 
+dodać info o tym, które czasowniki są przechodnie, a które nie (chyba wystarczy "które nie", bo powinno ich być mniej)
+
 ### synonimy ###
+
+dzielnie nie zwraca "odważnie, dzielnie, mężnie, z determinacją, stanowczo"
 
 "wierzyć" nie zwraca "myśleć, wierzyć, sądzić" - pewnie kiepsko działa, jak jest wiele słów ? albo większa liczba synonimów albo niech patrzy na każde słowo z osobna kiedy jest kilka oddzielonych przecinkami ?
 
