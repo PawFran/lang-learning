@@ -800,16 +800,17 @@ praemĭum, praemii [noun] [n] [II]
 
 custōdĭa, custodiae [noun] [f] [I]
 (Custodiae per vallum disponentur)
-1. straż
+1. straż, pilnowanie, areszt, ochrona, dozór
+[jako "straż" może oznaczać zarówno akt pilnowania, jak i jednostkę pilnującą]
 
 apprŏpinquo, apprŏpinquāre, appropinquāvī, appropinquātum [verb] [I]
 (Poeni vallo appropinquabunt)
-1. zbliżać się, nadchodzić, podchodzić (+ dat)
+1. zbliżać się, podchodzić, nadchodzić (dosłownie lub w czasie) (+ dat)
 [łączenie się z dativem jest naturalne, bo dopełnienie opisuje "cel" zbliżania. ad + propinquo = "być blisko do"]
 
 tŭba, tubae [noun] [f] [I]
 (Signum tuba extemplo dabitur)
-1. trąba
+1. trąba, tuba
 
 impĕrātŏr, imperatoris [noun] [m] [III]
 ()
