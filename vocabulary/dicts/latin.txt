@@ -561,10 +561,10 @@ victŭs, victa, victum [adj]
 
 prĕmo, prĕmĕre, pressi, pressum [verb] [III]
 (Romani bella gerebant, populos victos premebant)
-1. naciskać, przyciskać
+1. naciskać, przyciskać, przygniatać
 2. gnębić, uciskać
-3. tłumić, powstrzymywać
-[wywierać presję, nacisk - dosłownie i w przenośni]
+3. tłumić, powstrzymywać, tłamsić
+[wywierać presję, nacisk - dosłownie i w przenośni. zarówno, żeby coś wywołać, jak i żeby powstrzymać coś, co wzbiera]
 
 ăpud [prep]
 (In numero servōrum apud Graecos multi captivi erant)
@@ -838,8 +838,8 @@ dēfendo, dēfendĕre, defendi, defensum [verb] [III]
 
 prŏhĭbĕo, prŏhĭbēre, prohibui, prohibitum [verb] [II]
 (Te ab urbe prohibeō. Lēx prohibet fūrārī.)
-1. powstrzymywać, zabraniać, nie dopuszczać (+ acc lub + inf)
-[pro + hibeo = "trzymać przed/od". popularne konstrukcje: 1) prohibeō + accusativus + ab + ablativus 2) prohibeō + infinitivus]
+1. uniemożliwiać, zabraniać, nie dopuszczać, powstrzymywać (+ acc lub + inf)
+[pro + hibeo = "trzymać przed/od". popularne konstrukcje: 1) prohibeō + accusativus + ab + ablativus 2) prohibeō + infinitivus. w przeciwieństwie do premo, które oznacza "powstrzymywać" w sensie "tłumić", tzn. w sensie aktywnego działania "przeciw", prohibeo oznacza powstrzymanie "prewencyjne" poprzez postawienie zakazu czy środków zaradczych, które sprawiają, że coś się nie dzieje]
 
 lex, legis [noun] [f] [III]
 ()
@@ -902,13 +902,14 @@ teneō, tenēre, tenuī, tentum [verb] [II]
 [zarówno dosłownie (np. gladium tenet) jak i w przenośni np. "trzymać coś w pamięci". bardziej neutralne niż obtineō (które jest bardziej urzędowe)]
 
 quăm [adv]
-(Quam pulchra es! )
+(Quam pulchra es! Tam celeriter quam potui. Celerrimē quam)
 1. jak, jak bardzo, jak tylko, jak tylko się da
-[]
+[używany w pytaniach i wykrzyknieniach oraz jako wzmocnienie przymiotnika (tak szybko, jak mógł) lub "opisanie" przymiotnika w stopniu najwyższym (najszybciej, jak się da)]
 
 quăm [conj]
 (Pulchrior quam soror)
 1. niż
+[używane w porównaniach, chociaż one mogę się też obyć bez tego - patrz. abl comparationis: Pulchrior quam soror = Pulchrior sorore]
 
 urbs, urbis [noun] [f] [III]
 (Necari iube eum, qui tibi in urbis porta primus occurret)
@@ -1686,9 +1687,10 @@ captus, capta, captum [adj]
 ()
 1. miłość
 
-rĕtĭnĕo, rĕtĭnēre, retinui, retentum [verb] [II]
+rĕtĭnĕō, retinēre, retinuī, retentum [verb] [II]
 ()
-1. zatrzymywać, powstrzymywać, nie puszczać
+1. zatrzymywać (przy sobie), nie wypuszczać, powstrzymywać, zachowywać
+[podobnie jak prĕmo może oznaczać panowanie nad emocjami, ale z innym wydźwiękiem: prĕmo jest bardziej dramatyczne, oznacza aktywną walkę, a rĕtĭnĕō kontrolę (powstrzymać vs tłumić]
 
 ăvis, avis [noun] [f] [III]
 ()
@@ -2754,10 +2756,11 @@ dērīsŏr, derisoris [noun] [m] [III]
 (Qui se ipse laudat, cito derisorem invenit)
 1. szyderca, kpiarz
 
-parco, parcĕre, peperci, parsum [verb] [III]
+părcō, parcere, pepercī [verb] [III]
 (Mors parcit nulli)
-1. powstrzymywać się, powstrzymywać się od
-2. oszczędzać (+ dat ?)
+1. oszczędzać, mieć litość, darować, wybaczać (+ dat)
+2. powściągać się, powstrzymywać się (od czegoś) (+ dat)
+[celownik zapewne ze względu na korzyść (dat. commodi), z resztą nawet w polskim bywa podobnie: "daruj mi życie", "oszczędź mi kazania" itp.]
 
 antĕpōno, antĕpōnĕre, anteposui, antepositum [verb] [III]
 (Leges salutem omnium singulorum saluti anteponunt)

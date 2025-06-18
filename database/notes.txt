@@ -47,6 +47,8 @@ zaimportowac do vscode skroty z pycharm
 
 opcja "perfect match" w reversed translation (nie trzeba potwierdzenia). zaimplementować i dodać do dokumentacji
 
+zapytac czat o sprawdzenie poprawnosci wszystkich form - czy np. sup albo inne ok, czy makrony ok itp.
+
 dorobic opcje -continue dla cwiczen declension / conjugation / translation / reversed translation
 
 reversed translation priorytety odpytywania, opcje w stylu "top"
