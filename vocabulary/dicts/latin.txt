@@ -780,10 +780,10 @@ fortĭtĕr [adv]
 1. odważnie, dzielnie, mężnie, z determinacją, stanowczo
 [podkreśla niezachwianą postawę]
 
-pugno, pugnāre, pugnāvī, pugnātum [verb] [I]
+pugnō, pugnāre, pugnāvī, pugnātum [verb] [I]
 (Si fortiter pugnabitis, Poeni depellentur)
 1. walczyć, bić się, toczyć bitwę
-[przeważnie walka w sensie fizyzycznym/militarnym, rzadziej w przenośni]
+[przeważnie walka w sensie fizyzycznym/militarnym, z użyciem broni, rzadziej w przenośni]
 
 dēpellō, dēpellere, dēpulī, dēpulsum [verb] [I]
 (Si fortiter pugnabitis, Poeni depellentur)
@@ -857,7 +857,7 @@ salus, salūtis [noun] [f] [III]
 
 dispŭto, dispŭtāre, disputāvī, disputātum [verb] [I]
 ()
-1. dyskutować, rozważać,
+1. dyskutować, rozważać
 
 cīvis, civis [noun] [m/f] [III]
 ()
@@ -918,11 +918,14 @@ urbs, urbis [noun] [f] [III]
 
 appello, appellere, appuli, appulsum [verb] [III]
 (Noster ille Ennius sanctos appellat poetas)
-1. nazywać
+1. nazywać, mianować
+2. zwracać się do, przemawiać do (+ acc lub + ad + acc)
+[ad + pello = "kierować do"]
 
 dignus, dignă, dignum [adj]
 ()
-1. godny (+ abl)
+1. godny (czegoś), wart (czegoś), zasługujący (na coś), odpowiedni, stosowny (+ abl)
+[nie musi być pozytywne - np. "godny pożałowania". wydźwięk zależy od dopełnienia, jeśli jest. jeśli nie ma dopełnienia i dignus występuje jako przydawka znaczenie ma prawie zawsze pozytywne (np. godna odpowiedź). dla negatywnego wydźwięku przydawki używa się "indignus"]
 
 mīlĕs, militis [noun] [m] [III]
 ()
@@ -930,21 +933,25 @@ mīlĕs, militis [noun] [m] [III]
 
 grātĭa, grātĭae [noun] [f] [I]
 ()
-1. życzliwość
-2. wdzięczność
-3. (+ gen) dla, ze względu na coś
+1. łaska, przychylność, życzliwość
+2. wdzięk, urok
+3. wdzięczność
+4. (+ gen) dla (czegoś), ze względu na (coś)
+[od gratia pochodzi włoskie grazie, hiszpańskie gracias (podziękowania), oraz polskie "gracja"]
 
 hŏnestus, honestă, honestum [adj]
 ()
-1. uczciwy
+1. uczciwy, szlachetny, honorowy
+[od honor – zaszczyt, godność, szacunek]
 
 interrŏgo, interrŏgāre, interrogāvī, interrogātum [verb] [I]
 ()
-1. pytać
+1. pytać, wypytywać, przesłuchiwać
 
 quōmŏdŏ [adv]
-(Necari iube eum, qui tibi in urbis porta primus occurret)
+()
 1. jak, w jaki sposób
+[quo (dokąd) + modo (sposób działania) - używane w pytaniach. znaczenie takie samo jaki "qui" (jako przysłówka, nie zaimka), ale znacznie częściej używane]
 
 imprŏbus, improba, improbum [adj]
 ()
@@ -965,7 +972,8 @@ plūrĭmum [adv]
 
 quī [adv]
 ()
-1. w jaki sposób?, jak?, dlaczego?
+1. jak, w jaki sposób
+[znaczenie takie samo jak quōmŏdŏ ale dużo rzadziej używane (qui to przede wszystkim zaimek)]
 
 gaudĭum, gaudii [noun] [n] [II]
 ()
@@ -1933,9 +1941,10 @@ mūnŭs, muneris [noun] [n] [III]
 (Cum munera gladiatoria erant)
 1. widowisko publiczne, igrzyska
 
-certo, certāre, certāvī, certātum [verb] [I]
+certō, certāre, certāvī, certātum [verb] [I]
 (Spectantium oculi in certantes versi erant)
-1. walczyć, rywalizować
+1. rywalizować, współzawodniczyć, walczyć
+[podkreśla bardziej rywalizację niż walkę fizyczną (pugnō), chociaż ją też może oznaczać]
 
 concĭdo, concĭdĕre, concidi [verb] [III]
 ()
