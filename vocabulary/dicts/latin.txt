@@ -938,11 +938,11 @@ urbs, urbis [noun] [f] [III]
 1. miasto, metropolia
 [używane w kontekście dużych, wpływowych ośrodków, kiedy na pierwszy plan wysuwa się znaczenie polityczne, kulturowe itp. - w przeciwieństwie do oppidum, które oznacza ogólnie "osadę miejską"]
 
-appello, appellere, appuli, appulsum [verb] [III]
+appellō, appellāre, appellāvī, appellātum [verb] [III]
 (Noster ille Ennius sanctos appellat poetas)
-1. nazywać, mianować
+1. nazywać, tytułować
 2. zwracać się do, przemawiać do (+ acc lub + ad + acc)
-[ad + pello = "kierować do"]
+[ad + pello = "kierować do". częste w ACI w zwrotach w stylu "nazywam go swoim przyjacielem". w przeciwieństwie do nōminō, która oznacza nadawanie imienia, appellō używa się w sytuacjach związanych ze zwracaniem się do kogoś]
 
 dignus, dignă, dignum [adj]
 ()
@@ -1169,9 +1169,11 @@ aetās, aetatis [noun] [f] [III]
 ()
 1. wiek, era
 
-nōmĭno, nōmĭnāre, nomināvī, nominātum [verb] [I]
+nōminō, nōmināre, nōmināvī, nōminātum [verb] [I]
 ()
-1. nazywać, wymieniać
+1. nazywać (nadawać imię), wymieniać (z imienia)
+2. mianować (np. na urząd)
+[zapewne od tego pochodzi "nominować", które jest pokrewne "mianować". w przeciwieństwie do appello, które oznacza zwracanie się do kogoś, nomino oznacza nadawanie imienia]
 
 argentĕus, argenteă, argenteum [adj]
 ()
@@ -3822,7 +3824,7 @@ condo, condĕre, condidi, conditum [verb] [III]
 
 dīco, dīcĕre, dixi, dictum [verb] [III]
 (Thales dixit aquam esse initium rerum)
-1. mówić, stwierdzać, nazywać
+1. mówić, stwierdzać
 [konstrukcja ACI lub cytat bezpośredni]
 
 ăqua, aquae [noun] [f] [I]
