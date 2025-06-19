@@ -925,7 +925,7 @@ appello, appellere, appuli, appulsum [verb] [III]
 dignus, dignă, dignum [adj]
 ()
 1. godny (czegoś), wart (czegoś), zasługujący (na coś), odpowiedni, stosowny (+ abl)
-[nie musi być pozytywne - np. "godny pożałowania". wydźwięk zależy od dopełnienia, jeśli jest. jeśli nie ma dopełnienia i dignus występuje jako przydawka znaczenie ma prawie zawsze pozytywne (np. godna odpowiedź). dla negatywnego wydźwięku przydawki używa się "indignus"]
+[kontrukcja często z abl lub z qui + coniunctivus. może opisywać i ludzi, i pojęcia abstrakcyjne (np. czyn godny pochwały). znaczenie nie musi być pozytywne - np. "godny pożałowania". wydźwięk zależy od dopełnienia, jeśli jest. jeśli nie ma dopełnienia i dignus występuje jako przydawka znaczenie ma prawie zawsze pozytywne (np. godna odpowiedź). dla negatywnego wydźwięku przydawki używa się "indignus"]
 
 mīlĕs, militis [noun] [m] [III]
 ()
@@ -941,8 +941,8 @@ grātĭa, grātĭae [noun] [f] [I]
 
 hŏnestus, honestă, honestum [adj]
 ()
-1. uczciwy, szlachetny, honorowy
-[od honor – zaszczyt, godność, szacunek]
+1. szlachetny, honorowy, czcigodny, szanowany, uczciwy
+[od honor – zaszczyt, godność, szacunek. w przeciwieństwie do dignus nie opisuje nie wymaga dopełnienia, jest wyłącznie epitetem (np. "szlachetne postępowanie" vs "postępowanie godne pochwały"]
 
 interrŏgo, interrŏgāre, interrogāvī, interrogātum [verb] [I]
 ()
@@ -953,10 +953,6 @@ quōmŏdŏ [adv]
 1. jak, w jaki sposób
 [quo (dokąd) + modo (sposób działania) - używane w pytaniach. znaczenie takie samo jaki "qui" (jako przysłówka, nie zaimka), ale znacznie częściej używane]
 
-imprŏbus, improba, improbum [adj]
-()
-1. niegodziwy
-
 pūnĭo, pūnīre, punii, punitum [verb] [IV]
 (Cur me, domine, morte punire desideras ?)
 1. karać, wymierzać karę / sprawiedliwość
@@ -964,7 +960,8 @@ pūnĭo, pūnīre, punii, punitum [verb] [IV]
 
 prŏbus, prŏba, prŏbum [adj]
 ()
-1. sprawiedliwy, przyzwoity
+1. uczciwy, prawy, porządny, przyzwoity, rzetelny
+[podobnie jak honestus (a w przeciwieństwie do dignus) jest wyłącznie epitetem, ale w przeciwieństwie do honestus podkreśla samą moralną uczciwość bez akcentu "godności", "szacunku" itp. (honor). zaprzeczenie to improbus]
 
 plūrĭmum [adv]
 ()
