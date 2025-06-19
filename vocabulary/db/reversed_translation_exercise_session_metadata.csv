@@ -20,3 +20,4 @@ session_id;user_name;start_word;end_word;filtered_parts_of_speech;revise_last_se
 19;default_user;signo;extemplo;;False;True
 20;default_user;signo;extemplo;;False;True
 21;default_user;facio;salus;;False;False
+22;default_user;disputo;quomodo;;False;False

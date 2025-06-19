@@ -419,3 +419,26 @@ default_user;21;latin;salus, salūtis [noun] [f] [III];Leges ad civium salutem i
 default_user;21;latin;lĕgĭo, legionis [noun] [f] [III];;1;legion;legion;True;2025-06-17 20:29:41
 default_user;22;latin;quōmŏdŏ [adv];;1;jak, w jaki sposób;jak, w jaki sposób;True;2025-06-19 10:17:48
 default_user;22;latin;urbs, urbis [noun] [f] [III];Necari iube eum, qui tibi in urbis porta primus occurret;1;miasto;miasto;True;2025-06-19 10:18:02
+default_user;22;latin;praenōmĕn, praenominis [noun] [n] [III];;1;imię;imię;True;2025-06-19 11:14:03
+default_user;22;latin;adversarius, adversarii [noun] [m] [II];;1;przeciwnik;przeciwnik;True;2025-06-19 11:15:02
+default_user;22;latin;dignus, dignă, dignum [adj];;1;godny (czegoś), wart (czegoś), zasługujący (na coś), odpowiedni, stosowny (+ abl);godny (czegoś), wart (czegoś), zasługujący (na coś), odpowiedni, stosowny (+ abl);True;2025-06-19 11:15:23
+default_user;22;latin;appello, appellere, appuli, appulsum [verb] [III];Noster ille Ennius sanctos appellat poetas;2;nazywać, mianować | zwracać się do, przemawiać do (+ acc lub + ad + acc);nazywać, mianować;True;2025-06-19 11:15:38
+default_user;22;latin;appello, appellere, appuli, appulsum [verb] [III];Noster ille Ennius sanctos appellat poetas;2;zwracać się do, przemawiać do (+ acc lub + ad + acc);;False;2025-06-19 17:34:51
+default_user;22;latin;grātĭa, grātĭae [noun] [f] [I];;4;łaska, przychylność, życzliwość | wdzięk, urok | wdzięczność | (+ gen) dla (czegoś), ze względu na (coś);łaska, przychylność, życzliwość;True;2025-06-19 17:35:12
+default_user;22;latin;grātĭa, grātĭae [noun] [f] [I];;4;wdzięk, urok | wdzięczność | (+ gen) dla (czegoś), ze względu na (coś);wdzięk, urok;True;2025-06-19 17:35:19
+default_user;22;latin;grātĭa, grātĭae [noun] [f] [I];;4;wdzięczność | (+ gen) dla (czegoś), ze względu na (coś);wdzięczność;True;2025-06-19 17:35:34
+default_user;22;latin;grātĭa, grātĭae [noun] [f] [I];;4;(+ gen) dla (czegoś), ze względu na (coś);;False;2025-06-19 17:35:39
+default_user;22;latin;interrŏgo, interrŏgāre, interrogāvī, interrogātum [verb] [I];;1;pytać, wypytywać, przesłuchiwać;pytać, wypytywać, przesłuchiwać;True;2025-06-19 17:36:32
+default_user;22;latin;dispŭto, dispŭtāre, disputāvī, disputātum [verb] [I];;1;dyskutować, rozważać;dyskutować, rozważać;True;2025-06-19 17:36:43
+default_user;22;latin;făvĕo, făvēre, fāvī, fautum [verb] [II];;1;sprzyjać, kibicować, faworyzować (+ dat);sprzyjać, kibicować, faworyzować (+ dat);True;2025-06-19 17:36:57
+default_user;22;latin;mīlĕs, militis [noun] [m] [III];;1;żołnierz;żołnierz;True;2025-06-19 17:37:03
+default_user;22;latin;cīvis, civis [noun] [m/f] [III];;1;obywatel;obywatel;True;2025-06-19 17:37:09
+default_user;22;latin;scriptŏr, scriptoris [noun] [m] [III];Romam a Romulo conditam esse scriptores tradunt;1;pisarz;pisarz;True;2025-06-19 17:37:13
+default_user;22;latin;hŏnestus, honestă, honestum [adj];;1;uczciwy, szlachetny, honorowy;uczciwy, szlachetny, honorowy;True;2025-06-19 17:37:34
+default_user;22;latin;hŏmo, hominis [noun] [m] [III];Placuit regi callidum responsum viri et asinum pro homine morti destinavit;1;człowiek;człowiek;True;2025-06-19 17:37:38
+default_user;22;latin;ōmen, ominis [noun] [n] [III];;1;wróżba;;False;2025-06-19 17:37:49
+default_user;22;latin;nōmĕn, nominis [noun] [n] [III];;1;nazwisko;nazwisko;True;2025-06-19 17:38:00
+default_user;22;latin;quăm [conj];Pulchrior quam soror;1;niż;;False;2025-06-19 17:38:10
+default_user;22;latin;teneō, tenēre, tenuī, tentum [verb] [II];;1;trzymać;trzymać;True;2025-06-19 17:39:09
+default_user;22;latin;dēsīdĕro, dēsīdĕrāre, desiderāvī, desiderātum [verb] [I];Cur me, domine, morte punire desideras ?;1;tęsknić, pragnąć, chcieć;tęsknić, pragnąć, chcieć;True;2025-06-19 17:39:17
+default_user;22;latin;quăm [adv];Quam pulchra es! Tam celeriter quam potui. Celerrimē quam;1;jak, jak bardzo, jak tylko, jak tylko się da;;False;2025-06-19 17:39:30
