@@ -889,9 +889,25 @@ dēsīdĕro, dēsīdĕrāre, desiderāvī, desiderātum [verb] [I]
 1. tęsknić, pragnąć, chcieć
 [często odcień tęsknoty lub braku, pragnienia czegoś utraconego, nieobecnego. łagodniejsze niż cupio]
 
-praenōmĕn, praenominis [noun] [n] [III]
+nōmen, nōminis [noun] [n] [III]
+()
+1. nazwisko
+[nazwisko = nazwa rodu. określa przynależność do rodu (patrycjuszowskiego lub plebejskiego), zawsze w rodzaju męskim i zakończone na -ius, np. Marcus *Tullius* Cicero]
+
+praenōmen, praenōminis [noun] [n] [III]
 ()
 1. imię
+[indywidualne imię, było ich w Rzymie stosunkowo niewiele, np. *Marcus* Tullius Cicero]
+
+cognōmen, cognōminis [noun] [n] [III]
+()
+1. przydomek (rodzinny)
+[często dziedziczny i identyfikujący konkretną gałąź w obrębie rodu, stanowiący w praktyce element nazwiska, np. Marcus Tullius *Cicero*]
+
+agnōmen, agnōminis [noun] [n] [III]
+()
+1. przydomek (osobisty)
+[dodatkowy przydomek, występujący po cognomen (raczej nie występuje bez niego, a jeśli już to ze względu na zastosowanie skrótu), nadawany za zasługi. również może być dziedziczony, chociaż nie jest to regułą jak w przypadku cognomen. przykład: Publius Cornelius Scipio *Africanus*]
 
 scriptŏr, scriptoris [noun] [m] [III]
 (Romam a Romulo conditam esse scriptores tradunt)
@@ -912,9 +928,15 @@ quăm [conj]
 1. niż
 [używane w porównaniach, chociaż one mogę się też obyć bez tego - patrz. abl comparationis: Pulchrior quam soror = Pulchrior sorore]
 
+oppidum, oppidi [noun] [n] [II]
+()
+1. miasto, gród
+[używane przeważnie w kontekście geograficznym albo wojskowym, jako "osada miejska", w przeciwieństwie do urbs, które wskazuje na ośrodek polityczny, kulturowy itp.]
+
 urbs, urbis [noun] [f] [III]
 (Necari iube eum, qui tibi in urbis porta primus occurret)
-1. miasto
+1. miasto, metropolia
+[używane w kontekście dużych, wpływowych ośrodków, kiedy na pierwszy plan wysuwa się znaczenie polityczne, kulturowe itp. - w przeciwieństwie do oppidum, które oznacza ogólnie "osadę miejską"]
 
 appello, appellere, appuli, appulsum [verb] [III]
 (Noster ille Ennius sanctos appellat poetas)
@@ -965,7 +987,12 @@ prŏbus, prŏba, prŏbum [adj]
 
 plūrĭmum [adv]
 ()
-1. najwięcej
+1. najwięcej, najbardziej, w największym stopniu
+
+plūrĭmum [noun] [n] [II]
+()
+1. bardzo dużo, najwięcej
+[to przykład rzeczownika, który nie opisuje żadnego przedmiotu, czynności ani pojęcia psychologicznego, tylko coś, co inaczej można by wyrazić przysłówkiem lub przymiotnikiem. takie rzeczowniki wymagają dopełnienia dalszego i są nieodmienne (czy zawsze ?). w polskim tak samo: mam (kogo? co?) "ogrom"]
 
 quī [adv]
 ()
