@@ -1,8 +1,3 @@
-naprzeciw - nie zwraca "ku, naprzeciw (np. wyjść komuś naprzeciw) (+ dat)"
-wierzyć - nie zwraca "myśleć, wierzyć, sądzić"
-rozkazać - nie zwraca "rozkazywać, nakazywać, żądać (+ acc + inf, ew. + sam inf w stronie biernej)"
-dom - nie zwraca ani "dom, budynek, gospodarstwo domowe" ani "dom, mieszkanie (pl)"
-
 jakiś inny SynonymFinder ? ten jest słaby do j. polskiego, np. "róg" zwraca:
 1. róg (100.0%)
 2. rów (89.0%)
@@ -63,3 +58,8 @@ dzielnie nie zwraca "odważnie, dzielnie, mężnie, z determinacją, stanowczo"
 "wyrażać" nie podpowiada "wymawiać, wyrażać"
 
 "głosić" nie zwraca rozgłaszać ale "chwalić" już tak
+
+naprzeciw - nie zwraca "ku, naprzeciw (np. wyjść komuś naprzeciw) (+ dat)"
+wierzyć - nie zwraca "myśleć, wierzyć, sądzić"
+rozkazać - nie zwraca "rozkazywać, nakazywać, żądać (+ acc + inf, ew. + sam inf w stronie biernej)"
+dom - nie zwraca ani "dom, budynek, gospodarstwo domowe" ani "dom, mieszkanie (pl)"
