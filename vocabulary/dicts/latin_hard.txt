@@ -168,7 +168,7 @@ libenter [adv]
 (Marcus libros libenter legit)
 1. chętnie
 
-cŭm [conj]
+cum [conj]
 (Vade mecum. Cum munera gladiatoria erant)
 1. z (kim, czym) (+ abl)
 2. kiedy, podczas gdy
@@ -325,7 +325,7 @@ difficile [adv]
 (Naturam mutare difficile est)
 1. trudno
 
-ŏpŭlentus, opulentă, opulentum [adj]
+opulentus, opulenta, opulentum [adj]
 (Opulentus vir romanus non laborabat)
 1. bogaty
 
@@ -412,7 +412,7 @@ mercātūra, mercātūrae [noun] [f] [I]
 (Nautae Mercurium, mercātūrae deum, colēbant)
 1. handel
 
-ĭtăquĕ [conj]
+itaque [conj]
 (Itaque Romani agriculturae studēbant)
 1. więc
 
@@ -436,11 +436,11 @@ porto, portāre, portāvī, portātum [verb] [I]
 (Ancilla dominae aquam portat)
 1. nieść, przynosić
 
-ămo, ămāre, amāvī, amātum [verb] [I]
+amo, amāre, amāvī, amātum [verb] [I]
 (Maria amicam amat et laudat)
 1. kochać, lubić
 
-ămīcus, amici [noun] [m] [II]
+amīcus, amici [noun] [m] [II]
 (Maria amicam amat et laudat)
 1. przyjaciel
 
@@ -448,7 +448,7 @@ narro, narrāre, narrāvī, narrātum [verb] [I]
 (De ancillis miseris dominae narrant)
 1. opowiadać
 
-fābŭla, fabulae [noun] [f] [I]
+fābula, fabulae [noun] [f] [I]
 (Puelae, narrate fabulas!)
 1. opowieść, baśń, bajka
 
@@ -456,7 +456,7 @@ orno, ornāre, ornāvī, ornātum [verb] [I]
 (Varsoviam pulchrae statuae ornant)
 1. ozdabiać
 
-vērus, veră, verum [adj]
+vērus, vera, verum [adj]
 (Verae amicitiae sempiternae sunt)
 1. prawdziwy
 
@@ -464,7 +464,7 @@ pulcher, pulchra, pulchrum [adj]
 (Varsoviam pulchrae statuae ornant)
 1. piękny
 
-clārus, clară, clarum [adj]
+clārus, clara, clarum [adj]
 ()
 1. czysty, jasny
 2. oczywisty
@@ -479,11 +479,11 @@ altus, alta, altum [adj]
 (Oppido parvo murus non altus est)
 1. wysoki
 
-iustĭtĭa, iustitiae [noun] [f] [I]
+iustitia, iustitiae [noun] [f] [I]
 (Iustitiam colore debemus)
 1. sprawiedliwość
 
-pĕcūnĭa, pecuniae [noun] [f] [I]
+pecūnia, pecuniae [noun] [f] [I]
 (Verum amicum pecunia non parabitis)
 1. pieniądze
 
@@ -491,7 +491,7 @@ ergō [prep]
 (Cogito ergo sum)
 1. więc, w wyniku
 
-nŏcĕo, nŏcēre, nocui, nocitum [verb] [II]
+noceo, nocēre, nocui, nocitum [verb] [II]
 (Littera docet, littera nocet)
 1. szkodzić
 
@@ -503,19 +503,19 @@ bellum, belli [noun] [n] [II]
 (Antiqui Romani bella gerebant)
 1. wojna
 
-gĕro, gĕrĕre, gessi, gestum [verb] [III]
+gero, gerere, gessi, gestum [verb] [III]
 (Antiqui Romani bella gerebant)
 1. nieść, nosić
 
-pŏpŭlus, populi [noun] [m] [II]
+populus, populi [noun] [m] [II]
 (Romani terras populorum finitimorum invadebant)
 1. ludzie, naród
 
-invādo, invādĕre, invasi, invasum [verb] [III]
+invādo, invādere, invasi, invasum [verb] [III]
 (Romani terras populorum finitimorum invadebant)
 1. wkraczać, najeżdżać
 
-interfĭcĭo, interfĭcĕre, interfeci, interfectum [verb] [III]
+interficio, interficere, interfeci, interfectum [verb] [III]
 (Romani terras invadebant, incolas interficiebant aut captivos asportabant)
 1. zabić
 
@@ -527,32 +527,32 @@ asporto, asportāre, asportāvī, asportātum [verb] [I]
 (Romani terras invadebant, incolas interficiebant aut captivos asportabant)
 1. zabierać, uprowadzać, usuwać
 
-victŭs, victa, victum [adj]
+victus, victa, victum [adj]
 (Romani bella gerebant, populos victos premebant)
 1. zwyciężony
 
-prĕmo, prĕmĕre, pressi, pressum [verb] [III]
+premo, premere, pressi, pressum [verb] [III]
 (Romani bella gerebant, populos victos premebant)
 1. naciskać
 2. gnębić
 
-ăpud [prep]
+apud [prep]
 (In numero servōrum apud Graecos multi captivi erant)
 1. u (+ acc)
 
-ŏdĭōsus, odiosă, odiosum [adj]
+odiōsus, odiosa, odiosum [adj]
 (Nobis bella odiōsa sunt)
 1. wstrętny, nieprzyjemny
 
-intĕr [adv]
+inter [adv]
 (Nos concordiam inter populos colēmus)
 1. między (+acc)
 
-dīlĭgentĕr [adv]
+dīligenter [adv]
 (Tu diligenter studēbis)
 1. pilnie, skrupulatnie
 
-ĭnĭmīcus, inimici [noun] [m] [II]
+inimīcus, inimici [noun] [m] [II]
 ()
 1. nieprzyjaciel
 
@@ -564,17 +564,17 @@ litterae, ārum [noun] [f] [I] [pl]
 ()
 1. pismo, literatura
 
-mŏnĕo, mŏnēre, monui, monitum [verb] [II]
+moneo, monēre, monui, monitum [verb] [II]
 ()
 1. napominać, doradzać, przypominać
 2. ostrzegać
 
-căpĭo, căpĕre, cepi, captum [verb] [III]
+capio, capere, cepi, captum [verb] [III]
 (Primum a tribuno locus capiebatur)
 1. brać, chwytać
 2. zajmować
 
-fŭgĭo, fŭgĕre, fugi, fugitum [verb] [III]
+fugio, fugere, fugi, fugitum [verb] [III]
 (Fugit hora, fugiunt anni)
 1. uciekać
 
@@ -587,27 +587,27 @@ cūr [adv]
 (Cur Marcus saepe laudatur, et Publius semper castigatur a magistro ?)
 1. dlaczego, z jakiego powodu?
 
-mĕmŏrĭa, memoriae [noun] [f] [I]
+memoria, memoriae [noun] [f] [I]
 (Memoria minuitur, nisi memoriam exerces)
 1. pamięć, wspomnienie
 
-nĭsi [conj]
+nisi [conj]
 (Memoria minuitur, nisi memoriam exerces)
 1. jeśli nie
 
-mĭnŭo, mĭnŭĕre, minui, minutum [verb] [III]
+minuo, minuere, minui, minutum [verb] [III]
 (Memoria minuitur, nisi memoriam exerces)
 1. zmniejszać
 
-sălūto, sălūtāre, salutāvī, salutātum [verb] [I]
+salūto, salūtāre, salutāvī, salutātum [verb] [I]
 (Ut salutabis, ita salutaberis)
 1. pozdrawiać
 
-bŏnum, boni [noun] [n] [II]
+bonum, boni [noun] [n] [II]
 (Divitiae bonum non sunt)
 1. dobro
 
-exercĕo, exercēre, exercui, exercitum [verb] [II]
+exerceo, exercēre, exercui, exercitum [verb] [II]
 (Memoria minuitur, nisi memoriam exerces)
 1. ćwiczyć
 
@@ -619,7 +619,7 @@ castra, castrōrum [noun] [n] [II] [pl]
 (A Romanis castra ponebantur)
 1. obóz
 
-mŏvĕo, mŏvēre, movi, motum [verb] [II]
+moveo, movēre, movi, motum [verb] [II]
 ()
 1. poruszać się
 
@@ -628,35 +628,35 @@ prīmum [adv]
 1. najpierw
 2. po pierwsze
 
-trĭbūnus, tribuni [noun] [m] [II]
+tribūnus, tribuni [noun] [m] [II]
 (Primum a tribuno locus capiebatur)
 1. trybun
 
-lŏcus, loci [noun] [m] [II]
+locus, loci [noun] [m] [II]
 (Primum a tribuno locus capiebatur)
 1. miejsce
 
-cĭbus, cibi [noun] [m] [II]
+cibus, cibi [noun] [m] [II]
 (Aqua et cibus facile inveniri poterat)
 1. żywność
 
-mūnĭo, mūnīre, munii, munitum [verb] [IV]
+mūnio, mūnīre, munii, munitum [verb] [IV]
 (Deinde quadratum spatium signabatur et muniebatur)
 1. obwarowywać
 
-mūnītus, munită, munitum [adj]
+mūnītus, munita, munitum [adj]
 ()
 1. obwarowany
 
-făcĭlĕ [adv]
+facile [adv]
 (Aqua et cibus facile inveniri poterat)
 1. łatwo
 
-dĕindĕ [adv]
+deinde [adv]
 (Deinde quadratum spatium signabatur et muniebatur)
 1. potem
 
-spătĭum, spatii [noun] [n] [II]
+spatium, spatii [noun] [n] [II]
 (Deinde quadratum spatium signabatur et muniebatur)
 1. przestrzeń, obszar
 
@@ -669,11 +669,11 @@ circum [prep]
 (Circum castra fossa fodiebatur)
 1. dookoła (+acc)
 
-mĕdĭus, mediă, medium [adj]
+medius, media, medium [adj]
 ()
 1. środkowy
 
-invĕnĭo, invĕnīre, inveni, inventum [verb] [IV]
+invenio, invenīre, inveni, inventum [verb] [IV]
 (.. ubi aqua facile invenīri poterat)
 1. odkryć, znaleźć
 
@@ -681,7 +681,7 @@ fossa, fossae [noun] [f] [I]
 (Circum castra fossa fodiebatur et vallum struebatur)
 1. rów
 
-fŏdĭo, fŏdĕre, fodi, fossum [verb] [III]
+fodio, fodere, fodi, fossum [verb] [III]
 (Circum castra fossa fodiebatur et vallum struebatur)
 1. kopać
 
@@ -693,31 +693,31 @@ impedimenta, impedimentōrum [noun] [n] [II]
 (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
 1. tabor
 
-impĕdīmentum, impedimenti [noun] [n] [II] [pl]
+impedīmentum, impedimenti [noun] [n] [II] [pl]
 (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
 1. przeszkoda
 
-spŏlĭa, spoliōrum [noun] [n] [I] [pl]
+spolia, spoliōrum [noun] [n] [I] [pl]
 (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
 1. łupy
 
-tăbernācŭlum, tabernaculi [noun] [n] [II]
+tabernāculum, tabernaculi [noun] [n] [II]
 (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
 1. namiot
 
-cŭmŭlo, cŭmŭlāre, cumulāvī, cumulātum [verb] [I]
+cumulo, cumulāre, cumulāvī, cumulātum [verb] [I]
 (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
 1. gromadzić
 
-dispōno, dispōnĕre, disposui, dispositum [verb] [III]
+dispōno, dispōnere, disposui, dispositum [verb] [III]
 (Custodiae per vallum disponentur)
 1. rozkładać, rozmieszczać
 
-stătim [adv]
+statim [adv]
 (Statim a custodiis cernentur)
 1. natychmiast
 
-cerno, cernĕre, crevi, cretum [verb] [III]
+cerno, cernere, crevi, cretum [verb] [III]
 (Statim a custodiis cernentur)
 1. spostrzegać
 
@@ -729,7 +729,7 @@ extemplō [adv]
 (Signum tuba extemplo dabitur)
 1. natychmiast
 
-făcĭo, făcĕre, feci, factum [verb] [III]
+facio, facere, feci, factum [verb] [III]
 (Tribunus verba facit: audite!)
 1. robić 
 
@@ -737,7 +737,7 @@ tēlum, teli [noun] [n] [II]
 (Tela a vobis parabuntur)
 1. pocisk
 
-fortĭtĕr [adv]
+fortiter [adv]
 (Si fortiter pugnabitis, Poeni depellentur)
 1. odważnie
 
@@ -745,23 +745,23 @@ pugno, pugnāre, pugnāvī, pugnātum [verb] [I]
 (Si fortiter pugnabitis, Poeni depellentur)
 1. walczyć
 
-dēpello, dēpellĕre, depuli, depultum [verb] [I]
+dēpello, dēpellere, depuli, depultum [verb] [I]
 (Si fortiter pugnabitis, Poeni depellentur)
 1. odpędzać
 
-vinco, vincĕre, vici, victum [verb] [III]
+vinco, vincere, vici, victum [verb] [III]
 (Si fortiter pugnabitis, Poeni vincentur)
 1. zwyciężać
 
-praemĭum, praemii [noun] [n] [II]
+praemium, praemii [noun] [n] [II]
 (Praemia vobis dabuntur)
 1. nagroda
 
-custōdĭa, custodiae [noun] [f] [I]
+custōdia, custodiae [noun] [f] [I]
 (Custodiae per vallum disponentur)
 1. straż
 
-apprŏpinquo, apprŏpinquāre, appropinquāvī, appropinquātum [verb] [I]
+appropinquo, appropinquāre, appropinquāvī, appropinquātum [verb] [I]
 (Poeni vallo appropinquabunt)
 1. zbliżyć się (+ dat)
 
@@ -770,27 +770,27 @@ a (ab) [prep]
 1. od (+ abl)
 2. przez (+ abl)
 
-tŭba, tubae [noun] [f] [I]
+tuba, tubae [noun] [f] [I]
 (Signum tuba extemplo dabitur)
 1. trąba
 
-impĕrātŏr, imperatoris [noun] [m] [III]
+imperātor, imperatoris [noun] [m] [III]
 ()
 1. wódz
 
-praetōrĭum, praetorii [noun] [n] [II]
+praetōrium, praetorii [noun] [n] [II]
 ()
 1. kwatera główna
 
-lĕgĭo, legionis [noun] [f] [III]
+legio, legionis [noun] [f] [III]
 ()
 1. legion
 
-pārĕo, pārēre, parui, paritum [verb] [II]
+pāreo, pārēre, parui, paritum [verb] [II]
 ()
 1. być posłusznym
 
-victŏr, victoris [noun] [m] [III]
+victor, victoris [noun] [m] [III]
 ()
 1. zwycięzca
 
@@ -798,7 +798,7 @@ salvē [adv]
 ()
 1. witaj
 
-dēfendo, dēfendĕre, defendi, defensum [verb] [III]
+dēfendo, dēfendere, defendi, defensum [verb] [III]
 ()
 1. bronić
 
@@ -806,7 +806,7 @@ fīnes, fīnium [noun] [m] [III] [pl]
 ()
 1. państwo
 
-prŏhĭbĕo, prŏhĭbēre, prohibui, prohibitum [verb] [II]
+prohibeo, prohibēre, prohibui, prohibitum [verb] [II]
 ()
 1. powstrzymywać
 
@@ -823,7 +823,7 @@ salus, salūtis [noun] [f] [III]
 1. zdrowie
 2. zbawienie
 
-dispŭto, dispŭtāre, disputāvī, disputātum [verb] [I]
+disputo, disputāre, disputāvī, disputātum [verb] [I]
 ()
 1. dyskutować
 
@@ -835,11 +835,11 @@ adversarius, adversarii [noun] [m] [II]
 ()
 1. przeciwnik
 
-făvĕo, făvēre, fāvī, fautum [verb] [II]
+faveo, favēre, fāvī, fautum [verb] [II]
 ()
 1. sprzyjać
 
-nōmĕn, nominis [noun] [n] [III]
+nōmen, nominis [noun] [n] [III]
 ()
 1. nazwisko
 
@@ -847,31 +847,31 @@ nōmĕn, nominis [noun] [n] [III]
 ()
 1. wróżba
 
-hŏmo, hominis [noun] [m] [III]
+homo, hominis [noun] [m] [III]
 ()
 1. człowiek
 
-dēsīdĕro, dēsīdĕrāre, desiderāvī, desiderātum [verb] [I]
+dēsīdero, dēsīderāre, desiderāvī, desiderātum [verb] [I]
 ()
 1. pragnąć
 
-praenōmĕn, praenominis [noun] [n] [III]
+praenōmen, praenominis [noun] [n] [III]
 ()
 1. imię
 
-scriptŏr, scriptoris [noun] [m] [III]
+scriptor, scriptoris [noun] [m] [III]
 ()
 1. pisarz
 
-tĕnĕo, tĕnēre, tenui, tentum [verb] [II]
+teneo, tenēre, tenui, tentum [verb] [II]
 ()
 1. trzymać
 
-quăm [adv]
+quam [adv]
 ()
 1. jak, jak bardzo
 
-quăm [conj]
+quam [conj]
 ()
 1. niż
 
@@ -883,45 +883,45 @@ appello, appellere, appuli, appulsum [verb] [III]
 (Noster ille Ennius sanctos appellat poetas)
 1. nazywać
 
-dignus, dignă, dignum [adj]
+dignus, digna, dignum [adj]
 ()
 1. godny (+ abl)
 
-mīlĕs, militis [noun] [m] [III]
+mīles, militis [noun] [m] [III]
 ()
 1. żołnierz
 
-grātĭa, grātĭae [noun] [f] [I]
+grātia, grātiae [noun] [f] [I]
 ()
 1. życzliwość
 2. wdzięczność
 3. (+ gen) dla, ze względu na coś
 
-hŏnestus, honestă, honestum [adj]
+honestus, honesta, honestum [adj]
 ()
 1. uczciwy
 
-interrŏgo, interrŏgāre, interrogāvī, interrogātum [verb] [I]
+interrogo, interrogāre, interrogāvī, interrogātum [verb] [I]
 ()
 1. pytać
 
-quōmŏdŏ [adv]
+quōmodo [adv]
 ()
 1. jak, w jaki sposób
 
-imprŏbus, improba, improbum [adj]
+improbus, improba, improbum [adj]
 ()
 1. niegodziwy
 
-pūnĭo, pūnīre, punii, punitum [verb] [IV]
+pūnio, pūnīre, punii, punitum [verb] [IV]
 ()
 1. karać
 
-prŏbus, prŏba, prŏbum [adj]
+probus, proba, probum [adj]
 ()
 1. sprawiedliwy, przyzwoity
 
-plūrĭmum [adv]
+plūrimum [adv]
 ()
 1. najwięcej
 
@@ -929,11 +929,11 @@ quī [adv]
 ()
 1. w jaki sposób?, jak?, dlaczego?
 
-gaudĭum, gaudii [noun] [n] [II]
+gaudium, gaudii [noun] [n] [II]
 ()
 1. radość
 
-princĭpĭum, principii [n] [noun] [II]
+principium, principii [n] [noun] [II]
 ()
 1. początek
 
@@ -941,19 +941,19 @@ dum [adv]
 ()
 1. podczas gdy
 
-vĭtĭum, vitii [noun] [n] [II]
+vitium, vitii [noun] [n] [II]
 ()
 1. wada, błąd
 
-contrārĭus, contrariă, contrarium [adj]
+contrārius, contraria, contrarium [adj]
 ()
 1. przeciwny
 
-curro, currĕre, cucurri, cursum [verb] [III]
+curro, currere, cucurri, cursum [verb] [III]
 ()
 1. biec, wbiegać
 
-hŏnŏr, honoris [noun] [m] [III]
+honor, honoris [noun] [m] [III]
 ()
 1. zaszczyt
 
@@ -961,76 +961,76 @@ mōs, moris [noun] [m] [III]
 ()
 1. zwyczaj
 
-certus, certă, certum [adj]
+certus, certa, certum [adj]
 ()
 1. pewny
 
-āmitto, āmittĕre, amisi, amissum [verb] [III]
+āmitto, āmittere, amisi, amissum [verb] [III]
 (Amittit merito proprium, qui alienum appetit)
 1. tracić
 
-incertus, incertă, incertum [adj]
+incertus, incerta, incertum [adj]
 ()
 1. niepewny
 
-pĕto, pĕtĕre, petii, petitum [verb] [III]
+peto, petere, petii, petitum [verb] [III]
 (Gladiatores vulnerati salutem a populo petebant)
 1. dążyć ku czemuś, starać się o coś
 2. błagać, prosić (o coś)
 
-căput, capitis [noun] [n] [III]
+caput, capitis [noun] [n] [III]
 ()
 1. głowa
 
-tempŭs, temporis [noun] [n] [III]
+tempus, temporis [noun] [n] [III]
 ()
 1. czas
 
-dŏlŏr, doloris [noun] [m] [III]
+dolor, doloris [noun] [m] [III]
 ()
 1. ból
 
-stultus, stultă, stultum [adj]
+stultus, stulta, stultum [adj]
 ()
 1. głupi
 
-vĭr, viri [noun] [m] [II]
+vir, viri [noun] [m] [II]
 ()
 1. mężczyzna
 
-ăt [conj]
+at [conj]
 ()
 1. a wtedy, na to
 
-respondĕo, respondēre, respondi, responsum [verb] [II]
+respondeo, respondēre, respondi, responsum [verb] [II]
 ()
 1. odpowiedzieć
 
-ēgrĕgĭus, egregiă, egregium [adj]
+ēgregius, egregia, egregium [adj]
 ()
 1. wyborny, doskonały
 
-ōrātĭo, orationis [noun] [f] [III]
+ōrātio, orationis [noun] [f] [III]
 (Vos quoque Ciceronis orationes et epistulas legere poteris)
 1. przemówienie
 
-ĕpistŭla, epistulae [noun] [f] [I]
+epistula, epistulae [noun] [f] [I]
 (Vos quoque Ciceronis orationes et epistulas legere poteris)
 1. list
 
-ŏpŭs, operis [noun] [n] [III]
+opus, operis [noun] [n] [III]
 ()
 1. dzieło
 
-praeclārus, praeclară, praeclarum [adj]
+praeclārus, praeclara, praeclarum [adj]
 ()
 1. przesławny
 
-offĭcĭum, officii [noun] [n] [II]
+officium, officii [noun] [n] [II]
 ()
 1. obowiązek
 
-dispŭtātĭo, disputationis [noun] [f] [III]
+disputātio, disputationis [noun] [f] [III]
 ()
 1. dyskusja
 
@@ -1038,15 +1038,15 @@ sors, sortis [noun] [f] [III]
 ()
 1. los
 
-exsĭlĭum, exsilii [noun] [n] [II]
+exsilium, exsilii [noun] [n] [II]
 ()
 1. wygnanie
 
-doctus, doctă, doctum [adj]
+doctus, docta, doctum [adj]
 ()
 1. uczony
 
-ōrātŏr, oratoris [noun] [m] [III]
+ōrātor, oratoris [noun] [m] [III]
 ()
 1. mówca
 
@@ -1054,15 +1054,15 @@ possum, posse, potuī [verb] [anomalous]
 (Vos quoque Ciceronis orationes et epistulas legere poteris)
 1.móc
 
-impositus, imposită, impositum [adj]
+impositus, imposita, impositum [adj]
 ()
 1. nałożony
 
-prōvincĭa, provinciae [noun] [f] [I]
+prōvincia, provinciae [noun] [f] [I]
 ()
 1. prowincja
 
-praetŏr, praetoris [noun] [m] [III]
+praetor, praetoris [noun] [m] [III]
 ()
 1. pretor, zarządca prowincji
 
@@ -1071,27 +1071,27 @@ clāmo, clāmāre, clamāvī, clamātum [verb] [I]
 1. ogłaszać
 2. wołać
 
-pūblĭcānus, publicani [noun] [m] [II]
+pūblicānus, publicani [noun] [m] [II]
 ()
 1. publikanin
 
-addo, addĕre, addidi, additum [verb] [III]
+addo, addere, addidi, additum [verb] [III]
 ()
 1. dokładać (do czegoś)
 
-ŏnus, oneris [noun] [n] [III]
+onus, oneris [noun] [n] [III]
 ()
 1. ciężar
 
-vectīgăl, vectigalis [noun] [n] [III]
+vectīgal, vectigalis [noun] [n] [III]
 ()
 1. podatek
 
-exĭgo, exĭgĕre, exegi, exactum [verb] [III]
+exigo, exigere, exegi, exactum [verb] [III]
 ()
 1. wykonywać, egzekwować
 
-nŏvus, novă, novum [adj]
+novus, nova, novum [adj]
 ()
 1. nowy
 
@@ -1099,43 +1099,43 @@ aetās, aetatis [noun] [f] [III]
 ()
 1. wiek, era
 
-nōmĭno, nōmĭnāre, nomināvī, nominātum [verb] [I]
+nōmino, nōmināre, nomināvī, nominātum [verb] [I]
 ()
 1. nazywać, wymieniać
 
-argentĕus, argenteă, argenteum [adj]
+argenteus, argentea, argenteum [adj]
 ()
 1. srebrny
 
-ăënĕus, aëneă, aëneum [adj]
+aëneus, aënea, aëneum [adj]
 ()
 1. spiżowy
 
-ferrĕus, ferreă, ferreum [adj]
+ferreus, ferrea, ferreum [adj]
 ()
 1. żelazny
 
-carmĕn, carminis [noun] [n] [III]
+carmen, carminis [noun] [n] [III]
 ()
 1. pieśń
 
-sĭnĕ [prep]
+sine [prep]
 ()
 1. bez (+ abl)
 
-tūtus, tută, tutum [adj]
+tūtus, tuta, tutum [adj]
 ()
 1. bezpieczny
 
-vērĭtās, veritatis [noun] [f] [III]
+vēritās, veritatis [noun] [f] [III]
 ()
 1. prawda
 
-cingo, cingĕre, cinxi, cinctum [verb] [III]
+cingo, cingere, cinxi, cinctum [verb] [III]
 ()
 1. otaczać
 
-ignōtus, ignōtă, ignōtum [adj]
+ignōtus, ignōta, ignōtum [adj]
 ()
 1. nieznany
 
@@ -1143,15 +1143,15 @@ oppugno, oppugnāre, oppugnāvī, oppugnātum [verb] [I]
 ()
 1. oblegać, zdobywać
 
-dīrŭo, dīrŭĕre, dirui, dirutum [verb] [III]
+dīruo, dīruere, dirui, dirutum [verb] [III]
 ()
 1. burzyć
 
-mărĕ, maris [noun] [n] [III]
+mare, maris [noun] [n] [III]
 ()
 1. morze
 
-longinquus, longinquă, longinquum [adj]
+longinquus, longinqua, longinquum [adj]
 ()
 1. odległy
 
@@ -1159,7 +1159,7 @@ caelum, caeli [noun] [n] [II] [sing]
 ()
 1. niebo
 
-ănĭmus, animi [noun] [m] [II]
+animus, animi [noun] [m] [II]
 ()
 1. duch, charakter
 
@@ -1167,7 +1167,7 @@ trans [prep]
 ()
 1. za, poza (+ acc)
 
-aurĕus, aureă, aureum [adj]
+aureus, aurea, aureum [adj]
 ()
 1. złoty
 
@@ -1175,11 +1175,11 @@ nam [conj]
 (Ager non arabatur, nam terra ipsa per se frumentum dabat)
 1. bowiem, ponieważ
 
-nāvĭgĭum, navigii [noun] [n] [II]
+nāvigium, navigii [noun] [n] [II]
 ()
 1. statek
 
-mitto, mittĕre, misi, missum [verb] [III]
+mitto, mittere, misi, missum [verb] [III]
 ()
 1. wysyłać
 
@@ -1187,19 +1187,19 @@ ars, artis [noun] [f] [III]
 ()
 1. umiejętność, rzemiosło, sztuka
 
-hospĭtĭum, hospitii [noun] [n] [II]
+hospitium, hospitii [noun] [n] [II]
 ()
 1. gościna
 
-accĭpĭo, accĭpĕre, accepi, acceptum [verb] [III]
+accipio, accipere, accepi, acceptum [verb] [III]
 ()
 1. przyjmować
 
-ūnĭversĭtās, universitatis [noun] [f] [III]
+ūniversitās, universitatis [noun] [f] [III]
 ()
 1. uniwersytet
 
-rĕpĕtītĭo, repetitionis [noun] [f] [III]
+repetītio, repetitionis [noun] [f] [III]
 ()
 1. powtarzanie
 
@@ -1207,19 +1207,19 @@ consuētūdo, consuetudinis [noun] [f] [III]
 ()
 1. przyzwyczajenie
 
-ălo, ălĕre, alui, alitum [verb] [III]
+alo, alere, alui, alitum [verb] [III]
 ()
 1. żywić
 
-aemŭlātĭo, aemulationis [noun] [f] [III]
+aemulātio, aemulationis [noun] [f] [III]
 ()
 1. rywalizacja
 
-ingĕnĭum, ingenii [noun] [n] [II]
+ingenium, ingenii [noun] [n] [II]
 ()
 1. talent
 
-vĕnĭo, vĕnīre, veni, ventum [verb] [IV]
+venio, venīre, veni, ventum [verb] [IV]
 ()
 1. przychodzić
 
@@ -1227,15 +1227,15 @@ plēbēius, plebei [noun] [m] [II]
 ()
 1. plebejusz
 
-pătrĭcĭus, patricii [noun] [m] [II]
+patricius, patricii [noun] [m] [II]
 ()
 1. patrycjusz
 
-vexatus, vexată, vexatum [adj]
+vexatus, vexata, vexatum [adj]
 ()
 1. prześladowany
 
-rĕlinquo, rĕlinquĕre, reliqui, relictum [verb] [III]
+relinquo, relinquere, reliqui, relictum [verb] [III]
 ()
 1. opuszczać
 
@@ -1243,11 +1243,11 @@ mons, montis [noun] [m] [III]
 ()
 1. góra
 
-săcĕr, sacră, sacrum [adj]
+sacer, sacra, sacrum [adj]
 ()
 1. święty
 
-occŭpo, occŭpāre, occupāvi, occupātum [verb] [I]
+occupo, occupāre, occupāvi, occupātum [verb] [I]
 ()
 1. zajmować
 
@@ -1255,23 +1255,23 @@ lēgātus, legati [noun] [m] [II]
 ()
 1. poseł
 
-auxĭlĭum, auxilii [noun] [n] [II]
+auxilium, auxilii [noun] [n] [II]
 ()
 1. pomoc
 
-ĕgĕo, ĕgēre, eguĕrim, [verb] [II]
+egeo, egēre, eguerim, [verb] [II]
 ()
 1. potrzebować (+ abl)
 
-rĕmĭgro, rĕmĭgrāre, remigrāvī, remigrātum [verb] [I]
+remigro, remigrāre, remigrāvī, remigrātum [verb] [I]
 ()
 1. powracać
 
-fācundus, facundă, facundum [adj]
+fācundus, facunda, facundum [adj]
 ()
 1. wymowny
 
-ăd [prep]
+ad [prep]
 ()
 1. do, w kierunku (+ acc)
 
@@ -1279,7 +1279,7 @@ tandem [adv]
 ()
 1. w końcu
 
-iniūrĭa, iniuriae [noun] [f] [I]
+iniūria, iniuriae [noun] [f] [I]
 ()
 1. niesprawiedliwość
 
@@ -1287,23 +1287,23 @@ plebs, plebis [noun] [f] [III]
 ()
 1. plebs, lud
 
-thĕātrum, theatri [noun] [n] [II]
+theātrum, theatri [noun] [n] [II]
 ()
 1. teatr
 
-condītŏr, conditoris [noun] [m] [III]
+condītor, conditoris [noun] [m] [III]
 ()
 1. założyciel
 
-praesĭdĭum, praesidii [noun] [n] [II]
+praesidium, praesidii [noun] [n] [II]
 ()
 1. ochrona
 
-lĕo, leonis [noun] [m] [III]
+leo, leonis [noun] [m] [III]
 ()
 1. lew
 
-vulpēcŭla, vulpeculae [noun] [f] [I]
+vulpēcula, vulpeculae [noun] [f] [I]
 ()
 1. mały lis
 
@@ -1315,15 +1315,15 @@ intro, intrāre, intrāvī, intrātum [verb] [I]
 ()
 1. wejść
 
-ănĭmăl, animalis [noun] [n] [III]
+animal, animalis [noun] [n] [III]
 ()
 1. zwierzę
 
-astŭtus, astută, astutum [adj]
+astutus, astuta, astutum [adj]
 ()
 1. sprytny
 
-vestīgĭum, vestigii [noun] [n] [II]
+vestīgium, vestigii [noun] [n] [II]
 ()
 1. ślad
 
@@ -1331,7 +1331,7 @@ introrsus [adv]
 ()
 1. do wewnątrz, do środka
 
-fŏrās [adv]
+forās [adv]
 ()
 1. na zewnątrz
 
@@ -1339,27 +1339,27 @@ auris, auris [noun] [f] [III]
 ()
 1. ucho
 
-clausus, clausă, clausum [adj]
+clausus, clausa, clausum [adj]
 ()
 1. zamknięty
 
-castīgātĭo, castigationis [noun] [f] [III]
+castīgātio, castigationis [noun] [f] [III]
 ()
 1. kara
 
-contŭmēlĭa, contumeliae [noun] [f] [I]
+contumēlia, contumeliae [noun] [f] [I]
 ()
 1. zniewaga
 
-văco, văcāre, vacāvī, vacātum [verb] [I]
+vaco, vacāre, vacāvī, vacātum [verb] [I]
 ()
 1. być wolnym od czegoś (+ abl)
 
-sērus, seră, serum [adj]
+sērus, sera, serum [adj]
 ()
 1. późny
 
-impĕrĭum, imperii [noun] [n] [II]
+imperium, imperii [noun] [n] [II]
 ()
 1. państwo, imperium
 
@@ -1367,11 +1367,11 @@ rex, regis [noun] [m] [III]
 ()
 1. król
 
-fŏrum, fori [noun] [n] [II]
+forum, fori [noun] [n] [II]
 ()
 1. rynek, forum
 
-magnĭfĭcus, magnifică, magnificum [adj]
+magnificus, magnifica, magnificum [adj]
 ()
 1. wspaniały
 
@@ -1379,40 +1379,40 @@ ornātus, ornata, um [adj]
 ()
 1. ozdobiony
 
-situs, sită, situm [adj]
+situs, sita, situm [adj]
 ()
 1. położony
 
-rĕlĭquus, reliquă, reliquum [adj]
+reliquus, reliqua, reliquum [adj]
 ()
 1. pozostały, inny
 
-sŭpĕro, sŭpĕrāre, superāvī, superātum [verb] [I]
+supero, superāre, superāvī, superātum [verb] [I]
 ()
 1. przewyższać
 
-Īlĭăs, Iliadis [noun] [f] [III]
+Īlias, Iliadis [noun] [f] [III]
 ()
 1. Iliada
 
-certāmĕn, certaminis [noun] [n] [III]
+certāmen, certaminis [noun] [n] [III]
 ()
 1. bitwa
 
-errŏr, erroris [noun] [m] [III]
+error, erroris [noun] [m] [III]
 ()
 1. wędrówka
 2. błąd
 
-crēdo, crēdĕre, credidi, creditum [verb] [III]
+crēdo, crēdere, credidi, creditum [verb] [III]
 ()
 1. wierzyć
 
-pŏtĭus [adv]
+potius [adv]
 ()
 1. raczej
 
-ŏcŭlus, oculi [noun] [m] [II]
+oculus, oculi [noun] [m] [II]
 ()
 1. oko
 
@@ -1420,7 +1420,7 @@ omnis, omnis, omne [adj]
 ()
 1. każdy, wszystek
 
-vĭa, viae [noun] [f] [I]
+via, viae [noun] [f] [I]
 ()
 1. droga
 
@@ -1436,15 +1436,15 @@ aedificatus, aedificata, aedificatum [adj]
 ()
 1. ostry
 
-grăvis, gravis, grave [adj]
+gravis, gravis, grave [adj]
 ()
 1. ciężki
 
-săpĭens, săpĭens, săpĭens [adj]
+sapiens, sapiens, sapiens [adj]
 ()
 1. mądry
 
-fĕrox, fĕrox, fĕrox [adj]
+ferox, ferox, ferox [adj]
 ()
 1. dziki, okrutny
 
@@ -1452,7 +1452,7 @@ deletus, deleta, deletum [adj]
 ()
 1. zniszczony
 
-lăbŏr, laboris [noun] [m] [III]
+labor, laboris [noun] [m] [III]
 ()
 1. trud, praca
 
@@ -1460,11 +1460,11 @@ ingens, ingens, ingens [adj]
 ()
 1. ogromny
 
-incrēdĭbĭlis, incredibilis, incredibile [adj]
+incrēdibilis, incredibilis, incredibile [adj]
 ()
 1. niewiarygodny
 
-restĭtŭo, restĭtŭĕre, restitui, restitutum [verb] [III]
+restituo, restituere, restitui, restitutum [verb] [III]
 ()
 1. przywrócić, odnawiać
 
@@ -1480,7 +1480,7 @@ lībertās, libertatis [noun] [f] [III]
 ()
 1. wolność
 
-immĭnens, immĭnens, immĭnens [adj]
+imminens, imminens, imminens [adj]
 ()
 1. zagrażający (+ dat)
 
@@ -1496,19 +1496,19 @@ prūdens, prūdens, prūdens [adj]
 ()
 1. rozważny
 
-ūtĭlis, utilis, utile [adj]
+ūtilis, utilis, utile [adj]
 ()
 1. użyteczny
 
-admŏnĕo, admŏnēre, admonui, admonitum [verb] [II]
+admoneo, admonēre, admonui, admonitum [verb] [II]
 ()
 1. upominać
 
-făcĭlis, facilis, facile [adj]
+facilis, facilis, facile [adj]
 ()
 1. łatwy
 
-brĕvis, brevis, breve [adj]
+brevis, brevis, breve [adj]
 ()
 1. krótki
 
@@ -1516,11 +1516,11 @@ nāvis, navis [noun] [f] [III]
 ()
 1. okręt
 
-cĕlĕr, celeris, celere [adj]
+celer, celeris, celere [adj]
 ()
 1. szybki
 
-dēlĕo, dēlēre, delevi, deletum [verb] [II]
+dēleo, dēlēre, delevi, deletum [verb] [II]
 ()
 1. niszczyć, usuwać
 
@@ -1532,7 +1532,7 @@ adsum, adesse, adfui [verb] [anomalous]
 ()
 1. być obecnym, być pomocnym
 
-lībĕro, lībĕrāre, liberāvī, liberātum [verb] [I]
+lībero, līberāre, liberāvī, liberātum [verb] [I]
 ()
 1. uwalniać
 
@@ -1540,7 +1540,7 @@ dictum, dicti [noun] [n] [II]
 ()
 1. powiedzenie
 
-fīdus, fidă, fidum [adj]
+fīdus, fida, fidum [adj]
 ()
 1. wierny
 
@@ -1548,7 +1548,7 @@ nix, nivis [noun] [f] [III]
 ()
 1. śnieg
 
-candĭdus, candidă, candidum [adj]
+candidus, candida, candidum [adj]
 ()
 1. jasny, klarowny, biały
 2. uprzejmy, życzliwy
@@ -1557,19 +1557,19 @@ lācte, lactis [noun] [n] [III]
 ()
 1. mleko
 
-mĕl, mellis [noun] [n] [III]
+mel, mellis [noun] [n] [III]
 ()
 1. miód
 
-flŭo, flŭĕre, fluxi, fluxum [verb] [III]
+fluo, fluere, fluxi, fluxum [verb] [III]
 ()
 1. płynąć
 
-ădŭlescentĭa, adulescentiae [noun] [f] [I]
+adulescentia, adulescentiae [noun] [f] [I]
 ()
 1. młodość
 
-dĭco, dīcĕre, dixi, dictum [verb] [I]
+dico, dīcere, dixi, dictum [verb] [I]
 ()
 1. powiedzieć
 
@@ -1589,23 +1589,23 @@ corvus, corvi [noun] [m] [II]
 ()
 1. kruk
 
-albus, albă, album [adj]
+albus, alba, album [adj]
 ()
 1. biały
 
-fŏlĭum, folii [noun] [n] [II]
+folium, folii [noun] [n] [II]
 ()
 1. liść
 
-cădūcus, caducă, caducum [adj]
+cadūcus, caduca, caducum [adj]
 ()
 1. spadły, opadły
 
-artĭfex, artificis [noun] [m/f] [III]
+artifex, artificis [noun] [m/f] [III]
 ()
 1. artysta
 
-cĕlĕbĕr, celebris, celebre [adj]
+celeber, celebris, celebre [adj]
 ()
 1. sławny
 
@@ -1613,7 +1613,7 @@ cĕlĕbĕr, celebris, celebre [adj]
 ()
 1. jeden
 
-invĭdĭa, invidiae [noun] [f] [I]
+invidia, invidiae [noun] [f] [I]
 ()
 1. zawiść
 
@@ -1625,15 +1625,15 @@ poena, poenae [noun] [f] [I]
 ()
 1. kara
 
-mĕtŭo, mĕtŭĕre, metui, metutum [verb] [III]
+metuo, metuere, metui, metutum [verb] [III]
 ()
 1. bać się
 
-insŭla, insulae [noun] [f] [I]
+insula, insulae [noun] [f] [I]
 ()
 1. wyspa
 
-mīrus, miră, mirum [adj]
+mīrus, mira, mirum [adj]
 ()
 1. dziwny, nadzwyczajny
 
@@ -1641,15 +1641,15 @@ captus, capta, captum [adj]
 ()
 1. pochwycony
 
-ămŏr, amoris [noun] [m] [III]
+amor, amoris [noun] [m] [III]
 ()
 1. miłość
 
-rĕtĭnĕo, rĕtĭnēre, retinui, retentum [verb] [II]
+retineo, retinēre, retinui, retentum [verb] [II]
 ()
 1. zatrzymywać
 
-ăvis, avis [noun] [f] [III]
+avis, avis [noun] [f] [III]
 ()
 1. ptak
 
@@ -1661,7 +1661,7 @@ līnum, lini [noun] [n] [II]
 ()
 1. len, sznur
 
-lĭgo, ligare, ligavi, ligatum [verb] [I]
+ligo, ligare, ligavi, ligatum [verb] [I]
 ()
 1. wiązać, łączyć
 
@@ -1673,11 +1673,11 @@ lĭgo, ligare, ligavi, ligatum [verb] [I]
 ()
 1. powietrze
 
-vŏlo, vŏlāre, vŏlāvi, vŏlātum [verb] [I]
+volo, volāre, volāvi, volātum [verb] [I]
 ()
 1. lecieć
 
-nĭmĭum, nimii [noun] [n] [II]
+nimium, nimii [noun] [n] [II]
 ()
 1. za, za dużo, za bardzo
 
@@ -1685,11 +1685,11 @@ sōl, solis [noun] [m] [III]
 ()
 1. słońce
 
-mollĭo, mollīre, mollii, mollitum [verb] [IV]
+mollio, mollīre, mollii, mollitum [verb] [IV]
 ()
 1. rozzmiękczyć, roztapiać
 
-cădo, cădĕre, cecidi [verb] [III]
+cado, cadere, cecidi [verb] [III]
 ()
 1. spaść
 
@@ -1697,15 +1697,15 @@ infēlix, infēlix, infēlix [adj]
 ()
 1. nieszczęśliwy
 
-dēflĕo, dēflēre, deflevi, defletum [verb] [II]
+dēfleo, dēflēre, deflevi, defletum [verb] [II]
 ()
 1. opłakiwać
 
-corpŭs, corporis [noun] [n] [III]
+corpus, corporis [noun] [n] [III]
 ()
 1. ciało
 
-fūnŭs, funeris [noun] [n] [III]
+fūnus, funeris [noun] [n] [III]
 ()
 1. pogrzeb
 
@@ -1721,24 +1721,24 @@ monstrum, monstri [noun] [n] [II]
 ()
 1. potwór
 
-rŏgo, rŏgāre, rogāvī, rogātum [verb] [I]
+rogo, rogāre, rogāvī, rogātum [verb] [I]
 (Rogantibus potius quam imperantibus paremus)
 1. prosić, prosić o
 
-impĕro, impĕrāre, imperāvī, imperātum [verb] [I]
+impero, imperāre, imperāvī, imperātum [verb] [I]
 (Rogantibus potius quam imperantibus paremus)
 1. rozkazywać, dowodzić
 2. rządzić (nad) (+ dat)
 
-tĕmĕrĭtās, temeritatis [noun] [f] [III]
+temeritās, temeritatis [noun] [f] [III]
 ()
 1. pochopność
 
-flōrĕo, flōrēre, florui, flōrendo [verb] [II]
+flōreo, flōrēre, florui, flōrendo [verb] [II]
 ()
 1. rozkwitać, kwitnąć
 
-prūdentĭa, prudentiae [noun] [f] [I]
+prūdentia, prudentiae [noun] [f] [I]
 ()
 1. dyskrecja
 2. zdrowy rozsądek, mądrość
@@ -1748,28 +1748,28 @@ multa [adv]
 (Quid dulcius est quam discere multa ?)
 1. dużo, często
 
-mŏlestĭa, molestiae [noun] [f] [I]
+molestia, molestiae [noun] [f] [I]
 (Non potest inveniri vita hominis carens molestia)
 1. kłopoty, irytacja
 
-cărĕo, cărēre, carui [verb] [II]
+careo, carēre, carui [verb] [II]
 (Non potest inveniri vita hominis carens molestia)
 1. być wolnym od (+ abl)
 
-sĕnesco, sĕnescĕre, senui [verb] [III]
+senesco, senescere, senui [verb] [III]
 ()
 1. zestarzeć się
 
-crīmĕn, criminis [noun] [n] [III]
+crīmen, criminis [noun] [n] [III]
 (Nocentem qui defendit sibi crimen parit)
 1. zarzut, oskarżenie
 2. przestępstwo
 
-incĭdo, incĭdĕre, incidi [verb] [III]
+incido, incidere, incidi [verb] [III]
 (Incidis in Scyllam cupiens vitare Charybdim)
 1. wpadać, spadać (do czegoś, na kogoś/coś)
 
-mălĕ [adv]
+male [adv]
 (Sero venientes male sedentes)
 1. źle
 
@@ -1777,11 +1777,11 @@ sero [adv]
 (Sero venientes male sedentes)
 1. późno
 
-sĕdĕo, sĕdēre, sedi, sessum [verb] [II]
+sedeo, sedēre, sedi, sessum [verb] [II]
 (Sero venientes male sedentes)
 1. siedzieć
 
-ŏs, ossis [noun] [n] [III]
+os, ossis [noun] [n] [III]
 (Tarde venientibus ossa. Artemisia ossa cineremque eius aquae indidit ebibitque)
 1. kość
 
@@ -1799,7 +1799,7 @@ mors, mortis [noun] [f] [III]
 (Contra vim mortis medicamen non est in hortis)
 1. śmierć
 
-mĕdĭcāmĕn, medicaminis [noun] [n] [III]
+medicāmen, medicaminis [noun] [n] [III]
 (Contra vim mortis medicamen non est in hortis)
 1. lek
 
@@ -1807,7 +1807,7 @@ mĕdĭcāmĕn, medicaminis [noun] [n] [III]
 (Amantes - amentes)
 1. szalony
 
-intĕgrātĭo, integrationis [noun] [f] [III]
+integrātio, integrationis [noun] [f] [III]
 (Amantium irae - amoris integratio)
 1. integracja
 
@@ -1819,23 +1819,23 @@ fīlus, fili [noun] [m] [II]
 (Omnia sunt hominum tenui pendentia filo)
 1. nić, sznurek
 
-pendĕo, pendēre, pependi [verb] [II]
+pendeo, pendēre, pependi [verb] [II]
 (Omnia sunt hominum tenui pendentia filo)
 1. wisieć (w dół), być zawieszonym
 
-tĕnŭis, tenuis, tenue [adj]
+tenuis, tenuis, tenue [adj]
 (Omnia sunt hominum tenui pendentia filo)
 1. cienki, delikatny
 
-rĕcĭto, rĕcĭtāre, recitāvī, recitātum [verb] [I]
+recito, recitāre, recitāvī, recitātum [verb] [I]
 ()
 1. czytać na głos, recytować
 
-praetĕr [prep]
+praeter [prep]
 (Praeter Platonem omnes audientes poetam legentem reliquerunt)
 1. oprócz
 
-dēsĭno, dēsĭnĕre, desii, desitum [verb] [III]
+dēsino, dēsinere, desii, desitum [verb] [III]
 ()
 1. zaprzestać, zakończyć
 
@@ -1843,7 +1843,7 @@ pro [prep]
 (Unus Plato mihi est pro centum millibus audientium)
 1. w zastępstwie (czymś), zamiast (kogoś, czegoś)
 
-centŭrĭo, centurionis [noun] [m] [III]
+centurio, centurionis [noun] [m] [III]
 ()
 1. centurion
 
@@ -1856,11 +1856,11 @@ despēro, despērāre, desperāvī, desperātum [verb] [I]
 1. rozpaczać (nad) (+ de + abl)
 2. tracić nadzieję na
 
-vulneratus, vulnerată, vulneratum [adj]
+vulneratus, vulnerata, vulneratum [adj]
 (Centurio in pugna vulneratus de sua salute desperans)
 1. zraniony
 
-irrumpo, irrumpĕre, irrupi, irruptum [verb] [III]
+irrumpo, irrumpere, irrupi, irruptum [verb] [III]
 (Centurio in medios hostes irrumpens duos interficit)
 1. wtargnąć
 
@@ -1873,15 +1873,15 @@ lūdus, ludi [noun] [m] [II]
 1. gra, zabawa
 2. szkoła
 
-glădĭātōrĭus, gladiatoria, gladiatorium [adj]
+gladiātōrius, gladiatoria, gladiatorium [adj]
 (Cum munera gladiatoria erant)
 1. gladiatorski
 
-glădĭus, gladii [noun] [m] [II]
+gladius, gladii [noun] [m] [II]
 (Gladiatores gladiis pugnabant)
 1. miecz
 
-mūnŭs, muneris [noun] [n] [III]
+mūnus, muneris [noun] [n] [III]
 (Cum munera gladiatoria erant)
 1. widowisko publiczne, igrzyska
 
@@ -1889,7 +1889,7 @@ certo, certāre, certāvī, certātum [verb] [I]
 (Spectantium oculi in certantes versi erant)
 1. walczyć, rywalizować
 
-concĭdo, concĭdĕre, concidi [verb] [III]
+concido, concidere, concidi [verb] [III]
 ()
 1. upaść, być martwym
 
@@ -1898,7 +1898,7 @@ turba, turbae [noun] [f] [I]
 1. zamieszanie, wrzawa, zgiełk
 2. tłum, motłoch
 
-vĕnĭa, veniae [noun] [f] [I]
+venia, veniae [noun] [f] [I]
 (Turba spectans veniam gladiatori dare et vitam eius servare poterat)
 1. przychylność, życzliwość
 2. ułaskawienie
@@ -1908,11 +1908,11 @@ servo, servāre, servāvī, servātum [verb] [I]
 (Turba spectans veniam gladiatori dare et vitam eius servare poterat)
 1. chronić, zachować, oszczędzać
 
-indĭco, indĭcāre, indicāvī, indicātum [verb] [I]
+indico, indicāre, indicāvī, indicātum [verb] [I]
 (Sed plerusque pollice verso mortem iacenti humi indicabat)
 1. wskazywać
 
-plērusquĕ [pron]
+plērusque [pron]
 (Sed plerusque pollice verso mortem iacenti humi indicabat)
 1. większość ludzi, większość
 
@@ -1920,7 +1920,7 @@ pollex, pollicis [noun] [m] [III]
 (Sed plerusque pollice verso mortem iacenti humi indicabat)
 1. kciuk
 
-iăcĕo, iăcēre, iacui [verb] [II]
+iaceo, iacēre, iacui [verb] [II]
 (Sed plerusque pollice verso mortem iacenti humi indicabat)
 1. leżeć, położyć się
 
@@ -1928,7 +1928,7 @@ verso, versāre, versāvī, versātum [verb] [I]
 (Sed plerusque pollice verso mortem iacenti humi indicabat)
 1. obracać, obracać się, wirować
 
-saucĭus, sauciă, saucium [adj]
+saucius, saucia, saucium [adj]
 (Saucius eiurat pugnam gladiator)
 1. ranny, zraniony
 
@@ -1937,11 +1937,11 @@ saucĭus, sauciă, saucium [adj]
 1. deklarować niezdolność (do czegoś)
 2. wyrzekać się, odrzucać
 
-immĕmŏr, immĕmŏr, immĕmŏr [adj]
+immemor, immemor, immemor [adj]
 (Idem immemor antiqui vulneris arma capit)
 1. nie pamiętający
 
-vulnŭs, vulneris [noun] [n] [III]
+vulnus, vulneris [noun] [n] [III]
 (Idem immemor antiqui vulneris arma capit)
 1. rana
 2. cios, uderzenie
@@ -1954,11 +1954,11 @@ arma, armōrum [noun] [n] [II] [pl]
 (Idem immemor antiqui vulneris arma capit)
 1. broń, uzbrojenie
 
-antīquus, antiquă, antiquum [adj]
+antīquus, antiqua, antiquum [adj]
 (Idem immemor antiqui vulneris arma capit)
 1. stary, wiekowy
 
-hŏdĭē [adv]
+hodiē [adv]
 (Hodie apud inferos fortasse cenabimus)
 1. dzisiaj, teraz
 
@@ -1966,31 +1966,31 @@ cēno, cēnāre, cenāvī, cenātum [verb] [I]
 (Hodie apud inferos fortasse cenabimus)
 1. zjeść obiad
 
-antĕ [adv]
+ante [adv]
 (Ante pugnam ad milites verba facit)
 1. przed (+ acc)
 
-infĕrus, infĕri [noun] [II] [m]
+inferus, inferi [noun] [II] [m]
 (Hodie apud inferos fortasse cenabimus)
 1. mieszkaniec podziemia (piekła)
 
-nuntĭo, nuntĭāre, nuntiāvī, nuntiātum [verb] [I]
+nuntio, nuntiāre, nuntiāvī, nuntiātum [verb] [I]
 ()
 1. ogłaszać, informować
 
-prŏcul [adv]
+procul [adv]
 (Hostes a nobis non procul absunt)
 1. na odległość, daleko
 
-absŭm, abesse, abfui [verb] [anomalous]
+absum, abesse, abfui [verb] [anomalous]
 (Hostes a nobis non procul absunt)
 1. być daleko, być nieobecnym
 
-advĕnĭo, advĕnīre, adveni, adventum [verb] [IV]
+advenio, advenīre, adveni, adventum [verb] [IV]
 (Nos ab hostibus advenientibus non procul absumus)
 1. przyjść
 
-collŏquĭum, colloquii [noun] [n] [II]
+colloquium, colloquii [noun] [n] [II]
 (Persa hostis in colloquio cum militibus inquit ...)
 1. rozmowa
 
@@ -1999,62 +1999,62 @@ prae [prep]
 1. przed, z przodu
 2. z uwagi na, z powodu
 
-multĭtūdo, multitudinis [noun] [f] [III]
+multitūdo, multitudinis [noun] [f] [III]
 (Solem prae iaculorum et sagittarum multitudine non videbitis)
 1. mnogość, wielka liczba
 2. tłum
 
-iăcŭlum, iaculi [noun] [n] [II]
+iaculum, iaculi [noun] [n] [II]
 (Solem prae iaculorum et sagittarum multitudine non videbitis)
 1. oszczep
 
-săgitta, sagittae [noun] [f] [I]
+sagitta, sagittae [noun] [f] [I]
 (Solem prae iaculorum et sagittarum multitudine non videbitis)
 1. strzała
 
-umbră, umbrae [noun] [f] [I]
+umbra, umbrae [noun] [f] [I]
 (In umbra igitur pugnabimus)
 1. cień
 
-ĭgĭtur [adv]
+igitur [adv]
 (In umbra igitur pugnabimus)
 1. dlatego, więc
 
-turpĭtūdo, turpitudinis [noun] [f] [III]
+turpitūdo, turpitudinis [noun] [f] [III]
 (Liber est qui nulli turpitiduni servit)
 1. brzydota, deformacja
 2. hańba
 3. podłość
 
-flūmĕn, fluminis [noun] [n] [III]
+flūmen, fluminis [noun] [n] [III]
 (Navis, quae in flumine magna est, in mari parva est)
 1. rzeka, strumień
 
-mĕrĭtō [adv]
+meritō [adv]
 (Amittit merito proprium, qui alienum appetit)
 1. zasłużenie, słusznie
 
-mĕrĭtus, merită, meritum [adj]
+meritus, merita, meritum [adj]
 ()
 1. zasłużony, należny
 
-prŏprĭum, proprii [noun] [n] [II]
+proprium, proprii [noun] [n] [II]
 (Amittit merito proprium, qui alienum appetit)
 1. posiadanie, własność
 
-appĕto, appĕtĕre, appetii/appetivi, appetitum [verb] [III]
+appeto, appetere, appetii/appetivi, appetitum [verb] [III]
 (Amittit merito proprium, qui alienum appetit)
 1. szukać, pragnąć
 
-ălĭēnum, alieni [noun] [n] [II]
+aliēnum, alieni [noun] [n] [II]
 (Amittit merito proprium, qui alienum appetit)
 1. cudza własność
 
-multus, multă, multum [adj]
+multus, multa, multum [adj]
 (Multos timere debet, quem multi timent)
 1. wiele, liczni (spr. w słowniku papierowym)
 
-iūrĕ [adv]
+iūre [adv]
 (Neminem captivabimus nisi iure victum)
 1. przez prawo, słusznie, sprawiedliwie
 
@@ -2062,19 +2062,19 @@ captīvo, captīvāre, captivāvī, captivātum [verb] [I]
 (Neminem captivabimus nisi iure victum)
 1. wziąć w niewolę
 
-dīlĭgo, dīlĭgĕre, dilexi, dilectum [verb] [III]
+dīligo, dīligere, dilexi, dilectum [verb] [III]
 (A nullo diligitur qui neminem diligit)
 1. kochać, cenić
 
-quisquĕ [pron]
+quisque [pron]
 (Suae quisque fortunae faber est)
 1. każdy
 
-sŭum, sui [noun] [n] [II]
+suum, sui [noun] [n] [II]
 (Suum cuique)
 1. jego własność
 
-vŏluptās, voluptatis [noun] [f] [III]
+voluptās, voluptatis [noun] [f] [III]
 (Trahit sua quemque voluptas)
 1. przyjemność
 
@@ -2082,15 +2082,15 @@ quisquis [pron]
 (Quidquid discis, tibi discis)
 1. ktokolwiek, każdy
 
-dĕus, dei [noun] [m] [II]
+deus, dei [noun] [m] [II]
 (De deis deabusque Romanorum)
 1. bóg
 
-dĕa, deae [noun] [f] [I]
+dea, deae [noun] [f] [I]
 (De deis deabusque Romanorum)
 1. bogini
 
-summus, summă, summum [adj]
+summus, summa, summum [adj]
 (Summus deorum Iupitter erat)
 1. najwyższy
 
@@ -2098,31 +2098,31 @@ mundus, mundi [noun] [m] [II]
 (Mundi universi dominus)
 1. świat
 
-universus, universă, universum [adj]
+universus, universa, universum [adj]
 (Mundi universi dominus)
 1. cały
 
-ăquĭla, aquilae [noun] [f] [I]
+aquila, aquilae [noun] [f] [I]
 (Iovi aquila dicata erat)
 1. orzeł
 
-dĭcātus, dicată, dicatum [adj]
+dicātus, dicata, dicatum [adj]
 (Iovi aquila dicata erat)
 1. poświęcony, dedykowany
 
-uxŏr, uxoris [noun] [f] [III]
+uxor, uxoris [noun] [f] [III]
 (Iovis uxor, Iuno, patrona mulierum erat)
 1. żona
 
-mŭlĭĕr, mulieris [noun] [f] [III]
+mulier, mulieris [noun] [f] [III]
 (Iovis uxor, Iuno, patrona mulierum erat)
 1. kobieta, żona, kochanka
 
-săpĭentĭa, sapientiae [noun] [f] [I]
+sapientia, sapientiae [noun] [f] [I]
 (Minerva dea sapientae et artium erat)
 1. mądrość                    
 
-rĕgo, rĕgĕre, rexi, rectum [verb] [III] 
+rego, regere, rexi, rectum [verb] [III]
 (Mars bella regebat)
 1. rządzić, kierować
 
@@ -2138,23 +2138,23 @@ dēlecto, dēlectāre, delectāvī, delectātum [verb] [I]
 (Apollo lyra cantans deo deasque delectabat)
 1. zachwycać, fascynować
 
-malus, mală, malum [adj]
+malus, mala, malum [adj]
 (Sagittis malos homines puniebat)
 1. zły 
 
-sŏrŏr, sororis [noun] [f] [III]
+soror, sororis [noun] [f] [III]
 (Diana, Apollonis soror, quae venationis et animalium patrona erat, silvas et montes peragrabat)
 1. siostra
 
-vēnātĭo, venationis [noun] [f] [III]
+vēnātio, venationis [noun] [f] [III]
 (Diana, Apollonis soror, quae venationis et animalium patrona erat, silvas et montes peragrabat)
 1. polowanie
 
-pĕrăgro, pĕrăgrāre, peragrāvī, peragrātum [verb] [I]
+peragro, peragrāre, peragrāvī, peragrātum [verb] [I]
 (Diana, Apollonis soror, quae venationis et animalium patrona erat, silvas et montes peragrabat)
 1. przemierzać, przetrząsać
 
-fŏcus, foci [noun] [m] [II]
+focus, foci [noun] [m] [II]
 (Vesta, dea foci atque ignis aeterni)
 1. palenisko, kominek
 2. dom, gospodarstwo domowe, rodzina
@@ -2163,19 +2163,19 @@ ignis, ignis [noun] [m] [III]
 ()
 1. ogień
 
-mercātŏr, mercatoris [noun] [m] [III]
-(Mercŭrĭus, mercatorum patronus et nuntius deorum)
+mercātor, mercatoris [noun] [m] [III]
+(Mercurius, mercatorum patronus et nuntius deorum)
 1. kupiec
 
 nuntius, nuntii [noun] [m] [II]
-(Mercŭrĭus, mercatorum patronus et nuntius deorum)
+(Mercurius, mercatorum patronus et nuntius deorum)
 1. posłaniec, zwiastun, goniec
 
-ĭtă [adv]
+ita [adv]
 (Romani summos deos deasque ita enumerabant: ... )
 1. więc, w związku z tym
 
-ēnŭmĕro, ēnŭmĕrāre, enumerāvī, enumerātum [verb] [I]
+ēnumero, ēnumerāre, enumerāvī, enumerātum [verb] [I]
 (Romani summos deos deasque ita enumerabant: ... )
 1. wyliczyć
 
@@ -2183,11 +2183,11 @@ sto, stāre, steti, stātum [verb] [I]
 (Res publicae legibus et civibus bonic stabis)
 1. stać, opierać się (na kimś/czymś) (+ abl)
 
-iustus, iustă, iustum [adj]
+iustus, iusta, iustum [adj]
 (Rerum publicarum leges iustae atque aequae esse debent)
 1. sprawiedliwy
 
-aequus, aequă, aequum [adj]
+aequus, aequa, aequum [adj]
 (Rerum publicarum leges iustae atque aequae esse debent)
 1. równy
 
@@ -2203,7 +2203,7 @@ virtus, virtutis [noun] [f] [III]
 (Res publicam iustitia et virtutes civium firmant)
 1. męstwo, zaleta, cnota
 
-exercĭtŭs, exercitūs [noun] [m] [IV]
+exercitus, exercitūs [noun] [m] [IV]
 ()
 1. wojsko
 
@@ -2220,7 +2220,7 @@ spēs, spei [noun] [f] [V]
 (In spe)
 1. nadzieja, przewidywanie, oczekiwanie
 
-lapsŭs, lapsūs [noun] [m] [IV]
+lapsus, lapsūs [noun] [m] [IV]
 (Lapsus linguae)
 1. poślizgnięcie
 
@@ -2228,16 +2228,16 @@ spēro, spērāre, sperāvī, sperātum [verb] [I]
 (Contra spem spero)
 1. mieć nadzieję
 
-dĭēs, diei [noun] [m/f] [V]
+diēs, diei [noun] [m/f] [V]
 ()
 1. dzień - pora doby (m), dzień - termin (f)
 
-sĕrēnus, serenă, serenum [adj]
+serēnus, serena, serenum [adj]
 (Venit post multos annos una serena dies)
 1. pogodny, spokojny
 2. wesoły, zadowolony
 
-dŏmestĭcus, domestică, domesticum [adj]
+domesticus, domestica, domesticum [adj]
 (Quid est domestica sede iucundius)
 1. domowy, znajomy, rodzimy
 
@@ -2246,87 +2246,87 @@ sēdēs, sedis [noun] [f] [III]
 1. siedziba
 2. krzesło
 
-iūcundus, iucundă, iucundum [adj]
+iūcundus, iucunda, iucundum [adj]
 (Quid est domestica sede iucundius)
 1. przyjemny
 
-sensŭs, sensūs [noun] [m] [IV]
+sensus, sensūs [noun] [m] [IV]
 ()
 1. uczucie, zmysł
 
-vīsŭs, visūs [noun] [m] [IV]
+vīsus, visūs [noun] [m] [IV]
 ()
 1. wygląd, widok, pojawienie się
 2. wizja
 
-audītŭs, auditūs [noun] [m] [IV]
+audītus, auditūs [noun] [m] [IV]
 ()
 1. słuch
 
-gustŭs, gustūs [noun] [m] [IV]
+gustus, gustūs [noun] [m] [IV]
 ()
 1. smak
 
-ŏdōrātŭs, odoratūs [noun] [m] [IV]
+odōrātus, odoratūs [noun] [m] [IV]
 ()
 1. węch
 
-tactŭs, tactūs [noun] [m] [IV]
+tactus, tactūs [noun] [m] [IV]
 ()
 1. dotyk
 
-mănŭs, manūs [noun] [f] [IV]
+manus, manūs [noun] [f] [IV]
 (Manus manum lavat)
 1. ręka
 
-lăvo, lavāre, lavāvī, lavātum [verb] [I]
+lavo, lavāre, lavāvī, lavātum [verb] [I]
 (Manus manum lavat)
 1. myć
 
-līnĕa, lineae [noun] [f] [I]
+līnea, lineae [noun] [f] [I]
 (Nulla dies sine linea)
 1. sznur
 2. linia, kreska
 3. kres, meta
 
-rīsŭs, risūs [noun] [m] [IV]
+rīsus, risūs [noun] [m] [IV]
 (Per risum multum poteris cognoscere stultum)
 1. śmiech, uśmiech
 2. pogarda, szyderstwo
 
-cognosco, cognoscĕre, cognovi, cognitum [verb] [III]
+cognosco, cognoscere, cognovi, cognitum [verb] [III]
 (Per risum multum poteris cognoscere stultum)
 1. rozpoznać, dowiedzieć się
 
-ĭneptus, ineptă, ineptum [adj]
+ineptus, inepta, ineptum [adj]
 (Risu inepto res ineptior nulla est)
 1. głupi, niemądry
 
-sĕnātŭs, senatūs [noun] [m] [IV]
+senātus, senatūs [noun] [m] [IV]
 (Cives in senatu de republica disputant)
 1. senat
 
-intĕrĭtŭs, interitūs [noun] [m] [IV]
+interitus, interitūs [noun] [m] [IV]
 (Hostes Romanis imminent et Romae interitum parant)
 1. wyginięcie, zniszczenie
 
-măgistrātŭs, magistratūs [noun] [m] [IV]
+magistrātus, magistratūs [noun] [m] [IV]
 (Cives senatum et magistratus rogant)
 1. funkcjonariusz
 
-sŏnĭtŭs, sonitūs [noun] [m] [IV]
+sonitus, sonitūs [noun] [m] [IV]
 (Sonitus tubarum signum exercitui ad impetum dat)
 1. hałas, głośny dźwięk
 
-impĕtŭs, impetūs [noun] [m] [IV]
+impetus, impetūs [noun] [m] [IV]
 (Sonitus tubarum signum exercitui ad impetum dat)
 1. atak
 
-incĭto, incĭtāre, incitāvī, incitātum [verb] [I]
+incito, incitāre, incitāvī, incitātum [verb] [I]
 (Imperator spem civium incitat)
 1. pobudzić
 
-rĕdĭtŭs, reditūs [noun] [m] [IV]
+reditus, reditūs [noun] [m] [IV]
 (Omnes reditum exercitus victoris exspectans)
 1. powrót
 
@@ -2338,15 +2338,15 @@ laus, laudis [noun] [f] [III]
 (Milites spe victoriae et laudis ad pugnam incitatur)
 1. pochwała
 
-adversus, adversă, adversum [adj]
+adversus, adversa, adversum [adj]
 (Et in rebus advertis et in rebus secundis Romani deis sacrificabant)
 1. przeciwny
 
-sĕcundus, secundă, secundum [adj]
+secundus, secunda, secundum [adj]
 (Et in rebus advertis et in rebus secundis Romani deis sacrificabant)
 1. szczęśliwy, sprzyjający
 
-cŏrōna, coronae [noun] [f] [I]
+corōna, coronae [noun] [f] [I]
 (Imperator militibus coronas et dona multa tribuit)
 1. wieniec
 
@@ -2354,40 +2354,40 @@ dōnum, doni [noun] [n] [II]
 (Imperator militibus coronas et dona multa tribuit)
 1. prezent
 
-trĭbŭo, trĭbŭĕre, tribui, tributum [verb] [III]
+tribuo, tribuere, tribui, tributum [verb] [III]
 (Imperator militibus coronas et dona multa tribuit)
 1. przyznawać, przydzielać
 
-dēnĭquĕ [adv]
+dēnique [adv]
 (Denique laetus domum properat)
 1. w końcu
 
-laetus, laetă, laetum [adj]
+laetus, laeta, laetum [adj]
 (Denique laetus domum properat)
 1. szczęśliwy, wesoły, radosny, zadowolony
 
-consĭlĭum, consilii [noun] [n] [II]
+consilium, consilii [noun] [n] [II]
 (Senatum consilium publicum erat)
 1. debata, dyskusja, narada, konsultacje
 2. organ doradczy
 
-servĭo, servīre, servii/servivi, servitum [verb] [IV]
+servio, servīre, servii/servivi, servitum [verb] [IV]
 (Servi, qui dominis servire debebant atque ab iis graviter puniebantur)
 1. służyć
 
-grăvĭtĕr [adv]
+graviter [adv]
 (Servi, qui dominis servire debebant atque ab iis graviter puniebantur)
 1. poważnie, głęboko
 
-rĕporto, rĕportāre, reportāvī, reportātum [verb] [I]
+reporto, reportāre, reportāvī, reportātum [verb] [I]
 ()
 1. raportować
 
-ĕquĭtātŭs, equitatūs [noun] [m] [IV]
+equitātus, equitatūs [noun] [m] [IV]
 (Exercitus Romanus ex equitatu et peditatu constabat)
 1. kawaleria
 
-pĕdĭtātŭs, peditatūs [noun] [m] [IV]
+peditātus, peditatūs [noun] [m] [IV]
 (Exercitus Romanus ex equitatu et peditatu constabat)
 1. piechota
 
@@ -2395,32 +2395,32 @@ consto, constāre, constiti [verb] [I]
 (Exercitus Romanus ex equitatu et peditatu constabat)
 1. składać się z
 
-ĕquĕs, equitis [noun] [m] [III]
+eques, equitis [noun] [m] [III]
 (In proelio equites in cornibus exercitus erant)
 1. jeździec, kawalerzysta
 
-proelĭum, proelii [noun] [n] [II]
+proelium, proelii [noun] [n] [II]
 (In proelio equites in cornibus exercitus erant)
 1. bitwa, walka
 
-consŭl, consulis [noun] [m] [III]
+consul, consulis [noun] [m] [III]
 (Exercitui Romani consul aut praetor praeerat)
 1. konsul
 
-lĕpĭdus, lepidă, lepidum [adj]
+lepidus, lepida, lepidum [adj]
 (Hannibalis lepidum sed acerbum dictum)
 1. czarujący, zabawny, dowcipny
 
-ăcerbus, acerbă, acerbum [adj]
+acerbus, acerba, acerbum [adj]
 (Hannibalis lepidum sed acerbum dictum)
 1. cierpki
 2. kwaśny, niedojrzały
 
-prŏfŭgus, profugă, profugum [adj]
+profugus, profuga, profugum [adj]
 (Hannibal Carthagine profugus apud Antiuchum manebat)
 1. uciekający, wygnany
 
-prŏfŭgus, profugi [noun] [m] [II]
+profugus, profugi [noun] [m] [II]
 ()
 1. uciekinier, wygnaniec
 
@@ -2428,23 +2428,23 @@ dux, ducis [noun] [m/f] [III]
 (Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
 1. dowódca, książę
 
-ostendo, ostendĕre, ostendi, ostentum/ostensum [verb] [III]
+ostendo, ostendere, ostendi, ostentum/ostensum [verb] [III]
 (Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
 1. pokazać
 
-ălĭquandō [adv]
+aliquandō [adv]
 (Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
 1. pewnego razu
 
-părātus, parată, paratum [adj]
+parātus, parata, paratum [adj]
 (Aliquando rex duci perito copias suas contra Romanos paratas ostendabat)
 1. przygotowany, gotowy
 
-insignĕ, insignis [noun] [n] [III]
+insigne, insignis [noun] [n] [III]
 (Rex ostendabat exercitum argenteis et aureis insignibus florentem)
 1. znak, emblemat, odznaka
 
-currŭs, currūs [noun] [m] [IV]
+currus, currūs [noun] [m] [IV]
 (Rex ostendabat currus cum falcibus)
 1. rydwan, lekki pojazd konny
 
@@ -2460,11 +2460,11 @@ fulgens, fulgens, fulgens [adj]
 ()
 1. lśniący, olśniewający
 
-ĕlĕphantus, elephanti [noun] [m/f] [II]
+elephantus, elephanti [noun] [m/f] [II]
 (Rex ostendabat elephantos cum turribus)
 1. słoń
 
-ĕphippĭum, ephippii [noun] [n] [II]
+ephippium, ephippii [noun] [n] [II]
 (Rex ostendabat equitatum frenis et ephippiis fulgentem)
 1. podkładka pod siodło, derka dla konia
 
@@ -2472,7 +2472,7 @@ frēnum, freni [noun] [n] [II]
 (Rex ostendabat equitatum frenis et ephippiis fulgentem)
 1. uzda, uprząż
 
-sătis, sătis, sătis [adj]
+satis, satis, satis [adj]
 (Satis-ne erunt Romanis haec omnia ?)
 1. wystarczający, odpowiedni, zadowalający
 
@@ -2480,41 +2480,41 @@ plānē [adv]
 (Plane satis sunt, credo, Roamnis, etiam si avarissimi sunt)
 1. jasno, wyraźnie, całkowicie
 
-rīdĕo, rīdēre, risi, risum [verb] [II]
+rīdeo, rīdēre, risi, risum [verb] [II]
 (Plane satis sunt, credo, Roamnis, etiam si avarissimi sunt)
 1. śmiać się, wyśmiewać
 2. uśmiechać się
 
-ăvārus, avară, avarum [adj]
+avārus, avara, avarum [adj]
 (Plane satis sunt, credo, Roamnis, etiam si avarissimi sunt)
 1. skąpy, chciwy
 
-sentĭo, sentīre, sensi, sensum [verb] [IV]
+sentio, sentīre, sensi, sensum [verb] [IV]
 (Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
 1. myśleć, zdawać sobie sprawę
 
-ēlūdo, ēlūdĕre, elusi, elusum [verb] [III]
+ēlūdo, ēlūdere, elusi, elusum [verb] [III]
 (Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
 1. wymknąć się, uciec od
 2. kpić, wyśmiewać się
 
-ignāvĭa, ignaviae [noun] [f] [I]
+ignāvia, ignaviae [noun] [f] [I]
 (Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
 1. bezczynność, lenistwo
 
-imbellĭa, imbelliae [noun] [f] [I]
+imbellia, imbelliae [noun] [f] [I]
 (Rex de numero et ornatu exercitus sui, Hannibal de praeda Romanorum sentiebat, eludens ignaviam et imnelliam militum Antiochi)
 1. niezdolność do wojny
 
-vīvo, vīvĕre, vixi, victum [verb] [III]
+vīvo, vīvere, vixi, victum [verb] [III]
 ()
 1. być żywym, żyć
 
-pingo, pingĕre, pinxi, pictum [verb] [III]
+pingo, pingere, pinxi, pictum [verb] [III]
 ()
 1. malować
 
-prōmitto, prōmittĕre, promisi, promissum [verb] [III]
+prōmitto, prōmittere, promisi, promissum [verb] [III]
 (Magna promisisti, exigua video)
 1. obiecać
 
@@ -2522,7 +2522,7 @@ magnum, magni [noun] [n] [II]
 (Magna promisisti, exigua video)
 1. coś wielkiego, coś wspaniałego
 
-exĭgŭum, exigui [noun] [n] [II]
+exiguum, exigui [noun] [n] [II]
 (Magna promisisti, exigua video)
 1. trochę, niewielka ilość
 
@@ -2531,11 +2531,11 @@ quod [conj]
 1. o ile, tak dalece jak
 2. ponieważ
 
-perfĭdus, perfidă, perfidum [adj]
+perfidus, perfida, perfidum [adj]
 (Vicimus perfidos hospites, imbellis hostes)
 1. zdradziecki, fałszywy, podstępny
 
-hospĕs, hospitis [noun] [m] [III]
+hospes, hospitis [noun] [m] [III]
 (Vicimus perfidos hospites, imbellis hostes)
 1. gospodarz
 
@@ -2543,57 +2543,57 @@ imbellis, imbellis, imbelle [adj]
 (Vicimus perfidos hospites, imbellis hostes)
 1. nieodpowiedni lub nieprzygotowany do wojny
 
-antĕā [adv]
+anteā [adv]
 (Sum quod eris. Quod es antea fui)
 1. przed
 2. poprzednio, w przeszłości
 
-ĭtĕr, itineris [noun] [n] [III]
+iter, itineris [noun] [n] [III]
 (Duo amici per montes iter faciebant)
 1. podróż, droga
 
-conspĭcĭo, conspĭcĕre, conspexi, conspectum [verb] [III]
+conspicio, conspicere, conspexi, conspectum [verb] [III]
 (Duo amici subito procul ursum appropinquantem conspexerunt)
 1. obserwować, widzieć
 
-sŭbĭtō [adv]
+subitō [adv]
 (Duo amici subito procul ursum appropinquantem conspexerunt)
 1. nagle
 
-altĕr [pron]
+alter [pron]
 (Alter ex iis celeriter arborem ascendit)
 1. drugi, inny
 2. jeden (spośród dwóch)
 
-cĕlĕrĭtĕr [adv]
+celeriter [adv]
 (Alter ex iis celeriter arborem ascendit)
 1. szybko, w pośpiechu
 
-arbŏr, arboris [noun] [f] [III]
+arbor, arboris [noun] [f] [III]
 (Alter ex iis celeriter arborem ascendit)
 1. drzewo
 
-ascendo, ascendĕre, ascendi, ascensum [verb] [III]
+ascendo, ascendere, ascendi, ascensum [verb] [III]
 (Alter ex iisceleriter arborem ascendit)
 1. wspinać się
 
-descendo, descendĕre, descendi, descensum [verb] [III]
+descendo, descendere, descendi, descensum [verb] [III]
 (Tum alter ex arbore descendit)
 1. schodzić
 
-rĕlictus, relictă, relictum [adj]
+relictus, relicta, relictum [adj]
 ()
 1. opuszczony, porzucony
 
-attingo, attingĕre, attigi, attactum [verb] [III]
+attingo, attingere, attigi, attactum [verb] [III]
 (Ursus mortuorum corpora non attingit)
 1. dotykać
 
-tango, tangĕre, tetigi, tactum [verb] [III]
+tango, tangere, tetigi, tactum [verb] [III]
 ()
 1. dotknąć
 
-mortŭus, mortuă, mortuum [adj]
+mortuus, mortua, mortuum [adj]
 (Ursus mortuorum corpora non attingit)
 1. martwy
 
@@ -2605,34 +2605,34 @@ tempto, temptāre, temptāvī, temptātum [verb] [I]
 (Ursus iacenti appropinquavit, corpus eius temptavit, denique discessit)
 1. testować, próbować
 
-discēdo, discēdĕre, discessi, discessum [verb] [III]
+discēdo, discēdere, discessi, discessum [verb] [III]
 (Ursus iacenti appropinquavit, corpus eius temptavit, denique discessit)
 1. odejść, wycofać się
 
-intactus, intactă, intactum [adj]
+intactus, intacta, intactum [adj]
 (Ursus iuvenem intactum reliquit)
 1. nienaruszony, nietknięty
 
-iŏcus, ioci [noun] [m] [II]
+iocus, ioci [noun] [m] [II]
 (Alter ex arbore descendit et amicum per iocum interrogavit)
 1. żart
 
-insŭsurro, insŭsurrāre, insusurrāvī, insusurrātum [verb] [I]
+insusurro, insusurrāre, insusurrāvī, insusurrātum [verb] [I]
 (Quid ursus tibi per aures interrogavit ?)
 1. insynuować
 2. sugerować
 3. szeptać
 
-ĭnŏpĭa, inopiae [noun] [f] [I]
+inopia, inopiae [noun] [f] [I]
 (Aliquando Romae frumenti magna inopia erat)
 1. brak, potrzeba
 2. ubóstwo, nędza, niedobór
 
-ŏnustus, onustă, onustum [adj]
+onustus, onusta, onustum [adj]
 (Iam naves frumento onustae erant)
 1. ciężki, w pełni załadowany
 
-solvo, solvĕre, solvi, solutum [verb] [III]
+solvo, solvere, solvi, solutum [verb] [III]
 (Subito tempestas magna nautas naves solvere prohibuit)
 1. uwolnić, rozplątać, rozwiązać
 2. postawić żagle, wypłynąć na morze
@@ -2641,11 +2641,11 @@ tempestās, tempestatis [noun] [f] [III]
 (Subito tempestas magna nautas naves solvere prohibuit)
 1. burza
 
-omnes, omnĭum [noun] [m] [III] [pl]
+omnes, omnium [noun] [m] [III] [pl]
 (Omnes enim naves conscendere timebant)
 1. wszyscy
 
-turbātus, turbată, turbatum [adj]
+turbātus, turbata, turbatum [adj]
 (Omnes per mare turbatum navigare timebant)
 1. wzburzony, zaniepokojony
 
@@ -2653,15 +2653,15 @@ classis, classis [noun] [f] [III]
 (Nobis magnam classem comparavit)
 1. flota lub marynarka wojenna
 
-compăro, compărāre, comparāvī, comparātum [verb] [I]
+comparo, comparāre, comparāvī, comparātum [verb] [I]
 (Nobis magnam classem comparavit)
 1. przygotować, zapewnić
 
-admĭnistro, admĭnistrāre, administrāvī, administrātum [verb] [I]
+administro, administrāre, administrāvī, administrātum [verb] [I]
 (Pecuniam publicam magna diligentia administravit)
 1. zarządzać, kierować
 
-vĕnēnum, veneni [noun] [n] [II]
+venēnum, veneni [noun] [n] [II]
 (Hannibal ipse sibi veneno mortem paravit)
 1. trucizna
 
@@ -2673,53 +2673,53 @@ annus, anni [noun] [m] [II]
 (Hoc anno)
 1. rok
 
-cĭtō [adv]
+citō [adv]
 (Qui se ipse laudat, cito derisorem invenit)
 1. szybko
 
-dērīsŏr, derisoris [noun] [m] [III]
+dērīsor, derisoris [noun] [m] [III]
 (Qui se ipse laudat, cito derisorem invenit)
 1. szyderca, kpiarz
 
-parco, parcĕre, peperci, parsum [verb] [III]
+parco, parcere, peperci, parsum [verb] [III]
 (Mors parcit nulli)
 1. powstrzymywać się, powstrzymywać się od
 2. oszczędzać (+ dat ?)
 
-antĕpōno, antĕpōnĕre, anteposui, antepositum [verb] [III]
+antepōno, antepōnere, anteposui, antepositum [verb] [III]
 (Leges salutem omnium singulorum saluti anteponunt)
 1. ustawiać przed (+ celownik), umieszczać lub stawiać przed
 2. preferować, cenić wyżej
 
-hĕbĕto, hĕbĕtāre, hebetāvī, hebetātum [verb] [I]
+hebeto, hebetāre, hebetāvī, hebetātum [verb] [I]
 (Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
 1. stępić, uśpić, uczynić słabym
 
-mātūrus, matură, maturum [adj]
+mātūrus, matura, maturum [adj]
 (Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
 1. wczesny, szybki
 2. dojrzały
 
-sĕnectūs, senectutis [noun] [f] [III]
+senectūs, senectutis [noun] [f] [III]
 (Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
 1. starość
 
-longus, longă, longum [adj]
+longus, longa, longum [adj]
 (Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
 1. długi
 
-reddo, reddĕre, reddidi, redditum [verb] [III]
+reddo, reddere, reddidi, redditum [verb] [III]
 (Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
 1. powrócić
 2. przywrócić, oddawać
 3. dostarczać, przyznawać, przydzielać
 
-nĭvĕus, niveă, niveum [adj]
+niveus, nivea, niveum [adj]
 (Thais habet nigros, niveos Lacaenia dentes)
 1. zaśnieżony, pokryty śniegiem
 2. biały
 
-nĭgĕr, nigră, nigrum [adj]
+niger, nigra, nigrum [adj]
 (Thais habet nigros, niveos Lacaenia dentes)
 1. czarny
 
@@ -2727,19 +2727,19 @@ dens, dentis [noun] [m] [III]
 (Thais habet nigros, niveos Lacaenia dentes)
 1. ząb
 
-rătĭo, rationis [noun] [f] [III]
+ratio, rationis [noun] [f] [III]
 (Quae ratio est ? Emptos haec habet, illa suos)
 1. uzasadnienie
 
-emptus, emptă, emptum [adj]
+emptus, empta, emptum [adj]
 (Quae ratio est ? Emptos haec habet, illa suos)
 1. kupiony
 
-ĕmo, ĕmĕre, emi, emptum [verb] [III]
+emo, emere, emi, emptum [verb] [III]
 ()
 1. kupić
 
-callĭdĭtās, calliditatis [noun] [f] [III]
+calliditās, calliditatis [noun] [f] [III]
 ()
 1. spryt, zręczność
 
@@ -2751,21 +2751,21 @@ fīnis, finis [noun] [m/f] [III]
 (Nolani et Neapolitani etiam atque etiam de finibus certabant)
 1. granica, koniec
 
-instĭtŭo, instĭtŭĕre, institui, institutum [verb] [III]
+instituo, instituere, institui, institutum [verb] [III]
 (Fabius Labeo fines inter Nolanos et Neapolitanos instituere debebat)
 1. zakładać, ustanawiać
 
-cŭpĭdĭtās, cupiditatis [noun] [f] [III]
+cupiditās, cupiditatis [noun] [f] [III]
 (Sine cupiditate agite)
 1. entuzjazm, zapał, pasja
 2. pożądanie
 3. chciwość
 
-ălĭquantum, aliquanti [noun] [n] [II]
+aliquantum, aliquanti [noun] [n] [II]
 (Neapolitanis agri aliquantum cedite)
 1. pewna/odpowiednia ilość, część
 
-cĕdŏ, cēdĕre, cessi, cessum [verb] [III]
+cedo, cēdere, cessi, cessum [verb] [III]
 (Neapolitanis agri aliquantum cedite)
 1. dać, przynieść, przekazać
 
@@ -2781,28 +2781,28 @@ vīcīna, vicinōrum [noun] [n] [II]
 (Nolani verbis viri Romani moti vicinis cesserunt)
 1. sąsiednie tereny, sąsiedzctwo
 
-mĕdĭum, medii [noun] [n] [II]
+medium, medii [noun] [n] [II]
 (In medio aliquantum agri vacui reliquerunt)
 1. środek
 
-văcŭus, vacuă, vacuum [adj]
+vacuus, vacua, vacuum [adj]
 (In medio aliquantum agri vacui reliquerunt)
 1. puste, wolne, niezajęte
 
-termĭnus, termini [noun] [m] [II]
+terminus, termini [noun] [m] [II]
 (Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
 1. granica, termin
 
-constĭtŭo, constĭtŭĕre, constitui, constitutum [verb] [III]
+constituo, constituere, constitui, constitutum [verb] [III]
 (Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
 1. ustawiać lub ustawiać w pozycji, wznosić
 2. ustanowić, stworzyć, wprowadzić
 
-ŭt [conj]
+ut [conj]
 (Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
 1. aby, żeby
 
-termĭno, termĭnāre, termināvī, terminātum [verb] [I]
+termino, termināre, termināvī, terminātum [verb] [I]
 (Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
 1. oznaczać granice
 
@@ -2810,11 +2810,11 @@ hasta, hastae [noun] [f] [I]
 (Hastam aut caduceum eligite)
 1. włócznia, lanca, oszczep
 
-cādūcĕum, caducei [noun] [n] [II]
+cādūceum, caducei [noun] [n] [II]
 (Hastam aut caduceum eligite)
 1. laska herolda noszona jako znak pokoju
 
-ēlĭgo, ēlĭgĕre, elegi, electum [verb] [III]
+ēligo, ēligere, elegi, electum [verb] [III]
 (Hastam aut caduceum eligite)
 1. wybierać
 
@@ -2822,7 +2822,7 @@ pax, pacis [noun] [f] [III]
 (Duo signa - belli aut pacis - ex quibus unum eligite)
 1. pokój
 
-neutĕr [pron]
+neuter [pron]
 (Nos neutrum eligimus)
 1. żaden z dwóch
 
@@ -2830,30 +2830,30 @@ apporto, apportāre, apportāvī, apportātum [verb] [I]
 (Vos, qui haec signa apportavistis, ipsi eligite)
 1. nosić, przenosić, przynosić (do)
 
-sĕcundum [adv]
+secundum [adv]
 (Secundum Varronem Romani non hastam ipsam neque caduceum miserunt)
 1. według
 2. zgodnie z
 3. wdłuż
 4. po, za (w sensie czasu)
 
-nĕque [adv]
+neque [adv]
 (Secundum Varronem Romani non hastam ipsam neque caduceum miserunt)
 1. ani, ani nie
 
-tessĕra, tesserae [noun] [f] [I]
+tessera, tesserae [noun] [f] [I]
 (Romani duas terras, in quarum altera caducei, in altera hastae simulacra erant)
 1. żeton, bilet
 
-sĭmŭlācrum, simulacri [noun] [n] [II]
+simulācrum, simulacri [noun] [n] [II]
 (Romani duas tesseras, in quarum altera caducei, in altera hastae simulacra erant)
 1. podobizna, obraz, posąg
 
-lŭpus, lupi [noun] [m] [II]
+lupus, lupi [noun] [m] [II]
 (Lupus capram in saxo alto stantem conspexit)
 1. wilk
 
-căpra, caprae [noun] [f] [I]
+capra, caprae [noun] [f] [I]
 (Lupus capram in saxo alto stantem conspexit)
 1. koza
 
@@ -2861,11 +2861,11 @@ saxum, saxi [noun] [n] [II]
 (Lupus capram in saxo alto stantem conspexit)
 1. kamień
 
-accēdo, accēdĕre, accessi, accessum [verb] [III]
+accēdo, accēdere, accessi, accessum [verb] [III]
 (Ad eam accedere non potuit)
 1. zbliżyć się, podejść
 
-căpella, capellae [noun] [f] [I]
+capella, capellae [noun] [f] [I]
 (Cur capella pulcherrima saxum illud non relinques ?)
 1. kózka (zdrobnienie)
 
@@ -2877,11 +2877,11 @@ herba, herbae [noun] [f] [I]
 (Praetum tibi multas herbas praebebit)
 1. zioło, trawa
 
-praepōno, praepōnĕre, praeposui, praepositum [verb] [III]
+praepōno, praepōnere, praeposui, praepositum [verb] [III]
 (Loco pulchro tutum praeposui)
 1. stawiać kogoś/coś (+ acc) przed/ponad kogoś/coś (+ dat)
 
-vīlĭca, vilicae [noun] [f] [I]
+vīlica, vilicae [noun] [f] [I]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
 1. żona zarządcy/zarządczyni majątku ziemskiego
 
@@ -2889,7 +2889,7 @@ quīdam [pron]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
 1. pewna (osoba/rzecz)
 
-cōtīdĭē [adv]
+cōtīdiē [adv]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
 1. codziennie
 
@@ -2897,7 +2897,7 @@ gallus, galli [noun] [m] [II]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
 1. kogut
 
-cantŭs, cantūs [noun] [m] [IV]
+cantus, cantūs [noun] [m] [IV]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
 1. pieśń, śpiew
 2. (ptak) krzyk
@@ -2906,7 +2906,7 @@ somnus, somni [noun] [m] [II]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
 1. sen
 
-excĭto, excĭtāre, excitāvī, excitātum [verb] [I]
+excito, excitāre, excitāvī, excitātum [verb] [I]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
 1. obudzić, pobudzić
 
@@ -2914,15 +2914,15 @@ lux, lucis [noun] [f] [III]
 (Vilica ancillas ad laborem prima luce cogebat)
 1. światło, światło dzienne
 
-cōgo, cōgĕre, coegi, coactum [verb] [III]
+cōgo, cōgere, coegi, coactum [verb] [III]
 (Vilica ancillas ad laborem prima luce cogebat)
 1. zbierać, gromadzić
 
-dĭūturnus, diuturnă, diuturnum [adj]
+diūturnus, diuturna, diuturnum [adj]
 (Ancillae diuturno labore fatigatae erant)
 1. trwały, trwały długo
 
-nĕco, nĕcāre, necāvī, necātum [verb] [I]
+neco, necāre, necāvī, necātum [verb] [I]
 (Ancillae, quibus dormire placebat, gallum necaverunt)
 1. zabić, uśmiercić
 
@@ -2934,7 +2934,7 @@ dēplōro, dēplōrāre, deplorāvī, deplorātum [verb] [I]
 (Ancillae galli necem deplorabant)
 1. opłakiwać, ubolewać, płakać nad
 
-rectus, rectă, rectum [adj]
+rectus, recta, rectum [adj]
 (Vilica rectam horam noctis ignorabat)
 1. właściwy, odpowiedni
 
@@ -2950,27 +2950,27 @@ interdum [adv]
 (Vilica interdum ancillas iam media nocte dormientes excitare studebat)
 1. czasami, od czasu do czasu
 
-dormĭo, dormīre, dormivi, dormitum [verb] [IV]
+dormio, dormīre, dormivi, dormitum [verb] [IV]
 (Vilica interdum ancillas iam media nocte dormientes excitare studebat)
 1. spać, odpoczywać, zasnąć
 
-prŏpĕ [prep]
+prope [prep]
 (Prope leonem dormientem musculi ludebant)
 1. blisko, przy (+ acc)
 
-muscŭlus, musculi [noun] [m] [II]
+musculus, musculi [noun] [m] [II]
 (Prope leonem dormientem musculi ludebant)
 1. mała mysz
 
-dēvŏro, dēvŏrāre, devorāvī, devorātum [verb] [I]
+dēvoro, dēvorāre, devorāvī, devorātum [verb] [I]
 (Leo musculum cepit devorare eum cupiens)
 1. pożerać
 
-rogatus, rogată, rogatum [adj]
+rogatus, rogata, rogatum [adj]
 (Leo a musculo rogatus eum ignovit ei et vitam donavit)
 1. poproszony, zapytany
 
-ignosco, ignoscĕre, ignovi, ignotum [verb] [III]
+ignosco, ignoscere, ignovi, ignotum [verb] [III]
 (Leo a musculo rogatus eum ignovit ei et vitam donavit)
 1. ułaskawić, przebaczyć (+ celownik)
 
@@ -2994,19 +2994,19 @@ investīgo, investīgāre, investigavi, investigatum [verb] [I]
 (Leo praedam parum caute investigans in rete incidit)
 1. badać, poszukiwać
 
-rētĕ, retis [noun] [n] [III]
+rēte, retis [noun] [n] [III]
 (Leo praedam parum caute investigans in rete incidit)
 1. sieć
 
-vēnātŏr, venatoris [noun] [m] [III]
+vēnātor, venatoris [noun] [m] [III]
 (Leo in rete, quod venatoris tetenderunt, incidit)
 1. myśliwy, łowca
 
-tendo, tendĕre, tetendi, tentum/tensum [verb] [III]
+tendo, tendere, tetendi, tentum/tensum [verb] [III]
 (Leo in rete, quod venatoris tetenderunt, incidit)
 1. rozciągnąć, rozłożyć
 
-dĭū [adv]
+diū [adv]
 (Leo diu frustra ex rete se expedire temptans magno clamore totam silvam implevit)
 1. długo, przez długi czas
 
@@ -3014,15 +3014,15 @@ frustrā [adv]
 (Leo diu frustra ex rete se expedire temptans magno clamore totam silvam implevit)
 1. na próżno, bezskutecznie
 
-expĕdĭo, expĕdīre, expedii/expedivi, expeditum [verb] [IV]
+expedio, expedīre, expedii/expedivi, expeditum [verb] [IV]
 (Leo diu frustra ex rete se expedire temptans magno clamore totam silvam implevit)
 1. uwalniać, rozwiązywać
 
-tŏtus, totă, totum [adj]
+totus, tota, totum [adj]
 (Leo diu frustra ex rete se expedire temptans magno clamore totam silvam implevit)
 1. cały
 
-implĕo, implēre, implevi, impletum [verb] [II]
+impleo, implēre, implevi, impletum [verb] [II]
 (Leo diu frustra ex rete se expedire temptans magno clamore totam silvam implevit)
 1. wypełnić
 
@@ -3030,11 +3030,11 @@ vox, vocis [noun] [f] [III]
 (Musculus vocem leonis, cui ipse vitam debebat, audivit)
 1. głos
 
-rumpo, rumpĕre, rupi, ruptum [verb] [III]
+rumpo, rumpere, rupi, ruptum [verb] [III]
 (Musculus dentibus acris rete rupit)
 1. łamać, przerywać
 
-stŭdĭum, studii [noun] [n] [II]
+studium, studii [noun] [n] [II]
 (Non omnes litteris Graecis magno studio se dabant)
 1. nauka
 2. zapał, gorliwość
@@ -3043,44 +3043,44 @@ iustē [adv]
 (Iuste venustesque reprehendit Cato Albinum)
 1. słusznie
 
-vĕnustē [adv]
+venustē [adv]
 (Iuste venustesque reprehendit Cato Albinum)
 1. uroczo, pięknie
 
-rĕprĕhendo, rĕprĕhendĕre, reprehendi, reprehensum [verb] [III]
+reprehendo, reprehendere, reprehendi, reprehensum [verb] [III]
 (Iuste venustesque reprehendit Cato Albinum)
 1. ganić, krytykować
 
-scriptĭto, scriptĭtāre, scriptitavi, scriptitatum [verb] [I]
+scriptito, scriptitāre, scriptitavi, scriptitatum [verb] [I]
 (Albinus res gestas Romanas Graeca lingua scriptitavit)
 1. pisać często
 
-praefātĭo, praefationis [noun] [f] [III]
+praefātio, praefationis [noun] [f] [III]
 (In praefatione, quam historiae suae praemisit, ad hanc sententiam scripsit: ...)
 1. przedmowa, wstęp
 
-praemitto, praemittĕre, praemisi, praemissum [verb] [III]
+praemitto, praemittere, praemisi, praemissum [verb] [III]
 (In praefatione, quam historiae suae praemisit, ad hanc sententiam scripsit: ...)
 1. wysyłać naprzód, poprzedzać
 
-sententĭa, sententiae [noun] [f] [I]
+sententia, sententiae [noun] [f] [I]
 (In praefatione, quam historiae suae praemisit, ad hanc sententiam scripsit: ...)
 1. zdanie, opinia
 2. myśl, znaczenie
 
-fortassĕ [adv]
+fortasse [adv]
 (Fortasse, lector candide, quaedam in meis libris parum composite aut non eleganter scriptum invenies)
 1. może, być może
 
-compŏsĭtē [adv]
+compositē [adv]
 (Fortasse, lector candide, quaedam in meis libris parum composite aut non eleganter scriptum invenies)
 1. składnie, starannie, umiejętnie
 
-ēlĕgantĕr [adv]
+ēleganter [adv]
 (Fortasse, lector candide, quaedam in meis libris parum composite aut non eleganter scriptum invenies)
 1. elegancko, schludnie, wytwornie
 
-scriptus, scriptă, scriptum [adj]
+scriptus, scripta, scriptum [adj]
 (Fortasse, lector candide, quaedam in meis libris parum composite aut non eleganter scriptum invenies)
 1. napisany
 
@@ -3088,86 +3088,86 @@ scriptum, scripti [noun] [n] [II]
 ()
 1. dokument, tekst, pismo
 
-nātus, nată, natum [adj]
+nātus, nata, natum [adj]
 (Vir Romanus sum, natus in Latio)
 1. urodzony
 
-perpello, perpellĕre, perpuli, perpulsum [verb] [III]
+perpello, perpellere, perpuli, perpulsum [verb] [III]
 (Nemo te ad hoc perpulit)
 1. zmuszać, nakłaniać
 
-iactatus, iactată, iactatum [adj]
+iactatus, iactata, iactatum [adj]
 (Nautae tempestate iactati in eundem portum, quem reliquerant, confugerunt)
 1. rzucany, miotany
 
-portŭs, portūs [noun] [m] [IV]
+portus, portūs [noun] [m] [IV]
 (Nautae tempestate iactati in eundem portum, quem reliquerant, confugerunt)
 1. port, przystań
 
-confŭgĭo, confŭgĕre, confugi [verb] [III]
+confugio, confugere, confugi [verb] [III]
 (Nautae tempestate iactati in eundem portum, quem reliquerant, confugerunt)
 1. schronić się
 
-trŏpaeum, tropaei [noun] [n] [II]
+tropaeum, tropaei [noun] [n] [II]
 (Imperator tropaeum posuit illo loco, quo pridie pugnaverunt)
 1. trofeum
 
-pōno, pōnĕre, posui, positum / postum [verb] [III]
+pōno, pōnere, posui, positum / postum [verb] [III]
 (Imperator tropaeum posuit illo loco, quo pridie pugnaverunt)
 1. umieścić
 
-prīdĭē [adv]
+prīdiē [adv]
 (Imperator tropaeum posuit illo loco, quo pridie pugnaverunt)
 1. dzień wcześniej
 
-ăvus, avi [noun] [m] [II]
+avus, avi [noun] [m] [II]
 (Hieronymus, cuius avus Hiero amicus populi Romani fuerat, ad Carthaginienses defecit)
 1. dziadek, przodek
 
-dēfĭcĭo, dēfĭcĕre, defeci, defectum [verb] [III]
+dēficio, dēficere, defeci, defectum [verb] [III]
 (Hieronymus, cuius avus Hiero amicus populi Romani fuerat, ad Carthaginienses defecit)
 1. zawieść, rozczarować
 2. zdradzać, przechodzić na czyjąś stronę
 
-vĕl [adv]
+vel [adv]
 (Fuit moris antiqui eos, qui vel singulorum laudes vel urbium scripserant, aut honoribus aut pecunia ornare)
 1. lub, albo (łączenie dwóch alternatyw)
 
-scrībo, scrībĕre, scripsi, scriptum [verb] [III]
+scrībo, scrībere, scripsi, scriptum [verb] [III]
 (Fuit moris antiqui eos, qui vel singulorum laudes vel urbium scripserant, aut honoribus aut pecunia ornare)
 1. pisać
 
-hŏnŏs, honoris [noun] [m] [III]
+honos, honoris [noun] [m] [III]
 (Fuit moris antiqui eos, qui vel singulorum laudes vel urbium scripserant, aut honoribus aut pecunia ornare)
 1. szacunek lub poważanie
 2. urząd publiczny
 
-rĕvŏco, rĕvŏcāre, revocavi, revocatum [verb] [I]
+revoco, revocāre, revocavi, revocatum [verb] [I]
 (Amicus tibi ero, si exercitum tuum ex finibus meis revocaveris)
 1. odwołać
 
-ălĭquis [pron]
+aliquis [pron]
 (Cum oppido appropinquaveris, ex aliquo, qui tibi occurret, viam quaere)
 1. ktoś, ktokolwiek
 
-occurro, occurrĕre, occurri o occucurri, occursum [verb] [III]
+occurro, occurrere, occurri o occucurri, occursum [verb] [III]
 (Cum oppido appropinquaveris, ex aliquo, qui tibi occurret, viam quaere)
 1. spotkać się, wpaść na kogoś
 
-quaero, quaerĕre, quaesii o quaesivi, quaesitum [verb] [III]
+quaero, quaerere, quaesii o quaesivi, quaesitum [verb] [III]
 (Cum oppido appropinquaveris, ex aliquo, qui tibi occurret, viam quaere)
 1. szukać czegoś, pytać o, dowiedzieć się o, żądać
 
-rūmŏr, rumoris [noun] [m] [III]
+rūmor, rumoris [noun] [m] [III]
 (Qui erit rumor, si id feceris)
 1. pogłoska, plotka
 2. krzyk
 
-Graecus, Graecă, Graecum [adj]
+Graecus, Graeca, Graecum [adj]
 (Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
 1. grecki
 
-dūco, dūcĕre, duxi, ductum [verb] [III]
+dūco, dūcere, duxi, ductum [verb] [III]
 (Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
 1. prowadzić, sprowadzić
 
@@ -3175,33 +3175,33 @@ dūco, dūcĕre, duxi, ductum [verb] [III]
 (Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
 1. brzeg, wybrzeże
 
-excīdĭum, excidii [noun] [n] [II]
+excīdium, excidii [noun] [n] [II]
 (Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
 1. zniszczenie (miast i armii)
 
-mălum, mali [noun] [n] [II]
+malum, mali [noun] [n] [II]
 (Si Paris ex Graecis uxorem duxerit oris, excidium Troiae  ducet et omne malum)
 1. zło, nieszczęście, szkoda
 
-dōnĕc [conj]
+dōnec [conj]
 (Donec eris sospes, multos numerabis amicos)
 1. podczas gdy, tak długo jak, dopóki
 
-sospĕs, sospĕs, sospĕs [adj]
+sospes, sospes, sospes [adj]
 (Donec eris sospes, multos numerabis amicos)
 1. bezpieczny i zdrowy
 2. pomyślny
 
-nŭmĕro, nŭmĕrāre, numeravi, numeratum [verb] [I]
+numero, numerāre, numeravi, numeratum [verb] [I]
 (Donec eris sospes, multos numerabis amicos)
 1. liczyć
 
-nūbĭlus, nubilă, nubilum [adj]
+nūbilus, nubila, nubilum [adj]
 (Tempora si fuerint nubila, solus eris)
 1. pochmurny
 2. smutny, trwożny, niezadowolony
 
-cautus, caută, cautum [adj]
+cautus, cauta, cautum [adj]
 (Felix, quem faciun aliena pericula cautum)
 1. ostrożny, uważny
 
@@ -3209,27 +3209,27 @@ pānis, panis [noun] [m] [III]
 (Malum panem fames reddet tibi bonum)
 1. chleb
 
-fămēs, famis [noun] [f] [III]
+famēs, famis [noun] [f] [III]
 (Malum panem fames reddet tibi bonum)
 1. głód, pragnienie
 
-părens, parentis [noun] [m/f] [III]
+parens, parentis [noun] [m/f] [III]
 (Parentes carissimos habere debemus)
 1. rodzice, matka, ojciec
 
-trādo, trādĕre, tradidi, traditum [verb] [III]
+trādo, trādere, tradidi, traditum [verb] [III]
 (Parentes nobis vitam tradiderunt)
 1. przekazać, powierzyć, dostarczyć
 
-ĭnĭtĭum, initii [noun] [n] [II]
+initium, initii [noun] [n] [II]
 (Iram bene Ennius initium dixit insaniae)
 1. początek, rozpoczęcie
 
-insānĭa, insaniae [noun] [f] [I]
+insānia, insaniae [noun] [f] [I]
 (Iram bene Ennius initium dixit insaniae)
 1. szaleństwo
 
-mărītus, mariti [noun] [m] [II]
+marītus, mariti [noun] [m] [II]
 (Artemisia maritum suum ama)
 1. mąż, żonaty mężczyzna
 
@@ -3237,26 +3237,26 @@ ossum, ossi [noun] [n] [II]
 (Artemisia ossa cineremque eius aquae indidit ebibitque)
 1. kość
 
-cĭnis, cineris [noun] [m/f] [III]
+cinis, cineris [noun] [m/f] [III]
 (Artemisia ossa cineremque eius aquae indidit ebibitque)
 1. popiół
 
-indo, indĕre, indidi, inditum [verb] [III]
+indo, indere, indidi, inditum [verb] [III]
 (Artemisia ossa cineremque eius aquae indidit ebibitque)
 1. włożyć, nałożyć
 
-ēbĭbo, ēbĭbĕre, ebibi, ebibitum [verb] [III]
+ēbibo, ēbibere, ebibi, ebibitum [verb] [III]
 (Artemisia ossa cineremque eius aquae indidit ebibitque)
 1. wypić
 
-sĕpulchrum, sepulchri [noun] [n] [II]
+sepulchrum, sepulchri [noun] [n] [II]
 (Artemisia sepulchrum memorabile viro exstruit)
 1. grób, nagrobek, miejsce pochówku
 
-mĕmŏrābĭlis, memorabilis, memorabile [adj]
+memorābilis, memorabilis, memorabile [adj]
 (Artemisia sepulchrum memorabile viro exstruit)
 1. niezapomniany
 
-exstrŭo, exstrŭĕre, exstruxi, exstructum [verb] [III]
+exstruo, exstruere, exstruxi, exstructum [verb] [III]
 (Artemisia sepulchrum memorabile viro exstruit)
 1. budować, wznosić
