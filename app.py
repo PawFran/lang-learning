@@ -4,7 +4,7 @@ from flask_cors import CORS
 from actions.translation import *
 from database.initialize_db import initialize_database
 from database.migration_dictionary import add_words_with_translations
-from environment import engine, LOG_CSV_HANDLER
+from environment.setup import engine, LOG_CSV_HANDLER
 from find_or_scrape_latin import find_or_scrape_words, SCRAPED_HEADER
 from vocabulary.lib.dict_classes import Dictionary
 from vocabulary.lib.parsing_dict import parse_latin_dict
