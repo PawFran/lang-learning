@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from sqlalchemy.orm import sessionmaker
-from environment import engine
+from environment.setup import engine
 
 from langchain.docstore.document import Document
 from langchain_openai import OpenAIEmbeddings

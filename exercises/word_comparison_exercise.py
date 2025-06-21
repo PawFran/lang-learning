@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.sql.elements import BinaryExpression
 
 from database.db_classes import Words
-from environment import engine
+from environment.setup import engine
 
 WORD_COMPARISON_PATH = os.path.join(os.path.dirname(__file__), 'vocabulary', 'dicts', 'word_comparison.txt')
 

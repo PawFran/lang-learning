@@ -1,5 +1,5 @@
 scraping_out_tmp.txt
-.env
+environment/.env
 # Python cache files
 __pycache__/
 *.py[cod]

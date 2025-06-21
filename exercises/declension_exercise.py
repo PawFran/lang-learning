@@ -18,7 +18,7 @@ if __name__ == '__main__':
     rng = default_rng()
     args: Namespace = parse_args()
 
-    dict_file_path = os.path.join("declension", "resources", "declension.json")
+    dict_file_path = os.path.join("../declension", "resources", "declension.json")
 
     declension_all = Declensions.from_file_path(dict_file_path)
 

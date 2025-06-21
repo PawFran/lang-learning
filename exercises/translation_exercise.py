@@ -7,7 +7,7 @@ from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, TRANSLAT
 from common.lib.utils import DEFAULT_USER_NAME
 from database.db_classes import TranslationLastUninterruptedSessionHardWords
 from database.initialize_db import default_db_initialization
-from environment import engine
+from environment.setup import engine
 from vocabulary.lib.parsing_dict import *
 from vocabulary.lib.utils import compare_answer_with_full_head_raw, shortcuts_summary
 

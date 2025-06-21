@@ -2,6 +2,11 @@
 
 A collection of modules for language learning. 
 
+## Setup
+For this app to work one must edit .env_template file (in environment dir):
+* fill all values (ex. DATABASE_URL)
+* change name to .env
+
 ## Modules
 
 - **Vocabulary**: Learn and review vocabulary.

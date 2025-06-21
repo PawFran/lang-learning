@@ -11,7 +11,7 @@ from vocabulary.lib.file_db import ConjugationExerciseCSVHandler, ConjugationExe
 
 if __name__ == '__main__':
     rng = default_rng()
-    json_file_path = os.path.join("conjugation", "resources", "conjugation.json")
+    json_file_path = os.path.join("../conjugation", "resources", "conjugation.json")
 
     args = parse_args()
 

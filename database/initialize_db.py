@@ -177,7 +177,7 @@ def remove_db(engine):
 
 
 def default_db_initialization():
-    from environment import engine
+    from environment.setup import engine
 
     # Dispose of any existing connections
     engine.dispose()

@@ -6,7 +6,7 @@ from sqlalchemy import text
 from sqlalchemy.orm import Session
 
 from database.db_classes import ReversedTranslationLastUninterruptedSessionHardWords
-from environment import engine
+from environment.setup import engine
 
 from actions.translation import REVERSED_TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, \
     REVERSED_TRANSLATION_SESSION_METADATA_CSV_PATH

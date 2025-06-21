@@ -4,7 +4,7 @@ from dataclasses import dataclass
 import requests
 import re
 from bs4 import BeautifulSoup, Tag
-from environment import DEEPL_API_KEY
+from environment.setup import DEEPL_API_KEY
 
 URL_main_part = 'https://www.online-latin-dictionary.com'
 base_dict_URL = f'{URL_main_part}/latin-english-dictionary.php'
