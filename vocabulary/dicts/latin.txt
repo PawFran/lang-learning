@@ -215,7 +215,7 @@ in [prep]
 2. w (+ abl)
 [podkreśla przestrzeń, a nie cel (ad)]
 
-invideo, invidēre, invidi, invisum [verb] [II]
+invideō, invidēre, invīdī, invīsum [verb] [II]
 (Agricola nautae fortūnae invidet. Demetrius eius imaginis pulchritudinem Rhodiis invidebat)
 1. zazdrościć  (+ dat)
 
@@ -3446,10 +3446,6 @@ illustris, illustris, illustre [adj]
 factus, facta, factum [adj]
 (In his aedibus, erat Ialysi imago, Protogenis, pictoris illustris manu facta)
 1. wykonany
-
-invideo, invidēre, invidi, invisum [verb] [II]
-(Demetrius eius imaginis pulchritudinem Rhodiis invidebat)
-1. zazdrościć, być zazdrosnym
 
 pulchritūdo, pulchritudinis [noun] [f] [III]
 (Demetrius eius imaginis pulchritudinem Rhodiis invidebat)
