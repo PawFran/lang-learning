@@ -985,6 +985,11 @@ probus, proba, probum [adj]
 1. uczciwy, prawy, porządny, przyzwoity, rzetelny
 [podobnie jak honestus (a w przeciwieństwie do dignus) jest wyłącznie epitetem, ale w przeciwieństwie do honestus podkreśla samą moralną uczciwość bez akcentu "godności", "szacunku" itp. (honor). zaprzeczenie to improbus]
 
+plūrimus, plurima, plurimum [adj]
+()
+1. najliczniejszy, bardzo liczny, bardzo wiele
+[stopień najwyższy od multum]
+
 plūrimum [adv]
 ()
 1. najwięcej, najbardziej, w największym stopniu
@@ -992,7 +997,7 @@ plūrimum [adv]
 plūrimum, plūrimī [noun] [n] [II]
 ()
 1. bardzo dużo, najwięcej, największa część
-[to przykład rzeczownika, który nie opisuje żadnego przedmiotu, czynności ani pojęcia psychologicznego, tylko coś, co inaczej można by wyrazić przysłówkiem lub przymiotnikiem. takie rzeczowniki wymagają dopełnienia dalszego i są nieodmienne (czy zawsze ?). w polskim tak samo: mam (kogo? co?) "ogrom" (albo "mnogość")]
+[to przykład rzeczownika, który nie opisuje żadnego przedmiotu, czynności ani pojęcia psychologicznego, tylko coś, co inaczej można by wyrazić przysłówkiem lub przymiotnikiem. często łączy się z dopełnieniem dalszym (ale nie musi, czasem dopełnienie wynika z kontekstu albo może zostać niedopowiedziane). w polskim tak samo: mam (kogo? co?) "ogrom" (albo "mnogość"), mogę "bardzo dużo"]
 
 quī [adv]
 ()
@@ -2146,7 +2151,7 @@ aliēnum, alieni [noun] [n] [II]
 
 multus, multa, multum [adj]
 (Multos timere debet, quem multi timent)
-1. wiele, liczni, duża ilość
+1. liczni, wiele, duża ilość
 
 iūre [adv]
 (Neminem captivabimus nisi iure victum)

@@ -1,11 +1,9 @@
 TODO
 
-zapytać czata o rodzaje przymiotników - jedne stosuje się z dopełniniem (dignus), inne to epitety (honestus)
-rowniez rodzaje rzeczownikow - niektore wymagaja dopelnienia, np. plurimum ("mam mnóstwo" - ale czego ?)
+scraper - zastapic krotkie akcenty zwyklymi literami
 
-podpytac jeszcze o plurimum - patrz komentarz (zakladka 0)
-btw w latin dict online jest tylko rzeczownik - sprawdzic https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=plūrĭmum
-a wiec niespojnosc pomiedzy czatem a slownikiem online, wyjasnic
+zapytać czata o rodzaje przymiotników - jedne stosuje się z dopełnieniem (dignus), inne to epitety (honestus)
+rowniez rodzaje rzeczownikow - niektore wymagaja dopelnienia, np. plurimum ("mam mnóstwo" - ale czego ?)
 
 dorobic opcje -continue dla cwiczen declension / conjugation / translation / reversed translation
 
