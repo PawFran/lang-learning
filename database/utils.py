@@ -2,20 +2,20 @@ from pygments.styles.dracula import comment
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
-from common.lib.utils import replace_special
+from common.lib.utils import special_replaced
 from database.db_classes import *
 from vocabulary.lib.parsing_dict import *
 
 
 def verb_from_head(word_id, head):
     return LatinVerbs(id=word_id,
-                      base_word=replace_special(head.base),
+                      base_word=special_replaced(head.base),
                       base_word_acc=head.base,
-                      infinite=replace_special(head.infinite),
+                      infinite=special_replaced(head.infinite),
                       infinite_acc=head.infinite,
-                      perfect=replace_special(head.perfect),
+                      perfect=special_replaced(head.perfect),
                       perfect_acc=head.perfect,
-                      supine=replace_special(head.supine),
+                      supine=special_replaced(head.supine),
                       supine_acc=head.supine,
                       additional_info=None,
                       conjugation=head.conjugation.name)
@@ -34,9 +34,9 @@ def noun_from_head(word_id, head):
         raise Exception(f'cannot parse {head.genre} to proper genre')
 
     return LatinNouns(id=word_id,
-                      base=replace_special(head.base),
+                      base=special_replaced(head.base),
                       base_acc=head.base,
-                      gen=replace_special(head.genetive),
+                      gen=special_replaced(head.genetive),
                       gen_acc=head.genetive,
                       declension=head.declension,
                       genre=genre,
@@ -45,35 +45,35 @@ def noun_from_head(word_id, head):
 
 def adverb_from_head(word_id, head):
     return LatinAdverbs(id=word_id,
-                        base=replace_special(head.base),
+                        base=special_replaced(head.base),
                         base_acc=head.base)
 
 
 def preposition_from_head(word_id, head):
     return LatinPrepositions(id=word_id,
-                             base=replace_special(head.base),
+                             base=special_replaced(head.base),
                              base_acc=head.base)
 
 
 def conjunction_from_head(word_id, head):
     return LatinConjunctions(id=word_id,
-                             base=replace_special(head.base),
+                             base=special_replaced(head.base),
                              base_acc=head.base)
 
 
 def pronoun_from_head(word_id, head):
     return LatinPronouns(id=word_id,
-                         base=replace_special(head.base),
+                         base=special_replaced(head.base),
                          base_acc=head.base)
 
 
 def adjective_from_head(word_id, head):
     return LatinAdjectives(id=word_id,
-                           masculinum=replace_special(head.base),
+                           masculinum=special_replaced(head.base),
                            masculinum_acc=head.base,
-                           femininum=replace_special(head.femininum),
+                           femininum=special_replaced(head.femininum),
                            femininum_acc=head.femininum,
-                           neutrum=replace_special(head.neutrum),
+                           neutrum=special_replaced(head.neutrum),
                            neutrum_acc=head.neutrum)
 
 def insert_or_ignore_no_commit(session: Session, record):

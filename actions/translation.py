@@ -6,7 +6,7 @@ from typing import Optional
 from sqlalchemy import func, desc
 from toolz import compose
 
-from common.lib.utils import replace_special
+from common.lib.utils import special_replaced
 from database.db_classes import *
 from database.utils import insert_or_ignore_no_commit
 from vocabulary.lib.file_db import TranslationExerciseCSVHandler
@@ -90,7 +90,7 @@ def start_end_id(bases_simple_form, end_word, start_word) -> (Optional[str], Opt
 
 def base_forms_simplified(words):
     base_form = lambda w: w.header.split(',')[0].rstrip()
-    base_simple_form = compose(replace_special, base_form)
+    base_simple_form = compose(special_replaced, base_form)
     simple_word_with_id = lambda w: (w.id, base_simple_form(w))
     bases_simple_form = [simple_word_with_id(w) for w in words]
 

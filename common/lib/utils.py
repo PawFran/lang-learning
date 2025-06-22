@@ -1,13 +1,29 @@
 DEFAULT_USER_NAME = 'default_user'
 
+MACRON_TRANSLATION = str.maketrans(
+    'āēīōūë',
+    'aeioue'
+)
 
-def replace_special(x):
-    if x is not None:
-        return x.replace('ā', 'a').replace('ē', 'e').replace('ī', 'i').replace('ō', 'o').replace('ū', 'u') \
-            .replace('ă', 'a').replace('ĕ', 'e').replace('ĭ', 'i').replace('ŏ', 'o').replace('ŭ', 'u') \
-            .replace('ë', 'e')
-    else:
-        return None
+BREVE_TRANSLATION = str.maketrans(
+    'ăĕĭŏŭ',
+    'aeiou'
+)
+
+DIAERESIS_TRANSLATION = str.maketrans(
+    'ëïüÿöä',
+    'eiuyoa'
+)
+
+ALL_SPECIAL_CHARACTERS_TRANSLATION = MACRON_TRANSLATION | BREVE_TRANSLATION | DIAERESIS_TRANSLATION
+
+
+def special_replaced(x):
+    return x.translate(ALL_SPECIAL_CHARACTERS_TRANSLATION)
+
+
+def breve_replaced(s: str) -> str:
+    return s.translate(BREVE_TRANSLATION)
 
 
 # accent agnostic
@@ -16,7 +32,7 @@ def weak_equals(a, b, case_sensitive=False) -> bool:
         a = a.lower()
         b = b.lower()
 
-    return replace_special(a).strip() == replace_special(b).strip()
+    return special_replaced(a).strip() == special_replaced(b).strip()
 
 
 def weak_in(a, lst, case_sensitive=False) -> bool:

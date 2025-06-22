@@ -1,5 +1,6 @@
 from scraping.lib.latin_scraper import *
 from vocabulary.lib.dict_classes import *
+from common.lib.utils import breve_replaced
 
 output_temporary_file_name = 'scraping_out_tmp.txt'
 
@@ -144,9 +145,13 @@ def parse_dict_entry(flexion_soup, summary_and_translations) -> DictionaryEntry:
     return entry
 
 
-def print_and_write_to_file(f, dict_entry: DictionaryEntry, example: str = ''):
+def print_and_write_to_file(f, dict_entry: DictionaryEntry, example: str = '', replace_breve: bool = False):
+    word_header = dict_entry.head.head_raw
+    if replace_breve:
+        word_header = breve_replaced(word_header)
+
     accumulator = ''
-    accumulator += print_and_write(f, dict_entry.head.head_raw)
+    accumulator += print_and_write(f, word_header)
     accumulator += print_and_write(f, f'({example})')
 
     translations = dict_entry.translations
@@ -161,7 +166,7 @@ def print_and_write_to_file(f, dict_entry: DictionaryEntry, example: str = ''):
 def print_scraping_results(f, results, example: str = ''):
     accumulator = ''
     for scrape_result in results:
-        accumulator += print_and_write_to_file(f, scrape_result, example)
+        accumulator += print_and_write_to_file(f, scrape_result, example, replace_breve=True)
     return accumulator
 
 

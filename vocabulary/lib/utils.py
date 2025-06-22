@@ -1,7 +1,7 @@
 import os
 import re
 
-from common.lib.utils import weak_equals, replace_special
+from common.lib.utils import weak_equals, special_replaced
 from vocabulary.lib.dict_classes import LatinVerb, LatinAdjective, LatinNoun
 
 DICT_DIR_PATH = os.path.join('vocabulary', 'dicts')
@@ -90,7 +90,7 @@ def all_forms_are_the_same(forms: list[str]) -> bool:
 
 
 def simplified(forms: list[str]) -> list[str]:
-    return [replace_special(s).strip().lower() for s in forms]
+    return [special_replaced(s).strip().lower() for s in forms]
 
 
 def ending_are_avi_atum(forms: list[str]) -> bool:

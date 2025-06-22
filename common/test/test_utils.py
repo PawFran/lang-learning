@@ -1,12 +1,12 @@
-from common.lib.utils import replace_special, weak_equals, weak_in, flatten
+from common.lib.utils import special_replaced, weak_equals, weak_in, flatten
 
 
 def test_replace_special():
-    assert replace_special('pūniō') == 'punio'
-    assert replace_special('ēnarro') == 'enarro'
-    assert replace_special('complūres') == 'complures'
-    assert replace_special('sēnsim') == 'sensim'
-    assert replace_special(None) is None
+    assert special_replaced('pūniō') == 'punio'
+    assert special_replaced('ēnarro') == 'enarro'
+    assert special_replaced('complūres') == 'complures'
+    assert special_replaced('sēnsim') == 'sensim'
+
 
 
 def test_weak_in():
