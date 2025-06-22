@@ -443,3 +443,17 @@ default_user;22;latin;teneō, tenēre, tenuī, tentum [verb] [II];;1;trzymać;tr
 default_user;22;latin;dēsīdĕro, dēsīdĕrāre, desiderāvī, desiderātum [verb] [I];Cur me, domine, morte punire desideras ?;1;tęsknić, pragnąć, chcieć;tęsknić, pragnąć, chcieć;True;2025-06-19 17:39:17
 default_user;22;latin;quăm [adv];Quam pulchra es! Tam celeriter quam potui. Celerrimē quam;1;jak, jak bardzo, jak tylko, jak tylko się da;;False;2025-06-19 17:39:30
 default_user;23;latin;honor, honōris [noun] [m] [III];;1;zaszczyt, godność, poważanie;zaszczyt;False;2025-06-22 11:58:12
+default_user;24;latin;dolor, dolōris [noun] [m] [III];;1;ból, cierpienie, smutek;ból, cierpienie, smutek;True;2025-06-22 12:04:46
+default_user;24;latin;dum [adv];Dum spiramus, speremus;1;podczas gdy, tak długo jak, dopóki;podczas gdy, tak długo jak, dopóki;True;2025-06-22 12:04:56
+default_user;24;latin;quōmodo [adv];;1;jak, w jaki sposób;jak, w jaki sposób;True;2025-06-22 12:05:05
+default_user;24;latin;tempus, temporis [noun] [n] [III];;1;czas, pora, okres;czas, pora, okres;True;2025-06-22 12:05:09
+default_user;24;latin;vitium, vitiī [noun] [n] [II];;1;wada, błąd;wada, błąd;True;2025-06-22 12:05:17
+default_user;24;latin;dignus, digna, dignum [adj];;1;godny (czegoś), wart (czegoś), zasługujący (na coś), odpowiedni, stosowny (+ abl);godny (czegoś), wart (czegoś), zasługujący (na coś), odpowiedni, stosowny (+ abl);True;2025-06-22 12:05:29
+default_user;24;latin;probus, proba, probum [adj];;1;uczciwy, prawy, porządny, przyzwoity, rzetelny;uczciwy, prawy, porządny, przyzwoity, rzetelny;True;2025-06-22 12:05:40
+default_user;24;latin;honestus, honesta, honestum [adj];;1;szlachetny, honorowy, czcigodny, szanowany, uczciwy;szlachetny, honorowy, czcigodny, szanowany, uczciwy;True;2025-06-22 12:05:54
+default_user;24;latin;honor, honōris [noun] [m] [III];;1;zaszczyt, godność, poważanie;zaszczyt, godność, poważanie;True;2025-06-22 12:06:00
+default_user;24;latin;plūrimus, plurima, plurimum [adj];;1;najliczniejszy, bardzo liczny, bardzo wiele;najliczniejszy, bardzo liczny, bardzo wiele;True;2025-06-22 12:06:15
+default_user;24;latin;certus, certa, certum [adj];;1;pewny, ustalony, niezawodny, zdecydowany;pewny, ustalony, niezawodny, zdecydowany;True;2025-06-22 12:06:22
+default_user;24;latin;prīncipium, prīncipiī [n] [noun] [II];;1;początek;początek;True;2025-06-22 12:06:29
+default_user;24;latin;contrārius, contrāria, contrārium [adj];;1;przeciwny;przeciwny;True;2025-06-22 12:07:24
+default_user;24;latin;petō, petere, petīvī, petītum [verb] [III];Gladiatores vulnerati salutem a populo petebant;1;prosić, domagać się, dążyć (do czegoś), ubiegać się;prosić, domagać się, dążyć (do czegoś), ubiegać się;True;2025-06-22 12:07:41

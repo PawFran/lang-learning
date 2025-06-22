@@ -1,5 +1,16 @@
 TODO
 
+użyć https://alatius.com/macronizer/?utm_source=chatgpt.com - skrypt do korygowania makronów
+przelecieć obecny słownik, ale też na bieżąco przy scrape'owaniu używać ?
+
+czy dodanie [intransitive] (patrz currō) nie spowodowało żadnych problemów ?
+warto byloby wzbogacic model o te adnotacje
+
+puppeteer sprawdzic na slowniku angielskim
+
+https://www.online-latin-dictionary.com nie zawsze dobrze podaje makrony.
+biorac pod uwage to i tlumaczenia najlepiej byloby caly czas uzywac chata (moze najlepiej obu ?) - jak ?
+
 zapytać czata o rodzaje przymiotników - jedne stosuje się z dopełnieniem (dignus), inne to epitety (honestus)
 rowniez rodzaje rzeczownikow - niektore wymagaja dopelnienia, np. plurimum ("mam mnóstwo" - ale czego ?)
 
@@ -16,6 +27,7 @@ youtrack sprawdzic
 skroty klawiszowe macos pycharm focus terminal vs notebook
 dodać ctrl+shift+[0-9] jako zakładka do linii i ctrl+[0-9] jako przejście do zakładki + F3 (z Fn) do usunięcia zakładki oraz shift+F3 przejście do następnej zakładki
 template na makrony: \a -> ā itp
+Control + Command + G na zaznaczenie wszystkich wystąpień
 
 skróty klawiszowe w pycharm / vs code dodać jako markdown do tego repo (albo osobne ?)
 zaimportowac do vscode skroty z pycharm

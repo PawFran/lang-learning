@@ -1011,7 +1011,8 @@ gaudium, gaudiī [noun] [n] [II]
 
 prīncipium, prīncipiī [n] [noun] [II]
 ()
-1. początek
+1. źródło, fundament, zasada, początek
+[w przeciwieństwie do "initium" (które podkreśla czas) prīncipium podkreśla "początek" jako coś, na czym inne rzeczy się opierają albo z niej wynikają]
 
 dum [adv]
 (Dum spiramus, speremus)
@@ -3351,9 +3352,10 @@ trādo, trādere, tradidi, traditum [verb] [III]
 (Parentes nobis vitam tradiderunt. Romam a Romulo conditam esse scriptores tradunt)
 1. przekazywać (coś komuś), powierzać, dostarczać, przekazywać relację/tradycję (ustnie, pisemnie)
 
-initium, initii [noun] [n] [II]
+initium, initiī [noun] [n] [II]
 (Iram bene Ennius initium dixit insaniae)
-1. początek, rozpoczęcie
+1. początek, rozpoczęcie, punkt wyjścia, start
+[w przeciwieństwie do "prīncipium", które podkreśla fundament, initium używa się przeważnie w kontekście czasu (np. początek wojny) - ale dodatkowo też w kontekście "wtajemniczenia" (inicjacja)]
 
 insānia, insaniae [noun] [f] [I]
 (Iram bene Ennius initium dixit insaniae)
