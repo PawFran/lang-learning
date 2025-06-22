@@ -1,5 +1,10 @@
 TODO
 
+dodać ēgregius do porównania "notus vs clarus vs praeclārus vs celeber vs illustris"
+
+poczytać w Składni łacińskiej (niebieska, samolewicz) o dativus finalis i wrócić do "Ne id tibi curae sit"
+czy o genetivie można powiedzieć, że on często wskazuje na "pochodzenie", "genezę" ? poczytać w Składni łacińskiej
+
 przy porównaniu w SynonimFinder można by kasować przecinki z haseł słownikowych ? czasem prze nie nie ma 100% dopasowania
 
 użyć https://alatius.com/macronizer/?utm_source=chatgpt.com - skrypt do korygowania makronów
