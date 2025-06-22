@@ -28,7 +28,7 @@ sempiternus, sempiterna, sempiternum [adj]
 (Verae amicitiae sempiternae sunt)
 1. ciągły, trwały, wieczny
 
-habeo, habēre, habuī, habitum [verb] [II]
+habeō, habēre, habuī, habitum [verb] [II]
 (Marcus discipulus est, libros multos habet)
 1. mieć
 
@@ -48,7 +48,7 @@ concordia, concordiae [noun] [I] [f]
 (Ibi victoria, ubi concordia)
 1. zgoda
 
-monstrō, monstrāre, monstrāvi, monstrātum [verb] [I]
+monstrō, monstrāre, monstrāvī, monstrātum [verb] [I]
 (Servis dominus hortum monstrat)
 1. pokazywać, wskazywać, objaśniać
 [wydźwięk bardziej dydaktyczny niż wizualny (ostendo)]
@@ -57,7 +57,7 @@ cūrō, cūrāre, cūrāvi, cūrātum [verb] [I]
 (O servi, Spartacus fortūna vestrae curat!)
 1. troszczyć się, dbać (o kogoś, coś) (+ acc)
 
-properō, properāre, properāvi, properātum [verb] [I]
+properō, properāre, properāvī, properātum [verb] [I]
 (Puer Romānus in scholam properat)
 1. spieszyć się, spieszyć
 
@@ -70,7 +70,7 @@ fluvius, fluviī [noun] [II] [m]
 1. rzeka (geografia)
 [używane jako jednostka geograficzna, w przeciwieństwie do "flumen", które oznacza bardziej płynącą wodę]
 
-do, dāre, dedī, datum [verb] [I]
+dō, dāre, dedī, datum [verb] [I]
 (Matrona tunicas ancillis dat)
 1. dawać, ofiarowywać
 
@@ -106,7 +106,7 @@ ager, agri [noun] [m] [II]
 (Agricolae in agris laborant)
 1. rola, pole
 
-aro, arāre, arāvī, arātum [verb] [I]
+arō, arāre, arāvī, arātum [verb] [I]
 (Agricolae terram arant)
 1. orać
 
@@ -118,7 +118,7 @@ perītus, perīta, perītum [adj]
 (Nautae periti navigant)
 1. doświadczony
 
-nāvigo, nāvigāre, nāvigāvī, nāvigātum [verb] [I]
+nāvigō, nāvigāre, nāvigāvī, nāvigātum [verb] [I]
 (Nautae periti navigant)
 1. żeglować
 
@@ -126,7 +126,7 @@ divitiae, divitiārum [noun] [f] [I] [pl]
 (Fabri patriae divitias parant)
 1. bogactwa (materialne)
 
-paro, parāre, parāvī, parātum [verb] [I]
+parō, parāre, parāvī, parātum [verb] [I]
 (Fabri patriae divitias parant)
 1. przygotowywać, szykować, zbierać
 [podkreśla bardziej proces, podczas gdy comparo naciska na efekt]
@@ -144,11 +144,11 @@ sed [conj]
 (Patriam amāmus non quia magna est sed quia nostra)
 1. lecz
 
-erro, errāre, errāvī, errātum [verb] [I]
+errō, errāre, errāvī, errātum [verb] [I]
 (Errare humanum est)
 1. mylić się, błądzić (fizycznie, umysłowo, moralnie)
 
-affirmo, affirmāre, affirmāvī, affirmātum [verb] [I]
+affirmō, affirmāre, affirmāvī, affirmātum [verb] [I]
 (Errant, qui affirmant: "Ibi patria, ubi bene")
 1. potwierdzać, zapewniać, twierdzić
 [bardziej stanowczy wydźwięk nić "dico" (które oznacza bardziej "mówić" bez akcentowania przekonania). często w tekstach formalnych, prawniczych, filozoficznych. często w konstrukcji ACI]
@@ -254,7 +254,7 @@ ventus, venti [noun] [m] [II]
 (Ego ventos et procellas semper timeo)
 1. wiatr
 
-mūto, mūtāre, mūtāvī, mūtātum [verb] [I]
+mūtō, mūtāre, mūtāvī, mūtātum [verb] [I]
 (Deus inquit: fortunam vestram muto)
 1. zmieniać
 
@@ -404,11 +404,11 @@ colo, colere, colui, cultum [verb] [III]
 1. uprawiać
 2. czcić
 
-macto, mactāre, mactāvī, mactātum [verb] [I]
+mactō, mactāre, mactāvī, mactātum [verb] [I]
 (Agricolae deis debusque equos et tauros mactābant)
 1. zabijać na ofiarę
 
-sacrifico, sacrificāre, sacrificāvī, sacrificātum [verb] [I]
+sacrificō, sacrificāre, sacrificāvī, sacrificātum [verb] [I]
 (Agricolae deis debusque agrōrum sacrificābant)
 1. składać ofiarę, poświęcać coś w ofierze
 [dosłownie "czynić świętym" (= sacer + facio]
@@ -453,7 +453,7 @@ vītō, vītāre, vītāvī, vītātum [verb] [I]
 (Nautae perīti pericula vitāre sciunt)
 1. unikać
 
-porto, portāre, portāvī, portātum [verb] [I]
+portō, portāre, portāvī, portātum [verb] [I]
 (Ancilla dominae aquam portat)
 1. nosić, przenosić
 [noszenie w znaczeniu dosłownym, fizycznym]
@@ -467,7 +467,7 @@ amīcus, amici [noun] [m] [II]
 (Maria amicam amat et laudat)
 1. przyjaciel
 
-narro, narrāre, narrāvī, narrātum [verb] [I]
+narrō, narrāre, narrāvī, narrātum [verb] [I]
 (De ancillis miseris dominae narrant)
 1. opowiadać
 
@@ -475,7 +475,7 @@ fābula, fabulae [noun] [f] [I]
 (Puelae, narrate fabulas!)
 1. opowieść, baśń, bajka
 
-orno, ornāre, ornāvī, ornātum [verb] [I]
+ornō, ornāre, ornāvī, ornātum [verb] [I]
 (Varsoviam pulchrae statuae ornant)
 1. ozdabiać
 
@@ -518,7 +518,7 @@ noceo, nocēre, nocui, nocitum [verb] [II]
 (Littera docet, littera nocet)
 1. szkodzić
 
-ēmendo, ēmendāre, emendāvī, emendātum [verb] [I]
+ēmendō, ēmendāre, emendāvī, emendātum [verb] [I]
 (Unum castigabis, centum emendabis)
 1. poprawiać, korygować
 
@@ -608,7 +608,7 @@ fugio, fugere, fugi, fugitum [verb] [III]
 (Fugit hora, fugiunt anni)
 1. uciekać, unikać
 
-ignōro, ignōrāre, ignorāvī, ignorātum [verb] [I]
+ignōrō, ignōrāre, ignorāvī, ignorātum [verb] [I]
 (Aliena laudātis, vestra ignorātis)
 1. nie wiedzieć, nie znać, nie być świadomym, zaniedbywać, ignorować
 [in + gnosco. oznacza brak świadomości, często świadomą niewiedzę lub zaniedbanie uwagi]
@@ -629,7 +629,7 @@ minuo, minuere, minui, minutum [verb] [III]
 (Memoria minuitur, nisi memoriam exerces)
 1. zmniejszać, osłabiać
 
-salūto, salūtāre, salutāvī, salutātum [verb] [I]
+salūtō, salūtāre, salutāvī, salutātum [verb] [I]
 (Ut salutabis, ita salutaberis)
 1. pozdrawiać
 
@@ -691,7 +691,7 @@ spatium, spatii [noun] [n] [II]
 (Deinde quadratum spatium signabatur et muniebatur)
 1. przestrzeń, obszar
 
-signo, signāre, signāvī, signātum [verb] [I]
+signō, signāre, signāvī, signātum [verb] [I]
 (Deinde quadratum spatium signabatur et muniebatur)
 1. oznaczać, wyznaczać, pieczętować, podpisywać, dawać znak (sygnał)
 [szeroko rozumiane (na)dawanie znaku, żeby coś odróżnić, czynić rozpoznawalnym lub przekazać informację]
@@ -736,7 +736,7 @@ tabernāculum, tabernaculi [noun] [n] [II]
 1. namiot, szałas, przenośne schronienie
 [w ogólnym znaczeniu oznacza schronienie / mieszkanie, które jest przenośne, tymczasowe. używane również w literaturze chrześcijańskiej jako ciało = tymczasowe mieszkanie dla duszy]
 
-cumulo, cumulāre, cumulāvī, cumulātum [verb] [I]
+cumulō, cumulāre, cumulāvī, cumulātum [verb] [I]
 (Impedimenta et spolia in spatium inter vallum et tabernacula cumulabuntur)
 1. gromadzić, nagromadzać, pomnażać, usypywać (na stos), piętrzyć
 [od cumulus - stos, masa nagromadzenie]
@@ -803,7 +803,7 @@ custōdia, custodiae [noun] [f] [I]
 1. straż, pilnowanie, areszt, ochrona, dozór
 [jako "straż" może oznaczać zarówno akt pilnowania, jak i jednostkę pilnującą]
 
-appropinquo, appropinquāre, appropinquāvī, appropinquātum [verb] [I]
+appropinquō, appropinquāre, appropinquāvī, appropinquātum [verb] [I]
 (Poeni vallo appropinquabunt)
 1. zbliżać się, podchodzić, nadchodzić (dosłownie lub w czasie) (+ dat)
 [łączenie się z dativem jest naturalne, bo dopełnienie opisuje "cel" zbliżania. ad + propinquo = "być blisko do"]
@@ -855,7 +855,7 @@ salus, salūtis [noun] [f] [III]
 1. zdrowie, ocalenie, pomyślność, bezpieczeństwo
 2. pozdrowienie
 
-disputo, disputāre, disputāvī, disputātum [verb] [I]
+disputō, disputāre, disputāvī, disputātum [verb] [I]
 ()
 1. dyskutować, rozważać
 
@@ -884,7 +884,7 @@ homo, hominis [noun] [m] [III]
 (Placuit regi callidum responsum viri et asinum pro homine morti destinavit)
 1. człowiek
 
-dēsīdero, dēsīderāre, desiderāvī, desiderātum [verb] [I]
+dēsīderō, dēsīderāre, desiderāvī, desiderātum [verb] [I]
 (Cur me, domine, morte punire desideras ?)
 1. tęsknić, pragnąć, chcieć
 [często odcień tęsknoty lub braku, pragnienia czegoś utraconego, nieobecnego. łagodniejsze niż cupio]
@@ -966,7 +966,7 @@ honestus, honesta, honestum [adj]
 1. szlachetny, honorowy, czcigodny, szanowany, uczciwy
 [od honor – zaszczyt, godność, szacunek. w przeciwieństwie do dignus nie opisuje nie wymaga dopełnienia, jest wyłącznie epitetem (np. "szlachetne postępowanie" vs "postępowanie godne pochwały"]
 
-interrogo, interrogāre, interrogāvī, interrogātum [verb] [I]
+interrogō, interrogāre, interrogāvī, interrogātum [verb] [I]
 ()
 1. pytać, wypytywać, przesłuchiwać
 
@@ -1008,7 +1008,7 @@ gaudium, gaudii [noun] [n] [II]
 ()
 1. radość
 
-principium, principii [n] [noun] [II]
+prīncipium, prīncipiī [n] [noun] [II]
 ()
 1. początek
 
@@ -1020,7 +1020,7 @@ vitium, vitii [noun] [n] [II]
 ()
 1. wada, błąd
 
-contrārius, contraria, contrarium [adj]
+contrārius, contrāria, contrārium [adj]
 ()
 1. przeciwny
 
@@ -1040,7 +1040,7 @@ certus, certa, certum [adj]
 ()
 1. pewny
 
-āmitto, āmittere, amisi, amissum [verb] [III]
+āmittō, āmittere, āmīsī, āmissum [verb] [III]
 (Amittit merito proprium, qui alienum appetit)
 1. tracić
 
@@ -1133,7 +1133,7 @@ impositus, imposita, impositum [adj]
 ()
 1. nałożony
 
-prōvincia, provinciae [noun] [f] [I]
+prōvincia, prōvinciāe [noun] [f] [I]
 ()
 1. prowincja
 
@@ -1141,7 +1141,7 @@ praetor, praetoris [noun] [m] [III]
 ()
 1. pretor, zarządca prowincji
 
-clāmo, clāmāre, clamāvī, clamātum [verb] [I]
+clāmō, clāmāre, clamāvī, clamātum [verb] [I]
 ()
 1. ogłaszać
 2. wołać
@@ -1216,11 +1216,11 @@ ignōtus, ignōta, ignōtum [adj]
 ()
 1. nieznany
 
-oppugno, oppugnāre, oppugnāvī, oppugnātum [verb] [I]
+oppugnō, oppugnāre, oppugnāvī, oppugnātum [verb] [I]
 ()
 1. oblegać, zdobywać
 
-dīruo, dīruere, dirui, dirutum [verb] [III]
+dīruō, dīruere, dīruī, dīrūtum [verb] [III]
 ()
 1. burzyć
 
@@ -1253,7 +1253,7 @@ nam [conj]
 1. bo, albowiem, bowiem (wyjaśnienie)
 [używane do podania wyjaśnienia, opisu a nie prostego, faktycznego stwierdzenia związku przyczynowo-skutkowego (quod/quia). często występuje na początku zdania]
 
-nāvigium, navigii [noun] [n] [II]
+nāvigium, nāvigiī [noun] [n] [II]
 ()
 1. statek
 
@@ -1273,7 +1273,7 @@ accipio, accipere, accepi, acceptum [verb] [III]
 ()
 1. przyjmować
 
-ūniversitās, universitatis [noun] [f] [III]
+ūniversitās, ūniversitātis [noun] [f] [III]
 ()
 1. uniwersytet
 
@@ -1325,7 +1325,7 @@ sacer, sacra, sacrum [adj]
 ()
 1. święty
 
-occupo, occupāre, occupāvi, occupātum [verb] [I]
+occupō, occupāre, occupāvi, occupātum [verb] [I]
 ()
 1. zajmować
 
@@ -1341,7 +1341,7 @@ egeo, egēre, eguerim, [verb] [II]
 ()
 1. potrzebować (+ abl)
 
-remigro, remigrāre, remigrāvī, remigrātum [verb] [I]
+remigrō, remigrāre, remigrāvī, remigrātum [verb] [I]
 ()
 1. powracać
 
@@ -1393,7 +1393,7 @@ spēlunca, speluncae [noun] [f] [I]
 ()
 1. jaskinia, grota, nora
 
-intro, intrāre, intrāvī, intrātum [verb] [I]
+intrō, intrāre, intrāvī, intrātum [verb] [I]
 (Aliquando specum remotum inveni ibique intravi)
 1. wejść
 
@@ -1435,7 +1435,7 @@ contumēlia, contumeliae [noun] [f] [I]
 ()
 1. zniewaga
 
-vaco, vacāre, vacāvī, vacātum [verb] [I]
+vacō, vacāre, vacāvī, vacātum [verb] [I]
 ()
 1. być wolnym od czegoś (+ abl)
 
@@ -1471,7 +1471,7 @@ reliquus, reliqua, reliquum [adj]
 ()
 1. pozostały, inny
 
-supero, superāre, superāvī, superātum [verb] [I]
+superō, superāre, superāvī, superātum [verb] [I]
 (Victorem a victo superari saepe videmus)
 1. przewyższać, pokonywać
 
@@ -1608,7 +1608,7 @@ celer, celeris, celere [adj]
 ()
 1. szybki
 
-vasto, vastāre, vastāvī, vastātum [verb] [I]
+vastō, vastāre, vastāvī, vastātum [verb] [I]
 ()
 1. pustoszyć
 
@@ -1616,7 +1616,7 @@ adsum, adesse, adfui [verb] [anomalous]
 ()
 1. być obecnym, być pomocnym
 
-lībero, līberāre, liberāvī, liberātum [verb] [I]
+līberō, līberāre, liberāvī, liberātum [verb] [I]
 ()
 1. uwalniać
 
@@ -1744,7 +1744,7 @@ līnum, lini [noun] [n] [II]
 ()
 1. len, sznur
 
-ligo, ligare, ligavi, ligatum [verb] [I]
+ligō, ligare, ligavi, ligatum [verb] [I]
 ()
 1. wiązać, łączyć
 
@@ -1756,7 +1756,7 @@ ligo, ligare, ligavi, ligatum [verb] [I]
 ()
 1. powietrze
 
-volo, volāre, volāvi, volātum [verb] [I]
+volō, volāre, volāvi, volātum [verb] [I]
 ()
 1. lecieć
 
@@ -1805,11 +1805,11 @@ monstrum, monstri [noun] [n] [II]
 ()
 1. potwór
 
-rogo, rogāre, rogāvī, rogātum [verb] [I]
+rogō, rogāre, rogāvī, rogātum [verb] [I]
 (Rogantibus potius quam imperantibus paremus)
 1. prosić, prosić o
 
-impero, imperāre, imperāvī, imperātum [verb] [I]
+imperō, imperāre, imperāvī, imperātum [verb] [I]
 (Rogantibus potius quam imperantibus paremus)
 1. rozkazywać, dowodzić
 2. rządzić (nad) (+ dat)
@@ -1910,7 +1910,7 @@ tenuis, tenuis, tenue [adj]
 (Omnia sunt hominum tenui pendentia filo)
 1. cienki, delikatny
 
-recito, recitāre, recitāvī, recitātum [verb] [I]
+recitō, recitāre, recitāvī, recitātum [verb] [I]
 ()
 1. czytać na głos, recytować
 
@@ -1938,7 +1938,7 @@ pugna, pugnae [noun] [f] [I]
 ()
 1. bitwa, walka
 
-despēro, despērāre, desperāvī, desperātum [verb] [I]
+despērō, despērāre, desperāvī, desperātum [verb] [I]
 ()
 1. rozpaczać (nad) (+ de + abl)
 2. tracić nadzieję na
@@ -1992,11 +1992,11 @@ venia, veniae [noun] [f] [I]
 2. ułaskawienie
 3. odpust, pozwolenie
 
-servo, servāre, servāvī, servātum [verb] [I]
+servō, servāre, servāvī, servātum [verb] [I]
 (Turba spectans veniam gladiatori dare et vitam eius servare poterat)
 1. chronić, zachowywać, oszczędzać
 
-indico, indicāre, indicāvī, indicātum [verb] [I]
+indicō, indicāre, indicāvī, indicātum [verb] [I]
 (Sed plerusque pollice verso mortem iacenti humi indicabat)
 1. wskazywać, oznajmiać, ogłaszać
 
@@ -2012,7 +2012,7 @@ iaceo, iacēre, iacui [verb] [II]
 (Sed plerusque pollice verso mortem iacenti humi indicabat)
 1. leżeć
 
-verso, versāre, versāvī, versātum [verb] [I]
+versō, versāre, versāvī, versātum [verb] [I]
 (Sed plerusque pollice verso mortem iacenti humi indicabat)
 1. obracać, obracać się, wirować
 
@@ -2020,7 +2020,7 @@ saucius, saucia, saucium [adj]
 (Saucius eiurat pugnam gladiator)
 1. ranny, zraniony
 
-ēiūro, ēiūrāre, eiurāvī, eiurātum [verb] [I]
+ēiūrō, ēiūrāre, eiurāvī, eiurātum [verb] [I]
 (Saucius eiurat pugnam gladiator)
 1. deklarować niezdolność (do czegoś)
 2. wyrzekać się, odrzucać
@@ -2058,7 +2058,7 @@ hodiē [adv]
 (Hodie apud inferos fortasse cenabimus)
 1. dzisiaj, teraz
 
-cēno, cēnāre, cenāvī, cenātum [verb] [I]
+cēnō, cēnāre, cenāvī, cenātum [verb] [I]
 (Hodie apud inferos fortasse cenabimus)
 1. jeść obiad
 
@@ -2070,7 +2070,7 @@ inferus, inferi [noun] [II] [m]
 (Hodie apud inferos fortasse cenabimus)
 1. mieszkaniec podziemia (piekła)
 
-nuntio, nuntiāre, nuntiāvī, nuntiātum [verb] [I]
+nuntiō, nuntiāre, nuntiāvī, nuntiātum [verb] [I]
 ()
 1. ogłaszać, informować
 
@@ -2157,7 +2157,7 @@ iūre [adv]
 (Neminem captivabimus nisi iure victum)
 1. przez prawo, słusznie, sprawiedliwie
 
-captīvo, captīvāre, captivāvī, captivātum [verb] [I]
+captīvō, captīvāre, captivāvī, captivātum [verb] [I]
 (Neminem captivabimus nisi iure victum)
 1. brać w niewolę
 
@@ -2230,11 +2230,11 @@ lўra, lyrae [noun] [f] [I]
 (Apollo lyra cantans deo deasque delectabat)
 1. lira, lutnia, harfa
 
-canto, cantāre, cantāvī, cantātum [verb] [I]
+cantō, cantāre, cantāvī, cantātum [verb] [I]
 (Apollo lyra cantans deo deasque delectabat)
 1. śpiewać, grać
 
-dēlecto, dēlectāre, delectāvī, delectātum [verb] [I]
+dēlectō, dēlectāre, delectāvī, delectātum [verb] [I]
 (Apollo lyra cantans deo deasque delectabat)
 1. zachwycać, fascynować
 
@@ -2250,7 +2250,7 @@ vēnātio, venationis [noun] [f] [III]
 (Diana, Apollonis soror, quae venationis et animalium patrona erat, silvas et montes peragrabat)
 1. polowanie
 
-peragro, peragrāre, peragrāvī, peragrātum [verb] [I]
+peragrō, peragrāre, peragrāvī, peragrātum [verb] [I]
 (Diana, Apollonis soror, quae venationis et animalium patrona erat, silvas et montes peragrabat)
 1. przemierzać, przetrząsać
 
@@ -2275,11 +2275,11 @@ ita [adv]
 (Romani summos deos deasque ita enumerabant: ... )
 1. tak, tak oto, w ten sposób
 
-ēnumero, ēnumerāre, enumerāvī, enumerātum [verb] [I]
+ēnumerō, ēnumerāre, enumerāvī, enumerātum [verb] [I]
 (Romani summos deos deasque ita enumerabant: ... )
 1. wyliczać
 
-sto, stāre, steti, stātum [verb] [I]
+stō, stāre, steti, stātum [verb] [I]
 (Res publicae legibus et civibus bonic stabis)
 1. stać, opierać się (na kimś/czymś) (+ abl)
 
@@ -2295,7 +2295,7 @@ praesum, praeesse, praefui [verb] [anomalous]
 (Rebus publicis cives boni et iusti praeesse debent)
 1. przewodzić, mieć władzę nad (+ dat)
 
-firmo, firmāre, firmāvī, firmātum [verb] [I]
+firmō, firmāre, firmāvī, firmātum [verb] [I]
 (Res publicam iustitia et virtutes civium firmant)
 1. wzmacniać, wspierać
 
@@ -2325,7 +2325,7 @@ lapsus, lapsūs [noun] [m] [IV]
 (Lapsus linguae)
 1. poślizgnięcie
 
-spēro, spērāre, sperāvī, sperātum [verb] [I]
+spērō, spērāre, sperāvī, sperātum [verb] [I]
 (Contra spem spero)
 1. mieć nadzieję
 
@@ -2380,7 +2380,7 @@ manus, manūs [noun] [f] [IV]
 (Manus manum lavat)
 1. ręka
 
-lavo, lavāre, lavāvī, lavātum [verb] [I]
+lavō, lavāre, lavāvī, lavātum [verb] [I]
 (Manus manum lavat)
 1. myć
 
@@ -2423,7 +2423,7 @@ impetus, impetūs [noun] [m] [IV]
 (Sonitus tubarum signum exercitui ad impetum dat)
 1. atak
 
-incito, incitāre, incitāvī, incitātum [verb] [I]
+incitō, incitāre, incitāvī, incitātum [verb] [I]
 (Imperator spem civium incitat)
 1. pobudzać (np. do działania), podburzać, zachęcać, wzniecać
 
@@ -2431,7 +2431,7 @@ reditus, reditūs [noun] [m] [IV]
 (Omnes reditum exercitus victoris exspectans)
 1. powrót
 
-exspecto, exspectāre, exspectāvī, exspectātum [verb] [I]
+exspectō, exspectāre, exspectāvī, exspectātum [verb] [I]
 (Omnes reditum exercitus victoris exspectans)
 1. wypatrywać, oczekiwać
 
@@ -2482,7 +2482,7 @@ graviter [adv]
 (Servi, qui dominis servire debebant atque ab iis graviter puniebantur)
 1. poważnie, głęboko
 
-reporto, reportāre, reportāvī, reportātum [verb] [I]
+reportō, reportāre, reportāvī, reportātum [verb] [I]
 ()
 1. raportować
 
@@ -2494,7 +2494,7 @@ peditātus, peditatūs [noun] [m] [IV]
 (Exercitus Romanus ex equitatu et peditatu constabat)
 1. piechota
 
-consto, constāre, constiti [verb] [I]
+constō, constāre, constiti [verb] [I]
 (Exercitus Romanus ex equitatu et peditatu constabat. Leges ad civium salutem inventas esse constat)
 1. składać się z (czegoś)
 2. pozostawać niezmienionym, trwać, być ustalonym
@@ -2711,7 +2711,7 @@ mens, mentis [noun] [f] [III]
 (Ursus mortuorum corpora non attingit - in mentem ei venit)
 1. umysł
 
-tempto, temptāre, temptāvī, temptātum [verb] [I]
+temptō, temptāre, temptāvī, temptātum [verb] [I]
 (Ursus iacenti appropinquavit, corpus eius temptavit, denique discessit)
 1. testować, próbować
 
@@ -2727,7 +2727,7 @@ iocus, ioci [noun] [m] [II]
 (Alter ex arbore descendit et amicum per iocum interrogavit)
 1. żart
 
-insusurro, insusurrāre, insusurrāvī, insusurrātum [verb] [I]
+insusurrō, insusurrāre, insusurrāvī, insusurrātum [verb] [I]
 (Quid ursus tibi per aures interrogavit ?)
 1. insynuować
 2. sugerować
@@ -2767,13 +2767,13 @@ classis, classis [noun] [f] [III]
 (Nobis magnam classem comparavit)
 1. flota lub marynarka wojenna
 
-comparo, comparāre, comparāvī, comparātum [verb] [I]
+comparō, comparāre, comparāvī, comparātum [verb] [I]
 (Nobis magnam classem comparavit)
 1. zapewniać sobie, zdobywać, zorganizować, zebrać
 2. porównywać, zestawiać
 [dosł. "przygotowywać razem". w znaczeniu "zdobywać" podkreśla efekt, a nie sam proces (w przeciwieństwie do "paro")]
 
-administro, administrāre, administrāvī, administrātum [verb] [I]
+administrō, administrāre, administrāvī, administrātum [verb] [I]
 (Pecuniam publicam magna diligentia administravit)
 1. zarządzać, kierować
 
@@ -2808,7 +2808,7 @@ antepōno, antepōnere, anteposui, antepositum [verb] [III]
 1. ustawiać przed (+ celownik), umieszczać lub stawiać przed
 2. preferować, cenić wyżej
 
-hebeto, hebetāre, hebetāvī, hebetātum [verb] [I]
+hebetō, hebetāre, hebetāvī, hebetātum [verb] [I]
 (Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
 1. stępić, uśpić, uczynić słabym
 
@@ -2888,7 +2888,7 @@ cedo, cēdere, cessi, cessum [verb] [III]
 (Neapolitanis agri aliquantum cedite)
 1. dawać, przynosić, przekazywać
 
-mando, mandāre, mandāvī, mandātum [verb] [I]
+mandō, mandāre, mandāvī, mandātum [verb] [I]
 (Tum ad Neapolitanos properavit eademque iss mandavit)
 1. rozkazywać, zlecać
 
@@ -2922,7 +2922,7 @@ ut [conj]
 (Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
 1. aby, żeby
 
-termino, termināre, termināvī, terminātum [verb] [I]
+terminō, termināre, termināvī, terminātum [verb] [I]
 (Fabius terminos ita constituit, ut ipsi Nolani et Neapolitani terminaverunt)
 1. oznaczać granice
 
@@ -2946,7 +2946,7 @@ neuter [pron]
 (Nos neutrum eligimus)
 1. żaden z dwóch
 
-apporto, apportāre, apportāvī, apportātum [verb] [I]
+apportō, apportāre, apportāvī, apportātum [verb] [I]
 (Vos, qui haec signa apportavistis, ipsi eligite)
 1. przynosić
 [ad + porto = "nieść do". podkreśla kierunek, nie sam proces noszenia (porto)]
@@ -3028,7 +3028,7 @@ somnus, somni [noun] [m] [II]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
 1. sen
 
-excito, excitāre, excitāvī, excitātum [verb] [I]
+excitō, excitāre, excitāvī, excitātum [verb] [I]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat. Ea re tam admirabili clamores populi excitati sunt)
 1. budzić, wywoływać (ze spoczynku, z bezruchu itp.)
 
@@ -3044,7 +3044,7 @@ diūturnus, diuturna, diuturnum [adj]
 (Ancillae diuturno labore fatigatae erant)
 1. trwały, trwały długo
 
-neco, necāre, necāvī, necātum [verb] [I]
+necō, necāre, necāvī, necātum [verb] [I]
 (Ancillae, quibus dormire placebat, gallum necaverunt)
 1. mordować, zabijać
 [podkreśla brutalność, ma wydźwięk dramatyczny (bardziej "zamordować" niż "uśmiercić")]
@@ -3053,7 +3053,7 @@ nex, necis [noun] [f] [III]
 (Ancillae galli necem deplorabant)
 1. śmierć, morderstwo
 
-dēplōro, dēplōrāre, deplorāvī, deplorātum [verb] [I]
+dēplōrō, dēplōrāre, deplorāvī, deplorātum [verb] [I]
 (Ancillae galli necem deplorabant)
 1. opłakiwać, ubolewać, płakać nad
 
@@ -3085,7 +3085,7 @@ musculus, musculi [noun] [m] [II]
 (Prope leonem dormientem musculi ludebant)
 1. mała mysz
 
-dēvoro, dēvorāre, devorāvī, devorātum [verb] [I]
+dēvorō, dēvorāre, devorāvī, devorātum [verb] [I]
 (Leo musculum cepit devorare eum cupiens)
 1. pożerać
 
@@ -3097,7 +3097,7 @@ ignosco, ignoscere, ignovi, ignotum [verb] [III]
 (Leo a musculo rogatus eum ignovit ei et vitam donavit)
 1. ułaskawiać, przebaczać (+ celownik)
 
-dōno, dōnāre, donāvī, donātum [verb] [I]
+dōnō, dōnāre, donāvī, donātum [verb] [I]
 (Leo a musculo rogatus eum ignovit ei et vitam donavit)
 1. darować
 
@@ -3113,7 +3113,7 @@ cautē [adv]
 (Leo praedam parum caute investigans in rete incidit)
 1. ostrożnie
 
-investīgo, investīgāre, investigavi, investigatum [verb] [I]
+investīgō, investīgāre, investigavi, investigatum [verb] [I]
 (Leo praedam parum caute investigans in rete incidit)
 1. badać, poszukiwać
 
@@ -3174,7 +3174,7 @@ reprehendo, reprehendere, reprehendi, reprehensum [verb] [III]
 (Iuste venustesque reprehendit Cato Albinum)
 1. ganić, krytykować
 
-scriptito, scriptitāre, scriptitavi, scriptitatum [verb] [I]
+scriptitō, scriptitāre, scriptitavi, scriptitatum [verb] [I]
 (Albinus res gestas Romanas Graeca lingua scriptitavit)
 1. pisać często
 
@@ -3265,7 +3265,7 @@ honos, honoris [noun] [m] [III]
 1. szacunek lub poważanie
 2. urząd publiczny
 
-revoco, revocāre, revocavi, revocatum [verb] [I]
+revocō, revocāre, revocavi, revocatum [verb] [I]
 (Amicus tibi ero, si exercitum tuum ex finibus meis revocaveris)
 1. odwoływać
 
@@ -3318,7 +3318,7 @@ sospes, sospes, sospes [adj]
 1. bezpieczny i zdrowy
 2. pomyślny
 
-numero, numerāre, numeravi, numeratum [verb] [I]
+numerō, numerāre, numeravi, numeratum [verb] [I]
 (Donec eris sospes, multos numerabis amicos)
 1. liczyć
 
@@ -3422,7 +3422,7 @@ dēleo, dēlēre, delevi, deletum [verb] [II]
 (Tum ibi in obsidione aedes quasdam capere et igni delere parabat)
 1. niszczyć, usuwać
 
-paro, parāre, paravi, paratum [verb] [I]
+parō, parāre, paravi, paratum [verb] [I]
 (Tum ibi in obsidione aedes quasdam capere et igni delere parabat)
 1. przygotowywać
 
@@ -3471,7 +3471,7 @@ sīn [conj]
 (Sin autem nos vincere non potueris, considerabis: (...))
 1. ale jeśli, jeśli wręcz przeciwnie
 
-consīdero, consīderāre, consideravi, consideratum [verb] [I]
+consīderō, consīderāre, consideravi, consideratum [verb] [I]
 (Sin autem nos vincere non potueris, considerabis: (...))
 1. badać, przyglądać się, sprawdzać
 2. rozważać, kontemplować, oceniać
@@ -3488,11 +3488,11 @@ cīvitās, civitatis [noun] [f] [III]
 (Demetrius oppugnatione destitit et non solum imagini sed etiam civitati pepercit)
 1. społeczność, miasto, obywatele
 
-explōro, explōrāre, exploravi, exploratum [verb] [I]
+explōrō, explōrāre, exploravi, exploratum [verb] [I]
 (Dux milites exploratum misit)
 1. poszukiwać, odkrywać, rozpoznawać (np. teren), badać
 
-expugno, expugnāre, expugnavi, expugnatum [verb] [I]
+expugnō, expugnāre, expugnavi, expugnatum [verb] [I]
 (Hostis Romae appropinquavit urbem expugnatum)
 1. atakować, szturmować, podbijać
 
@@ -3580,7 +3580,7 @@ tamquam [adv]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
 1. tak jak, tak jakby
 
-noscito, noscitāre, noscitavi, noscitatum [verb] [I]
+noscitō, noscitāre, noscitavi, noscitatum [verb] [I]
 (Leo repente constitit, ac deinde sensim atque placide, tamquam hominem noscitans, accedit)
 1. rozpoznawać
 
@@ -3608,7 +3608,7 @@ bestia, bestiae [noun] [f] [I]
 (Androclus inter illa blandimenta ferocis bestiae amissum animum recuperat paulatimque oculos ad leonem vertit)
 1. bestia, zwierzę, stworzenie
 
-recupero, recuperāre, recuperavi, recuperatum [verb] [I]
+recuperō, recuperāre, recuperavi, recuperatum [verb] [I]
 (Androclus inter illa blandimenta ferocis bestiae amissum animum recuperat paulatimque oculos ad leonem vertit)
 1. odzyskiwać, przywracać, przywracać do zdrowia
 
@@ -3813,7 +3813,7 @@ torreo, torrēre, torrui, tostum [verb] [II]
 (Membra ferarum mihi apportabat, quae ego ignis copiam non habens sole meridiano torrebam. [non habens + nom - po polsku byłby biernik ze względu na przeczenie. ])
 1. parzyć, prażyć, przypalać, piec, palić się
 
-puto, putāre, putavi, putatum [verb] [I]
+putō, putāre, putavi, putatum [verb] [I]
 (Sententiam illam veram esse puto)
 1. uważać, sądzić, myśleć, przypuszczać
 [oznacza opinię opartą na przemyśleniu, ma zabarwienie intelektualne. nie oznacza wiary (credo), ani zaufania, ani procesu myślenia (cogito). czesto używane w ACI]
@@ -3908,17 +3908,17 @@ obviam [adv]
 (Alexandro vir pauper, qui asinum agebat, obviam venit)
 1. ku, naprzeciw (np. wyjść komuś naprzeciw) (+ dat)
 
-obtempero, obtemperāre, obtemperavi, obtemperatum [verb] [I]
+obtemperō, obtemperāre, obtemperavi, obtemperatum [verb] [I]
 (Alexander oraculo obtemperans virum interfici iubet)
 1. podporządkowywać się, spełniać żądanie, być posłusznym (+ dat)
 [podkreśla aktywne stosowanie się do poleceń, w przeciwieństwie do ogólnej akceptacji norm czy przełożonych (pāreo)]
 
-ēnarro, ēnarrāre, enarravi, enarratum [verb] [I]
+ēnarrō, ēnarrāre, enarravi, enarratum [verb] [I]
 (Alexander ei oraculi praeceptum enarrat)
 1. omawiać, szczegółowo opisywać lub opowiadać
 [ex + narro. ma charakter narracyjny, często opis faktów, wydarzeń, tekstów]
 
-explico, explicāre, explicavi o explicui, explicatum o explicitum [verb] [I]
+explicō, explicāre, explicavi o explicui, explicatum o explicitum [verb] [I]
 (Oraculi praeceptum non explicas recte: asinus meus tibi primus occurrit, eum interficire debes)
 1. wyjaśniać, rozwijać, tłumaczyć (coś skomplikowanego, zawiłego)
 [ex + plico (składać). bardziej logiczne niż narracyjne, bardziej wyjaśnianie niż opisywanie]
@@ -3932,7 +3932,7 @@ responsum, responsi [noun] [n] [II]
 (Placuit regi callidum responsum viri et asinum pro homine morti destinavit)
 1. odpowiedź, reakcja
 
-destino, destināre, destinavi, destinatum [verb] [I]
+destinō, destināre, destinavi, destinatum [verb] [I]
 (Placuit regi callidum responsum viri et asinum pro homine morti destinavit)
 1. przeznaczać (do czegoś, na coś)
 
@@ -3940,7 +3940,7 @@ poēta, poetae [noun] [m] [I]
 (Nasica Ennium poetam visitat)
 1. poeta
 
-vīsito, vīsitāre, visitavi, visitatum [verb] [I]
+vīsitō, vīsitāre, visitavi, visitatum [verb] [I]
 (Nasica Ennium poetam visitat)
 1. odwiedzać
 
@@ -3971,7 +3971,7 @@ iānua, ianuae [noun] [f] [I]
 1. drzwi, wejście (do domu, budynku - ale też w przenośni)
 [od Ianus, bóg przejść i drzwi]
 
-exclāmo, exclāmāre, exclamavi, exclamatum [verb] [I]
+exclāmō, exclāmāre, exclamavi, exclamatum [verb] [I]
 (Tum Nasica exlamat se domi non esse)
 1. wykrzykiwać, krzyczeć, wołać
 
@@ -4007,6 +4007,6 @@ līs, litis [noun] [f] [III]
 1. pozew, proces sądowy
 2. spór, kłótnia
 
-spīro, spīrāre, spiravi, spiratum [verb] [I]
+spīrō, spīrāre, spiravi, spiratum [verb] [I]
 (Dum spiramus, speremus)
 1. oddychać
