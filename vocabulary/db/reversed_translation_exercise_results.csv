@@ -477,3 +477,15 @@ default_user;24;latin;interrogō, interrogāre, interrogāvī, interrogātum [ve
 default_user;24;latin;pūnio, pūnīre, punii, punitum [verb] [IV];Cur me, domine, morte punire desideras ?;1;karać, wymierzać karę / sprawiedliwość;karać, wymierzać karę / sprawiedliwość;True;2025-06-22 12:24:32
 default_user;24;latin;quī [adv];;1;jak, w jaki sposób;jak, w jaki sposób;True;2025-06-22 12:24:40
 default_user;25;latin;ōrātor, ōrātōris [noun] [m] [III];;1;mówca;mówca;True;2025-06-22 15:32:14
+default_user;26;latin;officium, officiī [noun] [n] [II];;1;obowiązek;obowiązek;True;2025-06-22 15:38:24
+default_user;26;latin;possum, posse, potuī [verb] [anomalous];Vos quoque Ciceronis orationes et epistulas legere poteris;1;móc;móc;True;2025-06-22 15:38:29
+default_user;26;latin;at [conj];;1;ale, ale za to;ale, ale za to;True;2025-06-22 15:38:37
+default_user;26;latin;opus, operis [noun] [n] [III];;1;dzieło, praca;dzieło, praca;True;2025-06-22 15:38:44
+default_user;26;latin;disputātiō, disputātiōnis [noun] [f] [III];;1;rozmowa, dyskusja, debata, rozprawa;rozmowa, dyskusja, debata, rozprawa;True;2025-06-22 15:38:57
+default_user;26;latin;ēgregius, ēgregia, ēgregium [adj];;1;znakomity, wyborny, doskonały, nadzwyczajny, wybitny;znakomity, wyborny, doskonały, nadzwyczajny, wybitny;True;2025-06-22 15:39:39
+default_user;26;latin;sors, sortis [noun] [f] [III];;1;los, dola, udział;los, dola, udział;True;2025-06-22 15:39:46
+default_user;26;latin;praeclārus, praeclara, praeclarum [adj];;1;przesławny;przesławny;True;2025-06-22 15:39:55
+default_user;26;latin;respōndeō, respondēre, respondī, respōnsum [verb] [II];;1;odpowiadać, reagować;odpowiadać, reagować;True;2025-06-22 15:40:03
+default_user;26;latin;doctus, docta, doctum [adj];;1;uczony, biegły;uczony, biegły;True;2025-06-22 15:40:09
+default_user;26;latin;ōrātor, ōrātōris [noun] [m] [III];;1;mówca;mówca;True;2025-06-22 15:40:14
+default_user;26;latin;exsilium, exsiliī [noun] [n] [II];;1;wygnanie (stan), miejsce wygnania;wygnanie (stan), miejsce wygnania;True;2025-06-22 15:40:23
