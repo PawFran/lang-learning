@@ -1135,7 +1135,8 @@ possum, posse, potuī [verb] [anomalous]
 
 impositus, imposita, impositum [adj]
 ()
-1. nałożony, narzucony
+1. nałożony, narzucony, położony (na czymś)
+[od impōnō = "kłaść na, nakładać, umieszczać". w przeciwieństwie do "situs", które oznacza "bycie w danym miejscu", impositus oznacza fakt bycia położonym przez kogoś/coś]
 
 prōvincia, prōvinciāe [noun] [f] [I]
 ()
@@ -1469,7 +1470,8 @@ ornātus, ornata, um [adj]
 
 situs, sita, situm [adj]
 (Demetrius Rhodus insulam oppidumque pulcherrimum in ea situm obsidebat oppugnabatque)
-1. położony
+1. położony, umiejscowiony
+[podkreśla statyczne "położenie", jako fakt bycia w danym miejscu, w przeciwieństwie do impositus, które podkreśla efekt czynności nakładania (również w przenośni, np. nakładanie obowiązków)]
 
 reliquus, reliqua, reliquum [adj]
 ()
