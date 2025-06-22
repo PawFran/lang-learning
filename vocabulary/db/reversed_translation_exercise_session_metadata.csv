@@ -23,3 +23,4 @@ session_id;user_name;start_word;end_word;filtered_parts_of_speech;revise_last_se
 22;default_user;disputo;quomodo;;False;False
 23;default_user;appello;vir;;False;True
 24;default_user;appello;vir;;False;True
+24;default_user;appello;vir;;False;False

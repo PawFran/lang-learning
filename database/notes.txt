@@ -1,5 +1,7 @@
 TODO
 
+przy porównaniu w SynonimFinder można by kasować przecinki z haseł słownikowych ? czasem prze nie nie ma 100% dopasowania
+
 użyć https://alatius.com/macronizer/?utm_source=chatgpt.com - skrypt do korygowania makronów
 przelecieć obecny słownik, ale też na bieżąco przy scrape'owaniu używać ?
 
