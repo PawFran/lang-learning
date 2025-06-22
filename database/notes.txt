@@ -1,7 +1,5 @@
 TODO
 
-scraper - zastapic krotkie akcenty zwyklymi literami
-
 zapytać czata o rodzaje przymiotników - jedne stosuje się z dopełnieniem (dignus), inne to epitety (honestus)
 rowniez rodzaje rzeczownikow - niektore wymagaja dopelnienia, np. plurimum ("mam mnóstwo" - ale czego ?)
 
