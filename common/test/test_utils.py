@@ -8,7 +8,6 @@ def test_replace_special():
     assert special_replaced('sēnsim') == 'sensim'
 
 
-
 def test_weak_in():
     latin_words = ['pūniō', 'castīgō', 'neco']
 
