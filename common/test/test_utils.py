@@ -1,18 +1,43 @@
-from common.lib.utils import *
+from common.lib.utils import replace_special, weak_equals, weak_in, flatten
+
+
+def test_replace_special():
+    assert replace_special('pūniō') == 'punio'
+    assert replace_special('ēnarro') == 'enarro'
+    assert replace_special('complūres') == 'complures'
+    assert replace_special('sēnsim') == 'sensim'
+    assert replace_special(None) is None
+
+
+def test_weak_in():
+    latin_words = ['pūniō', 'castīgō', 'neco']
+
+    assert weak_in('punio', latin_words)
+    assert weak_in('punio ', latin_words)
+    assert weak_in('CASTIGO', latin_words)
+
+    assert not weak_in('interficio', latin_words)
+    assert not weak_in('CASTIGO', latin_words, case_sensitive=True)
+
+
+def test_flatten():
+    nested_list = [['pūniō', 'castīgō'], ['neco', 'interficio']]
+    assert flatten(nested_list) == ['pūniō', 'castīgō', 'neco', 'interficio']
 
 
 def test_weak_compare():
-    assert weak_equals('castīgo', 'castigo')
-    assert weak_equals('castīgo', 'castigo ')
-    assert weak_equals('castīgo', 'castīgo')
-    assert weak_equals('castīgo', 'castīgo ')
+    # equals
+    assert weak_equals('castīgo', 'castigo')  # macron
+    assert weak_equals('castīgo', 'castigo ')  # space
+    assert weak_equals('castīgo', 'castīgo')  # same
+
+    assert weak_equals('ăënĕus', 'aeneus')  # breve + diaeresis
+
+    assert weak_equals('complūres', 'COMPLURES')  # case
+    assert weak_equals('complūres', 'COMPLURES', case_sensitive=False)  # case + explicit arg
+    assert weak_equals('sēnsim', 'sensim', case_sensitive=True)  # explicit arg
+
+    # not equals
+    assert not weak_equals('complūres', 'COMPLURES', case_sensitive=True)  # case
     assert not weak_equals('castīgo', 'castīg')
-    assert weak_equals('castāre', 'castare')
-    assert weak_equals('valdē', 'valde')
-    assert weak_equals('ăënĕus', 'aeneus')
-
-
-def test_wek_compare_uppercase():
-    assert weak_equals('Ī', 'ī')
-    assert weak_equals('ī', 'Ī')
-    assert weak_equals('Ī', 'I')
+    assert not weak_equals('pūniō', 'punioo')
