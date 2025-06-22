@@ -70,9 +70,10 @@ fluvius, fluviī [noun] [II] [m]
 1. rzeka (geografia)
 [używane jako jednostka geograficzna, w przeciwieństwie do "flumen", które oznacza bardziej płynącą wodę]
 
-dō, dāre, dedī, datum [verb] [I]
+dō, dare, dedī, datum [verb] [I]
 (Matrona tunicas ancillis dat)
 1. dawać, ofiarowywać
+[nietypowe dla I kon formy inf, perf i sup (w inf. krótkie "a")]
 
 sum, esse, fuī [verb] [anomalous]
 (Marcus discipulus est)
@@ -2282,6 +2283,7 @@ ita [adv]
 stō, stāre, steti, stātum [verb] [I]
 (Res publicae legibus et civibus bonic stabis)
 1. stać, opierać się (na kimś/czymś) (+ abl)
+[nietypowe jak na I kon. formy perf i sup]
 
 iustus, iusta, iustum [adj]
 (Rerum publicarum leges iustae atque aequae esse debent)
