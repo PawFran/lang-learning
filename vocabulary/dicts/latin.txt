@@ -1,4 +1,4 @@
-castīgo, castīgāre, castīgāvī, castīgātum [verb] [I]
+castīgō, castīgāre, castīgāvī, castīgātum [verb] [I]
 (Ancillam miseram domina sevēra castīgat)
 1. karcić, upominać, dyscyplinować
 [od castus + ago = czynić czystym. podkreśla działanie naprawcze, wychowawcze, moralne]
@@ -114,7 +114,7 @@ nauta, nautae [noun] [m] [I]
 (Multi incolae Poloniae agricolae, fabri, operarii, nautae sunt)
 1. żeglarz
 
-perītus, perīta, perītum [adj] 
+perītus, perīta, perītum [adj]
 (Nautae periti navigant)
 1. doświadczony
 
@@ -209,7 +209,7 @@ negōtium, negotiī [noun] [n] [II]
 1. praca, sprawa, obowiązek, interes
 [nec + otium (nie-odpoczynek). podkreśla aktywność jako przeciwieństwi bezczynności (jak ang. business kojarzy się z "busy"), niekoniecznie trud (labor)]
 
-in [prep] 
+in [prep]
 (In Polonia habitamus. Spectantium oculi in certantes versi erant)
 1. do, na (+ acc)
 2. w (+ abl)
@@ -399,7 +399,7 @@ cūra, cūrae [noun] [f] [I]
 (Divitia tamen magnas curas et magna pericula nautis praebēbant)
 1. troska
 
-colo, colere, colui, cultum [verb] [III] 
+colo, colere, colui, cultum [verb] [III]
 (Agricolae antīqui multos deos colēbant)
 1. uprawiać
 2. czcić
@@ -2220,7 +2220,7 @@ mulier, mulieris [noun] [f] [III]
 
 sapientia, sapientiae [noun] [f] [I]
 (Minerva dea sapientae et artium erat)
-1. mądrość                    
+1. mądrość
 
 rego, regere, rexi, rectum [verb] [III]
 (Mars bella regebat)
@@ -2240,7 +2240,7 @@ dēlecto, dēlectāre, delectāvī, delectātum [verb] [I]
 
 malus, mala, malum [adj]
 (Sagittis malos homines puniebat)
-1. zły 
+1. zły
 
 soror, sororis [noun] [f] [III]
 (Diana, Apollonis soror, quae venationis et animalium patrona erat, silvas et montes peragrabat)
