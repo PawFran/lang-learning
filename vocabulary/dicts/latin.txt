@@ -2401,7 +2401,8 @@ cognosco, cognoscere, cognovi, cognitum [verb] [III]
 
 ineptus, inepta, ineptum [adj]
 (Risu inepto res ineptior nulla est)
-1. głupi, niemądry
+1. niestosowny, niezręczny, niedorzeczny, głupkowaty
+[w przeciwieństwie do "stultus", ineptus oznacza nie tyle brak rozumu, co brak wyczucia i umiejętności zachowania się stosownie do sytuacji]
 
 senātus, senatūs [noun] [m] [IV]
 (Cives in senatu de republica disputant)
