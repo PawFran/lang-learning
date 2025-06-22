@@ -489,3 +489,21 @@ default_user;26;latin;respōndeō, respondēre, respondī, respōnsum [verb] [II
 default_user;26;latin;doctus, docta, doctum [adj];;1;uczony, biegły;uczony, biegły;True;2025-06-22 15:40:09
 default_user;26;latin;ōrātor, ōrātōris [noun] [m] [III];;1;mówca;mówca;True;2025-06-22 15:40:14
 default_user;26;latin;exsilium, exsiliī [noun] [n] [II];;1;wygnanie (stan), miejsce wygnania;wygnanie (stan), miejsce wygnania;True;2025-06-22 15:40:23
+default_user;26;latin;ōrātio, orationis [noun] [f] [III];Vos quoque Ciceronis orationes et epistulas legere poteris;1;przemówienie;mówca;False;2025-06-22 15:52:54
+default_user;26;latin;ōrātio, orationis [noun] [f] [III];Vos quoque Ciceronis orationes et epistulas legere poteris;1;przemówienie;;False;2025-06-22 15:52:58
+default_user;26;latin;impositus, imposita, impositum [adj];;1;nałożony, narzucony, położony (na czymś);nałożony, narzucony;False;2025-06-22 15:53:13
+default_user;27;latin;opus, operis [noun] [n] [III];;1;dzieło, praca;dzieło, praca;True;2025-06-22 15:53:57
+default_user;27;latin;impositus, imposita, impositum [adj];;1;nałożony, narzucony, położony (na czymś);nałożony, narzucony, położony (na czymś);True;2025-06-22 15:54:21
+default_user;27;latin;at [conj];;1;ale, ale za to;ale, ale za to;True;2025-06-22 15:54:29
+default_user;27;latin;doctus, docta, doctum [adj];;1;uczony, biegły;uczony, biegły;True;2025-06-22 15:54:34
+default_user;27;latin;epistula, epistulae [noun] [f] [I];Vos quoque Ciceronis orationes et epistulas legere poteris;1;list;list;True;2025-06-22 15:54:40
+default_user;27;latin;sors, sortis [noun] [f] [III];;1;los, dola, udział;los, dola, udział;True;2025-06-22 15:54:47
+default_user;27;latin;ōrātio, orationis [noun] [f] [III];Vos quoque Ciceronis orationes et epistulas legere poteris;1;przemówienie;przemówienie;True;2025-06-22 15:54:53
+default_user;27;latin;ēgregius, ēgregia, ēgregium [adj];;1;znakomity, wyborny, doskonały, nadzwyczajny, wybitny;znakomity, wyborny, doskonały, nadzwyczajny, wybitny;True;2025-06-22 15:55:04
+default_user;27;latin;exsilium, exsiliī [noun] [n] [II];;1;wygnanie (stan), miejsce wygnania;wygnanie (stan), miejsce wygnania;True;2025-06-22 15:55:10
+default_user;27;latin;ōrātor, ōrātōris [noun] [m] [III];;1;mówca;mówca;True;2025-06-22 15:55:14
+default_user;27;latin;officium, officiī [noun] [n] [II];;1;obowiązek;obowiązek;True;2025-06-22 15:55:19
+default_user;27;latin;respōndeō, respondēre, respondī, respōnsum [verb] [II];;1;odpowiadać, reagować;odpowiadać, reagować;True;2025-06-22 15:55:25
+default_user;27;latin;disputātiō, disputātiōnis [noun] [f] [III];;1;rozmowa, dyskusja, debata, rozprawa;rozmowa, dyskusja, debata, rozprawa;True;2025-06-22 15:55:46
+default_user;27;latin;possum, posse, potuī [verb] [anomalous];Vos quoque Ciceronis orationes et epistulas legere poteris;1;móc;móc;True;2025-06-22 15:56:29
+default_user;27;latin;praeclārus, praeclara, praeclarum [adj];;1;przesławny;przesławny;True;2025-06-22 15:56:34

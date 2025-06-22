@@ -1110,7 +1110,7 @@ officium, officiī [noun] [n] [II]
 
 disputātiō, disputātiōnis [noun] [f] [III]
 ()
-1. rozmowa, dyskusja, debata, rozprawa
+1. dyskusja, debata, rozprawa
 [podkreśla aktywną dyskusję, polemikę, nieraz spór na argumenty, w przeciwieństwie do cōnsilium, które podkreśla namysł i współpracę w szukaniu najlepszej rekomendacji]
 
 sors, sortis [noun] [f] [III]
@@ -2480,7 +2480,7 @@ laetus, laeta, laetum [adj]
 
 cōnsilium, cōnsiliī [noun] [n] [II]
 (Senatum consilium publicum erat)
-1. narada, dyskusja, debata
+1. narada, debata
 2. porada, zamysł, plan
 3. ciało obradujące, rada
 [używane w kontekście (często wspólnego, choć nie zawsze) namyślania się w celu znalezienia najlepszego rozwiązania (może oznaczać aktywność, grupę ludzi, czy wynik aktywności) - w przeciwieństwie do disputātiō, które podkreśla konfrontację argumentów]
