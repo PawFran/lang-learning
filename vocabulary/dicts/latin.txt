@@ -1005,7 +1005,7 @@ quī [adv]
 1. jak, w jaki sposób
 [znaczenie takie samo jak quōmodo ale dużo rzadziej używane (qui to przede wszystkim zaimek)]
 
-gaudium, gaudii [noun] [n] [II]
+gaudium, gaudiī [noun] [n] [II]
 ()
 1. radość
 
@@ -1025,34 +1025,31 @@ contrārius, contrāria, contrārium [adj]
 ()
 1. przeciwny
 
-curro, currere, cucurri, cursum [verb] [III]
+currō, currere, cucurrī, cursum [verb] [III] [intransitive]
 ()
-1. biec, wbiegać
+1. biec
 
-honor, honoris [noun] [m] [III]
+honor, honōris [noun] [m] [III]
 ()
-1. zaszczyt
+1. zaszczyt, godność, poważanie
 
-mōs, moris [noun] [m] [III]
+mōs, mōris [noun] [m] [III]
 ()
-1. zwyczaj
+1. zwyczaj, obyczaj
+[w l. mnogiej może oznaczać "moralność" i faktycznie "moralność" pochodzi od "mores"]
 
 certus, certa, certum [adj]
 ()
-1. pewny
+1. pewny, ustalony, niezawodny, zdecydowany
+[zaprzeczenie to "incertus"]
 
-āmittō, āmittere, āmīsī, āmissum [verb] [III]
+amittō, amittere, amīsī, amissum [verb] [III]
 (Amittit merito proprium, qui alienum appetit)
-1. tracić
+1. tracić, gubić
 
-incertus, incerta, incertum [adj]
-()
-1. niepewny
-
-peto, petere, petii, petitum [verb] [III]
+petō, petere, petīvī, petītum [verb] [III]
 (Gladiatores vulnerati salutem a populo petebant)
-1. dążyć ku czemuś, starać się o coś
-2. błagać, prosić (o coś)
+1. prosić, domagać się, dążyć (do czegoś), ubiegać się
 
 caput, capitis [noun] [n] [III]
 ()
@@ -1060,17 +1057,17 @@ caput, capitis [noun] [n] [III]
 
 tempus, temporis [noun] [n] [III]
 ()
-1. czas
+1. czas, pora, okres
 
-dolor, doloris [noun] [m] [III]
+dolor, dolōris [noun] [m] [III]
 ()
-1. ból
+1. ból, cierpienie, smutek
 
 stultus, stulta, stultum [adj]
 ()
 1. głupi
 
-vir, viri [noun] [m] [II]
+vir, virī [noun] [m] [II]
 (Credo miseram fuisse Penelopen, quae tam diu viro suo caruit)
 1. mężczyzna
 
