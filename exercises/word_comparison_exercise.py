@@ -1,4 +1,8 @@
 import os
+import sys
+
+# Add project root directory to Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from sqlalchemy import any_
 from sqlalchemy.orm import sessionmaker
@@ -12,7 +16,7 @@ WORD_COMPARISON_PATH = os.path.join(os.path.dirname(__file__), 'vocabulary', 'di
 
 def clean_words(lines_raw):
     words_split = [line.split('vs') for line in lines_raw]
-    return [ list(map(str.strip, words_set)) for words_set in words_split]
+    return [list(map(str.strip, words_set)) for words_set in words_split]
 
 
 def flatten_pairs(pairs: list[list[str]]) -> list[str]:
@@ -30,7 +34,7 @@ def get_matching_words_from_db(words_of_interest: list[str]) -> list[type[Words]
 
 if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
-    
+
     with open(WORD_COMPARISON_PATH) as f:
         word_comparison_lines_raw = [line.strip() for line in f.readlines()]
 

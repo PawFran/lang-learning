@@ -3,8 +3,10 @@
 
 import copy
 import os
-from argparse import Namespace
+import sys
 
+# Add project root directory to Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from numpy.random import default_rng
 
 from actions.declension import DECLENSION_EXERCISE_CSV_LOG_FILE_PATH, DECLENSION_SESSION_METADATA_CSV_PATH

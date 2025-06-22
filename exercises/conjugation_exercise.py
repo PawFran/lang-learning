@@ -1,4 +1,8 @@
 import os
+import sys
+
+# Add project root directory to Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from actions.conjugation import CONJUGATION_EXERCISE_CSV_LOG_FILE_PATH, \
     CONJUGATION_EXERCISE_SESSION_METADATA_CSV_LOG_FILE_PATH

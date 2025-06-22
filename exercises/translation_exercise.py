@@ -3,6 +3,12 @@
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 
+import os
+import sys
+
+# Add project root directory to Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from actions.translation import TRANSLATION_EXERCISE_CSV_LOG_FILE_PATH, TRANSLATION_SESSION_METADATA_CSV_PATH
 from common.lib.utils import DEFAULT_USER_NAME
 from database.db_classes import TranslationLastUninterruptedSessionHardWords
