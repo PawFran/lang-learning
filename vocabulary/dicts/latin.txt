@@ -950,7 +950,7 @@ dignus, digna, dignum [adj]
 1. godny (czegoś), wart (czegoś), zasługujący (na coś), odpowiedni, stosowny (+ abl)
 [kontrukcja często z abl lub z qui + coniunctivus. może opisywać i ludzi, i pojęcia abstrakcyjne (np. czyn godny pochwały). znaczenie nie musi być pozytywne - np. "godny pożałowania". wydźwięk zależy od dopełnienia, jeśli jest. jeśli nie ma dopełnienia i dignus występuje jako przydawka znaczenie ma prawie zawsze pozytywne (np. godna odpowiedź). dla negatywnego wydźwięku przydawki używa się "indignus"]
 
-mīles, militis [noun] [m] [III]
+mīles, mīlitis [noun] [m] [III]
 ()
 1. żołnierz
 
