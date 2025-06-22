@@ -6,6 +6,7 @@ def test_replace_special():
     assert special_replaced('ēnarro') == 'enarro'
     assert special_replaced('complūres') == 'complures'
     assert special_replaced('sēnsim') == 'sensim'
+    assert special_replaced(None) is None
 
 
 def test_weak_in():

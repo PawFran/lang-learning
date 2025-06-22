@@ -18,12 +18,12 @@ DIAERESIS_TRANSLATION = str.maketrans(
 ALL_SPECIAL_CHARACTERS_TRANSLATION = MACRON_TRANSLATION | BREVE_TRANSLATION | DIAERESIS_TRANSLATION
 
 
-def special_replaced(x):
-    return x.translate(ALL_SPECIAL_CHARACTERS_TRANSLATION)
+def special_replaced(s: str | None) -> str | None:
+    return s.translate(ALL_SPECIAL_CHARACTERS_TRANSLATION) if s is not None else None
 
 
-def breve_replaced(s: str) -> str:
-    return s.translate(BREVE_TRANSLATION)
+def breve_replaced(s: str | None) -> str | None:
+    return s.translate(BREVE_TRANSLATION) if s is not None else None
 
 
 # accent agnostic
