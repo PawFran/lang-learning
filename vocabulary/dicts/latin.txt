@@ -1139,46 +1139,49 @@ impositus, imposita, impositum [adj]
 1. nałożony, narzucony, położony (na czymś)
 [od impōnō = "kłaść na, nakładać, umieszczać". w przeciwieństwie do "situs", które oznacza "bycie w danym miejscu", impositus oznacza fakt bycia położonym przez kogoś/coś]
 
-prōvincia, prōvinciāe [noun] [f] [I]
+prōvincia, prōvinciae [noun] [f] [I]
 ()
-1. prowincja
+1. prowincja (jednostka administracyjna)
 
-praetor, praetoris [noun] [m] [III]
+praetor, praetōris [noun] [m] [III]
 ()
-1. pretor, zarządca prowincji
+1. pretor
+[urzędnik miejski sprawujący głównie funkcje sądowe, po kadencji był delegowany do zarządzania prowincją jako propraetor ("były pretor")]
 
-clāmō, clāmāre, clamāvī, clamātum [verb] [I]
+clāmō, clāmāre, clāmāvī, clāmātum [verb] [I]
 ()
-1. ogłaszać
-2. wołać
+1. krzyczeć, wołać, domagać się głośno, obwieszczać
 
-pūblicānus, publicani [noun] [m] [II]
+pūblicānus, pūblicānī [noun] [m] [II]
 ()
-1. publikanin
+1. poborca podatkowy
 
-addo, addere, addidi, additum [verb] [III]
+addō, addere, addidī, additum [verb] [III]
 ()
-1. dokładać (do czegoś)
+1. dodawać, dołączać, dokładać
+[ad (do, ku) + dō (dać) = "dać do"]
 
 onus, oneris [noun] [n] [III]
 ()
-1. ciężar
+1. ciężar, brzemię, ładunek
 
-vectīgal, vectigalis [noun] [n] [III]
+vectīgāl, vectīgālis [noun] [n] [III]
 ()
 1. podatek
 
-exigo, exigere, exegi, exactum [verb] [III]
-()
-1. wykonywać, egzekwować
+exigō, exigere, exēgī, exāctum [verb] [III]
+(Vectigal populis provinciae impositum a publicanus exigebatur)
+1. egzekwować, wymagać, ukończyć, doprowadzać do skutku
+2. wypędzać
 
 novus, nova, novum [adj]
 ()
 1. nowy
+[może się odnosić zarówno do czasu (niedawno powstały) jak i jakości (wcześniej niespotykany)]
 
-aetās, aetatis [noun] [f] [III]
+aetās, aetātis [noun] [f] [III]
 ()
-1. wiek, era
+1. wiek, epoka, czasy, lata
 
 nōminō, nōmināre, nōmināvī, nōminātum [verb] [I]
 ()
@@ -1197,6 +1200,7 @@ aëneus, aënea, aëneum [adj]
 ferreus, ferrea, ferreum [adj]
 ()
 1. żelazny
+[w przenośni również twardy, bezlitosny]
 
 carmen, carminis [noun] [n] [III]
 ()
@@ -1205,22 +1209,24 @@ carmen, carminis [noun] [n] [III]
 sine [prep]
 ()
 1. bez (+ abl)
+[przeciwieństwo "cum"]
 
-tūtus, tuta, tutum [adj]
+tūtus, tūta, tūtum [adj]
 ()
 1. bezpieczny
 
-vēritās, veritatis [noun] [f] [III]
+vēritās, vēritātis [noun] [f] [III]
 ()
 1. prawda
 
-cingo, cingere, cinxi, cinctum [verb] [III]
+cingō, cingere, cīnxī, cīnctum [verb] [III]
 ()
-1. otaczać
+1. otaczać, okrążać, opasywać, oblegać
 
 ignōtus, ignōta, ignōtum [adj]
 ()
-1. nieznany
+1. nieznany, niewiadomy
+[przeciwieństwo "notus"]
 
 oppugnō, oppugnāre, oppugnāvī, oppugnātum [verb] [I]
 ()
