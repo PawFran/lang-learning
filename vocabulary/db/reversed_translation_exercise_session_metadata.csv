@@ -27,3 +27,4 @@ session_id;user_name;start_word;end_word;filtered_parts_of_speech;revise_last_se
 27;default_user;at;impositus;;False;False
 28;default_user;provincia;ignotus;;False;True
 29;default_user;provincia;ignotus;;False;False
+31;default_user;oppugno;ingenium;;False;False

@@ -1233,7 +1233,7 @@ ignōtus, ignōta, ignōtum [adj]
 oppugnō, oppugnāre, oppugnāvī, oppugnātum [verb] [I]
 ()
 1. oblegać, atakować, szturmować
-[ob + pugnō = "walczyć przeciwko/na"]
+[ob + pugnō = "walczyć przeciwko/na". oznacza proces atakowania, w przeciwieństiwe do expugnō, które opisuje atak zakończony zwycięstwem ]
 
 dīruō, dīruere, dīruī, dīrūtum [verb] [III]
 ()
@@ -1255,7 +1255,8 @@ caelum, caelī [noun] [n] [II] [sing]
 
 animus, animī [noun] [m] [II]
 ()
-1. duch, dusza, charakter, umysł
+1. duch, dusza, charakter, temperament
+[opisuje dynamiczną, emocjonalną część psychiki - uczucia, motywację itp. - w przeciwieństwie do mēns, które podkreśla aspekt intelektualny]
 
 trāns [prep]
 ()
@@ -1318,7 +1319,7 @@ aemulātiō, aemulātiōnis [noun] [f] [III]
 
 ingenium, ingeniī [noun] [n] [II]
 ()
-1. talent, uzdolnienie, umysł, usposobienie
+1. talent, uzdolnienie, usposobienie
 [podkreśla cechy wrodzone, nie wyuczone (ars)]
 
 venio, venīre, veni, ventum [verb] [IV]
@@ -2736,9 +2737,10 @@ mortuus, mortua, mortuum [adj]
 (Ursus mortuorum corpora non attingit)
 1. martwy
 
-mens, mentis [noun] [f] [III]
+mēns, mentis [noun] [f] [III]
 (Ursus mortuorum corpora non attingit - in mentem ei venit)
-1. umysł
+1. umysł, rozum
+[podkreśla intelektualną, refleksyjną część psychiki, w przeciwieństwie do animus, które podkreśla temperament, emocje itp.]
 
 temptō, temptāre, temptāvī, temptātum [verb] [I]
 (Ursus iacenti appropinquavit, corpus eius temptavit, denique discessit)
@@ -3524,7 +3526,8 @@ explōrō, explōrāre, exploravi, exploratum [verb] [I]
 
 expugnō, expugnāre, expugnavi, expugnatum [verb] [I]
 (Hostis Romae appropinquavit urbem expugnatum)
-1. atakować, szturmować, podbijać
+1. podbijać, zdobywać (szturmem)
+[od ex- („na zewnątrz, do końca”) + pugnō („walczyć”)]
 
 initio [adv]
 (Verum consilium initio auditu grave postea iucundum erit)

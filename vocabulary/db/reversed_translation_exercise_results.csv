@@ -531,3 +531,25 @@ default_user;29;latin;ferreus, ferrea, ferreum [adj];;1;żelazny;żelazny;True;2
 default_user;29;latin;praetor, praetōris [noun] [m] [III];;1;pretor;pretor;True;2025-06-23 21:40:30
 default_user;29;latin;exigō, exigere, exēgī, exāctum [verb] [III];Vectigal populis provinciae impositum a publicanus exigebatur;2;egzekwować, wymagać, ukończyć, doprowadzać do skutku | wypędzać;egzekwować, wymagać, ukończyć, doprowadzać do skutku;True;2025-06-23 21:40:46
 default_user;29;latin;exigō, exigere, exēgī, exāctum [verb] [III];Vectigal populis provinciae impositum a publicanus exigebatur;2;wypędzać;wypędzać;True;2025-06-23 21:40:56
+default_user;30;latin;nāvigium, nāvigiī [noun] [n] [II];;1;statek, łódź;statek;False;2025-06-24 11:09:22
+default_user;31;latin;consuētūdō, consuētūdinis [noun] [f] [III];;1;przyzwyczajenie, nawyk, zwyczaj;przyzwyczajenie, nawyk, zwyczaj;True;2025-06-24 11:10:39
+default_user;31;latin;repetītiō, repetītiōnis [noun] [f] [III];;1;powtarzanie;powtarzanie;True;2025-06-24 11:11:13
+default_user;31;latin;dīruō, dīruere, dīruī, dīrūtum [verb] [III];;1;burzyć;burzyć;True;2025-06-24 11:11:21
+default_user;31;latin;accipiō, accipere, accēpī, acceptum [verb] [III];;1;przyjmować, otrzymywać, akceptować;przyjmować, otrzymywać, akceptować;True;2025-06-24 11:11:27
+default_user;31;latin;animus, animī [noun] [m] [II];;1;duch, dusza, charakter, umysł;duch, dusza, charakter, umysł;True;2025-06-24 11:11:40
+default_user;31;latin;longinquus, longinqua, longinquum [adj];;1;daleki, odległy (w przestrzeni lub czasie);daleki, odległy (w przestrzeni lub czasie);True;2025-06-24 11:22:23
+default_user;31;latin;trāns [prep];;1;przez, za, po drugiej stronie (+ acc);przez, za, po drugiej stronie (+ acc);True;2025-06-24 11:24:00
+default_user;31;latin;ingenium, ingeniī [noun] [n] [II];;1;talent, uzdolnienie, umysł, usposobienie;talent, uzdolnienie, umysł, usposobienie;True;2025-06-24 11:24:06
+default_user;31;latin;nāvigium, nāvigiī [noun] [n] [II];;1;statek, łódź;statek, łódź;True;2025-06-24 11:24:11
+default_user;31;latin;oppugnō, oppugnāre, oppugnāvī, oppugnātum [verb] [I];;1;oblegać, atakować, szturmować;oblegać, atakować, szturmować;True;2025-06-24 11:24:22
+default_user;31;latin;aemulātiō, aemulātiōnis [noun] [f] [III];;1;rywalizacja, współzawodnictwo;rywalizacja, współzawodnictwo;True;2025-06-24 11:25:24
+default_user;31;latin;hospitium, hospitiī [noun] [n] [II];;1;gościnność, gościna (także jako miejsce goszczenia);gościnność, gościna (także jako miejsce goszczenia);True;2025-06-24 11:25:30
+default_user;31;latin;mare, maris [noun] [n] [III];;1;morze;morze;True;2025-06-24 11:25:33
+default_user;31;latin;alō, alere, aluī, altum / alitum [verb] [III];;1;karmić, żywić, podtrzymywać, wychowywać, hodować, pielęgnować;karmić, żywić, podtrzymywać, wychowywać, hodować, pielęgnować;True;2025-06-24 11:25:51
+default_user;31;latin;caelum, caelī [noun] [n] [II] [sing];;1;niebo;niebo;True;2025-06-24 11:25:56
+default_user;31;latin;ars, artis [noun] [f] [III];;1;sztuka, umiejętność, rzemiosło;sztuka, umiejętność, rzemiosło;True;2025-06-24 11:26:00
+default_user;31;latin;mittō, mittere, mīsī, missum [verb] [III];;1;wysyłać, puszczać;wysyłać, puszczać;True;2025-06-24 11:26:09
+default_user;31;latin;nam [conj];Ager non arabatur, nam terra ipsa per se frumentum dabat;1;bo, albowiem, bowiem (wyjaśnienie);;False;2025-06-24 11:26:18
+default_user;31;latin;aureus, aurea, aureum [adj];;1;złoty;złoty;True;2025-06-24 11:26:25
+default_user;31;latin;ūniversitās, ūniversitātis [noun] [f] [III];;2;całość, ogół, zbiorowość | uniwersytet;całość, ogół, zbiorowość;True;2025-06-24 11:26:33
+default_user;31;latin;ūniversitās, ūniversitātis [noun] [f] [III];;2;uniwersytet;uniwersytet;True;2025-06-24 11:26:38
