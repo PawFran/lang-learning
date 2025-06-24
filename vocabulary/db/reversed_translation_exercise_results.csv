@@ -507,3 +507,27 @@ default_user;27;latin;respōndeō, respondēre, respondī, respōnsum [verb] [II
 default_user;27;latin;disputātiō, disputātiōnis [noun] [f] [III];;1;rozmowa, dyskusja, debata, rozprawa;rozmowa, dyskusja, debata, rozprawa;True;2025-06-22 15:55:46
 default_user;27;latin;possum, posse, potuī [verb] [anomalous];Vos quoque Ciceronis orationes et epistulas legere poteris;1;móc;móc;True;2025-06-22 15:56:29
 default_user;27;latin;praeclārus, praeclara, praeclarum [adj];;1;przesławny;przesławny;True;2025-06-22 15:56:34
+default_user;28;latin;vēritās, vēritātis [noun] [f] [III];;1;prawda;prawda;True;2025-06-23 21:35:28
+default_user;28;latin;praetor, praetōris [noun] [m] [III];;1;pretor;pretor, zarządca prowincji;False;2025-06-23 21:35:34
+default_user;29;latin;carmen, carminis [noun] [n] [III];;1;pieśń;pieśń;True;2025-06-23 21:37:32
+default_user;29;latin;vēritās, vēritātis [noun] [f] [III];;1;prawda;prawda;True;2025-06-23 21:37:36
+default_user;29;latin;novus, nova, novum [adj];;1;nowy;nowy;True;2025-06-23 21:37:40
+default_user;29;latin;vectīgāl, vectīgālis [noun] [n] [III];;1;podatek;podatek;True;2025-06-23 21:37:44
+default_user;29;latin;argenteus, argentea, argenteum [adj];;1;srebrny;srebrny;True;2025-06-23 21:37:49
+default_user;29;latin;pūblicānus, pūblicānī [noun] [m] [II];;1;poborca podatkowy;poborca podatkowy;True;2025-06-23 21:37:56
+default_user;29;latin;cingō, cingere, cīnxī, cīnctum [verb] [III];;1;otaczać, okrążać, opasywać, oblegać;otaczać, okrążać, opasywać, oblegać;True;2025-06-23 21:38:02
+default_user;29;latin;nōminō, nōmināre, nōmināvī, nōminātum [verb] [I];;2;nazywać (nadawać imię), wymieniać (z imienia) | mianować (np. na urząd);nazywać (nadawać imię), wymieniać (z imienia);True;2025-06-23 21:38:08
+default_user;29;latin;nōminō, nōmināre, nōmināvī, nōminātum [verb] [I];;2;mianować (np. na urząd);mianować (np. na urząd);True;2025-06-23 21:38:18
+default_user;29;latin;aëneus, aënea, aëneum [adj];;1;spiżowy;spiżowy;True;2025-06-23 21:38:24
+default_user;29;latin;clāmō, clāmāre, clāmāvī, clāmātum [verb] [I];;1;krzyczeć, wołać, domagać się głośno, obwieszczać;krzyczeć, wołać, domagać się głośno, obwieszczać;True;2025-06-23 21:39:08
+default_user;29;latin;prōvincia, prōvinciae [noun] [f] [I];;1;prowincja (jednostka administracyjna);prowincja (jednostka administracyjna);True;2025-06-23 21:39:14
+default_user;29;latin;aetās, aetātis [noun] [f] [III];;1;wiek, epoka, czasy, lata;wiek, epoka, czasy, lata;True;2025-06-23 21:39:33
+default_user;29;latin;onus, oneris [noun] [n] [III];;1;ciężar, brzemię, ładunek;ciężar, brzemię, ładunek;True;2025-06-23 21:39:38
+default_user;29;latin;tūtus, tūta, tūtum [adj];;1;bezpieczny;bezpieczny;True;2025-06-23 21:39:45
+default_user;29;latin;sine [prep];;1;bez (+ abl);bez (+ abl);True;2025-06-23 21:40:06
+default_user;29;latin;ignōtus, ignōta, ignōtum [adj];;1;nieznany, niewiadomy;nieznany, niewiadomy;True;2025-06-23 21:40:13
+default_user;29;latin;addō, addere, addidī, additum [verb] [III];;1;dodawać, dołączać, dokładać;dodawać, dołączać, dokładać;True;2025-06-23 21:40:19
+default_user;29;latin;ferreus, ferrea, ferreum [adj];;1;żelazny;żelazny;True;2025-06-23 21:40:25
+default_user;29;latin;praetor, praetōris [noun] [m] [III];;1;pretor;pretor;True;2025-06-23 21:40:30
+default_user;29;latin;exigō, exigere, exēgī, exāctum [verb] [III];Vectigal populis provinciae impositum a publicanus exigebatur;2;egzekwować, wymagać, ukończyć, doprowadzać do skutku | wypędzać;egzekwować, wymagać, ukończyć, doprowadzać do skutku;True;2025-06-23 21:40:46
+default_user;29;latin;exigō, exigere, exēgī, exāctum [verb] [III];Vectigal populis provinciae impositum a publicanus exigebatur;2;wypędzać;wypędzać;True;2025-06-23 21:40:56

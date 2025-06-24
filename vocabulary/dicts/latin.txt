@@ -274,7 +274,8 @@ placeō, placēre, placuī, placitum [verb] [II]
 
 per [prep]
 (Per aspera ad astra)
-1. przez (coś, kogoś), za pomocą (+ acc)
+1. przez, poprzez, za pomocą (+ acc)
+[opisuje działanie "w obrębie" czegoś (iść przez miasto, pracować przez lata) albo za pośrednictwem (co też oznacza "w obrębie" np. "złatwić przez przyjaciół"), a więc potrzebuje jakiegoś "nośnika" - w przeciwieństwie do trāns, które opisuje przekraczanie granicy]
 
 notus, nota, notum [adj]
 (Notum est dictum Polonum)
@@ -1060,7 +1061,8 @@ caput, capitis [noun] [n] [III]
 
 tempus, temporis [noun] [n] [III]
 ()
-1. czas, pora, okres
+1. czas (ogólnie lub konkretna chwila), pora, moment
+[w przeciwieństwie do aetās, które określa pewien zakres czasu, tempus określa albo konkretny moment, albo czas jako zjawisko]
 
 dolor, dolōris [noun] [m] [III]
 ()
@@ -1151,6 +1153,7 @@ praetor, praetōris [noun] [m] [III]
 clāmō, clāmāre, clāmāvī, clāmātum [verb] [I]
 ()
 1. krzyczeć, wołać, domagać się głośno, obwieszczać
+[ogólnie wypowiadanie się podniesionym głosem]
 
 pūblicānus, pūblicānī [noun] [m] [II]
 ()
@@ -1172,7 +1175,6 @@ vectīgāl, vectīgālis [noun] [n] [III]
 exigō, exigere, exēgī, exāctum [verb] [III]
 (Vectigal populis provinciae impositum a publicanus exigebatur)
 1. egzekwować, wymagać, ukończyć, doprowadzać do skutku
-2. wypędzać
 
 novus, nova, novum [adj]
 ()
@@ -1181,7 +1183,7 @@ novus, nova, novum [adj]
 
 aetās, aetātis [noun] [f] [III]
 ()
-1. wiek, epoka, czasy, lata
+1. wiek, epoka, okres, czasy, lata
 
 nōminō, nōmināre, nōmināvī, nōminātum [verb] [I]
 ()
@@ -1204,7 +1206,7 @@ ferreus, ferrea, ferreum [adj]
 
 carmen, carminis [noun] [n] [III]
 ()
-1. pieśń
+1. pieśń, utwór, modlitwa, zaklęcie
 
 sine [prep]
 ()
@@ -1213,7 +1215,7 @@ sine [prep]
 
 tūtus, tūta, tūtum [adj]
 ()
-1. bezpieczny
+1. bezpieczny, niezagrożony
 
 vēritās, vēritātis [noun] [f] [III]
 ()
@@ -1230,11 +1232,13 @@ ignōtus, ignōta, ignōtum [adj]
 
 oppugnō, oppugnāre, oppugnāvī, oppugnātum [verb] [I]
 ()
-1. oblegać, zdobywać
+1. oblegać, atakować, szturmować
+[ob + pugnō = "walczyć przeciwko/na"]
 
 dīruō, dīruere, dīruī, dīrūtum [verb] [III]
 ()
 1. burzyć
+[od dis + ruō. ruō onacza "runąć, walić się", a dis to przedrostek odpowiadający polskiemu "roz-", które oznacza, że coś odbywa się "od", "w różne strony", jako przeciwieństwo łączenia, spójności itp. (np. distribuō, dissolvō, discordia)]
 
 mare, maris [noun] [n] [III]
 ()
@@ -1244,17 +1248,19 @@ longinquus, longinqua, longinquum [adj]
 ()
 1. daleki, odległy (w przestrzeni lub czasie)
 
-caelum, caeli [noun] [n] [II] [sing]
+caelum, caelī [noun] [n] [II] [sing]
 ()
 1. niebo
+[podobnie jak w polskim - dosłownie i w przenośni]
 
-animus, animi [noun] [m] [II]
+animus, animī [noun] [m] [II]
 ()
-1. duch, charakter, odwaga, umysł
+1. duch, dusza, charakter, umysł
 
-trans [prep]
+trāns [prep]
 ()
-1. za, poza (+ acc)
+1. przez, za, po drugiej stronie (+ acc)
+[ogólne przekraczanie granicy, ruch "na drugą stronę"]
 
 aureus, aurea, aureum [adj]
 ()
@@ -1267,47 +1273,53 @@ nam [conj]
 
 nāvigium, nāvigiī [noun] [n] [II]
 ()
-1. statek
+1. statek, łódź
 
-mitto, mittere, misi, missum [verb] [III]
+mittō, mittere, mīsī, missum [verb] [III]
 ()
-1. wysyłać
+1. wysyłać, puszczać
 
 ars, artis [noun] [f] [III]
 ()
-1. umiejętność, rzemiosło, sztuka
+1. sztuka, umiejętność, rzemiosło
+[opisuje świadomą, wyuczoną umiejętność]
 
-hospitium, hospitii [noun] [n] [II]
+hospitium, hospitiī [noun] [n] [II]
 ()
-1. gościna
+1. gościnność, gościna (także jako miejsce goszczenia)
 
-accipio, accipere, accepi, acceptum [verb] [III]
+accipiō, accipere, accēpī, acceptum [verb] [III]
 ()
-1. przyjmować
+1. przyjmować, otrzymywać, akceptować
 
 ūniversitās, ūniversitātis [noun] [f] [III]
 ()
-1. uniwersytet
+1. całość, ogół, zbiorowość
+2. uniwersytet
+[jako uniwersytet (=uczelnia) dopiero w łacinie średniowiecznej]
 
-repetītio, repetitionis [noun] [f] [III]
+repetītiō, repetītiōnis [noun] [f] [III]
 ()
 1. powtarzanie
 
-consuētūdo, consuetudinis [noun] [f] [III]
+consuētūdō, consuētūdinis [noun] [f] [III]
 ()
-1. przyzwyczajenie
+1. przyzwyczajenie, nawyk, zwyczaj
+[oznacza to, co wynika z codziennej praktyki, w przeciwieństwie do mōs, które też może oznaczać zwyczaj, ale nadaje mu rangę "normy"]
 
-alo, alere, alui, alitum [verb] [III]
+alō, alere, aluī, altum / alitum [verb] [III]
 ()
-1. żywić
+1. karmić, żywić, podtrzymywać, wychowywać, hodować, pielęgnować
 
-aemulātio, aemulationis [noun] [f] [III]
+aemulātiō, aemulātiōnis [noun] [f] [III]
 ()
-1. rywalizacja
+1. rywalizacja, współzawodnictwo
+[podkreśla ambicję, ale może również zawiść]
 
-ingenium, ingenii [noun] [n] [II]
+ingenium, ingeniī [noun] [n] [II]
 ()
-1. talent
+1. talent, uzdolnienie, umysł, usposobienie
+[podkreśla cechy wrodzone, nie wyuczone (ars)]
 
 venio, venīre, veni, ventum [verb] [IV]
 (Alexandro vir pauper, qui asinum agebat, obviam venit)
@@ -3038,8 +3050,8 @@ gallus, galli [noun] [m] [II]
 
 cantus, cantūs [noun] [m] [IV]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
-1. pieśń, śpiew
-2. (ptak) krzyk
+1. śpiew, melodia, brzmienie, pieśń
+[oznacza "pieśń" jako dzwięk, w przeciwieństwie do "carmen", które oznacza utwór, tekst]
 
 somnus, somni [noun] [m] [II]
 (Vilica quaedam ancillas codie ad primum galli cantum ex somno excitabat)
@@ -3332,8 +3344,8 @@ dōnec [conj]
 
 sospes, sospes, sospes [adj]
 (Donec eris sospes, multos numerabis amicos)
-1. bezpieczny i zdrowy
-2. pomyślny
+1. cały i zdrowy
+[w przeciwieństwie do tūtus, które oznacza fakt bycia wolnym od zagrożenia, sospes podkreśla fakt wyjścia cało z sytuacji, która mogła być niebezpieczna (np. powrót z wojny)]
 
 numerō, numerāre, numeravi, numeratum [verb] [I]
 (Donec eris sospes, multos numerabis amicos)
@@ -3990,7 +4002,8 @@ iānua, ianuae [noun] [f] [I]
 
 exclāmō, exclāmāre, exclamavi, exclamatum [verb] [I]
 (Tum Nasica exlamat se domi non esse)
-1. wykrzykiwać, krzyczeć, wołać
+1. wykrzykiwać
+[bardziej nagłe/gwałtowne niż clāmō, oznacza impuls, emocje]
 
 impudens, impudens, impudens [adj]
 (Homo es impudens)

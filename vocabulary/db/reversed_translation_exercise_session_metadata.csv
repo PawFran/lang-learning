@@ -25,3 +25,5 @@ session_id;user_name;start_word;end_word;filtered_parts_of_speech;revise_last_se
 24;default_user;appello;vir;;False;True
 24;default_user;appello;vir;;False;False
 27;default_user;at;impositus;;False;False
+28;default_user;provincia;ignotus;;False;True
+29;default_user;provincia;ignotus;;False;False
