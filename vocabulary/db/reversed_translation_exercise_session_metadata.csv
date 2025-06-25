@@ -29,3 +29,5 @@ session_id;user_name;start_word;end_word;filtered_parts_of_speech;revise_last_se
 29;default_user;provincia;ignotus;;False;False
 31;default_user;oppugno;ingenium;;False;False
 32;default_user;venio;theatrum;;False;False
+33;default_user;conditor;introrsus;;False;True
+34;default_user;conditor;introrsus;;False;False

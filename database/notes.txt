@@ -4,7 +4,7 @@ słownictwo postępy:
 22.06 - 260 z 943 (~28%)
 23.06 - 280
 24.06 - 300
-25.06 - 320 z 945 (~34%)
+25.06 - 330 z 945 (~35%)
 
 zamienić nazwy: reversed <-> translation
 * skrypty
@@ -21,7 +21,7 @@ typowe użycie: "top 10 words in range [a-z]" - ranking na podstawie dat i ratio
 uporządkować przymiotniki w słowniku
 * dodać ich typy do metadanych (np. "adjective perfect participle I class", "adjective perfect infinitive")
     * przelecieć skryptem wszystkie czasowniki w słowniku i pobrać metadane ze strony
-* usunąć te, które wynikają łatwo z innych form (na pewno z czasowników - patrz vexatus - ale coś jeszcze ?)
+* usunąć te, które wynikają łatwo z innych form (na pewno z czasowników - patrz vexatus - ale coś jeszcze ? a co z rzeczownikami vs czasownikami np. castigatio i castigo ?)
 * typy z chata (poza tym w craft są typy ze strony):
     * participium perfecti passivi (vexātus)
     * participium praesentis activi (amāns, amantis)

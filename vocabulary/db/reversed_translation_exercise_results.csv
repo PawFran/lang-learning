@@ -579,3 +579,14 @@ default_user;32;latin;occupō, occupāre, occupāvī, occupātum [verb] [I] [tra
 default_user;32;latin;veniō, venīre, vēnī, ventum [verb] [IV];Alexandro vir pauper, qui asinum agebat, obviam venit;1;przychodzić, przybywać, nadchodzić;przychodzić, przybywać, nadchodzić;True;2025-06-25 11:11:50
 default_user;32;latin;vexātus, vexāta, vexātum [adj];;1;(u)dręczony, prześladowany;(u)dręczony, prześladowany;True;2025-06-25 11:11:59
 default_user;32;latin;theātrum, theātrī [noun] [n] [II];;1;teatr, przedstawienie;teatr, przedstawienie;True;2025-06-25 11:12:07
+default_user;33;latin;intrō, intrāre, intrāvī, intrātum [verb] [I] [transitive];Aliquando specum remotum inveni ibique intravi;1;wchodzić (do środka);wejść;False;2025-06-25 12:43:15
+default_user;34;latin;intrō, intrāre, intrāvī, intrātum [verb] [I] [transitive];Aliquando specum remotum inveni ibique intravi;1;wchodzić (do środka);wchodzić (do środka);True;2025-06-25 12:44:04
+default_user;34;latin;leō, leōnis [noun] [m] [III];Ex eo die triennium ego et leo in eodem specu eodem victu viximus;1;lew;lew;True;2025-06-25 12:44:07
+default_user;34;latin;intrōrsus [adv];;1;do wewnątrz, do środka;do wewnątrz, do środka;True;2025-06-25 12:44:13
+default_user;34;latin;astūtus, astūta, astūtum [adj];;1;chytry, przebiegły, cwany;chytry, przebiegły, cwany;True;2025-06-25 12:44:20
+default_user;34;latin;spēlunca, spēluncae [noun] [f] [I];;1;jaskinia, grota, nora;jaskinia, grota, nora;True;2025-06-25 12:44:27
+default_user;34;latin;animal, animālis [noun] [n] [III];;1;zwierzę, istota żywa;zwierzę, istota żywa;True;2025-06-25 12:44:34
+default_user;34;latin;vulpēcula, vulpēculae [noun] [f] [I];;1;lisiczka, mały lis;lisiczka, mały lis;True;2025-06-25 12:44:39
+default_user;34;latin;praesidium, praesidiī [noun] [n] [II];Aedes quasdam, quae extra muros urbis cum parvo praesidium erant;1;ochrona, straż, garnizon, wsparcie;ochrona, straż, garnizon, wsparcie;True;2025-06-25 12:44:47
+default_user;34;latin;conditor, conditōris [noun] [m] [III];;1;założyciel, fundator, twórca;założyciel, fundator, twórca;True;2025-06-25 12:44:53
+default_user;34;latin;vestīgium, vestīgiī [noun] [n] [II];;1;ślad;ślad;True;2025-06-25 12:44:58
