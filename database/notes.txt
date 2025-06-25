@@ -1,27 +1,69 @@
 TODO
 
+słownictwo postępy:
+22.06 - 260 z 943 (~28%)
+23.06 - 280
+24.06 - 300
+25.06 - 320 z 945 (~34%)
+
+zamienić nazwy: reversed <-> translation
+* skrypty
+* aliasy
+* tabele/widoki na bazie
+
+dopisać logikę odpytywania słów w translation jako "top" albo coś w tym stylu
+teraz jest jakieś "next to be asked" w starym, pewnie trzeba to wykorzystać
+
+uporządkować przymiotniki w słowniku
+* dodać ich typy do metadanych (np. "adjective perfect participle I class", "adjective perfect infinitive")
+    * przelecieć skryptem wszystkie czasowniki w słowniku i pobrać metadane ze strony
+* usunąć te, które wynikają łatwo z innych form (na pewno z czasowników - patrz vexatus - ale coś jeszcze ?)
+* typy z chata (poza tym w craft są typy ze strony):
+    * participium perfecti passivi (vexātus)
+    * participium praesentis activi (amāns, amantis)
+    * adiectīva dēverbālia (amābilis, morātōrius, pugnāx)
+    * participium futūri activi (ductūrus)
+    * gerundivum (amandus)
+
+uporządkować czasowniki (transitive itp.)
+
+zrobić ogólne wyjaśnienie przedrostków łacińskich: dis, re, ex, ab itp... (spojrzeć do Prima Via) - wiele z nich to przyimki, które już są opisane w craft
+
+czy "exit" ma coś wspólnego z exigo ?
+
 dodać ēgregius do porównania "notus vs clarus vs praeclārus vs celeber vs illustris"
+
+dodać dicātus do "sacer vs sanctus vs dēvōtus"
 
 poczytać w Składni łacińskiej (niebieska, samolewicz) o dativus finalis i wrócić do "Ne id tibi curae sit"
 czy o genetivie można powiedzieć, że on często wskazuje na "pochodzenie", "genezę" ? poczytać w Składni łacińskiej
 
-przy porównaniu w SynonimFinder można by kasować przecinki z haseł słownikowych ? czasem prze nie nie ma 100% dopasowania
-
-użyć https://alatius.com/macronizer/?utm_source=chatgpt.com - skrypt do korygowania makronów
-przelecieć obecny słownik, ale też na bieżąco przy scrape'owaniu używać ?
+przy porównaniu w SynonimFinder można by kasować przecinki z haseł słownikowych ? czasem przez nie nie ma 100% dopasowania
 
 czy dodanie [intransitive] (patrz currō) nie spowodowało żadnych problemów ?
 warto byloby wzbogacic model o te adnotacje
 
 puppeteer sprawdzic na slowniku angielskim
 
-https://www.online-latin-dictionary.com nie zawsze dobrze podaje makrony.
-biorac pod uwage to i tlumaczenia najlepiej byloby caly czas uzywac chata (moze najlepiej obu ?) - jak ?
-
 zapytać czata o rodzaje przymiotników - jedne stosuje się z dopełnieniem (dignus), inne to epitety (honestus)
 rowniez rodzaje rzeczownikow - niektore wymagaja dopelnienia, np. plurimum ("mam mnóstwo" - ale czego ?)
+uzupełnić w craft
 
 dorobic opcje -continue dla cwiczen declension / conjugation / translation / reversed translation
+
+odpytywanie chatbota do łaciny przez API - np. znaczenie/porównanie słów w takim formacie, w jakim jest teraz:
+* nagłówek z formami i tłumaczeniem
+* znaczenia
+* cechy
+* przykłady
+* pokrewne
+* esencja
+do tego dodać powiązane słowa (już teraz podaje, ale nie jako osobna sekcja)
+z tym można by przelecieć cały słownik i używać na bieżąco
+
+warto byłoby jakoś rozróżniać w tłumaczeniach równoprawne tłumaczenie od doprecyzowania.
+może doprecyzowanie w nawiasie ?
+spróbować od devotus tak robić
 
 dodać możliwość wpisywania wielu tłumaczeń - oddzielać średnikami ?
 

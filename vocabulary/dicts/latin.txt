@@ -1402,6 +1402,7 @@ ad [prep]
 tandem [adv]
 ()
 1. w końcu, nareszcie
+[w przeciwieństwie do rzeczowego dēnique, tandem jest zabarwione emocjonalnie, towarzyszy mu ulga po okresie zniecierpliwienia]
 
 iniūria, iniūriae [noun] [f] [I]
 ()
@@ -2312,9 +2313,10 @@ mercātor, mercatoris [noun] [m] [III]
 (Mercurius, mercatorum patronus et nuntius deorum)
 1. kupiec
 
-nuntius, nuntii [noun] [m] [II]
+nūntius, nūntiī [noun] [m] [II]
 (Mercurius, mercatorum patronus et nuntius deorum)
-1. posłaniec, zwiastun, goniec
+1. posłaniec, goniec, zwiastun, wiadomość
+[w przeciwieństwie do lēgātus nie musi oznaczać rangi posła]
 
 ita [adv]
 (Romani summos deos deasque ita enumerabant: ... )
@@ -2510,7 +2512,8 @@ tribuo, tribuere, tribui, tributum [verb] [III]
 
 dēnique [adv]
 (Denique laetus domum properat)
-1. w końcu
+1. ostatecznie, na koniec
+[podobne do tandem, ale rzeczowe, bez emocji i odcienia zniecierpliwienia]
 
 laetus, laeta, laetum [adj]
 (Denique laetus domum properat)

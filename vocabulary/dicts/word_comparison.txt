@@ -27,7 +27,7 @@ discō vs studeo
 aedificō vs struō vs exstruō vs cumulo
 porto vs apporto vs asporto vs praebeo vs advehō
 notus vs clarus vs praeclārus vs celeber vs illustris
-deinde vs tum vs postea vs tandem
+deinde vs tum vs postea vs tandem vs dēnique
 fugiō vs ēlūdō
 moneo vs admoneo
 amo vs dīligo
@@ -57,3 +57,5 @@ animus vs mēns
 oppugnō vs expugnō
 veniō vs adveniō vs inveniō
 sacer vs sanctus vs dēvōtus
+
+dēvōtus vs fīdus

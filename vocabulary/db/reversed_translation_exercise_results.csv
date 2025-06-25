@@ -553,3 +553,29 @@ default_user;31;latin;nam [conj];Ager non arabatur, nam terra ipsa per se frumen
 default_user;31;latin;aureus, aurea, aureum [adj];;1;złoty;złoty;True;2025-06-24 11:26:25
 default_user;31;latin;ūniversitās, ūniversitātis [noun] [f] [III];;2;całość, ogół, zbiorowość | uniwersytet;całość, ogół, zbiorowość;True;2025-06-24 11:26:33
 default_user;31;latin;ūniversitās, ūniversitātis [noun] [f] [III];;2;uniwersytet;uniwersytet;True;2025-06-24 11:26:38
+default_user;32;latin;iniūria, iniūriae [noun] [f] [I];;1;niesprawiedliwość, bezprawie, krzywda, zniewaga;niesprawiedliwość, bezprawie, krzywda, zniewaga;True;2025-06-25 10:50:08
+default_user;32;latin;lēgātus, lēgātī [noun] [m] [II];;1;poseł (wysłannik), pełnomocnik, legat (zastępca wodza), namiestnik;poseł (wysłannik), pełnomocnik, legat (zastępca wodza), namiestnik;True;2025-06-25 10:50:47
+default_user;32;latin;auxilium, auxiliī [noun] [n] [II];;2;pomoc, wsparcie | posiłki (wojskowe), wojska pomocnicze (l. mnoga);pomoc, wsparcie;True;2025-06-25 10:59:09
+default_user;32;latin;auxilium, auxiliī [noun] [n] [II];;2;posiłki (wojskowe), wojska pomocnicze (l. mnoga);posiłki (wojskowe), wojska pomocnicze (l. mnoga);True;2025-06-25 10:59:19
+default_user;32;latin;sacer, sacra, sacrum [adj];;1;"poświęcony (dosł. ""oddzielony""), oddany bogom";"poświęcony (dosł. ""oddzielony""), oddany bogom";True;2025-06-25 10:59:41
+default_user;32;latin;egeō, egēre, eguī (+ abl. lub gen.) [verb] [II] [intransivite];;1;potrzebować, nie mieć, być pozbawionym (+ abl);potrzebować, nie mieć, być pozbawionym (+ abl);True;2025-06-25 11:00:39
+default_user;32;latin;plēbs, plēbis [noun] [f] [III];;1;plebs, lud;plebs, lud;True;2025-06-25 11:00:45
+default_user;32;latin;fācundus, fācunda, fācundum [adj];;1;wymowny, elokwentny;wymowny, elokwentny;True;2025-06-25 11:00:52
+default_user;32;latin;ad [prep];Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi. Leges ad civium salutem inventas esse constat. Ennius Nasicam ad ianuam quarebat;3;do (kierunek) (+ acc) | do, dla, na (cel, zamiar) (+ acc) | przy, pod, u (bliskość w czasie lub przestrzeniu) (+ acc);do (kierunek) (+ acc);True;2025-06-25 11:01:19
+default_user;32;latin;ad [prep];Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi. Leges ad civium salutem inventas esse constat. Ennius Nasicam ad ianuam quarebat;3;do, dla, na (cel, zamiar) (+ acc) | przy, pod, u (bliskość w czasie lub przestrzeniu) (+ acc);do, dla, na (cel, zamiar) (+ acc);True;2025-06-25 11:01:19
+default_user;32;latin;ad [prep];Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi. Leges ad civium salutem inventas esse constat. Ennius Nasicam ad ianuam quarebat;3;przy, pod, u (bliskość w czasie lub przestrzeniu) (+ acc);do, na (+ acc);False;2025-06-25 11:01:19
+default_user;32;latin;ad [prep];Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi. Leges ad civium salutem inventas esse constat. Ennius Nasicam ad ianuam quarebat;3;przy, pod, u (bliskość w czasie lub przestrzeniu) (+ acc);;False;2025-06-25 11:01:23
+default_user;32;latin;tandem [adv];;1;w końcu, nareszcie;w końcu;False;2025-06-25 11:01:41
+default_user;32;latin;tandem [adv];;1;w końcu, nareszcie;w końcu, nareszcie;True;2025-06-25 11:01:49
+default_user;32;latin;relinquō, relinquere, relīquī, relictum [verb] [III];;1;opuszczać, pozostawiać, porzucać;opuszczać, pozostawiać, porzucać;True;2025-06-25 11:02:58
+default_user;32;latin;remigrō, remigrāre, remigrāvī, remigrātum [verb] [I];;1;wracać, powracać;wracać, powracać;True;2025-06-25 11:04:44
+default_user;32;latin;plēbēius, plēbēiī [noun] [m] [II];;1;plebejusz;plebejusz;True;2025-06-25 11:04:53
+default_user;32;latin;dēvōtus, dēvōta, dēvōtum [adj];;1;poświęcony (komuś, czemuś), oddany (wierny, lojalny, zaangażowany);poświęcony (komuś, czemuś), oddany (wierny, lojalny, zaangażowany);True;2025-06-25 11:05:06
+default_user;32;latin;patrīcius, patrīciī [noun] [m] [II];;1;patrycjusz;patrycjusz;True;2025-06-25 11:10:57
+default_user;32;latin;mōns, montis [noun] [m] [III];;1;góra;góra;True;2025-06-25 11:11:01
+default_user;32;latin;sanctus, sancta, sanctum [adj];;1;nienaruszalny, nietykalny, czcigodny, święty, sakralny;nienaruszalny, nietykalny, czcigodny, święty, sakralny;True;2025-06-25 11:11:11
+default_user;32;latin;occupō, occupāre, occupāvī, occupātum [verb] [I] [transitive];;2;zajmować | uprzedzać (być szybszym);uprzedzać (być szybszym);True;2025-06-25 11:11:22
+default_user;32;latin;occupō, occupāre, occupāvī, occupātum [verb] [I] [transitive];;2;zajmować;zajmować;True;2025-06-25 11:11:22
+default_user;32;latin;veniō, venīre, vēnī, ventum [verb] [IV];Alexandro vir pauper, qui asinum agebat, obviam venit;1;przychodzić, przybywać, nadchodzić;przychodzić, przybywać, nadchodzić;True;2025-06-25 11:11:50
+default_user;32;latin;vexātus, vexāta, vexātum [adj];;1;(u)dręczony, prześladowany;(u)dręczony, prześladowany;True;2025-06-25 11:11:59
+default_user;32;latin;theātrum, theātrī [noun] [n] [II];;1;teatr, przedstawienie;teatr, przedstawienie;True;2025-06-25 11:12:07
