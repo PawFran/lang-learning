@@ -1669,9 +1669,10 @@ dictum, dicti [noun] [n] [II]
 ()
 1. powiedzenie
 
-fīdus, fida, fidum [adj]
+fīdus, fīda, fīdum [adj]
 ()
-1. wierny
+1. wierny, lojalny, godny zaufania, niezawodny
+[mniej emocjonalne i podniosłe niż dēvōtus, oznacza praktyczną "wierność", na której można polegać, bez akcentu silnego zaangażowania]
 
 nix, nivis [noun] [f] [III]
 ()
@@ -2878,11 +2879,9 @@ longus, longa, longum [adj]
 (Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
 1. długi
 
-reddo, reddere, reddidi, redditum [verb] [III]
+reddō, reddere, reddidī, redditum [verb] [III]
 (Ignavia corpus hebetat, labor firmat. Illa maturam senectutem, hic longam adulescentiam reddit)
-1. powrócić
-2. przywrócić, oddawać
-3. dostarczać, przyznawać, przydzielać
+1. oddawać, zwracać, przywracać
 
 niveus, nivea, niveum [adj]
 (Thais habet nigros, niveos Lacaenia dentes)
