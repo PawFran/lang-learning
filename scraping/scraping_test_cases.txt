@@ -26,3 +26,5 @@ jeśli zmusić to się wywala
 Rhodiis is scraped but with error - "Rhŏdĭi, – [noun] [p] [II]" instead of Rhŏdĭi, Rhodiōrum [noun] [pl] [II]
 
 ingentem
+
+egeo ? w słowniku było (teraz poprawione): "egeo, egēre, eguerim, [verb] [II]"

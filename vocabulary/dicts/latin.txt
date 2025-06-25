@@ -708,10 +708,10 @@ medius, media, medium [adj]
 ()
 1. środkowy
 
-invenio, invenīre, inveni, inventum [verb] [IV]
+inveniō, invenīre, invēnī, inventum [verb] [IV]
 (.. ubi aqua facile invenīri poterat)
-1. znajdywać, odkrywać, wymyślać, napotykać
-[od in + venio = "przychodzić do", wchodzić na coś]
+1. znajdywać, odkrywać, napotykać
+[od in + venio = "przychodzić w/do środka". używane bardziej w kontekście intelektualnym niż fizycznego ruchu]
 
 fossa, fossae [noun] [f] [I]
 (Circum castra fossa fodiebatur et vallum struebatur)
@@ -1322,57 +1322,75 @@ ingenium, ingeniī [noun] [n] [II]
 1. talent, uzdolnienie, usposobienie
 [podkreśla cechy wrodzone, nie wyuczone (ars)]
 
-venio, venīre, veni, ventum [verb] [IV]
+veniō, venīre, vēnī, ventum [verb] [IV]
 (Alexandro vir pauper, qui asinum agebat, obviam venit)
-1. przychodzić (również w sytuacjach, kiedy po polsku się mówi "wychodzić", np. "wyjść komuś naprzeciw")
+1. przychodzić, przybywać, nadchodzić
+[używany również w sytuacjach, kiedy po polsku się mówi "wychodzić", np. "wyjść komuś naprzeciw"]
 
-plēbēius, plebei [noun] [m] [II]
+plēbēius, plēbēiī [noun] [m] [II]
 ()
 1. plebejusz
 
-patricius, patricii [noun] [m] [II]
+patrīcius, patrīciī [noun] [m] [II]
 ()
 1. patrycjusz
 
-vexatus, vexata, vexatum [adj]
+vexātus, vexāta, vexātum [adj]
 ()
-1. prześladowany
+1. (u)dręczony, prześladowany
 
-relinquo, relinquere, reliqui, relictum [verb] [III]
+relinquō, relinquere, relīquī, relictum [verb] [III]
 ()
-1. opuszczać
+1. opuszczać, pozostawiać, porzucać
 
-mons, montis [noun] [m] [III]
+mōns, montis [noun] [m] [III]
 ()
 1. góra
+[dosłownie (wzniesienie) i w przenośni (móstwo pracy, wielki bogactwo)]
 
 sacer, sacra, sacrum [adj]
 ()
-1. święty
+1. poświęcony (dosł. "oddzielony"), oddany bogom
+[. ma zarówno pozytywne jak negatywne znaczenie, bo poświęcenie bogom mogło oznaczać przeznaczenie do ofiary, "oddzielenie" od wspólnoty. "templum sacrum" - świątynia poświęcona bogom. "homo sacer" - człowiek wyjęty spod prawa, którego każdy mógł zabić]
 
-occupō, occupāre, occupāvi, occupātum [verb] [I]
+sanctus, sancta, sanctum [adj]
+()
+1. nienaruszalny, nietykalny, czcigodny, święty, sakralny
+[w klasycznej łacinie ma dwojakie znaczenie: 1. nienaruszalny 2. czcigodny. w literaturze chrześcijańskiej nabiera znaczenia duchowego, religijnego/moralnego ]
+
+dēvōtus, dēvōta, dēvōtum [adj]
+()
+1. poświęcony (komuś, czemuś), oddany (wierny, lojalny, zaangażowany)
+[od dēvoveō. podobne do sacer, ale oznacza świadome, aktywne (i często z własnej woli) poświęcenie się kogoś czemuś, np. człowieka jakiejś sprawie (ale też bogom). dotyczy raczej osób, które podejmują świadomą decyzję i ma wydźwięk pozytywny, podczas gdy sacer może dotyczyć też miejsc, przedmiotów, oraz ludzi, którzy bez własnej woli zostali "oddani, poświęceni"]
+
+occupō, occupāre, occupāvī, occupātum [verb] [I] [transitive]
 ()
 1. zajmować
+2. uprzedzać (być szybszym)
+[pochodzenie: "ob + capio" = "brać/chwytać przed/naprzeciw". jako "zajmować" ma szerokie znaczenie, może oznaczać zdobywanie miasta, obejmowanie urzędu, zajmowanie czasu... w dodatku często ma odcień "uprzedzania" kogoś, w sensie zrobienia wcześniej, szybciej]
 
-lēgātus, legati [noun] [m] [II]
+lēgātus, lēgātī [noun] [m] [II]
 ()
-1. poseł
+1. poseł (wysłannik), pełnomocnik, legat (zastępca wodza), namiestnik
+[od legō - zlecać, powierzać]
 
-auxilium, auxilii [noun] [n] [II]
+auxilium, auxiliī [noun] [n] [II]
 ()
-1. pomoc
+1. pomoc, wsparcie
+2. posiłki (wojskowe), wojska pomocnicze (l. mnoga)
 
-egeo, egēre, eguerim, [verb] [II]
+egeō, egēre, eguī (+ abl. lub gen.) [verb] [II] [intransivite]
 ()
-1. potrzebować (+ abl)
+1. potrzebować, nie mieć, być pozbawionym (+ abl)
 
 remigrō, remigrāre, remigrāvī, remigrātum [verb] [I]
 ()
-1. powracać
+1. wracać, powracać
+[od re (ponownie/z powrotem) + migrō (przenosić się, wędrować)]
 
-fācundus, facunda, facundum [adj]
+fācundus, fācunda, fācundum [adj]
 ()
-1. wymowny
+1. wymowny, elokwentny
 
 ad [prep]
 (Ego ab illo iniquis et cotidianis verberibus ad fugam sum coactus et in camporum et arenarum solitudines concessi. Leges ad civium salutem inventas esse constat. Ennius Nasicam ad ianuam quarebat)
@@ -1385,17 +1403,17 @@ tandem [adv]
 ()
 1. w końcu, nareszcie
 
-iniūria, iniuriae [noun] [f] [I]
+iniūria, iniūriae [noun] [f] [I]
 ()
-1. niesprawiedliwość
+1. niesprawiedliwość, bezprawie, krzywda, zniewaga
 
-plebs, plebis [noun] [f] [III]
+plēbs, plēbis [noun] [f] [III]
 ()
 1. plebs, lud
 
-theātrum, theatri [noun] [n] [II]
+theātrum, theātrī [noun] [n] [II]
 ()
-1. teatr
+1. teatr, przedstawienie
 
 condītor, conditoris [noun] [m] [III]
 ()
@@ -2108,9 +2126,10 @@ absum, abesse, abfui [verb] [anomalous]
 (Hostes a nobis non procul absunt)
 1. być daleko, być nieobecnym
 
-advenio, advenīre, adveni, adventum [verb] [IV]
+adveniō, advenīre, advēnī, adventum [verb] [IV]
 (Nos ab hostibus advenientibus non procul absumus)
-1. przychodzić
+1. docierać, przybywać (na miejsce)
+[ad + venio = "przychodzić do". podobne do veniō, ale podkreśla bardziej fakt dotarcia niż sam ruch]
 
 colloquium, colloquii [noun] [n] [II]
 (Persa hostis in colloquio cum militibus inquit ...)
