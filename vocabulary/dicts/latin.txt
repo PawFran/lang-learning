@@ -1416,47 +1416,50 @@ theātrum, theātrī [noun] [n] [II]
 ()
 1. teatr, przedstawienie
 
-condītor, conditoris [noun] [m] [III]
+conditor, conditōris [noun] [m] [III]
 ()
-1. założyciel
+1. założyciel, fundator, twórca
+[używane w kontekście miast, instytucji, ale też praw]
 
-praesidium, praesidii [noun] [n] [II]
+praesidium, praesidiī [noun] [n] [II]
 (Aedes quasdam, quae extra muros urbis cum parvo praesidium erant)
-1. ochrona
-2. garnizon
+1. ochrona, straż, garnizon, wsparcie
 
-leo, leonis [noun] [m] [III]
+leō, leōnis [noun] [m] [III]
 (Ex eo die triennium ego et leo in eodem specu eodem victu viximus)
 1. lew
 
-vulpēcula, vulpeculae [noun] [f] [I]
+vulpēcula, vulpēculae [noun] [f] [I]
 ()
-1. mały lis
+1. lisiczka, mały lis
+[zdrobnienie od vulpēs - lis]
 
-spēlunca, speluncae [noun] [f] [I]
+spēlunca, spēluncae [noun] [f] [I]
 ()
 1. jaskinia, grota, nora
 
-intrō, intrāre, intrāvī, intrātum [verb] [I]
+intrō, intrāre, intrāvī, intrātum [verb] [I] [transitive]
 (Aliquando specum remotum inveni ibique intravi)
-1. wejść
+1. wchodzić (do środka)
 
-animal, animalis [noun] [n] [III]
+animal, animālis [noun] [n] [III]
 ()
-1. zwierzę
+1. zwierzę, istota żywa
 
-astutus, astuta, astutum [adj]
+astūtus, astūta, astūtum [adj]
 ()
 1. chytry, przebiegły, cwany
 [często negatywne zabarwienie, w przeciwieństwie do callidus. podkreśla umiejętność wykorzystywania sytuacji]
 
-vestīgium, vestigii [noun] [n] [II]
+vestīgium, vestīgiī [noun] [n] [II]
 ()
 1. ślad
+[szerokie znaczenie - jak w polskim: odcisk, trop, pozostałość, znak...]
 
-introrsus [adv]
+intrōrsus [adv]
 ()
 1. do wewnątrz, do środka
+[intrō + versus]
 
 forās [adv]
 ()

@@ -13,6 +13,10 @@ zamienić nazwy: reversed <-> translation
 
 dopisać logikę odpytywania słów w translation jako "top" albo coś w tym stylu
 teraz jest jakieś "next to be asked" w starym, pewnie trzeba to wykorzystać
+typowe użycie: "top 10 words in range [a-z]" - ranking na podstawie dat i ratio
+* nulle pierwsze
+* potem od najniższego ratio
+* potem od najstarszej daty
 
 uporządkować przymiotniki w słowniku
 * dodać ich typy do metadanych (np. "adjective perfect participle I class", "adjective perfect infinitive")
